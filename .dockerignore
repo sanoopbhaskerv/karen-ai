@@ -1,4 +1,9 @@
 .env
+.env.*
+.git
+.vscode
+artifacts
+.tools
 .venv
 __pycache__
 .pytest_cache

@@ -1,68 +1,92 @@
 # Hardware and firmware commissioning
 
-## Reference bill of materials
+The firmware supports the original classic ESP32 and the nephew's photographed HW678 board, marked **Sixspan S3-N16R8**. The clearer IMG_1446/1447/1448 photos confirm the S3 signal labels used below, two USB-C ports labelled **COM** and **USB**, and an onboard RGB LED. They show fitted header pins/solder joints; electrical continuity and solder quality are not tested. Neither board is connected to this Mac, so measured flash/PSRAM size, upload and audio operation remain pending. For the nephew's PC, follow [Windows setup](WINDOWS.md).
 
-| Part | Specification / purpose |
-|---|---|
-| ESP32 DevKit | Classic ESP32-WROOM, 4 MB flash; no PSRAM required |
-| INMP441 | I2S digital microphone, 3.3 V |
-| MAX98357A breakout | I2S DAC/amplifier; power from suitable 5 V supply |
-| Speaker | 8 ohm / 3 W, connected to amplifier outputs |
-| Momentary button | GPIO32 to ground |
-| USB power bank | Stable 5 V source with adequate current for board and amplifier |
-| Wiring | Short jumper wires, common ground; suitable breadboard |
+## Intended parts and outstanding confirmations
 
-This build deliberately chooses a known digital microphone because the source report only names a legacy sound sensor. A module exposing only a digital threshold signal reports loudness, not a usable speech waveform. An analog audio microphone would require an ADC sampling implementation and its exact voltage range; it is not supported by this sketch.
+| Part | Current information | Must confirm physically |
+|---|---|---|
+| Original ESP32 | Classic 38-pin CP2102/Micro-USB board; original GPIO map | Exact module, USB data connection and measured flash size |
+| New ESP32-S3 | HW678 / Sixspan S3-N16R8; relevant GPIO and COM/USB labels visible in photos | Measured 16 MB flash / 8 MB PSRAM, USB-UART bridge identity, upload and boot |
+| Microphone | Shop label INMP441 | Actual breakout VDD/GND/SCK/WS/SD/L-R labels, soldered headers |
+| Amplifier | **MAX98357A I2S**, still being sourced | Correct module, VIN/enable/gain instructions and soldered headers |
+| Speaker | Latest box reportedly **4 ohms / 10 watts** | Driver's own impedance/power marking, two suitable speaker wires |
+| Button | Momentary push button | Which legs are already connected internally; select legs shorted only while pressed |
+| Power | USB power bank / Micro-USB data cable / Mac adapter | Stable 5 V, suitable current and safe supply arrangement |
 
-## Wiring
+PAM8403 is not selected; do not wire it to the digital I2S outputs. A MAX98357A is rated up to about 3.2 W into 4 ohms at 5 V, not 10 W. A genuinely 4-ohm/10-watt passive speaker is a compatible load at lower delivered power; the box is not proof of the driver specification. Start at the firmware's low output gain (0.35). Do not connect a speaker directly to GPIO.
 
-Unplug power while wiring. Labels refer to ESP32 GPIO numbers, not physical header positions.
+## Wiring checked against firmware
 
-| Module pin | ESP32 / connection |
-|---|---|
-| INMP441 VDD | 3V3 (not 5 V) |
-| INMP441 GND | GND |
-| INMP441 SCK/BCLK | GPIO26 |
-| INMP441 WS/LRCLK | GPIO25 |
-| INMP441 SD | GPIO33 |
-| INMP441 L/R | GND (left channel) |
-| MAX98357A VIN | 5 V supply rail, subject to your breakout specification |
-| MAX98357A GND | Common GND |
-| MAX98357A BCLK | GPIO27 |
-| MAX98357A LRC | GPIO14 |
-| MAX98357A DIN | GPIO22 |
-| MAX98357A SD/EN | Enabled per breakout documentation; many boards default enabled |
-| Speaker + / − | Amplifier SPK+ / SPK− only |
-| Button terminal 1 | GPIO32 |
-| Button terminal 2 | GND |
-| Status | Onboard GPIO2 LED where present |
+Unplug power before assembly. Use the printed GPIO number, **not** a header position. Breakout pin order varies; read labels on the actual board. INMP441 silicon supply is 1.8–3.3 V; use 3.3 V here. Grounded L/R selects the left I2S channel, matching the sketch.
 
-Do not connect the speaker directly to an ESP32 GPIO. Neither speaker output should be tied to ground. Do not feed 5 V into an ESP32 signal pin. Use common ground; avoid powering the ESP32 simultaneously from conflicting 5 V supplies. Start with low speaker gain.
+| Module pin | Classic `esp32` | HW678 `esp32_s3` |
+|---|---|---|
+| INMP441 VDD | 3V3 | 3V3 |
+| INMP441 GND | GND | GND |
+| INMP441 SCK / BCLK | GPIO26 | **GPIO4** |
+| INMP441 WS / LRCLK | GPIO25 | **GPIO5** |
+| INMP441 SD | GPIO33 | **GPIO6** |
+| INMP441 L/R | GND (left channel) | GND (left channel) |
+| MAX98357A VIN | Suitable 5 V, per breakout | Suitable 5 V, per breakout |
+| MAX98357A GND | Common GND | Common GND |
+| MAX98357A BCLK | GPIO27 | **GPIO16** |
+| MAX98357A LRC / WS | GPIO14 | **GPIO17** |
+| MAX98357A DIN | GPIO22 | **GPIO18** |
+| MAX98357A SD / EN | Per breakout instructions | Per breakout instructions |
+| Speaker | SPK+ / SPK− only | SPK+ / SPK− only |
+| External question button | GPIO32 to GND | **GPIO7 to GND** |
+| Status LED | Disabled; optional confirmed GPIO2 LED | Disabled; onboard RGB needs a separate driver |
 
-## Arduino setup
+Do not reuse the classic pin map on the S3. The S3 adapter avoids flash/PSRAM pins (including GPIO35–37), native USB 19/20, serial-console pins, boot straps and possible onboard RGB pins. Compile-time checks reject reserved pins, overlapping signals and unsupported chips. Old classic pin overrides in `config.h` are preserved on disk but rejected if unsafe for the S3; remove those overrides to use the new adapter defaults. Never use onboard BOOT as the question button.
 
-1. Install Arduino IDE and the **esp32 by Espressif Systems** board package, version 3.x (uses ESP-IDF 5.x).
-2. Install **ESP8266Audio by Earle F. Philhower**, version 2.x (2.4.1 or newer). Do not combine the current audio library with Arduino-ESP32 2.x's legacy I2S driver.
-3. Open `firmware/karen_ai/karen_ai.ino`.
-4. Copy `config.example.h` to `config.h`. Set the 2.4 GHz hotspot credentials and the actual server origin without a trailing slash.
-5. Select **ESP32 Dev Module**, your serial port, 4 MB flash, and a partition layout with at least 1.5 MB filesystem and enough app space. A typical "No OTA (2MB APP/2MB SPIFFS)" layout is appropriate; LittleFS uses that filesystem partition. If the binary will not fit, inspect the compiler report and select a compatible larger-flash board or layout.
-6. Verify/compile, then upload. The first filesystem mount may format the app's filesystem. Open Serial Monitor at 115200 baud.
-7. Press and release the button. Once the LED turns on / Serial says "Recording", speak for five seconds. Wait for upload, processing and playback. One interaction runs at a time.
+Both speaker terminals are amplifier outputs: connect neither to ground. Do not supply the microphone or ESP32 signal pins with 5 V. Use short I2S wires. Keep the microphone opening unobstructed and away from the speaker. Confirm headers are soldered; loose pins pushed through unsoldered holes are unreliable.
 
-## HTTPS trust
+For first board-only tests, power through the computer's USB (the S3's COM connector). Add amplifier power only after confirming the actual board/breakout power arrangement. Do not assume a clone board's VIN rail can supply the amplifier or tie external 5 V to USB power blindly. An independently powered amplifier needs common ground with ESP32, but no connection from its external 5 V rail to ESP32's 5 V rail during USB-powered tests. Later choose one suitable source or a verified isolated arrangement. Investigate brownouts before increasing volume.
 
-For local LAN testing, use `http://<computer-LAN-IP>:8080`. Both computer and ESP32 must be on the same network; client isolation/firewall rules can block access. A device cannot use your computer's `localhost` address.
+## Reproducible compile on a Mac
 
-For Replit/cloud, use `https://<exact-host>` and put the issuer's valid root CA PEM in `ROOT_CA` in `config.h`. Get the root through your hosting/certificate issuer documentation or a trusted certificate store. TLS needs a valid clock; firmware synchronizes NTP before the request. If a provider changes its certificate chain, update the CA. Do not work around failures with `setInsecure()`.
+Install Arduino CLI, then the tested core/library versions:
 
-## Audio tuning and boundaries
+```bash
+arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+arduino-cli core install esp32:esp32@3.3.12 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+arduino-cli lib install 'ESP8266Audio@2.4.1'
+./scripts/compile_firmware.sh
+# Build the photographed S3 instead:
+KAREN_CONTROLLER=esp32_s3 .venv/bin/python scripts/firmware.py
+```
 
-The firmware captures 16 kHz, mono 16-bit PCM for five seconds (~160 KB). Multipart assembly and the reply also use LittleFS; allow at least 1.5 MB free. It removes the transient files after each turn. Frequent writes are acceptable for a demonstration; long-term continuous usage should use streaming buffers or suitable storage.
+This Mac has an ignored CLI copy at `.tools/arduino-cli`, which the script finds automatically. `KAREN_CONTROLLER` selects `esp32` (default) or `esp32_s3`, with shell → `.env.local` → `.env` precedence; `--controller` overrides them. Normal builds compile a temporary sketch with **example credentials**, preserve private `config.h` and never upload. `--use-config` compiles private credentials; `--upload --port <actual-port>` compiles and then uploads. See `scripts/firmware.py` for both exact FQBNs. Classic uses a 4 MB target; S3 uses advertised 16 MB flash/QIO and octal PSRAM, with UART upload at 115200. Target selection is not a physical flash measurement. Use Arduino-ESP32 3.x (ESP-IDF 5 standard I2S driver), not 2.x's legacy driver.
 
-INMP441 input is converted from 32-bit slots with `MIC_SHIFT=16`. If speech is very quiet, try 15 then 14 and recheck for clipping. If audio clips, use 16 or 17. Keep the microphone away from the speaker. Output gain starts at 0.35. Listen before increasing it.
+In Arduino IDE select **ESP32 Dev Module / 4 MB** for the classic board, or **ESP32S3 Dev Module / 16 MB / OPI PSRAM / USB CDC disabled** for this S3, once measured capacities are confirmed. The adapter follows the chip target automatically in IDE; IDE does not read `KAREN_CONTROLLER`. Both use No OTA (2 MB APP / roughly 2 MB filesystem); the S3's additional flash is currently unused. The firmware requires >=1.5 MB filesystem for WAV, multipart and MP3 files. LittleFS uses that partition; its first mount may format it.
 
-The firmware expects a known `Content-Length` and `audio/mpeg`, capped at 512,000 bytes. Flask supplies these. If a proxy strips the length or applies streaming transfer encoding, it must preserve a fixed-length audio response for this firmware.
+## Step-by-step commissioning
 
-There is no wake word, full-duplex listening, device heartbeat or display in this build. The button starts a fixed recording. A touchscreen sensor can replace the button only after adapting its signal logic and voltage safely.
+1. **Board only:** classic uses Micro-USB; photographed S3 uses USB-C labelled **COM**. `arduino-cli board list` should show a serial port (`/dev/cu.*` on Mac, COM number on Windows). If absent, check the data cable and identify the actual USB-UART bridge before installing its manufacturer's driver. Do not assume the S3 shares the classic CP2102.
+2. **Identify flash:** use Espressif esptool (`python -m pip install esptool`, then `python -m esptool --port <actual-port> flash-id`). Hold BOOT during connect if required. Record chip and detected flash capacity. Select `esp32` or `esp32_s3` to match; never use a larger flash target than the measured hardware. Firmware also prints measured flash and PSRAM bytes at boot.
+3. **Inspect parts:** read the microphone's actual pin labels and speaker-driver marking, check continuity/button legs, solder headers and speaker wires. Keep the amplifier disconnected until it is available and identified.
+4. **Configure:** copy `firmware/karen_ai/config.example.h` to `config.h` only if absent. Edit this ignored file: 2.4 GHz WiFi credentials and `SERVER_ORIGIN="http://<backend-LAN-IP>:8080"`, no trailing slash. Keep `STATUS_LED=-1`; S3's RGB LED is not a plain GPIO LED. No Gemini key belongs on the board. Use the selected adapter's pin map instead of old classic overrides on S3.
+5. **Compile/upload:** set `KAREN_CONTROLLER` and recheck the measured board/flash. On Mac, use `.venv/bin/python scripts/firmware.py --use-config`, then `.venv/bin/python scripts/firmware.py --upload --port /dev/cu.<actual-port>`. Windows commands are in `WINDOWS.md`. The helper stops on compile failure and requires an explicit port/private configuration. Open Serial Monitor at 115200. Expect controller name, flash/PSRAM sizes, pin map, WiFi and Ready messages.
+6. **Button + microphone only:** wire the INMP441 and button from the table. Press once; speak during the five-second Recording message. Watch the request ID and backend logs. With no amplifier, capture/STT/server MP3 can be checked, but audible playback is still untested.
+7. **Add MAX98357A + speaker:** power down, wire its digital pins and verified power source. Connect the speaker only to SPK+/SPK−. Power up at low gain and confirm one complete Malayalam response. Check supply stability and noise before adjusting gain.
+8. **Tune input:** INMP441 uses 32-bit slots, converted to 16-bit with `MIC_SHIFT=16`. If too quiet, try 15 then 14; reduce gain if clipping. Check L/R=GND and soldering before software gain changes.
+9. **Recovery:** disconnect WiFi/internet, check visible/serial failure, restore connectivity and press again only after inspecting the prior request ID. Check that late responses never create duplicate turns. Verify malformed WAV/JSON is never played as MP3.
+10. **Endurance:** run ten consecutive physical turns. Check intelligibility, clipping, repeated I2S initialization, clean flash files, stable power and no resets. Repeat at the venue with the actual power bank/network.
 
-The device HTTP read timeout is 60 seconds (within HTTPClient's 16-bit timeout limit). A slow cloud request may fail and require another button press. Watch the dashboard/server logs before retrying; automatic retries are deliberately avoided so they cannot silently duplicate AI turns.
+## Local networking and HTTPS
+
+A device cannot use the backend computer's `localhost`. Both must share a reachable network; firewall/client isolation may block port 8080. Start Flask on the Mac or Windows PC, verify text chat, then test that computer's LAN URL from a phone before the device.
+
+For cloud HTTPS, use the exact hostname and its valid trusted root CA PEM in `ROOT_CA`. Firmware synchronizes NTP before TLS, calls `setCACert`, and never `setInsecure`. Obtain the root through the certificate issuer/host documentation or trusted store; update it if the chain changes. Cloud TLS and NTP are not verified without the actual board and hostname.
+
+The firmware sends an asynchronous multipart WAV request and polls `/requests/<id>`. Individual HTTP reads are 15 seconds (below HTTPClient's 16-bit limit), with a 160-second polling budget. A lost upload is retried at most once using the same ID. There are no automatic new conversation turns. MP3 responses require fixed `Content-Length`, `audio/mpeg` and <=512,000 bytes. The Flask response supplies these; preserve them at the proxy.
+
+## Manufacturer references
+
+- [TDK/InvenSense INMP441 datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf)
+- [Analog Devices MAX98357A specifications](https://www.analog.com/en/products/max98357a.html)
+- [Espressif DevKitC power guidance](https://docs.espressif.com/projects/esp-idf/en/v4.4/esp32/hw-reference/esp32/get-started-devkitc.html) — relevant guidance, not proof that this clone has the same circuitry
+- [ESP-IDF standard I2S](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2s.html)
+- [ESP8266Audio](https://github.com/earlephilhower/ESP8266Audio)
+- [Espressif S3 module memory/pin restrictions](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)

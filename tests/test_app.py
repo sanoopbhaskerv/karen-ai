@@ -70,7 +70,7 @@ def test_csrf_and_escaped_html(setup):
 @pytest.mark.parametrize('text',['',' '*5,'x'*2001,None,12])
 def test_bad_text(setup,text):
     app,c,p,t=setup
-    assert post(c,t,text).status_code==503
+    assert post(c,t,text).status_code==400
     assert not p.seen
 
 def test_bounded_history(setup):

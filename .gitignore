@@ -1,5 +1,13 @@
 .env
+.env.*
+!.env.example
 .venv/
+.vscode/
+.DS_Store
+.pio/
+.tools/
+build/
+artifacts/
 __pycache__/
 .pytest_cache/
 data/

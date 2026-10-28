@@ -1,4 +1,4 @@
-// Target: classic ESP32 Dev Module, Arduino-ESP32 3.x (ESP-IDF 5.x), ESP8266Audio 2.x.
+// Targets: classic ESP32 and ESP32-S3, Arduino-ESP32 3.x, ESP8266Audio 2.x.
 // Recording and playback use I2S sequentially. Files are streamed to flash, not held in RAM.
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
@@ -10,11 +10,13 @@
 #include <AudioOutputI2S.h>
 #include <time.h>
 #include "config.h"
+#include "controller.h"
 
 static const uint32_t RATE=16000;
 static const char *BOUNDARY="KarenESP32Boundary7d29";
 i2s_chan_handle_t mic=nullptr;
-void fail(const char* message){ Serial.println(message); for(int i=0;i<3;i++){digitalWrite(STATUS_LED,HIGH);delay(130);digitalWrite(STATUS_LED,LOW);delay(130);} }
+void statusLED(bool on){if(STATUS_LED>=0)digitalWrite(STATUS_LED,on?HIGH:LOW);}
+void fail(const char* message){ Serial.println(message); for(int i=0;i<3;i++){statusLED(true);delay(130);statusLED(false);delay(130);} }
 void u16(File &f,uint16_t v){uint8_t b[2]={(uint8_t)v,(uint8_t)(v>>8)};f.write(b,2);}
 void u32(File &f,uint32_t v){uint8_t b[4]={(uint8_t)v,(uint8_t)(v>>8),(uint8_t)(v>>16),(uint8_t)(v>>24)};f.write(b,4);}
 void wavHeader(File &f,uint32_t bytes){f.print("RIFF");u32(f,bytes+36);f.print("WAVEfmt ");u32(f,16);u16(f,1);u16(f,1);u32(f,RATE);u32(f,RATE*2);u16(f,2);u16(f,16);f.print("data");u32(f,bytes);}
@@ -40,7 +42,7 @@ bool recordQuestion(){
   int32_t raw[256];int16_t pcm[256];size_t got=0;uint32_t written=0;
   // Discard initial DMA samples while the microphone stabilizes.
   for(int i=0;i<8;i++)i2s_channel_read(mic,raw,sizeof(raw),&got,1000);
-  Serial.println("Recording. Speak now.");digitalWrite(STATUS_LED,HIGH);
+  Serial.println("Recording. Speak now.");statusLED(true);
   bool ok=true;
   while(written<target){
     if(i2s_channel_read(mic,raw,sizeof(raw),&got,1000)!=ESP_OK||got==0){ok=false;break;}
@@ -48,7 +50,7 @@ bool recordQuestion(){
     for(size_t i=0;i<n;i++){int32_t s=raw[i]>>MIC_SHIFT;pcm[i]=(int16_t)constrain(s,-32768,32767);}
     if(f.write((uint8_t*)pcm,n*2)!=n*2){ok=false;break;}written+=n;yield();
   }
-  f.close();stopMic();digitalWrite(STATUS_LED,LOW);return ok&&written==target;
+  f.close();stopMic();statusLED(false);return ok&&written==target;
 }
 bool createMultipart(){
   File src=LittleFS.open("/question.wav","r"),dst=LittleFS.open("/upload.bin","w");
@@ -67,7 +69,7 @@ bool connectWiFi(){
 }
 bool requestReply(){
   if(!createMultipart())return false;
-  WiFiClient plain;WiFiClientSecure secure;HTTPClient http;
+  WiFiClient plain;WiFiClientSecure secure;
   String origin=SERVER_ORIGIN;
   if(origin.startsWith("https://")){
     if(strlen(ROOT_CA)<100){Serial.println("Set ROOT_CA in config.h before using HTTPS.");return false;}
@@ -75,24 +77,45 @@ bool requestReply(){
     while(time(nullptr)<1700000000&&millis()-start<15000)delay(250);
     if(time(nullptr)<1700000000){Serial.println("Clock sync failed; TLS needs correct time.");return false;}
     secure.setCACert(ROOT_CA);secure.setHandshakeTimeout(20);
-    if(!http.begin(secure,origin+"/chat"))return false;
-  }else if(origin.startsWith("http://")){
-    if(!http.begin(plain,origin+"/chat"))return false;
-  }else{return false;}
-  http.setConnectTimeout(15000);http.setTimeout(60000);
-  // Known-length HTTP/1.0 response avoids chunked decoding on the flash writer.
-  http.useHTTP10(true);
-  const char *keys[]={"Content-Type","X-Karen-Result"};http.collectHeaders(keys,2);
-  http.addHeader("Content-Type",String("multipart/form-data; boundary=")+BOUNDARY);
-  File input=LittleFS.open("/upload.bin","r");if(!input){http.end();return false;}
-  Serial.println("Sending question; waiting for Karen…");int code=http.sendRequest("POST",&input,input.size());input.close();
-  if(code!=200||!http.header("Content-Type").startsWith("audio/mpeg")){Serial.printf("Server returned %d. Check dashboard/key/network.\n",code);http.end();return false;}
-  int expected=http.getSize();
-  if(expected<=0||expected>512000){Serial.println("Unexpected audio size; check proxy Content-Length.");http.end();return false;}
-  File output=LittleFS.open("/reply.mp3","w");if(!output){http.end();return false;}
-  int received=http.writeToStream(&output);output.close();
-  Serial.println(http.header("X-Karen-Result"));http.end();
-  return received==expected;
+  }else if(!origin.startsWith("http://")){return false;}
+  // HTTPClient has a 16-bit per-read timeout. Poll a bounded server job instead
+  // of stretching a single socket past 65 seconds. Reuse the ID after a lost POST.
+  char requestId[33];snprintf(requestId,sizeof(requestId),"%08lx%08lx%08lx%08lx",
+    (unsigned long)esp_random(),(unsigned long)esp_random(),(unsigned long)esp_random(),(unsigned long)esp_random());
+  Serial.printf("Request %s\n",requestId);
+  const unsigned long started=millis();bool submitted=false;int posts=0,networkErrors=0;
+  while(millis()-started<160000){
+    HTTPClient http;
+    String path=submitted?String("/requests/")+requestId:String("/chat");
+    bool opened=origin.startsWith("https://")?http.begin(secure,origin+path):http.begin(plain,origin+path);
+    if(!opened)return false;
+    http.setConnectTimeout(10000);http.setTimeout(15000);http.useHTTP10(true);
+    const char *keys[]={"Content-Type","X-Karen-Result","X-Karen-Error"};http.collectHeaders(keys,3);
+    int code;
+    if(!submitted){
+      http.addHeader("Content-Type",String("multipart/form-data; boundary=")+BOUNDARY);
+      http.addHeader("Prefer","respond-async");http.addHeader("X-Request-ID",requestId);
+      File input=LittleFS.open("/upload.bin","r");if(!input){http.end();return false;}
+      posts++;code=http.sendRequest("POST",&input,input.size());input.close();submitted=true;
+    }else{code=http.GET();}
+    if(code==202){http.end();delay(1000);continue;}
+    if(code<0){
+      http.end();if(++networkErrors>3)return false;delay(1000);continue;
+    }
+    if(code==404&&posts<2){http.end();submitted=false;continue;}
+    if(code!=200||!http.header("Content-Type").startsWith("audio/mpeg")){
+      Serial.printf("Server returned %d; request %s. Check Python console.\n",code,requestId);
+      http.end();return false;
+    }
+    int expected=http.getSize();
+    if(expected<=0||expected>512000){Serial.println("Unexpected audio size; check Content-Length.");http.end();return false;}
+    File output=LittleFS.open("/reply.mp3","w");if(!output){http.end();return false;}
+    int received=http.writeToStream(&output);output.close();
+    Serial.print("Result: ");Serial.println(http.header("X-Karen-Result"));
+    if(http.header("X-Karen-Result")=="spoken-error")Serial.println(http.header("X-Karen-Error"));
+    http.end();return received==expected;
+  }
+  Serial.printf("Timed out. Inspect /requests/%s before starting another turn.\n",requestId);return false;
 }
 bool playReply(){
   AudioFileSourceLittleFS source("/reply.mp3");AudioOutputI2S out;
@@ -105,7 +128,11 @@ bool playReply(){
 }
 void cleanup(){LittleFS.remove("/question.wav");LittleFS.remove("/upload.bin");LittleFS.remove("/reply.mp3");}
 void setup(){
-  Serial.begin(115200);pinMode(BUTTON_PIN,INPUT_PULLUP);pinMode(STATUS_LED,OUTPUT);
+  Serial.begin(115200);pinMode(BUTTON_PIN,INPUT_PULLUP);if(STATUS_LED>=0)pinMode(STATUS_LED,OUTPUT);
+  Serial.printf("Controller: %s | flash: %lu bytes | PSRAM: %lu bytes\n",KarenController::name,
+    (unsigned long)ESP.getFlashChipSize(),(unsigned long)ESP.getPsramSize());
+  Serial.printf("MIC BCLK/WS/SD: %d/%d/%d | AMP BCLK/WS/DIN: %d/%d/%d | button: %d\n",
+    MIC_BCLK,MIC_WS,MIC_DATA,AMP_BCLK,AMP_WS,AMP_DATA,BUTTON_PIN);
   // Formatting on first boot erases this app's flash filesystem only.
   if(!LittleFS.begin(true)){fail("LittleFS failed. Select a partition with >=1.5 MB filesystem.");while(true)delay(1000);}
   cleanup();if(!connectWiFi())fail("WiFi unavailable. Will retry when button is pressed.");
