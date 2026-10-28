@@ -1,0 +1,6 @@
+run = "python app.py"
+entrypoint = "app.py"
+
+[[ports]]
+localPort = 8080
+externalPort = 80

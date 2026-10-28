@@ -1,0 +1,6 @@
+Flask>=3.1,<4
+google-genai>=1.0,<3
+SpeechRecognition>=3.14,<4
+gTTS>=2.5,<3
+python-dotenv>=1.0,<2
+gunicorn>=23,<24

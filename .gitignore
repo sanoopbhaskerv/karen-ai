@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+firmware/karen_ai/config.h
+*.mp3
+*.wav
