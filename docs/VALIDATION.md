@@ -3,7 +3,7 @@
 ## Verified on this Mac
 
 - Original backend suite ran before changes: **18 passed**.
-- Expanded suite: **53 passed** (36 backend and 17 firmware build/adapter regressions), including the original language/route/history/memory/WAV tests and regression coverage for retries, sanitized errors, request deduplication, concurrent duplicate requests, deadlines, responsive health/dashboard, reset/memory edits during inference, TTS/oversized-audio failure before history commit, and bounded result retention.
+- Before the bootstrap addition: **53 passed** (36 backend and 17 firmware build/adapter regressions), including the original language/route/history/memory/WAV tests and regression coverage for retries, sanitized errors, request deduplication, concurrent duplicate requests, deadlines, responsive health/dashboard, reset/memory edits during inference, TTS/oversized-audio failure before history commit, and bounded result retention.
 - Python source compilation, JavaScript/shell syntax checks and Git whitespace checks passed. Firmware tests cover environment/argument precedence, Windows-style executable paths with spaces, default/private config isolation, failed-build upload prevention, missing-port/placeholder rejection, credential redaction, and compile-time rejection of reserved/overlapping/unsupported pins.
 - A separate isolated Chrome test saved a test fact through the memory editor, retrieved it via real Malayalam Gemini chat, reset the conversation, then restarted the temporary server and confirmed saved facts persisted with empty history. The real saved memory was never edited.
 - Existing `.env` and `data/memory.txt` remain byte-for-byte unchanged (hashes compared before/after). The working model is selected through a new ignored `.env.local`; no key or saved memory was published.
@@ -45,3 +45,16 @@ A cross-compile cannot measure board flash/PSRAM, runtime heap or prove physical
 - Cloud hosting, proxy behavior, persistent storage across redeploy and venue network.
 
 The wiring tables are checked against source, visible S3 header labels and manufacturer interface requirements; physical connections are not tested. Follow `HARDWARE.md` step by step and complete `EXHIBITION.md` before calling the hardware exhibition-ready.
+
+## Bootstrap kit — 28 October 2026
+
+- Full suite after bootstrap/serial-tool integration: **73 passed**, with two existing upstream Python 3.14 deprecation warnings.
+- Added native Windows `.cmd` and Mac `.command` setup/start launchers. Setup itself is a shared Python standard-library script; Python 3.12–3.14 must be available first. It never requests/prints the Gemini key or uploads firmware.
+- Real Mac in-place setup reused the existing Python environment, private settings and matching global Arduino core/audio library. Existing `.env`, `.env.local`, saved memory and firmware config hashes stayed unchanged.
+- Fresh computer setup in a temporary project path containing spaces created a new `.venv`, installed dependencies, seeded missing settings, then passed a second run with all four private/saved files byte-for-byte preserved.
+- The native Mac start launcher served real Flask `/health` from that fresh project on an isolated test port. It reported no configured key and untested Gemini; no AI request was made. The test server was stopped afterward.
+- Downloaded the official Arduino CLI **1.5.1 Apple Silicon archive**, verified its pinned SHA-256, extracted/executed it, then ran the native bootstrap's firmware/example-compile path in the fresh project. It reused matching existing core/library packages and compiled S3 firmware: **1,186,787 bytes program / 47,364 bytes static RAM**. No upload or private WiFi build.
+- Missing/different global board packages use a project-local SDK under `.tools/arduino`. This new isolated-install path was tested with controlled tool calls, not by repeating the multi-GB SDK download. The firmware and serial helpers use the same scoped SDK paths and reject copied OS/CPU metadata.
+- Regression coverage includes create-only settings/session secrets, retained broken environments, default examples, isolated installs/resume paths, insufficient disk, checksum failure, executable-only ZIP extraction, log redaction, unmodified JSON parsing, CLI selection, architecture mismatches, no implicit upload and port-required monitoring.
+- Python/shell syntax, dependency consistency, Markdown local links/fences, English/Malayalam code-block/wiring parity and Git whitespace were checked.
+- Native Windows execution remains pending on the nephew's PC. Windows paths, archive handling and argument construction are covered by tests; `.cmd` behavior has been reviewed but was not run on Windows here. Physical board upload/audio remain pending as before.

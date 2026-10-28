@@ -6,6 +6,32 @@
 
 **ആദ്യം കമ്പ്യൂട്ടറിൽ പ്രവർത്തിപ്പിക്കുക. അത് ശരിയായ ശേഷമാണ് മൈക്രോഫോണും സ്പീക്കറും ബന്ധിപ്പിക്കേണ്ടത്.** 2 മുതൽ 9 വരെയുള്ള ഘട്ടങ്ങൾക്ക് ഇലക്ട്രോണിക് ഭാഗങ്ങൾ ബന്ധിപ്പിക്കേണ്ടതില്ല.
 
+## എളുപ്പമുള്ള setup kit — ആദ്യം ഇത് ഉപയോഗിക്കാം
+
+ആദ്യം project extract ചെയ്ത് Python ഒരിക്കൽ install ചെയ്യുക (താഴെയുള്ള ഘട്ടങ്ങൾ 2–3). ശേഷം Windows-ൽ **`bootstrap-windows.cmd`**, Mac-ൽ **`bootstrap-mac.command`** double-click ചെയ്യുക. ആദ്യം computer-only setup തിരഞ്ഞെടുക്കാം. വേണമെങ്കിൽ S3/classic board tools കൂടി ഒരുക്കാം. Private settings-ഉം saved memory-യും സംരക്ഷിക്കും.
+
+PowerShell / Terminal വഴി തുടങ്ങാനും കഴിയും:
+
+```powershell
+.\bootstrap-windows.cmd
+```
+
+```bash
+bash bootstrap-mac.command
+```
+
+Setup കഴിഞ്ഞ് `.env`-ൽ Gemini key ഇല്ലെങ്കിൽ സ്വകാര്യമായി നൽകുക (ഘട്ടം 5). ദിവസവും server തുടങ്ങാൻ command ടൈപ്പ് ചെയ്യുന്നതിനുപകരം യോജിച്ച launcher ഉപയോഗിക്കാം:
+
+```powershell
+.\start-windows.cmd
+```
+
+```bash
+bash start-mac.command
+```
+
+**http://localhost:8080** തുറന്ന് ഘട്ടങ്ങൾ 6–7 പിന്തുടരുക. Setup board tools install ചെയ്തെങ്കിൽ project folder-ൽ രണ്ടാമത്തെ PowerShell തുറക്കുക (Window B). ഘട്ടം 8-ലെ manual downloads ഒഴിവാക്കി ഘട്ടം 9-ലേക്ക് പോകാം. Port/monitor commands tools സ്വയം കണ്ടെത്തും. ഒരു server പ്രവർത്തിക്കുമ്പോൾ രണ്ടാമത്തേത് തുടങ്ങരുത്. Kit സ്വയം firmware upload ചെയ്യുകയോ Gemini key പരിശോധിക്കുകയോ ചെയ്യുന്നില്ല. [രണ്ട് ഭാഷകളിലുമുള്ള bootstrap options/recovery](docs/BOOTSTRAP.md) നോക്കുക. താഴെ പഴയപോലെ 18 ഘട്ടങ്ങളുള്ള manual വഴിയും ഉണ്ട്.
+
 ## 1. ഓരോ ഭാഗവും എന്താണ് ചെയ്യുന്നത്?
 
 | പേര് | ലളിതമായ അർത്ഥം |
@@ -60,7 +86,7 @@ Test-Path .\app.py
 
 `powershell` എന്ന് അടയാളപ്പെടുത്തിയ പെട്ടികളിലെ commands PowerShell-ലാണ് നൽകേണ്ടത്. ബ്രൗസറിലോ `>>>` കാണിക്കുന്ന Python window-യിലോ അല്ല. ഓരോ command-ഉം നൽകിയ ശേഷം അത് തീരാൻ കാത്തിരിക്കുക. `{`-ഉം `}`-ഉം ഉള്ള ഒരു block മുഴുവനായും paste ചെയ്യാം.
 
-GitHub repository private ആണ്. അവിടെനിന്ന് download ചെയ്യാൻ ഉടമയുടെ അനുമതിയുള്ള access വേണം. PR #1 തുറന്നിരിക്കുമ്പോൾ പുതുക്കിയ കോഡ് `fix/gemini-diagnostics-and-commissioning` branch-ലാണ്; പഴയ `main` import-ൽ അല്ല.
+GitHub repository private ആണ്. അവിടെനിന്ന് download ചെയ്യാൻ ഉടമയുടെ അനുമതിയുള്ള access വേണം. ഏറ്റവും പുതിയ setup pull request ഇനിയും തുറന്നിരിക്കുകയാണെങ്കിൽ അതിൽ കാണിക്കുന്ന branch ഉപയോഗിക്കുക. Default branch-ൽ പുതിയ kit എത്തിയിട്ടുണ്ടാകണമെന്നില്ല.
 
 ഇതിനകം പ്രവർത്തിക്കുന്ന project folder ഉണ്ടെങ്കിൽ അതിലെ `.env`, `.env.local`, `data/memory.txt`, `firmware/karen_ai/config.h` എന്നിവ സൂക്ഷിക്കുക. അവയ്ക്കു മുകളിൽ blank example files പകർത്തരുത്.
 
@@ -271,7 +297,7 @@ Original classic ESP32 ആണെങ്കിൽ ആദ്യ വരി `$env:KAR
 4. Window B-ൽ:
 
 ```powershell
-& $karenArduinoCli board list
+.\.venv\Scripts\python.exe scripts\board.py ports
 ```
 
 `COM5` പോലെയുള്ള port നോക്കുക. Windows **Device Manager → Ports (COM & LPT)**-ലും കാണാം. Port കാണിച്ചാലും board name അറിയില്ലെന്ന് കാണിക്കുന്നത് സംഭവിക്കാം.
@@ -356,7 +382,7 @@ Upload error ഇല്ലാതെ തീരാൻ കാത്തിരിക�
 Serial Monitor തുറക്കുക:
 
 ```powershell
-& $karenArduinoCli monitor --port $karenPort --config baudrate=115200
+.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort
 ```
 
 Startup messages കാണാൻ ബോർഡിലെ **RST** ഒരിക്കൽ അമർത്തുക. S3-യ്ക്ക് ഇവ നോക്കുക:
@@ -504,7 +530,7 @@ Mac serial port `/dev/cu...` എന്നപോലെയാകും; COM5 അ�
 
 ## 18. ഇതുവരെ പരിശോധിച്ചതും കൂടുതൽ വിവരങ്ങളും
 
-**രേഖപ്പെടുത്തിയ software പരിശോധനകൾ:** 53 tests വിജയിച്ചു. Classic ESP32, S3 firmware രണ്ടും Mac-ൽ compile ചെയ്തു. യഥാർഥ മലയാളം chat-ഉം കൃത്രിമ മലയാളം ശബ്ദം ഉപയോഗിച്ച WAV→MP3/browser test-ഉം വിജയിച്ചു. **ഇനിയും പരിശോധിക്കാനുള്ളത്:** നിങ്ങളുടെ Windows PC-യിൽ ഈ ഘട്ടങ്ങൾ പ്രവർത്തിപ്പിക്കൽ, യഥാർഥ flash/PSRAM, upload, microphone/speaker quality, power stability. അവ വിജയിക്കുന്നതുവരെ hardware തയ്യാറായെന്ന് കരുതരുത്. മുഴുവൻ തെളിവുകളും പരിധികളും [VALIDATION.md](docs/VALIDATION.md)-ൽ ഉണ്ട്.
+**രേഖപ്പെടുത്തിയ software പരിശോധനകൾ:** 73 tests വിജയിച്ചു. Classic ESP32, S3 firmware രണ്ടും Mac-ൽ compile ചെയ്തു. യഥാർഥ മലയാളം chat-ഉം കൃത്രിമ മലയാളം ശബ്ദം ഉപയോഗിച്ച WAV→MP3/browser test-ഉം വിജയിച്ചു. **ഇനിയും പരിശോധിക്കാനുള്ളത്:** നിങ്ങളുടെ Windows PC-യിൽ ഈ ഘട്ടങ്ങൾ പ്രവർത്തിപ്പിക്കൽ, യഥാർഥ flash/PSRAM, upload, microphone/speaker quality, power stability. അവ വിജയിക്കുന്നതുവരെ hardware തയ്യാറായെന്ന് കരുതരുത്. മുഴുവൻ തെളിവുകളും പരിധികളും [VALIDATION.md](docs/VALIDATION.md)-ൽ ഉണ്ട്.
 
 - [English: complete beginner guide](README.md)
 - [Windows technical setup, Arduino IDE പകരം ഉപയോഗിക്കൽ](docs/WINDOWS.md)

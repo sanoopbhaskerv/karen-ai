@@ -6,6 +6,32 @@ Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
 
+## Quick setup kit — recommended
+
+First extract the project and install Python once (Steps 2–3 below). Then double-click **`bootstrap-windows.cmd`** on Windows or **`bootstrap-mac.command`** on Mac. It offers computer-only setup first, with optional S3/classic board tools. Existing private settings and saved memory are preserved.
+
+From PowerShell or Terminal you can also run:
+
+```powershell
+.\bootstrap-windows.cmd
+```
+
+```bash
+bash bootstrap-mac.command
+```
+
+After setup, add the Gemini key locally in `.env` if blank (Step 5). For everyday use, start the server with the matching launcher instead of typing the server command:
+
+```powershell
+.\start-windows.cmd
+```
+
+```bash
+bash start-mac.command
+```
+
+Open **http://localhost:8080** and follow Steps 6–7. If setup installed board tools, open a second PowerShell in the project folder (Window B), skip the manual downloads in Step 8 and continue at Step 9. Port/monitor commands find the tools automatically. Do not start a second server while the first is running. The kit never uploads firmware or validates the Gemini key automatically. See [bootstrap options and recovery, in both languages](docs/BOOTSTRAP.md). The 18-step manual path below remains available.
+
 ## 1. Know what each part does
 
 | Word or part | Simple meaning |
@@ -60,7 +86,7 @@ Test-Path .\app.py
 
 Commands in boxes marked `powershell` go into PowerShell. Do not paste them into the browser or into a Python window showing `>>>`. Copy one command at a time. A block containing `{` and `}` can be pasted as a whole. Wait for it to finish before the next block.
 
-The repository is private. If downloading from GitHub, ask the owner for access to the updated files. While PR #1 is open, the updated code is on branch `fix/gemini-diagnostics-and-commissioning`, not the original `main` import.
+The repository is private. If downloading from GitHub, ask the owner for access to the updated files. If the latest setup pull request is still open, use the branch shown in that pull request; the default branch may not contain the new kit yet.
 
 If a project folder already works, keep its `.env`, `.env.local`, `data/memory.txt` and `firmware/karen_ai/config.h`. Do not replace these with blank example files.
 
@@ -271,7 +297,7 @@ The PowerShell value overrides `.env` in that window. To return to the `.env` se
 4. In Window B, run:
 
 ```powershell
-& $karenArduinoCli board list
+.\.venv\Scripts\python.exe scripts\board.py ports
 ```
 
 Look for a port such as `COM5`. You can also check Windows **Device Manager → Ports (COM & LPT)**. The name of the board may be unknown even when its port is listed.
@@ -356,7 +382,7 @@ Wait for upload to finish without an error. This command builds again using your
 Open Serial Monitor:
 
 ```powershell
-& $karenArduinoCli monitor --port $karenPort --config baudrate=115200
+.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort
 ```
 
 Press the board's **RST** button once to see startup messages. For S3, look for:
@@ -504,7 +530,7 @@ A Mac serial port looks like `/dev/cu...`, not COM5. See [hardware commissioning
 
 ## 18. What has been checked, and where to read more
 
-**Recorded software checks:** 53 tests passed; classic ESP32 and S3 firmware compiled on the Mac; real Malayalam chat and a synthesized-speech WAV→MP3/browser test passed. **Not yet verified:** running these Windows steps on your PC, actual board flash/PSRAM, upload, physical microphone/speaker quality and power stability. Do not call the hardware ready until those checks pass. Full evidence is in [VALIDATION.md](docs/VALIDATION.md).
+**Recorded software checks:** 73 tests passed; classic ESP32 and S3 firmware compiled on the Mac; real Malayalam chat and a synthesized-speech WAV→MP3/browser test passed. **Not yet verified:** running these Windows steps on your PC, actual board flash/PSRAM, upload, physical microphone/speaker quality and power stability. Do not call the hardware ready until those checks pass. Full evidence is in [VALIDATION.md](docs/VALIDATION.md).
 
 - [മലയാളം: complete beginner guide](READMEMALAYALAM.md)
 - [Windows technical setup and Arduino IDE alternative](docs/WINDOWS.md)

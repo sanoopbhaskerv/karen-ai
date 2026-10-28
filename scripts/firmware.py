@@ -12,6 +12,10 @@ import subprocess
 import tempfile
 
 from dotenv import dotenv_values
+if __package__:
+    from .toolchain import arduino_environment
+else:
+    from toolchain import arduino_environment
 
 ROOT = Path(__file__).resolve().parents[1]
 PROFILES = {
@@ -41,12 +45,12 @@ def find_cli(settings, root):
         if found:
             return found
         raise ValueError('ARDUINO_CLI does not point to an executable Arduino CLI.')
-    found = shutil.which('arduino-cli')
-    if found:
-        return found
     local = root / '.tools' / ('arduino-cli.exe' if os.name == 'nt' else 'arduino-cli')
     if local.is_file():
         return str(local)
+    found = shutil.which('arduino-cli')
+    if found:
+        return found
     raise ValueError('Install Arduino CLI and add it to PATH, or set ARDUINO_CLI to its executable path.')
 
 
@@ -69,9 +73,9 @@ def redact_output(output, config, settings):
     return output
 
 
-def run_tool(command, config, settings, timeout):
+def run_tool(command, config, settings, timeout, env=None):
     result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                            text=True, encoding='utf-8', errors='replace', timeout=timeout)
+                            text=True, encoding='utf-8', errors='replace', timeout=timeout, env=env)
     print(redact_output(result.stdout or '', config, settings), end='', flush=True)
     return result.returncode
 
@@ -90,6 +94,7 @@ def build(args, root=ROOT, environment=None):
     if args.upload and any(value in config for value in ('YOUR_2_4_GHZ_HOTSPOT', 'YOUR_HOTSPOT_PASSWORD')):
         raise ValueError('Replace the example WiFi placeholders in config.h before uploading.')
     cli = find_cli(settings, root)
+    tool_environment = arduino_environment(root)
     fqbn = PROFILES[controller]
     print(f'Controller: {controller}\nTarget: {fqbn}\nCredentials: {"private config.h" if private else "example only"}', flush=True)
     with tempfile.TemporaryDirectory(prefix='karen-build-') as temporary:
@@ -100,12 +105,12 @@ def build(args, root=ROOT, environment=None):
         # Absolute argument lists work with spaces/Windows paths and do not invoke a shell.
         command = [cli, 'compile', '--fqbn', fqbn, '--build-path', str(work / 'build'),
                    '--output-dir', str(artifacts), str(sketch)]
-        code = run_tool(command, config, settings, timeout=600)
+        code = run_tool(command, config, settings, timeout=600, env=tool_environment)
         if code or not args.upload:
             return code
         print('Uploading to the explicitly selected port…', flush=True)
         return run_tool([cli, 'upload', '--fqbn', fqbn, '--input-dir', str(artifacts),
-                         '--port', args.port, str(sketch)], config, settings, timeout=240)
+                         '--port', args.port, str(sketch)], config, settings, timeout=240, env=tool_environment)
 
 
 def main(argv=None):

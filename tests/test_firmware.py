@@ -109,6 +109,22 @@ def test_compiler_source_diagnostics_are_redacted():
     assert all(secret not in sanitized for secret in ('my-password', 'my-network', 'api-secret'))
 
 
+def test_build_finds_bootstrap_project_local_toolchain(project, monkeypatch):
+    from scripts.toolchain import LOCAL_MARKER, isolation_identity
+    import json
+    marker = project / LOCAL_MARKER
+    marker.parent.mkdir(parents=True); marker.write_text(json.dumps(isolation_identity()))
+    monkeypatch.setattr(firmware, 'find_cli', lambda *_: 'arduino-cli')
+    environments = []
+    def run(command, **kwargs):
+        environments.append(kwargs['env'])
+        return SimpleNamespace(returncode=0, stdout='compiled\n')
+    monkeypatch.setattr(firmware.subprocess, 'run', run)
+    assert firmware.build(args(), project, {}) == 0
+    assert environments[0]['ARDUINO_DIRECTORIES_DATA'] == str(project / '.tools/arduino/data')
+    assert environments[0]['ARDUINO_DIRECTORIES_USER'] == str(project / '.tools/arduino/user')
+
+
 @pytest.mark.parametrize('target, override, accepted', [
     ('CONFIG_IDF_TARGET_ESP32', '', True),
     ('CONFIG_IDF_TARGET_ESP32S3', '', True),

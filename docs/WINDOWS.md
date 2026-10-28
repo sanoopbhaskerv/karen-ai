@@ -1,6 +1,6 @@
 # Windows setup — HW678 / ESP32-S3 N16R8
 
-For first-time use, follow the fully explained [English guide](../README.md) or [മലയാളം ഗൈഡ്](../READMEMALAYALAM.md). This page is a shorter technical reference.
+For first-time use, follow the fully explained [English guide](../README.md) or [മലയാളം ഗൈഡ്](../READMEMALAYALAM.md). This page is a shorter technical reference. For the automatic setup/start launchers, see the [bootstrap kit](BOOTSTRAP.md).
 
 The user's photos show an HW678 PCB with a Sixspan module marked **S3-N16R8**, two USB-C connectors labelled **COM** and **USB** on the back, and an onboard RGB LED. This guide selects the ESP32-S3 adapter. The original classic ESP32 remains supported.
 
@@ -8,7 +8,7 @@ The S3 build uses the advertised **16 MB flash / 8 MB octal PSRAM** configuratio
 
 ## 1. Get the updated source and start the backend
 
-Use the updated project folder. While PR #1 is open, the updates are on `fix/gemini-diagnostics-and-commissioning`; `main` remains the original import. The repository is private, so use an authorized checkout or a source copy. Local `.env`, saved memory and WiFi configuration are deliberately absent from Git.
+Use the updated project folder. If a setup pull request is still open, use its branch to get the latest kit. The repository is private, so use an authorized checkout or a source copy. Local `.env`, saved memory and WiFi configuration are deliberately absent from Git.
 
 For a new setup, install a current Python 3.14 Windows installer from the [official Python downloads](https://www.python.org/downloads/windows/). A working existing Python 3.12 virtual environment can stay as it is. In PowerShell, open the project folder (replace the example path):
 
@@ -77,7 +77,7 @@ Ordinary builds use **example credentials** in a temporary sketch and do not upl
 2. Open Windows Device Manager → Ports (COM & LPT), or run:
 
    ```powershell
-   & $karenArduinoCli board list
+   .\.venv\Scripts\python.exe scripts\board.py ports
    ```
 
 3. Record the actual port, for example **COM5**. It is not necessarily COM5 on this computer. If absent, first check the data cable. Identify the USB-UART bridge through its marking or Device Manager Hardware IDs before installing its manufacturer's driver; do not assume it uses the classic board's CP2102.
@@ -114,7 +114,7 @@ $env:KAREN_CONTROLLER = 'esp32_s3'
 .\.venv\Scripts\python.exe scripts\firmware.py --use-config
 # Replace COM5 with the port actually listed for this board:
 .\.venv\Scripts\python.exe scripts\firmware.py --upload --port COM5
-& $karenArduinoCli monitor --port COM5 --config baudrate=115200
+.\.venv\Scripts\python.exe scripts\board.py monitor --port COM5
 ```
 
 `--upload` always compiles the private configuration first. It requires an explicit port, refuses untouched example WiFi placeholders, and stops if compilation fails. No port is chosen automatically. The CLI checks the selected chip family during upload. Keep the controller disconnected from the amplifier during the first upload.
