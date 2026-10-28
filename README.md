@@ -1,5 +1,7 @@
 # Karen AI — Malayalam conversational assistant
 
+**മലയാളത്തിലുള്ള എല്ലാ നിർദേശങ്ങൾക്കും:** [READMEMALAYALAM.md](READMEMALAYALAM.md)
+
 Science exhibition assistant for Sreehari V, Class 9S, PKMMHSS Edarikode.
 
 ESP32 WAV → Flask → Google speech recognition (`ml-IN`) → Gemini → Malayalam gTTS (`ml`) MP3 → I2S speaker. The mobile dashboard provides text chat, five-second recording, memory editing and conversation reset. It intentionally has no login.
