@@ -1,118 +1,140 @@
 # Karen AI — Malayalam conversational assistant
 
-Created for Sreehari V's science-fair project at PKMMHSS Edarikode.
+Science exhibition assistant for Sreehari V, Class 9S, PKMMHSS Edarikode.
 
-**Start here:** this is a runnable Flask backend, mobile dashboard and ESP32 reference firmware. It is not a hosted deployment. Live use requires a Gemini key, internet access, host configuration and hardware commissioning. The included offline demo is explicitly labelled and gives a fixed reply; it is not an AI substitute.
+ESP32 WAV → Flask → Google speech recognition (`ml-IN`) → Gemini → Malayalam gTTS (`ml`) MP3 → I2S speaker. The mobile dashboard provides text chat, five-second recording, memory editing and conversation reset. It intentionally has no login.
 
-## What is included
-
-- Malayalam STT (`ml-IN`), Gemini conversation, and Malayalam MP3 synthesis (`ml`).
-- Mobile dashboard with text chat, browser microphone recording, audio player, persistent memory editor and conversation reset.
-- Original routes: `/`, `/update`, `/test_chat`, `/chat`; additional `/reset` and `/health`.
-- Atomic `memory.txt` updates and one shared, bounded conversation (last 10 turns). History resets on memory edits/server restart.
-- Classic ESP32 firmware: button → 5-second WAV → multipart upload → MP3 download → speaker.
-- Setup, wiring, acceptance checklist, automated tests, Docker and Replit run configuration.
-
-## 1. Run the dashboard first
-
-Use Python 3.12 (the tested version). In a terminal in this folder:
+## Start on this Mac
 
 ```bash
-python -m venv .venv
+cd /Users/sanoopbhaskerv/workspace/karen-ai
 source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-cp .env.example .env
-# Windows: copy .env.example .env
+python -m pip install -r requirements.txt
+python app.py
 ```
 
-Edit `.env`:
+Open **http://localhost:8080**. Keep Terminal open; stop with Control-C. If port 8080 is occupied, stop the previous server before starting another. For a fresh checkout, create a virtual environment with `python3 -m venv .venv`, then create `.env` only if it does not exist:
+
+```bash
+test -f .env || cp .env.example .env
+```
+
+Put your Gemini key in `.env` or the host's secret settings, never in firmware, screenshots or chat. The existing `.env` and `data/memory.txt` on this Mac were preserved. An ignored `.env.local` selects `gemini-3.5-flash-lite`, verified through **both** API model listing and real Malayalam generation on 28 October 2026. Setting precedence: shell environment → `.env.local` → `.env` → application defaults. Fresh checkouts use `.env.example`; `.env.local` is not published.
 
 ```dotenv
-GEMINI_API_KEY=your_key_from_google_ai_studio
-GEMINI_MODEL=gemini-3.8-flash
+GEMINI_API_KEY=your_key
+GEMINI_MODEL=gemini-3.5-flash-lite
 DEMO_MODE=0
 PORT=8080
 SECRET_KEY=replace_with_a_long_random_value
 MEMORY_PATH=data/memory.txt
 ```
 
-Get your own Gemini key from https://aistudio.google.com/apikey and put it in the host's secret settings or `.env`, never in firmware or chat. Confirm the chosen model is enabled for your account; `GEMINI_MODEL` is configurable. The original Gemini 1.5 integration has been replaced with the `google-genai` SDK and the model used in Google's current text-generation example (checked 28 October 2026).
+Python 3.14 works in the existing Mac environment. Docker targets Python 3.12. `requirements-lock.txt` records the original Python 3.12 environment; the bounded `requirements.txt` also permits Python's newer audio compatibility packages.
+
+## Verify Gemini first
 
 ```bash
-python app.py
+python scripts/diagnose_gemini.py --list-only
+python scripts/diagnose_gemini.py
+# Only select another exact ID after it appears in the listing:
+python scripts/diagnose_gemini.py --model <listed-model-id>
 ```
 
-Visit http://localhost:8080. Ask `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` and expect a brief Malayalam reply about Sreehari. Browser recording needs HTTPS or localhost and microphone permission. Text chat works without a microphone and the basic forms work without JavaScript.
+Model listing proves metadata access; the separate inference test proves generation for the selected model. The diagnostic never updates saved facts or conversation. Gemini 1.5 is retired; a new key does not restore it. The original `gemini-3.8-flash` returned 504 deadlines at both 30 and 60 seconds, plus 503 high-demand responses. `gemini-3.5-flash-lite` returned a real Malayalam answer about Sreehari in 1.2 seconds with the same key. This establishes a working alternative, not the internal cause of Google's service failure.
 
-To try the interface without a key, set `DEMO_MODE=1` and restart. Voice is disabled in demo mode. Return to `DEMO_MODE=0` for real use.
+Try `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?`, then a science question and a follow-up. Answers should be brief, natural Malayalam. The model can still make mistakes; inspect demonstration answers. Fixed Malayalam instructions remain separate from editable facts.
 
-## 2. Host it
+`GET /health` is a local process/configuration check. `configured: true` means a key is present. `gemini.status` starts `untested`, becomes `ready` after successful generation, or `degraded` after failure. It describes the last attempt, not a promise of future availability. Health checks never call Gemini.
 
-### Replit — exhibition workspace flow
+Errors print sanitized operation/model/code/provider-code/attempt/elapsed-time fields in the Python console. Request completion logs include the request ID. No API key, prompt, saved facts or raw provider exception URL is logged. Common codes:
 
-1. Create a Python project and import these files, keeping the folder layout.
-2. Install `requirements.txt` in its shell.
-3. Set `GEMINI_API_KEY`, `GEMINI_MODEL`, `SECRET_KEY`, `DEMO_MODE=0` and `PORT=8080` in Secrets/environment settings.
-4. Run `python app.py`. `.replit` includes the port mapping. Use the HTTPS URL Replit displays; do not append `:5000` to its public hostname.
-5. Open `/health` and test text chat, memory editing and voice before connecting hardware.
-6. Keep the manually started workspace running throughout the demonstration. Sleep/restart availability is host-dependent.
+| Code | Action |
+|---|---|
+| `model_timeout` (often provider 504) | Model missed its deadline; check demand and run diagnostics |
+| `model_unavailable` (often 503) | Temporary provider failure; bounded retry is automatic |
+| `model_not_found` (404) | List models and verify a supported exact ID |
+| `model_auth` (401/403) | Check restrictions/project access in AI Studio |
+| `model_quota` (429) | Check rate limits/quota/billing; no automatic quota retry |
+| `model_network`, `stt_unavailable`, `tts_unavailable` | Check outbound internet/provider availability |
+| `request_timeout` | Whole request expired; inspect its ID before a new turn |
+| `busy` | Wait for the current operation, or cached-result capacity to expire |
 
-The requested `memory.txt` persists on the same disk. A published Replit app must not rely on runtime filesystem changes surviving republishing. Back up edited memory before redeploying. For durable hosting use a persistent disk (below), or implement a database/object-store memory adapter before using an ephemeral multi-instance host.
+HTTP 505 means HTTP Version Not Supported. The reproduced failure was 504, not 505.
 
-### Persistent deployment with Docker
+## Dashboard, voice and permanent memory
+
+Browser microphone access requires localhost or trusted HTTPS and microphone permission. On the Mac use **localhost**, not its LAN IP. A phone on the same WiFi can use `http://<Mac-LAN-IP>:8080` for text and memory; phone recording needs trusted HTTPS. The recorder captures five seconds, converts to mono PCM WAV and displays a playable MP3 response. Chrome software tests use synthesized Malayalam input; human microphone quality remains a separate acceptance step.
+
+`data/memory.txt` holds editable permanent facts. Saving memory replaces it atomically and clears the shared conversation. New chat and restart clear RAM history. The last ten complete turns are shared across browser/device. Memory paths are relative to this project, not the terminal's working directory. An answer still running when memory/reset changes cannot restore the old conversation.
+
+Offline interface demo: set `DEMO_MODE=1`, restart. Replies are labelled scripted; voice is disabled. Restore `DEMO_MODE=0` for live operation.
+
+## Requests, timeouts and retries
+
+Original routes remain: `/`, `/health`, `/update`, `/test_chat`, `/chat`, `/reset`. Added: `GET /requests/<request-id>`.
+
+Browser and firmware send `Prefer: respond-async` and a unique `X-Request-ID`. The POST returns 202 with `Location`/`Retry-After` while processing; poll until JSON text, MP3 or a structured error arrives. A repeated POST with the **same ID and same question** reuses the pending/completed result. Reusing an ID for different input returns 409. Polling never creates a conversation turn. Results remain in RAM for ten minutes, up to 64 results (at most ~32 MB of audio); when full, new work waits for expiry. Restart clears history and this cache, so recovery is guaranteed only within the same server process and retention window.
+
+| Layer | Budget |
+|---|---|
+| Google STT | 15-second socket operation timeout |
+| Gemini | Two attempts maximum, 45 seconds each, one-second backoff; SDK retries disabled |
+| gTTS | 5-second connect / 15-second read per segment |
+| Whole operation | 140-second result deadline, including all speech segments |
+| Browser | 15-second individual calls; 160-second overall polling budget |
+| ESP32 | 10-second connect / 15-second read; 160-second polling budget |
+| Synchronous clients / host | 150+ seconds |
+
+Only transient Gemini failures are retried automatically; the same context is reused. Browser upload transport retries reuse the same ID. Firmware polls after an uncertain POST, and re-uploads with that ID at most once if the server has no record. The device stops after four transport failures. Neither client silently resubmits a completed question with a new ID. If a client gives up, inspect `/requests/<id>` before asking again.
+
+One background provider worker runs at a time; other new requests return `busy`. The dashboard and health stay responsive. A provider thread already inside a third-party library cannot be forcibly cancelled: if it outlives the 140-second result deadline, it keeps the worker slot until it exits, and its late result cannot append history. For voice, history is committed only after MP3 synthesis succeeds. These limits deliberately avoid unbounded threads or a hidden request queue.
+
+Synchronous integrations still work without `Prefer`. Upload a mono 16-bit PCM WAV, 0.1–15 seconds:
+
+```bash
+curl --fail-with-body --max-time 155 -F 'audio=@question.wav;type=audio/wav' \
+  -H 'X-Request-ID: manual-unique-question-001' http://localhost:8080/chat -o reply.mp3
+```
+
+A successful reply is HTTP 200, `audio/mpeg`, `X-Karen-Result: ok`. `spoken-error` means an error apology was synthesized; `X-Karen-Error` identifies why. Invalid WAV returns JSON 400; failed TTS returns JSON 503. Never treat JSON or a spoken apology as a successful AI answer.
+
+## Tests and firmware
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
+node --check static/app.js
+```
+
+See [validation record](docs/VALIDATION.md) for real versus mocked checks. The optional live Chrome test requires Playwright (`npm install --prefix /tmp/karen-browser playwright`) and a speech fixture at `/tmp/karen-audio/question.wav`:
+
+```bash
+NODE_PATH=/tmp/karen-browser/node_modules node tests/browser.cjs
+# Separate live memory-editor check using a temporary copy of saved facts:
+NODE_PATH=/tmp/karen-browser/node_modules node tests/browser_memory.cjs
+```
+
+See [hardware wiring and commissioning](docs/HARDWARE.md) and [exhibition checklist](docs/EXHIBITION.md). The target is the described classic 38-pin ESP32, INMP441 and **MAX98357A**. No PAM8403/analog substitution was made. Flash size, breakout pin labels, soldering and the speaker driver's actual 4-ohm/10-watt marking need physical confirmation.
+
+## Cloud later
+
+Local validation comes first. Nothing is deployed by this change. The existing Docker configuration uses one worker and four threads; keep **one instance** because history/jobs are intentionally process-local. Use trusted HTTPS, a persistent disk for `MEMORY_PATH`, and at least 150-second proxy timeouts for synchronous clients. `.env`, `.env.local`, saved memory and firmware credentials are excluded from Git and the Docker build context.
 
 ```bash
 docker build -t karen-ai .
 docker volume create karen-memory
 docker run --rm -p 8080:8080 --env-file .env \
-  -e MEMORY_PATH=/app/data/memory.txt \
+  -e GEMINI_MODEL=gemini-3.5-flash-lite -e MEMORY_PATH=/app/data/memory.txt \
   -v karen-memory:/app/data karen-ai
 ```
 
-Terminate HTTPS at your host/reverse proxy and allow at least 150 seconds for the voice endpoint. Use **one worker / one instance**, because the exhibition conversation is deliberately shared in process memory. For a non-Docker persistent host:
+No-login access is intentional. Anyone who reaches the dashboard can edit memory and use quota; use the exhibition network/restricted ingress. CSRF protects browser forms, not authentication. `/chat` supports the ESP32 without cookies. Back up permanent facts before redeploying; ephemeral hosting does not preserve runtime disk edits.
 
-```bash
-gunicorn --bind 0.0.0.0:8080 --workers 1 --threads 4 --timeout 150 'app:create_app()'
-```
+## References
 
-No dashboard login is implemented, as explicitly requested. Anyone who can reach the app can view/change its memory and use its API quota. Use a controlled exhibition network or restricted ingress. The CSRF token protects browser form submissions; it is not authentication. `/chat` is intentionally accessible to the device without browser cookies. This is a single-exhibit application, not a multi-user public service.
-
-## 3. Assemble and flash the ESP32
-
-See [docs/HARDWARE.md](docs/HARDWARE.md) for the pin table and flashing sequence. The reference build uses a **classic ESP32, INMP441 I2S microphone, MAX98357A I2S amplifier and 8-ohm speaker**. The report's unspecified legacy sound sensor is not interchangeable with this I2S firmware. Confirm the actual module before wiring it.
-
-Copy `firmware/karen_ai/config.example.h` to `config.h` in the same folder. Fill in the hotspot, password and exact server origin. For a cloud HTTPS URL, provide the matching trusted root CA PEM; certificate verification is never disabled. Flash with Arduino IDE using Arduino-ESP32 3.x and ESP8266Audio 2.x. The firmware has not been compiled or tested on physical hardware in this delivery; the acceptance steps are mandatory before exhibiting.
-
-## 4. Verify
-
-```bash
-pip install -r requirements-dev.txt
-python -m pytest -q
-```
-
-Tests inject fake speech/model providers, so they do not consume API quota and do not prove real recognition or synthesis quality. See [docs/VALIDATION.md](docs/VALIDATION.md) and [docs/EXHIBITION.md](docs/EXHIBITION.md).
-
-For a live device-style request, record a mono 16-bit PCM WAV, 0.1–15 seconds long:
-
-```bash
-curl --fail-with-body -X POST -F 'audio=@question.wav;type=audio/wav' \
-  http://localhost:8080/chat -o reply.mp3
-```
-
-HTTP 200 with `audio/mpeg` is playable audio. `X-Karen-Result: spoken-error` means Karen is speaking a retry/error message; it is not a successful AI answer. Invalid uploads return JSON 400; a failed TTS provider returns JSON 503. Do not play JSON as MP3.
-
-## Scope choices
-
-The shared history follows the PRD and is capped to control context growth. Immutable Malayalam instructions are separate from editable identity facts. Audio is kept in server memory and never written to shared `input.wav`/`output.mp3` files, avoiding cross-request overwrite. Firmware buffers audio on flash so a standard ESP32 does not need PSRAM. Text output language/length is instructed, not mathematically guaranteed by the model.
-
-Google Web Speech via SpeechRecognition and gTTS match the requested stack. They need internet and their availability/quotas are not controlled by this project. A recognition failure can be spoken only if TTS is reachable. A complete network outage cannot produce new cloud speech. The optional demo still supports a scripted text reply.
-
-## Reference documentation
-
-- Google Gemini generation and system instructions: https://ai.google.dev/gemini-api/docs/generate-content/text-generation
-- Gemini lifecycle: https://ai.google.dev/gemini-api/docs/deprecations
-- SpeechRecognition: https://github.com/Uberi/speech_recognition
-- ESP-IDF I2S standard driver: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2s.html
-- ESP8266Audio decoder and I2S output: https://github.com/earlephilhower/ESP8266Audio
-- Replit deployment filesystem behavior: https://replit.com/blog/deployments-launch
+- [Gemini troubleshooting](https://ai.google.dev/gemini-api/docs/troubleshooting)
+- [Google model shutdown record](https://firebase.google.com/docs/ai-logic/faq-and-troubleshooting)
+- [Google Gen AI Python SDK](https://github.com/googleapis/python-genai)
+- [SpeechRecognition](https://github.com/Uberi/speech_recognition) and [gTTS](https://gtts.readthedocs.io/)
+- [HTTP status definitions](https://www.rfc-editor.org/rfc/rfc9110.html)

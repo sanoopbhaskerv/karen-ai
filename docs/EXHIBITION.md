@@ -8,15 +8,17 @@
 - Verify Gemini key/model/quota. Keep the key on the server only.
 - Confirm the hosted process stays awake, the URL is reachable, TLS works from ESP32 and saved memory survives the restart procedure you will use.
 
-## Live acceptance test (not yet performed)
+## Live acceptance checklist
 
-1. Start the server with `DEMO_MODE=0` and open the dashboard. Check `/health` reports live and configured; this is a configuration check, not a provider connectivity test.
+Mac text and synthesized-speech software checks are recorded in `VALIDATION.md`. Physical device, human microphone, venue network and hosted deployment checks remain pending. Do not edit the real saved memory merely to repeat automated tests; use a temporary copy for destructive checks.
+
+1. Start the server with `DEMO_MODE=0` and open the dashboard. Check `/health` reports live/configured and the expected model. `gemini.status` is `untested` before the first inference. Run `python scripts/diagnose_gemini.py` for a separate live test; a model-list success alone does not validate inference.
 2. Text: ask `നിന്റെ പേര് എന്താണ്?` Expect Malayalam identifying Karen.
 3. Ask `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` Expect Sreehari V / the supplied school details.
-4. Edit memory to add `Sreehari's favorite food is biryani.` Save. Ask `ശ്രീഹരിയുടെ ഇഷ്ടഭക്ഷണം എന്താണ്?` Verify the new fact.
+4. Back up permanent memory before a planned demonstration edit. Add a real approved fact, save, and ask about it. Confirm the new fact and fresh conversation. Never replace actual saved facts with test data.
 5. Ask a follow-up referring to the previous response. Confirm context is retained. Use New chat and confirm history is cleared.
 6. Restart the server. Confirm the new permanent fact remains and session history is empty.
-7. Browser microphone: speak a Malayalam question. Hear a complete MP3 reply. Check microphone permission and HTTPS if unavailable.
+7. Browser microphone: on Mac localhost, speak a Malayalam question for five seconds. Hear a complete MP3 reply. Check microphone permission and trusted HTTPS if unavailable. A phone LAN HTTP URL supports text but cannot normally record.
 8. ESP32: confirm boot WiFi logs, then record the same question with the button. Hear a clear complete reply without clipping.
 9. Disconnect mobile data. Confirm the system fails visibly and recovers when connectivity returns. Do not expect newly synthesized speech during an outage.
 10. Run ten consecutive hardware turns to check memory pressure, timeout handling, I2S reinitialization and flash cleanup.
@@ -32,7 +34,11 @@ Use the dashboard text chat if the physical microphone/speaker fails. If all int
 | Symptom | Check |
 |---|---|
 | Setup needed | Server key environment variable and restart |
-| AI unavailable | Key, model access, quota, outbound network |
+| AI unavailable | Python console stage/code/provider-code, `/health` last inference, live diagnostic |
+| 504 / `model_timeout` | Deadline exceeded; test the currently selected model, not just key presence |
+| 503 / `model_unavailable` | Temporary demand/provider failure; two bounded attempts already run |
+| 505 | HTTP version not supported; this is different from the reproduced 504 |
+| Lost browser/device response | Inspect `/requests/<id>` before another question; same ID avoids duplicate turns |
 | Malayalam not recognized | Mic channel wiring, quiet environment, gain, 16-bit mono WAV |
 | Empty/garbled mic | INMP441 L/R to GND, clock pins, microphone supply |
 | No speaker output | Amplifier enable/VIN/GND, speaker terminals, pin mapping |

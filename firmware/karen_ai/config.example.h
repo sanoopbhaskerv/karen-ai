@@ -14,7 +14,8 @@ static const char ROOT_CA[] = R"PEM(
 #define AMP_WS 14
 #define AMP_DATA 22
 #define BUTTON_PIN 32
-#define STATUS_LED 2
+// Set to 2 only after confirming a GPIO2 LED exists on your board.
+#define STATUS_LED -1
 #define RECORD_SECONDS 5
 // INMP441 24-bit signed samples arrive left-aligned in 32-bit words.
 // 16 is unity conversion to 16-bit; reduce toward 14 if too quiet (may clip).

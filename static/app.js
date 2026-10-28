@@ -6,6 +6,28 @@ const send = document.querySelector('#send');
 const record = document.querySelector('#record');
 const csrf = document.querySelector('meta[name="csrf-token"]').content;
 let busy = false, audioURL;
+// One logical request ID survives transport retries. Never retry a POST with a new ID.
+async function ask(path, options) {
+  const id = crypto.randomUUID();
+  const deadline = Date.now() + 160000;
+  options.headers = {...options.headers, 'X-Request-ID':id, 'Prefer':'respond-async'};
+  let response;
+  for(let attempt=0; attempt<2; attempt++) {
+    try {response = await fetch(path,{...options, signal:AbortSignal.timeout(15000)}); break;}
+    catch {if(attempt===1) statusText.textContent=`Checking request ${id}…`;}
+  }
+  while(!response || response.status===202) {
+    if(Date.now()>=deadline) throw new Error(`Request ${id} is taking too long. Check /requests/${id} before sending again.`);
+    await new Promise(resolve=>setTimeout(resolve,1000));
+    try {response=await fetch(`/requests/${id}`,{signal:AbortSignal.timeout(Math.min(15000,Math.max(1,deadline-Date.now())))});}
+    catch {response=null;}
+  }
+  if(!response.ok) {
+    const result=await response.json();
+    throw new Error(`${result.error || 'Request failed'} [${result.code || response.status}; request ${id}]`);
+  }
+  return response;
+}
 function append(role, text) {
   document.querySelector('#welcome')?.remove();
   const item = document.createElement('article'); item.className = 'message ' + role;
@@ -13,13 +35,13 @@ function append(role, text) {
   const paragraph = document.createElement('p'); paragraph.textContent = text;
   item.append(label, paragraph); messages.append(item); messages.scrollTop = messages.scrollHeight;
 }
-function setBusy(value) { busy = value; send.disabled = value; record.disabled = value || document.querySelector('.pill').textContent.includes('DEMO'); }
+function setBusy(value) { busy = value; send.disabled = value; record.disabled = value || document.querySelector('.pill').textContent.includes('DEMO'); document.querySelectorAll('button[type="submit"]').forEach(button=>button.disabled=value); }
 document.querySelectorAll('[data-prompt]').forEach(button => button.addEventListener('click', () => {promptBox.value = button.dataset.prompt; promptBox.focus();}));
 form.addEventListener('submit', async event => {
   event.preventDefault(); if (busy || !promptBox.value.trim()) return;
   const text = promptBox.value.trim(); setBusy(true); statusText.textContent = 'Karen is thinking…';
   try {
-    const response = await fetch('/test_chat', {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json','X-CSRF-Token':csrf}, body:JSON.stringify({user_message:text}), signal:AbortSignal.timeout(60000)});
+    const response = await ask('/test_chat', {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json','X-CSRF-Token':csrf}, body:JSON.stringify({user_message:text})});
     const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Request failed');
     append('user', text); append('model', result.reply); promptBox.value = ''; statusText.textContent = 'Ready for your next question';
   } catch (error) { statusText.textContent = error.message; } finally {setBusy(false);}
@@ -45,7 +67,7 @@ record.addEventListener('click', async () => {
     processor = context.createScriptProcessor(4096,1,1); silent = context.createGain(); silent.gain.value=0;
     processor.onaudioprocess = e => chunks.push(new Float32Array(e.inputBuffer.getChannelData(0)));
     source.connect(processor); processor.connect(silent); silent.connect(context.destination);
-    statusText.textContent='Listening for 8 seconds…'; await new Promise(resolve=>setTimeout(resolve,8000));
+    statusText.textContent='Listening for 5 seconds…'; await new Promise(resolve=>setTimeout(resolve,5000));
     processor.disconnect(); source.disconnect(); silent.disconnect(); stream.getTracks().forEach(t=>t.stop());
     const sampleRate=context.sampleRate; await context.close(); context=null;
     const joined=new Float32Array(chunks.reduce((sum,x)=>sum+x.length,0)); let pos=0; for(const c of chunks){joined.set(c,pos);pos+=c.length;}
@@ -53,11 +75,12 @@ record.addEventListener('click', async () => {
     const ratio=sampleRate/16000; const pcm=new Float32Array(Math.floor(joined.length/ratio));
     for(let i=0;i<pcm.length;i++){const start=Math.floor(i*ratio),end=Math.max(start+1,Math.floor((i+1)*ratio));let sum=0;for(let j=start;j<end;j++)sum+=joined[j]||0;pcm[i]=sum/(end-start);}
     const body=new FormData(); body.append('audio',wavBlob(pcm,16000),'question.wav'); statusText.textContent='Listening → thinking → speaking…';
-    const response=await fetch('/chat',{method:'POST',body,signal:AbortSignal.timeout(120000)});
+    const response=await ask('/chat',{method:'POST',body});
     if(!response.ok){const result=await response.json();throw new Error(result.error||'Voice request failed');}
+    if(!response.headers.get('Content-Type')?.startsWith('audio/mpeg')) throw new Error('Server returned an unexpected audio format.');
     if(audioURL)URL.revokeObjectURL(audioURL); audioURL=URL.createObjectURL(await response.blob());
     const player=document.querySelector('#reply-audio'); player.src=audioURL; player.hidden=false;
-    statusText.textContent=response.headers.get('X-Karen-Result')==='spoken-error'?'Karen could not answer. Listen, then retry.':'Reply ready. Refresh the page to see the voice conversation.';
+    statusText.textContent=response.headers.get('X-Karen-Result')==='spoken-error'?`Karen could not answer [${response.headers.get('X-Karen-Error')}]. Check the Python console.`:'Reply ready. Refresh the page to see the voice conversation.';
     try{await player.play();}catch{statusText.textContent+=' Tap Play to listen.';}
   }catch(error){statusText.textContent=error.message;}finally{stream?.getTracks().forEach(t=>t.stop());if(context&&context.state!=='closed')await context.close();setBusy(false);}
 });
