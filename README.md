@@ -1,14 +1,491 @@
-# Karen AI — Malayalam conversational assistant
+# Karen AI — English guide, step by step
 
-**മലയാളത്തിലുള്ള എല്ലാ നിർദേശങ്ങൾക്കും:** [READMEMALAYALAM.md](READMEMALAYALAM.md)
+**[മലയാളത്തിൽ വായിക്കാൻ ഇവിടെ അമർത്തുക → READMEMALAYALAM.md](READMEMALAYALAM.md)**
 
-Science exhibition assistant for Sreehari V, Class 9S, PKMMHSS Edarikode.
+Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 9S, PKMMHSS Edarikode**. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
-**Using Windows and the photographed HW678 / ESP32-S3 N16R8 board?** Start with [the Windows setup guide](docs/WINDOWS.md). Both it and the original classic ESP32 use the same backend.
+**Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
 
-ESP32 WAV → Flask → Google speech recognition (`ml-IN`) → Gemini → Malayalam gTTS (`ml`) MP3 → I2S speaker. The mobile dashboard provides text chat, five-second recording, memory editing and conversation reset. It intentionally has no login.
+## 1. Know what each part does
 
-## Start on this Mac
+| Word or part | Simple meaning |
+|---|---|
+| Backend / server | The Python program running on your computer. Keep this program open while using Karen. |
+| Dashboard | The Karen page you open in a web browser. You can type, record a question and edit Karen's saved facts here. |
+| ESP32 controller | The small board that records sound and plays the reply. It connects to the computer over WiFi. |
+| Firmware | The program placed inside the controller. |
+| Compile / build | Check the firmware and turn it into a file the board can run. This does not put it on the board. |
+| Upload / flash | Copy the compiled firmware onto the board through USB. |
+| API key | A private password that lets the backend use Gemini. Keep it private. |
+| COM port | The name Windows gives the board's USB connection, such as COM5. Your number may be different. |
+| GPIO | A numbered signal pin on the controller. Use the printed number, not the pin's position in the row. |
+
+When everything is connected:
+
+```text
+You speak → microphone → controller → computer + internet
+          → Malayalam reply → controller → amplifier → speaker
+```
+
+The computer is still needed after uploading. The board does not run Gemini by itself. Live chat, speech recognition and speech output need internet. You can use a phone hotspot; the board needs a 2.4 GHz WiFi connection.
+
+### Which controller is yours?
+
+| What is written on the board/module? | Setting to use |
+|---|---|
+| HW678 board, module marked Sixspan S3-N16R8, two USB-C sockets | `KAREN_CONTROLLER=esp32_s3` — this is the board in your photos |
+| Original classic ESP32, 38 pins, Micro-USB | `KAREN_CONTROLLER=esp32` |
+
+The instructions below use the **photographed S3 board**. Both boards use the same Python backend. Their microphone, amplifier and button pins are different.
+
+### Before the hardware stage
+
+You will need the controller, a USB **data** cable, INMP441 microphone, MAX98357A I2S amplifier, passive speaker, external momentary push button and wires. A charge-only cable will not upload code. The amplifier is still being sourced; you can test the computer and microphone path before it arrives.
+
+Ask an adult to help with soldering and amplifier power connections. Unplug power before moving wires. Give the microphone **3.3 V**, never 5 V. Do not connect a speaker directly to the controller.
+
+## 2. Open the project and PowerShell
+
+1. Get the updated project folder from the project owner. If you received a ZIP, right-click it and choose **Extract All**. Do not run the project inside the ZIP.
+2. Open the extracted folder. You must be able to see `app.py`, `requirements.txt`, this `README.md`, `scripts` and `firmware`.
+3. There may be a second folder inside the extracted folder. Open it if needed to find `app.py`.
+4. In File Explorer, click the address bar at the top, type `powershell`, then press Enter. This opens PowerShell in that folder.
+5. Paste this command into PowerShell and press Enter:
+
+```powershell
+Test-Path .\app.py
+```
+
+**Check:** it must print `True`. If it prints `False`, open the correct folder before continuing.
+
+Commands in boxes marked `powershell` go into PowerShell. Do not paste them into the browser or into a Python window showing `>>>`. Copy one command at a time. A block containing `{` and `}` can be pasted as a whole. Wait for it to finish before the next block.
+
+The repository is private. If downloading from GitHub, ask the owner for access to the updated files. While PR #1 is open, the updated code is on branch `fix/gemini-diagnostics-and-commissioning`, not the original `main` import.
+
+If a project folder already works, keep its `.env`, `.env.local`, `data/memory.txt` and `firmware/karen_ai/config.h`. Do not replace these with blank example files.
+
+## 3. Install Python once
+
+For a new Windows setup, use **Python 3.14**, which is also the Python series used by the tested Mac environment. A working existing Python 3.12 virtual environment can stay as it is.
+
+**Already have a working `.venv` on this Windows PC?** Skip the installer and the `py -3.14` check below; continue at Step 4. Its creation command leaves an existing `.venv` alone.
+
+1. Open the [official Python Windows downloads page](https://www.python.org/downloads/windows/).
+2. Find a current **Python 3.14.x** release. For a usual Intel/AMD Windows PC, choose **Windows installer (64-bit)**. Use the normal installer, not the embeddable ZIP or source code. If the computer is an ARM model, ask an adult to help select the matching installer.
+3. Run the installer. Tick **Add python.exe to PATH** if that option is shown, then choose **Install Now**. Allow the Python launcher to be installed.
+4. Close PowerShell. Open a fresh PowerShell in the project folder as in Step 2.
+5. Check the installation:
+
+```powershell
+py -3.14 --version
+```
+
+**Check:** it should print `Python 3.14` followed by a patch number. If `py` is not recognised, reopen PowerShell and check that Python and its launcher were installed. Do not continue until this works.
+
+## 4. Install the project's Python packages once
+
+A virtual environment is a separate place for this project's Python packages. It is stored in `.venv`. Do not copy a Mac `.venv` onto Windows; each computer needs its own.
+
+```powershell
+if (-not (Test-Path .venv)) { py -3.14 -m venv .venv }
+```
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+This download may take a few minutes. Leave internet connected and wait for PowerShell's prompt to return. If the final lines contain an installation error, fix that before continuing.
+
+**Check:** this should print a Python version:
+
+```powershell
+.\.venv\Scripts\python.exe --version
+```
+
+Use this `.venv` Python path for the remaining Windows commands. You do not need to run an activation script or change PowerShell's execution policy.
+
+## 5. Create the computer's settings file
+
+Create `.env` only if it is missing:
+
+```powershell
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+```
+
+Open it:
+
+```powershell
+notepad .env
+```
+
+For the photographed S3 board, the important lines should look like this. **Replace `PASTE_YOUR_PRIVATE_KEY_HERE` with the real Gemini key. Do not leave that example text.**
+
+```dotenv
+GEMINI_API_KEY=PASTE_YOUR_PRIVATE_KEY_HERE
+GEMINI_MODEL=gemini-3.5-flash-lite
+DEMO_MODE=0
+PORT=8080
+MEMORY_PATH=data/memory.txt
+KAREN_CONTROLLER=esp32_s3
+```
+
+Do not erase other existing lines. Leave an existing `SECRET_KEY` unchanged. For local testing, an empty `SECRET_KEY` lets the app create one automatically; a browser page may need refreshing after a restart.
+
+Press **Ctrl+S**, then close Notepad. Use Save, not Save As: the file must be named `.env`, not `.env.txt`.
+
+If you change `.env` after starting the server, stop Window A with Ctrl+C, run `app.py` again and refresh the browser. Settings are read when the server starts. PowerShell environment values override `.env.local`, which overrides `.env`. If an edit seems ignored, ask the owner to check those overrides without deleting private settings.
+
+**Check the filename without showing your key:**
+
+```powershell
+Test-Path .\.env
+```
+
+It must print `True`. If File Explorer shows `.env.txt`, enable **File name extensions** under View and correct the name. Do not post the file's contents or a screenshot of the key.
+
+Use a Gemini key supplied securely by the project owner or configured in [Google AI Studio](https://aistudio.google.com/apikey) with help from a parent/teacher. Ask them before enabling billing or increasing quota. Do not put this key in `config.h` or send it to other people.
+
+`gemini-3.5-flash-lite` passed real Malayalam tests with the existing project key. Another account can have different model access. If the diagnostic below fails, use the troubleshooting section rather than guessing another model name. Gemini 1.5 is retired; a new key will not bring it back.
+
+## 6. Test Malayalam text on the computer
+
+In the same PowerShell window, run:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\diagnose_gemini.py
+```
+
+This lists available models and then makes a real test request. It uses the key privately. It does not change Karen's saved facts.
+
+**Check:** look for `"inference": "succeeded"` and a Malayalam reply. A list of model names alone is not a successful chat test. If you see `"inference": "failed"`, use Step 16.
+
+Now start the server:
+
+```powershell
+.\.venv\Scripts\python.exe app.py
+```
+
+1. Keep this window open. Call it **Window A — server**. It will be busy running the app; that is normal.
+2. Open Chrome or Edge.
+3. Type **http://localhost:8080** into the browser's address bar.
+4. In the chat box, type `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` and click the arrow to send.
+5. Wait for the Malayalam reply. Try `മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?` next.
+
+**Check:** you should get real answers about Sreehari and rain. If you only hear/read an apology, the request has failed; look at Window A for the error code. Do not press Send repeatedly while waiting.
+
+`http://localhost:8080/health` shows the app's status. `configured: true` only means a key is present. `gemini.status: ready` describes the last successful generation. It does not guarantee that the next request will succeed.
+
+## 7. Test computer recording and saved memory
+
+You still do not need the controller or amplifier for this step.
+
+### Record a question
+
+1. Use the dashboard at **localhost:8080 on the computer**.
+2. Click **Record a question**.
+3. Allow microphone access if the browser asks.
+   Use the laptop's microphone or a connected headset/USB microphone. The INMP441 is for the controller; it is not a computer microphone by itself.
+4. Watch for **Listening for 5 seconds…**. Ask a short Malayalam question during those five seconds.
+5. Wait while the page shows that Karen is processing it.
+6. Listen to the reply. If it does not play automatically, click Play on the audio player. Use headphones or the computer's speakers.
+
+**Check:** the answer should be understandable Malayalam and the page should say **Reply ready**. A spoken apology still means a failure. Check the error in Window A.
+
+### Edit what Karen remembers
+
+The **What Karen remembers** box contains facts saved in `data/memory.txt`.
+
+1. Keep the existing creator, class and school information.
+2. If you want to add a real fact for the exhibition, first make a private backup of `data/memory.txt`, for example another copy inside the `data` folder.
+3. Add the fact, then click **Save memory**.
+4. Ask a question about it to check the answer.
+
+Saving memory starts a new conversation. **New chat** clears the conversation but keeps saved facts. Restarting the server also clears the conversation and keeps saved facts. These facts are shared by everyone using this dashboard; do not add private information.
+
+**Finish this computer stage before moving on.** If text and browser voice do not work, connecting more wires will not fix the AI service.
+
+## 8. Install the board tools once
+
+Leave Window A running. Open a **second PowerShell in the project folder** using Step 2. Call it **Window B — board tools**. Use Window B for Steps 8–14.
+
+Create a folder for Arduino CLI:
+
+```powershell
+New-Item -ItemType Directory -Force .tools
+```
+
+1. Open the [official Arduino CLI installation page](https://arduino.github.io/arduino-cli/1.5/installation/).
+2. Under Download, get the Windows 64-bit ZIP for a usual Intel/AMD PC.
+3. Extract the ZIP.
+4. Copy `arduino-cli.exe` into the project's `.tools` folder. The result must be `.tools\arduino-cli.exe`, not another nested folder.
+
+Check the file:
+
+```powershell
+Test-Path .\.tools\arduino-cli.exe
+```
+
+It must print `True`. Then run these commands in Window B:
+
+```powershell
+$karenArduinoCli = Join-Path (Get-Location) '.tools\arduino-cli.exe'
+& $karenArduinoCli version
+```
+
+```powershell
+& $karenArduinoCli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+```
+
+```powershell
+& $karenArduinoCli core install esp32:esp32@3.3.12 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+```
+
+```powershell
+& $karenArduinoCli lib install 'ESP8266Audio@2.4.1'
+```
+
+**Check:** each command must finish without an error. The core is a large download and includes other ESP32 chip types too. Do not close the window during installation. You do not need to reinstall these for every exhibition session.
+
+## 9. Select the controller and compile without uploading
+
+For the photographed board:
+
+```powershell
+$env:KAREN_CONTROLLER = 'esp32_s3'
+.\.venv\Scripts\python.exe scripts\firmware.py
+```
+
+**Check:** the first lines should include `Controller: esp32_s3` and `Credentials: example only`. At the end, look for **Sketch uses ...** and no compile error.
+
+This checks the code with example settings. It does **not** upload anything and does not test your actual WiFi settings. It is safe to run without a board connected.
+
+If using the original classic ESP32 instead, change the first line to `$env:KAREN_CONTROLLER = 'esp32'`. Use its different wiring column in Steps 13–14.
+
+The PowerShell value overrides `.env` in that window. To return to the `.env` setting, run `Remove-Item Env:KAREN_CONTROLLER`. Changing this setting does not change a board already programmed: build and upload again for a different controller. The Python backend itself serves both boards.
+
+## 10. Connect only the board and find its port
+
+1. Leave microphone, button and amplifier disconnected for now.
+2. On the S3 board, use the USB-C connector labelled **COM** on the back. The other one is native USB/USB-OTG. This setup uses COM for uploading and Serial Monitor. On the original classic board, use its Micro-USB data connector.
+3. Connect it to the Windows PC with a data cable.
+4. In Window B, run:
+
+```powershell
+& $karenArduinoCli board list
+```
+
+Look for a port such as `COM5`. You can also check Windows **Device Manager → Ports (COM & LPT)**. The name of the board may be unknown even when its port is listed.
+
+Set the port variable below. **Replace COM5 with the number actually shown for your board.**
+
+```powershell
+$karenPort = 'COM5'
+```
+
+Check the chip and flash size:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install esptool
+.\.venv\Scripts\python.exe -m esptool --port $karenPort flash-id
+```
+
+**Check:** for the photographed S3 profile, expect an ESP32-S3 and 16 MB flash. The original classic profile targets ESP32 / 4 MB. If the measured chip or size does not match the selected profile, ask the project owner to check it before uploading. The marking on the metal shield is not the same as measuring the flash.
+
+If no COM port appears, try a known data cable and another USB port. Ask an adult to help identify the USB-UART chip before installing its manufacturer's driver. Do not assume this S3 board uses the classic board's CP2102 driver. Do not erase the flash as a first troubleshooting step.
+
+## 11. Give the board its WiFi settings and the computer's address
+
+There are two different settings files:
+
+| File | What goes here? |
+|---|---|
+| `.env` | Computer settings, including the private Gemini key and controller selection |
+| `firmware/karen_ai/config.h` | Board's WiFi name/password and the backend computer's address. No Gemini key. |
+
+In Window B:
+
+```powershell
+if (-not (Test-Path firmware\karen_ai\config.h)) {
+    Copy-Item firmware\karen_ai\config.example.h firmware\karen_ai\config.h
+}
+notepad firmware\karen_ai\config.h
+```
+
+Replace only the example WiFi name, password and server address. Keep the quotation marks:
+
+```cpp
+#define WIFI_SSID "YOUR_2_4_GHZ_HOTSPOT"
+#define WIFI_PASSWORD "YOUR_HOTSPOT_PASSWORD"
+#define SERVER_ORIGIN "http://192.168.1.50:8080"
+```
+
+Those are examples, not real credentials. Replace both `YOUR_2_4_GHZ_HOTSPOT` and `YOUR_HOTSPOT_PASSWORD` with your actual WiFi details, inside the quotes. To find your Windows computer's address, run:
+
+```powershell
+ipconfig
+```
+
+Find **IPv4 Address** under the adapter connected to your WiFi/hotspot. Use that address in place of `192.168.1.50`. Do not use the Default Gateway address. If the backend runs on the Mac instead, use the Mac's LAN IP.
+
+Keep `http://` and `:8080`. Do not add `/` at the end. Do not use `localhost` here: on the board, that would refer to the board itself. Connect the board and backend computer to a network where they can reach each other. If Windows Firewall asks, allow the Python server on your trusted private network; do not turn the firewall off globally.
+
+Leave `STATUS_LED=-1`, `RECORD_SECONDS=5`, `MIC_SHIFT=16` and the `ROOT_CA` block unchanged for this local HTTP test. The onboard RGB LED stays unused. Save with Ctrl+S. The file must be `config.h`, not `config.h.txt`.
+
+If this file came from the old classic setup, ask the project owner to remove only old `MIC_*`, `AMP_*` and `BUTTON_PIN` pin definitions when moving to S3. Preserve WiFi and certificate settings. The adapters now supply the correct defaults.
+
+Cloud HTTPS is a later step. It needs a trusted root certificate; do not disable certificate checks to make it work.
+
+## 12. Upload to the board, then check its messages
+
+Use Window B with the controller and port variables already set:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\firmware.py --use-config
+```
+
+**Check:** it must compile successfully and show `Credentials: private config.h`. This still does not upload.
+
+Now upload:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\firmware.py --upload --port $karenPort
+```
+
+Wait for upload to finish without an error. This command builds again using your private settings and then uploads. Untouched example WiFi placeholders are refused.
+
+Open Serial Monitor:
+
+```powershell
+& $karenArduinoCli monitor --port $karenPort --config baudrate=115200
+```
+
+Press the board's **RST** button once to see startup messages. For S3, look for:
+
+```text
+Controller: esp32_s3
+MIC BCLK/WS/SD: 4/5/6 | AMP BCLK/WS/DIN: 16/17/18 | button: 7
+Connected: ...
+Ready. Press button, then speak for five seconds.
+```
+
+The first line also reports flash and PSRAM bytes. Expected advertised S3 capacities are **16,777,216 flash bytes** and **8,388,608 PSRAM bytes**. Ask for help if they differ or it keeps restarting. The LED staying off is normal.
+
+Use Serial Monitor for the board's connection/Ready messages. The dashboard does not track whether a physical board is online.
+
+For the classic board, expect `Controller: esp32` and the classic pins from the tables below. Many classic boards have no PSRAM; zero PSRAM is normal on those boards.
+
+If upload cannot connect, close Serial Monitor first. Try holding **BOOT**, briefly pressing **RST**, then starting the upload and releasing BOOT when it connects. Use the onboard BOOT button only for this procedure; it is not the question button.
+
+Press Ctrl+C in **Window B** to close Serial Monitor before the next upload. This does not stop the server in Window A. If you edit WiFi or server settings in `config.h`, upload again; saving the file alone cannot update the board.
+
+## 13. Connect the microphone and external question button
+
+**Unplug the USB cable first.** Check the labels on the actual microphone; its pin order can vary. Use one row at a time.
+
+| INMP441 / button connection | Photographed S3 `esp32_s3` | Original classic `esp32` |
+|---|---|---|
+| Microphone VDD | 3V3 | 3V3 |
+| Microphone GND | GND | GND |
+| Microphone SCK / BCLK | GPIO4 | GPIO26 |
+| Microphone WS | GPIO5 | GPIO25 |
+| Microphone SD | GPIO6 | GPIO33 |
+| Microphone L/R | GND | GND |
+| One side of external momentary button | GPIO7 | GPIO32 |
+| Other side of external button | GND | GND |
+
+A four-leg button often has two legs already joined on each side. Ask an adult to check which pair connects only when pressed. Do not choose legs that are always connected. Do not wire the external button to 3V3 or 5V; the firmware supplies an internal pull-up.
+
+Reconnect USB, reopen Serial Monitor, and wait for Ready. Press and release the external button once. When you see **Recording. Speak now.**, speak a short question for five seconds. Then wait.
+
+Without the amplifier, no board speaker sound is expected yet. A server result of `ok` in Serial Monitor and a question/reply visible after refreshing the dashboard help check the microphone path. `spoken-error` is a failed request, not a successful answer. Do not press repeatedly while Karen is busy.
+
+## 14. Add the MAX98357A amplifier and speaker
+
+If you do not have the MAX98357A yet, stop at the computer/microphone tests. **A PAM8403 does not replace it in this firmware.**
+
+Unplug power. Have an adult check the amplifier's actual labels, soldering and 5 V power arrangement before connecting it. Do not guess which ESP32 supply pin can power the amplifier.
+
+| MAX98357A / speaker connection | Photographed S3 `esp32_s3` | Original classic `esp32` |
+|---|---|---|
+| BCLK | GPIO16 | GPIO27 |
+| LRC / WS | GPIO17 | GPIO14 |
+| DIN | GPIO18 | GPIO22 |
+| VIN | Suitable verified 5 V supply | Suitable verified 5 V supply |
+| GND | Common GND with controller | Common GND with controller |
+| SD / EN | Follow the actual breakout's enable instructions | Same |
+| Speaker's two wires | Amplifier SPK+ and SPK− only | Same |
+
+Neither speaker wire goes to GND or to a controller GPIO. Keep the computer's USB power separate from any external 5 V connection to the board unless the actual power circuit has been checked. A separately powered amplifier still needs common GND with the controller. Never put 5 V on microphone VDD or a GPIO.
+
+The speaker's latest box says **4 ohms / 10 watts**. Check the marking on the speaker itself. That rating does not make the amplifier produce 10 watts. Firmware starts at low playback gain; do not increase it until the supply is stable and an adult has checked the wiring.
+
+Reconnect power. Wait for Ready. Ask one short question using the external button. Listen for a complete Malayalam reply. If it restarts, becomes hot or the sound clips badly, disconnect power and check the supply/wiring with help. Run ten normal questions successfully before using it at the exhibition.
+
+## 15. What to do each day
+
+You do not need to install packages or upload again every day.
+
+1. Connect the computer to internet. Keep the board on the reachable 2.4 GHz network.
+2. Open PowerShell in the project folder.
+3. Start the server:
+
+```powershell
+.\.venv\Scripts\python.exe app.py
+```
+
+4. Open **http://localhost:8080**. Test one text question.
+5. Power the already-programmed board. Wait for Ready, then test one button question.
+6. If the computer's IP address or WiFi details changed, update `config.h` and upload again.
+7. Keep the server window open and the computer awake during the demonstration. Closing the lid or letting it sleep can stop access.
+
+To stop: wait for the reply to finish, switch off/unplug the board, then press **Ctrl+C in the server window**. Saved memory remains; conversation history clears when the server restarts.
+
+On a phone on the same network, `http://<computer-IP>:8080` supports text and memory editing. Phone microphone recording usually needs trusted HTTPS; use **localhost on the computer** for the first recording test.
+
+For the exhibition, prepare three short questions, a follow-up, a charged power bank and the computer dashboard as a fallback. If internet fails, new cloud answers will not work. `DEMO_MODE=1` is only a clearly labelled scripted text demo; voice is disabled. Return it to `0` and restart for live use. See the [exhibition checklist](docs/EXHIBITION.md).
+
+The dashboard has no login by design. Anyone who can reach it can view/change the shared memory and use the API quota. Use the trusted exhibition network and stop the server afterward.
+
+## 16. If something goes wrong
+
+Start with the exact message in the browser, server Window A or Serial Monitor. Do not keep reinstalling everything.
+
+| What you see | Try this first |
+|---|---|
+| `Test-Path .\app.py` says `False` | Open the extracted folder that actually contains `app.py`. |
+| `py` is not recognised | Reopen PowerShell after installing Python and its launcher. |
+| `.venv\Scripts\python.exe` is missing | Finish Step 4 on this Windows PC; do not copy a Mac `.venv`. |
+| `ModuleNotFoundError` | Use the `.venv` Python command and reinstall `requirements.txt` from the project folder. |
+| Browser says it cannot connect | Keep Window A running; read its error. Check the URL and port 8080. |
+| Port 8080 is already in use | A server may already be running. Use that one or stop the old one before starting another. |
+| `Page expired` | Refresh the dashboard after restarting the server. |
+| `model_auth` / 401 or 403 | Check the private Gemini key and account/project restrictions with the owner. |
+| `model_not_found` / 404 | Run the diagnostic; ask the owner to choose an available exact model ID. Do not switch to retired 1.5. |
+| `model_quota` / 429 | Wait and ask the owner to check quota. Do not enable billing yourself. |
+| `model_unavailable` / 503 | Provider may be busy; limited retries already happen. Wait, then try a new question. |
+| `model_timeout` / 504 | The AI did not finish before the deadline. Read the diagnostic; a longer wait alone is not a verified fix. |
+| HTTP 505 | HTTP version not supported. This differs from 504; show the owner the error code without keys. |
+| `busy` or a request ID after a long wait | Let the current job finish. Check `http://localhost:8080/requests/` followed by that ID before sending the same question again. Results last ten minutes in the same running server. |
+| Recording unavailable | Use localhost on the computer and allow the correct microphone in the browser. |
+| `stt_unavailable` or `tts_unavailable` | Check internet and the server log; cloud speech may be unavailable. |
+| No COM port | Use the COM connector, a data cable and the correct identified USB-UART driver. |
+| Cannot open COM port / access denied | Close Serial Monitor or any other program using that port. Recheck its number. |
+| Upload cannot connect | Confirm S3 selection, actual port and COM connector; try the BOOT/RST procedure in Step 12. |
+| `Unknown KAREN_CONTROLLER` | Use exactly `esp32_s3` or `esp32`, with no extra characters. |
+| Invalid/reserved/overlapping pins | Check the board selection and remove old classic pin overrides when using S3. |
+| WiFi never connects | Check exact WiFi name/password and 2.4 GHz support, then upload edited settings again. |
+| Board cannot reach server | Keep Window A open; check the computer's current LAN IP, firewall and shared network. |
+| Empty/unclear microphone | Check VDD=3V3, L/R=GND, the correct pin column and soldered connections. |
+| No speaker sound | Confirm MAX98357A, amplifier power/enable, common GND and SPK+/SPK− wiring. |
+| Board keeps restarting | Disconnect power and have the power/wiring checked before trying again. |
+
+A request can take time. The normal browser/device wait budget is about **2 minutes 40 seconds**. Press once and wait for a reply or error. A request ID is a long code identifying one question; copy it exactly when checking its result. If the connection is lost, the same ID helps recover the result without adding another conversation turn. A server restart or result expiry ends that recovery window.
+
+When asking for help, share the controller name, step number, COM number and error code. Hide API keys, WiFi passwords and private saved facts in screenshots. Your source repository should not include `.env`, `.env.local`, `config.h` or saved memory.
+
+## 17. If you are using the Mac instead
+
+The Windows commands above are for a Windows PC. On the existing project Mac:
 
 ```bash
 cd /Users/sanoopbhaskerv/workspace/karen-ai
@@ -17,150 +494,23 @@ python -m pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://localhost:8080**. Keep Terminal open; stop with Control-C. If port 8080 is occupied, stop the previous server before starting another. For a fresh checkout, create a virtual environment with `python3 -m venv .venv`, then create `.env` only if it does not exist:
+For a new Mac checkout only, create `.venv` first with `python3 -m venv .venv` and create `.env` only if absent. Do not replace working private settings. Board build example:
 
 ```bash
-test -f .env || cp .env.example .env
-```
-
-Put your Gemini key in `.env` or the host's secret settings, never in firmware, screenshots or chat. The existing `.env` and `data/memory.txt` on this Mac were preserved. An ignored `.env.local` selects `gemini-3.5-flash-lite`, verified through **both** API model listing and real Malayalam generation on 28 October 2026. Setting precedence: shell environment → `.env.local` → `.env` → application defaults. Fresh checkouts use `.env.example`; `.env.local` is not published.
-
-```dotenv
-GEMINI_API_KEY=your_key
-GEMINI_MODEL=gemini-3.5-flash-lite
-DEMO_MODE=0
-PORT=8080
-SECRET_KEY=replace_with_a_long_random_value
-MEMORY_PATH=data/memory.txt
-```
-
-Python 3.14 works in the existing Mac environment. Docker targets Python 3.12. `requirements-lock.txt` records the original Python 3.12 environment; the bounded `requirements.txt` also permits Python's newer audio compatibility packages.
-
-## Verify Gemini first
-
-```bash
-python scripts/diagnose_gemini.py --list-only
-python scripts/diagnose_gemini.py
-# Only select another exact ID after it appears in the listing:
-python scripts/diagnose_gemini.py --model <listed-model-id>
-```
-
-Model listing proves metadata access; the separate inference test proves generation for the selected model. The diagnostic never updates saved facts or conversation. Gemini 1.5 is retired; a new key does not restore it. The original `gemini-3.8-flash` returned 504 deadlines at both 30 and 60 seconds, plus 503 high-demand responses. `gemini-3.5-flash-lite` returned a real Malayalam answer about Sreehari in 1.2 seconds with the same key. This establishes a working alternative, not the internal cause of Google's service failure.
-
-Try `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?`, then a science question and a follow-up. Answers should be brief, natural Malayalam. The model can still make mistakes; inspect demonstration answers. Fixed Malayalam instructions remain separate from editable facts.
-
-`GET /health` is a local process/configuration check. `configured: true` means a key is present. `gemini.status` starts `untested`, becomes `ready` after successful generation, or `degraded` after failure. It describes the last attempt, not a promise of future availability. Health checks never call Gemini.
-
-Errors print sanitized operation/model/code/provider-code/attempt/elapsed-time fields in the Python console. Request completion logs include the request ID. No API key, prompt, saved facts or raw provider exception URL is logged. Common codes:
-
-| Code | Action |
-|---|---|
-| `model_timeout` (often provider 504) | Model missed its deadline; check demand and run diagnostics |
-| `model_unavailable` (often 503) | Temporary provider failure; bounded retry is automatic |
-| `model_not_found` (404) | List models and verify a supported exact ID |
-| `model_auth` (401/403) | Check restrictions/project access in AI Studio |
-| `model_quota` (429) | Check rate limits/quota/billing; no automatic quota retry |
-| `model_network`, `stt_unavailable`, `tts_unavailable` | Check outbound internet/provider availability |
-| `request_timeout` | Whole request expired; inspect its ID before a new turn |
-| `busy` | Wait for the current operation, or cached-result capacity to expire |
-
-HTTP 505 means HTTP Version Not Supported. The reproduced failure was 504, not 505.
-
-## Dashboard, voice and permanent memory
-
-Browser microphone access requires localhost or trusted HTTPS and microphone permission. On the Mac use **localhost**, not its LAN IP. A phone on the same WiFi can use `http://<Mac-LAN-IP>:8080` for text and memory; phone recording needs trusted HTTPS. The recorder captures five seconds, converts to mono PCM WAV and displays a playable MP3 response. Chrome software tests use synthesized Malayalam input; human microphone quality remains a separate acceptance step.
-
-`data/memory.txt` holds editable permanent facts. Saving memory replaces it atomically and clears the shared conversation. New chat and restart clear RAM history. The last ten complete turns are shared across browser/device. Memory paths are relative to this project, not the terminal's working directory. An answer still running when memory/reset changes cannot restore the old conversation.
-
-Offline interface demo: set `DEMO_MODE=1`, restart. Replies are labelled scripted; voice is disabled. Restore `DEMO_MODE=0` for live operation.
-
-## Requests, timeouts and retries
-
-Original routes remain: `/`, `/health`, `/update`, `/test_chat`, `/chat`, `/reset`. Added: `GET /requests/<request-id>`.
-
-Browser and firmware send `Prefer: respond-async` and a unique `X-Request-ID`. The POST returns 202 with `Location`/`Retry-After` while processing; poll until JSON text, MP3 or a structured error arrives. A repeated POST with the **same ID and same question** reuses the pending/completed result. Reusing an ID for different input returns 409. Polling never creates a conversation turn. Results remain in RAM for ten minutes, up to 64 results (at most ~32 MB of audio); when full, new work waits for expiry. Restart clears history and this cache, so recovery is guaranteed only within the same server process and retention window.
-
-| Layer | Budget |
-|---|---|
-| Google STT | 15-second socket operation timeout |
-| Gemini | Two attempts maximum, 45 seconds each, one-second backoff; SDK retries disabled |
-| gTTS | 5-second connect / 15-second read per segment |
-| Whole operation | 140-second result deadline, including all speech segments |
-| Browser | 15-second individual calls; 160-second overall polling budget |
-| ESP32 | 10-second connect / 15-second read; 160-second polling budget |
-| Synchronous clients / host | 150+ seconds |
-
-Only transient Gemini failures are retried automatically; the same context is reused. Browser upload transport retries reuse the same ID. Firmware polls after an uncertain POST, and re-uploads with that ID at most once if the server has no record. The device stops after four transport failures. Neither client silently resubmits a completed question with a new ID. If a client gives up, inspect `/requests/<id>` before asking again.
-
-One background provider worker runs at a time; other new requests return `busy`. The dashboard and health stay responsive. A provider thread already inside a third-party library cannot be forcibly cancelled: if it outlives the 140-second result deadline, it keeps the worker slot until it exits, and its late result cannot append history. For voice, history is committed only after MP3 synthesis succeeds. These limits deliberately avoid unbounded threads or a hidden request queue.
-
-Synchronous integrations still work without `Prefer`. Upload a mono 16-bit PCM WAV, 0.1–15 seconds:
-
-```bash
-curl --fail-with-body --max-time 155 -F 'audio=@question.wav;type=audio/wav' \
-  -H 'X-Request-ID: manual-unique-question-001' http://localhost:8080/chat -o reply.mp3
-```
-
-A successful reply is HTTP 200, `audio/mpeg`, `X-Karen-Result: ok`. `spoken-error` means an error apology was synthesized; `X-Karen-Error` identifies why. Invalid WAV returns JSON 400; failed TTS returns JSON 503. Never treat JSON or a spoken apology as a successful AI answer.
-
-## Tests and firmware
-
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q
-node --check static/app.js
-```
-
-See [validation record](docs/VALIDATION.md) for real versus mocked checks. The optional live Chrome test requires Playwright (`npm install --prefix /tmp/karen-browser playwright`) and a speech fixture at `/tmp/karen-audio/question.wav`:
-
-```bash
-NODE_PATH=/tmp/karen-browser/node_modules node tests/browser.cjs
-# Separate live memory-editor check using a temporary copy of saved facts:
-NODE_PATH=/tmp/karen-browser/node_modules node tests/browser_memory.cjs
-```
-
-The shared firmware has two controller adapters. Set `KAREN_CONTROLLER` in `.env`, `.env.local` or the shell, or pass `--controller` to the build tool. Shell settings win over files; `--controller` wins over both.
-
-| Value | Board | Build configuration |
-|---|---|---|
-| `esp32` (default) | Original classic 38-pin ESP32 | 4 MB target, original GPIO map |
-| `esp32_s3` | Photographed HW678 / Sixspan S3-N16R8 | 16 MB target, octal PSRAM, separate safe GPIO map |
-
-```powershell
-# Windows PowerShell, from the project folder:
-$env:KAREN_CONTROLLER = 'esp32_s3'
-.\.venv\Scripts\python.exe scripts\firmware.py
-```
-
-```bash
-# Mac/Linux:
 KAREN_CONTROLLER=esp32_s3 .venv/bin/python scripts/firmware.py
-# The original wrapper also works and defaults to esp32:
-./scripts/compile_firmware.sh
 ```
 
-Normal builds use example credentials and never upload. `--use-config` uses private `firmware/karen_ai/config.h`; `--upload --port <actual-port>` compiles that private configuration and uploads only after success. Temporary sketches/binaries are cleaned up. Selecting a controller changes the firmware chip target and pins **at build time**; changing Flask's environment cannot reprogram an already-flashed board. Arduino IDE selects the adapter from its board target instead of reading `.env`.
+A Mac serial port looks like `/dev/cu...`, not COM5. See [hardware commissioning](docs/HARDWARE.md) for the Mac upload path.
 
-Both profiles keep INMP441 digital input and **MAX98357A** I2S output. No PAM8403/analog substitution was made. See [Windows setup](docs/WINDOWS.md), [both wiring maps and commissioning](docs/HARDWARE.md), and [exhibition checklist](docs/EXHIBITION.md). The supplied photos establish the S3 board's labels, not measured flash/PSRAM size or successful physical operation. Microphone/amplifier pinout, electrical connections and the speaker driver's actual 4-ohm/10-watt marking still need confirmation.
+## 18. What has been checked, and where to read more
 
-## Cloud later
+**Recorded software checks:** 53 tests passed; classic ESP32 and S3 firmware compiled on the Mac; real Malayalam chat and a synthesized-speech WAV→MP3/browser test passed. **Not yet verified:** running these Windows steps on your PC, actual board flash/PSRAM, upload, physical microphone/speaker quality and power stability. Do not call the hardware ready until those checks pass. Full evidence is in [VALIDATION.md](docs/VALIDATION.md).
 
-Local validation comes first. Nothing is deployed by this change. The existing Docker configuration uses one worker and four threads; keep **one instance** because history/jobs are intentionally process-local. Use trusted HTTPS, a persistent disk for `MEMORY_PATH`, and at least 150-second proxy timeouts for synchronous clients. `.env`, `.env.local`, saved memory and firmware credentials are excluded from Git and the Docker build context.
+- [മലയാളം: complete beginner guide](READMEMALAYALAM.md)
+- [Windows technical setup and Arduino IDE alternative](docs/WINDOWS.md)
+- [Both wiring maps and hardware commissioning](docs/HARDWARE.md)
+- [Exhibition checklist](docs/EXHIBITION.md)
+- [Technical reference: routes, timeouts, tests and cloud hosting](docs/TECHNICAL.md)
+- [മലയാളം സാങ്കേതിക വിവരങ്ങൾ](docs/TECHNICAL_ML.md)
 
-```bash
-docker build -t karen-ai .
-docker volume create karen-memory
-docker run --rm -p 8080:8080 --env-file .env \
-  -e GEMINI_MODEL=gemini-3.5-flash-lite -e MEMORY_PATH=/app/data/memory.txt \
-  -v karen-memory:/app/data karen-ai
-```
-
-No-login access is intentional. Anyone who reaches the dashboard can edit memory and use quota; use the exhibition network/restricted ingress. CSRF protects browser forms, not authentication. `/chat` supports the ESP32 without cookies. Back up permanent facts before redeploying; ephemeral hosting does not preserve runtime disk edits.
-
-## References
-
-- [Gemini troubleshooting](https://ai.google.dev/gemini-api/docs/troubleshooting)
-- [Google model shutdown record](https://firebase.google.com/docs/ai-logic/faq-and-troubleshooting)
-- [Google Gen AI Python SDK](https://github.com/googleapis/python-genai)
-- [SpeechRecognition](https://github.com/Uberi/speech_recognition) and [gTTS](https://gtts.readthedocs.io/)
-- [HTTP status definitions](https://www.rfc-editor.org/rfc/rfc9110.html)
+The old detailed engineering notes are kept in those technical references. Cloud hosting is a later task; the steps above use a computer on your local network.
