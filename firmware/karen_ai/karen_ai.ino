@@ -1,4 +1,4 @@
-// Target: classic ESP32 Dev Module, Arduino-ESP32 3.x (ESP-IDF 5.x), ESP8266Audio 2.x.
+// Targets: classic ESP32 and ESP32-S3, Arduino-ESP32 3.x, ESP8266Audio 2.x.
 // Recording and playback use I2S sequentially. Files are streamed to flash, not held in RAM.
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
@@ -10,6 +10,7 @@
 #include <AudioOutputI2S.h>
 #include <time.h>
 #include "config.h"
+#include "controller.h"
 
 static const uint32_t RATE=16000;
 static const char *BOUNDARY="KarenESP32Boundary7d29";
@@ -128,7 +129,10 @@ bool playReply(){
 void cleanup(){LittleFS.remove("/question.wav");LittleFS.remove("/upload.bin");LittleFS.remove("/reply.mp3");}
 void setup(){
   Serial.begin(115200);pinMode(BUTTON_PIN,INPUT_PULLUP);if(STATUS_LED>=0)pinMode(STATUS_LED,OUTPUT);
-  Serial.printf("Detected flash: %lu bytes\n",(unsigned long)ESP.getFlashChipSize());
+  Serial.printf("Controller: %s | flash: %lu bytes | PSRAM: %lu bytes\n",KarenController::name,
+    (unsigned long)ESP.getFlashChipSize(),(unsigned long)ESP.getPsramSize());
+  Serial.printf("MIC BCLK/WS/SD: %d/%d/%d | AMP BCLK/WS/DIN: %d/%d/%d | button: %d\n",
+    MIC_BCLK,MIC_WS,MIC_DATA,AMP_BCLK,AMP_WS,AMP_DATA,BUTTON_PIN);
   // Formatting on first boot erases this app's flash filesystem only.
   if(!LittleFS.begin(true)){fail("LittleFS failed. Select a partition with >=1.5 MB filesystem.");while(true)delay(1000);}
   cleanup();if(!connectWiFi())fail("WiFi unavailable. Will retry when button is pressed.");

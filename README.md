@@ -4,6 +4,8 @@
 
 Science exhibition assistant for Sreehari V, Class 9S, PKMMHSS Edarikode.
 
+**Using Windows and the photographed HW678 / ESP32-S3 N16R8 board?** Start with [the Windows setup guide](docs/WINDOWS.md). Both it and the original classic ESP32 use the same backend.
+
 ESP32 WAV → Flask → Google speech recognition (`ml-IN`) → Gemini → Malayalam gTTS (`ml`) MP3 → I2S speaker. The mobile dashboard provides text chat, five-second recording, memory editing and conversation reset. It intentionally has no login.
 
 ## Start on this Mac
@@ -117,7 +119,29 @@ NODE_PATH=/tmp/karen-browser/node_modules node tests/browser.cjs
 NODE_PATH=/tmp/karen-browser/node_modules node tests/browser_memory.cjs
 ```
 
-See [hardware wiring and commissioning](docs/HARDWARE.md) and [exhibition checklist](docs/EXHIBITION.md). The target is the described classic 38-pin ESP32, INMP441 and **MAX98357A**. No PAM8403/analog substitution was made. Flash size, breakout pin labels, soldering and the speaker driver's actual 4-ohm/10-watt marking need physical confirmation.
+The shared firmware has two controller adapters. Set `KAREN_CONTROLLER` in `.env`, `.env.local` or the shell, or pass `--controller` to the build tool. Shell settings win over files; `--controller` wins over both.
+
+| Value | Board | Build configuration |
+|---|---|---|
+| `esp32` (default) | Original classic 38-pin ESP32 | 4 MB target, original GPIO map |
+| `esp32_s3` | Photographed HW678 / Sixspan S3-N16R8 | 16 MB target, octal PSRAM, separate safe GPIO map |
+
+```powershell
+# Windows PowerShell, from the project folder:
+$env:KAREN_CONTROLLER = 'esp32_s3'
+.\.venv\Scripts\python.exe scripts\firmware.py
+```
+
+```bash
+# Mac/Linux:
+KAREN_CONTROLLER=esp32_s3 .venv/bin/python scripts/firmware.py
+# The original wrapper also works and defaults to esp32:
+./scripts/compile_firmware.sh
+```
+
+Normal builds use example credentials and never upload. `--use-config` uses private `firmware/karen_ai/config.h`; `--upload --port <actual-port>` compiles that private configuration and uploads only after success. Temporary sketches/binaries are cleaned up. Selecting a controller changes the firmware chip target and pins **at build time**; changing Flask's environment cannot reprogram an already-flashed board. Arduino IDE selects the adapter from its board target instead of reading `.env`.
+
+Both profiles keep INMP441 digital input and **MAX98357A** I2S output. No PAM8403/analog substitution was made. See [Windows setup](docs/WINDOWS.md), [both wiring maps and commissioning](docs/HARDWARE.md), and [exhibition checklist](docs/EXHIBITION.md). The supplied photos establish the S3 board's labels, not measured flash/PSRAM size or successful physical operation. Microphone/amplifier pinout, electrical connections and the speaker driver's actual 4-ohm/10-watt marking still need confirmation.
 
 ## Cloud later
 

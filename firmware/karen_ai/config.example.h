@@ -7,14 +7,10 @@
 // Obtain from your host/certificate issuer; do not paste the leaf certificate.
 static const char ROOT_CA[] = R"PEM(
 )PEM";
-#define MIC_BCLK 26
-#define MIC_WS 25
-#define MIC_DATA 33
-#define AMP_BCLK 27
-#define AMP_WS 14
-#define AMP_DATA 22
-#define BUTTON_PIN 32
-// Set to 2 only after confirming a GPIO2 LED exists on your board.
+// GPIO defaults come from the controller adapter selected by the build target.
+// Do not copy the classic ESP32 pin numbers to ESP32-S3; see docs/HARDWARE.md.
+// Optional external/plain LED only; the S3 onboard RGB LED needs a different driver.
+// On the classic ESP32 only, use 2 after confirming a suitable GPIO2 LED exists.
 #define STATUS_LED -1
 #define RECORD_SECONDS 5
 // INMP441 24-bit signed samples arrive left-aligned in 32-bit words.

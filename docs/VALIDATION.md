@@ -3,8 +3,8 @@
 ## Verified on this Mac
 
 - Original backend suite ran before changes: **18 passed**.
-- Expanded backend suite: **36 passed**, including the original language/route/history/memory/WAV tests and regression coverage for retries, sanitized errors, request deduplication, concurrent duplicate requests, deadlines, responsive health/dashboard, reset/memory edits during inference, TTS/oversized-audio failure before history commit, and bounded result retention.
-- Python source compilation, JavaScript syntax checks and Git whitespace checks passed.
+- Expanded suite: **53 passed** (36 backend and 17 firmware build/adapter regressions), including the original language/route/history/memory/WAV tests and regression coverage for retries, sanitized errors, request deduplication, concurrent duplicate requests, deadlines, responsive health/dashboard, reset/memory edits during inference, TTS/oversized-audio failure before history commit, and bounded result retention.
+- Python source compilation, JavaScript/shell syntax checks and Git whitespace checks passed. Firmware tests cover environment/argument precedence, Windows-style executable paths with spaces, default/private config isolation, failed-build upload prevention, missing-port/placeholder rejection, credential redaction, and compile-time rejection of reserved/overlapping/unsupported pins.
 - A separate isolated Chrome test saved a test fact through the memory editor, retrieved it via real Malayalam Gemini chat, reset the conversation, then restarted the temporary server and confirmed saved facts persisted with empty history. The real saved memory was never edited.
 - Existing `.env` and `data/memory.txt` remain byte-for-byte unchanged (hashes compared before/after). The working model is selected through a new ignored `.env.local`; no key or saved memory was published.
 - Existing key successfully listed models through `google-genai` with SDK retries disabled. The configured `gemini-3.8-flash` was listed, but inference returned 504 `DEADLINE_EXCEEDED` at a 30-second limit (~29 seconds) and again at a 60-second limit (~59 seconds). Another attempt returned 503 `UNAVAILABLE` / high demand. A longer timeout did not fix it.
@@ -20,24 +20,28 @@ Environment: the existing Mac Python 3.14.7 virtual environment; Flask 3.1.3, go
 
 ## Firmware status
 
-**Cross-compile passed** using `./scripts/compile_firmware.sh` on this Mac:
+**Both cross-compiles passed** on this Mac with Arduino CLI 1.5.2-rc.1, Arduino-ESP32 **3.3.12**, ESP8266Audio **2.4.1**:
 
-- Arduino CLI 1.5.2-rc.1, Espressif Arduino-ESP32 **3.3.12**, ESP8266Audio **2.4.1**.
-- Target: `esp32:esp32:esp32:PartitionScheme=no_ota,FlashSize=4M` (classic ESP32 Dev Module, matching the reported chip family).
-- Program: **1,201,296 bytes / 2,097,152 bytes (57%)**.
-- Static RAM: **49,272 bytes / 327,680 bytes (15%)**, leaving 278,408 bytes before runtime allocations.
-- Compiled the multipart upload, asynchronous polling, standard digital I2S microphone/MP3 playback and optional-LED code with example credentials. No analog-output substitution, flash upload or insecure TLS setting.
-- A local ignored CLI copy is available at `.tools/arduino-cli`; the compile script finds it automatically. Core/library installations are in the normal Arduino data directories.
+| Profile | Build command | Program / 2,097,152 bytes | Static RAM / 327,680 bytes |
+|---|---|---|---|
+| Classic `esp32` | `KAREN_CONTROLLER=esp32 .venv/bin/python scripts/firmware.py` | **1,201,536 bytes (57%)** | **49,272 bytes (15%)** |
+| HW678 `esp32_s3` | `KAREN_CONTROLLER=esp32_s3 .venv/bin/python scripts/firmware.py` | **1,186,787 bytes (56%)** | **47,364 bytes (14%)** |
 
-A cross-compile cannot measure board flash, runtime heap or prove physical operation. The 4 MB build selection remains a target assumption until the actual board is connected and queried.
+- Exact targets are in `scripts/firmware.py`: classic ESP32 / 4 MB, and ESP32-S3 / advertised 16 MB QIO flash / OPI PSRAM / COM UART / CDC disabled. Both use a 2 MB no-OTA app and roughly 2 MB filesystem. S3 flash beyond that layout is intentionally unused.
+- The shared sketch compiled with both controller adapters, digital INMP441 input, MAX98357A I2S output, multipart upload, asynchronous polling, MP3 decoder and optional LED disabled. No analog substitution, insecure TLS setting or upload.
+- A local ignored CLI copy is available at `.tools/arduino-cli`; the Python tool and compatibility shell wrapper find it automatically. Normal builds use example credentials in a temporary sketch; private config/settings are preserved.
+- C++ regression checks reject S3 PSRAM/USB pins, old classic pin overrides on S3, overlapping signals, classic flash-bus pins and unsupported chip targets.
+- User-supplied JPG and clearer IMG_1446/1447/1448 HEIC photos were inspected. They show **HW678**, **Sixspan S3-N16R8**, relevant GPIO labels, fitted headers, onboard RGB LED and separate **COM / USB** connectors. These are photographic observations, not electrical tests.
+
+A cross-compile cannot measure board flash/PSRAM, runtime heap or prove physical operation. The 4 MB classic and 16 MB S3 selections must be confirmed on connected hardware. Windows startup/build/upload instructions are documented in `WINDOWS.md`; no Windows runtime or physical upload has been tested here.
 
 ## Pending physical / deployment acceptance
 
-- No ESP32 or audio hardware is currently available to the Mac. Actual board/module markings, flash capacity, serial connection and upload are unverified.
+- Neither controller is connected to this Mac. S3 labels are visible in photos; measured capacities, USB bridge identification, serial operation, upload and boot remain unverified.
 - INMP441 breakout pinout, header soldering, button continuity and microphone gain/noise.
 - MAX98357A still needs sourcing; verify the speaker driver's actual 4-ohm/10-watt marking and speaker wires.
 - Human microphone capture and audible speaker quality, brownouts, power-bank behavior and ten-turn physical endurance.
 - ESP32 WiFi, NTP, certificate validation and real network failure recovery.
 - Cloud hosting, proxy behavior, persistent storage across redeploy and venue network.
 
-The wiring table is checked against source and manufacturer interface requirements, not physically inspected. Follow `HARDWARE.md` step by step and complete `EXHIBITION.md` before calling the hardware exhibition-ready.
+The wiring tables are checked against source, visible S3 header labels and manufacturer interface requirements; physical connections are not tested. Follow `HARDWARE.md` step by step and complete `EXHIBITION.md` before calling the hardware exhibition-ready.
