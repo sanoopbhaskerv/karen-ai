@@ -6,7 +6,7 @@ For first-time use, follow the fully explained [English guide](../README.md) or 
 
 The user's photos show an HW678 PCB with a Sixspan module marked **S3-N16R8**, two USB-C connectors labelled **COM** and **USB** on the back, and an onboard RGB LED. This guide selects the ESP32-S3 adapter. The original classic ESP32 remains supported.
 
-The S3 build uses the advertised **16 MB flash / 8 MB octal PSRAM** configuration. A label is not a flash measurement: confirm with esptool and the boot log before commissioning. Cross-compilation passed on the Mac; these Windows commands and physical upload still need execution on the nephew's PC.
+The S3 build uses the advertised **16 MB flash / 8 MB octal PSRAM** configuration. A label is not a flash measurement: confirm with esptool and the boot log before commissioning. Cross-compilation passed on the Mac. Native Windows launchers, computer-only setup and server health passed on a Windows runner; board-tool setup/build and physical upload still need execution on the nephew's PC.
 
 ## 1. Get the updated source and start the backend
 

@@ -532,7 +532,7 @@ A Mac serial port looks like `/dev/cu...`, not COM5. See [hardware commissioning
 
 ## 18. What has been checked, and where to read more
 
-**Recorded software checks:** 73 tests passed; classic ESP32 and S3 firmware compiled on the Mac; real Malayalam chat and a synthesized-speech WAV→MP3/browser test passed. **Not yet verified:** running these Windows steps on your PC, actual board flash/PSRAM, upload, physical microphone/speaker quality and power stability. Do not call the hardware ready until those checks pass. Full evidence is in [VALIDATION.md](docs/VALIDATION.md).
+**Recorded software checks:** 109 Mac tests passed; native Windows launcher tests, computer-only setup and server health passed on a Windows runner; classic ESP32 and S3 firmware compiled on the Mac; real Malayalam chat and a synthesized-speech WAV→MP3/browser test passed. **Still needs your PC and board:** USB/driver checks, Windows board-tool setup/build, actual S3 flash/PSRAM, upload, physical microphone/speaker quality and power stability. Do not call the hardware ready until those checks pass. Full evidence is in [VALIDATION.md](docs/VALIDATION.md).
 
 - [മലയാളം: complete beginner guide](READMEMALAYALAM.md)
 - [Windows technical setup and Arduino IDE alternative](docs/WINDOWS.md)

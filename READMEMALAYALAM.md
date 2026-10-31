@@ -532,7 +532,7 @@ Mac serial port `/dev/cu...` എന്നപോലെയാകും; COM5 അ�
 
 ## 18. ഇതുവരെ പരിശോധിച്ചതും കൂടുതൽ വിവരങ്ങളും
 
-**രേഖപ്പെടുത്തിയ software പരിശോധനകൾ:** 73 tests വിജയിച്ചു. Classic ESP32, S3 firmware രണ്ടും Mac-ൽ compile ചെയ്തു. യഥാർഥ മലയാളം chat-ഉം കൃത്രിമ മലയാളം ശബ്ദം ഉപയോഗിച്ച WAV→MP3/browser test-ഉം വിജയിച്ചു. **ഇനിയും പരിശോധിക്കാനുള്ളത്:** നിങ്ങളുടെ Windows PC-യിൽ ഈ ഘട്ടങ്ങൾ പ്രവർത്തിപ്പിക്കൽ, യഥാർഥ flash/PSRAM, upload, microphone/speaker quality, power stability. അവ വിജയിക്കുന്നതുവരെ hardware തയ്യാറായെന്ന് കരുതരുത്. മുഴുവൻ തെളിവുകളും പരിധികളും [VALIDATION.md](docs/VALIDATION.md)-ൽ ഉണ്ട്.
+**രേഖപ്പെടുത്തിയ software പരിശോധനകൾ:** Mac-ൽ 109 tests വിജയിച്ചു. Windows runner-ൽ native launcher tests, computer-only setup, server health checks എന്നിവ വിജയിച്ചു. Classic ESP32, S3 firmware രണ്ടും Mac-ൽ compile ചെയ്തു. യഥാർഥ മലയാളം chat-ഉം കൃത്രിമ മലയാളം ശബ്ദം ഉപയോഗിച്ച WAV→MP3/browser test-ഉം വിജയിച്ചു. **ഇനിയും പരിശോധിക്കാനുള്ളത്:** നിങ്ങളുടെ Windows PC-യിലെ USB/driver, board-tool setup/build, S3 flash/PSRAM, upload, microphone/speaker quality, power stability. അവ വിജയിക്കുന്നതുവരെ hardware തയ്യാറായെന്ന് കരുതരുത്. മുഴുവൻ തെളിവുകളും പരിധികളും [VALIDATION.md](docs/VALIDATION.md)-ൽ ഉണ്ട്.
 
 - [English: complete beginner guide](README.md)
 - [Windows technical setup, Arduino IDE പകരം ഉപയോഗിക്കൽ](docs/WINDOWS.md)

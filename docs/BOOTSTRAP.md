@@ -92,7 +92,7 @@ Do not manually delete `.env`, `.env.local` or saved memory to fix installation.
 
 ### Verification limits
 
-Fresh and repeated Mac setup, private-file preservation, native Mac startup/Flask health, official CLI checksum/execution and a real S3 example build were tested. The fresh board build reused matching installed Mac core/library packages. Installation into a new isolated SDK folder is covered by regression tests, not a second multi-GB download. Windows paths/archive handling are covered by tests; the `.cmd` launchers still need a real Windows PC run. No physical upload or paid/live AI request is made by bootstrap.
+Fresh and repeated Mac setup, private-file preservation, native Mac startup/Flask health, official CLI checksum/execution and a real S3 example build were tested. The fresh board build reused matching installed Mac core/library packages. Installation into a new isolated SDK folder is covered by regression tests, not a second multi-GB download. Native `.cmd` argument/exit handling, real computer-only bootstrap/check and server health passed on a Windows runner. Physical Windows board-tool setup/upload remains pending on the student's PC. No physical upload or paid/live AI request is made by bootstrap.
 
 ## മലയാളം
 
@@ -180,4 +180,4 @@ Installation ശരിയാക്കാൻ `.env`, `.env.local`, saved memory �
 
 ### പരിശോധിച്ചതിന്റെ പരിധി
 
-Mac-ൽ fresh setup, വീണ്ടും setup, private files സംരക്ഷിക്കൽ, native start launcher/Flask health, official CLI checksum/execution, യഥാർഥ S3 example build എന്നിവ പരിശോധിച്ചു. Fresh board build നിലവിലുള്ള ശരിയായ Mac core/library packages ഉപയോഗിച്ചു. പുതിയ isolated SDK folder-ലേക്കുള്ള installation regression tests-ൽ പരിശോധിച്ചതാണ്; വീണ്ടും പല GB download നടത്തിയിട്ടില്ല. Windows paths/archive handling tests-ൽ ഉണ്ട്. `.cmd` launchers യഥാർഥ Windows PC-യിൽ ഇനിയും പ്രവർത്തിപ്പിക്കണം. Bootstrap physical upload-ഓ പണം ചെലവാകുന്ന/live AI request-ഓ നടത്തുന്നില്ല.
+Mac-ൽ fresh setup, വീണ്ടും setup, private files സംരക്ഷിക്കൽ, native start launcher/Flask health, official CLI checksum/execution, യഥാർഥ S3 example build എന്നിവ പരിശോധിച്ചു. Fresh board build നിലവിലുള്ള ശരിയായ Mac core/library packages ഉപയോഗിച്ചു. പുതിയ isolated SDK folder-ലേക്കുള്ള installation regression tests-ൽ പരിശോധിച്ചതാണ്; വീണ്ടും പല GB download നടത്തിയിട്ടില്ല. Windows runner-ൽ native `.cmd` tests, computer-only bootstrap/check, server health എന്നിവ വിജയിച്ചു. വിദ്യാർത്ഥിയുടെ PC-യിൽ board-tool setup/upload ഇനിയും പരിശോധിക്കണം. Bootstrap physical upload-ഓ പണം ചെലവാകുന്ന/live AI request-ഓ നടത്തുന്നില്ല.

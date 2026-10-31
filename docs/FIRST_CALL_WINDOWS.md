@@ -4,7 +4,7 @@ Use this guide together on the call. The student reads the printed labels and ma
 
 The supported carrier is the previously photographed **HW678 / Sixspan S3-N16R8**, with USB-C sockets marked **COM** and **USB**. A similar module name does not prove the carrier layout. If his board's labels differ, stop and identify it before wiring. GPIO numbers below are printed signal labels, not positions counted along a header.
 
-Software builds have been tested on the project owner's Mac. Windows execution, this student's connected board, and physical audio must pass the checks below before calling the complete system ready.
+Firmware builds have been tested on the project owner's Mac. Native Windows launchers, computer-only setup and server health passed on a Windows runner. This student's laptop, board-tool installation/build, connected S3 and physical audio must still pass the checks below before calling the complete system ready.
 
 ## 1. Put everything on the table
 

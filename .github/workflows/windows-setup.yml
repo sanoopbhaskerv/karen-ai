@@ -35,6 +35,14 @@ jobs:
       - name: Check real installed environment
         shell: cmd
         run: call bootstrap-windows.cmd --check
+      - name: Verify official Windows Arduino CLI download without SDK
+        shell: python
+        run: |
+          import subprocess
+          from scripts.bootstrap import ROOT, download_cli
+
+          cli = download_cli(ROOT)
+          subprocess.run([str(cli), 'version'], check=True)
       - name: Start native server launcher and check health without AI
         shell: python
         run: |
