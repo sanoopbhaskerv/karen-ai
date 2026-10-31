@@ -142,6 +142,8 @@ PSRAM: 8388608 bytes
     const count = document.querySelectorAll('.done input:checked').length;
     document.getElementById('progress').textContent = `${count} / 7 ഘട്ടങ്ങൾ പൂർത്തിയായി`;
   }));
+  const copyFeedbackTimers = new WeakMap();
+  let copyStatusTimer;
   document.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
     const code = document.getElementById(button.dataset.copy);
     const text = code.textContent;
@@ -170,6 +172,15 @@ PSRAM: 8388608 bytes
     document.getElementById('copy-status').textContent = copied
       ? 'കോപ്പി ചെയ്തു. ശരിയായ window-ൽ ഈ command മാത്രം paste ചെയ്യുക.'
       : 'Text തിരഞ്ഞെടുത്തു. Ctrl+C ഉപയോഗിച്ച് കോപ്പി ചെയ്യുക.';
+    clearTimeout(copyFeedbackTimers.get(button));
+    copyFeedbackTimers.set(button, setTimeout(() => {
+      button.textContent = 'കോപ്പി';
+      copyFeedbackTimers.delete(button);
+    }, 4000));
+    clearTimeout(copyStatusTimer);
+    copyStatusTimer = setTimeout(() => {
+      document.getElementById('copy-status').textContent = '';
+    }, 4000);
     if (copied) button.focus({preventScroll:true});
   }));
 </script>
