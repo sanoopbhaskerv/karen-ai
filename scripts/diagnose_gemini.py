@@ -2,6 +2,7 @@
 import argparse
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -13,7 +14,14 @@ def main():
     parser.add_argument('--model', help='Exact model ID returned by models.list')
     parser.add_argument('--list-only', action='store_true')
     args = parser.parse_args()
-    app = create_app()
+    # App startup can migrate a legacy identity. A diagnostic must never touch
+    # the owner's real saved facts, even in --list-only or missing-key cases.
+    with tempfile.TemporaryDirectory(prefix='karen-model-check-') as temporary:
+        app = create_app({'MEMORY_PATH': str(Path(temporary) / 'memory.txt'), 'DEMO_MODE': False})
+        return diagnose(app, args)
+
+
+def diagnose(app, args):
     if not app.config['GEMINI_API_KEY']:
         print('GEMINI_API_KEY is missing; configure it locally.'); return 1
     from google import genai
@@ -36,7 +44,7 @@ def main():
     app.config['GEMINI_MODEL'] = model
     try:
         # Isolated diagnostic: never add a conversation turn or update saved facts.
-        reply = Providers(app).answer(DEFAULT_MEMORY, [], 'നിന്നെ ആരാണ് നിർമ്മിച്ചത്?')
+        reply = Providers(app).answer(DEFAULT_MEMORY, [], 'മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?')
         print(json.dumps({'model': model, 'inference': 'succeeded', 'reply': reply}, ensure_ascii=False))
         return 0
     except Exception as exc:

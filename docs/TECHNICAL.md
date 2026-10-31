@@ -5,7 +5,7 @@ For first-time Windows setup, start with the [English guide](../README.md) or [�
 
 **മലയാളത്തിലുള്ള എല്ലാ നിർദേശങ്ങൾക്കും:** [READMEMALAYALAM.md](../READMEMALAYALAM.md)
 
-Science exhibition assistant for Sreehari V, Class 9S, PKMMHSS Edarikode.
+Malayalam science exhibition assistant with an anonymous public identity.
 
 **Using Windows and the photographed HW678 / ESP32-S3 N16R8 board?** Start with [the Windows setup guide](WINDOWS.md). Both it and the original classic ESP32 use the same backend.
 
@@ -48,9 +48,9 @@ python scripts/diagnose_gemini.py
 python scripts/diagnose_gemini.py --model <listed-model-id>
 ```
 
-Model listing proves metadata access; the separate inference test proves generation for the selected model. The diagnostic never updates saved facts or conversation. Gemini 1.5 is retired; a new key does not restore it. The original `gemini-3.8-flash` returned 504 deadlines at both 30 and 60 seconds, plus 503 high-demand responses. `gemini-3.5-flash-lite` returned a real Malayalam answer about Sreehari in 1.2 seconds with the same key. This establishes a working alternative, not the internal cause of Google's service failure.
+Model listing proves metadata access; the separate inference test proves generation for the selected model. The diagnostic never updates saved facts or conversation. Gemini 1.5 is retired; a new key does not restore it. The original `gemini-3.8-flash` returned 504 deadlines at both 30 and 60 seconds, plus 503 high-demand responses. In the earlier configuration, `gemini-3.5-flash-lite` returned a real Malayalam answer using the then-configured creator facts in 1.2 seconds with the same key. This establishes a working alternative, not the internal cause of Google's service failure or a test of the newer anonymous identity.
 
-Try `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?`, then a science question and a follow-up. Answers should be brief, natural Malayalam. The model can still make mistakes; inspect demonstration answers. Fixed Malayalam instructions remain separate from editable facts.
+Try `നീ എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?`, then a science question and a follow-up. Check that `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` gives a neutral response without identifying details. Answers should be brief, natural Malayalam. The model can still make mistakes; inspect demonstration answers. Fixed Malayalam and identity-privacy instructions remain separate from editable facts.
 
 `GET /health` is a local process/configuration check. `configured: true` means a key is present. `gemini.status` starts `untested`, becomes `ready` after successful generation, or `degraded` after failure. It describes the last attempt, not a promise of future availability. Health checks never call Gemini.
 
@@ -74,6 +74,8 @@ HTTP 505 means HTTP Version Not Supported. The reproduced failure was 504, not 5
 Browser microphone access requires localhost or trusted HTTPS and microphone permission. On the Mac use **localhost**, not its LAN IP. A phone on the same WiFi can use `http://<Mac-LAN-IP>:8080` for text and memory; phone recording needs trusted HTTPS. The recorder captures five seconds, converts to mono PCM WAV and displays a playable MP3 response. Chrome software tests use synthesized Malayalam input; human microphone quality remains a separate acceptance step.
 
 `data/memory.txt` holds editable permanent facts. Saving memory replaces it atomically and clears the shared conversation. New chat and restart clear RAM history. The last ten complete turns are shared across browser/device. Memory paths are relative to this project, not the terminal's working directory. An answer still running when memory/reset changes cannot restore the old conversation.
+
+The default public identity does not identify the creator, school, class section or home. Startup removes the known legacy creator biography from an existing saved-memory file, retaining unrelated custom science facts. The fixed privacy instructions cannot be overridden by editable memory. After applying this update, restart every server process and refresh connected dashboards: old process-local conversation and completed text/audio jobs may still hold identifying content until that restart. Treat the anonymous identity as a presentation choice, separate from official contestant registration and construction evidence.
 
 Offline interface demo: set `DEMO_MODE=1`, restart. Replies are labelled scripted; voice is disabled. Restore `DEMO_MODE=0` for live operation.
 

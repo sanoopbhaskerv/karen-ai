@@ -6,7 +6,7 @@
 
 **Changing WiFi or the server address later?** Use [the Malayalam WiFi-change and retest guide](docs/windows-wifi-change-malayalam.html). It covers the updated settings, USB upload, network checks and a fresh board question test.
 
-Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 9S, PKMMHSS Edarikode**. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
+Karen is a Malayalam-speaking science exhibition assistant. Its presentation keeps the creator's name, school, class section and home details private. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
 
@@ -202,10 +202,10 @@ Now start the server:
 1. Keep this window open. Call it **Window A — server**. It will be busy running the app; that is normal.
 2. Open Chrome or Edge.
 3. Type **http://localhost:8080** into the browser's address bar.
-4. In the chat box, type `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` and click the arrow to send.
+4. In the chat box, type `നീ എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?` and click the arrow to send.
 5. Wait for the Malayalam reply. Try `മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?` next.
 
-**Check:** you should get real answers about Sreehari and rain. If you only hear/read an apology, the request has failed; look at Window A for the error code. Do not press Send repeatedly while waiting.
+**Check:** you should get real Malayalam answers about Karen's operation and rain. Asking who made Karen should produce a neutral reply without the creator's identifying details. If you only hear/read a service-error apology, the request has failed; look at Window A for the error code. Do not press Send repeatedly while waiting.
 
 `http://localhost:8080/health` shows the app's status. `configured: true` only means a key is present. `gemini.status: ready` describes the last successful generation. It does not guarantee that the next request will succeed.
 
@@ -229,12 +229,14 @@ You still do not need the controller or amplifier for this step.
 
 The **What Karen remembers** box contains facts saved in `data/memory.txt`.
 
-1. Keep the existing creator, class and school information.
+1. Keep useful science facts and preferences. Leave creator names, school, class section and home details out of the shared memory.
 2. If you want to add a real fact for the exhibition, first make a private backup of `data/memory.txt`, for example another copy inside the `data` folder.
 3. Add the fact, then click **Save memory**.
 4. Ask a question about it to check the answer.
 
 Saving memory starts a new conversation. **New chat** clears the conversation but keeps saved facts. Restarting the server also clears the conversation and keeps saved facts. These facts are shared by everyone using this dashboard; do not add private information.
+
+The updated server starts with an anonymous Karen identity and removes the known older creator biography from saved memory while preserving unrelated science facts. Fixed privacy instructions cannot be overridden by editing memory. After updating, stop and restart every running Karen server before the exhibition: this also clears old conversation text and cached text/audio results from RAM. Then refresh the dashboard and check the anonymous creator reply. This is the requested presentation privacy choice; it does not replace the organisers' registration requirements.
 
 **Finish this computer stage before moving on.** If text and browser voice do not work, connecting more wires will not fix the AI service.
 

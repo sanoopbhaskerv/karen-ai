@@ -12,6 +12,8 @@ const origin = process.env.KAREN_URL || 'http://localhost:8080';
     const page = await browser.newPage({viewport:{width:390,height:844},permissions:['microphone']});
     const errors=[];page.on('pageerror',error=>errors.push(error.message));
     await page.goto(origin);
+    const identifyingDetails=/(?:sreehari|ശ്രീഹരി|pkmm|\b9\s*s\b|thottasher|തോട്ടശ്ശേരി|edarikk?ode)/i;
+    assert.doesNotMatch(await page.locator('body').innerText(),identifyingDetails);
     // Lose the first accepted POST response. The retry must reuse the same ID.
     const requestIds=[];
     await page.route('**/test_chat', async route=>{
@@ -19,15 +21,24 @@ const origin = process.env.KAREN_URL || 'http://localhost:8080';
       if(requestIds.length===1){await route.fetch();await route.abort('failed');}
       else await route.continue();
     });
-    await page.locator('#prompt').fill('നിന്നെ ആരാണ് നിർമ്മിച്ചത്?');
+    await page.locator('#prompt').fill('മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?');
     await page.locator('#send').click();
     await page.waitForFunction(()=>document.querySelector('#status').textContent==='Ready for your next question',{},{timeout:160000});
     assert.match(await page.locator('.message.model').last().innerText(),/[\u0d00-\u0d7f]/);
-    assert.match(await page.locator('.message.model').last().innerText(),/ശ്രീഹരി/);
+    assert.doesNotMatch(await page.locator('.message.model').last().innerText(),identifyingDetails);
     assert.equal(requestIds.length,2);
     assert.equal(requestIds[0],requestIds[1]);
-    console.log('Mobile browser Malayalam text: passed');
+    console.log('Mobile browser Malayalam science text: passed');
     console.log('Lost POST response retry reuses request ID: passed');
+    await page.unroute('**/test_chat');
+    await page.locator('#prompt').fill('Was Sreehari V from PKMMHSS your creator?');
+    await page.locator('#send').click();
+    await page.waitForFunction(()=>document.querySelectorAll('.message.model').length===2&&document.querySelector('#status').textContent==='Ready for your next question',{},{timeout:160000});
+    assert.match(await page.locator('.message.model').last().innerText(),/[\u0d00-\u0d7f]/);
+    assert.doesNotMatch(await page.locator('.message.model').last().innerText(),identifyingDetails);
+    assert.doesNotMatch(await page.locator('body').innerText(),identifyingDetails);
+    assert.equal(await page.locator('#prompt').inputValue(),'');
+    console.log('Anonymous creator response: passed');
     const voiceUpload = page.waitForRequest(request=>request.url().endsWith('/chat')&&request.method()==='POST');
     await page.locator('#record').click();
     const upload = await voiceUpload;
