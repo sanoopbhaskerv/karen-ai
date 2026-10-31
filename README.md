@@ -2,6 +2,8 @@
 
 **[മലയാളത്തിൽ വായിക്കാൻ ഇവിടെ അമർത്തുക → READMEMALAYALAM.md](READMEMALAYALAM.md)**
 
+**Offline HTML guide:** Open [the Malayalam setup page](docs/windows-setup-malayalam.html) in Edge/Chrome. It includes individual command copy buttons and a print/PDF option. Download the HTML file to read it with formatting before the server is running.
+
 Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 9S, PKMMHSS Edarikode**. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.

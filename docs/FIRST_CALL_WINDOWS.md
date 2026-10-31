@@ -1,5 +1,7 @@
 # First wiring call: Windows + S3-N16R8
 
+For the student, download and open the [standalone Malayalam HTML guide](windows-setup-malayalam.html) in Edge/Chrome. It preserves formatting, includes command copy buttons and works before the server starts.
+
 Use this guide together on the call. The student reads the printed labels and makes one connection at a time; the adult checks each stage before power is connected. **Begin with the laptop and a USB-only board. Add the microphone/button after upload and WiFi work.** The amplifier can wait until it is available.
 
 The supported carrier is the previously photographed **HW678 / Sixspan S3-N16R8**, with USB-C sockets marked **COM** and **USB**. A similar module name does not prove the carrier layout. If his board's labels differ, stop and identify it before wiring. GPIO numbers below are printed signal labels, not positions counted along a header.

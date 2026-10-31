@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Windows ലാപ്‌ടോപ്പും ESP32-S3 controller-ഉം ഉപയോഗിച്ച് Karen ഒരുക്കാനുള്ള മലയാളം നിർദ്ദേശങ്ങൾ.">
+  <title>Karen — മലയാളം Setup Guide</title>
+  <style>
+    :root{color-scheme:light;--ink:#1b302b;--muted:#52665f;--green:#175b46;--line:#d9e2db;--paper:#fff;--bg:#f4f6f1}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nirmala UI",Kartika,"Noto Sans Malayalam",system-ui,sans-serif;font-size:17px;line-height:1.85}
+    a{color:var(--green);text-underline-offset:4px}button,input{font:inherit}button,a,input{touch-action:manipulation}
+    button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #d58616;outline-offset:4px}
+    .skip{position:absolute;left:1rem;top:-6rem;padding:.7rem;background:white}.skip:focus{top:1rem}
+    header,main,footer{max-width:960px;margin:auto;padding:2rem 1.25rem}header{padding-top:3rem;padding-bottom:1rem}
+    .eyebrow{font-family:system-ui,sans-serif;font-size:.78rem;letter-spacing:.13em;font-weight:750;color:var(--green)}
+    h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.45;letter-spacing:-.03em;margin:.6rem 0}h2{font-size:1.3rem;line-height:1.65;margin:0 0 .75rem}
+    p{margin:.7rem 0}strong{font-weight:750}.lead{max-width:760px;color:var(--muted)}
+    .tools{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin:1.25rem 0}.tools button{background:var(--green);border:0;color:white;border-radius:8px;padding:.5rem 1rem}
+    nav{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.2rem 0}nav a{border:1px solid var(--line);background:white;border-radius:30px;padding:.35rem .85rem;text-decoration:none;font-size:.9rem}
+    main{padding-top:0}.step{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:1.2rem 0;padding:1.5rem}
+    .step-heading{display:flex;align-items:flex-start;gap:.85rem}.number{flex:none;display:grid;place-items:center;width:2.1rem;height:2.1rem;background:#e5f1e9;color:var(--green);border-radius:50%;font-family:system-ui,sans-serif;font-weight:750}
+    .notice{border-left:4px solid #c88b29;background:#fff6e5;padding:.85rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
+    .go{border-left:4px solid var(--green);background:#edf6ef;padding:.85rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
+    .command{border:1px solid var(--line);border-radius:9px;overflow:hidden;margin:.85rem 0}
+    .command-head{display:flex;justify-content:space-between;gap:.7rem;align-items:center;background:#eff3ee;padding:.45rem .8rem;font-size:.8rem;color:var(--muted)}
+    .copy{flex:none;border:1px solid #b8c9be;background:white;color:var(--green);border-radius:6px;padding:.3rem .65rem;font-size:.85rem;min-height:40px}
+    pre{margin:0;padding:1rem;background:#fbfcfa;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;font-size:.88rem}
+    code{font-family:Consolas,"Cascadia Code",ui-monospace,monospace}p code,li code{background:#edf2ec;padding:.1rem .25rem;border-radius:3px;overflow-wrap:anywhere;font-size:.9em}
+    ul,ol{padding-left:1.5rem}li{margin:.4rem 0}.done{display:flex;align-items:center;gap:.7rem;margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.done input{width:20px;height:20px;accent-color:var(--green)}
+    .step.complete{border-color:#6f9e81}.wiring{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:.8rem 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}.wiring dt,.wiring dd{margin:0;padding:.55rem .8rem;border-bottom:1px solid var(--line)}.wiring dt{background:#f4f7f2;font-family:system-ui,sans-serif}.wiring dd{font-family:system-ui,sans-serif}.wiring :nth-last-child(-n+2){border-bottom:0}
+    footer{padding-top:0;color:var(--muted);font-size:.9rem}.status{font-size:.85rem;color:var(--green);min-height:1.5rem}.small{font-size:.88rem;color:var(--muted)}
+    @media(max-width:520px){body{font-size:16px}.step{padding:1rem}header,main,footer{padding-left:.8rem;padding-right:.8rem}.command-head{padding:.45rem .6rem}pre{padding:.8rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:white;font-size:11pt}header,main,footer{max-width:none;padding:.5rem}nav,.tools,.copy,.done,.status,.skip{display:none}.step{border-radius:0;break-inside:auto;margin:.75rem 0;padding:1rem}.command,.notice,.go,.wiring{break-inside:avoid}h2{break-after:avoid}a{color:inherit}pre{font-size:9pt}}
+  </style>
+</head>
+<body>
+<a class="skip" href="#guide">നിർദ്ദേശങ്ങളിലേക്ക് പോകുക</a>
+<header>
+  <div class="eyebrow">KAREN / WINDOWS + ESP32-S3 / S3-N16R8</div>
+  <h1>ഓരോ ഘട്ടമായി<br>കാരെൻ ഒരുക്കാം.</h1>
+  <p class="lead">Windows ലാപ്‌ടോപ്പിനുള്ള മലയാളം നിർദ്ദേശങ്ങൾ. ഈ ഫയൽ Edge അല്ലെങ്കിൽ Chrome-ൽ നേരിട്ട് തുറക്കാം; വായിക്കാൻ Karen server തുടങ്ങേണ്ടതില്ല. Setup downloads-നും live chat-നും ഇന്റർനെറ്റ് വേണം.</p>
+  <div class="notice"><strong>ആദ്യം കമ്പ്യൂട്ടറും USB പരിശോധനയും മാത്രം.</strong> മൈക്രോഫോൺ, ബട്ടൺ, ആംപ്ലിഫയർ എന്നിവയുടെ wiring മുതിർന്നയാൾ ഒപ്പമുണ്ടാകുമ്പോൾ ചെയ്യുക. ഓരോ command-ഉം ഒന്നൊന്നായി നൽകുക. <strong>FAIL അല്ലെങ്കിൽ error കണ്ടാൽ നിർത്തുക.</strong></div>
+  <div class="tools"><button type="button" id="print">പ്രിന്റ് / PDF</button><span id="progress" aria-live="polite">0 / 7 ഘട്ടങ്ങൾ പൂർത്തിയായി</span></div>
+  <nav aria-label="ഘട്ടങ്ങൾ"><a href="#step1">1. Setup</a><a href="#step2">2. Doctor</a><a href="#step3">3. Laptop chat</a><a href="#step4">4. USB / COM</a><a href="#step5">5. WiFi</a><a href="#step6">6. Upload</a><a href="#step7">7. Mic / button</a></nav>
+  <p class="small">എല്ലാ PowerShell commands-ഉം <code>app.py</code> ഉള്ള project folder-ൽ നൽകുക. പേജ് മുഴുവൻ PowerShell-ൽ paste ചെയ്യരുത്. ഓരോ command-ന്റെയും കോപ്പി ബട്ടൺ ഉപയോഗിക്കുക.</p>
+  <p id="copy-status" class="status" role="status" aria-live="polite"></p>
+</header>
+<main id="guide">
+  <section class="step" id="step1" aria-labelledby="title1">
+    <div class="step-heading"><span class="number" aria-hidden="true">1</span><h2 id="title1">Setup പൂർത്തിയാക്കുക</h2></div>
+    <p><strong>ഇപ്പോൾ controller ബന്ധിപ്പിക്കേണ്ടതില്ല.</strong> Python 3.15 മാറ്റേണ്ടതില്ല. Project folder-ൽ തുറന്ന PowerShell-ൽ ആദ്യം ഇത് നൽകുക:</p>
+    <div class="command"><div class="command-head"><span>PowerShell · PyYAML recovery</span><button class="copy" type="button" data-copy="cmd1" aria-describedby="cmd1">കോപ്പി</button></div><pre><code id="cmd1">$env:PYYAML_FORCE_LIBYAML = '0'</code></pre></div>
+    <p>അതേ window-ൽ തുടർന്ന് നൽകുക:</p>
+    <div class="command"><div class="command-head"><span>PowerShell · setup + example compile</span><button class="copy" type="button" data-copy="cmd2" aria-describedby="cmd2">കോപ്പി</button></div><pre><code id="cmd2">.\bootstrap-windows.cmd --controller esp32_s3 --firmware --compile</code></pre></div>
+    <p>ആദ്യ command PyYAML-ന്റെ optional C extension ഒഴിവാക്കും. പുതുക്കിയ bootstrap ഇത് സ്വയം ചെയ്യുന്നു. നിലവിലുള്ള <code>.venv</code>, private settings, saved memory എന്നിവ delete ചെയ്യരുത്.</p>
+    <div class="go"><strong>പരിശോധിക്കുക:</strong> “Still working” സാധാരണമാണ്. Downloads-നും compile-നും സമയം വേണം. <strong>SETUP COMPLETE</strong> കാണുന്നതുവരെ കാത്തിരിക്കുക. ഈ command firmware upload ചെയ്യുന്നില്ല.</div>
+    <label class="done"><input type="checkbox">Setup വിജയിച്ചു</label>
+  </section>
+  <section class="step" id="step2" aria-labelledby="title2">
+    <div class="step-heading"><span class="number" aria-hidden="true">2</span><h2 id="title2">കമ്പ്യൂട്ടർ പരിശോധിക്കുക</h2></div>
+    <div class="command"><div class="command-head"><span>PowerShell · controller disconnected</span><button class="copy" type="button" data-copy="cmd3" aria-describedby="cmd3">കോപ്പി</button></div><pre><code id="cmd3">.\doctor-windows.cmd --controller esp32_s3</code></pre></div>
+    <p>Controller ബന്ധിപ്പിച്ചിട്ടില്ലാത്തതിനാൽ port/chip/network സംബന്ധിച്ച <code>WARN</code> വരാം. ഇപ്പോൾ അവ പ്രതീക്ഷിക്കാവുന്നതാണ്.</p>
+    <div class="notice"><strong>FAIL കണ്ടാൽ</strong> output സൂക്ഷിച്ച് ഇവിടെ നിർത്തുക. <code>WARN</code> വായിച്ച് ഏത് പരിശോധനയാണ് ബാക്കിയെന്ന് മനസ്സിലാക്കുക.</div>
+    <label class="done"><input type="checkbox">പരിശോധിച്ചു; FAIL ഇല്ല</label>
+  </section>
+  <section class="step" id="step3" aria-labelledby="title3">
+    <div class="step-heading"><span class="number" aria-hidden="true">3</span><h2 id="title3">ലാപ്‌ടോപ്പിൽ Karen പരിശോധിക്കുക</h2></div>
+    <p>Project folder-ൽ മറ്റൊരു PowerShell തുറക്കുക. അതാണ് <strong>Window A — Server</strong>. ആദ്യത്തെ window പിന്നീട് board commands-ന് ഉപയോഗിക്കാം.</p>
+    <div class="command"><div class="command-head"><span>Window A · PowerShell</span><button class="copy" type="button" data-copy="cmd4" aria-describedby="cmd4">കോപ്പി</button></div><pre><code id="cmd4">.\start-windows.cmd</code></pre></div>
+    <p>ഈ window തുറന്നുതന്നെ വയ്ക്കുക. Chrome/Edge-ൽ <a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a> തുറക്കുക.</p>
+    <ol><li><strong>മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?</strong> എന്ന് ചോദിക്കുക. അർത്ഥമുള്ള മലയാളം മറുപടി ലഭിക്കണം.</li><li>“Record a question” അമർത്തി laptop microphone permission അനുവദിക്കുക.</li><li>അഞ്ച് സെക്കൻഡിനുള്ളിൽ ഒരു ചെറിയ ചോദ്യം ചോദിക്കുക. ശബ്ദത്തിലുള്ള മറുപടി ലഭിക്കുന്നുണ്ടോ എന്ന് നോക്കുക.</li></ol>
+    <div class="notice">API key ഇല്ലെങ്കിൽ മുതിർന്നയാളുടെ സഹായം തേടുക. Key ചാറ്റിലോ screenshot-ലോ അയക്കരുത്. ഒരു spoken apology/error ലഭിക്കുന്നത് വിജയിച്ച test അല്ല.</div>
+    <label class="done"><input type="checkbox">യഥാർഥ text, voice മറുപടികൾ ലഭിച്ചു</label>
+  </section>
+  <section class="step" id="step4" aria-labelledby="title4">
+    <div class="step-heading"><span class="number" aria-hidden="true">4</span><h2 id="title4">Controller മാത്രം ബന്ധിപ്പിക്കുക</h2></div>
+    <p>ബോർഡിലെ <strong>COM</strong> എന്ന് എഴുതിയ USB-C socket ഉപയോഗിക്കുക. USB <strong>data cable</strong> വേണം. മൈക്രോഫോൺ, ബട്ടൺ, ആംപ്ലിഫയർ, സ്പീക്കർ എന്നിവ ബന്ധിപ്പിക്കരുത്.</p>
+    <p>ആദ്യത്തെ PowerShell ആണ് <strong>Window B — Board</strong>. ഇനി board commands ഇതിൽ നൽകുക; അതേ window തുറന്നുവയ്ക്കുക.</p>
+    <div class="command"><div class="command-head"><span>Window B · port list</span><button class="copy" type="button" data-copy="cmd5" aria-describedby="cmd5">കോപ്പി</button></div><pre><code id="cmd5">.\.venv\Scripts\python.exe scripts\board.py ports</code></pre></div>
+    <p>ഒന്നിലധികം ports ഉണ്ടെങ്കിൽ USB ഊരി list വീണ്ടും പരിശോധിക്കുക. തിരിച്ചുബന്ധിപ്പിക്കുമ്പോൾ വരുന്ന port ആണ് ബോർഡിന്റേത്. COM number ഊഹിക്കരുത്.</p>
+    <div class="command"><div class="command-head"><span>Window B · യഥാർഥ COM പേര് നൽകുക</span><button class="copy" type="button" data-copy="cmd6" aria-describedby="cmd6">കോപ്പി</button></div><pre><code id="cmd6">$karenPort = Read-Host "Type the controller's COM port shown above"</code></pre></div>
+    <p>ചോദിക്കുമ്പോൾ list-ൽ കണ്ട യഥാർഥ COM പേര് നൽകി Enter അമർത്തുക. തുടർന്ന്:</p>
+    <div class="command"><div class="command-head"><span>Window B · chip / flash check</span><button class="copy" type="button" data-copy="cmd7" aria-describedby="cmd7">കോപ്പി</button></div><pre><code id="cmd7">.\doctor-windows.cmd --controller esp32_s3 --port $karenPort --probe-chip</code></pre></div>
+    <div class="go"><strong>ESP32-S3, 16 MB flash</strong> എന്ന് സ്ഥിരീകരിച്ചാൽ മാത്രം തുടരുക. വ്യത്യസ്തമായ ഫലം വന്നാൽ നിർത്തുക. ഈ probe ബോർഡ് reset ചെയ്യാം; flash erase/upload ചെയ്യുന്നില്ല.</div>
+    <label class="done"><input type="checkbox">ശരിയായ COM port, S3, 16 MB സ്ഥിരീകരിച്ചു</label>
+  </section>
+  <section class="step" id="step5" aria-labelledby="title5">
+    <div class="step-heading"><span class="number" aria-hidden="true">5</span><h2 id="title5">WiFi വിവരങ്ങൾ നൽകുക</h2></div>
+    <p>Window A-യിലെ server പ്രവർത്തിച്ചുകൊണ്ടിരിക്കണം. Window B-ൽ:</p>
+    <div class="command"><div class="command-head"><span>Window B · laptop IPv4</span><button class="copy" type="button" data-copy="cmd8" aria-describedby="cmd8">കോപ്പി</button></div><pre><code id="cmd8">ipconfig</code></pre></div>
+    <p>ഉപയോഗിക്കുന്ന <strong>WiFi adapter-ന്റെ IPv4 Address</strong> കണ്ടെത്തുക. Default Gateway, VPN/virtual adapter address എന്നിവ എടുക്കരുത്.</p>
+    <div class="command"><div class="command-head"><span>Window B · private config തുറക്കുക</span><button class="copy" type="button" data-copy="cmd9" aria-describedby="cmd9">കോപ്പി</button></div><pre><code id="cmd9">notepad firmware\karen_ai\config.h</code></pre></div>
+    <p>Notepad-ൽ നിലവിലുള്ള ഈ മൂന്ന് വരികളിലെ example വിവരങ്ങൾ മാറ്റുക. താഴെയുള്ള block <strong>PowerShell-ൽ നൽകേണ്ടതല്ല</strong>.</p>
+    <div class="command"><div class="command-head"><span>config.h · Notepad-ൽ മാത്രം</span><button class="copy" type="button" data-copy="config-example" aria-describedby="config-example">കോപ്പി</button></div><pre><code id="config-example">#define WIFI_SSID "YOUR_2_4_GHZ_HOTSPOT"
+#define WIFI_PASSWORD "YOUR_HOTSPOT_PASSWORD"
+#define SERVER_ORIGIN "http://192.168.1.50:8080"</code></pre></div>
+    <ul><li>WiFi-യുടെ യഥാർഥ പേരും password-ഉം നൽകുക. <strong>2.4 GHz WiFi</strong> ഉപയോഗിക്കുക.</li><li><code>192.168.1.50</code> ഒരു example ആണ്. പകരം laptop-ന്റെ യഥാർഥ IPv4 നൽകുക. <code>localhost</code> നൽകരുത്.</li><li>Quotes, <code>http://</code>, <code>:8080</code> എന്നിവ നിലനിർത്തുക. അവസാനം slash ചേർക്കരുത്.</li><li>മറ്റു settings മാറ്റരുത്. Save ചെയ്ത് Notepad അടയ്ക്കുക. Gemini API key ഈ ഫയലിൽ ഇടരുത്.</li></ul>
+    <p>ലാപ്‌ടോപ്പും ബോർഡും പരസ്പരം ബന്ധപ്പെടാൻ കഴിയുന്ന ഒരേ network-ൽ വേണം. Firewall ചോദിച്ചാൽ മുതിർന്നയാളുടെ സഹായത്തോടെ trusted Private network-ൽ Python അനുവദിക്കുക; firewall മുഴുവനായി ഓഫ് ചെയ്യരുത്.</p>
+    <label class="done"><input type="checkbox">യഥാർഥ WiFi വിവരങ്ങളും laptop IPv4-ഉം നൽകി</label>
+  </section>
+  <section class="step" id="step6" aria-labelledby="title6">
+    <div class="step-heading"><span class="number" aria-hidden="true">6</span><h2 id="title6">Firmware upload ചെയ്യുക</h2></div>
+    <p>ബോർഡിൽ ഇപ്പോഴും external വയറുകളൊന്നും ബന്ധിപ്പിക്കരുത്. Monitor തുറന്നിട്ടുണ്ടെങ്കിൽ <strong>Ctrl+C</strong> ഉപയോഗിച്ച് അടയ്ക്കുക. ഈ upload ബോർഡിലെ നിലവിലുള്ള firmware മാറ്റും.</p>
+    <div class="command"><div class="command-head"><span>Window B · compile + upload</span><button class="copy" type="button" data-copy="cmd10" aria-describedby="cmd10">കോപ്പി</button></div><pre><code id="cmd10">.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port $karenPort</code></pre></div>
+    <p>Upload വിജയിച്ചശേഷം:</p>
+    <div class="command"><div class="command-head"><span>Window B · Serial Monitor + log</span><button class="copy" type="button" data-copy="cmd11" aria-describedby="cmd11">കോപ്പി</button></div><pre><code id="cmd11">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
+    <p>Startup സന്ദേശങ്ങൾ കാണുന്നില്ലെങ്കിൽ <strong>RESET/EN</strong> ഒരിക്കൽ അമർത്തുക. ഇവ പരിശോധിക്കുക:</p>
+    <pre><code>Controller: esp32_s3
+flash: 16777216 bytes
+PSRAM: 8388608 bytes
+[WIFI] Connected
+[READY]</code></pre>
+    <div class="notice"><strong>മുതിർന്നയാൾ തിരികെ വരുന്നതുവരെ ഇവിടെ നിർത്തുക.</strong> തെറ്റായ memory size, WiFi error അല്ലെങ്കിൽ ആവർത്തിച്ചുള്ള reboot കണ്ടാൽ output സൂക്ഷിക്കുക. READY മാത്രം കാണുന്നത് എല്ലാ പരിശോധനകളും വിജയിച്ചു എന്നർത്ഥമല്ല. മറ്റൊരു upload/probe നടത്തുന്നതിന് മുമ്പ് monitor Ctrl+C ഉപയോഗിച്ച് അടയ്ക്കണം.</div>
+    <label class="done"><input type="checkbox">Upload, memory sizes, WiFi, READY പരിശോധിച്ചു</label>
+  </section>
+  <section class="step" id="step7" aria-labelledby="title7">
+    <div class="step-heading"><span class="number" aria-hidden="true">7</span><h2 id="title7">മുതിർന്നയാളോടൊപ്പം mic / button wiring</h2></div>
+    <div class="notice"><strong>ആദ്യം USB-യും മറ്റു power supplies-ഉം ഊരുക.</strong> ബോർഡിൽ എഴുതിയ GPIO നമ്പറുകൾ നോക്കുക; pin സ്ഥാനം എണ്ണരുത്. Microphone VDD-ക്ക് <strong>5V നൽകരുത്.</strong> ആംപ്ലിഫയർ ഇപ്പോൾ ബന്ധിപ്പിക്കരുത്.</div>
+    <dl class="wiring"><dt>INMP441 VDD</dt><dd>3V3</dd><dt>GND</dt><dd>GND</dd><dt>SCK / BCLK</dt><dd>GPIO4</dd><dt>WS</dt><dd>GPIO5</dd><dt>SD</dt><dd>GPIO6</dd><dt>L/R</dt><dd>GND</dd></dl>
+    <p>External button-ന്റെ ഒരു contact <strong>GPIO7</strong>-ലും മറ്റേത് <strong>GND</strong>-യിലും ബന്ധിപ്പിക്കുക. അമർത്തുമ്പോൾ മാത്രം ഈ രണ്ട് contacts ബന്ധപ്പെടുന്നുണ്ടെന്ന് മുതിർന്നയാൾ പരിശോധിക്കണം. നാല് കാലുള്ള button-ൽ രണ്ട് contacts ഊഹിച്ച് തിരഞ്ഞെടുക്കരുത്. Onboard BOOT question button ആയി ഉപയോഗിക്കരുത്.</p>
+    <p>USB തിരിച്ചുബന്ധിപ്പിച്ച് monitor തുറക്കുക. Window A-യിലെ server പ്രവർത്തിക്കണം.</p>
+    <div class="command"><div class="command-head"><span>Window B · Serial Monitor</span><button class="copy" type="button" data-copy="cmd12" aria-describedby="cmd12">കോപ്പി</button></div><pre><code id="cmd12">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
+    <p>Button ഒരിക്കൽ അമർത്തി വിടുക. <strong>[MIC] Recording. Speak now.</strong> കണ്ടശേഷം അഞ്ച് സെക്കൻഡിനുള്ളിൽ സംസാരിക്കുക. Button ആവർത്തിച്ച് അമർത്താതെ reply പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കുക.</p>
+    <div class="go"><strong>പരിശോധിക്കുക:</strong> <code>samples=80000/80000</code>, <code>[HTTP] Result: ok</code> എന്നിവ പ്രതീക്ഷിക്കാം. Zero-signal warning അല്ലെങ്കിൽ <code>spoken-error</code> വന്നാൽ test വിജയിച്ചിട്ടില്ല. Laptop-ലെ Karen page refresh ചെയ്ത് തിരിച്ചറിഞ്ഞ ചോദ്യവും മറുപടിയും വായിക്കുക.</div>
+    <p><strong>ആംപ്ലിഫയർ ബന്ധിപ്പിക്കുന്നതുവരെ ബോർഡിൽ നിന്ന് ശബ്ദം വരില്ല.</strong> MAX98357A amplifier, അതിന്റെ power supply, speaker connections എന്നിവ പിന്നീട് മുതിർന്നയാളോടൊപ്പം പരിശോധിക്കാം. Speaker നേരിട്ട് GPIO-യിൽ ബന്ധിപ്പിക്കരുത്.</p>
+    <label class="done"><input type="checkbox">Mic / button test മുതിർന്നയാളോടൊപ്പം വിജയിച്ചു</label>
+  </section>
+</main>
+<footer>
+  <p><strong>സഹായം ചോദിക്കുമ്പോൾ:</strong> ഘട്ടത്തിന്റെ നമ്പർ, അവസാന error, യഥാർഥ COM port, request ID ഉണ്ടെങ്കിൽ അതും അയക്കുക. API key, WiFi password, <code>.env</code>, <code>config.h</code> എന്നിവ അയക്കരുത്.</p>
+  <p>Debug logs: <code>.tools/bootstrap.log</code>, <code>.tools/doctor.log</code>, <code>.tools/serial.log</code>. ഈ പേജ് passwords ചോദിക്കുകയോ വിവരങ്ങൾ അയക്കുകയോ ചെയ്യുന്നില്ല. Checkboxes പേജ് reload ചെയ്യുമ്പോൾ reset ആകും.</p>
+  <p><a href="../READMEMALAYALAM.md">വിശദമായ മലയാളം ഗൈഡ്</a> · <a href="FIRST_CALL_WINDOWS.md">Full call guide</a> · <a href="HARDWARE.md">Amplifier / hardware notes</a></p>
+</footer>
+<script>
+  'use strict';
+  document.getElementById('print').addEventListener('click', () => window.print());
+  document.querySelectorAll('.done input').forEach(input => input.addEventListener('change', () => {
+    input.closest('.step').classList.toggle('complete', input.checked);
+    const count = document.querySelectorAll('.done input:checked').length;
+    document.getElementById('progress').textContent = `${count} / 7 ഘട്ടങ്ങൾ പൂർത്തിയായി`;
+  }));
+  document.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
+    const code = document.getElementById(button.dataset.copy);
+    const text = code.textContent;
+    let copied = false;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        copied = true;
+      }
+    } catch (_) { /* File/permission restrictions: try the local fallback. */ }
+    if (!copied) {
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.setAttribute('aria-label', 'Copy command');
+      area.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0';
+      document.body.appendChild(area);
+      area.focus(); area.select();
+      try { copied = document.execCommand('copy'); } catch (_) { copied = false; }
+      area.remove();
+    }
+    if (!copied) {
+      const range = document.createRange(); range.selectNodeContents(code);
+      const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range);
+    }
+    button.textContent = copied ? 'കോപ്പി ചെയ്തു' : 'Ctrl+C നൽകുക';
+    document.getElementById('copy-status').textContent = copied
+      ? 'കോപ്പി ചെയ്തു. ശരിയായ window-ൽ ഈ command മാത്രം paste ചെയ്യുക.'
+      : 'Text തിരഞ്ഞെടുത്തു. Ctrl+C ഉപയോഗിച്ച് കോപ്പി ചെയ്യുക.';
+    if (copied) button.focus({preventScroll:true});
+  }));
+</script>
+</body>
+</html>

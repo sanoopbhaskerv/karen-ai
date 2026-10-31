@@ -2,6 +2,8 @@
 
 **[Read this guide in English → README.md](README.md)**
 
+**HTML ഗൈഡ്:** [മലയാളം setup page](docs/windows-setup-malayalam.html) download ചെയ്ത് Edge/Chrome-ൽ തുറക്കാം. ഓരോ command-നും copy button ഉണ്ട്; print/PDF ആക്കാനും കഴിയും. വായിക്കാൻ server പ്രവർത്തിക്കേണ്ടതില്ല.
+
 Windows + S3-N16R8 wiring call-ന് [ആദ്യ കോൾ ഗൈഡ് (English)](docs/FIRST_CALL_WINDOWS.md) ഉപയോഗിക്കുക. ഓരോ ഘട്ടത്തിന്റെയും commands, wiring, പ്രതീക്ഷിക്കേണ്ട logs, stop/go checks അതിലുണ്ട്. ഇപ്പോഴത്തെ kit **main** branch-ൽ നിന്ന് download ചെയ്യുക.
 
 **ശ്രീഹരി V, ക്ലാസ് 9S, PKMMHSS എടരിക്കോട്** എന്ന വിദ്യാർത്ഥിയുടെ ശാസ്ത്രപ്രദർശന പ്രോജക്ടാണ് മലയാളത്തിൽ സംസാരിക്കുന്ന Karen AI. ആദ്യമായി ഇത് ഉപയോഗിക്കുന്ന ഒരാൾക്കുവേണ്ടിയാണ് ഈ ഗൈഡ്. കോഡ് മുഴുവൻ മനസ്സിലാക്കിയ ശേഷമേ തുടങ്ങാവൂ എന്നില്ല. ഒരു ഘട്ടം ശരിയായെന്ന് ഉറപ്പാക്കിയശേഷം അടുത്തതിലേക്ക് പോകുക.
