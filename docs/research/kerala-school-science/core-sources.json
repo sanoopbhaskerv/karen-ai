@@ -1,0 +1,122 @@
+[
+  {
+    "id": "core-root-2026",
+    "title": "2026 school registration portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. School login instructions; year-specific public portal. No school account used."
+  },
+  {
+    "id": "core-state-2026",
+    "title": "2026 state result landing page",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. Overall panels have no published champions on access date; headings alone do not establish completed contests."
+  },
+  {
+    "id": "core-districts-2026",
+    "title": "2026 district result index",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. All 14 district names and observed destination URLs captured in districts.json."
+  },
+  {
+    "id": "core-items-2026",
+    "title": "2026 generic master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Direct HTTP 200; all 221 rows parsed. Generic catalogue includes teacher and lower-section entries; not a state eligibility list."
+  },
+  {
+    "id": "core-items-2025",
+    "title": "2025 generic master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Direct HTTP 200; all 221 rows parsed. Generic catalogue includes teacher and lower-section entries; not a state eligibility list."
+  },
+  {
+    "id": "core-special-2025",
+    "title": "2025–26 Special School Work Experience Fair",
+    "url": "https://mela.kite.kerala.gov.in/2025/spss2025/index.php/login",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. Separate special-school work-experience programme and result tables; terminology is source-specific."
+  },
+  {
+    "id": "core-special-results-2026",
+    "title": "2026–27 special-school result interface",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publishresult/resultindex/resultview",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. Six section views and zero declared items observed. Not proof of completed 2026–27 competition."
+  },
+  {
+    "id": "core-special-downloads-2026",
+    "title": "2026–27 special-school downloads",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. Links manual, item-code PDF and identification certificate; a current dated amendment was not established."
+  },
+  {
+    "id": "core-special-items-2026",
+    "title": "Special-school work-experience item codes",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/item_codes.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Direct HTTP 200; all 3 pages rendered and visually inspected.80 numbered factual catalogue records extracted; PDF itself has no edition date.",
+    "sha256": "6c726199e747d1d4abd83e9e7ea1bc97a242286f12d6282f329c8a4295463e55",
+    "pdf_pages": 3
+  },
+  {
+    "id": "core-special-manual-2026",
+    "title": "Scanned special-school work-experience manual linked by2026portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Direct HTTP 200;18 scanned pages. First page visually inspected and concerns work experience despite Kalolsavam filename. Undated version; numeric rules not adopted for general fair.",
+    "sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+    "pdf_pages": 18
+  },
+  {
+    "id": "core-programme-2026-missing",
+    "title": "State2026programme destination linked from official portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/Program_Notice_2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_link_unavailable",
+    "notes": "Official link returned HTTP 404 on access date. No programme contents inferred.",
+    "retrieval_status": 404
+  },
+  {
+    "id": "core-vocational-2026-missing",
+    "title": "Vocational Expo2026destination linked from official portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/vhseExpo/state26/index.php",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_link_unavailable",
+    "notes": "Official link returned HTTP 404 on access date. No current entry or venue conditions inferred.",
+    "retrieval_status": 404
+  },
+  {
+    "id": "core-karen-backend",
+    "title": "Karen backend at the research base commit",
+    "url": "https://github.com/sanoopbhaskerv/karen-ai/blob/1b962df024ac44f40518d7409ae8adcf18211da2/app.py",
+    "accessed_on": "2026-10-31",
+    "source_type": "repository_code_or_documentation",
+    "source_commit": "1b962df024ac44f40518d7409ae8adcf18211da2",
+    "notes": "Read-only inspection of provider calls, context assembly and demo-mode behaviour. This records the repository version, not a physical hardware test."
+  },
+  {
+    "id": "core-karen-readme",
+    "title": "Karen project setup and architecture at the research base commit",
+    "url": "https://github.com/sanoopbhaskerv/karen-ai/blob/1b962df024ac44f40518d7409ae8adcf18211da2/README.md",
+    "accessed_on": "2026-10-31",
+    "source_type": "repository_code_or_documentation",
+    "source_commit": "1b962df024ac44f40518d7409ae8adcf18211da2",
+    "notes": "Read-only inspection of project identity, hardware variants, setup and documented operational limitations."
+  }
+]

@@ -1,0 +1,2158 @@
+{
+  "schema_version": 1,
+  "accessed_on": "2026-10-31",
+  "method": "Compare the same subdistrict catalogue view using (section,fair,item_code); ignore row ordinal and compare literal name and participant fields.",
+  "scope_note": "A change means the observed catalogue differs, not proof of an event inauguration, abolition or eligibility change. Portals can be edited later; interpret changes with the dated manual/orders in RULE_CHANGES.md. Different state-page/subdistrict views are not compared.",
+  "transitions": [
+    {
+      "from_portal_year": 2022,
+      "to_portal_year": 2023,
+      "from_source_url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
+      "to_source_url": "https://mela.kite.kerala.gov.in/2023/index.php/publics/item_list",
+      "added_catalogue_rows": [],
+      "removed_catalogue_rows": [],
+      "changed_catalogue_rows": []
+    },
+    {
+      "from_portal_year": 2023,
+      "to_portal_year": 2024,
+      "from_source_url": "https://mela.kite.kerala.gov.in/2023/index.php/publics/item_list",
+      "to_source_url": "https://mela.kite.kerala.gov.in/2024/index.php/publics/item_list",
+      "added_catalogue_rows": [],
+      "removed_catalogue_rows": [],
+      "changed_catalogue_rows": [
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 280,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making (On the Spot) (Exhibition)",
+              "to": "Agarbathi Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 281,
+          "changes": {
+            "item_name": {
+              "from": "Bamboo Products (On the Spot) (Exhibition)",
+              "to": "Bamboo Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 282,
+          "changes": {
+            "item_name": {
+              "from": "Beads Work (On the Spot)",
+              "to": "Beads Work  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 283,
+          "changes": {
+            "item_name": {
+              "from": "Book Binding (On the Spot) (Exhibition)",
+              "to": "Book Binding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 284,
+          "changes": {
+            "item_name": {
+              "from": "Budding, Layering Grafting etc (On the Spot)",
+              "to": "Budding, Layering Grafting etc  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 285,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product (On the Spot) (Exhibition)",
+              "to": "Coconut shell product  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 286,
+          "changes": {
+            "item_name": {
+              "from": "Coir Door Mats (On the Spot) (Exhibition)",
+              "to": "Coir Door Mats  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 287,
+          "changes": {
+            "item_name": {
+              "from": "Doll Making (On the Spot) (Exhibition)",
+              "to": "Doll Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 288,
+          "changes": {
+            "item_name": {
+              "from": "Economic nutritious food items and vegetable fruit preservation items (On the Spot)",
+              "to": "Economic nutritious food items and vegetable fruit preservation items   (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 289,
+          "changes": {
+            "item_name": {
+              "from": "Electrical Wiring (On the Spot)",
+              "to": "Electrical Wiring  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 290,
+          "changes": {
+            "item_name": {
+              "from": "Electronics (On the Spot)",
+              "to": "Electronics  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 291,
+          "changes": {
+            "item_name": {
+              "from": "Embroidery (On the Spot) (Exhibition)",
+              "to": "Embroidery  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 292,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Painting (On the Spot) (Exhibition)",
+              "to": "Fabric Painting  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 293,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetable (On the Spot) (Exhibition)",
+              "to": "Fabric Printing Using Vegetable  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 294,
+          "changes": {
+            "item_name": {
+              "from": "Garment Making (On the Spot)",
+              "to": "Garment Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 295,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making (On the Spot)",
+              "to": "Volleyball/Badminton net making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 296,
+          "changes": {
+            "item_name": {
+              "from": "Products using natural fiber except coconut fiber (On the Spot) (Exhibition)",
+              "to": "Products using natural fiber except coconut fiber  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 297,
+          "changes": {
+            "item_name": {
+              "from": "Metal Engraving (On the Spot) (Exhibition)",
+              "to": "Metal Engraving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 298,
+          "changes": {
+            "item_name": {
+              "from": "Modelling with clay (On the Spot) (Exhibition)",
+              "to": "Modelling with clay  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 299,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making (On the Spot) (Exhibition)",
+              "to": "Writting Chalk Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 300,
+          "changes": {
+            "item_name": {
+              "from": "Paper Craft (On the Spot) (Exhibition)",
+              "to": "Paper Craft  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 301,
+          "changes": {
+            "item_name": {
+              "from": "Plaster of paris moulding (On the Spot) (Exhibition)",
+              "to": "Plaster of paris moulding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 302,
+          "changes": {
+            "item_name": {
+              "from": "Prepare pattern using threads (On the Spot) (Exhibition)",
+              "to": "Prepare pattern using threads  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 303,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves (On the Spot) (Exhibition)",
+              "to": "Products using palm leaves  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 304,
+          "changes": {
+            "item_name": {
+              "from": "Product using card & straw board (On the Spot) (Exhibition)",
+              "to": "Product using card & straw board  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 305,
+          "changes": {
+            "item_name": {
+              "from": "Products using Rexin, Canvas & Leather (On the Spot) (Exhibition)",
+              "to": "Products using Rexin, Canvas & Leather  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 306,
+          "changes": {
+            "item_name": {
+              "from": "Products using Screw Pine Leaves (On the Spot) (Exhibition)",
+              "to": "Products using Screw Pine Leaves   (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 307,
+          "changes": {
+            "item_name": {
+              "from": "Products Using Waste materials (On the Spot) (Exhibition)",
+              "to": "Products Using Waste materials  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 308,
+          "changes": {
+            "item_name": {
+              "from": "Puppet Making (On the Spot) (Exhibition)",
+              "to": "Puppet Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 309,
+          "changes": {
+            "item_name": {
+              "from": "Sheet Metal Work (On the Spot) (Exhibition)",
+              "to": "Sheet Metal Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 310,
+          "changes": {
+            "item_name": {
+              "from": "Stuffed Toys (On the Spot) (Exhibition)",
+              "to": "Stuffed Toys  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 311,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making (On the Spot)",
+              "to": "Umbrella Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 312,
+          "changes": {
+            "item_name": {
+              "from": "Wood Carving (On the Spot) (Exhibition)",
+              "to": "Wood Carving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 313,
+          "changes": {
+            "item_name": {
+              "from": "Wood Work (On the Spot) (Exhibition)",
+              "to": "Wood Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 430,
+          "changes": {
+            "item_name": {
+              "from": "General Display of Items in stall (Exhibition)",
+              "to": "General Display of Items in stall   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 320,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making (On the Spot) (Exhibition)",
+              "to": "Agarbathi Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 321,
+          "changes": {
+            "item_name": {
+              "from": "Bamboo Products (On the Spot) (Exhibition)",
+              "to": "Bamboo Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 322,
+          "changes": {
+            "item_name": {
+              "from": "Beads Work (On the Spot)",
+              "to": "Beads Work  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 323,
+          "changes": {
+            "item_name": {
+              "from": "Book Binding (On the Spot) (Exhibition)",
+              "to": "Book Binding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 324,
+          "changes": {
+            "item_name": {
+              "from": "Budding, Layering, Grafting etc (On the Spot)",
+              "to": "Budding, Layering, Grafting etc  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 325,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product (On the Spot) (Exhibition)",
+              "to": "Coconut shell product  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 326,
+          "changes": {
+            "item_name": {
+              "from": "Coir Door Mats (On the Spot) (Exhibition)",
+              "to": "Coir Door Mats  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 327,
+          "changes": {
+            "item_name": {
+              "from": "Doll Making (On the Spot) (Exhibition)",
+              "to": "Doll Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 328,
+          "changes": {
+            "item_name": {
+              "from": "Economic nutritious food items and vegetable fruit preservation items (On the Spot)",
+              "to": "Economic nutritious food items and vegetable fruit preservation items  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 329,
+          "changes": {
+            "item_name": {
+              "from": "Electrical Wiring (On the Spot)",
+              "to": "Electrical Wiring  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 330,
+          "changes": {
+            "item_name": {
+              "from": "Electronics (On the Spot)",
+              "to": "Electronics  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 331,
+          "changes": {
+            "item_name": {
+              "from": "Embroidery (On the Spot) (Exhibition)",
+              "to": "Embroidery  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 332,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Painting (On the Spot) (Exhibition)",
+              "to": "Fabric Painting  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 333,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetable (On the Spot) (Exhibition)",
+              "to": "Fabric Printing Using Vegetable  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 334,
+          "changes": {
+            "item_name": {
+              "from": "Garment Making (On the Spot)",
+              "to": "Garment Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 335,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making (On the Spot)",
+              "to": "Volleyball/Badminton net making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 336,
+          "changes": {
+            "item_name": {
+              "from": "Products using natural fiber except coconut fiber (On the Spot) (Exhibition)",
+              "to": "Products using natural fiber except coconut fiber  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 337,
+          "changes": {
+            "item_name": {
+              "from": "Metal Engraving (On the Spot) (Exhibition)",
+              "to": "Metal Engraving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 338,
+          "changes": {
+            "item_name": {
+              "from": "Modelling with clay (On the Spot) (Exhibition)",
+              "to": "Modelling with clay  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 339,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making (On the Spot) (Exhibition)",
+              "to": "Writting Chalk Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 340,
+          "changes": {
+            "item_name": {
+              "from": "Paper Craft (On the Spot) (Exhibition)",
+              "to": "Paper Craft  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 341,
+          "changes": {
+            "item_name": {
+              "from": "Plaster of Paris Moulding (On the Spot) (Exhibition)",
+              "to": "Plaster of Paris Moulding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 342,
+          "changes": {
+            "item_name": {
+              "from": "Prepare pattern using threads (On the Spot) (Exhibition)",
+              "to": "Prepare pattern using threads  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 343,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves (On the Spot) (Exhibition)",
+              "to": "Products using palm leaves  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 344,
+          "changes": {
+            "item_name": {
+              "from": "Product using card & straw board (On the Spot) (Exhibition)",
+              "to": "Product using card & straw board  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 345,
+          "changes": {
+            "item_name": {
+              "from": "Products using Rexin, Canvas & Leather (On the Spot) (Exhibition)",
+              "to": "Products using Rexin, Canvas & Leather  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 346,
+          "changes": {
+            "item_name": {
+              "from": "Products using Screw Pine Leaves (On the Spot) (Exhibition)",
+              "to": "Products using Screw Pine Leaves  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 347,
+          "changes": {
+            "item_name": {
+              "from": "Products Using Waste materials (On the Spot) (Exhibition)",
+              "to": "Products Using Waste materials  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 348,
+          "changes": {
+            "item_name": {
+              "from": "Puppet Making (On the Spot) (Exhibition)",
+              "to": "Puppet Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 349,
+          "changes": {
+            "item_name": {
+              "from": "Sheet Metal Work (On the Spot) (Exhibition)",
+              "to": "Sheet Metal Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 350,
+          "changes": {
+            "item_name": {
+              "from": "Stuffed Toys (On the Spot) (Exhibition)",
+              "to": "Stuffed Toys  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 351,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making (On the Spot)",
+              "to": "Umbrella Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 352,
+          "changes": {
+            "item_name": {
+              "from": "Wood Carving (On the Spot) (Exhibition)",
+              "to": "Wood Carving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 353,
+          "changes": {
+            "item_name": {
+              "from": "Wood Work (On the Spot) (Exhibition)",
+              "to": "Wood Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 431,
+          "changes": {
+            "item_name": {
+              "from": "General Display of Items in stall (Exhibition)",
+              "to": "General Display of Items in stall   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 216,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making (On the Spot) (Exhibition)",
+              "to": "Agarbathi Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 217,
+          "changes": {
+            "item_name": {
+              "from": "Bamboo Products (On the Spot) (Exhibition)",
+              "to": "Bamboo Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 218,
+          "changes": {
+            "item_name": {
+              "from": "Beads Work (On the Spot)",
+              "to": "Beads Work  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 219,
+          "changes": {
+            "item_name": {
+              "from": "Book Binding (On the Spot) (Exhibition)",
+              "to": "Book Binding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 220,
+          "changes": {
+            "item_name": {
+              "from": "Coconut Shell Products (On the Spot) (Exhibition)",
+              "to": "Coconut Shell Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 221,
+          "changes": {
+            "item_name": {
+              "from": "Coir Door Mats (On the Spot) (Exhibition)",
+              "to": "Coir Door Mats  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 222,
+          "changes": {
+            "item_name": {
+              "from": "Electrical Wiring (On the Spot)",
+              "to": "Electrical Wiring  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 223,
+          "changes": {
+            "item_name": {
+              "from": "Embroidery (On the Spot) (Exhibition)",
+              "to": "Embroidery  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 224,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Painting (On the Spot) (Exhibition)",
+              "to": "Fabric Painting  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 225,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetables (On the Spot) (Exhibition)",
+              "to": "Fabric Printing Using Vegetables  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 226,
+          "changes": {
+            "item_name": {
+              "from": "Metal Engraving (On the Spot) (Exhibition)",
+              "to": "Metal Engraving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 227,
+          "changes": {
+            "item_name": {
+              "from": "Modelling with clay (On the Spot) (Exhibition)",
+              "to": "Modelling with clay  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 229,
+          "changes": {
+            "item_name": {
+              "from": "Paper Craft (On the Spot) (Exhibition)",
+              "to": "Paper Craft  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 230,
+          "changes": {
+            "item_name": {
+              "from": "Prepare pattern using threads (On the Spot) (Exhibition)",
+              "to": "Prepare pattern using threads  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 231,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves (On the Spot) (Exhibition)",
+              "to": "Products using palm leaves   (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 232,
+          "changes": {
+            "item_name": {
+              "from": "Product using card & straw board (On the Spot) (Exhibition)",
+              "to": "Product using card & straw board  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 233,
+          "changes": {
+            "item_name": {
+              "from": "Product using waste materials (On the Spot)",
+              "to": "Product using waste materials  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 234,
+          "changes": {
+            "item_name": {
+              "from": "Puppet Making (On the Spot) (Exhibition)",
+              "to": "Puppet Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 235,
+          "changes": {
+            "item_name": {
+              "from": "Sheet Metal Work (On the Spot) (Exhibition)",
+              "to": "Sheet Metal Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 236,
+          "changes": {
+            "item_name": {
+              "from": "Stuffed Toys (On the Spot) (Exhibition)",
+              "to": "Stuffed Toys  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 237,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making (On the Spot)",
+              "to": "Umbrella Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 238,
+          "changes": {
+            "item_name": {
+              "from": "Wood Carving (On the Spot) (Exhibition)",
+              "to": "Wood Carving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 239,
+          "changes": {
+            "item_name": {
+              "from": "Wood Work (On the Spot) (Exhibition)",
+              "to": "Wood Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 240,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making (On the Spot)",
+              "to": "Volleyball/Badminton net making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 241,
+          "changes": {
+            "item_name": {
+              "from": "Writting chalk making (On the Spot) (Exhibition)",
+              "to": "Writting chalk making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 428,
+          "changes": {
+            "item_name": {
+              "from": "General Display of Items in stall (Exhibition)",
+              "to": "General Display of Items in stall   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 250,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making (On the Spot) (Exhibition)",
+              "to": "Agarbathi Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 251,
+          "changes": {
+            "item_name": {
+              "from": "Bamboo Products (On the Spot) (Exhibition)",
+              "to": "Bamboo Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 252,
+          "changes": {
+            "item_name": {
+              "from": "Beads Work (On the Spot)",
+              "to": "Beads Work  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 253,
+          "changes": {
+            "item_name": {
+              "from": "Book Binding (On the Spot) (Exhibition)",
+              "to": "Book Binding  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 254,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product (On the Spot) (Exhibition)",
+              "to": "Coconut shell product  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 255,
+          "changes": {
+            "item_name": {
+              "from": "Coir Door Mats (On the Spot) (Exhibition)",
+              "to": "Coir Door Mats  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 256,
+          "changes": {
+            "item_name": {
+              "from": "Electrical Wiring (On the Spot)",
+              "to": "Electrical Wiring  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 257,
+          "changes": {
+            "item_name": {
+              "from": "Embroidery (On the Spot) (Exhibition)",
+              "to": "Embroidery  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 258,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Painting (On the Spot) (Exhibition)",
+              "to": "Fabric Painting  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 259,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetables (On the Spot) (Exhibition)",
+              "to": "Fabric Printing Using Vegetables  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 260,
+          "changes": {
+            "item_name": {
+              "from": "Metal Engraving (On the Spot) (Exhibition)",
+              "to": "Metal Engraving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 261,
+          "changes": {
+            "item_name": {
+              "from": "Modelling with clay (On the Spot) (Exhibition)",
+              "to": "Modelling with clay  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 262,
+          "changes": {
+            "item_name": {
+              "from": "Products Using Waste Materials (On the Spot)",
+              "to": "Products Using Waste Materials  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 263,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making (On the Spot)",
+              "to": "Volleyball/Badminton net making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 264,
+          "changes": {
+            "item_name": {
+              "from": "Paper Craft (On the Spot) (Exhibition)",
+              "to": "Paper Craft  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 265,
+          "changes": {
+            "item_name": {
+              "from": "Prepare pattern using threads (On the Spot) (Exhibition)",
+              "to": "Prepare pattern using threads  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 266,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves (On the Spot) (Exhibition)",
+              "to": "Products using palm leaves  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 267,
+          "changes": {
+            "item_name": {
+              "from": "Product using card & straw board (On the Spot) (Exhibition)",
+              "to": "Product using card & straw board  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 268,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making (On the Spot) (Exhibition)",
+              "to": "Writting Chalk Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 269,
+          "changes": {
+            "item_name": {
+              "from": "Puppet Making (On the Spot) (Exhibition)",
+              "to": "Puppet Making  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 270,
+          "changes": {
+            "item_name": {
+              "from": "Sheet Metal Work (On the Spot) (Exhibition)",
+              "to": "Sheet Metal Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 271,
+          "changes": {
+            "item_name": {
+              "from": "Stuffed Toys (On the Spot) (Exhibition)",
+              "to": "Stuffed Toys  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 272,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making (On the Spot)",
+              "to": "Umbrella Making  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 273,
+          "changes": {
+            "item_name": {
+              "from": "Wood Carving (On the Spot) (Exhibition)",
+              "to": "Wood Carving  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 274,
+          "changes": {
+            "item_name": {
+              "from": "Wood Work (On the Spot) (Exhibition)",
+              "to": "Wood Work  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 429,
+          "changes": {
+            "item_name": {
+              "from": "General Display of Items in Stall (Exhibition)",
+              "to": "General Display of Items in Stall   (Exhibition)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from_portal_year": 2024,
+      "to_portal_year": 2025,
+      "from_source_url": "https://mela.kite.kerala.gov.in/2024/index.php/publics/item_list",
+      "to_source_url": "https://mela.kite.kerala.gov.in/2025/index.php/publics/item_list",
+      "added_catalogue_rows": [
+        {
+          "ordinal": 75,
+          "section": "HS",
+          "fair": "Mathematics Fair",
+          "item_code": 166,
+          "item_name": "Bhaskaracharya Seminar",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 76,
+          "section": "HS",
+          "fair": "Mathematics Fair",
+          "item_code": 458,
+          "item_name": "Talent Search Examination",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 24,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 125,
+          "item_name": "Investigatory Project",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 25,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 443,
+          "item_name": "C V Raman essay writing",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 26,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 445,
+          "item_name": "Robotics",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 27,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 446,
+          "item_name": "Electronics",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 28,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 447,
+          "item_name": "IOT",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 29,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 448,
+          "item_name": "NCERT Seminar",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 30,
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 449,
+          "item_name": "VITM Science Seminar",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 111,
+          "section": "HS",
+          "fair": "Socialscience Fair",
+          "item_code": 207,
+          "item_name": "History Seminar",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 206,
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 441,
+          "item_name": "Ratton Work  (On the Spot)   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 91,
+          "section": "HSS/VHSS",
+          "fair": "Mathematics Fair",
+          "item_code": 184,
+          "item_name": "Ramanujan Paper",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 92,
+          "section": "HSS/VHSS",
+          "fair": "Mathematics Fair",
+          "item_code": 460,
+          "item_name": "Talent Search Examination",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 38,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 133,
+          "item_name": "Investigatory Project",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 39,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 134,
+          "item_name": "C V Raman essay writing",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 41,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 439,
+          "item_name": "Science Magazine",
+          "gender_code": "C",
+          "item_type_code": "G",
+          "max_participants": 5
+        },
+        {
+          "ordinal": 42,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 451,
+          "item_name": "Robotics",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 43,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 452,
+          "item_name": "Electronics",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 44,
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 453,
+          "item_name": "IOT",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 121,
+          "section": "HSS/VHSS",
+          "fair": "Socialscience Fair",
+          "item_code": 440,
+          "item_name": "History Seminar",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 241,
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 442,
+          "item_name": "Ratton Work  (On the Spot)   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 4,
+          "section": "LP",
+          "fair": "Science Fair",
+          "item_code": 104,
+          "item_name": "Environmental Observation Presentation",
+          "gender_code": "C",
+          "item_type_code": "G",
+          "max_participants": 2
+        },
+        {
+          "ordinal": 5,
+          "section": "LP",
+          "fair": "Science Fair",
+          "item_code": 105,
+          "item_name": "Science Quiz",
+          "gender_code": "C",
+          "item_type_code": "G",
+          "max_participants": 2
+        },
+        {
+          "ordinal": 59,
+          "section": "UP",
+          "fair": "Mathematics Fair",
+          "item_code": 444,
+          "item_name": "Madhava Paper Presentation",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 60,
+          "section": "UP",
+          "fair": "Mathematics Fair",
+          "item_code": 456,
+          "item_name": "Talent Search Examination",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 13,
+          "section": "UP",
+          "fair": "Science Fair",
+          "item_code": 113,
+          "item_name": "Environmental Observation Presentation",
+          "gender_code": "C",
+          "item_type_code": "G",
+          "max_participants": 2
+        }
+      ],
+      "removed_catalogue_rows": [
+        {
+          "ordinal": 184,
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 430,
+          "item_name": "General Display of Items in stall   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 219,
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 431,
+          "item_name": "General Display of Items in stall   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 123,
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 428,
+          "item_name": "General Display of Items in stall   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        },
+        {
+          "ordinal": 149,
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 429,
+          "item_name": "General Display of Items in Stall   (Exhibition)",
+          "gender_code": "C",
+          "item_type_code": "S",
+          "max_participants": 1
+        }
+      ],
+      "changed_catalogue_rows": [
+        {
+          "section": "HS",
+          "fair": "Mathematics Fair",
+          "item_code": 158,
+          "changes": {
+            "item_name": {
+              "from": "Applied Construction",
+              "to": "Constructions using Geogebra software"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 119,
+          "changes": {
+            "item_type_code": {
+              "from": "S",
+              "to": "G"
+            },
+            "max_participants": {
+              "from": 1,
+              "to": 2
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Science Fair",
+          "item_code": 123,
+          "changes": {
+            "item_type_code": {
+              "from": "S",
+              "to": "G"
+            },
+            "max_participants": {
+              "from": 1,
+              "to": 5
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 280,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making  (On the Spot)   (Exhibition)",
+              "to": "Different types of carry bags   (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 295,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making  (On the Spot)",
+              "to": "Pottery Painting  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 299,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making  (On the Spot)   (Exhibition)",
+              "to": "Products using Areca Tree Leaf  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 301,
+          "changes": {
+            "item_name": {
+              "from": "Plaster of paris moulding  (On the Spot)   (Exhibition)",
+              "to": "Fabrication using fibre  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 303,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves  (On the Spot)   (Exhibition)",
+              "to": "Innovative Working Model   (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 306,
+          "changes": {
+            "item_name": {
+              "from": "Products using Screw Pine Leaves   (On the Spot)   (Exhibition)",
+              "to": "Metal Embossing  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 311,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making  (On the Spot)",
+              "to": "Poster Designing  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Mathematics Fair",
+          "item_code": 176,
+          "changes": {
+            "item_name": {
+              "from": "Applied Construction",
+              "to": "Constructions using Geogebra software"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 130,
+          "changes": {
+            "item_type_code": {
+              "from": "S",
+              "to": "G"
+            },
+            "max_participants": {
+              "from": 1,
+              "to": 2
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 320,
+          "changes": {
+            "item_name": {
+              "from": "Agarbathi Making  (On the Spot)   (Exhibition)",
+              "to": "Different types of carry bags  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 335,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making  (On the Spot)",
+              "to": "Pottery Painting  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 339,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making  (On the Spot)   (Exhibition)",
+              "to": "Products using Areca Tree Leaf  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 341,
+          "changes": {
+            "item_name": {
+              "from": "Plaster of Paris Moulding  (On the Spot)   (Exhibition)",
+              "to": "Fabrication using fibre  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 343,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves  (On the Spot)   (Exhibition)",
+              "to": "Innovative Working Model  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 346,
+          "changes": {
+            "item_name": {
+              "from": "Products using Screw Pine Leaves  (On the Spot)   (Exhibition)",
+              "to": "Metal Embossing  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 351,
+          "changes": {
+            "item_name": {
+              "from": "Umbrella Making  (On the Spot)",
+              "to": "Poster Designing  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Science Fair",
+          "item_code": 101,
+          "changes": {
+            "item_name": {
+              "from": "Collections / Models",
+              "to": "Collections"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Socialscience Fair",
+          "item_code": 186,
+          "changes": {
+            "item_name": {
+              "from": "Models",
+              "to": "Charts"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Socialscience Fair",
+          "item_code": 187,
+          "changes": {
+            "item_name": {
+              "from": "Charts",
+              "to": "Album Making"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 231,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves   (On the Spot)   (Exhibition)",
+              "to": "Origami  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 240,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making  (On the Spot)",
+              "to": "Pottery Painting  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 241,
+          "changes": {
+            "item_name": {
+              "from": "Writting chalk making  (On the Spot)   (Exhibition)",
+              "to": "Poster Designing  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Science Fair",
+          "item_code": 110,
+          "changes": {
+            "item_type_code": {
+              "from": "S",
+              "to": "G"
+            },
+            "max_participants": {
+              "from": 1,
+              "to": 2
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 263,
+          "changes": {
+            "item_name": {
+              "from": "Volleyball/Badminton net making  (On the Spot)",
+              "to": "Pottery Painting  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 266,
+          "changes": {
+            "item_name": {
+              "from": "Products using palm leaves  (On the Spot)   (Exhibition)",
+              "to": "Origami  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 268,
+          "changes": {
+            "item_name": {
+              "from": "Writting Chalk Making  (On the Spot)   (Exhibition)",
+              "to": "Poster Designing  (On the Spot)   (Exhibition)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "from_portal_year": 2025,
+      "to_portal_year": 2026,
+      "from_source_url": "https://mela.kite.kerala.gov.in/2025/index.php/publics/item_list",
+      "to_source_url": "https://mela.kite.kerala.gov.in/2026/index.php/publics/item_list",
+      "added_catalogue_rows": [],
+      "removed_catalogue_rows": [],
+      "changed_catalogue_rows": [
+        {
+          "section": "HS",
+          "fair": "IT Fair",
+          "item_code": 392,
+          "changes": {
+            "item_name": {
+              "from": "Malayalam Typingum Roopakalppanayum",
+              "to": "Malayalam Typingum Roopakalpanayum"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 284,
+          "changes": {
+            "item_name": {
+              "from": "Budding, Layering Grafting etc  (On the Spot)",
+              "to": "Budding, Layering, Grafting etc  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 285,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product  (On the Spot)   (Exhibition)",
+              "to": "Coconut Shell Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 293,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetable  (On the Spot)   (Exhibition)",
+              "to": "Fabric Printing Using Vegetables  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HS",
+          "fair": "Workexperience Fair",
+          "item_code": 307,
+          "changes": {
+            "item_name": {
+              "from": "Products Using Waste materials  (On the Spot)   (Exhibition)",
+              "to": "Products Using Waste Materials  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Science Fair",
+          "item_code": 438,
+          "changes": {
+            "item_name": {
+              "from": "Talent Search Examination",
+              "to": "Talent Search Exam"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 325,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product  (On the Spot)   (Exhibition)",
+              "to": "Coconut Shell Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 333,
+          "changes": {
+            "item_name": {
+              "from": "Fabric Printing Using Vegetable  (On the Spot)   (Exhibition)",
+              "to": "Fabric Printing Using Vegetables  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "HSS/VHSS",
+          "fair": "Workexperience Fair",
+          "item_code": 347,
+          "changes": {
+            "item_name": {
+              "from": "Products Using Waste materials  (On the Spot)   (Exhibition)",
+              "to": "Products Using Waste Materials  (On the Spot)   (Exhibition)"
+            }
+          }
+        },
+        {
+          "section": "LP",
+          "fair": "Workexperience Fair",
+          "item_code": 233,
+          "changes": {
+            "item_name": {
+              "from": "Product using waste materials  (On the Spot)",
+              "to": "Products Using Waste Materials  (On the Spot)"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Mathematics Fair",
+          "item_code": 423,
+          "changes": {
+            "item_name": {
+              "from": "Game",
+              "to": "Games"
+            }
+          }
+        },
+        {
+          "section": "UP",
+          "fair": "Workexperience Fair",
+          "item_code": 254,
+          "changes": {
+            "item_name": {
+              "from": "Coconut shell product  (On the Spot)   (Exhibition)",
+              "to": "Coconut Shell Products  (On the Spot)   (Exhibition)"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

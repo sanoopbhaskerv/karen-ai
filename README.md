@@ -544,6 +544,7 @@ A Mac serial port looks like `/dev/cu...`, not COM5. See [hardware commissioning
 - [Windows technical setup and Arduino IDE alternative](docs/WINDOWS.md)
 - [Both wiring maps and hardware commissioning](docs/HARDWARE.md)
 - [Exhibition checklist](docs/EXHIBITION.md)
+- [Kerala exhibition research: history, current rules, sources and Karen's Working Model entry](docs/research/kerala-school-science/README.md)
 - [Technical reference: routes, timeouts, tests and cloud hosting](docs/TECHNICAL.md)
 - [മലയാളം സാങ്കേതിക വിവരങ്ങൾ](docs/TECHNICAL_ML.md)
 
