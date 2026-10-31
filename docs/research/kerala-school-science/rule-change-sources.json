@@ -187,5 +187,24 @@
     "download_sha256": "6a13d801cb15044c297bdeb259c1b93ed5e117f2d3c5ed98a30d0a51b53c24ce",
     "download_bytes": 4503262,
     "pdf_pages": 5
+  },
+  {
+    "id": "rule-change-action-plan-2026-mirror",
+    "title": "General Education Department Action Plan 2026–27, mirrored nine-page attachment",
+    "url": "https://drive.google.com/file/d/1pKl93zqXuZoR-arWbXJIkEpN1ggtTldP/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1pKl93zqXuZoR-arWbXJIkEpN1ggtTldP",
+    "discovery_url": "https://kstaattingal.blogspot.com/",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_government_action_plan_attachment",
+    "document_date": null,
+    "academic_year_as_printed": "2026-27",
+    "file_reference_as_printed": "DGE/8659/2026-Y1; I/1833521/2026",
+    "pdf_pages": 9,
+    "download_bytes": 160448,
+    "download_sha256": "5061757e3ab9639b84c578b944961d8cb2378c062f34ca098cb6f104e2c05852",
+    "notes": "Ordinary unauthenticated public Drive download discovered in KSTA Attingal post22July2026. A visible page8 signature block names Santhosh C A and20July2026 at15:40:44; the text extractor omitted it. No separately dated covering letter or original government-hosted standalone URL established; signature block appearance is not cryptographic validation. General Education Department header and eOffice reference retained as printed. Nine pages: Science1–2; SocialScience3–5; Mathematics6–7; WorkExperience8; lastpage9 only reference/footer. Scheduled milestones are plans, not proof of completion or current local check-in instructions. Science includes school fair before18September, subdistrict before20October, district before10November and state18–21November2026, with quiz/seminar/talent/magazine/drama phases separately listed. January2027 SISF and NationalScienceDramaFestival entries are month-only plans. No IT calendar section in this attachment. Do not infer a new item permission, local deadline exception or disqualification from its broad dates. Current DGE CCTV notice independently corroborates state dates/location, not the entire mirrored attachment.",
+    "visible_signature_date": "2026-07-20",
+    "visible_signature_time_as_printed": "15:40:44",
+    "signature_verification_scope": "Visible block only; no cryptographic validation performed."
   }
 ]

@@ -6,18 +6,26 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 187 |
-| Distinct source URLs | 182 |
-| JSON files | 25 |
-| Concise English/Malayalam knowledge records | 89 |
-| Draft Malayalam evaluation questions | 67 |
-| Indexed exhibit records | 34 |
+| Source records | 241 |
+| Distinct registered source URLs | 236 |
+| JSON files | 30 |
+| Concise English/Malayalam knowledge records | 98 |
+| Draft Malayalam evaluation questions | 76 |
+| Indexed exhibit records | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
-| Extended published model chapters | 10 |
-| Pages in those model chapters | 40 |
+| Extended published model chapters | 11 |
+| Pages in those model chapters | 43 |
 | Separate SISF 2026 Kerala write-ups | 31 |
 | Content pages in those SISF write-ups | 49 |
+| Public SISF QR/unit records | 31 |
+| Linked accessible MP4 resources | 21 |
+| Videos sampled / frames inspected | 5 / 41 |
+| Full clips / audio tracks reviewed | 0 / 0 |
+| District status snapshots / rows | 14 / 210 |
+| Working Model link observations | 28 |
+| Grade-only report aggregates | 2 |
+| Science action-plan calendar lines | 23 |
 | Organiser selected-exhibit records | 9 |
 | Separate published participant-form records | 12 |
 | Credit/identity/heading findings | 4 |
@@ -38,8 +46,8 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - Every result table's stored row count agrees with the extracted rows. All HTML data rows were accounted for, and the top five entries agree with independently retrieved landing-page summaries.
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
-- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Ten extended report chapters have valid full page ranges totalling 40 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
-- The six national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All nine selection rows, twelve separate form rows and four versioned findings have valid source/page references. Existing credits in all 32 earlier project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
+- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eleven extended report chapters have valid full page ranges totalling 43 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
+- The six national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All nine selection rows, twelve separate form rows and four versioned findings have valid source/page references. Existing credits in all 34 earlier project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
 
 - All 31 SISF entries have unique IDs, complete nonoverlapping ranges covering 49 content pages, valid category/page references and separate pupil/teacher credits. Their codes, local qualifying routes and prize fields remain null. Three links to focused award cases have separately located source-image codes; one remains a candidate. Original award credits are preserved beside the compendium versions. Derived records contain no private contacts or source images.
 - The recovered historical forms, circular, IT programme/result pages, original 2016 programme, souvenir notice, 2014 DPI list and 2026 compendium match their acquired hashes and byte sizes; PDF page counts agree. The 2003 model book's hash, size and 83-page inventory also match. Academic-year labels, capture dates, article updates and publication dates retain their distinct meanings.
@@ -55,3 +63,14 @@ Malayalam records remain marked for a teacher's language and educational review.
 The initial research commit passed the repository's Windows setup CI. Publication of later additions is tracked by the pull request's checks. Additional reviews checked all catalogue school-address columns/blocks, split rows and state-boundary exclusions; all 55 attribution blocks in the 2015–2017 model books; source proposals versus described construction; ambiguous output units; and the separate national pandemic chronology. Enlarged scans resolved the 2016 programme venue and confirmed the Drama code. The newly retrieved 2011 book was checked for contiguous printed pages and all 23 chapter attributions. Selection-list and submitted-form records retain distinct statuses, credit variants and geographic/organisational scope. General operations provisions were visually checked with their state/subdistrict boundaries, and the 2026-hosted manual copy matches the previously collected bytes. The unresolved work is listed in [COVERAGE.md](COVERAGE.md).
 
 The 2003 book received a complete 28-attribution audit, including seven Hindi blocks. The separate early school account retains the described failed test and source credit spelling variant. All 31 SISF attribution blocks and 26 full method/result pages were checked visually after reading all 49 content pages. Independent comparison established the three photographed award-code matches and preserved the fourth candidate. Enlarged 2015 IT pages resolved Edubuntu and printed-slide requirements without transferring those historical rules to Science Working Model. The original official-site 2016 programme was visually compared with the mirrored scan; the files differ while their visible schedules agree.
+
+
+The public-media follow-up decoded all 31 compendium QR references and resolved their public units. The derived index distinguishes the 21 MP4 resources from the ten units without playable children. Five videos were sampled through 41 frames; no full clip or audio track was reviewed. Frame observations support only the specifically described visible actions. A separate check of the driving, fog and SAMARTH frames agreed with those limits and the visible SAMARTH exhibit code; no frames or source clips are committed.
+
+An independent media validator matched the cached bytes/hashes of all 31 application shells, 31 public lookup responses, 31 hierarchy responses and three frontend files. It also checked all 21 artifact-header captures, including HTTP status, MIME type and byte length, and matched hierarchy values against the derived unit/resource records. All model/case media pointers resolve, the 41 sampled PNGs match the declared review counts, and the derived media files contain no private contacts, credentials or embedded raw media. Existing core fields in all 34 prior cases and all 31 prior SISF write-ups are unchanged after excluding only the added media pointers.
+
+All 42 district HTML captures were independently reparsed. Their 210 status rows, 28 Working Model link observations, original blank/dash cells and stored hashes match the derived snapshot. Alappuzha's two IT rows and grand total retain their arithmetic discrepancies. All six pages of the two available Working Model grade PDFs were checked: each has 46 pupil rows, A30/B16, with no rank, mark or project-title column. The committed data retain only report aggregates.
+
+The two-page 29 October CCTV notice and nine-page action-plan attachment received an independent full-page review. The action plan's visible 20 July signature, literal Science deadlines and different stream calendars remain separate from completed events and local reporting instructions. All 23 Science calendar lines retain planned status. The CCTV procurement dates and organiser recordings are separate from entrant registration and pupil construction evidence. The 2005 NCERT book received a 29-attribution audit and full review of its three-page Kerala chapter; the partial 1965–66 state report was inspected for its missing Education chapter rather than treated as a complete account.
+
+The original/OCR 2005 books, partial state report, CCTV notice, action plan and two grade-report PDFs match their registered hashes, byte sizes and page counts. Calendar date relations, places, page locators and planned status were checked line by line; the printed “Natural Science Day” wording is preserved with a caveat. Draft Malayalam still requires the teacher review described above.

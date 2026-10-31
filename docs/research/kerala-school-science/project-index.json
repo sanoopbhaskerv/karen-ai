@@ -452,7 +452,8 @@
           "Hyrunnisa MH"
         ]
       }
-    ]
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-individual-p168"
   },
   {
     "id": "case-2026-medibot",
@@ -522,7 +523,8 @@
           "Neetha"
         ]
       }
-    ]
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-individual-p176"
   },
   {
     "id": "case-2026-fog",
@@ -598,7 +600,8 @@
           "Jiji KR"
         ]
       }
-    ]
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-group-p185"
   },
   {
     "id": "case-2026-diaper",
@@ -664,7 +667,8 @@
           "Reshmi KA"
         ]
       }
-    ]
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-group-p182"
   },
   {
     "id": "case-2015-head-controlled-wheel-chair",
@@ -1308,6 +1312,47 @@
     "method_tag": "wastewater electrode cells, filtration and biogas concept",
     "method_summary": "The report links waste chopping and collection, electrode cells, sand/gravel/charcoal filtration, and a biogas/manure stage in a process model.",
     "evidence_limits": "The approximately 1.5 V is an attributed report claim, without current/load, electrode-material details or repeated measurements. No validated useful power, gas yield, filtration performance or drinking-water safety is established. Its electrolytic-cell terminology needs scientific checking. Publication does not establish a Kerala DGE selection route, prize or each pupil/teacher construction task.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2005-fully-automatic-railway-gate",
+    "year": 2005,
+    "title": "Fully Automatic Railway Gate",
+    "source_ids": [
+      "project-029"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 4,
+    "students_credited": [
+      "Mridul M.",
+      "Sruth J V."
+    ],
+    "teachers_credited": [
+      "Anil Kumar V",
+      "Shaj K."
+    ],
+    "school_as_published": "Rajiv Gandhi Memorial High School, Mokeri, PO Thalassery, Kannur 670 692, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 18,
+    "printed_page": 10,
+    "chapter_pdf_pages_1based": [
+      18,
+      19,
+      20
+    ],
+    "chapter_printed_pages": [
+      10,
+      11,
+      12
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "leaf switches, electromagnet switching and model gate sequencing",
+    "method_summary": "Leaf switches detect a toy train; electromagnet-operated switches sequence signals, a buzzer and motorised gates. Later switches reverse the sequence after the train passes.",
+    "evidence_limits": "The reported 20–30 second closing interval lacks repeated timing measurements. No field reliability, obstruction detection, safe failure behaviour or comparative cost is demonstrated. Solar operation is a proposed application; no microcontroller, AI or source-code implementation is established.",
     "student_work_division_verified": false,
     "performance_independently_verified": false
   }

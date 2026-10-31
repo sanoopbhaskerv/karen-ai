@@ -1,0 +1,3869 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-01",
+  "portal_year": 2026,
+  "scope": "Dated public portal observations, not certified final results, eligibility lists, actual attendance or a substitute for local instructions.",
+  "normalisation": [
+    "Blank fair cells expanded from the preceding nonblank cell; original cell retained.",
+    "-- retained as published in both completion counters; interpreted as zero solely for total/completed/incompleted arithmetic.",
+    "Status totals count generic catalogue rows; UP rows do not establish district-level pupil eligibility.",
+    "Source arithmetic mismatches are retained with computed flags; their cause is not inferred.",
+    "A missing item-report link is an observation, not proof of cancellation, nonparticipation or zero entrants."
+  ],
+  "districts": [
+    {
+      "district_id": 1,
+      "district": "Thiruvananthapuram",
+      "source_id": "district-status-2026-01",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
+      "retrieved_at_utc": "2026-10-31T20:39:16.690628+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "6",
+          "incompleted_items": 6,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "17",
+          "completed_count_for_reconciliation": 17,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "13",
+          "completed_count_for_reconciliation": 13,
+          "incompleted_as_published": "1",
+          "incompleted_items": 1,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "9",
+          "incompleted_items": 9,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "16",
+          "completed_count_for_reconciliation": 16,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "16",
+          "completed_count_for_reconciliation": 16,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "8",
+          "completed_count_for_reconciliation": 8,
+          "incompleted_as_published": "2",
+          "incompleted_items": 2,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "9",
+          "completed_count_for_reconciliation": 9,
+          "incompleted_as_published": "1",
+          "incompleted_items": 1,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "35",
+          "completed_count_for_reconciliation": 35,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "35",
+          "completed_count_for_reconciliation": 35,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "3",
+          "incompleted_items": 3,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "8",
+          "completed_count_for_reconciliation": 8,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "8",
+          "completed_count_for_reconciliation": 8,
+          "incompleted_as_published": "--",
+          "incompleted_items": 0,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "170",
+        "completed_count_for_reconciliation": 170,
+        "incompleted_as_published": "51",
+        "incompleted_items": 51,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 170,
+          "displayed_total": 170,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 51,
+          "displayed_total": 51,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": true,
+          "published_report_links": [
+            {
+              "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/gradewiseItemreport/115/1/3/0/2/1",
+              "text": "View"
+            },
+            {
+              "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/reportforCertificate/115/1/3/0/2/1",
+              "text": "View"
+            }
+          ],
+          "observation": "Public report link(s) present",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/1",
+          "retrieved_at_utc": "2026-10-31T20:39:16.853211+00:00",
+          "grade_report_aggregate_source_id": "district-working-2026-tvm-115"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": true,
+          "published_report_links": [
+            {
+              "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/gradewiseItemreport/126/1/4/0/2/1",
+              "text": "View"
+            },
+            {
+              "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/reportforCertificate/126/1/4/0/2/1",
+              "text": "View"
+            }
+          ],
+          "observation": "Public report link(s) present",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/1",
+          "retrieved_at_utc": "2026-10-31T20:39:16.749580+00:00",
+          "grade_report_aggregate_source_id": "district-working-2026-tvm-126"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 1,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:16.690628+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.336805+00:00",
+          "bytes": 20866,
+          "sha256": "7d526b98ddab93495920c3a4547849a5a05aedcc96428a8b2864a5de8cb421a2"
+        },
+        {
+          "district_id": 1,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/1",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:16.853211+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.338080+00:00",
+          "bytes": 25555,
+          "sha256": "04ee6b1d065e3925e31be90a830024cf5f79e96b0764405003a05ad6196d34c5"
+        },
+        {
+          "district_id": 1,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/1",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:16.749580+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.339542+00:00",
+          "bytes": 22707,
+          "sha256": "de790621fee16eb89eb7db5227f7ab0956dcfb8851908283f80bd3bcb5fa93a6"
+        }
+      ]
+    },
+    {
+      "district_id": 2,
+      "district": "Kollam",
+      "source_id": "district-status-2026-02",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/2",
+      "retrieved_at_utc": "2026-10-31T20:39:16.736435+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "19",
+        "completed_count_for_reconciliation": 19,
+        "incompleted_as_published": "202",
+        "incompleted_items": 202,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 19,
+          "displayed_total": 19,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 202,
+          "displayed_total": 202,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/2",
+          "retrieved_at_utc": "2026-10-31T20:39:17.057772+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/2",
+          "retrieved_at_utc": "2026-10-31T20:39:17.161954+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 2,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/2",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:16.736435+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.340872+00:00",
+          "bytes": 20864,
+          "sha256": "2b9cab40098859e1362e9ecbdfef72cc22930953cd21aed333c2fb93e947b115"
+        },
+        {
+          "district_id": 2,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/2",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.057772+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.693513+00:00",
+          "bytes": 22051,
+          "sha256": "ad7acc085765f4ef60d5e0647783517369d77239fb4341fa802ae00a45f9f8b3"
+        },
+        {
+          "district_id": 2,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/2",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.161954+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.738793+00:00",
+          "bytes": 20076,
+          "sha256": "8c5445df45af1c9fa82161ac44629bd1d9a7f91e3b13cded7098896f17936c56"
+        }
+      ]
+    },
+    {
+      "district_id": 3,
+      "district": "Pathanamthitta",
+      "source_id": "district-status-2026-03",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/3",
+      "retrieved_at_utc": "2026-10-31T20:39:17.119678+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "6",
+          "completed_count_for_reconciliation": 6,
+          "incompleted_as_published": "11",
+          "incompleted_items": 11,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "16",
+        "completed_count_for_reconciliation": 16,
+        "incompleted_as_published": "205",
+        "incompleted_items": 205,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 16,
+          "displayed_total": 16,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 205,
+          "displayed_total": 205,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/3",
+          "retrieved_at_utc": "2026-10-31T20:39:17.337200+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/3",
+          "retrieved_at_utc": "2026-10-31T20:39:17.502202+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 3,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/3",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.119678+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.750524+00:00",
+          "bytes": 20604,
+          "sha256": "9ca406bedd9abee3b739f18f18fdf8e42f4ab3ad62b0eea64f345746594588f7"
+        },
+        {
+          "district_id": 3,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/3",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.337200+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:16.855810+00:00",
+          "bytes": 22350,
+          "sha256": "9744831433315260b4315c7e2386947e067e6ec007cf73bc6cf6e79c9aa8dc0a"
+        },
+        {
+          "district_id": 3,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/3",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.502202+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.060096+00:00",
+          "bytes": 20084,
+          "sha256": "02bdd27fff720dfda918b099cb5c4c09d032440aa8cefc54990db72a4935a4af"
+        }
+      ]
+    },
+    {
+      "district_id": 4,
+      "district": "Alappuzha",
+      "source_id": "district-status-2026-04",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/4",
+      "retrieved_at_utc": "2026-10-31T20:39:17.548440+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "9",
+          "incompleted_items": 9,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "9",
+          "incompleted_items": 9,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": false
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": false
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "17",
+        "completed_count_for_reconciliation": 17,
+        "incompleted_as_published": "206",
+        "incompleted_items": 206,
+        "total_equals_completed_plus_incompleted": false
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 17,
+          "displayed_total": 17,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 206,
+          "displayed_total": 206,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/4",
+          "retrieved_at_utc": "2026-10-31T20:39:17.612926+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/4",
+          "retrieved_at_utc": "2026-10-31T20:39:17.614734+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 4,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/4",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.548440+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.120732+00:00",
+          "bytes": 20867,
+          "sha256": "b5ecdf24136f68c95159ec4c0ee9d8cb40e9e04729b496cee889cd2b4dd737bb"
+        },
+        {
+          "district_id": 4,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/4",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.612926+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.162817+00:00",
+          "bytes": 22054,
+          "sha256": "b425f9320d27b0ce80dbae55637401f303b16bd5be12f091ce1c41defb30c7d4"
+        },
+        {
+          "district_id": 4,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/4",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.614734+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.338230+00:00",
+          "bytes": 20079,
+          "sha256": "e89acf6d15b60b4f09d58b8467fa63ba7ae2722a32f25a5054ddc32118b582b7"
+        }
+      ]
+    },
+    {
+      "district_id": 5,
+      "district": "Kottayam",
+      "source_id": "district-status-2026-05",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/5",
+      "retrieved_at_utc": "2026-10-31T20:39:17.901840+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "6",
+          "completed_count_for_reconciliation": 6,
+          "incompleted_as_published": "11",
+          "incompleted_items": 11,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "16",
+        "completed_count_for_reconciliation": 16,
+        "incompleted_as_published": "205",
+        "incompleted_items": 205,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 16,
+          "displayed_total": 16,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 205,
+          "displayed_total": 205,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/5",
+          "retrieved_at_utc": "2026-10-31T20:39:18.233642+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/5",
+          "retrieved_at_utc": "2026-10-31T20:39:18.272256+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 5,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/5",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:17.901840+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.503177+00:00",
+          "bytes": 20598,
+          "sha256": "bb4f769e8d5345c19017d28f6f1d2a7a5a7b6fe36d3f702d8eb00b4a3b21774e"
+        },
+        {
+          "district_id": 5,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/5",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:18.233642+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.549550+00:00",
+          "bytes": 22344,
+          "sha256": "31c3178ea622e07b7eb4afa4007d08fa5e970522f3a9dea91da600cc0bb4173a"
+        },
+        {
+          "district_id": 5,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/5",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:18.272256+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.613898+00:00",
+          "bytes": 20078,
+          "sha256": "a0bb8aaf1c8cfaf0c29688707b917ae5254cbb853e8d24c6a8e56da7fcac22ac"
+        }
+      ]
+    },
+    {
+      "district_id": 6,
+      "district": "Idukki",
+      "source_id": "district-status-2026-06",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/6",
+      "retrieved_at_utc": "2026-10-31T20:39:18.236174+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "15",
+        "completed_count_for_reconciliation": 15,
+        "incompleted_as_published": "206",
+        "incompleted_items": 206,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 15,
+          "displayed_total": 15,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 206,
+          "displayed_total": 206,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/6",
+          "retrieved_at_utc": "2026-10-31T20:39:18.809011+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/6",
+          "retrieved_at_utc": "2026-10-31T20:39:19.137611+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 6,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/6",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:18.236174+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.615736+00:00",
+          "bytes": 20596,
+          "sha256": "21f1be0fb6dcb8b1aa57e3644578beef042f3ee4e3bff9fc15e0b2aa64ab6e1f"
+        },
+        {
+          "district_id": 6,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/6",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:18.809011+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:17.902936+00:00",
+          "bytes": 22051,
+          "sha256": "9cf501d6b86b126dcd34155b0dd4798bd16c28fb37771d02e95d651b5d31456d"
+        },
+        {
+          "district_id": 6,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/6",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:19.137611+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:18.236023+00:00",
+          "bytes": 20076,
+          "sha256": "2474a1cf76ef2141b7b3a3950d3be1e923b9ecd226d11afc25e3e25db1cb8fc6"
+        }
+      ]
+    },
+    {
+      "district_id": 7,
+      "district": "Ernakulam",
+      "source_id": "district-status-2026-07",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/7",
+      "retrieved_at_utc": "2026-10-31T20:39:19.132424+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "6",
+          "completed_count_for_reconciliation": 6,
+          "incompleted_as_published": "11",
+          "incompleted_items": 11,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "20",
+        "completed_count_for_reconciliation": 20,
+        "incompleted_as_published": "201",
+        "incompleted_items": 201,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 20,
+          "displayed_total": 20,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 201,
+          "displayed_total": 201,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/7",
+          "retrieved_at_utc": "2026-10-31T20:39:19.313857+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/7",
+          "retrieved_at_utc": "2026-10-31T20:39:19.865136+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 7,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/7",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:19.132424+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:18.238908+00:00",
+          "bytes": 20867,
+          "sha256": "6701dbf80744bdc614c65aceda043fe6f236b7b0f3f75ce21354d40a4901074f"
+        },
+        {
+          "district_id": 7,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/7",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:19.313857+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:18.273113+00:00",
+          "bytes": 22345,
+          "sha256": "4702ef888cecc99e7aa2e8a1733c915dfb4e405c711f91bd384a706d3abeaee8"
+        },
+        {
+          "district_id": 7,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/7",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:19.865136+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:18.811270+00:00",
+          "bytes": 20079,
+          "sha256": "455c616ec1ec2528c268c146301c226cb7adb654de26576bb658aad3d6611126"
+        }
+      ]
+    },
+    {
+      "district_id": 8,
+      "district": "Thrissur",
+      "source_id": "district-status-2026-08",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/8",
+      "retrieved_at_utc": "2026-10-31T20:39:20.270390+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "13",
+          "incompleted_items": 13,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "3",
+          "completed_count_for_reconciliation": 3,
+          "incompleted_as_published": "11",
+          "incompleted_items": 11,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "13",
+        "completed_count_for_reconciliation": 13,
+        "incompleted_as_published": "208",
+        "incompleted_items": 208,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 13,
+          "displayed_total": 13,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 208,
+          "displayed_total": 208,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/8",
+          "retrieved_at_utc": "2026-10-31T20:39:20.092829+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/8",
+          "retrieved_at_utc": "2026-10-31T20:39:20.340142+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 8,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/8",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:20.270390+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:19.137491+00:00",
+          "bytes": 20598,
+          "sha256": "a2be8040bd5cc4e0f9bb2bae3cbc2f78cddef155424b1b5186b90100043adeb6"
+        },
+        {
+          "district_id": 8,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/8",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:20.092829+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:19.139416+00:00",
+          "bytes": 21762,
+          "sha256": "c3c66aedcebb235a9d8ccb393193fe0b7d53292d4bee24d6b7e8dd3a669f13da"
+        },
+        {
+          "district_id": 8,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/8",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:20.340142+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:19.316128+00:00",
+          "bytes": 19787,
+          "sha256": "7c92c8b4b2ee94a256f9a28de948b6e3d07e77b305367e6c909a24b59d13bb57"
+        }
+      ]
+    },
+    {
+      "district_id": 9,
+      "district": "Palakkad",
+      "source_id": "district-status-2026-09",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/9",
+      "retrieved_at_utc": "2026-10-31T20:39:20.824675+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "15",
+        "completed_count_for_reconciliation": 15,
+        "incompleted_as_published": "206",
+        "incompleted_items": 206,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 15,
+          "displayed_total": 15,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 206,
+          "displayed_total": 206,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/9",
+          "retrieved_at_utc": "2026-10-31T20:39:21.034433+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/9",
+          "retrieved_at_utc": "2026-10-31T20:39:21.157805+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 9,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/9",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:20.824675+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:19.867255+00:00",
+          "bytes": 20598,
+          "sha256": "c3742b750d38d1879e5cdd9eee214abe362fceb8394e8066e0c24bf816771ef1"
+        },
+        {
+          "district_id": 9,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/9",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:21.034433+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:20.095046+00:00",
+          "bytes": 22053,
+          "sha256": "c89752315891a4f63e53fc8d41bcc75ba6b80054f8457cb1b3fe234e04ad1837"
+        },
+        {
+          "district_id": 9,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/9",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:21.157805+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:20.272953+00:00",
+          "bytes": 20078,
+          "sha256": "e5c7e7a0dec8a07fde7013150b356f22d18ab9fabed446f581e7e7dcf5d8e378"
+        }
+      ]
+    },
+    {
+      "district_id": 10,
+      "district": "Malappuram",
+      "source_id": "district-status-2026-10",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/10",
+      "retrieved_at_utc": "2026-10-31T20:39:21.325868+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "6",
+          "completed_count_for_reconciliation": 6,
+          "incompleted_as_published": "11",
+          "incompleted_items": 11,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "9",
+          "incompleted_items": 9,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "9",
+          "incompleted_items": 9,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "18",
+        "completed_count_for_reconciliation": 18,
+        "incompleted_as_published": "203",
+        "incompleted_items": 203,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 18,
+          "displayed_total": 18,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 203,
+          "displayed_total": 203,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/10",
+          "retrieved_at_utc": "2026-10-31T20:39:21.600685+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/10",
+          "retrieved_at_utc": "2026-10-31T20:39:21.749612+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 10,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/10",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:21.325868+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:20.342166+00:00",
+          "bytes": 20921,
+          "sha256": "c5156654eee982b5b2af54544ef798ec9343aa80409adde5fc19e97a1cd11b9f"
+        },
+        {
+          "district_id": 10,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/10",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:21.600685+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:20.827259+00:00",
+          "bytes": 22358,
+          "sha256": "da2451a2151bebe12f7d13901f7d2da9d5340ff477a82f047f1671529b9c6296"
+        },
+        {
+          "district_id": 10,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/10",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:21.749612+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:21.036627+00:00",
+          "bytes": 20088,
+          "sha256": "3e173ed4f44a5e4f028c53bd523db204490f2e855b6159ace49286b0675c3bec"
+        }
+      ]
+    },
+    {
+      "district_id": 11,
+      "district": "Kozhikode",
+      "source_id": "district-status-2026-11",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/11",
+      "retrieved_at_utc": "2026-10-31T20:39:22.087925+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "13",
+        "completed_count_for_reconciliation": 13,
+        "incompleted_as_published": "208",
+        "incompleted_items": 208,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 13,
+          "displayed_total": 13,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 208,
+          "displayed_total": 208,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/11",
+          "retrieved_at_utc": "2026-10-31T20:39:22.087846+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/11",
+          "retrieved_at_utc": "2026-10-31T20:39:22.383420+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 11,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/11",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.087925+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:21.159734+00:00",
+          "bytes": 20378,
+          "sha256": "2f0a6c9a41a82fc2db0aef062efa53f388598707418b6fd82435cbbdcba73ff4"
+        },
+        {
+          "district_id": 11,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/11",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.087846+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:21.328527+00:00",
+          "bytes": 22064,
+          "sha256": "168169b824de67fa03809f05f5437df3493f797f9f7d0ef85a44e377775c0125"
+        },
+        {
+          "district_id": 11,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/11",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.383420+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:21.603002+00:00",
+          "bytes": 20087,
+          "sha256": "b9ed9e63363db6f45960a8d64924b2dc6892ce4942b20ddf56dfed2f7bea92f5"
+        }
+      ]
+    },
+    {
+      "district_id": 12,
+      "district": "Wayanad",
+      "source_id": "district-status-2026-12",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/12",
+      "retrieved_at_utc": "2026-10-31T20:39:22.406862+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "19",
+        "completed_count_for_reconciliation": 19,
+        "incompleted_as_published": "202",
+        "incompleted_items": 202,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 19,
+          "displayed_total": 19,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 202,
+          "displayed_total": 202,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/12",
+          "retrieved_at_utc": "2026-10-31T20:39:22.770191+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/12",
+          "retrieved_at_utc": "2026-10-31T20:39:22.665230+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 12,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/12",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.406862+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:21.751721+00:00",
+          "bytes": 20918,
+          "sha256": "35c0585b1ba0961bac61dc36002d22624313db74aae0b1f7fdf3df63c25497d9"
+        },
+        {
+          "district_id": 12,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/12",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.770191+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.090316+00:00",
+          "bytes": 22062,
+          "sha256": "2cc73e33ae917f842688c5f60c77587059ae420078ff064595516121fc7d5cf5"
+        },
+        {
+          "district_id": 12,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/12",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.665230+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.092053+00:00",
+          "bytes": 20085,
+          "sha256": "d11536ed2fc8e2022b24505138e7af452991d803a810f7b347d2f85d0bb5c70f"
+        }
+      ]
+    },
+    {
+      "district_id": 13,
+      "district": "Kannur",
+      "source_id": "district-status-2026-13",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/13",
+      "retrieved_at_utc": "2026-10-31T20:39:22.903761+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "13",
+        "completed_count_for_reconciliation": 13,
+        "incompleted_as_published": "208",
+        "incompleted_items": 208,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 13,
+          "displayed_total": 13,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 208,
+          "displayed_total": 208,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/13",
+          "retrieved_at_utc": "2026-10-31T20:39:23.026326+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/13",
+          "retrieved_at_utc": "2026-10-31T20:39:23.239473+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 13,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/13",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:22.903761+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.385548+00:00",
+          "bytes": 20375,
+          "sha256": "0e28ed0c4476e35df3e13fd628844d5f81aa3c6b66ede3faaaa5d92f9bb1ec4c"
+        },
+        {
+          "district_id": 13,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/13",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:23.026326+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.407914+00:00",
+          "bytes": 22061,
+          "sha256": "3afa71bf55ee110fe4c3b18c290a85736577ee503fa1dbcff84b3a3e07bb3435"
+        },
+        {
+          "district_id": 13,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/13",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:23.239473+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.666060+00:00",
+          "bytes": 20084,
+          "sha256": "94fdc9d9e6ed227977de7a9c44892c20d4f73e98260c46f733d7149c6560ef13"
+        }
+      ]
+    },
+    {
+      "district_id": 14,
+      "district": "Kasaragod",
+      "source_id": "district-status-2026-14",
+      "status_source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/14",
+      "retrieved_at_utc": "2026-10-31T20:39:23.368341+00:00",
+      "status_rows": [
+        {
+          "line_as_published": 1,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "Science Fair",
+          "section_as_published": "UP",
+          "total_items": 8,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 2,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 17,
+          "completed_as_published": "5",
+          "completed_count_for_reconciliation": 5,
+          "incompleted_as_published": "12",
+          "incompleted_items": 12,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 3,
+          "fair_as_published": "Science Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 14,
+          "completed_as_published": "4",
+          "completed_count_for_reconciliation": 4,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 4,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "Mathematics Fair",
+          "section_as_published": "UP",
+          "total_items": 10,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "10",
+          "incompleted_items": 10,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 5,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 6,
+          "fair_as_published": "Mathematics Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 16,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "14",
+          "incompleted_items": 14,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 7,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "Socialscience Fair",
+          "section_as_published": "UP",
+          "total_items": 5,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "5",
+          "incompleted_items": 5,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 8,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 9,
+          "fair_as_published": "Socialscience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 10,
+          "completed_as_published": "2",
+          "completed_count_for_reconciliation": 2,
+          "incompleted_as_published": "8",
+          "incompleted_items": 8,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 10,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "Workexperience Fair",
+          "section_as_published": "UP",
+          "total_items": 25,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "25",
+          "incompleted_items": 25,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 11,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 12,
+          "fair_as_published": "Workexperience Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 35,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "35",
+          "incompleted_items": 35,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 13,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "IT Fair",
+          "section_as_published": "UP",
+          "total_items": 4,
+          "completed_as_published": "--",
+          "completed_count_for_reconciliation": 0,
+          "incompleted_as_published": "4",
+          "incompleted_items": 4,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 14,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        },
+        {
+          "line_as_published": 15,
+          "fair_as_published": "IT Fair",
+          "fair_cell_as_published": "",
+          "section_as_published": "HSS/VHSS",
+          "total_items": 8,
+          "completed_as_published": "1",
+          "completed_count_for_reconciliation": 1,
+          "incompleted_as_published": "7",
+          "incompleted_items": 7,
+          "total_equals_completed_plus_incompleted": true
+        }
+      ],
+      "displayed_totals": {
+        "total_items": 221,
+        "completed_as_published": "19",
+        "completed_count_for_reconciliation": 19,
+        "incompleted_as_published": "202",
+        "incompleted_items": 202,
+        "total_equals_completed_plus_incompleted": true
+      },
+      "row_sum_checks": {
+        "total_items": {
+          "row_sum": 221,
+          "displayed_total": 221,
+          "matches": true
+        },
+        "completed_count_for_reconciliation": {
+          "row_sum": 19,
+          "displayed_total": 19,
+          "matches": true
+        },
+        "incompleted_items": {
+          "row_sum": 202,
+          "displayed_total": 202,
+          "matches": true
+        }
+      },
+      "working_model_rows": [
+        {
+          "section": "HS",
+          "item_code": "115",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/14",
+          "retrieved_at_utc": "2026-10-31T20:39:23.381882+00:00"
+        },
+        {
+          "section": "HSS/VHSS",
+          "item_code": "126",
+          "item_name_as_published": "Working Model",
+          "item_report_link_present": false,
+          "published_report_links": [],
+          "observation": "No public report link in the retrieved item row",
+          "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/14",
+          "retrieved_at_utc": "2026-10-31T20:39:23.539656+00:00"
+        }
+      ],
+      "acquisitions": [
+        {
+          "district_id": 14,
+          "kind": "status",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/14",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:23.368341+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.771160+00:00",
+          "bytes": 20920,
+          "sha256": "c38b0c15c8d900206ae08f128672ea5bc7f2fea5b2dc60d564627961ce698516"
+        },
+        {
+          "district_id": 14,
+          "kind": "science-hs",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/14",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:23.381882+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:22.904821+00:00",
+          "bytes": 22064,
+          "sha256": "7b853efe155623590af6358a5f4a7a0cad59785a9b7b874de9f1283fd1ac7058"
+        },
+        {
+          "district_id": 14,
+          "kind": "science-hss",
+          "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/14",
+          "http_status": "200",
+          "exit_code": 0,
+          "retrieved_at_utc": "2026-10-31T20:39:23.539656+00:00",
+          "retrieval_started_at_utc": "2026-10-31T20:39:23.028541+00:00",
+          "bytes": 20087,
+          "sha256": "3a530708134942e56c3359e3c13b3e4c8c9eda6b5e88e0085de3eed19a2f03d4"
+        }
+      ]
+    }
+  ],
+  "working_model_grade_report_aggregates": [
+    {
+      "source_id": "district-working-2026-tvm-115",
+      "district": "Thiruvananthapuram",
+      "section": "HS",
+      "item_code": "115",
+      "item_name_as_published": "Working Model",
+      "event_dates_as_published": "23-10-2026 - 25-10-2026",
+      "venue_as_published": "St. Mary's HSS Pattom",
+      "report_generated_as_published": "November 1, 2026, 02:12 am",
+      "pdf_pages": 3,
+      "pupil_rows": 46,
+      "grade_counts": {
+        "A": 30,
+        "B": 16
+      },
+      "rank_or_marks_column_present": false,
+      "project_titles_or_methods_present": false,
+      "scope": "Aggregate counts of published pupil rows only; not distinct exhibits, certified attendance, ranks, marks or a final overall championship. No names, registration numbers or school-level pupil rows retained."
+    },
+    {
+      "source_id": "district-working-2026-tvm-126",
+      "district": "Thiruvananthapuram",
+      "section": "HSS/VHSS",
+      "item_code": "126",
+      "item_name_as_published": "Working Model",
+      "event_dates_as_published": "23-10-2026 - 25-10-2026",
+      "venue_as_published": "St. Mary's HSS Pattom",
+      "report_generated_as_published": "November 1, 2026, 02:12 am",
+      "pdf_pages": 3,
+      "pupil_rows": 46,
+      "grade_counts": {
+        "A": 30,
+        "B": 16
+      },
+      "rank_or_marks_column_present": false,
+      "project_titles_or_methods_present": false,
+      "scope": "Aggregate counts of published pupil rows only; not distinct exhibits, certified attendance, ranks, marks or a final overall championship. No names, registration numbers or school-level pupil rows retained."
+    }
+  ]
+}

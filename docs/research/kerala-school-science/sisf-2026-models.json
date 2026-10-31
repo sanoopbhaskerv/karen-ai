@@ -170,7 +170,8 @@
       "method_summary": "Compares rubber without filler against palm-fibre rubber using milling, moulding and mechanical tests.",
       "evidence_limits": "Numerical comparisons are reported; replicate runs, uncertainty and independent test certificates are absent.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p156"
     },
     {
       "id": "sisf-2026-kerala-individual-p159",
@@ -205,7 +206,8 @@
       "method_summary": "Folded and rearranged solids illustrate prism, pyramid and frustum relationships.",
       "evidence_limits": "An explanatory geometry model; learning gains and originality are not measured.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p159"
     },
     {
       "id": "sisf-2026-kerala-individual-p161",
@@ -238,7 +240,8 @@
       "method_summary": "A remote-operated vehicle combines cutting, seeding, spraying and water-cleaning functions.",
       "evidence_limits": "Control circuitry, field trials, cost comparisons and capacity measurements are not supplied.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p161"
     },
     {
       "id": "sisf-2026-kerala-individual-p162",
@@ -271,7 +274,8 @@
       "method_summary": "Six linked scrapbook panels use visual layouts to explain mathematical topics.",
       "evidence_limits": "Interest and comprehension claims lack a sample description or comparative assessment.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p162"
     },
     {
       "id": "sisf-2026-kerala-individual-p163",
@@ -307,7 +311,8 @@
       "performance_independently_verified": false,
       "future_improvements_as_reported": [
         "Sensors, solar power and IoT monitoring are future improvements."
-      ]
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p163"
     },
     {
       "id": "sisf-2026-kerala-individual-p164",
@@ -340,7 +345,8 @@
       "method_summary": "ESP32 sensor nodes send LoRa alerts to a base station, then Wi-Fi/MQTT notifications.",
       "evidence_limits": "No range, false-alarm or outage tests; cloud notifications still depend on the base station’s Wi-Fi.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p164"
     },
     {
       "id": "sisf-2026-kerala-individual-p165",
@@ -373,7 +379,8 @@
       "method_summary": "Sensor readings control irrigation and other actuators, with Blynk/ESP32-CAM monitoring.",
       "evidence_limits": "Calibration, water savings and crop outcomes are asserted without numerical trial evidence.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p165"
     },
     {
       "id": "sisf-2026-kerala-individual-p166",
@@ -408,7 +415,8 @@
       "method_summary": "An incircle-based triangle decomposition illustrates the area relation r × semiperimeter.",
       "evidence_limits": "The relation requires a tangential polygon; no measured classroom comparison is provided.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p166"
     },
     {
       "id": "sisf-2026-kerala-individual-p168",
@@ -458,7 +466,8 @@
           "pdf_page_1based": 207,
           "locator": "PDF207 embedded photograph: upper-left wall sign; additional smaller label KLI-9"
         }
-      }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p168"
     },
     {
       "id": "sisf-2026-kerala-individual-p170",
@@ -493,7 +502,8 @@
       "method_summary": "Arduino-modulated light carries audio/data to a photodiode receiver; blocking the light stops transmission.",
       "evidence_limits": "Data rate, range, ambient-light tolerance and error-rate measurements are absent.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p170"
     },
     {
       "id": "sisf-2026-kerala-individual-p172",
@@ -531,7 +541,8 @@
       "performance_independently_verified": false,
       "future_improvements_as_reported": [
         "Offline edge AI and fully autonomous wheelchair navigation are future improvements."
-      ]
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p172"
     },
     {
       "id": "sisf-2026-kerala-individual-p174",
@@ -566,7 +577,8 @@
       "method_summary": "Composting, fermentation, biorefining and moulding yield proposed banana-pseudostem products.",
       "evidence_limits": "Trial narratives omit numerical results; food/feed safety, yields and commercial viability are unverified.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p174"
     },
     {
       "id": "sisf-2026-kerala-individual-p176",
@@ -616,7 +628,8 @@
           "pdf_page_1based": 215,
           "locator": "PDF215 embedded photograph: wall sign above MEDBOT poster"
         }
-      }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p176"
     },
     {
       "id": "sisf-2026-kerala-individual-p178",
@@ -654,7 +667,8 @@
       "performance_independently_verified": false,
       "future_improvements_as_reported": [
         "Obstacle sensing, improved AI accuracy and emergency alerts are future improvements."
-      ]
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p178"
     },
     {
       "id": "sisf-2026-kerala-group-p180",
@@ -690,7 +704,8 @@
       "method_summary": "Plant-derived growth promoters are compared on soil/crops; water comparisons use BOD/DO tests.",
       "evidence_limits": "No replicate counts or numerical nutrient, yield or water-test results are presented.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p180"
     },
     {
       "id": "sisf-2026-kerala-group-p182",
@@ -734,7 +749,8 @@
         "note": "Strong candidate from both pupil names, school, category and subject, with expanded title and guide spelling Resmi/Reshmi variant. Code remains award-source-only until independently located in compendium. Do not infer authorship contribution or common guide identity.",
         "award_transferred": false,
         "credits_merged": false
-      }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-group-p182"
     },
     {
       "id": "sisf-2026-kerala-group-p183",
@@ -768,7 +784,8 @@
       "method_summary": "Rainfall, aquifer information and soil/runoff experiments support a local water-budget comparison.",
       "evidence_limits": "Full sampling dates, consumption totals and surplus/deficit calculations are not printed.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p183"
     },
     {
       "id": "sisf-2026-kerala-group-p184",
@@ -802,7 +819,8 @@
       "method_summary": "Experiments illustrate momentum, changing mass at constant force, and gravitational free fall.",
       "evidence_limits": "Apparatus details, measurements and uncertainty are not supplied.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p184"
     },
     {
       "id": "sisf-2026-kerala-group-p185",
@@ -853,7 +871,8 @@
           "pdf_page_1based": 226,
           "locator": "PDF226 embedded photograph: red wall sign at top edge"
         }
-      }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-group-p185"
     },
     {
       "id": "sisf-2026-kerala-group-p187",
@@ -889,7 +908,8 @@
       "method_summary": "A city concept integrates bioenergy, algae, bioremediation and resource cycling.",
       "evidence_limits": "No operating plant, energy balance, emissions inventory or measured net-zero result is established.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p187"
     },
     {
       "id": "sisf-2026-kerala-group-p189",
@@ -927,7 +947,8 @@
       "method_summary": "Coils, magnets and model tracks illustrate motor action, levitation and solenoid-field factors.",
       "evidence_limits": "No field-strength, stability or transport-performance measurements are supplied.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p189"
     },
     {
       "id": "sisf-2026-kerala-teacher-p192",
@@ -958,7 +979,8 @@
       "method_summary": "Motorised classroom models illustrate tectonic and surface processes.",
       "evidence_limits": "Learning benefit and the source’s worldwide-priority claim are unverified.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p192"
     },
     {
       "id": "sisf-2026-kerala-teacher-p193",
@@ -989,7 +1011,8 @@
       "method_summary": "Triangle cut-outs are compared with blackboard teaching on a square-pyramid task.",
       "evidence_limits": "Reported outcomes are 18/20 versus 6/20; allocation, baseline equivalence and assessment details are absent.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p193"
     },
     {
       "id": "sisf-2026-kerala-teacher-p194",
@@ -1020,7 +1043,8 @@
       "method_summary": "A phone, amplifier and speaker support frequency/resonance experiments.",
       "evidence_limits": "No frequency/wavelength series, measurement protocol or uncertainty is printed.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p194"
     },
     {
       "id": "sisf-2026-kerala-teacher-p195",
@@ -1053,7 +1077,8 @@
       "method_summary": "Optical teaching aids supplement one of two 25-student groups, with pre/post tests.",
       "evidence_limits": "Higher average marks are claimed without scores, variance or group-allocation details.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p195"
     },
     {
       "id": "sisf-2026-kerala-teacher-p197",
@@ -1087,7 +1112,8 @@
       "evidence_limits": "Raw counts/spectra are absent; reported morphology percentages have unclear denominators and cannot be treated as exclusive shares.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "source_notes": "The single published teacher-credit string contains commas; it is preserved without inventing additional contributors."
+      "source_notes": "The single published teacher-credit string contains commas; it is preserved without inventing additional contributors.",
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p197"
     },
     {
       "id": "sisf-2026-kerala-teacher-p199",
@@ -1120,7 +1146,8 @@
       "method_summary": "Lens-based teaching aids are compared across pretested class divisions.",
       "evidence_limits": "No group counts, marks, allocation method or independent learning assessment is supplied.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p199"
     },
     {
       "id": "sisf-2026-kerala-teacher-p201",
@@ -1151,7 +1178,8 @@
       "method_summary": "Blower, surface and rotating models illustrate wind, friction and deflection.",
       "evidence_limits": "No numerical observations or comparative learning assessment is presented.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p201"
     },
     {
       "id": "sisf-2026-kerala-teacher-p202",
@@ -1182,7 +1210,8 @@
       "method_summary": "A field survey relates snail occurrence to moisture and discusses plant-extract deterrence.",
       "evidence_limits": "Survey sample size and controlled treatment data are absent; efficacy and environmental safety remain unverified.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p202"
     },
     {
       "id": "sisf-2026-kerala-teacher-p203",
@@ -1213,7 +1242,8 @@
       "method_summary": "Water-indicator testing is combined with an awareness survey.",
       "evidence_limits": "Coliform observations do not establish pathogenic amoeba identification or a validated outbreak predictor.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p203"
     },
     {
       "id": "sisf-2026-kerala-teacher-p204",
@@ -1244,7 +1274,8 @@
       "method_summary": "An angle-measuring instrument divides a plot into triangles for area calculations.",
       "evidence_limits": "Instrument calibration, surveyed comparisons and error propagation are absent; printed algebra needs checking.",
       "student_work_division_verified": false,
-      "performance_independently_verified": false
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p204"
     }
   ]
 }

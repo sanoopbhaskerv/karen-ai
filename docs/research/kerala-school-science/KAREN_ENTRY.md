@@ -141,3 +141,7 @@ Before finalising the entry, obtain or verify the following through the school:
 - Escort details, identity/registration documents and permitted equipment/network arrangements.
 
 For the exhibit, pack the working assembly, permitted power supply and cables, construction video, up to the allowed number of charts, actual cost sheet and source/acknowledgement notes. Keep the display inside the specified dimensions. Use the school's confirmed records to resolve the participant count before treating this as an individual entry.
+
+## Current calendar and portal checks
+
+The [planned 2026–27 calendar](CALENDAR_2026.md) separates Science phases from other streams; its broad dates do not supply Karen’s local reporting time. The later [state recording notice](OPERATIONS.md#state-event-recording-29-october-2026-quotation) concerns organiser procurement, separate from the pupil construction video. The [district status snapshot](DISTRICT_STATUS.md) also shows why a current champion panel or first A-grade row must not be treated as a final prize result.

@@ -328,5 +328,28 @@
     "pdf_pages": 83,
     "received_file_complete": true,
     "completeness_scope": "Published front matter and numbered-body page inventory; minor scan-edge/footer clipping and physical-cover completeness remain limitations."
+  },
+  {
+    "id": "project-029",
+    "title": "NCERT: Structure and Working of Science Models, 2005, Digital Library of India scan",
+    "url": "https://archive.org/download/dli.ernet.4068/4068-Structure%20And%20Working%20Of%20Science%20Models%202005.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.4068",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.4068",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_official_model_reports",
+    "source_date": "2005-11",
+    "publisher": "National Council of Educational Research and Training",
+    "notes": "Public primary-publication scan at Internet Archive, originating from Digital Library of India; archive metadata identifies C-DAC Noida as scanning centre and NCERT as source library. PDF3 title and PDF4 publication/copyright confirm NCERT 2005; preface PDF5–6 identifies the 32nd JNNSEC, Raipur. Original image PDF and same-length OCR derivative downloaded with normal TLS; an initial derivative request failed but a repeat succeeded. All 29 contents/chapter starts and attribution blocks visually checked: 18 English, 11 Hindi, one Kerala chapter. The complete Kerala chapter printed10–12/PDF18–20 read in full and visually inspected. Leaf switches and electromagnet-operated switches control a toy-track gate model; no microcontroller or field-safe railway system is established. Scandata maps contiguous printed1–103 to PDF9–111; PDF112 is a final unnumbered continuation and PDF113 is blank. All contents chapters present; minor scan text loss on the final continuation prevents certifying every original character. No exhibit code, prize or particular Kerala qualifying route recovered.",
+    "download_sha256": "ec97e3200515d4a015cb5ed72818e0432d7a1c52e03315b1e455000403a34d40",
+    "download_bytes": 3753030,
+    "pdf_pages": 113,
+    "received_file_complete": true,
+    "completeness_scope": "All contents chapters and numbered-body pages plus final unnumbered continuation are present; physical covers and every scanned character are not certified.",
+    "ocr_derivative": {
+      "url": "https://archive.org/download/dli.ernet.4068/4068-Structure%20And%20Working%20Of%20Science%20Models%202005_text.pdf",
+      "download_sha256": "392a559ce6ecb5323f32e1827cff69c8d53376efb0633c4188e5f29d66624a95",
+      "download_bytes": 4363058,
+      "pdf_pages": 113
+    }
   }
 ]

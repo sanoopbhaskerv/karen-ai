@@ -109,5 +109,18 @@
     "document_date": null,
     "notes": "Current catalogue inspected in shared research collection. HS Science Working Model is item 115, group capacity two. The IT catalogue lists standard student and teacher events without a Working Model item. Generic catalogue entries do not independently determine eligibility at the state level.",
     "portal_year": 2026
+  },
+  {
+    "id": "rules-cctv-quotation-2026",
+    "title": "DGE quotation notice for Sasthrolsavam 2026–27 CCTV and event video coverage",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/10/SCHOOLKALOLSAVAM202629102026.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_quotation_notice",
+    "document_date": "2026-10-29",
+    "order_number": "Y1/15473/2026/DGE; file DGE/15473/2026-Y1-Part(1)",
+    "pdf_pages": 2,
+    "download_bytes": 169445,
+    "download_sha256": "ca83a1a9e55765427e5e64a2f8d6b8e2cc5af6b9701816dac98d63b89264f29b",
+    "notes": "Both pages extracted/rendered and visually checked. Actual subject is Kerala School Sasthrolsavam2026–27 despite SCHOOLKALOLSAVAM in filename. DGE notice29October2026, printed digital-signature block Santhosh C A29October10:53:14; no separate cryptographic verification performed. Plans18–21November2026 at five main venues in Mannarkkad, Palakkad, without naming the five venues. Invites CCTV monitoring and event/item-wise recordings, agency equipment/generator provision and staff details10days before the festival. Tender submission5November5pm; opening6November3pm. Procurement invitation is not an awarded contract, installed system or completed recording. It is not the pupil construction-video clause or a subdistrict reporting notice. Equipment line literally reads125 HD Night Vision Cameras50Nos; do not invent a resolution/quantity interpretation. Public organiser contact address and agency staff details are not copied into derived participant data."
   }
 ]

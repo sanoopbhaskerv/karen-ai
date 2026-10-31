@@ -4,6 +4,8 @@ Checked on **1 November 2026**. SCERT Telangana’s [official compendium](https:
 
 All 49 content pages were read in extracted text; all 31 attribution blocks and 26 full method/result pages were checked against rendered source images. Actual headings and page footers establish the categories: individual PDF 193, group PDF 219 and teacher PDF 233. The first teacher write-up is printed 192 / PDF 235; the contents table’s printed 204 is misleading. Contacts, photographs and page images are excluded from the repository.
 
+The [linked public media guide](MEDIA.md) records all 31 QR units, 21 available MP4 resources and exact sampling limits. Each write-up has a `public_media_record_id`; media availability is separate from the reported method and its validation.
+
 ## Pupil individual exhibits
 
 | Published exhibit | School | Reported mechanism or method | Complete write-up |

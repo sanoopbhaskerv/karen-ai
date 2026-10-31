@@ -49,6 +49,14 @@ These are state organisational responsibilities, not evidence that a specific su
 
 General safety rules apply from school through state. The manual requires green-protocol conduct and permits disciplinary action for disruptive behaviour. Venue construction/fitness and electrical certificates belong to organiser arrangements. [Printed 5 and 7 / PDF 16 and 18](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=16); [printed 24 and 28 / PDF 35 and 39](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=35)
 
+## State event recording: 29 October 2026 quotation
+
+The DGE's [two-page quotation notice](https://education.kerala.gov.in/wp-content/uploads/2026/10/SCHOOLKALOLSAVAM202629102026.pdf), **Y1/15473/2026/DGE, 29 October 2026**, plans the state festival on **18–21 November at five main venues in Mannarkkad, Palakkad**. The filename says `SCHOOLKALOLSAVAM`, but the document's subject and body explicitly identify Sasthrolsavam. It does not name the five venues or give item-level reporting times.
+
+The invitation concerns venue CCTV and item-wise event recordings for the general convener. The agency must supply the necessary equipment/generator and provide staff details ten days before the festival. Submissions are due **5 November at 5 pm**, with opening scheduled **6 November at 3 pm**. These are supplier-procurement dates, not pupil registration deadlines. The notice does not prove that a contract was awarded, cameras installed or videos completed.
+
+The equipment line reads “125 HD Night Vision Cameras 50 Nos”; its resolution/quantity wording should not be silently reinterpreted. More importantly for entrants, organiser event coverage is separate from the pupil's required construction/participation video. This notice does not replace that video or establish equivalent subdistrict recording arrangements.
+
 ## Certificates and an archival lead
 
 For a lost or corrected **DGE-issued** certificate, the manual prescribes an application through the headteacher/principal with a ₹250 demand draft in the DGE's name. This is distinct from entry or appeal fees. [Printed 6 / PDF 17](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=17)

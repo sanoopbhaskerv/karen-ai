@@ -1,12 +1,13 @@
 # Extended published model write-ups
 
-Checked on **1 November 2026**. Ten Kerala-school chapters in NCERT's *Structure and Working* books add construction descriptions, diagrams and credited pupils/teachers to the shorter catalogue evidence. The [project index](project-index.json) records their complete chapter page ranges and credits. These are institutionally edited write-ups, not original school logbooks, source repositories or independently observed demonstrations.
+Checked on **1 November 2026**. Eleven Kerala-school chapters in NCERT's *Structure and Working* books add construction descriptions, diagrams and credited pupils/teachers to the shorter catalogue evidence. The [project index](project-index.json) records their complete chapter page ranges and credits. These are institutionally edited write-ups, not original school logbooks, source repositories or independently observed demonstrations.
 
 ## Located chapters
 
 | Year and exhibit | School as published | What the report describes | Evidence not established | Complete chapter |
 | --- | --- | --- | --- | --- |
 | 2003 — Garbage Elutriator | JNV, Vechoochira, Pathanamthitta | A process model links waste collection, electrode cells, filtration and biogas/manure stages. | Validated electrical output, gas yield and drinking-water safety. | [Printed 28–29 / PDF 34–35](https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6654/1/Structure%20And%20Working%20Of%20Science%20Models.pdf#page=34) |
+| 2005 — Fully Automatic Railway Gate | Rajiv Gandhi Memorial HS, Mokeri, Kannur | Leaf switches and electromagnet-operated switches sequence a toy-track gate, signals and buzzer. | Field reliability, safe failure behaviour and comparative costs. | [Printed 10–12 / PDF 18–20](https://archive.org/download/dli.ernet.4068/4068-Structure%20And%20Working%20Of%20Science%20Models%202005.pdf#page=18) |
 | 2009 — Useful Products from Fishery Waste | KV, Port Trust, Kochi | Shell processing for chitin/chitosan and a separate fish-bone recovery process. | Yield, purity, comparative cost, food or medical safety. | [Printed 37–40 / PDF 45–48](https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2009.pdf#page=45) |
 | 2011 — Automatic Crane | Government Girls HSS, Vaznuthakkad, Thiruvananthapuram | Geared motors move a lever/pulley assembly; FM remote circuits operate relays and a separate IR remote switches an electromagnet. | Quantified loads, control range/reliability and safety tests; source calculations and operating details need checking. | [Printed 29–33 / PDF 37–41](https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2011.pdf#page=37) |
 | 2012 — Water Pump System | Mambaram HSS, Pinarayi | Floats, contacts and relays respond to high/low water levels in a pipeline model. | Calibrated thresholds, response-time series and field leak prevention. | [Printed 26–28 / PDF 35–37](https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2012.pdf#page=35) |
@@ -34,6 +35,7 @@ For Karen's preparation, the useful pattern is a clear problem, component roles,
 | Book | Review outcome |
 | --- | --- |
 | 2003 | University-archive scan: six front-matter pages plus numbered body 1–77, 83 PDF pages total. All 28 attribution blocks visually reviewed (21 English, seven Hindi); one Kerala chapter. Minor scan-edge/footer clipping and physical-cover completeness remain limitations. |
+| 2005 | Public Digital Library of India scan: 113 PDF pages; all 29 contents/chapter starts and credits checked visually (18 English, 11 Hindi), one Kerala chapter. Scandata lists printed 1–103 continuously, followed by an unnumbered continuation; minor final-page text loss remains. |
 | 2009 | Complete received book, 87 PDF pages; 21 chapter attribution blocks reviewed, one Kerala chapter. |
 | 2010 | The received file has only 14 PDF pages, including front/back matter and nonconsecutive printed pages. It cannot support a whole-book absence claim. |
 | 2011 | The same official URL later downloaded successfully with normal TLS verification; earlier retrieval failures were transient. Complete 96-page book: all 23 contents/chapter starts and 62 other body-page headers match contiguous printed pages 1–85. All 23 attribution blocks reviewed, including two Hindi blocks visually confirmed as Rajasthan; one Kerala chapter. |
@@ -42,16 +44,20 @@ For Karen's preparation, the useful pattern is a clear problem, component roles,
 | 2014 | Complete received book, 90 pages; all 20 attribution blocks reviewed, three Kerala chapters. |
 | 2015–2017 | All 55 chapter author/school blocks checked: 19 in 2015, 20 in 2016, 16 in 2017. No Kerala school-attributed chapter identified in those selected reports, with no unresolved address. The separate *List of Exhibits* catalogues do contain Kerala entries. |
 
-The ten located chapters span **40 PDF pages**, all read in full, with attribution and method pages checked visually. All five pages of the recovered 2011 crane chapter were rendered and inspected. Download hashes, edition statements and acquisition history are recorded under `project-021` to `project-026` and `project-028` in the [source register](project-sources.json), alongside the earlier 2015–2017 records. No source PDF or full copyrighted chapter is copied into this repository.
+The eleven located chapters span **43 PDF pages**, all read in full, with attribution and method pages checked visually. All five pages of the recovered 2011 crane chapter were rendered and inspected. Download hashes, edition statements and acquisition history are recorded under `project-021` to `project-026`, `project-028` and `project-029` in the [source register](project-sources.json), alongside the earlier 2015–2017 records. No source PDF or full copyrighted chapter is copied into this repository.
 
 Original dated school records, code, raw test tables, independent replication and organiser selection documents remain valuable missing evidence.
 
 ## Separate early school account
 
-The [1962–63 historical case](PROJECTS.md#historical-school-construction-account-196263) records pupil revisions, teacher involvement and a failed flight in a regional-fairs report (`project-027`, printed 25–27 / PDF 31–33). It is outside the ten NCERT chapters and their 40-page total.
+The [1962–63 historical case](PROJECTS.md#historical-school-construction-account-196263) records pupil revisions, teacher involvement and a failed flight in a regional-fairs report (`project-027`, printed 25–27 / PDF 31–33). It is outside the eleven NCERT chapters and their 43-page total.
 
 ## Earlier recovered 2003 volume
 
 The public university scan of NCERT’s *Structure and Working of Science Models* adds **Garbage Elutriator**, credited to **S Harisankar**, teacher **Jitha K Nair**, **Jawahar Navodaya Vidyalaya, Vechoochira, Pathanamthitta, Kerala**. The complete two-page chapter links waste collection, electrode cells, filtration and a biogas/manure process. Its reported approximately 1.5 V, water-use possibilities and other outputs are not independently validated. No current/load tests, gas yield or drinking-water safety evidence is supplied. [Printed 28–29 / PDF 34–35](https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6654/1/Structure%20And%20Working%20Of%20Science%20Models.pdf#page=34)
 
 The publication statement is **November 2003** (PDF 2), while its preface is dated **October 2003** (PDF 4). The preface identifies the 30th JNNSEC at Dehradun and reports selected from state exhibitions in **2002–03**; the PDF’s 2015 metadata is a scan date. All 28 chapter attribution blocks were checked against the contents, including seven Hindi blocks; no additional Kerala school or unresolved address was identified in this selected book. The [university catalogue](https://schoolbooksarchive.azimpremjiuniversity.edu.in/handle/20.500.12497/6654) supplies public scan provenance. This case is registered as `case-2003-garbage-elutriator`, source `project-028`; a JNV address does not establish the Kerala DGE qualifying route.
+
+## Older-book discovery follow-up
+
+The public university-archive search on 1 November 2026 located the already-reviewed 2003 model book, but no additional 2000–2008 title in the reviewed title/full-text results. A separate Internet Archive/Digital Library of India record recovered the 2005 book (`project-029`). The search outcome does not establish that other annual books were never published. The 2005 railway chapter describes a control model; its proposed real-crossing and solar uses are not validated deployments.

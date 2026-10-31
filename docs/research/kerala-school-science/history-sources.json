@@ -662,5 +662,21 @@
     "notes": "Archived official HTML publishes named place/A-grade entries under Digital Painting, Multi Media Presentation, IT Quiz and Web Page Designing, including two third-place Web Page Designing entries. Links Programme.pdf and companion HS page. No event year or certified overall championship is stamped in the page; preserve archive capture separately from an inferred event edition. Not a full attendance roster, mechanisms report or source of district aggregate points. Raw footer contacts and pupil images are not copied into the collection.",
     "bytes": 14084,
     "sha256": "13ac3cdf5af78a59ec21369487dab653d228da9def929df48d96707be86587f3"
+  },
+  {
+    "id": "history-state-admin-1965-66-partial",
+    "title": "Kerala State Administration Report 1965–66: partial 33-page public scan",
+    "url": "https://archive.org/details/in.ernet.dli.2015.553232",
+    "download_url": "https://ia600605.us.archive.org/20/items/in.ernet.dli.2015.553232/2015.553232.Kerala-State.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_partial_government_report",
+    "document_date": null,
+    "reporting_cycle_as_printed": "1965-66",
+    "catalogue_year_unverified": "1975",
+    "page_count": 33,
+    "bytes": 863202,
+    "sha256": "4b8e7169bcf0f0ce9cee58b187dd7ee3a15e9e2a57543be004f6f7b354c296cb",
+    "received_file_complete": false,
+    "notes": "Public Digital Library of India copy preserved on Internet Archive; metadata identifies original source library as Central Library, University of Rajasthan, barcode 04990010022979, scan centre C-DAK Kolkata. The catalogue date 1975 is unverified publication metadata: actual title PDF 2 explicitly prints reporting cycle 1965–66, while no publication-year statement is visible. General state-administration compilation, not the distinct Bureau of Economics and Statistics report or the Education Department 1964–65 report. All 33 scans OCRed; title, contents and end checked visually. Contents PDF 5 lists Education Department chapter VI beginning at printed 91; PDF 6 places the next Revenue chapter at 136. Received body stops at printed 23 / PDF 33 in Agriculture and includes duplicated/reordered early Justice pages (the same opening Justice page at PDF 13 and 15, interleaved with the Legislature page at PDF 14). Education chapter not present; no first-fair date, annual host or evidence of fair absence can be inferred. Generic archive download returned a 170-byte HTTP 500 HTML body; public metadata-supplied IA storage-host URL then returned valid PDF with recorded hash, using ordinary TLS and no authentication."
   }
 ]
