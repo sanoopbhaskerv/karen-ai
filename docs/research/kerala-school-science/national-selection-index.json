@@ -269,6 +269,148 @@
       "attendance_verified": false,
       "prize_status": null,
       "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2025-selected-12-3-1",
+      "event_year": 2025,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-07",
+      "pdf_page_1based": 2,
+      "printed_page": null,
+      "serial_as_published": 49,
+      "exhibit_code_as_published": "12.3.1",
+      "title_as_published": "Science Project (The Destructions Caused by Snails and Slugs in Cardamom Plantations in Idukki District and its Control Measures)",
+      "school_as_published": "Government Higher Secondary School, Kallar, Idukki, Kerala",
+      "school_address_as_published": "Government Higher Secondary School, Kallar, Idukki, Kerala",
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "KERALA",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Dayasree Sivananda Santhosh"
+      ],
+      "teachers_credited_as_published": [],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "credit_cell_note": "The printed student cell is undelimited. The retained string does not establish a single person; the separate forms publish two student names."
+    },
+    {
+      "id": "rbvp-2025-selected-12-7-1",
+      "event_year": 2025,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-07",
+      "pdf_page_1based": 2,
+      "printed_page": null,
+      "serial_as_published": 50,
+      "exhibit_code_as_published": "12.7.1",
+      "title_as_published": "Wave Energy Generator",
+      "school_as_published": "SBHSS, Changanacherry, Kottayam, Kottayam, Kerala",
+      "school_address_as_published": "SBHSS, Changanacherry, Kottayam, Kottayam, Kerala",
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "KERALA",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Aron Joseph alex",
+        "Paven Raj"
+      ],
+      "teachers_credited_as_published": [],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2025-selected-12-7-2",
+      "event_year": 2025,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-07",
+      "pdf_page_1based": 2,
+      "printed_page": null,
+      "serial_as_published": 51,
+      "exhibit_code_as_published": "12.7.2",
+      "title_as_published": "Liquid Pressure",
+      "school_as_published": "Government Higher Secondary School, Valayam, Kozhikkode, Kozhikode, Kerala",
+      "school_address_as_published": "Government Higher Secondary School, Valayam, Kozhikkode, Kozhikode, Kerala",
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "KERALA",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Neeraj"
+      ],
+      "teachers_credited_as_published": [],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2025-selected-12-7-3",
+      "event_year": 2025,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-07",
+      "pdf_page_1based": 2,
+      "printed_page": null,
+      "serial_as_published": 52,
+      "exhibit_code_as_published": "12.7.3",
+      "title_as_published": "Electromagnetic Induction",
+      "school_as_published": "V. R. A. M. H. S Thaikkad South, Thrissur, Thrissur, Kerala",
+      "school_address_as_published": "V. R. A. M. H. S Thaikkad South, Thrissur, Thrissur, Kerala",
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "KERALA",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "KR Aravind Krishnan"
+      ],
+      "teachers_credited_as_published": [
+        "Seby"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2025-selected-12-7-4",
+      "event_year": 2025,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-07",
+      "pdf_page_1based": 2,
+      "printed_page": null,
+      "serial_as_published": 53,
+      "exhibit_code_as_published": "12.7.4",
+      "title_as_published": "Research Type Project",
+      "school_as_published": "KPCHSS, Pattannur, Kannur, Kerala",
+      "school_address_as_published": "KPCHSS, Pattannur, Kannur, Kerala",
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "KERALA",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Karthik.K",
+        "Muhammed Rihan. C"
+      ],
+      "teachers_credited_as_published": [
+        "Preetha C.K."
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
     }
   ],
   "participant_form_records": [
@@ -535,6 +677,182 @@
       "prize_status": null,
       "student_work_division_verified": false,
       "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p76",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 76,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.3.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Dayasree B",
+      "school_as_published": "Government Higher Secondary School",
+      "school_address_as_published": "Government Higher Secondary School, Kallar, Idukki, Kerala-685552",
+      "school_location_state": "Kerala",
+      "title_as_published": "The Destruction Caused by Snails and Slugs in Cardamom Plantations in Idukki District and its Control Measures",
+      "guide_teacher_as_published": "Jencymol C. Mankottil",
+      "selected_record_id": "rbvp-2025-selected-12-3-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p77",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 77,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.3.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Sivanandha Santhoshs",
+      "school_as_published": "Government Higher Secondary School",
+      "school_address_as_published": "Government Higher Secondary School, Kallar, Idukki, Kerala-685552",
+      "school_location_state": "Kerala",
+      "title_as_published": "The Destruction Caused by Snails and Slugs in Cardamom Plantations in Idukki District and its Control Measures",
+      "guide_teacher_as_published": "Jencymol C. Mankottil",
+      "selected_record_id": "rbvp-2025-selected-12-3-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p78",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 78,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Aron Joseph Alex",
+      "school_as_published": "St. Berchmans Higher Secondary School",
+      "school_address_as_published": "St.Berchmans Higher Secondary School, Changanacherry, Kottayam, Kerala-686101",
+      "school_location_state": "Kerala",
+      "title_as_published": "Wave Energy Generator",
+      "guide_teacher_as_published": "Jibin K Xavier",
+      "selected_record_id": "rbvp-2025-selected-12-7-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p79",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 79,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Paven Raj",
+      "school_as_published": "St Berchmans Hss Changanassery",
+      "school_address_as_published": "St.Berchmans HSS Changanacherry, Changanacherry, Kottayam, Kerala- 686101",
+      "school_location_state": "Kerala",
+      "title_as_published": "Wave Energy Generator",
+      "guide_teacher_as_published": "Jibin K Xavier",
+      "selected_record_id": "rbvp-2025-selected-12-7-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p80",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 80,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.2",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Neeraj T",
+      "school_as_published": "Government Higher Secondary School",
+      "school_address_as_published": "Government Higher Secondary School, Valayam, Kozhikode, Kerala- 673517",
+      "school_location_state": "Kerala",
+      "title_as_published": "Liquid Pressure",
+      "guide_teacher_as_published": "Mahesh T",
+      "selected_record_id": "rbvp-2025-selected-12-7-2",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p81",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 81,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.3",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "K. R. Aravind Krishnan",
+      "school_as_published": "St.Francis Higher Secondary School Mattom",
+      "school_address_as_published": "St.Francis Higher Secondary School, Mattom Thrissur, Kerala-680602",
+      "school_location_state": "Kerala",
+      "title_as_published": "Electromagnetic Induction",
+      "guide_teacher_as_published": "Seby C. O.",
+      "selected_record_id": "rbvp-2025-selected-12-7-3",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p82",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 82,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.4",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Karthik.K",
+      "school_as_published": "K.P. C. Higher Secondary School",
+      "school_address_as_published": "K.P. C. Higher Secondary School, Pattannur, Edayannur, Kannur, Kerala- 670595",
+      "school_location_state": "Kerala",
+      "title_as_published": "Research Type Project",
+      "guide_teacher_as_published": "Preetha C.K",
+      "selected_record_id": "rbvp-2025-selected-12-7-4",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2025-form-p83",
+      "event_year": 2025,
+      "record_kind": "participant_form",
+      "source_id": "pathways-38",
+      "pdf_page_1based": 83,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.7.4",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Muhammed Rihan.C",
+      "school_as_published": "K.P. C. Higher Secondary School",
+      "school_address_as_published": "K.P. C. Higher Secondary School, Pattannur, Edayannur, Kannur, Kerala- 670595",
+      "school_location_state": "Kerala",
+      "title_as_published": "Research Type Project",
+      "guide_teacher_as_published": "Preetha C.K",
+      "selected_record_id": "rbvp-2025-selected-12-7-4",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
     }
   ],
   "versioned_findings": [
@@ -670,6 +988,67 @@
         }
       ],
       "interpretation": "The form field can describe geographic state; the organiser selection table explicitly groups this exhibit under NVS. Neither establishes Kerala DGE nomination."
+    },
+    {
+      "id": "variant-2025-cardamom-credit-cell",
+      "exhibit_year": 2025,
+      "exhibit_code": "12.3.1",
+      "field": "undelimited selected-list credit versus separate form credits",
+      "versions": [
+        {
+          "source_id": "pathways-07",
+          "pdf_pages_1based": [
+            2
+          ],
+          "value": "Dayasree Sivananda Santhosh; guide cell blank"
+        },
+        {
+          "source_id": "pathways-38",
+          "pdf_pages_1based": [
+            76,
+            77
+          ],
+          "value": {
+            "students": [
+              "Dayasree B",
+              "Sivanandha Santhoshs"
+            ],
+            "guide": "Jencymol C. Mankottil"
+          }
+        }
+      ],
+      "interpretation": "Keep the undelimited selected-list cell and both separate forms as published. Do not silently split, correct or combine names, infer a changed team, or establish actual attendance/work division."
+    },
+    {
+      "id": "variant-2025-induction-school",
+      "exhibit_year": 2025,
+      "exhibit_code": "12.7.3",
+      "field": "school and guide wording",
+      "versions": [
+        {
+          "source_id": "pathways-07",
+          "pdf_pages_1based": [
+            2
+          ],
+          "value": {
+            "school": "V. R. A. M. H. S Thaikkad South, Thrissur, Thrissur, Kerala",
+            "student": "KR Aravind Krishnan",
+            "guide": "Seby"
+          }
+        },
+        {
+          "source_id": "pathways-38",
+          "pdf_pages_1based": [
+            81
+          ],
+          "value": {
+            "school": "St.Francis Higher Secondary School Mattom",
+            "student": "K. R. Aravind Krishnan",
+            "guide": "Seby C. O."
+          }
+        }
+      ],
+      "interpretation": "The year, code and exhibit title correspond, but the published school fields differ. Preserve both versions without inferring a school transfer, common institution, corrected author identity or reason for the disagreement."
     }
   ],
   "document_populations": [
@@ -756,6 +1135,44 @@
         ],
         "limitation": "No matching form located in this compilation; not evidence of nonattendance."
       }
+    },
+    {
+      "source_id": "pathways-07",
+      "edition_year": 2025,
+      "pdf_pages": 10,
+      "relevant_selection_pages_indexed": [
+        2
+      ],
+      "kerala_heading_rows": 5,
+      "distinct_relevant_exhibit_codes": 5
+    },
+    {
+      "source_id": "pathways-38",
+      "edition_year": 2025,
+      "pdf_pages": 353,
+      "relevant_form_pages_indexed": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "distinct_relevant_exhibit_codes": 5,
+      "school_address_blocks_text_screened": 353,
+      "relevant_form_pages_visually_checked": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "finding_scope": "All 353 school/address blocks text-screened, including organisational headings and malformed/missing PINs; eight Kerala forms identified. All 353 complete pages were not visually reviewed. A blank organisation field at PDF141 belongs to a Punjab-addressed school; Agatti Island forms PDF271–272 remain Lakshadweep, not Kerala."
     }
   ],
   "limitations": [

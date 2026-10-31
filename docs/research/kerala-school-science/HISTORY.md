@@ -113,11 +113,11 @@ These allocations explain the multi-school festival format. They are historical 
 | November 2012 | Science | Government VHSS, Meenchanda |
 | November 2012 | Work Experience | Ramakrishna Mission HSS, Meenchanda |
 | November 2012 | Social Science and Vocational Expo | NSS HSS, Meenchanda |
-| November 2012 | Mathematics | Government HSS, Cheruvannur |
+| November 2012 | Mathematics | Government VHSS, Cheruvannur, as printed in the recovered official programme |
 | November 2013 | Science and IT | Chovva HSS, Kannur |
 | November 2013 | Work Experience | St Michael's AIBHSS |
-| November 2013 | Mathematics | St Teresa's AIGHSS |
-| November 2013 | Social Science | CHMM HSS, Elayavoor |
+| November 2013 | Mathematics | St Theresa’s AIGHSS, as printed in the recovered official brochure |
+| November 2013 | Social Science | CHM HSS, Elayavoor, as printed in the recovered official brochure |
 | November 2013 | Vocational Expo and Career Fest | Collectorate |
 | November 2014 | Science | Government Boys HSS, Tirur |
 | November 2014 | Science Drama | Thunchan Parambu, Tirur |
@@ -207,17 +207,24 @@ A bounded search of English and Malayalam title variants, public-catalogue web s
 - A newly recovered **Kerala State Administration Report for 1965–66** is only a **33-page partial scan**. Its contents place Education Department at printed page 91 and the next chapter at 136, but the received body stops at printed page 23 in Agriculture. The catalogue’s 1975 date is unverified publication metadata; the cover establishes the reporting cycle, not a publication year. This general state compilation is distinct from an Education Department annual report. Recovering the missing Education chapter is a concrete next step; the partial file cannot resolve the fair’s inauguration or establish that no fair occurred. [Public scan catalogue](https://archive.org/details/in.ernet.dli.2015.553232), [partial PDF, contents](https://ia600605.us.archive.org/20/items/in.ernet.dli.2015.553232/2015.553232.Kerala-State.pdf#page=5)
 - The official site's January 2012 file named `souvenier.pdf` was recovered from the Internet Archive, but it is a **two-page request for souvenir advertising**, not the completed souvenir or a history book. It cannot confirm the origin claim. [Archived file](https://web.archive.org/web/20120113062203id_/http://www.schoolsasthrolsavam.in:80/doc/souvenier.pdf)
 - A newly checked [28 November 2016 archived school-points endpoint](https://web.archive.org/web/20161128000132id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state16/index.php/publishresult/resultindex/schoolpoints) returns PHP notices and **Points are Not Ready**, not a usable table. It cannot certify the overall result or explain the missing data. The contemporary 2016 closing report remains secondary evidence.
-- The recovered 27 November 2018 official overall-championship page says **Result Not Prepared**; the corresponding school-points page says **Points are Not Ready**. An HTTP 200 response or a page labelled “overall champions” does not establish a result. A usable 2018 closing report or signed result book remains missing. [Archived district page](https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions), [Archived school page](https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints)
+- The recovered 27 November 2018 official overall-championship page says **Result Not Prepared**; the corresponding school-points page says **Points are Not Ready**. An HTTP 200 response or a page labelled “overall champions” does not establish a result. A later pass recovered populated stream-specific frontends and a contemporary closing report, described in [HISTORICAL_EDITIONS.md](HISTORICAL_EDITIONS.md); the signed consolidated result book remains missing. [Archived district page](https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions), [Archived school page](https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints)
 
 A [contemporary school-achievement report dated 28 November 2018](https://www.madhyamam.com/local-news/kottayam/575726) gives Muslim Girls School, Erattupetta, fourth place in **HSS Mathematics**, plus an **HS Science Still Model A grade**. These limited subject/section achievements do not establish the overall school, district or Science Fair champion and do not resolve the missing final result book.
 
 ## Records that would close the major history gaps
 
 1. **Official historical souvenir or anniversary publication:** inaugural year and venue, first organisers, stream introduction years, annual host/edition register, interruptions and renamed events.
-2. **State programme notices and consolidated final result books for every year before 2019:** especially January 2011, January 2012, November 2012 and 2013–18. Certificates help establish school, category, item and edition, but one certificate does not prove an overall championship.
+2. **Remaining state programme bodies and consolidated final result books before 2019:** especially general-festival programmes for January 2011/January 2012 and the remaining unrecovered years; the newly collected November 2012/2013/2017 bodies do not supply signed consolidated final results. Certificates help establish school, category, item and edition, but one certificate does not prove an overall championship.
 3. **2020 and 2021 cancellation or rescheduling orders:** distinguish cancellation of the state festival from local or online club competitions.
 4. **Signed 2019, 2022, 2023 and 2024 final championship statements:** include appeals, result revisions, school/category inclusion and publication dates to explain the source conflicts.
 5. **2026 final programme and later result book:** the scheduled state event is still future on the research date. A populated web interface is insufficient evidence of completed future competitions.
 6. **Original project abstracts, exhibit catalogues and recordings:** historical result sheets usually identify the competitor, school, item, grade and points; they do not establish a detailed description or real-world validation of the invention.
 
 For old records, preserve the cover/title page, edition or academic year, issuing authority, date and complete relevant pages. Photos of a trophy or a social-media congratulations message are leads; the event level and result scope still need identification.
+
+
+## Recovered official programmes and stream results
+
+The [historical-editions supplement](HISTORICAL_EDITIONS.md) now supplies original archived programme bodies for November 2012, 2013 and 2017, and original-site provenance for the byte-identical 2014 brochure. The2012 source explicitly prints **GVHSS Cheruvannur** for Mathematics; the venue table above retains that designation. These documents establish printed schedules, rather than proof every scheduled activity occurred.
+
+Populated 2017/2018 Science and IT district-champion tables survive in public frontends. The 2018 tables are separate from that year’s unprepared administrative endpoints. Their stream totals and separately captured completion counters are preserved with stale 2017 headings, blank 2018 Science UP cells and conflicting 2018 secondary Mathematics/Social totals. They do not certify a combined whole-festival result. A recovered 85-page 2013 result PDF is specifically **Special School Work Experience**, not Science or the overall championship. See the supplement for exact sources, dates and page limits.

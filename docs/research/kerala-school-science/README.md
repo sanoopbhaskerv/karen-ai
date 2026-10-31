@@ -22,6 +22,10 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Documented exhibit case studies](PROJECTS.md) | Published Kerala-school project mechanisms, credits, source pages and award scope |
 | [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
 | [SISF 2026 model write-ups](SISF_2026_MODELS.md) | All 31 published Kerala write-ups, with pupil/teacher scope and reported-method limits |
+| [School-affiliated publications](SCHOOL_PROJECT_REPORTS.md) | Four primary papers with candidate component/related-study correspondences and source-quality limits |
+| [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
+| [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
+| [Additional departmental circular](ADDITIONAL_2026_CIRCULARS.md) | The later Mathematics Quiz/Talent Search date amendment |
 | [Public SISF project media](MEDIA.md) | 31 QR references, 21 linked MP4s and precise visual-review limits |
 | [2026 district status](DISTRICT_STATUS.md) | 14 dated portal snapshots, Working Model report links and grade-only report limits |
 | [2026–27 planned calendar](CALENDAR_2026.md) | Science milestones, other-stream differences and later official corroboration |
@@ -35,13 +39,15 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 ## Structured records
 
 - [Catalogue snapshot index](ACCESS.md#item-catalogue-snapshots): eight factual catalogues from 2019 and 2022–26, including subdistrict lists with LP entries and the differing state-page views. These are **not eligibility lists for every competition level**. In particular, UP catalogue rows do not establish student eligibility at state level.
+- [Historical stream snapshots](historical-stream-results.json): 56 district rows across four Science/IT tables, plus ten separate completion rows. Preserve the blank section cells, stale titles and source-specific scope.
+- [Audio-processing index](media-audio-review.json): 21 cached artifact/input hashes and draft statuses; two repetitive outputs excluded, zero verified transcripts or listening reviews.
 - [Overall result data](result-snapshots.json): ten dated source snapshots containing 6,379 district and school score rows. Read the championship conflicts in the history guide before interpreting them as final results.
 - [Catalogue differences](catalogue-changes.json): literal differences between the same subdistrict view in successive captured editions. These do not, by themselves, establish a rule change.
 - [Project index](project-index.json): 35 attributed exhibit records, including 34 with published method information and one prize record with a candidate method-source correspondence. School location does not establish a Kerala Sasthrolsavam qualifying route.
 - [National exhibit discovery](ncert-kerala-exhibit-discovery.json): 105 factual catalogue rows, separate from the selected method cases. These counts overlap and must not be added as a total of unique exhibits.
-- [National selection evidence](national-selection-index.json): nine selected-exhibit records and twelve separate participant forms, with four versioned findings. Selection, submitted details, attendance and prizes remain distinct.
+- [National selection evidence](national-selection-index.json): 14 selected-exhibit records and 20 separate participant forms, with six versioned findings. Selection, submitted details, attendance and prizes remain distinct.
 - [SISF 2026 methods](sisf-2026-models.json): 31 Kerala write-ups across 49 content pages: 14 individual, seven group and ten teacher exhibits. Three focused-case links have matching source-image codes; a fourth is a candidate. Do not add the indexes as unique projects.
-- [Public project-media index](project-media-index.json): all 31 SISF QR references; 21 MP4 resources, ten teacher units without a playable child, and five videos sampled through 41 frames. No full clips or audio were reviewed.
+- [Public project-media index](project-media-index.json): all 31 SISF QR references; 21 MP4 resources, ten teacher units without a playable child, and 21 videos sampled through 137 frames. Full audio produced 21 machine outputs; two were rejected and 19 remain unverified. No continuous playback or audio listening review is claimed.
 - [District status snapshot](district-status-2026.json): 210 fair/section rows, 28 Working Model link observations and two grade-report aggregates; partial portal panels are not final championships.
 - [Science planning calendar](science-calendar-2026.json): all 23 Science calendar lines from the mirrored 2026–27 attachment, with literal date relations and planned status.
 - [Special-school item catalogue](special-school-items.json): a separate work-experience catalogue. Its rules must not be transferred to the general Science fair.

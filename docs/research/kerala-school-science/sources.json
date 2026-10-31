@@ -1,5 +1,23 @@
 [
   {
+    "id": "additional-circular-maths-quiz-date-2026",
+    "title": "DGE: subdistrict Mathematics Quiz and Talent Search examination date change, 8 September 2026",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/sciencequiz892026.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_department_circular",
+    "document_date": "2026-09-08",
+    "publisher": "Directorate of General Education, Kerala",
+    "file_number_as_printed": "DGE/8659/2026-Y1",
+    "dispatch_number_as_printed": "I/1905146/2026",
+    "publication_post_url": "https://education.kerala.gov.in/2026/09/10/%e0%b4%b6%e0%b4%be%e0%b4%b8%e0%b5%8d%e0%b4%a4%e0%b5%8d%e0%b4%b0%e0%b5%8b%e0%b4%b2%e0%b5%8d%e2%80%8d%e0%b4%b8%e0%b4%b5%e0%b4%82-%e0%b4%89%e0%b4%aa%e0%b4%9c%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b4%be/",
+    "publication_post_date": "2026-09-10",
+    "pdf_pages": 1,
+    "download_bytes": 160321,
+    "download_sha256": "f85875dd94ec4f5f54831361570ef18f16bdba2c10a0862fe352cc5262224d74",
+    "notes": "Entire one-page PDF extracted, rendered and read visually. Despite filename sciencequiz892026.pdf, the subject/body explicitly concern subdistrict Mathematics Quiz and Talent Search examinations. Replaces the action plan’s 19 September 2026 date with Wednesday, 23 September 2026 because of technical difficulties; directs conduct under the action plan with this amendment. Refers to Mathematics Club state secretary letter dated 3 September 2026. Addressed to DDEs, copied to AEOs via DDEs, Mathematics Club secretaries and KITE for official publication. Visible digital-signature block reads Santhosh C A, 8 September 2026, 10:57:48; cryptographic verification not performed. No item codes, age-section allocation, duration, local reporting time, venue, new participant limit or SISF/NCERT nomination/delegation list appears. The amendment establishes a scheduled change, not verified conduct or attendance.",
+    "topic_register": "additional-circular-sources.json"
+  },
+  {
     "id": "core-subdistrict-items-2022",
     "title": "KITE 2022 subdistrict master item catalogue",
     "url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
@@ -609,6 +627,314 @@
     "download_sha256": "8f9534e7d125ade102dace06a97c52c5093a826e9fa5892010a3788d48c1f05d",
     "notes": "All three pages extracted; row numbers1–46 contiguous. Published pupil-row grade counts A30/B16; counts are not distinct exhibits or independent attendance. Header names St. Mary's HSS Pattom and district event23–25October2026. Report supplies grades but no rank, mark, project title or mechanism. Row order is not treated as prize order. Generation date/time retained as printed; timezone not explicitly stamped. Snapshot hash identifies the retrieved dynamic PDF. No pupil names, registration numbers, source-page images or raw PDF copied into repository.",
     "topic_register": "district-status-sources.json"
+  },
+  {
+    "id": "historical-editions-001",
+    "title": "State Sasthrolsavam 2012–13: original Kozhikode programme",
+    "url": "https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+    "archive_capture": "20121202015206",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2012-13",
+    "document_date": null,
+    "pdf_pages": 8,
+    "download_bytes": 3901124,
+    "download_sha256": "354fb3ba1549bc51625f017b7b31647a0d89a820408cfdf18722d2a7eefeff1c",
+    "notes": "Eight-page official festival-site PDF; all pages rendered and visually checked. Cover PDF 1 and invitation PDF 2/printed 1 establish 26–30 November 2012, Kozhikode. The invitation is dated 30 October 2012. PDF 3/printed 2 schedules flag raising 26 November at 9: 30am, registration at 10: 30am and inauguration at 4: 30pm at GVHSS Meenchanda; PDF 7/printed 6 schedules closing 30 November at 11am there. PDF 4/printed 3 locates Science at GVHSS Meenchanda and Science Drama on 28 November at Town Hall, Kozhikode. PDF 5/printed 4 explicitly names Maths venue GVHSS Cheruvannur and Social Science venue NSS HSS Meenchanda. PDF 6/printed 5 names Work Experience venue Sri Ramakrishna Mission HSS Meenchanda and Vocational Expo/Career Fest venue NSS HSS Meenchanda. Invitation identifies 46th Science, 32nd Work Experience, 27th Maths, 16th Special School Work Experience,eighth Vocational Expo and seventh Social Science. There is no separate IT schedule in this brochure; omission is not evidence of no IT fair. Programme establishes plans, not completion or results. An identical PDF was present in an earlier scratch cache but had not entered the 69-record history register.",
+    "invitation_date_as_printed": "2012-10-30",
+    "event_date_start": "2012-11-26",
+    "event_date_end": "2012-11-30",
+    "review_scope": "All eight PDF pages visually reviewed; no participant-level transcription.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-002",
+    "title": "State Sasthrolsavam 2013–14: original Kannur brochure",
+    "url": "https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+    "original_url": "http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+    "archive_capture": "20131203221417",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2013-14",
+    "document_date": null,
+    "pdf_pages": 4,
+    "download_bytes": 2544850,
+    "download_sha256": "250e49c8de68939f8c5c15b8876c641dda3f42b470df7805d4ff8835269f0d04",
+    "notes": "Four image-only pages, all rendered and visually checked. PDF 1 says 25–29 November 2013, Kannur. PDF 2 specifies 25 November flag raising at 9: 30am, registration at 10: 30am and inauguration at 4pm at GVHSS Kannur; closing 29 November at 11am. Science venue Chovva HSS, with UP/HS arrangement/evaluation 26 November at 9: 30am and HSS/VHSS arrangement/evaluation 27 November at 9: 30am. Science Drama is separately scheduled 27 November at GVHSS Kannur. PDF 3 names Maths venue St Theresa’s AIGHSS Kannur, Social Science venue CHM HSS Elayavoor, Work Experience venue St Michael’s AIBHSS Kannur, IT venue Chovva HSS and Vocational Expo venue Collectorate Ground; Career Seminar at GVHSS Kannur. PDF 4 venue map corroborates locations but has spelling variants. Invitation PDF 2 identifies 47th Science, 33rd Work Experience, 28th Maths, 17th Special School Work Experience, 12th IT,ninth Vocational Expo and eighth Social Science. Named DPI general coordinator, ADPI Academic general convener and DDE joint general convener establish historical organiser roles, not current appointments. No formal issue date, signature authentication or final results book established.",
+    "event_date_start": "2013-11-25",
+    "event_date_end": "2013-11-29",
+    "review_scope": "All four PDF pages visually reviewed.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-003",
+    "title": "State Sasthrolsavam 2014–15: archived official copy of Tirur brochure",
+    "url": "https://web.archive.org/web/20161108091054id_/http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+    "original_url": "http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+    "archive_capture": "20161108091054",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2014-15",
+    "document_date": null,
+    "pdf_pages": 4,
+    "download_bytes": 504764,
+    "download_sha256": "d9d86258ee121325a6962f40f6c73bff995cdc173b5b00cf7b7505a66738dd8e",
+    "notes": "Four-page official-site archive copy; all pages rendered and visually checked. Byte-identical to the earlier Drive reproduction registered as history-2014-programme: SHA 256 d 9d 86258ee 121325a 6962f 40f 6c 73bff 995cdc 173b 5b 00cf 7b 7505a 66738dd 8e, 504764bytes. This improves provenance for the same document, not a second edition. Cover 26–30 November 2014, Tirur. PDF 2 registration 26 November at 10: 30am, Government Boys HSS Tirur; inauguration 27 November at 10am; closing 30 November at 10: 30am. Science venue Government Boys HSS Tirur and Maths venue Devadar Government HSS Tanur. PDF 3 Social Science venue Government HSS Niramaruthur, Work Experience venue KHM HSS Alathiyoor and IT venue SSM Polytechnic Tirur. Science Drama 28 November at Thunchan Parambu. Archive capture 8 November 2016 is preservation date, not event or issue date. No final result established.",
+    "event_date_start": "2014-11-26",
+    "event_date_end": "2014-11-30",
+    "same_document_source_id": "history-2014-programme",
+    "review_scope": "All four PDF pages visually reviewed; raw bytes compared with earlier mirrored copy.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-004",
+    "title": "State Sasthrolsavam 2017–18: original Kozhikode programme schedule",
+    "url": "https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+    "archive_capture": "20171209053339",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2017-18",
+    "document_date": null,
+    "pdf_pages": 2,
+    "download_bytes": 54582,
+    "download_sha256": "9610281a52382a1ee5c0472a908c64a460e70a977376764728ce2c1ae2359143",
+    "notes": "Two-page programme; both rendered and visually checked. Header 23–26 November 2017, Kozhikode. PDF 1 all-fair registration 23 November from 10am at Government Girls HSS Nadakkavu. Science uses St Joseph’s Anglo Indian Girls School, Government Girls HSS Nadakkavu and St Angela’s Anglo Indian UP School. UP/HS model, project and improvised experiment competitions 24 November at 10am at St Joseph’s/St Angela’s; HSS 25 November at 10am at St Joseph’s. Maths venue St Joseph’s Boys HSS; Social Science venue BEM Girls HSS. PDF 2 Work Experience venue Malabar Christian College/HSS, IT venue Government Girls HSS Nadakkavu, Vocational Expo venue Government Model HSS and RMSA Science Exhibition venue Government Girls HSS Nadakkavu. Named programme committee chair/convener do not constitute a separately dated appointment order. Source prints 9: 45 PM for 25 November IT Malayalam Typing amid morning events; preserve anomaly rather than silently substituting AM. Final note permits time/venue changes due to circumstances. No final results proved by programme.",
+    "event_date_start": "2017-11-23",
+    "event_date_end": "2017-11-26",
+    "review_scope": "Both PDF pages visually reviewed.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-005",
+    "title": "Special School Work Experience Fair 2013–14: 85-page published item-results book",
+    "url": "https://web.archive.org/web/20140215002049id_/http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+    "original_url": "http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+    "archive_capture": "20140215002049",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2013-14",
+    "document_date": null,
+    "pdf_pages": 85,
+    "download_bytes": 258878,
+    "download_sha256": "11ed8f6f60489aeb8b0ba1c800bb6e3bf622845d2af1b300a17b28b12106fef4",
+    "notes": "Official-site PDF at a generic Result_Grade filename. Actual headers state Kerala Special School Work Experience Fair 2013–14, St Michael’s AIHSS, Kannur, 26 November 2013. All 85 pages text-extracted; first item codes checked: 78 distinct codes 201–278 without gaps, plus seven continuation pages. PDF/printed pages 1, 19, 41, 60, 85 visually checked. Rank/grade tables concern Special School Work Experience items, not Science Fair, a consolidated all-stream championship or attendance totals. Received file ends with item 278 Wood Carving HS on printed 85. No certification/signature page recovered; no assertion that every original event is represented. Derived guide records institutional/event scope, without named pupil records or classifications.",
+    "event_date_as_printed": "2013-11-26",
+    "distinct_item_codes_observed": 78,
+    "item_code_min_as_printed": 201,
+    "item_code_max_as_printed": 278,
+    "review_scope": "All 85-page item-code/heading structure extracted; selected pages 1,19,41,60,85 visually reviewed. No individual placement audit.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-006",
+    "title": "Science 2017: archived published district-champion table",
+    "url": "https://web.archive.org/web/20171127011100id_/http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+    "archive_capture": "20171127011100",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 23282,
+    "download_sha256": "25878f50bfef54cf7a835308e74b10bcd9e181942fbbb1dc7be38f2b2386dfba",
+    "notes": "Capture 27 November 2017. Populated Science Fair District Overall Champion table names Ernakulam UP 44,HS 68,HSS 54,total 166; runners-up Kannur 52/58/55=165 and Palakkad 52/58/54=164. All 14 district rows appear across champion/runners-up tables. PHP undefined item_code notices do not erase populated cells, but remain source defects. Page title still says 2016–17 despite site 17 navigation, 2017 capture context and the original 2017 programme; do not conceal mismatch. Separate completion-status capture 29 November lists all Science items complete. Captures are not one atomic database export. No signed statement or whole-festival winner established.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-007",
+    "title": "IT 2017: archived published district-champion table",
+    "url": "https://web.archive.org/web/20171127011750id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+    "archive_capture": "20171127011750",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 22182,
+    "download_sha256": "b166e82bcef8d074057c84c172001c0dfba0bce32292fe2cbe37e12a03b03f5a",
+    "notes": "Capture 27 November 2017. IT District Overall Champion table names Kannur HS 61,HSS 52,total 113; runners-up Malappuram 59/51=110 and Kozhikode 56/52=108. Fourteen district rows. PHP undefined item_code notices and stale 2016–17 page title remain; site 17 navigation and programme provide edition context. Completion status captured 28 November lists 11 of 11 IT items complete. Not a Science Fair or whole-festival championship; no signed statement recovered.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-008",
+    "title": "Science 2018: archived populated district-champion table",
+    "url": "https://web.archive.org/web/20181127181941id_/http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+    "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+    "archive_capture": "20181127181941",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 23346,
+    "download_sha256": "2e02ffaecec7c5c88d36828c236d3ce0db04e77f384847c6882907e8d918b891",
+    "notes": "Capture 27 November 2018, distinct from the earlier backend endpoint that returned Result Not Prepared. The populated public site 18 Science Fair District Overall Champion table names Malappuram HS 68,HSS 56,total 124; runners-up Thrissur 58/60=118 and Kannur 61/56=117. Fourteen district rows. UP header remains but all UP cells are blank; do not invent zeros or an UP-inclusive total. PHP undefined item_code notices remain. Separate status capture 28 November lists UP 2/2,HS 10/10,HSS 7/7 complete; it does not explain blank UP cells, changes between captures or appeal status. Published stream-champion evidence, not a signed consolidated book or whole-festival result.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-009",
+    "title": "IT 2018: archived published district-champion table",
+    "url": "https://web.archive.org/web/20181127181916id_/http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+    "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+    "archive_capture": "20181127181916",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 22274,
+    "download_sha256": "f3b0d60da44037f6750aa3a30358ca8e0bafc17e231317b062ae7202542c95cf",
+    "notes": "Capture 27 November 2018. IT District Overall Champion table names Malappuram HS 72,HSS 64,total 136; runners-up Kozhikode 66/51=117 and Wayanad 55/47=102. Fourteen district rows; PHP undefined item_code notices remain. Separate status capture 28 November lists HS 6/6 and HSS 5/5 complete. This is an IT stream result, not Science Fair, a whole-festival championship, signed final book or verification of every individual result.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-010",
+    "title": "Science 2017: archived item-completion status",
+    "url": "https://web.archive.org/web/20171129105139id_/http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+    "archive_capture": "20171129105139",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 12025,
+    "download_sha256": "ae0de16cef22e1085d9974b012f78f84cb50f3c00945e52634a64252c3988c57",
+    "notes": "Status of Completion of Items (Science Fair), captured 29 November 2017: UP 7/7,HS 10/10,HSS/VHSS 7/7 complete, with zero items not completed in each category. Different capture time from district-champion table; status does not certify all rows were final at another capture, appeals settled or a signed final statement. Page title retains 2016–17 despite 2017 navigation/edition context. Raw HTML table parsed; item totals are not entrant counts.",
+    "item_completion_as_published": [
+      {
+        "category": "UP",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      },
+      {
+        "category": "HS",
+        "item_total": 10,
+        "completed": 10,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      }
+    ],
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-011",
+    "title": "IT 2017: archived item-completion status",
+    "url": "https://web.archive.org/web/20171128013919id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+    "archive_capture": "20171128013919",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 11615,
+    "download_sha256": "464ce79a71c490943b9756c14e52a27ab6150dd752c988cf7425ecaf28506b8d",
+    "notes": "Status of Completion of Items [IT], captured 28 November 2017: HS 6/6 and HSS/VHSS 5/5 complete, with zero items not completed. Different capture time from district-champion table; status does not certify rows at another capture, appeal outcomes or a signed final statement. Page title retains 2016–17 despite 2017 navigation/edition context. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "HS",
+        "item_total": 6,
+        "completed": 6,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 5,
+        "completed": 5,
+        "not_completed": 0
+      }
+    ],
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-012",
+    "title": "Science 2018: archived item-completion status",
+    "url": "https://web.archive.org/web/20181128230906id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+    "archive_capture": "20181128230906",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 12117,
+    "download_sha256": "e6992265769234455d57ee8f2803e34710b595cd157131a1bfee3bed86d8b4b6",
+    "notes": "Status of Completion of Items (Science Fair), captured 28 November 2018: UP 2/2,HS 10/10,HSS/VHSS 7/7 complete, with zero items not completed in each category. This does not explain blank UP cells in the separately captured district-champion table. Different capture times are not a single certified export or evidence about appeal outcomes. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "UP",
+        "item_total": 2,
+        "completed": 2,
+        "not_completed": 0
+      },
+      {
+        "category": "HS",
+        "item_total": 10,
+        "completed": 10,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      }
+    ],
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-013",
+    "title": "IT 2018: archived item-completion status",
+    "url": "https://web.archive.org/web/20181128230750id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+    "archive_capture": "20181128230750",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 11891,
+    "download_sha256": "e86970d028ab6c6bfd5299314a491ea81a589b5b570f15f77d164461e8ef0f24",
+    "notes": "Status of Completion of Items [IT], captured 28 November 2018: HS 6/6 and HSS/VHSS 5/5 complete, with zero items not completed. Different capture time from district-champion table; status does not certify rows at another capture, appeal outcomes or a signed final statement. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "HS",
+        "item_total": 6,
+        "completed": 6,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 5,
+        "completed": 5,
+        "not_completed": 0
+      }
+    ],
+    "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-editions-014",
+    "title": "Kerala Kaumudi 26November2018: contemporary Kannur festival closing report",
+    "url": "https://keralakaumudi.com/kerala/general/sastramela-18888",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_secondary_closing_report",
+    "document_date": "2018-11-26",
+    "updated_date_as_published": "2018-12-07",
+    "download_bytes": 140486,
+    "download_sha256": "35ef2badfda42406594ca716f2117a180a9351aefcfbb4b98454908fe4835520",
+    "notes": "Contemporary secondary closing report headed ശാസ്ത്രമേളയിൽ മലപ്പുറം; published 26 November 2018 and updated 7 December 2018. Describes closure at Kannur and a Malappuram title; explicitly gives Work Experience marks Malappuram 29509,Kozhikode 29393,Kannur 29244. Science Malappuram 124,Thrissur 118,Kannur 117 and IT Malappuram 136,Kozhikode 117,Wayanad 102 match newly recovered archived public tables. Newspaper Maths Kozhikode 226 and Social Science Malappuram 129 differ from the 27 November public tables 276 and 144 respectively; no explanation or harmonisation established. Do not promote these as one certified consolidated total. Report calls festival two days, while programme includes 23 November quizzes; preserve distinction between main exhibition and full programme. No certified whole-festival numeric statement supplied.",
+    "topic_register": "historical-editions-sources.json"
   },
   {
     "id": "history-origin-2022",
@@ -1420,6 +1746,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070204497100801425/investigatory-project-on-palm-fiber.mp4",
+      "bytes": 181128573,
+      "sha256": "cd74ee783704114a12401071c57d8eb2347f4954f201540eeb6e6cd7f779ee7c",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1483,6 +1817,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507010858344448126572/prismatic-pillar-.mp4",
+      "bytes": 141050797,
+      "sha256": "2936f9c2975afd963f3e214acf3b3eddb960033acbd384051f6b625072874a8c",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1546,6 +1888,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035327627182081505/agriculture-vehicle-.mp4",
+      "bytes": 121642882,
+      "sha256": "afde365f1b85008eadbb114d98f53e8f22f642721fbd8d2d9bbfff817eb69128",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1609,6 +1959,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070307744645121464/maths-scrap-book.mp4",
+      "bytes": 317104080,
+      "sha256": "40a025ff01fb444f8a379d742d9dfb2bca54658ad06ce76b71051122b369c0c2",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1672,6 +2030,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507017729802240126577/river-cleaning-system.mp4",
+      "bytes": 133171862,
+      "sha256": "6114caa956faadcb6d306fbacdefaaf1a026ec59b9147fbe272ed626a8091950",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1735,6 +2101,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035973423595521525/hope-.mp4",
+      "bytes": 174717965,
+      "sha256": "633b0f89478a62021b490e2cb0ec643714e6d5e01981b1837c23fc0152868ce7",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1798,6 +2172,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503591018225664125371/agro-link-.mp4",
+      "bytes": 275777149,
+      "sha256": "f94f238f9e0c81018ea0d090bb0a2bd19edac4f78fb4e8fa290584d100a292c0",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1861,6 +2243,27 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035946698997761523/area-of-tangential-polygon.mp4",
+      "bytes": 221388360,
+      "sha256": "87ed8fa18de351e437cb7ace1f3ee99dc92ad6578fe7f12d0fc372dec2acc123",
+      "http_status": 206,
+      "download_method": "initial GET followed by resumed Range GET",
+      "initial_download": {
+        "http_status": "200",
+        "exit_code": 28,
+        "bytes": 201913155,
+        "sha256": "316f1f7ec4215099037595267ac8f08f17e297fb7247fd2395bc8ecc2fe92f45",
+        "elapsed_seconds": 240.13
+      },
+      "resume_request": {
+        "range_start": 201913155,
+        "http_status": "206",
+        "exit_code": 0,
+        "appended_bytes": 19475205
+      }
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1924,6 +2327,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507029691187200126588/low-cost-driving-simulator.mp4",
+      "bytes": 160323780,
+      "sha256": "e99ed28310a103407efeef615040a92abba3eff1a6bdd1cfbbacad26e3c3314b",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -1987,6 +2398,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070240320880641427/li-fi-based-wireless-data-communication-system.mp4",
+      "bytes": 379180828,
+      "sha256": "41c2194ea4dee380b82161f682985776f44f3e5cd2a72931c1baaaea4cf943f3",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2050,6 +2469,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035931027292161521/an-intelligent-mwdication-management-.mp4",
+      "bytes": 161776993,
+      "sha256": "b5015713f09f06f99a53b09d47d0783157b003b85cfe36e382fa313c38e7edbe",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2113,6 +2540,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070332363653121469/value-added-banana-pseudo-stem-.mp4",
+      "bytes": 219961515,
+      "sha256": "dd9ca9c80f31084374d8ac96782528238c9cf0971083a73ac951699089db598d",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2176,6 +2611,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070230653829121426/iot-based-medication-management.mp4",
+      "bytes": 116818305,
+      "sha256": "5ccbb20106ae3b4b0a68a34ab91c3cc341dde7c9c7a37f4d7464505fa87bfc77",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2239,6 +2682,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070321767301121467/smart-wheelchair-for-handicapped-people.mp4",
+      "bytes": 146774486,
+      "sha256": "2269ba757ac91da7fdd195e3a0b55ce91e6e1fa2eaf988a63edec654de45d77a",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2302,6 +2753,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502812186771456125271/exploring-the-agricultural-potential-.mp4",
+      "bytes": 70584198,
+      "sha256": "d8ef8636d70e1e93c3b71ee8c94cc130b2720ff075a9e7a348b0c43d1fced723",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2365,6 +2824,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035029542830081498/sustainable-and-eco-friendly-diaper.mp4",
+      "bytes": 91263348,
+      "sha256": "a91c0defddcf56eeb03d5fb7321049bd7a8b417dd0150fa4d115aa9776326151",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2428,6 +2895,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503509561991168125345/water-on-earth-.mp4",
+      "bytes": 119694115,
+      "sha256": "42f772a83460889224ad5dd8720b3496e47d6fc2156869efd559e0990780faee",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2491,6 +2966,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035016773877761497/newtons-law-of-motion-.mp4",
+      "bytes": 144529438,
+      "sha256": "65002cb8c9125382db0d76a15781a1504152ca338129f41631c003492bad6b7d",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2554,6 +3037,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502817082531840125276/ionisation-based-fog-harvesting-system.mp4",
+      "bytes": 216647384,
+      "sha256": "e16fe719737530990cfa6a43db77a71942d8e7b91401a0b299094f913880cc65",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2617,6 +3108,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145028144238264321446/from-pollutions-to-innovations-.mp4",
+      "bytes": 93842176,
+      "sha256": "f4cb657b30fb11587161cfd769f6ab0831de28e4b67e46e1e3b4f2284cf3972b",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -2680,6 +3179,14 @@
       }
     ],
     "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035002180730881496/magnetism-.mp4",
+      "bytes": 310339189,
+      "sha256": "c0efcb013f3813d30521f234b7cdbacf18229d0bf6b20257cd86f9411afdce5d",
+      "http_status": 200,
+      "download_method": "single GET"
+    },
     "topic_register": "media-sources.json"
   },
   {
@@ -3347,6 +3854,10 @@
     "notes": "Downloaded, all10pages extracted; PDF page2 rendered and visually inspected. Five Kerala selected entries. Selection does not establish prize or attendance. Student phone/email fields omitted from notes.",
     "sha256": "d790f539e674b894dba768e2978d7888aab7827d9a0d1dc5bafa48967ad5242e",
     "edition_label": "2025",
+    "bytes": 669286,
+    "page_count": 10,
+    "follow_up_on": "2026-11-01",
+    "follow_up_notes": "All five Kerala rows on PDF2 indexed separately, retaining the undelimited cardamom student cell and differing electromagnetic-induction school/guide wording versus the2025forms.",
     "topic_register": "pathways-sources.json"
   },
   {
@@ -3358,6 +3869,12 @@
     "source_date": null,
     "notes": "Downloaded and parsed with curl after browser timeouts. Links current guidelines, themes, selected exhibits and older national records.",
     "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31",
+    "follow_up_snapshot": {
+      "accessed_on": "2026-11-01",
+      "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31",
+      "bytes": 57873,
+      "note": "Live archive links participant details as52ndRBVP2025, although its filename contains51st; actual PDFheading reads2025."
+    },
     "topic_register": "pathways-sources.json"
   },
   {
@@ -3765,6 +4282,22 @@
     ],
     "event_start_date": "2026-01-19",
     "event_end_date": "2026-01-23",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-38",
+    "title": "NCERT RBVP 2025 institution and participant details, 353-page organiser compilation",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_51st%20_RBVP_2025.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_form_compilation",
+    "document_date": null,
+    "edition_year_as_printed": 2025,
+    "event_location_as_printed": "Regional Institute of Education, Shyamla Hills, Bhopal, Madhya Pradesh",
+    "download_sha256": "e2d66fb2e7a69f8de1f03cbebf73c7ba95cc4aa8be602974e1dfa2375559c1e7",
+    "download_bytes": 6226606,
+    "pdf_pages": 353,
+    "discovery_source_id": "pathways-08",
+    "notes": "Official archive link says 52nd RBVP 2025; the URL filename says 51st_RBVP_2025. The actual form heading establishes RBVP2025 and RIE Bhopal, without an inspected issue date. All353 school/address blocks were text-screened, including organisational headings and colon variants; exactly eight Kerala-addressed forms at PDF76–83 were identified and visually checked. Selected-list and form credits/schools retain their differences. No contacts, photographs, achievement biographies or full source pages are copied into the derived index. Forms do not independently prove attendance, prizes, Kerala DGE nomination or pupil work division.",
     "topic_register": "pathways-sources.json"
   },
   {
@@ -4619,5 +5152,503 @@
     "download_sha256": "ca83a1a9e55765427e5e64a2f8d6b8e2cc5af6b9701816dac98d63b89264f29b",
     "notes": "Both pages extracted/rendered and visually checked. Actual subject is Kerala School Sasthrolsavam2026–27 despite SCHOOLKALOLSAVAM in filename. DGE notice29October2026, printed digital-signature block Santhosh C A29October10:53:14; no separate cryptographic verification performed. Plans18–21November2026 at five main venues in Mannarkkad, Palakkad, without naming the five venues. Invites CCTV monitoring and event/item-wise recordings, agency equipment/generator provision and staff details10days before the festival. Tender submission5November5pm; opening6November3pm. Procurement invitation is not an awarded contract, installed system or completed recording. It is not the pupil construction-video clause or a subdistrict reporting notice. Equipment line literally reads125 HD Night Vision Cameras50Nos; do not invent a resolution/quantity interpretation. Public organiser contact address and agency staff details are not copied into derived participant data.",
     "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "school-project-001",
+    "title": "COMPREHENSIVE ASSESSMENT OF NUTRIENT ENRICHMENT IN VERMICOMPOST DERIVED SOLELY FROM BANANA PSEUDO STEM WASTE",
+    "url": "https://www.worldwidejournals.com/international-journal-of-scientific-research-%28IJSR%29/recent_issues_pdf/2025/November/comprehensive-assessment-of-nutrient-enrichment-in-vermicompost-derived-solely-from-banana-pseudo-stem-waste_November_2025_1227632750_6118519.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2025-11",
+    "source_date_precision": "month",
+    "issuer": "International Journal of Scientific Research, volume 14, issue 11",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "EJ,Jeswin",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "author_as_published": "EJ,Jeswin",
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "DBHSS Thachampara , Palakkad."
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "HSST Chemistry",
+        "affiliation_as_published": "DBHSS Thachampara, Palakkad"
+      }
+    ],
+    "pdf_page_count": 2,
+    "printed_pages": [
+      55,
+      56
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 486742,
+      "response_sha256": "19e3ff0faa73790d48fd476f4352489f6ab880b57dd0f80d0f3fe0dde89141af",
+      "headers_sha256": "fb0df2c7f5283ed70ed75ca113e733438fa91415c2e70bac8e2404e734d78fd0"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Issue/date, title, credits, experimental design and methods."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "Nutrient table, discussion, conclusion and references."
+      }
+    ],
+    "method_summary": "Reports two-week precomposting and earthworm treatment of three banana/garden-waste mixtures, four replicates per treatment, and nutrient assays.",
+    "evidence_limits": "Several setup quantities, duration, moisture/temperature values and ratios are visibly blank. Nitrogen is calculated from organic carbon. Raw replicate data are absent; publication does not establish exhibition use.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and Thachampara school affiliation, with a shorter pupil credit; comparative banana-pseudostem vermicompost and the same stated N/P/K advantage match one compendium component."
+      ],
+      "differences": [
+        "The PDF credits EJ,Jeswin; the compendium credits Jeswin Elias Jijsh. DBHSS is retained without expanding its abbreviation. No common authorship is asserted."
+      ]
+    },
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance.",
+    "topic_register": "school-project-sources.json"
+  },
+  {
+    "id": "school-project-002",
+    "title": "EVALUATION OF BANANA PSEUDOSTEM (BPS) FERMENTED WITH YEAST AS AN ALTERNATIVE FEED INGREDIENT ON EGG WEIGHT AND QUALITY IN BV300 LAYING HENS",
+    "url": "https://www.worldwidejournals.com/global-journal-for-research-analysis-GJRA/recent_issues_pdf/2026/July/evaluation-of-banana-pseudostem-bps-fermented-with-yeast-as-an-alternative-feed-ingredient-on-egg-weight-and-quality-in-bv300-laying-hens_July_2026_8747914138_7603609.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-07",
+    "source_date_precision": "month",
+    "issuer": "Global Journal for Research Analysis, volume 15, issue 7",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "E J, Jeswin",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "author_as_published": "E J, Jeswin",
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala"
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "Teacher Guide",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala"
+      }
+    ],
+    "pdf_page_count": 3,
+    "printed_pages": [
+      39,
+      40,
+      41
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 498148,
+      "response_sha256": "dc74fe3f5b492e2bf43cca2d8933da81a667c41028b407f92973daf1f44f0b0e",
+      "headers_sha256": "7f6152b7a1e504b7a4f6f7fb169adc3e1c04a67cebdfaba4772ae79fbd2dea7d"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, credits, issue date and preparation-method start."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "Fermentation, eight-hen/seven-day design, HPLC figures and day-level egg-weight table."
+      },
+      {
+        "pdf_pages_1based": [
+          3
+        ],
+        "scope": "Conclusion, longer-study recommendation and references."
+      }
+    ],
+    "method_summary": "Describes boiling, grinding, yeast fermentation and drying, then a seven-day feed comparison involving eight hens. Includes nutrient/HPLC figures and daily egg weights.",
+    "evidence_limits": "Table 2 gives one value per group/day, without hen-level observations. Its seven experimental values average 77.43 g, matching Figure 2 but differing from the printed 76.57 g summary. Significance and feed efficacy remain source claims, without independent replication or exhibition linkage.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and explicitly named Desabandhu school; boiled, yeast-fermented banana pseudostem poultry feed and an egg-weight comparison match another compendium component."
+      ],
+      "differences": [
+        "The PDF pupil credit is E J, Jeswin, rather than the compendium form Jeswin Elias Jijsh. This July 2026 publication follows the January 2026 fair; publication does not date the exhibited version."
+      ]
+    },
+    "landing_url": "https://www.worldwidejournals.com/global-journal-for-research-analysis-GJRA/article/evaluation-of-banana-pseudostem-bps-fermented-with-yeast-as-an-alternative-feed-ingredient-on-egg-weight-and-quality-in-bv300-laying-hens/NDQ4MTQ%3D/?b1=25&is=1&k=7",
+    "review_arithmetic_check": {
+      "input_locator": "PDF page 2, Table 2 experimental column",
+      "daily_values_g": [
+        78,
+        75,
+        78,
+        78,
+        75,
+        77,
+        81
+      ],
+      "mean_computed_from_displayed_values_g": 77.42857142857143,
+      "printed_summary_mean_g": 76.57,
+      "figure_2_mean_label_g": 77.43,
+      "scope": "Arithmetic check of displayed source values, not independent experiment replication."
+    },
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance.",
+    "topic_register": "school-project-sources.json"
+  },
+  {
+    "id": "school-project-003",
+    "title": "Biological Valorization of Banana Pseudostem through Biological Conversion: HPLC, GC and FTIR Characterization",
+    "url": "https://ijcrt.org/papers/IJCRT2608528.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-08",
+    "source_date_precision": "month",
+    "issuer": "International Journal of Creative Research Thoughts, volume 14, issue 8, IJCRT2608528",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "EJ, Jeswin",
+      "T, Nidha",
+      "Ijilan",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "authors_as_published": [
+          "EJ, Jeswin",
+          "T, Nidha",
+          "Ijilan"
+        ],
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Kerala"
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "Teacher Guide, HSST Chemistry",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Kerala"
+      }
+    ],
+    "pdf_page_count": 8,
+    "printed_pages": [
+      "e958",
+      "e959",
+      "e960",
+      "e961",
+      "e962",
+      "e963",
+      "e964",
+      "e965"
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 1103435,
+      "response_sha256": "6e2c661bad3e6f45a403ab7a112335261c9cf912915180c40cb03af201b8b69c",
+      "headers_sha256": "9f2a9ea5de1099e1257ac9cd89165fcfb108fba526d7e5c0b492e87bd95bb925"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, issue date, PDF author credits and school roles."
+      },
+      {
+        "pdf_pages_1based": [
+          2,
+          3
+        ],
+        "scope": "Biological treatment, HPLC, yeast fermentation, GC and FTIR methods."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Chromatograms and spectrum figures."
+      },
+      {
+        "pdf_pages_1based": [
+          6,
+          7
+        ],
+        "scope": "Interpretation, explicit analytical limitations and conclusion."
+      },
+      {
+        "pdf_pages_1based": [
+          7,
+          8
+        ],
+        "scope": "References."
+      }
+    ],
+    "method_summary": "Describes Trichoderma treatment and yeast fermentation; HPLC, GC and FTIR figures support qualitative glucose/alcohol interpretation.",
+    "evidence_limits": "The paper expressly withholds concentration, yield, efficiency and purity claims without calibration/replication. No dated build log, executable code or explicit exhibition reference is supplied.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and Desabandhu school; Trichoderma treatment followed by yeast fermentation matches the compendium biofuel component."
+      ],
+      "differences": [
+        "PDF credits EJ, Jeswin; T, Nidha; Ijilan; and Dr. Jijish Elias. Additional pupils and altered names remain source-specific. August 2026 publication follows the fair and cannot establish the January version."
+      ]
+    },
+    "landing_url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRT2608528",
+    "landing_metadata_credit_variant": {
+      "authors_as_published_on_landing_page": [
+        "EJ, JESWIN",
+        "NITHA T",
+        "MUHAMMED IJLAN C",
+        "Dr JIJISH ELIAS"
+      ],
+      "note": "Publisher landing-page credit differs from the actual PDF; retained as a separate version, not used to expand PDF names.",
+      "acquisition": {
+        "request_url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRT2608528",
+        "method": "GET",
+        "http_status": 200,
+        "response_bytes": 426684,
+        "response_sha256": "fbbbc3b1b8b71fa00a85c8a38466ddffc9443934dc994207c0419e0f08ba9791",
+        "headers_sha256": "85c04d79580f880327fee21229c8a8b4c16e61542411bf8cab9bb9223ac80905",
+        "scope": "Public publisher Authors section; PDF credits retained separately."
+      }
+    },
+    "doi_as_published_on_landing_page": "10.56975/ijcrt.v14i8.313126",
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance.",
+    "topic_register": "school-project-sources.json"
+  },
+  {
+    "id": "school-project-004",
+    "title": "Seasonal microplastic dynamics in the Alappuzha–Changanacherry Canal, Kerala, India",
+    "url": "https://link.springer.com/content/pdf/10.1007/s43832-026-00468-2.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-10-02",
+    "source_date_precision": "day",
+    "issuer": "Discover Water, volume 6, article 123; Springer Nature",
+    "source_type": "primary_related_research_publication",
+    "authors_as_published_in_pdf": [
+      "Jubymol George",
+      "Simimole Sebastian",
+      "Reema Rose Mani"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "authors_as_published": [
+          "Jubymol George",
+          "Simimole Sebastian",
+          "Reema Rose Mani"
+        ],
+        "affiliation_as_published": "Alphonsa College, Pala, Kottayam, Kerala, India"
+      }
+    ],
+    "pdf_page_count": 12,
+    "printed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 1887001,
+      "response_sha256": "c036046cd8c9cf0539126e736998aa1f6524d0e35119586fb80bc1b01121c9c3",
+      "headers_sha256": "016a7b1986aa327b139e870e8afc069cfb2ed7ba836b37c5bce3414c61943188"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, author credits and college affiliation."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Sampling sites/months and extraction/identification methods."
+      },
+      {
+        "pdf_pages_1based": [
+          8,
+          10
+        ],
+        "scope": "Morphology and polymer ranges corresponding to the compendium."
+      },
+      {
+        "pdf_pages_1based": [
+          11
+        ],
+        "scope": "Acknowledgements and declared author contributions."
+      },
+      {
+        "pdf_pages_1based": [
+          12
+        ],
+        "scope": "Received, accepted and online-publication dates."
+      }
+    ],
+    "method_summary": "Compares seasonal canal-water samples using peroxide digestion, filtration, stereomicroscopy and micro-Raman polymer identification.",
+    "evidence_limits": "No exhibition reference; college affiliation and three-author credit differ. Publication follows the fair. Author-contribution declarations are not independently verified and cannot be transferred to the exhibition credit. The abstract/body particle-size units differ, reported percentage denominators need clarification, and the compendium has a materials/procedure reagent difference. Matching text does not validate these measurements.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-teacher-p197",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        240,
+        241
+      ],
+      "compendium_printed_pages": [
+        197,
+        198
+      ],
+      "compendium_title_as_published": "HYDRO-SEASONAL INFLUENCE ON MICROPLASTICS DYNAMICS: A COMPARATIVE EVALUATION OF SURFACE WATERS IN THE ALAPPUZHA - CHANGANACHERRY CANAL (AC CANAL)",
+      "compendium_teacher_exhibitors_credited": [
+        "Jubymol, George,"
+      ],
+      "compendium_school_as_published": "ST. Anne’s GHSS Changanacherry, Kottayam, Kerala - 686101",
+      "status": "strong_candidate_related_publication",
+      "matching_basis": [
+        "Both sources specify Manackachira, Kidangara and Onnamkara; 0.45-micrometre filtration, 30% peroxide, stereomicroscopy and confocal micro-Raman.",
+        "Matching reported ranges include fibres 66–94%, fragments 56–78%, films 48–64%, pellets >16% and PE/PP 69–83%."
+      ],
+      "differences": [
+        "Article has three authors and Alphonsa College affiliation; the compendium gives one teacher credit and St. Anne’s school.",
+        "Later publication supplies 2025 sampling months, without identifying itself as an exhibition report."
+      ],
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null
+    },
+    "landing_url": "https://link.springer.com/article/10.1007/s43832-026-00468-2",
+    "received_on": "2026-04-24",
+    "accepted_on": "2026-09-29",
+    "doi": "10.1007/s43832-026-00468-2",
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance.",
+    "source_wording_issues": [
+      {
+        "pdf_pages_1based": [
+          1,
+          5,
+          8
+        ],
+        "issue": "Abstract prints a predominant particle-size range of 0.12–0.5 µm; body uses 0.1–0.5 mm. Preserve the unit/number discrepancy without silently harmonising them."
+      },
+      {
+        "pdf_pages_1based": [
+          8,
+          10
+        ],
+        "issue": "Reported morphology/polymer ranges have unclear denominators and must not be treated as a validated composition partition."
+      },
+      {
+        "compendium_pdf_pages_1based": [
+          240,
+          241
+        ],
+        "issue": "Compendium materials list KOH while its procedure says 30% peroxide; the related article describes peroxide. These source versions are not silently merged."
+      }
+    ],
+    "topic_register": "school-project-sources.json"
   }
 ]

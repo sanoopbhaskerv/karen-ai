@@ -9,17 +9,21 @@
     "resolved_public_units": 31,
     "linked_mp4_resources": 21,
     "units_without_playable_children": 10,
-    "videos_sampled_visually": 5,
+    "videos_sampled_visually": 21,
     "videos_fully_reviewed": 0,
     "audio_tracks_reviewed": 0,
-    "linked_report_or_code_urls_found": 0
+    "linked_report_or_code_urls_found": 0,
+    "visual_frames_inspected": 137,
+    "machine_transcribed_audio_tracks": 21,
+    "rejected_machine_outputs": 2
   },
   "method": {
     "qr_decoding": "Native Vision QR decoding on already rendered source pages; exactly one URL decoded per Kerala credited start.",
     "public_lookup": "Ordinary unauthenticated HTTP requests following frontend-published guest lookup behavior (media-032–media-034); no credentials, access requests or contact with publishers.",
     "asset_access": "HTTP HEAD confirmed 200/video-mp4 for all 21 returned artifacts. Only five videos were visually sampled through native AVFoundation; full clips/audio were not reviewed.",
     "negative_search_scope": "No report, code-repository or other explicit URLs were found in returned unit/resource descriptions, bodies or titles. This does not establish that such materials do not exist elsewhere.",
-    "limits": "A public title/resource record, visible interface or demonstration does not independently verify performance, reliability, safety, pupil authorship/work division, attendance or a qualifying fair route. Source publication timestamps are metadata, not verified filming dates."
+    "limits": "A public title/resource record, visible interface or demonstration does not independently verify performance, reliability, safety, pupil authorship/work division, attendance or a qualifying fair route. Source publication timestamps are metadata, not verified filming dates.",
+    "audio_review_scope": "audio_tracks_reviewed means human listening: zero. Full PCM from21 clips was processed with local ASR; machine text is unverified and kept separate."
   },
   "entries": [
     {
@@ -68,11 +72,23 @@
           "metadata_last_published_on": "2026-02-17T14:29:14.477+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              44.56,
+              66.84,
+              89.2,
+              130.68
+            ],
+            "duration_seconds": 133.68,
+            "frame_count": 6,
+            "observations": "Charts, finished rubber mats and a laptop showing a separate scene are visible.",
+            "operation_assessment": "Samples do not independently measure strength, abrasion or durability."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p156"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -124,11 +140,23 @@
           "metadata_last_published_on": "2026-02-17T14:34:06.325+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              35.76,
+              53.64,
+              71.52,
+              104.44
+            ],
+            "duration_seconds": 107.32,
+            "frame_count": 6,
+            "observations": "Yellow/red solid pieces are opened, separated and rearranged between sampled frames.",
+            "operation_assessment": "Manipulation is visible; the complete geometric proof was not independently audited."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p159"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -180,11 +208,23 @@
           "metadata_last_published_on": "2026-02-17T15:31:27.676+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              31.2,
+              46.8,
+              62.4,
+              90.6
+            ],
+            "duration_seconds": 93.6,
+            "frame_count": 6,
+            "observations": "A wheeled model, front belt/attachments and handheld controls are shown in close-up.",
+            "operation_assessment": "Samples do not establish field effectiveness, all functions operating, or costs."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p161"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -236,11 +276,23 @@
           "metadata_last_published_on": "2026-02-17T17:40:11.073+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              80.28,
+              120.44,
+              160.56,
+              238
+            ],
+            "duration_seconds": 240.88,
+            "frame_count": 6,
+            "observations": "Fold-out pages and geometric pieces are handled and rearranged.",
+            "operation_assessment": "Visual teaching aids are shown; every mathematical statement is not independently validated."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p162"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -292,11 +344,23 @@
           "metadata_last_published_on": "2026-02-17T14:35:01.574+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              34.36,
+              51.56,
+              68.76,
+              100.16
+            ],
+            "duration_seconds": 103.16,
+            "frame_count": 6,
+            "observations": "A model boat is shown in a tank with floating pieces; a handheld device and opened component enclosure are visible.",
+            "operation_assessment": "Samples do not quantify collection rate, navigation reliability or water quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p163"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -348,11 +412,23 @@
           "metadata_last_published_on": "2026-02-17T14:31:15.082+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              44.76,
+              67.12,
+              89.6,
+              131.28
+            ],
+            "duration_seconds": 134.28,
+            "frame_count": 6,
+            "observations": "Separate labelled input/receiver boxes and a laptop interface are shown and handled.",
+            "operation_assessment": "Causal trigger/alert timing and emergency reliability remain unverified."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p164"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -404,11 +480,23 @@
           "metadata_last_published_on": "2026-02-17T15:30:33.272+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              71.2,
+              106.76,
+              142.44,
+              210.68
+            ],
+            "duration_seconds": 213.68,
+            "frame_count": 6,
+            "observations": "Plant-control model components, a fan, tubing/wiring and a phone interface are shown.",
+            "operation_assessment": "Threshold calibration, every automation function and field/cost claims remain unverified."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p165"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -460,11 +548,23 @@
           "metadata_last_published_on": "2026-02-17T15:28:45.749+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              55.52,
+              83.28,
+              111,
+              163.64
+            ],
+            "duration_seconds": 166.56,
+            "frame_count": 6,
+            "observations": "Coloured polygon pieces are separated and rearranged into other shapes.",
+            "operation_assessment": "Samples do not independently verify the complete general proof or all narrated properties."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p166"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -538,7 +638,8 @@
             "observations": "The sampled sequence shows a person handling steering/pedals/gear controls beside a changing driving-simulator display; the additional 55–60 second samples show continuing physical interaction and screen changes.",
             "operation_assessment": "Visible use of the physical simulator interface; sampled images do not establish input/output timing, driver-training effectiveness or the implementation of every feature.",
             "exhibit_code_check": "No new award-code determination made from the video. Adjacent stall signs can appear in the frame."
-          }
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p168"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -590,11 +691,23 @@
           "metadata_last_published_on": "2026-02-17T14:26:08.637+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              94.56,
+              141.8,
+              189.12,
+              280.68
+            ],
+            "duration_seconds": 283.68,
+            "frame_count": 6,
+            "observations": "Laptop serial interfaces, boards, a light source and a small panel are shown.",
+            "operation_assessment": "Samples do not establish transmission speed, a controlled radio-disabled link or health claims."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p170"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -660,7 +773,8 @@
             "operation_assessment": "Interface/display samples only; wheelchair movement and obstacle response were not assessed.",
             "exhibit_code_check": "KL-I-11 is visible on the wall placard at 0 seconds; this is printed-code evidence, without facial identification.",
             "anomaly": "The MP4 artifact filename says an-intelligent-mwdication-management-.mp4, but unit/resource titles and sampled video signage identify SAMARTH. Preserve the actual URL; do not infer the video topic from its filename alone."
-          }
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p172"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -712,11 +826,23 @@
           "metadata_last_published_on": "2026-02-17T13:55:14.246+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              51,
+              76.44,
+              102,
+              149.88
+            ],
+            "duration_seconds": 152.92,
+            "frame_count": 6,
+            "observations": "A multi-part display includes labelled compost, feed, seedling pots and cylindrical model equipment.",
+            "operation_assessment": "A display of products/equipment does not independently verify all production processes or output quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p174"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -792,7 +918,8 @@
             "observations": "Samples show the dispensing enclosure, tablet schedule interface, editing of schedule fields and close-ups of wiring/output chute.",
             "operation_assessment": "Interface interaction is visible. Automatic medicine release and correct dose delivery were not resolved in the reviewed samples; this does not establish their absence from the full clip.",
             "exhibit_code_check": "No new award-code determination made from the video."
-          }
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p176"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -844,11 +971,23 @@
           "metadata_last_published_on": "2026-02-17T13:56:26.972+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              36.92,
+              55.32,
+              73.88,
+              107.84
+            ],
+            "duration_seconds": 110.84,
+            "frame_count": 6,
+            "observations": "A wheeled chair model, laptop, handheld control and a head-worn device are shown.",
+            "operation_assessment": "Samples do not independently establish brain-signal control, safety or assistive effectiveness."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p178"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -900,11 +1039,23 @@
           "metadata_last_published_on": "2026-02-17T17:02:39.269+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              18,
+              27,
+              36.08,
+              51.12
+            ],
+            "duration_seconds": 54.12,
+            "frame_count": 6,
+            "observations": "Labelled plant materials, jars and comparison charts are displayed and indicated.",
+            "operation_assessment": "Samples do not verify preparation history, controlled growth outcomes or environmental safety."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p180"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -972,7 +1123,8 @@
             "observations": "Samples show a diaper-project display, fibre-treatment beakers, raw/processed materials, a presentation screen and handling of fabric/product material.",
             "operation_assessment": "Physical materials/product handling is visible; no absorbency comparison or measured production/test procedure is established by these six samples.",
             "exhibit_code_check": "KL-G-06 was not confidently readable in the six reviewed video samples. The existing award correspondence remains a candidate with source-specific credits."
-          }
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p182"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -1024,11 +1176,23 @@
           "metadata_last_published_on": "2026-02-17T15:50:49.061+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              30,
+              45,
+              60,
+              86.8
+            ],
+            "duration_seconds": 89.8,
+            "frame_count": 6,
+            "observations": "A water-conservation model has labelled rainwater harvesting, filtration, aquifer and weather-station parts.",
+            "operation_assessment": "Samples do not establish measured water savings or validated water quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p183"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -1080,11 +1244,23 @@
           "metadata_last_published_on": "2026-02-17T15:51:54.438+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              35,
+              52.44,
+              69.76,
+              101.6
+            ],
+            "duration_seconds": 104.68,
+            "frame_count": 6,
+            "observations": "A curved-track apparatus, balls and suspended objects are handled.",
+            "operation_assessment": "The full sequence and quantitative laws were not independently tested."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p184"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -1153,7 +1329,8 @@
             "observations": "Samples show presenters and a collector/mesh setup with visible mist near the collection area, including close views around 50.16, 75.28 and 100.36 seconds.",
             "operation_assessment": "A mist demonstration is visible; sampled frames do not verify ionisation, collected yield, water quality or a controlled comparison.",
             "exhibit_code_check": "No new award-code determination made from the video."
-          }
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p185"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -1205,11 +1382,23 @@
           "metadata_last_published_on": "2026-02-17T15:58:47.560+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              22.52,
+              33.92,
+              45.04,
+              64.56
+            ],
+            "duration_seconds": 67.56,
+            "frame_count": 6,
+            "observations": "A city concept display and accompanying explanatory charts are shown.",
+            "operation_assessment": "This is not independently verified operation of a carbon-neutral city or energy plant."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p187"
         }
       ],
       "linked_report_or_code_urls_found": [],
@@ -1261,11 +1450,23 @@
           "metadata_last_published_on": "2026-02-17T15:52:30.467+0000",
           "recording_date_verified": false,
           "review": {
-            "scope": "metadata_and_http_headers_only",
+            "scope": "sampled_video_frames",
             "full_clip_reviewed": false,
             "audio_reviewed": false,
-            "frame_times_seconds": []
-          }
+            "frame_times_seconds": [
+              0,
+              10,
+              75.76,
+              113.6,
+              151.44,
+              224.16
+            ],
+            "duration_seconds": 227.2,
+            "frame_count": 6,
+            "observations": "Coils, a magnet/compass, model track and measuring scale are shown and handled.",
+            "operation_assessment": "Samples do not establish calibrated magnetic field strengths or all narrated numerical comparisons."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p189"
         }
       ],
       "linked_report_or_code_urls_found": [],

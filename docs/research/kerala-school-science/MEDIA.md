@@ -11,7 +11,7 @@ The [31-entry media index](project-media-index.json) records exact source pages,
 1. Decoded one QR URL from each credited Kerala write-up start using native macOS Vision. QR provenance is the [official compendium](https://www.scert.telangana.gov.in/Pdf/publication/SouthernIndiasciencefair2026-ExhibitsCompendium.pdf), source `pathways-37`, PDF pages 195–247; each individual start/page is retained in the index.
 2. Followed all 31 public DIKSHA links. They redirect to `/get/dial/{code}?source=scan` and return a common client-side application shell. That HTML alone does not establish the linked project contents.
 3. Read the portal's publicly served frontend source, which identifies its guest DIAL lookup and public collection-hierarchy requests. Ordinary unauthenticated requests returned OK for all 31 units. This produced 21 linked `video/mp4` children and ten named units with no playable child in the received hierarchy.
-4. Checked the 21 artifact URLs with HTTP HEAD. Sampled video frames from the four award-linked projects, plus SAMARTH to resolve a misleading artifact filename. **Five videos were sampled visually; zero full clips or audio tracks were reviewed.** The other 16 returned videos have metadata/header checks only.
+4. Checked the 21 artifact URLs with HTTP HEAD. Downloaded all 21 artifacts with matching expected byte counts and recorded hashes; one interrupted download was completed by a normal resumed Range request. Inspected six frames from each of the other 16 clips, adding to the earlier four award-linked projects and SAMARTH samples. **All 21 videos were sampled through 137 frames; no full continuous playback or audio listening review was performed.** Full audio was processed locally with ASR; see [AUDIO_REVIEW.md](AUDIO_REVIEW.md) for the unverified drafts and two rejected outputs.
 
 No report or code-repository links were found in the returned unit/resource descriptions, bodies or titles. This is a finding about these QR-linked records, not a search of every possible school or project website. A public unit without a playable child does not prove that no recording exists elsewhere or was ever made.
 
@@ -24,37 +24,37 @@ No report or code-repository links were found in the returned unit/resource desc
 | [Natural-fibre diaper — D8B6U6](https://diksha.gov.in/dial/D8B6U6) | 70.32 s | Six frames at 0, 10, 23.40, 35.12, 46.84 and 67.28 s | Fibre-treatment beakers, raw/processed materials and product/fabric handling are visible. These samples do not establish a measured absorbency comparison or production/test procedure. **KL-G-06 was not confidently readable**; the existing award correspondence remains a candidate. |
 | [Fog harvesting — K3J4B4](https://diksha.gov.in/dial/K3J4B4) | 150.56 s | Six frames, including collector close-ups at 50.16, 75.28 and 100.36 s | Mist is visibly present near the mesh/collector. Ionisation, collected yield, water quality and controlled comparisons remain unverified. |
 
-Frame timestamps and observations are recorded in each resource's `review` object. Sampled frames do not provide continuous playback, audio/transcription, a complete demonstration audit or independent certification. Source publication timestamps are kept as metadata and are not treated as verified recording dates.
+Frame timestamps and observations are recorded in each resource's `review` object. Sampled frames do not provide continuous playback, a complete demonstration audit or independent certification. Separate machine transcription is unverified and does not supply an audio listening audit. Source publication timestamps are kept as metadata and are not treated as verified recording dates.
 
 The four video links do not resolve differing pupil/guide spellings between the compendium and VITM's award list. Preserve the [source-specific correspondence notes](SISF_2026_MODELS.md) and the original credit versions.
 
 ## All 31 QR references
 
-“MP4 available” below means the public hierarchy exposes one Live MP4 and its artifact responded 200/video-mp4; it does not mean the clip was watched. “No playable child” means the named unit resolves but the returned hierarchy exposes none on this access date.
+“MP4 available” below means the public hierarchy exposes one Live MP4 and its artifact responded 200/video-mp4. Each accessible clip now has a frame sample; no complete continuous playback is claimed. “No playable child” means the named unit resolves but the returned hierarchy exposes none on this access date.
 
 | Category | Compendium title | Printed / PDF start | Decoded DIKSHA link | Observed result |
 | --- | --- | --- | --- | --- |
-| individual | INVESTIGATORY PROJECT ON PALM FIBER | 156 / 195 | [P3Y7R6](https://diksha.gov.in/dial/P3Y7R6) | MP4 available; metadata only |
-| individual | PRISMATIC PILLAR | 159 / 198 | [I3I4B8](https://diksha.gov.in/dial/I3I4B8) | MP4 available; metadata only |
-| individual | AGRICULTURE VEHICLE | 161 / 200 | [C3W9Q2](https://diksha.gov.in/dial/C3W9Q2) | MP4 available; metadata only |
-| individual | MATHS SCRAP BOOK | 162 / 201 | [Q7P4E9](https://diksha.gov.in/dial/Q7P4E9) | MP4 available; metadata only |
-| individual | RIVER CLEANING SYSTEM | 163 / 202 | [S1J4M9](https://diksha.gov.in/dial/S1J4M9) | MP4 available; metadata only |
-| individual | HOPE (Hardware Optimized for People in Emergency) | 164 / 203 | [X2X1V7](https://diksha.gov.in/dial/X2X1V7) | MP4 available; metadata only |
-| individual | AGROLINK – AUTOMATIC SMART AGRI SYSTEM | 165 / 204 | [U1M5L8](https://diksha.gov.in/dial/U1M5L8) | MP4 available; metadata only |
-| individual | AREA OF TANGENTIAL POLYGON | 166 / 205 | [B4U3I2](https://diksha.gov.in/dial/B4U3I2) | MP4 available; metadata only |
+| individual | INVESTIGATORY PROJECT ON PALM FIBER | 156 / 195 | [P3Y7R6](https://diksha.gov.in/dial/P3Y7R6) | MP4 available; frames sampled |
+| individual | PRISMATIC PILLAR | 159 / 198 | [I3I4B8](https://diksha.gov.in/dial/I3I4B8) | MP4 available; frames sampled |
+| individual | AGRICULTURE VEHICLE | 161 / 200 | [C3W9Q2](https://diksha.gov.in/dial/C3W9Q2) | MP4 available; frames sampled |
+| individual | MATHS SCRAP BOOK | 162 / 201 | [Q7P4E9](https://diksha.gov.in/dial/Q7P4E9) | MP4 available; frames sampled |
+| individual | RIVER CLEANING SYSTEM | 163 / 202 | [S1J4M9](https://diksha.gov.in/dial/S1J4M9) | MP4 available; frames sampled |
+| individual | HOPE (Hardware Optimized for People in Emergency) | 164 / 203 | [X2X1V7](https://diksha.gov.in/dial/X2X1V7) | MP4 available; frames sampled |
+| individual | AGROLINK – AUTOMATIC SMART AGRI SYSTEM | 165 / 204 | [U1M5L8](https://diksha.gov.in/dial/U1M5L8) | MP4 available; frames sampled |
+| individual | AREA OF TANGENTIAL POLYGON | 166 / 205 | [B4U3I2](https://diksha.gov.in/dial/B4U3I2) | MP4 available; frames sampled |
 | individual | LOW-COST DRIVING SIMULATOR FOR SAFE DRIVING TRAINING | 168 / 207 | [M8P5L1](https://diksha.gov.in/dial/M8P5L1) | MP4 available; frames sampled |
-| individual | Li-Fi Based Wireless Data Communication System Using Visible Light | 170 / 209 | [J7E9C2](https://diksha.gov.in/dial/J7E9C2) | MP4 available; metadata only |
+| individual | Li-Fi Based Wireless Data Communication System Using Visible Light | 170 / 209 | [J7E9C2](https://diksha.gov.in/dial/J7E9C2) | MP4 available; frames sampled |
 | individual | SAMARTH KERALA | 172 / 211 | [H7B8D3](https://diksha.gov.in/dial/H7B8D3) | MP4 available; frames sampled |
-| individual | VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS) | 174 / 213 | [B6V4X5](https://diksha.gov.in/dial/B6V4X5) | MP4 available; metadata only |
+| individual | VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS) | 174 / 213 | [B6V4X5](https://diksha.gov.in/dial/B6V4X5) | MP4 available; frames sampled |
 | individual | AN INTELLIGENT AUTOMATED IOT-BASED MEDICATION MANAGEMENT AND DISPENSING SYSTEM | 176 / 215 | [W8T8B8](https://diksha.gov.in/dial/W8T8B8) | MP4 available; frames sampled |
-| individual | SMART WHEELCHAIR FOR HANDICAPPED PEOPLE | 178 / 217 | [Z3P3B7](https://diksha.gov.in/dial/Z3P3B7) | MP4 available; metadata only |
-| group | Exploring the Agricultural Potential of Invasive Plant Species | 180 / 221 | [X3L2C8](https://diksha.gov.in/dial/X3L2C8) | MP4 available; metadata only |
+| individual | SMART WHEELCHAIR FOR HANDICAPPED PEOPLE | 178 / 217 | [Z3P3B7](https://diksha.gov.in/dial/Z3P3B7) | MP4 available; frames sampled |
+| group | Exploring the Agricultural Potential of Invasive Plant Species | 180 / 221 | [X3L2C8](https://diksha.gov.in/dial/X3L2C8) | MP4 available; frames sampled |
 | group | SUSTAINABLE AND ECO FRIENDLY DIAPER PRODUCTION FROM NATURAL FIBRES OF BANANA AND BAMBOO | 182 / 223 | [D8B6U6](https://diksha.gov.in/dial/D8B6U6) | MP4 available; frames sampled |
-| group | WATER ON EARTH | 183 / 224 | [Q4X1J2](https://diksha.gov.in/dial/Q4X1J2) | MP4 available; metadata only |
-| group | NEWTON’S LAW OF MOTION | 184 / 225 | [R3Z7R2](https://diksha.gov.in/dial/R3Z7R2) | MP4 available; metadata only |
+| group | WATER ON EARTH | 183 / 224 | [Q4X1J2](https://diksha.gov.in/dial/Q4X1J2) | MP4 available; frames sampled |
+| group | NEWTON’S LAW OF MOTION | 184 / 225 | [R3Z7R2](https://diksha.gov.in/dial/R3Z7R2) | MP4 available; frames sampled |
 | group | IONISATION BASED FOG HARVESTING SYSTEM | 185 / 226 | [K3J4B4](https://diksha.gov.in/dial/K3J4B4) | MP4 available; frames sampled |
-| group | FROM POLLUTIONS TO INNOVATIONS | 187 / 228 | [D9N7S8](https://diksha.gov.in/dial/D9N7S8) | MP4 available; metadata only |
-| group | MAGNETISM | 189 / 230 | [W6Q5X2](https://diksha.gov.in/dial/W6Q5X2) | MP4 available; metadata only |
+| group | FROM POLLUTIONS TO INNOVATIONS | 187 / 228 | [D9N7S8](https://diksha.gov.in/dial/D9N7S8) | MP4 available; frames sampled |
+| group | MAGNETISM | 189 / 230 | [W6Q5X2](https://diksha.gov.in/dial/W6Q5X2) | MP4 available; frames sampled |
 | teacher | EARTH MOVEMENT | 192 / 235 | [Q6A2H4](https://diksha.gov.in/dial/Q6A2H4) | No playable child |
 | teacher | The Impact of Three-Dimensional Manipulatives on Spatial Reasoning: Solving the Square Pyramid Challenge. | 193 / 236 | [T5F9N3](https://diksha.gov.in/dial/T5F9N3) | No playable child |
 | teacher | SOUND WAVES AND FREQUENCY | 194 / 237 | [E4G1T8](https://diksha.gov.in/dial/E4G1T8) | No playable child |

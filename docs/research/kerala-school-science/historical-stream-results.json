@@ -1,0 +1,2326 @@
+{
+  "schema_version": 1,
+  "accessed_on": "2026-11-01",
+  "scope_note": "All district rows from four archived Science/IT stream-champion pages, with four separately captured item-completion pages. These are published stream-specific snapshots, not a whole-festival championship, signed final statement, entrant count or atomic database export.",
+  "transcription_note": "HTML entities are decoded and display whitespace collapsed. Column labels, data-cell text, published order, champion/runnersup table headings and blank cells are retained. Blank numeric cells are null, never zero. Published order is not an independently inferred rank or tie-break. Exact raw bodies are identified by source hashes.",
+  "arithmetic_note": "Complete-section comparisons are valid only when every section cell is numeric. A known-section sum can match Point despite a missing UP cell; that does not establish UP inclusion. Completion checks only compare displayed completed plus not-completed counts with the displayed item total.",
+  "finality_note": "Item-completion and champion pages have different archive captures. Status does not certify the earlier table, settle appeals, establish subsequent revisions or prove final championship certification.",
+  "district_snapshots": [
+    {
+      "source_id": "historical-editions-006",
+      "source_url": "https://web.archive.org/web/20171127011100id_/http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+      "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20171127011100",
+      "archive_capture_utc": "2017-11-27T01:11:00Z",
+      "source_bytes": 23282,
+      "source_sha256": "25878f50bfef54cf7a835308e74b10bcd9e181942fbbb1dc7be38f2b2386dfba",
+      "edition_context": "2017-18",
+      "document_title_as_published": "School Sasthrolsavam 2016-17",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": true,
+        "undefined_item_code_notice_blocks_in_html_comments": 14,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-2017-science",
+      "stream": "science",
+      "table_scope": "published_stream_district_champion_and_runnersup",
+      "source_tables": [
+        {
+          "ordinal_within_document": 1,
+          "heading_as_published": "SCIENCE FAIR District Overall Champion",
+          "column_labels_as_published": [
+            "District Name",
+            "UP",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 1,
+          "heading_has_opening_tr": false
+        },
+        {
+          "ordinal_within_document": 2,
+          "heading_as_published": "SCIENCE FAIR District Runnersup",
+          "column_labels_as_published": [
+            "District Name",
+            "UP",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 13,
+          "heading_has_opening_tr": true
+        }
+      ],
+      "district_row_count": 14,
+      "rows": [
+        {
+          "id": "historical-stream-2017-science-01",
+          "source_id": "historical-editions-006",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "table_heading_as_published": "SCIENCE FAIR District Overall Champion",
+          "table_role_as_published": "champion",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Ernakulam",
+          "cells_as_published": [
+            "Ernakulam",
+            "44",
+            "68",
+            "54",
+            "166"
+          ],
+          "section_values": {
+            "UP": 44,
+            "HS": 68,
+            "HSS/VHSS": 54
+          },
+          "published_total_column_label": "Point",
+          "published_total": 166,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 166,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 166,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-02",
+          "source_id": "historical-editions-006",
+          "published_order": 2,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Kannur",
+          "cells_as_published": [
+            "Kannur",
+            "52",
+            "58",
+            "55",
+            "165"
+          ],
+          "section_values": {
+            "UP": 52,
+            "HS": 58,
+            "HSS/VHSS": 55
+          },
+          "published_total_column_label": "Point",
+          "published_total": 165,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 165,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 165,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-03",
+          "source_id": "historical-editions-006",
+          "published_order": 3,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 2,
+          "district_as_published": "Palakkad",
+          "cells_as_published": [
+            "Palakkad",
+            "52",
+            "58",
+            "54",
+            "164"
+          ],
+          "section_values": {
+            "UP": 52,
+            "HS": 58,
+            "HSS/VHSS": 54
+          },
+          "published_total_column_label": "Point",
+          "published_total": 164,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 164,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 164,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-04",
+          "source_id": "historical-editions-006",
+          "published_order": 4,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 3,
+          "district_as_published": "Kozhikode",
+          "cells_as_published": [
+            "Kozhikode",
+            "56",
+            "61",
+            "43",
+            "160"
+          ],
+          "section_values": {
+            "UP": 56,
+            "HS": 61,
+            "HSS/VHSS": 43
+          },
+          "published_total_column_label": "Point",
+          "published_total": 160,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 160,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 160,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-05",
+          "source_id": "historical-editions-006",
+          "published_order": 5,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 4,
+          "district_as_published": "Thiruvananthapuram",
+          "cells_as_published": [
+            "Thiruvananthapuram",
+            "56",
+            "51",
+            "51",
+            "158"
+          ],
+          "section_values": {
+            "UP": 56,
+            "HS": 51,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 158,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 158,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 158,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-06",
+          "source_id": "historical-editions-006",
+          "published_order": 6,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 5,
+          "district_as_published": "Malappuram",
+          "cells_as_published": [
+            "Malappuram",
+            "48",
+            "59",
+            "44",
+            "151"
+          ],
+          "section_values": {
+            "UP": 48,
+            "HS": 59,
+            "HSS/VHSS": 44
+          },
+          "published_total_column_label": "Point",
+          "published_total": 151,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 151,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 151,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-07",
+          "source_id": "historical-editions-006",
+          "published_order": 7,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 6,
+          "district_as_published": "Wayanad",
+          "cells_as_published": [
+            "Wayanad",
+            "41",
+            "55",
+            "55",
+            "151"
+          ],
+          "section_values": {
+            "UP": 41,
+            "HS": 55,
+            "HSS/VHSS": 55
+          },
+          "published_total_column_label": "Point",
+          "published_total": 151,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 151,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 151,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-08",
+          "source_id": "historical-editions-006",
+          "published_order": 8,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 7,
+          "district_as_published": "Kasaragod",
+          "cells_as_published": [
+            "Kasaragod",
+            "45",
+            "53",
+            "50",
+            "148"
+          ],
+          "section_values": {
+            "UP": 45,
+            "HS": 53,
+            "HSS/VHSS": 50
+          },
+          "published_total_column_label": "Point",
+          "published_total": 148,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 148,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 148,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-09",
+          "source_id": "historical-editions-006",
+          "published_order": 9,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 8,
+          "district_as_published": "Thrissur",
+          "cells_as_published": [
+            "Thrissur",
+            "41",
+            "54",
+            "49",
+            "144"
+          ],
+          "section_values": {
+            "UP": 41,
+            "HS": 54,
+            "HSS/VHSS": 49
+          },
+          "published_total_column_label": "Point",
+          "published_total": 144,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 144,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 144,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-10",
+          "source_id": "historical-editions-006",
+          "published_order": 10,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 9,
+          "district_as_published": "Alappuzha",
+          "cells_as_published": [
+            "Alappuzha",
+            "34",
+            "55",
+            "53",
+            "142"
+          ],
+          "section_values": {
+            "UP": 34,
+            "HS": 55,
+            "HSS/VHSS": 53
+          },
+          "published_total_column_label": "Point",
+          "published_total": 142,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 142,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 142,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-11",
+          "source_id": "historical-editions-006",
+          "published_order": 11,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 10,
+          "district_as_published": "Kollam",
+          "cells_as_published": [
+            "Kollam",
+            "40",
+            "49",
+            "51",
+            "140"
+          ],
+          "section_values": {
+            "UP": 40,
+            "HS": 49,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 140,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 140,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 140,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-12",
+          "source_id": "historical-editions-006",
+          "published_order": 12,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 11,
+          "district_as_published": "Kottayam",
+          "cells_as_published": [
+            "Kottayam",
+            "34",
+            "59",
+            "45",
+            "138"
+          ],
+          "section_values": {
+            "UP": 34,
+            "HS": 59,
+            "HSS/VHSS": 45
+          },
+          "published_total_column_label": "Point",
+          "published_total": 138,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 138,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 138,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-13",
+          "source_id": "historical-editions-006",
+          "published_order": 13,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 12,
+          "district_as_published": "Pathanamthitta",
+          "cells_as_published": [
+            "Pathanamthitta",
+            "25",
+            "57",
+            "49",
+            "131"
+          ],
+          "section_values": {
+            "UP": 25,
+            "HS": 57,
+            "HSS/VHSS": 49
+          },
+          "published_total_column_label": "Point",
+          "published_total": 131,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 131,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 131,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-science-14",
+          "source_id": "historical-editions-006",
+          "published_order": 14,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 13,
+          "district_as_published": "Idukki",
+          "cells_as_published": [
+            "Idukki",
+            "30",
+            "53",
+            "41",
+            "124"
+          ],
+          "section_values": {
+            "UP": 30,
+            "HS": 53,
+            "HSS/VHSS": 41
+          },
+          "published_total_column_label": "Point",
+          "published_total": 124,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 124,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 124,
+            "complete_section_sum_matches_published_total": true
+          }
+        }
+      ],
+      "separate_completion_status_source_id": "historical-editions-010",
+      "certified_final_result_established": false,
+      "whole_festival_result": false
+    },
+    {
+      "source_id": "historical-editions-007",
+      "source_url": "https://web.archive.org/web/20171127011750id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+      "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20171127011750",
+      "archive_capture_utc": "2017-11-27T01:17:50Z",
+      "source_bytes": 22182,
+      "source_sha256": "b166e82bcef8d074057c84c172001c0dfba0bce32292fe2cbe37e12a03b03f5a",
+      "edition_context": "2017-18",
+      "document_title_as_published": "School Sasthrolsavam 2016-17",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": true,
+        "undefined_item_code_notice_blocks_in_html_comments": 14,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-2017-it",
+      "stream": "it",
+      "table_scope": "published_stream_district_champion_and_runnersup",
+      "source_tables": [
+        {
+          "ordinal_within_document": 1,
+          "heading_as_published": "IT : District Overall Champion",
+          "column_labels_as_published": [
+            "District Name",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 1,
+          "heading_has_opening_tr": true
+        },
+        {
+          "ordinal_within_document": 2,
+          "heading_as_published": "IT : District Runnersup",
+          "column_labels_as_published": [
+            "District Name",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 13,
+          "heading_has_opening_tr": true
+        }
+      ],
+      "district_row_count": 14,
+      "rows": [
+        {
+          "id": "historical-stream-2017-it-01",
+          "source_id": "historical-editions-007",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "table_heading_as_published": "IT : District Overall Champion",
+          "table_role_as_published": "champion",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Kannur",
+          "cells_as_published": [
+            "Kannur",
+            "61",
+            "52",
+            "113"
+          ],
+          "section_values": {
+            "HS": 61,
+            "HSS/VHSS": 52
+          },
+          "published_total_column_label": "Point",
+          "published_total": 113,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 113,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 113,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-02",
+          "source_id": "historical-editions-007",
+          "published_order": 2,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Malappuram",
+          "cells_as_published": [
+            "Malappuram",
+            "59",
+            "51",
+            "110"
+          ],
+          "section_values": {
+            "HS": 59,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 110,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 110,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 110,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-03",
+          "source_id": "historical-editions-007",
+          "published_order": 3,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 2,
+          "district_as_published": "Kozhikode",
+          "cells_as_published": [
+            "Kozhikode",
+            "56",
+            "52",
+            "108"
+          ],
+          "section_values": {
+            "HS": 56,
+            "HSS/VHSS": 52
+          },
+          "published_total_column_label": "Point",
+          "published_total": 108,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 108,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 108,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-04",
+          "source_id": "historical-editions-007",
+          "published_order": 4,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 3,
+          "district_as_published": "Kasaragod",
+          "cells_as_published": [
+            "Kasaragod",
+            "50",
+            "45",
+            "95"
+          ],
+          "section_values": {
+            "HS": 50,
+            "HSS/VHSS": 45
+          },
+          "published_total_column_label": "Point",
+          "published_total": 95,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 95,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 95,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-05",
+          "source_id": "historical-editions-007",
+          "published_order": 5,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 4,
+          "district_as_published": "Kollam",
+          "cells_as_published": [
+            "Kollam",
+            "45",
+            "45",
+            "90"
+          ],
+          "section_values": {
+            "HS": 45,
+            "HSS/VHSS": 45
+          },
+          "published_total_column_label": "Point",
+          "published_total": 90,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 90,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 90,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-06",
+          "source_id": "historical-editions-007",
+          "published_order": 6,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 5,
+          "district_as_published": "Palakkad",
+          "cells_as_published": [
+            "Palakkad",
+            "46",
+            "41",
+            "87"
+          ],
+          "section_values": {
+            "HS": 46,
+            "HSS/VHSS": 41
+          },
+          "published_total_column_label": "Point",
+          "published_total": 87,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 87,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 87,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-07",
+          "source_id": "historical-editions-007",
+          "published_order": 7,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 6,
+          "district_as_published": "Alappuzha",
+          "cells_as_published": [
+            "Alappuzha",
+            "44",
+            "38",
+            "82"
+          ],
+          "section_values": {
+            "HS": 44,
+            "HSS/VHSS": 38
+          },
+          "published_total_column_label": "Point",
+          "published_total": 82,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 82,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 82,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-08",
+          "source_id": "historical-editions-007",
+          "published_order": 8,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 7,
+          "district_as_published": "Wayanad",
+          "cells_as_published": [
+            "Wayanad",
+            "43",
+            "38",
+            "81"
+          ],
+          "section_values": {
+            "HS": 43,
+            "HSS/VHSS": 38
+          },
+          "published_total_column_label": "Point",
+          "published_total": 81,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 81,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 81,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-09",
+          "source_id": "historical-editions-007",
+          "published_order": 9,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 8,
+          "district_as_published": "Ernakulam",
+          "cells_as_published": [
+            "Ernakulam",
+            "40",
+            "40",
+            "80"
+          ],
+          "section_values": {
+            "HS": 40,
+            "HSS/VHSS": 40
+          },
+          "published_total_column_label": "Point",
+          "published_total": 80,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 80,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 80,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-10",
+          "source_id": "historical-editions-007",
+          "published_order": 10,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 9,
+          "district_as_published": "Kottayam",
+          "cells_as_published": [
+            "Kottayam",
+            "39",
+            "41",
+            "80"
+          ],
+          "section_values": {
+            "HS": 39,
+            "HSS/VHSS": 41
+          },
+          "published_total_column_label": "Point",
+          "published_total": 80,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 80,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 80,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-11",
+          "source_id": "historical-editions-007",
+          "published_order": 11,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 10,
+          "district_as_published": "Thrissur",
+          "cells_as_published": [
+            "Thrissur",
+            "38",
+            "41",
+            "79"
+          ],
+          "section_values": {
+            "HS": 38,
+            "HSS/VHSS": 41
+          },
+          "published_total_column_label": "Point",
+          "published_total": 79,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 79,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 79,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-12",
+          "source_id": "historical-editions-007",
+          "published_order": 12,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 11,
+          "district_as_published": "Thiruvananthapuram",
+          "cells_as_published": [
+            "Thiruvananthapuram",
+            "36",
+            "37",
+            "73"
+          ],
+          "section_values": {
+            "HS": 36,
+            "HSS/VHSS": 37
+          },
+          "published_total_column_label": "Point",
+          "published_total": 73,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 73,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 73,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-13",
+          "source_id": "historical-editions-007",
+          "published_order": 13,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 12,
+          "district_as_published": "Pathanamthitta",
+          "cells_as_published": [
+            "Pathanamthitta",
+            "33",
+            "30",
+            "63"
+          ],
+          "section_values": {
+            "HS": 33,
+            "HSS/VHSS": 30
+          },
+          "published_total_column_label": "Point",
+          "published_total": 63,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 63,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 63,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2017-it-14",
+          "source_id": "historical-editions-007",
+          "published_order": 14,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 13,
+          "district_as_published": "Idukki",
+          "cells_as_published": [
+            "Idukki",
+            "35",
+            "24",
+            "59"
+          ],
+          "section_values": {
+            "HS": 35,
+            "HSS/VHSS": 24
+          },
+          "published_total_column_label": "Point",
+          "published_total": 59,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 59,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 59,
+            "complete_section_sum_matches_published_total": true
+          }
+        }
+      ],
+      "separate_completion_status_source_id": "historical-editions-011",
+      "certified_final_result_established": false,
+      "whole_festival_result": false
+    },
+    {
+      "source_id": "historical-editions-008",
+      "source_url": "https://web.archive.org/web/20181127181941id_/http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+      "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20181127181941",
+      "archive_capture_utc": "2018-11-27T18:19:41Z",
+      "source_bytes": 23346,
+      "source_sha256": "2e02ffaecec7c5c88d36828c236d3ce0db04e77f384847c6882907e8d918b891",
+      "edition_context": "2018-19",
+      "document_title_as_published": "School Sasthrolsavam 2018-19",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": false,
+        "undefined_item_code_notice_blocks_in_html_comments": 14,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-2018-science",
+      "stream": "science",
+      "table_scope": "published_stream_district_champion_and_runnersup",
+      "source_tables": [
+        {
+          "ordinal_within_document": 1,
+          "heading_as_published": "SCIENCE FAIR District Overall Champion",
+          "column_labels_as_published": [
+            "District Name",
+            "UP",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 1,
+          "heading_has_opening_tr": false
+        },
+        {
+          "ordinal_within_document": 2,
+          "heading_as_published": "SCIENCE FAIR District Runnersup",
+          "column_labels_as_published": [
+            "District Name",
+            "UP",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 13,
+          "heading_has_opening_tr": true
+        }
+      ],
+      "district_row_count": 14,
+      "rows": [
+        {
+          "id": "historical-stream-2018-science-01",
+          "source_id": "historical-editions-008",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "table_heading_as_published": "SCIENCE FAIR District Overall Champion",
+          "table_role_as_published": "champion",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Malappuram",
+          "cells_as_published": [
+            "Malappuram",
+            "",
+            "68",
+            "56",
+            "124"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 68,
+            "HSS/VHSS": 56
+          },
+          "published_total_column_label": "Point",
+          "published_total": 124,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 124,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-02",
+          "source_id": "historical-editions-008",
+          "published_order": 2,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Thrissur",
+          "cells_as_published": [
+            "Thrissur",
+            "",
+            "58",
+            "60",
+            "118"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 58,
+            "HSS/VHSS": 60
+          },
+          "published_total_column_label": "Point",
+          "published_total": 118,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 118,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-03",
+          "source_id": "historical-editions-008",
+          "published_order": 3,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 2,
+          "district_as_published": "Kannur",
+          "cells_as_published": [
+            "Kannur",
+            "",
+            "61",
+            "56",
+            "117"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 61,
+            "HSS/VHSS": 56
+          },
+          "published_total_column_label": "Point",
+          "published_total": 117,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 117,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-04",
+          "source_id": "historical-editions-008",
+          "published_order": 4,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 3,
+          "district_as_published": "Kozhikode",
+          "cells_as_published": [
+            "Kozhikode",
+            "",
+            "60",
+            "51",
+            "111"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 60,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 111,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 111,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-05",
+          "source_id": "historical-editions-008",
+          "published_order": 5,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 4,
+          "district_as_published": "Kollam",
+          "cells_as_published": [
+            "Kollam",
+            "",
+            "56",
+            "55",
+            "111"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 56,
+            "HSS/VHSS": 55
+          },
+          "published_total_column_label": "Point",
+          "published_total": 111,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 111,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-06",
+          "source_id": "historical-editions-008",
+          "published_order": 6,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 5,
+          "district_as_published": "Kasaragod",
+          "cells_as_published": [
+            "Kasaragod",
+            "",
+            "56",
+            "55",
+            "111"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 56,
+            "HSS/VHSS": 55
+          },
+          "published_total_column_label": "Point",
+          "published_total": 111,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 111,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-07",
+          "source_id": "historical-editions-008",
+          "published_order": 7,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 6,
+          "district_as_published": "Alappuzha",
+          "cells_as_published": [
+            "Alappuzha",
+            "",
+            "56",
+            "53",
+            "109"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 56,
+            "HSS/VHSS": 53
+          },
+          "published_total_column_label": "Point",
+          "published_total": 109,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 109,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-08",
+          "source_id": "historical-editions-008",
+          "published_order": 8,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 7,
+          "district_as_published": "Pathanamthitta",
+          "cells_as_published": [
+            "Pathanamthitta",
+            "",
+            "58",
+            "51",
+            "109"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 58,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 109,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 109,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-09",
+          "source_id": "historical-editions-008",
+          "published_order": 9,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 8,
+          "district_as_published": "Thiruvananthapuram",
+          "cells_as_published": [
+            "Thiruvananthapuram",
+            "",
+            "58",
+            "50",
+            "108"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 58,
+            "HSS/VHSS": 50
+          },
+          "published_total_column_label": "Point",
+          "published_total": 108,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 108,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-10",
+          "source_id": "historical-editions-008",
+          "published_order": 10,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 9,
+          "district_as_published": "Kottayam",
+          "cells_as_published": [
+            "Kottayam",
+            "",
+            "56",
+            "50",
+            "106"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 56,
+            "HSS/VHSS": 50
+          },
+          "published_total_column_label": "Point",
+          "published_total": 106,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 106,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-11",
+          "source_id": "historical-editions-008",
+          "published_order": 11,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 10,
+          "district_as_published": "Ernakulam",
+          "cells_as_published": [
+            "Ernakulam",
+            "",
+            "53",
+            "51",
+            "104"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 53,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 104,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 104,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-12",
+          "source_id": "historical-editions-008",
+          "published_order": 12,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 11,
+          "district_as_published": "Idukki",
+          "cells_as_published": [
+            "Idukki",
+            "",
+            "51",
+            "53",
+            "104"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 51,
+            "HSS/VHSS": 53
+          },
+          "published_total_column_label": "Point",
+          "published_total": 104,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 104,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-13",
+          "source_id": "historical-editions-008",
+          "published_order": 13,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 12,
+          "district_as_published": "Wayanad",
+          "cells_as_published": [
+            "Wayanad",
+            "",
+            "55",
+            "48",
+            "103"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 55,
+            "HSS/VHSS": 48
+          },
+          "published_total_column_label": "Point",
+          "published_total": 103,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 103,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        },
+        {
+          "id": "historical-stream-2018-science-14",
+          "source_id": "historical-editions-008",
+          "published_order": 14,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "SCIENCE FAIR District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 13,
+          "district_as_published": "Palakkad",
+          "cells_as_published": [
+            "Palakkad",
+            "",
+            "53",
+            "49",
+            "102"
+          ],
+          "section_values": {
+            "UP": null,
+            "HS": 53,
+            "HSS/VHSS": 49
+          },
+          "published_total_column_label": "Point",
+          "published_total": 102,
+          "sum_check": {
+            "status": "incomplete_section_cells",
+            "missing_section_columns": [
+              "UP"
+            ],
+            "known_section_sum": 102,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": null,
+            "complete_section_sum_matches_published_total": null
+          }
+        }
+      ],
+      "separate_completion_status_source_id": "historical-editions-012",
+      "certified_final_result_established": false,
+      "whole_festival_result": false
+    },
+    {
+      "source_id": "historical-editions-009",
+      "source_url": "https://web.archive.org/web/20181127181916id_/http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+      "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20181127181916",
+      "archive_capture_utc": "2018-11-27T18:19:16Z",
+      "source_bytes": 22274,
+      "source_sha256": "f3b0d60da44037f6750aa3a30358ca8e0bafc17e231317b062ae7202542c95cf",
+      "edition_context": "2018-19",
+      "document_title_as_published": "School Sasthrolsavam 2018-19",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": false,
+        "undefined_item_code_notice_blocks_in_html_comments": 14,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-2018-it",
+      "stream": "it",
+      "table_scope": "published_stream_district_champion_and_runnersup",
+      "source_tables": [
+        {
+          "ordinal_within_document": 1,
+          "heading_as_published": "IT : District Overall Champion",
+          "column_labels_as_published": [
+            "District Name",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 1,
+          "heading_has_opening_tr": true
+        },
+        {
+          "ordinal_within_document": 2,
+          "heading_as_published": "IT : District Runnersup",
+          "column_labels_as_published": [
+            "District Name",
+            "HS",
+            "HSS/VHSS",
+            "Point"
+          ],
+          "district_row_count": 13,
+          "heading_has_opening_tr": true
+        }
+      ],
+      "district_row_count": 14,
+      "rows": [
+        {
+          "id": "historical-stream-2018-it-01",
+          "source_id": "historical-editions-009",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "table_heading_as_published": "IT : District Overall Champion",
+          "table_role_as_published": "champion",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Malappuram",
+          "cells_as_published": [
+            "Malappuram",
+            "72",
+            "64",
+            "136"
+          ],
+          "section_values": {
+            "HS": 72,
+            "HSS/VHSS": 64
+          },
+          "published_total_column_label": "Point",
+          "published_total": 136,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 136,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 136,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-02",
+          "source_id": "historical-editions-009",
+          "published_order": 2,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 1,
+          "district_as_published": "Kozhikode",
+          "cells_as_published": [
+            "Kozhikode",
+            "66",
+            "51",
+            "117"
+          ],
+          "section_values": {
+            "HS": 66,
+            "HSS/VHSS": 51
+          },
+          "published_total_column_label": "Point",
+          "published_total": 117,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 117,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 117,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-03",
+          "source_id": "historical-editions-009",
+          "published_order": 3,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 2,
+          "district_as_published": "Wayanad",
+          "cells_as_published": [
+            "Wayanad",
+            "55",
+            "47",
+            "102"
+          ],
+          "section_values": {
+            "HS": 55,
+            "HSS/VHSS": 47
+          },
+          "published_total_column_label": "Point",
+          "published_total": 102,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 102,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 102,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-04",
+          "source_id": "historical-editions-009",
+          "published_order": 4,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 3,
+          "district_as_published": "Kottayam",
+          "cells_as_published": [
+            "Kottayam",
+            "48",
+            "50",
+            "98"
+          ],
+          "section_values": {
+            "HS": 48,
+            "HSS/VHSS": 50
+          },
+          "published_total_column_label": "Point",
+          "published_total": 98,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 98,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 98,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-05",
+          "source_id": "historical-editions-009",
+          "published_order": 5,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 4,
+          "district_as_published": "Palakkad",
+          "cells_as_published": [
+            "Palakkad",
+            "56",
+            "41",
+            "97"
+          ],
+          "section_values": {
+            "HS": 56,
+            "HSS/VHSS": 41
+          },
+          "published_total_column_label": "Point",
+          "published_total": 97,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 97,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 97,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-06",
+          "source_id": "historical-editions-009",
+          "published_order": 6,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 5,
+          "district_as_published": "Ernakulam",
+          "cells_as_published": [
+            "Ernakulam",
+            "50",
+            "47",
+            "97"
+          ],
+          "section_values": {
+            "HS": 50,
+            "HSS/VHSS": 47
+          },
+          "published_total_column_label": "Point",
+          "published_total": 97,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 97,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 97,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-07",
+          "source_id": "historical-editions-009",
+          "published_order": 7,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 6,
+          "district_as_published": "Thiruvananthapuram",
+          "cells_as_published": [
+            "Thiruvananthapuram",
+            "56",
+            "36",
+            "92"
+          ],
+          "section_values": {
+            "HS": 56,
+            "HSS/VHSS": 36
+          },
+          "published_total_column_label": "Point",
+          "published_total": 92,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 92,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 92,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-08",
+          "source_id": "historical-editions-009",
+          "published_order": 8,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 7,
+          "district_as_published": "Kannur",
+          "cells_as_published": [
+            "Kannur",
+            "52",
+            "38",
+            "90"
+          ],
+          "section_values": {
+            "HS": 52,
+            "HSS/VHSS": 38
+          },
+          "published_total_column_label": "Point",
+          "published_total": 90,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 90,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 90,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-09",
+          "source_id": "historical-editions-009",
+          "published_order": 9,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 8,
+          "district_as_published": "Thrissur",
+          "cells_as_published": [
+            "Thrissur",
+            "48",
+            "40",
+            "88"
+          ],
+          "section_values": {
+            "HS": 48,
+            "HSS/VHSS": 40
+          },
+          "published_total_column_label": "Point",
+          "published_total": 88,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 88,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 88,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-10",
+          "source_id": "historical-editions-009",
+          "published_order": 10,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 9,
+          "district_as_published": "Alappuzha",
+          "cells_as_published": [
+            "Alappuzha",
+            "39",
+            "49",
+            "88"
+          ],
+          "section_values": {
+            "HS": 39,
+            "HSS/VHSS": 49
+          },
+          "published_total_column_label": "Point",
+          "published_total": 88,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 88,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 88,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-11",
+          "source_id": "historical-editions-009",
+          "published_order": 11,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 10,
+          "district_as_published": "Kollam",
+          "cells_as_published": [
+            "Kollam",
+            "52",
+            "33",
+            "85"
+          ],
+          "section_values": {
+            "HS": 52,
+            "HSS/VHSS": 33
+          },
+          "published_total_column_label": "Point",
+          "published_total": 85,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 85,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 85,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-12",
+          "source_id": "historical-editions-009",
+          "published_order": 12,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 11,
+          "district_as_published": "Pathanamthitta",
+          "cells_as_published": [
+            "Pathanamthitta",
+            "43",
+            "40",
+            "83"
+          ],
+          "section_values": {
+            "HS": 43,
+            "HSS/VHSS": 40
+          },
+          "published_total_column_label": "Point",
+          "published_total": 83,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 83,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 83,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-13",
+          "source_id": "historical-editions-009",
+          "published_order": 13,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 12,
+          "district_as_published": "Kasaragod",
+          "cells_as_published": [
+            "Kasaragod",
+            "46",
+            "34",
+            "80"
+          ],
+          "section_values": {
+            "HS": 46,
+            "HSS/VHSS": 34
+          },
+          "published_total_column_label": "Point",
+          "published_total": 80,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 80,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 80,
+            "complete_section_sum_matches_published_total": true
+          }
+        },
+        {
+          "id": "historical-stream-2018-it-14",
+          "source_id": "historical-editions-009",
+          "published_order": 14,
+          "source_table_ordinal": 2,
+          "table_heading_as_published": "IT : District Runnersup",
+          "table_role_as_published": "runnersup",
+          "data_row_ordinal_within_table": 13,
+          "district_as_published": "Idukki",
+          "cells_as_published": [
+            "Idukki",
+            "42",
+            "25",
+            "67"
+          ],
+          "section_values": {
+            "HS": 42,
+            "HSS/VHSS": 25
+          },
+          "published_total_column_label": "Point",
+          "published_total": 67,
+          "sum_check": {
+            "status": "match",
+            "missing_section_columns": [],
+            "known_section_sum": 67,
+            "known_section_sum_matches_published_total": true,
+            "complete_section_sum": 67,
+            "complete_section_sum_matches_published_total": true
+          }
+        }
+      ],
+      "separate_completion_status_source_id": "historical-editions-013",
+      "certified_final_result_established": false,
+      "whole_festival_result": false
+    }
+  ],
+  "completion_status_snapshots": [
+    {
+      "source_id": "historical-editions-010",
+      "source_url": "https://web.archive.org/web/20171129105139id_/http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+      "original_url": "http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20171129105139",
+      "archive_capture_utc": "2017-11-29T10:51:39Z",
+      "source_bytes": 12025,
+      "source_sha256": "ae0de16cef22e1085d9974b012f78f84cb50f3c00945e52634a64252c3988c57",
+      "edition_context": "2017-18",
+      "document_title_as_published": "School Sasthrolsavam 2016-17",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": true,
+        "undefined_item_code_notice_blocks_in_html_comments": 0,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-status-2017-science",
+      "stream": "science",
+      "table_scope": "item_completion_status",
+      "table_heading_as_published": "STATUS OF COMPLETION OF ITEMS (SCIENCE FAIR)",
+      "column_labels_as_published": [
+        "Category (Item Total)",
+        "Items Completed",
+        "Items not Completed"
+      ],
+      "completion_row_count": 3,
+      "rows": [
+        {
+          "id": "historical-stream-status-2017-science-01",
+          "source_id": "historical-editions-010",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "UP(7)",
+            "7",
+            "0"
+          ],
+          "category_as_published": "UP",
+          "item_total": 7,
+          "items_completed": 7,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 7,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2017-science-02",
+          "source_id": "historical-editions-010",
+          "published_order": 2,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HS(10)",
+            "10",
+            "0"
+          ],
+          "category_as_published": "HS",
+          "item_total": 10,
+          "items_completed": 10,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 10,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2017-science-03",
+          "source_id": "historical-editions-010",
+          "published_order": 3,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HSS/VHSS(7)",
+            "7",
+            "0"
+          ],
+          "category_as_published": "HSS/VHSS",
+          "item_total": 7,
+          "items_completed": 7,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 7,
+            "matches_published_item_total": true
+          }
+        }
+      ],
+      "separate_district_snapshot_source_id": "historical-editions-006",
+      "certified_final_result_established": false,
+      "entrant_count": false
+    },
+    {
+      "source_id": "historical-editions-011",
+      "source_url": "https://web.archive.org/web/20171128013919id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+      "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20171128013919",
+      "archive_capture_utc": "2017-11-28T01:39:19Z",
+      "source_bytes": 11615,
+      "source_sha256": "464ce79a71c490943b9756c14e52a27ab6150dd752c988cf7425ecaf28506b8d",
+      "edition_context": "2017-18",
+      "document_title_as_published": "School Sasthrolsavam 2016-17",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": true,
+        "undefined_item_code_notice_blocks_in_html_comments": 0,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-status-2017-it",
+      "stream": "it",
+      "table_scope": "item_completion_status",
+      "table_heading_as_published": "STATUS OF COMPLETION OF ITEMS [ IT ]",
+      "column_labels_as_published": [
+        "Category (Item Total)",
+        "Items Completed",
+        "Items not Completed"
+      ],
+      "completion_row_count": 2,
+      "rows": [
+        {
+          "id": "historical-stream-status-2017-it-01",
+          "source_id": "historical-editions-011",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HS(6)",
+            "6",
+            "0"
+          ],
+          "category_as_published": "HS",
+          "item_total": 6,
+          "items_completed": 6,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 6,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2017-it-02",
+          "source_id": "historical-editions-011",
+          "published_order": 2,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HSS/VHSS(5)",
+            "5",
+            "0"
+          ],
+          "category_as_published": "HSS/VHSS",
+          "item_total": 5,
+          "items_completed": 5,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 5,
+            "matches_published_item_total": true
+          }
+        }
+      ],
+      "separate_district_snapshot_source_id": "historical-editions-007",
+      "certified_final_result_established": false,
+      "entrant_count": false
+    },
+    {
+      "source_id": "historical-editions-012",
+      "source_url": "https://web.archive.org/web/20181128230906id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+      "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20181128230906",
+      "archive_capture_utc": "2018-11-28T23:09:06Z",
+      "source_bytes": 12117,
+      "source_sha256": "e6992265769234455d57ee8f2803e34710b595cd157131a1bfee3bed86d8b4b6",
+      "edition_context": "2018-19",
+      "document_title_as_published": "School Sasthrolsavam 2018-19",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": false,
+        "undefined_item_code_notice_blocks_in_html_comments": 0,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-status-2018-science",
+      "stream": "science",
+      "table_scope": "item_completion_status",
+      "table_heading_as_published": "STATUS OF COMPLETION OF ITEMS (SCIENCE FAIR)",
+      "column_labels_as_published": [
+        "Category (Item Total)",
+        "Items Completed",
+        "Items not Completed"
+      ],
+      "completion_row_count": 3,
+      "rows": [
+        {
+          "id": "historical-stream-status-2018-science-01",
+          "source_id": "historical-editions-012",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "UP(2)",
+            "2",
+            "0"
+          ],
+          "category_as_published": "UP",
+          "item_total": 2,
+          "items_completed": 2,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 2,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2018-science-02",
+          "source_id": "historical-editions-012",
+          "published_order": 2,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HS(10)",
+            "10",
+            "0"
+          ],
+          "category_as_published": "HS",
+          "item_total": 10,
+          "items_completed": 10,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 10,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2018-science-03",
+          "source_id": "historical-editions-012",
+          "published_order": 3,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HSS/VHSS(7)",
+            "7",
+            "0"
+          ],
+          "category_as_published": "HSS/VHSS",
+          "item_total": 7,
+          "items_completed": 7,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 7,
+            "matches_published_item_total": true
+          }
+        }
+      ],
+      "separate_district_snapshot_source_id": "historical-editions-008",
+      "certified_final_result_established": false,
+      "entrant_count": false
+    },
+    {
+      "source_id": "historical-editions-013",
+      "source_url": "https://web.archive.org/web/20181128230750id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+      "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+      "accessed_on": "2026-11-01",
+      "archive_capture": "20181128230750",
+      "archive_capture_utc": "2018-11-28T23:07:50Z",
+      "source_bytes": 11891,
+      "source_sha256": "e86970d028ab6c6bfd5299314a491ea81a589b5b570f15f77d164461e8ef0f24",
+      "edition_context": "2018-19",
+      "document_title_as_published": "School Sasthrolsavam 2018-19",
+      "document_issue_date": null,
+      "source_anomalies": {
+        "title_year_differs_from_edition_context": false,
+        "undefined_item_code_notice_blocks_in_html_comments": 0,
+        "undefined_item_code_notice_blocks_outside_html_comments": 0
+      },
+      "snapshot_id": "historical-stream-status-2018-it",
+      "stream": "it",
+      "table_scope": "item_completion_status",
+      "table_heading_as_published": "STATUS OF COMPLETION OF ITEMS [ IT ]",
+      "column_labels_as_published": [
+        "Category (Item Total)",
+        "Items Completed",
+        "Items not Completed"
+      ],
+      "completion_row_count": 2,
+      "rows": [
+        {
+          "id": "historical-stream-status-2018-it-01",
+          "source_id": "historical-editions-013",
+          "published_order": 1,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HS(6)",
+            "6",
+            "0"
+          ],
+          "category_as_published": "HS",
+          "item_total": 6,
+          "items_completed": 6,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 6,
+            "matches_published_item_total": true
+          }
+        },
+        {
+          "id": "historical-stream-status-2018-it-02",
+          "source_id": "historical-editions-013",
+          "published_order": 2,
+          "source_table_ordinal": 1,
+          "cells_as_published": [
+            "HSS/VHSS(5)",
+            "5",
+            "0"
+          ],
+          "category_as_published": "HSS/VHSS",
+          "item_total": 5,
+          "items_completed": 5,
+          "items_not_completed": 0,
+          "sum_check": {
+            "completed_plus_not_completed": 5,
+            "matches_published_item_total": true
+          }
+        }
+      ],
+      "separate_district_snapshot_source_id": "historical-editions-009",
+      "certified_final_result_established": false,
+      "entrant_count": false
+    }
+  ],
+  "counts": {
+    "district_snapshots": 4,
+    "district_rows": 56,
+    "completion_status_snapshots": 4,
+    "completion_status_rows": 10,
+    "total_data_rows": 66,
+    "complete_section_sum_matches": 42,
+    "incomplete_section_sum_checks": 14,
+    "section_sum_mismatches": 0,
+    "blank_section_cells": 14,
+    "completion_sum_matches": 10
+  }
+}

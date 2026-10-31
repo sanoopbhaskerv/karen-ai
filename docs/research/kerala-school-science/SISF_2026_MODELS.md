@@ -74,3 +74,10 @@ The [separate award index](PROJECTS.md#sisf-2026-separate-prize-scope-from-proje
 The index records the three codes as separately located source-image evidence, while the standalone code and prize fields remain null. It transfers no award or merged credit set. Titles and school spellings also vary. Neither a similar title nor a Kerala school address establishes a particular Sasthrolsavam selection route. The 31 entries overlap other evidence layers and must not be added to their counts as unique projects.
 
 For Karen, the useful preparation pattern is to name the controller, sensors, software and network roles, label proposed features clearly, and support claims with test records. This book establishes no current Kerala competition permission or judging rule.
+
+
+## Candidate publications and machine audio
+
+The [school-affiliated publication guide](SCHOOL_PROJECT_REPORTS.md) links three component-paper candidates to the banana-pseudostem entry and a later related-paper candidate to the teacher microplastics entry. Exact credits and affiliations differ; no paper explicitly identifies the fair submission. The two model records carry candidate pointers without merging credits or certifying identities, the entire exhibit or measured outcomes. Published arithmetic/unit disagreements remain explicit.
+
+All 21 accessible videos now have frame samples; [machine audio processing](AUDIO_REVIEW.md) is unverified, with two degenerate outputs excluded. It does not change the written credits or reported method evidence above.

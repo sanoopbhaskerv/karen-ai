@@ -62,6 +62,15 @@ The most valuable next additions are original project reports/logbooks, certifie
 
 ## Media, live status and planning dates
 
-The media index links each SISF write-up to a public DIKSHA unit and records resource/header access separately from sampled frames. Twenty-one MP4s are linked, but no full clip or audio track has been reviewed. Ten teacher units currently have no playable child. Neither access nor empty linkage establishes performance, authorship or absence of recordings elsewhere. A misleading artifact filename must be checked against returned titles and actual media.
+The media index links each SISF write-up to a public DIKSHA unit and records resource/header access separately from sampled frames. Twenty-one MP4s are linked and sampled through 137 frames. No full continuous playback or audio listening review has been completed; machine processing is a separate evidence layer. Ten teacher units currently have no playable child. Neither access nor empty linkage establishes performance, authorship or absence of recordings elsewhere. A misleading artifact filename must be checked against returned titles and actual media.
 
 The 2026 district dataset is a timed snapshot, with source dashes and arithmetic discrepancies retained. Generic status totals are not eligibility counts; partial champion panels are not final results, and a grade-only row is not a prize rank. The calendar index records planned Science milestones from a mirrored attachment, including literal before-date relations. It must not supply a local check-in time or certify that an event occurred. See [MEDIA.md](MEDIA.md), [DISTRICT_STATUS.md](DISTRICT_STATUS.md) and [CALENDAR_2026.md](CALENDAR_2026.md).
+
+
+## New source versions, papers and audio drafts
+
+The expanded national index covers 2023–2025: 14 selected rows, 20 separate forms and six versioned findings. The 2025 school/name disagreements remain attached to their documents. The [historical stream snapshots](historical-stream-results.json) are separate from whole-festival tables; blank section cells, stale page titles and different capture times remain explicit.
+
+Four [publication candidates](SCHOOL_PROJECT_REPORTS.md) add component methods, rather than verified exhibit identities or replication. Preserve each paper’s credit/affiliation/date and its reported data problems. Neither publication nor a matching numerical range certifies the complete exhibit or its January version. Use the [additional 2026 circular](ADDITIONAL_2026_CIRCULARS.md) to qualify the original Mathematics dates without changing Science instructions.
+
+The [audio-processing index](media-audio-review.json) records 21 machine outputs from complete extracted audio. Two repetitive outputs are rejected; the other 19 are unverified drafts. There have been zero listening reviews and zero continuous video reviews, despite 137 inspected frames. Do not use ASR names to change credits or import draft speech as scientific fact, quotations, approved answers or training examples. No knowledge fact is based solely on these outputs.

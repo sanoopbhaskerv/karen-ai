@@ -61,3 +61,6 @@ The publication statement is **November 2003** (PDF 2), while its preface is dat
 ## Older-book discovery follow-up
 
 The public university-archive search on 1 November 2026 located the already-reviewed 2003 model book, but no additional 2000–2008 title in the reviewed title/full-text results. A separate Internet Archive/Digital Library of India record recovered the 2005 book (`project-029`). The search outcome does not establish that other annual books were never published. The 2005 railway chapter describes a control model; its proposed real-crossing and solar uses are not validated deployments.
+
+
+Four separately located [research-publication candidates](SCHOOL_PROJECT_REPORTS.md) concern components or a related study of two SISF 2026 entries. They are outside these eleven NCERT edited chapters and do not increase the chapter/page count. Their source-specific authors, affiliations, dates and data-quality limits remain separate.

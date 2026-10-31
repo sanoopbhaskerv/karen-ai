@@ -68,7 +68,11 @@
     "source_date": null,
     "notes": "Downloaded, all10pages extracted; PDF page2 rendered and visually inspected. Five Kerala selected entries. Selection does not establish prize or attendance. Student phone/email fields omitted from notes.",
     "sha256": "d790f539e674b894dba768e2978d7888aab7827d9a0d1dc5bafa48967ad5242e",
-    "edition_label": "2025"
+    "edition_label": "2025",
+    "bytes": 669286,
+    "page_count": 10,
+    "follow_up_on": "2026-11-01",
+    "follow_up_notes": "All five Kerala rows on PDF2 indexed separately, retaining the undelimited cardamom student cell and differing electromagnetic-induction school/guide wording versus the2025forms."
   },
   {
     "id": "pathways-08",
@@ -78,7 +82,13 @@
     "source_type": "official_html",
     "source_date": null,
     "notes": "Downloaded and parsed with curl after browser timeouts. Links current guidelines, themes, selected exhibits and older national records.",
-    "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31"
+    "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31",
+    "follow_up_snapshot": {
+      "accessed_on": "2026-11-01",
+      "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31",
+      "bytes": 57873,
+      "note": "Live archive links participant details as52ndRBVP2025, although its filename contains51st; actual PDFheading reads2025."
+    }
   },
   {
     "id": "pathways-09",
@@ -457,5 +467,20 @@
     ],
     "event_start_date": "2026-01-19",
     "event_end_date": "2026-01-23"
+  },
+  {
+    "id": "pathways-38",
+    "title": "NCERT RBVP 2025 institution and participant details, 353-page organiser compilation",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_51st%20_RBVP_2025.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_form_compilation",
+    "document_date": null,
+    "edition_year_as_printed": 2025,
+    "event_location_as_printed": "Regional Institute of Education, Shyamla Hills, Bhopal, Madhya Pradesh",
+    "download_sha256": "e2d66fb2e7a69f8de1f03cbebf73c7ba95cc4aa8be602974e1dfa2375559c1e7",
+    "download_bytes": 6226606,
+    "pdf_pages": 353,
+    "discovery_source_id": "pathways-08",
+    "notes": "Official archive link says 52nd RBVP 2025; the URL filename says 51st_RBVP_2025. The actual form heading establishes RBVP2025 and RIE Bhopal, without an inspected issue date. All353 school/address blocks were text-screened, including organisational headings and colon variants; exactly eight Kerala-addressed forms at PDF76–83 were identified and visually checked. Selected-list and form credits/schools retain their differences. No contacts, photographs, achievement biographies or full source pages are copied into the derived index. Forms do not independently prove attendance, prizes, Kerala DGE nomination or pupil work division."
   }
 ]

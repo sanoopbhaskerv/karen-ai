@@ -578,7 +578,33 @@
       "evidence_limits": "Trial narratives omit numerical results; food/feed safety, yields and commercial viability are unverified.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p174"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p174",
+      "related_publication_candidates": [
+        {
+          "source_id": "school-project-001",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        },
+        {
+          "source_id": "school-project-002",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        },
+        {
+          "source_id": "school-project-003",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        }
+      ]
     },
     {
       "id": "sisf-2026-kerala-individual-p176",
@@ -1113,7 +1139,17 @@
       "student_work_division_verified": false,
       "performance_independently_verified": false,
       "source_notes": "The single published teacher-credit string contains commas; it is preserved without inventing additional contributors.",
-      "public_media_record_id": "media-sisf-2026-kerala-teacher-p197"
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p197",
+      "related_publication_candidates": [
+        {
+          "source_id": "school-project-004",
+          "status": "strong_candidate_related_publication",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        }
+      ]
     },
     {
       "id": "sisf-2026-kerala-teacher-p199",
