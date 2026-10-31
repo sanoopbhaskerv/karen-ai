@@ -789,6 +789,44 @@
     "topic_register": "history-sources.json"
   },
   {
+    "id": "history-education-admin-1964-65",
+    "title": "Government of Kerala, Education Department: Administration Report for 1964–65",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6241/1/Administration%20Report_Education%201964-65_Kerala.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_primary_government_report",
+    "document_date": "1966",
+    "publisher": "Government of Kerala, Education Department",
+    "page_count": 162,
+    "bytes": 3610993,
+    "sha256": "b443bb03cf584c76414681d436137638d53afdf1535c112918ccfc56c289b17c",
+    "notes": "Public university-archive scan of a contemporary government report, distinct from Bureau of Economics and Statistics administration reports. PDF 1 title confirms report cycle 1964–65 and Government Press, Ernakulam, 1966; PDF 3 copyright 1966; PDF 4 review G.O. (Rt.) 826/66/Edn., 30 March 1966. Full OCR text extracted; relevant pages visually checked. Chapter VIII, printed 26–32/PDF 41–47, records SIE formation under G.O. (MS) 541/64/Edn., 6 October 1964; collaboration with teacher-training college Extension Service Departments at printed 30/PDF 45; and contemplated Central Science Club for city high-school pupils at printed 32/PDF 47. A contemplated club is not an already held fair. Inspected chapter and phrase search do not establish the statewide fair inauguration; no conclusion that fairs were absent. Standard unlocked public DSpace bitstream succeeded after public viewer returned Internal System Error.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-education-admin-1964-65-catalogue",
+    "title": "School Books Archive catalogue: Kerala Education Department Administration Report 1964–65",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/handle/20.500.12497/6241",
+    "accessed_on": "2026-11-01",
+    "source_type": "university_digital_archive_catalogue",
+    "document_date": null,
+    "notes": "Azim Premji University Knowledge Resource Centre catalogue identifies the 1966 Education Department report and reporting cycle 1964–65. Public item UUID 7684b375-90b0-45e3-b1a6-5175ba4b052d. Site public attachment service lists Administration Report_Education 1964-65_Kerala.pdf as unlocked, 3.53 MB, file UUID 9bfd8b7e-cdef-4b5c-ad2a-31d55a140005. Public viewer failed with internal 500; ordinary public /bitstream/ handle download succeeded without authentication. Catalogue is provenance/discovery aid; factual claims checked in report body.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-economic-review-1965",
+    "title": "Kerala 1965: An Economic Review",
+    "url": "https://spb.kerala.gov.in/sites/default/files/inline-files/1965.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "primary_government_review_scan",
+    "document_date": null,
+    "publisher": "Government of Kerala, Bureau of Economics and Statistics",
+    "page_count": 54,
+    "bytes": 1316473,
+    "sha256": "7ae735bab4a8d751796923b975549e79bf834a0539326b0780680b6e52b5d6b2",
+    "notes": "Government-hosted 54-page scan without embedded text. Cover/title PDF 1–2 identify Kerala 1965; introduction PDF 4 identifies Bureau of Economics and Statistics preparation. Contents PDF 3 and printed 13/PDF 24 education section visually inspected. That passage summarises enrolment, school numbers, SSLC, technical education and expenditure; it does not establish science-fair inauguration. Investigated search lead, not evidence that school fairs were absent. Economic Review is distinct from actual Education Department Administration Report 1964–65 recovered from university archive.",
+    "topic_register": "history-sources.json"
+  },
+  {
     "id": "pathways-01",
     "title": "KITE Sasthrolsavam About Us",
     "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us",
@@ -1115,6 +1153,120 @@
     "topic_register": "pathways-sources.json"
   },
   {
+    "id": "pathways-30",
+    "title": "NCERT archive-linked 2022 selected exhibits, state-wise list",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits-Statewise.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2022 (official archive context)",
+    "notes": "Linked in the official English archive beside 49th RBVP 2022 notices; the PDF itself has no printed edition/date statement located. All 20 pages text-extracted; 148 distinct revised exhibit codes. No Kerala heading or confidently identified Kerala school/address match located. PDF pages 7, 8, 19 and 20 visually inspected, including Kashmir-to-Lakshadweep and NVS boundaries. This finding is limited to this version and does not prove no Kerala participation.",
+    "download_sha256": "5a128136e18898f90c47b9e5f610e8500302d33ece842885078c3a0dc54f9193",
+    "download_bytes": 484383,
+    "pdf_pages": 20,
+    "relevant_pdf_pages": [
+      7,
+      8,
+      19,
+      20
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-31",
+    "title": "NCERT archive-linked 2022 selected exhibits, subtheme list",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2022 (official archive context)",
+    "notes": "Companion archive-linked selected-exhibit list arranged by subtheme, undated within the PDF. All 14 pages text-extracted; 149 distinct revised codes, including 19.1.2 absent from the state-wise version. No confidently identified Kerala school/address match located. These list populations differ from each other and from the 143 English credit/address blocks in the published 2022 synopsis catalogue; no cause or certified reconciliation established.",
+    "download_sha256": "163acc3bfd60ec9210af7a5bee6bc64b25f7da10a4914b3f4924a6f65543fb62",
+    "download_bytes": 441293,
+    "pdf_pages": 14,
+    "relevant_pdf_pages": [],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-32",
+    "title": "NCERT selected exhibits for 50th RBVP 2023",
+    "url": "https://ncert.nic.in/desm/pdf/DESM_RBVP_list_of_exhibits_30_11-2023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2023",
+    "notes": "Actual organiser selected-exhibit list, not merely general eligibility. All 9 pages text-extracted; 173 distinct exhibit codes. Complete PDF pages 8 and 9 visually inspected. Three Kerala-located entries appear under KVS/NVS headings; no separate Kerala state heading located. Filename includes 30_11-2023, but no printed issue date verified; source_date remains null. School address, credits and spelling variants remain attached to this list version. Contact fields omitted from the derived index.",
+    "download_sha256": "a182fee470013af4792941029102a95791bd4fc7f966c69f37dd73f00b6378db",
+    "download_bytes": 180741,
+    "pdf_pages": 9,
+    "relevant_pdf_pages": [
+      8,
+      9
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-33",
+    "title": "NCERT exhibits selected for participation in 51st RBVP 2024",
+    "url": "https://ncert.nic.in/desm/pdf/Exhibits_selected_for_participation_in_51st_RBVP_2024.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2024",
+    "notes": "All 14 pages extracted; 185 distinct exhibit codes. Complete PDF pages 1, 3, 4 and 14 visually inspected. Five selected entries are under the Kerala heading and one Kerala-located entry is under NVS. Page 1 schedules 26–31 December 2024 at Sports University of Haryana, Rai (Sonipat), Haryana; this selection document alone does not establish attendance or completion. Printed issue date not located. Contact fields omitted from the derived index.",
+    "download_sha256": "0d61a263d55c49bd87c3dd46c32e23c9d2df4d2a1cdc8dd06384dcdb8d1c5038",
+    "download_bytes": 419566,
+    "pdf_pages": 14,
+    "relevant_pdf_pages": [
+      1,
+      3,
+      4,
+      14
+    ],
+    "scheduled_event_start_date": "2024-12-26",
+    "scheduled_event_end_date": "2024-12-31",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-34",
+    "title": "NCERT organiser-hosted participant details for 50th RBVP 2023",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_50th_RBVP_2023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_forms",
+    "source_date": null,
+    "edition_label": "2023",
+    "notes": "Organiser-hosted compilation of participant forms, 221 pages, all text-extracted for relevant code/location discovery. Relevant complete PDF pages 206, 207, 213, 214 and 221 read; 206, 213, 214 and 221 visually inspected. Forms identify the Kochi institution omitted from the catalogue School field, and contain a TinyML student-credit variant. Submitted forms and self-reported achievements do not establish certified attendance, prizes or authorship. Contact fields and images are not copied into the derived index.",
+    "download_sha256": "2ddf92e5e9ed30236a6b1276344770a65a794e3f19a00400b1065126cb577cb3",
+    "download_bytes": 2133934,
+    "pdf_pages": 221,
+    "relevant_pdf_pages": [
+      206,
+      213,
+      214,
+      221
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-35",
+    "title": "NCERT organiser-hosted participant details for 51st RBVP 2024",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_51st%20_RBVP_2024.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_forms",
+    "source_date": null,
+    "edition_label": "2024",
+    "notes": "Organiser-hosted compilation of participant forms, 265 pages, all text-extracted for relevant code/location discovery. Relevant complete PDF pages 59–64 and 259 read; 61, 64 and 259 visually inspected. NOLVAS forms name guide K Shima, while selection/catalogue versions name Sameer. Auto Rescue form records Kerala in its generic State/UTs/Organization field, but the selected-exhibit table groups it under NVS. No matching 12.5.3/Volume Around Us/TRK form located by the recorded text searches; absence is not nonattendance evidence. Contact fields and images are not copied into the derived index.",
+    "download_sha256": "a1e07d746ef00c36a1fd7be63bc1018a45b3114a465f2683a9a694fa4cbf406e",
+    "download_bytes": 4510296,
+    "pdf_pages": 265,
+    "relevant_pdf_pages": [
+      61,
+      64,
+      259
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
     "id": "project-001",
     "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
     "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
@@ -1382,11 +1534,16 @@
   },
   {
     "id": "project-023",
-    "title": "NCERT: Structure and Working, 2011 archive link (not retrieved)",
+    "title": "NCERT: Structure and Working of Science Models, 2011",
     "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2011.pdf",
     "accessed_on": "2026-11-01",
-    "source_type": "official_archive_link_not_retrieved",
-    "notes": "Official archive links this Patna 2011 book. Standard TLS-verified curl requests twice failed with connection reset, and browser tooling could not retrieve it. No source contents, Kerala-case count or publication-date claim is made. The link is an unresolved acquisition lead, not evidence of nonpublication or nonparticipation.",
+    "source_type": "official_model_reports",
+    "notes": "Earlier TLS/reset and browser retrieval failures were transient: the same official URL was successfully downloaded on 1 November 2026 using standard TLS-verified curl. Complete 96-page file: eight front-matter pages, contiguous printed body pages 1–85, then blank/back matter. All 23 contents/chapter starts and all 62 other printed body-page headers align. All 23 chapter-attribution blocks reviewed, including two Hindi blocks visually confirmed as Rajasthan; one Kerala chapter located. Automatic Crane chapter 8, PDF 37–41/printed 29–33 read in full and all five pages rendered/inspected. Publication statement November 2011/PDF 4; preface 11 November 2011/PDF 6. Reported construction is distinct from unverified mechanical-advantage, frequency and lossless-operation claims; no prize, route or catalogue exhibit code is established.",
+    "source_date": "2011-11",
+    "download_sha256": "5c37899a0198f11af4efd4e6b2a5fb5f749d54c5c39fd6202c21d33d66051e38",
+    "download_bytes": 11113643,
+    "pdf_pages": 96,
+    "received_file_complete": true,
     "topic_register": "project-sources.json"
   },
   {
@@ -1703,7 +1860,16 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_manual",
     "document_date": "2025-09-12",
-    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts.",
+    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts. Follow-up visually checked general registration/funding/judging, records, and state committee infrastructure/welfare/souvenir provisions (printed6–7,12–14,20–29). The 2026 portal-linked copy was downloaded and is byte-identical to the previously collected 2025 copy; no new edition inferred from URL year. State committee Wi-Fi/power duties do not establish equivalent subdistrict service or individual contestant cloud permission.",
+    "last_reviewed_on": "2026-11-01",
+    "additional_verified_copy": {
+      "url": "https://mela.kite.kerala.gov.in/2026/entry_forms/sasthrolsavam_manual_2025.pdf",
+      "accessed_on": "2026-11-01",
+      "bytes": 11129761,
+      "pdf_pages": 250,
+      "sha256": "7447fbd282d822977a6da718cae54f2fe75b0e9f7156d2142d8f071b13d58572",
+      "byte_identical_to_collected_2025_copy": true
+    },
     "topic_register": "rules-sources.json"
   },
   {

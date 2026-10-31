@@ -6,16 +6,19 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 166 |
-| Distinct source URLs | 162 |
-| JSON files | 23 |
-| Concise English/Malayalam knowledge records | 72 |
-| Draft Malayalam evaluation questions | 52 |
-| Indexed exhibit records | 31 |
+| Source records | 175 |
+| Distinct source URLs | 171 |
+| JSON files | 24 |
+| Concise English/Malayalam knowledge records | 82 |
+| Draft Malayalam evaluation questions | 60 |
+| Indexed exhibit records | 32 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
-| Extended published model chapters | 8 |
-| Pages in those eight chapters | 33 |
+| Extended published model chapters | 9 |
+| Pages in those model chapters | 38 |
+| Organiser selected-exhibit records | 9 |
+| Separate published participant-form records | 12 |
+| Credit/identity/heading findings | 4 |
 | General catalogue snapshots | 8 |
 | Catalogue observations across those snapshots | 1,835 |
 | Separate special-school catalogue records | 80 |
@@ -33,7 +36,8 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - Every result table's stored row count agrees with the extracted rows. All HTML data rows were accounted for, and the top five entries agree with independently retrieved landing-page summaries.
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
-- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eight extended report chapters have valid full page ranges totalling 33 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
+- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Nine extended report chapters have valid full page ranges totalling 38 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
+- The six added national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All nine selection rows, twelve separate form rows and four versioned findings have valid source/page references. Existing credits in all 31 earlier project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
 
 ## Domain review
 
@@ -43,4 +47,4 @@ Independent reviews checked historical edition boundaries, source-specific champ
 
 Malayalam records remain marked for a teacher's language and educational review. They are a research/evaluation collection, not an approved model-training file. Runtime behaviour, live providers and physical hardware were not changed or exercised by this research; application tests are not evidence that the archive is historically complete.
 
-The initial research commit passed the repository's Windows setup CI. Publication of later additions is tracked by the pull request's checks. Additional reviews checked all catalogue school-address columns/blocks, split rows and state-boundary exclusions; all 55 attribution blocks in the 2015–2017 model books; source proposals versus described construction; ambiguous output units; and the separate national pandemic chronology. Enlarged scans resolved the 2016 programme venue and confirmed the Drama code. The unresolved work is listed in [COVERAGE.md](COVERAGE.md).
+The initial research commit passed the repository's Windows setup CI. Publication of later additions is tracked by the pull request's checks. Additional reviews checked all catalogue school-address columns/blocks, split rows and state-boundary exclusions; all 55 attribution blocks in the 2015–2017 model books; source proposals versus described construction; ambiguous output units; and the separate national pandemic chronology. Enlarged scans resolved the 2016 programme venue and confirmed the Drama code. The newly retrieved 2011 book was checked for contiguous printed pages and all 23 chapter attributions. Selection-list and submitted-form records retain distinct statuses, credit variants and geographic/organisational scope. General operations provisions were visually checked with their state/subdistrict boundaries, and the 2026-hosted manual copy matches the previously collected bytes. The unresolved work is listed in [COVERAGE.md](COVERAGE.md).

@@ -560,5 +560,40 @@
     "source_type": "secondary_news",
     "document_date": "2018-11-28",
     "notes": "Opened full contemporary report, published and updated 28 November 2018 at 10:31 IST. Reports school fourth in HSS Mathematics and A grade for HS Science Still Model, among other item achievements. No full district/school-overall championship totals or Science-stream champion supplied. Subject/section placing must not be promoted to festival-wide rank; individual pupil names not transcribed."
+  },
+  {
+    "id": "history-education-admin-1964-65",
+    "title": "Government of Kerala, Education Department: Administration Report for 1964–65",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6241/1/Administration%20Report_Education%201964-65_Kerala.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_primary_government_report",
+    "document_date": "1966",
+    "publisher": "Government of Kerala, Education Department",
+    "page_count": 162,
+    "bytes": 3610993,
+    "sha256": "b443bb03cf584c76414681d436137638d53afdf1535c112918ccfc56c289b17c",
+    "notes": "Public university-archive scan of a contemporary government report, distinct from Bureau of Economics and Statistics administration reports. PDF 1 title confirms report cycle 1964–65 and Government Press, Ernakulam, 1966; PDF 3 copyright 1966; PDF 4 review G.O. (Rt.) 826/66/Edn., 30 March 1966. Full OCR text extracted; relevant pages visually checked. Chapter VIII, printed 26–32/PDF 41–47, records SIE formation under G.O. (MS) 541/64/Edn., 6 October 1964; collaboration with teacher-training college Extension Service Departments at printed 30/PDF 45; and contemplated Central Science Club for city high-school pupils at printed 32/PDF 47. A contemplated club is not an already held fair. Inspected chapter and phrase search do not establish the statewide fair inauguration; no conclusion that fairs were absent. Standard unlocked public DSpace bitstream succeeded after public viewer returned Internal System Error."
+  },
+  {
+    "id": "history-education-admin-1964-65-catalogue",
+    "title": "School Books Archive catalogue: Kerala Education Department Administration Report 1964–65",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/handle/20.500.12497/6241",
+    "accessed_on": "2026-11-01",
+    "source_type": "university_digital_archive_catalogue",
+    "document_date": null,
+    "notes": "Azim Premji University Knowledge Resource Centre catalogue identifies the 1966 Education Department report and reporting cycle 1964–65. Public item UUID 7684b375-90b0-45e3-b1a6-5175ba4b052d. Site public attachment service lists Administration Report_Education 1964-65_Kerala.pdf as unlocked, 3.53 MB, file UUID 9bfd8b7e-cdef-4b5c-ad2a-31d55a140005. Public viewer failed with internal 500; ordinary public /bitstream/ handle download succeeded without authentication. Catalogue is provenance/discovery aid; factual claims checked in report body."
+  },
+  {
+    "id": "history-economic-review-1965",
+    "title": "Kerala 1965: An Economic Review",
+    "url": "https://spb.kerala.gov.in/sites/default/files/inline-files/1965.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "primary_government_review_scan",
+    "document_date": null,
+    "publisher": "Government of Kerala, Bureau of Economics and Statistics",
+    "page_count": 54,
+    "bytes": 1316473,
+    "sha256": "7ae735bab4a8d751796923b975549e79bf834a0539326b0780680b6e52b5d6b2",
+    "notes": "Government-hosted 54-page scan without embedded text. Cover/title PDF 1–2 identify Kerala 1965; introduction PDF 4 identifies Bureau of Economics and Statistics preparation. Contents PDF 3 and printed 13/PDF 24 education section visually inspected. That passage summarises enrolment, school numbers, SSLC, technical education and expenditure; it does not establish science-fair inauguration. Investigated search lead, not evidence that school fairs were absent. Economic Review is distinct from actual Education Department Administration Report 1964–65 recovered from university archive."
   }
 ]

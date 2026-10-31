@@ -6,7 +6,16 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_manual",
     "document_date": "2025-09-12",
-    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts."
+    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts. Follow-up visually checked general registration/funding/judging, records, and state committee infrastructure/welfare/souvenir provisions (printed6–7,12–14,20–29). The 2026 portal-linked copy was downloaded and is byte-identical to the previously collected 2025 copy; no new edition inferred from URL year. State committee Wi-Fi/power duties do not establish equivalent subdistrict service or individual contestant cloud permission.",
+    "last_reviewed_on": "2026-11-01",
+    "additional_verified_copy": {
+      "url": "https://mela.kite.kerala.gov.in/2026/entry_forms/sasthrolsavam_manual_2025.pdf",
+      "accessed_on": "2026-11-01",
+      "bytes": 11129761,
+      "pdf_pages": 250,
+      "sha256": "7447fbd282d822977a6da718cae54f2fe75b0e9f7156d2142d8f071b13d58572",
+      "byte_identical_to_collected_2025_copy": true
+    }
   },
   {
     "id": "rules-downloads-2026",

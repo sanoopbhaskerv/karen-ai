@@ -4,7 +4,7 @@ This collection supplies evidence for answers, rather than a model trained to re
 
 ## Files and provenance
 
-The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows, the project index records selected exhibit provenance, and the result snapshots preserve observed overall score tables. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability. The national discovery index supplies 105 title/code/school/page records; the case index supplies selected method explanations, including eight extended edited write-ups. These collections overlap and serve different evidence purposes.
+The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows, the project index records selected exhibit provenance, and the result snapshots preserve observed overall score tables. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability. The national discovery index supplies 105 title/code/school/page records; the case index supplies selected method explanations, including nine extended edited write-ups. These collections overlap and serve different evidence purposes.
 
 Each source has an access date. Where known, a separate document date is retained. A URL containing 2026 is not sufficient evidence that the linked document was written in 2026: the portal currently serves a 2025 competition manual and a software guide bearing a 2022–23 filename. Likewise, a press page's upload date can differ from the event and the release's internal date.
 
@@ -35,6 +35,8 @@ These are proposed integration behaviours. No retrieval service, embedding index
 | An old total is much higher than a recent total | Preserve scoring units and scope; do not compare totals across undocumented scoring systems. |
 | A school-table sum differs from the district-table sum | Preserve each fetched view and its scope. An internally correct row total does not resolve cross-table differences. |
 | An older INSPIRE FAQ gives a different quota | Use the dated 2026–27 notification for that cycle, retaining any live-page condition that needs separate authority. |
+| An organiser list and a participant form give different credits | Retrieve all linked credit versions, name the source when answering, and keep attendance/work division unresolved. Do not union names into a claimed team. |
+| A state committee must arrange venue internet/power | Keep the stated state-organising scope; do not promise subdistrict credentials, five sockets per exhibit, or cloud-API permission. |
 | A state winner can reach SISF/NCERT | Explain selection and invitation conditions. Do not promise automatic entry for every state item. |
 | A 2025–26 grace-mark circular is available | Label that exam cycle. It does not prove a 2026–27 entitlement. |
 | A school used a cloud AI service | Explain the documented dependency. It does not mean the student trained the foundation model or that the full system runs on the microcontroller. |

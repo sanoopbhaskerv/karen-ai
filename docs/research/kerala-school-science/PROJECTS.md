@@ -1,6 +1,6 @@
 # Kerala school science exhibit case studies
 
-Initial research cutoff and access date: **31 October 2026**; catalogue follow-up: **1 November 2026**. This sample contains **28 exhibits with a documented mechanism or method**, plus three 2026 prize records whose mechanisms remain unverified. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory. The separate [discovery index](DISCOVERY.md) covers 105 published catalogue rows; eight cases now also have [extended edited write-ups](MODEL_REPORTS.md).
+Initial research cutoff and access date: **31 October 2026**; catalogue follow-up: **1 November 2026**. This sample contains **29 exhibits with a documented mechanism or method**, plus three 2026 prize records whose mechanisms remain unverified. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory. The separate [discovery index](DISCOVERY.md) covers 105 published catalogue rows; nine cases now also have [extended edited write-ups](MODEL_REPORTS.md).
 
 ## How to interpret the evidence
 
@@ -84,6 +84,10 @@ The official VITM/NCSM [SISF 2026 prize list](https://www.vismuseum.gov.in/asset
 
 The prize list supplies no methods for the other three exhibits. Their titles must not be expanded into invented mechanisms, materials, clinical capabilities or performance figures.
 
+## Selection evidence and credit versions
+
+Five indexed 2023/2024 cases now link to the organiser's selected-exhibit lists. This supports national selection, not actual attendance, a prize or a recovered Sasthrolsavam rank. Original synopsis credit arrays are retained. TinyML pupil credits and NOLVAS guide credits differ in the separately published participant forms; the linked versioned findings preserve each source rather than combining them into an invented team. See [SELECTIONS.md](SELECTIONS.md) before giving an unqualified authorship or participation answer.
+
 ## What Karen can learn from these cases
 
 The following are **our recommendations**, not judging rules or claims made by the catalogue authors:
@@ -102,7 +106,9 @@ Full *List of Exhibits* catalogue PDFs for 2010–2019, 2022, 2023 and 2024 were
 
 ### Catalogue and report coverage
 
-The [discovery guide](DISCOVERY.md) records the audited row counts and exclusions for all thirteen catalogues. All confidently located Kerala rows from that audit are in its metadata index; only selected cases have the method summaries here. The [model-report guide](MODEL_REPORTS.md) separately records the available extended write-ups and the incomplete/unretrieved books.
+The [discovery guide](DISCOVERY.md) records the audited row counts and exclusions for all thirteen catalogues. All confidently located Kerala rows from that audit are in its metadata index; only selected cases have the method summaries here. The [model-report guide](MODEL_REPORTS.md) separately records the available extended write-ups and the partial 2010 book.
+
+The 2011 *Structure and Working* book was recovered from the same official URL after earlier transient download failures. Its 23 chapter credits include one Kerala report: *Automatic Crane*, with geared motors, relay circuits and remote control. The complete five-page chapter is indexed with pupil/teacher credits and construction limits. Its title/locality correspondence to the 2011 catalogue's code 14.4 remains a candidate link; the report itself supplies no exhibit code or prize. The 2010 file remains partial.
 
 Highest-value follow-up collection:
 

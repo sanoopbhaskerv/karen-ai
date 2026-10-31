@@ -35,7 +35,7 @@ Titles, codes and school spellings are preserved with layout whitespace joined. 
 - The 2010 *Safety Boat* row spans PDF pages 50 and 52. The Kerala address continuation belongs to that row, not the adjacent Maharashtra robot entry.
 - Mahe/Puducherry and Lakshadweep schools remain outside this Kerala-state-location index. A Kerala-like PIN prefix alone is insufficient.
 - The 2018 source's `Kerela` spelling and other published title/address anomalies are retained. Source mistakes are not silently corrected.
-- A 2023 school field supplies a Naval Base/Kochi address without an institutional name. The index preserves the address rather than inventing a school name.
+- A 2023 school field supplies a Naval Base/Kochi address without an institutional name. The index preserves the address rather than inventing a school name. A separately linked participant form supplies the institution name; see [SELECTIONS.md](SELECTIONS.md#a-separate-source-identifies-the-kochi-institution).
 - Kerala-located KV and JNV entries are included by school location. Their selection through Kerala's Sasthrolsavam is not inferred; qualifying routes and prize fields remain null.
 - Muvattupuzha hosting the 2015 national event does not make every entry a Kerala-school exhibit.
 

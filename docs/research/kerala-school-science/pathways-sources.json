@@ -295,5 +295,113 @@
     "source_type": "official_historical_portal_not_retrieved",
     "source_date": null,
     "notes": "Linked by NCERT official archive for the 47th/48th national exhibitions and named in Annual Report 2021–22. Current browser request failed with HTTP 502 and direct lookup failed DNS; an Internet Archive CDX query returned HTTP 503. No archived exhibit contents or Kerala list retrieved. Portal failure does not establish that the virtual event did not occur; the institutional report confirms it."
+  },
+  {
+    "id": "pathways-30",
+    "title": "NCERT archive-linked 2022 selected exhibits, state-wise list",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits-Statewise.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2022 (official archive context)",
+    "notes": "Linked in the official English archive beside 49th RBVP 2022 notices; the PDF itself has no printed edition/date statement located. All 20 pages text-extracted; 148 distinct revised exhibit codes. No Kerala heading or confidently identified Kerala school/address match located. PDF pages 7, 8, 19 and 20 visually inspected, including Kashmir-to-Lakshadweep and NVS boundaries. This finding is limited to this version and does not prove no Kerala participation.",
+    "download_sha256": "5a128136e18898f90c47b9e5f610e8500302d33ece842885078c3a0dc54f9193",
+    "download_bytes": 484383,
+    "pdf_pages": 20,
+    "relevant_pdf_pages": [
+      7,
+      8,
+      19,
+      20
+    ]
+  },
+  {
+    "id": "pathways-31",
+    "title": "NCERT archive-linked 2022 selected exhibits, subtheme list",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2022 (official archive context)",
+    "notes": "Companion archive-linked selected-exhibit list arranged by subtheme, undated within the PDF. All 14 pages text-extracted; 149 distinct revised codes, including 19.1.2 absent from the state-wise version. No confidently identified Kerala school/address match located. These list populations differ from each other and from the 143 English credit/address blocks in the published 2022 synopsis catalogue; no cause or certified reconciliation established.",
+    "download_sha256": "163acc3bfd60ec9210af7a5bee6bc64b25f7da10a4914b3f4924a6f65543fb62",
+    "download_bytes": 441293,
+    "pdf_pages": 14,
+    "relevant_pdf_pages": []
+  },
+  {
+    "id": "pathways-32",
+    "title": "NCERT selected exhibits for 50th RBVP 2023",
+    "url": "https://ncert.nic.in/desm/pdf/DESM_RBVP_list_of_exhibits_30_11-2023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2023",
+    "notes": "Actual organiser selected-exhibit list, not merely general eligibility. All 9 pages text-extracted; 173 distinct exhibit codes. Complete PDF pages 8 and 9 visually inspected. Three Kerala-located entries appear under KVS/NVS headings; no separate Kerala state heading located. Filename includes 30_11-2023, but no printed issue date verified; source_date remains null. School address, credits and spelling variants remain attached to this list version. Contact fields omitted from the derived index.",
+    "download_sha256": "a182fee470013af4792941029102a95791bd4fc7f966c69f37dd73f00b6378db",
+    "download_bytes": 180741,
+    "pdf_pages": 9,
+    "relevant_pdf_pages": [
+      8,
+      9
+    ]
+  },
+  {
+    "id": "pathways-33",
+    "title": "NCERT exhibits selected for participation in 51st RBVP 2024",
+    "url": "https://ncert.nic.in/desm/pdf/Exhibits_selected_for_participation_in_51st_RBVP_2024.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_selected_exhibit_list",
+    "source_date": null,
+    "edition_label": "2024",
+    "notes": "All 14 pages extracted; 185 distinct exhibit codes. Complete PDF pages 1, 3, 4 and 14 visually inspected. Five selected entries are under the Kerala heading and one Kerala-located entry is under NVS. Page 1 schedules 26–31 December 2024 at Sports University of Haryana, Rai (Sonipat), Haryana; this selection document alone does not establish attendance or completion. Printed issue date not located. Contact fields omitted from the derived index.",
+    "download_sha256": "0d61a263d55c49bd87c3dd46c32e23c9d2df4d2a1cdc8dd06384dcdb8d1c5038",
+    "download_bytes": 419566,
+    "pdf_pages": 14,
+    "relevant_pdf_pages": [
+      1,
+      3,
+      4,
+      14
+    ],
+    "scheduled_event_start_date": "2024-12-26",
+    "scheduled_event_end_date": "2024-12-31"
+  },
+  {
+    "id": "pathways-34",
+    "title": "NCERT organiser-hosted participant details for 50th RBVP 2023",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_50th_RBVP_2023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_forms",
+    "source_date": null,
+    "edition_label": "2023",
+    "notes": "Organiser-hosted compilation of participant forms, 221 pages, all text-extracted for relevant code/location discovery. Relevant complete PDF pages 206, 207, 213, 214 and 221 read; 206, 213, 214 and 221 visually inspected. Forms identify the Kochi institution omitted from the catalogue School field, and contain a TinyML student-credit variant. Submitted forms and self-reported achievements do not establish certified attendance, prizes or authorship. Contact fields and images are not copied into the derived index.",
+    "download_sha256": "2ddf92e5e9ed30236a6b1276344770a65a794e3f19a00400b1065126cb577cb3",
+    "download_bytes": 2133934,
+    "pdf_pages": 221,
+    "relevant_pdf_pages": [
+      206,
+      213,
+      214,
+      221
+    ]
+  },
+  {
+    "id": "pathways-35",
+    "title": "NCERT organiser-hosted participant details for 51st RBVP 2024",
+    "url": "https://ncert.nic.in/desm/pdf/Details_of_the_Participant_of_51st%20_RBVP_2024.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_participant_forms",
+    "source_date": null,
+    "edition_label": "2024",
+    "notes": "Organiser-hosted compilation of participant forms, 265 pages, all text-extracted for relevant code/location discovery. Relevant complete PDF pages 59–64 and 259 read; 61, 64 and 259 visually inspected. NOLVAS forms name guide K Shima, while selection/catalogue versions name Sameer. Auto Rescue form records Kerala in its generic State/UTs/Organization field, but the selected-exhibit table groups it under NVS. No matching 12.5.3/Volume Around Us/TRK form located by the recorded text searches; absence is not nonattendance evidence. Contact fields and images are not copied into the derived index.",
+    "download_sha256": "a1e07d746ef00c36a1fd7be63bc1018a45b3114a465f2683a9a694fa4cbf406e",
+    "download_bytes": 4510296,
+    "pdf_pages": 265,
+    "relevant_pdf_pages": [
+      61,
+      64,
+      259
+    ]
   }
 ]

@@ -42,7 +42,7 @@ Source: [official manual, PDF pages 51–56](https://mela.kite.kerala.gov.in/202
 
 Kerala's [2 September 2026 circular](https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf) applies the attached NCERT themes to science fairs from school to state. Its AI-for-better-life area is a plausible fit for Karen's Malayalam-assistance purpose. The school should record the chosen subtheme; an AI label by itself does not prove originality, social usefulness or item eligibility.
 
-No inspected Working Model provision settles mobile-hotspot permission, cloud-API permission, network provision, sound level, outlet allocation or a specific battery limit. Confirm the practical arrangements through the school instead of treating an unmentioned facility as guaranteed or prohibited.
+The Working Model clauses do not settle mobile-hotspot/cloud-API permission, sound level or a specific battery limit. The manual's state committee chapter separately requires venue internet/computing arrangements and at least five power plugs per exhibition room. Those state organiser duties do not establish Karen's subdistrict connectivity, a dedicated socket or permission to use cloud AI. Confirm the actual arrangements through the school. See [venue and participation provisions](OPERATIONS.md#internet-and-electricity-state-committee-duties).
 
 ## Live operation, offline advice and supporting diagrams
 
@@ -52,12 +52,14 @@ The following distinctions matter when using general preparation advice:
 
 | Statement | What the inspected sources establish |
 | --- | --- |
-| The model must work without active internet | No offline-only condition or internet ban was located in the Working Model passages or inspected 2026 instructions. Venue connectivity is also not guaranteed. Karen's current recognition, Gemini response and gTTS voice flow needs online services; stable circuit power does not remove those dependencies. |
+| The model must work without active internet | No offline-only condition or internet ban was located in the Working Model passages or inspected 2026 instructions. General state organiser infrastructure duties do not establish contestant access or equivalent subdistrict provision. Karen's current recognition, Gemini response and gTTS voice flow needs online services; stable circuit power does not remove those dependencies. |
 | A circuit diagram and block diagram are mandatory for this item | These are useful explanations to prepare, but those diagram types are not mandated by the inspected Working Model clause. The general display notes permit up to five charts. |
 | A brief report is compulsory at subdistrict registration | The general note expressly requires a short description with photographs for district/state participants. It does not expressly include subdistrict; a local notice could add a requirement. |
 | Every microcontroller exhibit needs the on-the-spot design document | The document describing operation, block diagram and components is specified for the separate Electronics/IoT/Robotics items, prepared in their first half-hour. That rule is not automatically a Working Model requirement. |
 
 Sources: [Working Model and display notes, printed pages 40–45 / PDF pages 51–56](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=51), [digital-item design document, 31 August 2026 circular, PDF page 1](https://education.kerala.gov.in/wp-content/uploads/2026/09/sasthrolsavam31082026.pdf#page=1), and [Karen's online provider implementation](../../../app.py).
+
+For state organiser infrastructure duties, see [printed 21 / PDF 32](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=32) and [printed 28 / PDF 39](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=39). The five-plug provision is per exhibition room, not per model.
 
 Prepare the circuit diagram for the actual board, a block diagram marking every online service, and a short account of the problem, student contribution, cost and observed results. These are practical recommendations. If an applicable organiser instruction requires fully offline operation, the current implementation would need a different offline architecture and fresh validation. A personal hotspot supplies internet; a recording or scripted answer does not establish live offline AI operation.
 

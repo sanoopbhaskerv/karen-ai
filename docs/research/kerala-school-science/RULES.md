@@ -1,6 +1,6 @@
 # Kerala school fair rules and participation evidence
 
-Research date: 31 October 2026. Rules below retain their document dates and event streams. A competition's official entry name, category and item code determine which rules apply.
+Initial research: 31 October 2026; general operations follow-up: 1 November 2026. Rules below retain their document dates and event streams. A competition's official entry name, category and item code determine which rules apply.
 
 ## Karen's current target is Science Working Model
 
@@ -82,7 +82,7 @@ The [manual, printed pages 40–45, PDF pages 51–56](https://mela.kite.kerala.
 
 The working/still model provisions anticipate construction before the event. The separate three-hour construction and preassembled-system restrictions in the 31 August 2026 circular are expressly for **Electronics, IoT and Robotics**; the inspected text does not extend them to Working Model.
 
-No Science Working Model-specific statement was located in these provisions about a cloud LLM, API attribution, network supply, battery capacity, sound level or outlet allocation. Record local arrangements when provided; do not invent limits or infer automatic acceptance.
+No Science Working Model-specific statement was located in these provisions about a cloud LLM, API attribution, battery capacity or sound level. The separate state committee chapter prescribes internet/computer arrangements and at least five power plugs per exhibition room; that does not establish contestant access, a dedicated socket or equivalent subdistrict provision. Use [OPERATIONS.md](OPERATIONS.md#internet-and-electricity-state-committee-duties) for those exact scopes and references. Record local arrangements rather than inferring automatic cloud-AI acceptance.
 
 ### Science judging weights
 
@@ -189,6 +189,8 @@ The circular contains conditions for earlier class-8/9 achievements, class-10 di
 
 The five fair streams have separate chapters and scoring systems. In the [2025 manual](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf), science begins at printed page 38, mathematics 67, social science 93, work experience 123 and IT 165. A Work Experience Innovative Working Model is a separate event from Science Working Model and from the standard IT tasks.
 
-The highest-priority local evidence is Karen's **saved 2026 subdistrict Science Working Model entry**, including HS item 115 and the registered participant names. Resolve the pupil-count question before check-in. The local schedule and organising instructions should establish venue, arrival time, internet, cloud API access, power and presentation arrangements; absence of a provision in the inspected manual should not be converted into an invented prohibition or a promise of venue facilities.
+The highest-priority local evidence is a **redacted confirmation of the 2026 subdistrict Science Working Model entry**, including section, item code and registered pupil count. Keep names and identity documents with the school and organisers rather than in Karen's public knowledge material. Resolve the pupil-count question before check-in. The local notice should establish venue, arrival time, contestant connectivity, cloud-API permission, power and presentation arrangements; state organiser infrastructure duties are not a promise of those particular subdistrict allocations.
+
+The [general participation and operations guide](OPERATIONS.md) adds stage-specific registration, permitted fees, judge/record provisions, state welfare duties and the *Sasthrolsava Rekha* archival lead.
 
 Further useful records are later amendments/corrigenda, local schedules and check-in instructions, current marking sheets correcting the LP arithmetic inconsistency, and the eventual 2026–27 exam grace-mark order. Source inspection included PDF text extraction and visual checking of the relevant tables; legacy-font extraction alone was not used to settle Malayalam rules.

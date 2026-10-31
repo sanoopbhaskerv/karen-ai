@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-01",
+  "scope": "Versioned national-organiser selection evidence for Kerala state-group rows and Kerala-located school-system entries. Selection records and participant forms remain distinct; personal contact fields and photographs are omitted.",
+  "normalisation": "Published wording/spelling and credit sets retained; line breaks joined with spaces. Source issue dates are null where not printed/verified. Edition assignment for the two undated 2022 lists is from their official archive context.",
+  "selection_records": [
+    {
+      "id": "rbvp-2023-selected-42-2-1",
+      "event_year": 2023,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-32",
+      "pdf_page_1based": 8,
+      "printed_page": null,
+      "serial_as_published": 162,
+      "exhibit_code_as_published": "42.2.1",
+      "title_as_published": "BIO-PESICIDE ISOLATEDE FROM CASSAVA LEAVES FOR THE MANAGEMENT OF MOSQUITO LARVAE",
+      "school_as_published": "Naval Base, kochi",
+      "school_address_as_published": "NH 47 , Katari bagh",
+      "school_district_as_published": "Kochi, Ernakulam",
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kendriya vidyalaya Sangathan",
+      "selection_group_type": "organisation",
+      "subtheme_as_published": "Eco Friendly Material",
+      "students_credited_as_published": [
+        "ADARSH. D",
+        "RAGA R NAIR"
+      ],
+      "teachers_credited_as_published": [
+        "Mr. AJITH. S. R, PGT(BIO)"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2023-selected-43-1-1",
+      "event_year": 2023,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "printed_page": null,
+      "serial_as_published": 166,
+      "exhibit_code_as_published": "43.1.1",
+      "title_as_published": "Tinyml In Robotics",
+      "school_as_published": "Jawahar Navodaya Vidyalaya",
+      "school_address_as_published": "Malappuram O.K. Muri (P.O.)",
+      "school_district_as_published": "Venkulam",
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Navodya Vidyalya Samiti",
+      "selection_group_type": "organisation",
+      "subtheme_as_published": "Advancement in information & Communication Technology",
+      "students_credited_as_published": [
+        "Ayaz Akbar",
+        "Dhanush D",
+        "Anurag C"
+      ],
+      "teachers_credited_as_published": [
+        "Sreenivasan T.A"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2023-selected-43-7-1",
+      "event_year": 2023,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "printed_page": null,
+      "serial_as_published": 173,
+      "exhibit_code_as_published": "43.7.1",
+      "title_as_published": "DEFINITE INTEGRAL - THE REVOLVING DOOR",
+      "school_as_published": "Jawahar Navodaya Vidyalaya",
+      "school_address_as_published": "Chettachal",
+      "school_district_as_published": "Thiruvananthapuram",
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Navodya Vidyalya Samiti",
+      "selection_group_type": "organisation",
+      "subtheme_as_published": "Mathematicas for Us",
+      "students_credited_as_published": [
+        "Manasa"
+      ],
+      "teachers_credited_as_published": [
+        "LATHA V"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-12-3-1",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 3,
+      "printed_page": null,
+      "serial_as_published": 35,
+      "exhibit_code_as_published": "12.3.1",
+      "title_as_published": "E-plant, Automatic Smart Agri System",
+      "school_as_published": "Rajeev Gandhi Memorial Higher Secondary School, Mokeri, Panoor, Kannur, Kerala, 670692",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kerala",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Devdarsh Chand K.",
+        "Jia S Jith"
+      ],
+      "teachers_credited_as_published": [
+        "Rajesh K."
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-12-4-1",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "printed_page": null,
+      "serial_as_published": 36,
+      "exhibit_code_as_published": "12.4.1",
+      "title_as_published": "Nolvas Five in one truck",
+      "school_as_published": "GHSS Cherkala Central, Charkala, Chengala (P.O), Kasaragod, Kerala, 671541",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kerala",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Ahamed Nibras E.A.",
+        "Mohammed Shamil Sidhik"
+      ],
+      "teachers_credited_as_published": [
+        "Sameer P.M."
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-12-5-1",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "printed_page": null,
+      "serial_as_published": 37,
+      "exhibit_code_as_published": "12.5.1",
+      "title_as_published": "Prismatic Pillar",
+      "school_as_published": "Memunda Higher Secondary School, Memunda (P.O), Vatakara, Kozhikode, Kerala, 673104",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kerala",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Najafathima.P"
+      ],
+      "teachers_credited_as_published": [
+        "Sarath. P. K"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-12-5-2",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "printed_page": null,
+      "serial_as_published": 38,
+      "exhibit_code_as_published": "12.5.2",
+      "title_as_published": "Volume of Frustum",
+      "school_as_published": "Mambaram Higher Secondary School, Mambaram (P.O), Kannur, Kerala, 670741",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kerala",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Awani. O"
+      ],
+      "teachers_credited_as_published": [
+        "Ragin Raj. K. K"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-12-5-3",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "printed_page": null,
+      "serial_as_published": 39,
+      "exhibit_code_as_published": "12.5.3",
+      "title_as_published": "Volume Around Us",
+      "school_as_published": "T.R.K. Higher Secondary School, Vaniyamkulam (P.O), Palakkad, Kerala, 679522",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Kerala",
+      "selection_group_type": "state",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Jagan. K. V"
+      ],
+      "teachers_credited_as_published": [
+        "Krishnakumar. K."
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    },
+    {
+      "id": "rbvp-2024-selected-42-4-1",
+      "event_year": 2024,
+      "record_kind": "selected_exhibit",
+      "source_id": "pathways-33",
+      "pdf_page_1based": 14,
+      "printed_page": null,
+      "serial_as_published": 181,
+      "exhibit_code_as_published": "42.4.1",
+      "title_as_published": "Auto Rescue Smart Notification System",
+      "school_as_published": "PM Shri Jawahar Navodaya Vidyalaya,Mayannur, Kerala, 679105",
+      "school_address_as_published": null,
+      "school_district_as_published": null,
+      "school_location_state": "Kerala",
+      "selection_group_heading_as_published": "Navodaya Vidyalaya Samiti",
+      "selection_group_type": "organisation",
+      "subtheme_as_published": null,
+      "students_credited_as_published": [
+        "Abhikrishna. K. A"
+      ],
+      "teachers_credited_as_published": [
+        "Ajai P"
+      ],
+      "selection_status": "selected_for_national_participation",
+      "qualifying_route": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false
+    }
+  ],
+  "participant_form_records": [
+    {
+      "id": "rbvp-2023-form-p206",
+      "event_year": 2023,
+      "record_kind": "participant_form",
+      "source_id": "pathways-34",
+      "pdf_page_1based": 206,
+      "printed_page": null,
+      "exhibit_code_as_published": "42.2.1",
+      "organisation_field_as_published": "KVS (Kerala)",
+      "student_name_as_published": "Raga R Nair",
+      "school_as_published": "PM Shri Kendriya Vidyalaya No.1, Naval Base Kochi",
+      "school_address_as_published": "Katari Bagh, Naval Base, Kochi, Kerala 682004",
+      "school_location_state": "Kerala",
+      "title_as_published": "Bio-pesticide isolated from cassava leaves for the management of mosquito larvae",
+      "guide_teacher_as_published": null,
+      "selected_record_id": "rbvp-2023-selected-42-2-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2023-form-p207",
+      "event_year": 2023,
+      "record_kind": "participant_form",
+      "source_id": "pathways-34",
+      "pdf_page_1based": 207,
+      "printed_page": null,
+      "exhibit_code_as_published": "42.2.1",
+      "organisation_field_as_published": "KVS (Kerala)",
+      "student_name_as_published": "Adarsh D",
+      "school_as_published": "PM Shri Kendriya Vidyalaya No.1, Naval Base Kochi",
+      "school_address_as_published": "Katari Bagh, Naval Base, Kochi, Kerala 682004",
+      "school_location_state": "Kerala",
+      "title_as_published": "Bio-pesticide isolated from cassava leaves for the management of mosquito larvae",
+      "guide_teacher_as_published": null,
+      "selected_record_id": "rbvp-2023-selected-42-2-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2023-form-p213",
+      "event_year": 2023,
+      "record_kind": "participant_form",
+      "source_id": "pathways-34",
+      "pdf_page_1based": 213,
+      "printed_page": null,
+      "exhibit_code_as_published": "43.1.1",
+      "organisation_field_as_published": "Jawahar Navodaya Vidyalaya",
+      "student_name_as_published": "Ayaz Akbar",
+      "school_as_published": "Jawahar Navodaya Vidyalaya",
+      "school_address_as_published": "O.K Muri (P.O), Venkulam, Malappuram, Kerala 676519",
+      "school_location_state": "Kerala",
+      "title_as_published": "Tiny-ML in Robotics",
+      "guide_teacher_as_published": null,
+      "selected_record_id": "rbvp-2023-selected-43-1-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2023-form-p214",
+      "event_year": 2023,
+      "record_kind": "participant_form",
+      "source_id": "pathways-34",
+      "pdf_page_1based": 214,
+      "printed_page": null,
+      "exhibit_code_as_published": "43.1.1",
+      "organisation_field_as_published": "Jawahar Navodaya Vidyalaya",
+      "student_name_as_published": "Muhammed Ashil Pari",
+      "school_as_published": "Jawahar Navodaya Vidyalaya",
+      "school_address_as_published": "O.K Muri (P.O), Venkulam, Malappuram, Kerala 676519",
+      "school_location_state": "Kerala",
+      "title_as_published": "Tiny-ML in Robotics",
+      "guide_teacher_as_published": null,
+      "selected_record_id": "rbvp-2023-selected-43-1-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2023-form-p221",
+      "event_year": 2023,
+      "record_kind": "participant_form",
+      "source_id": "pathways-34",
+      "pdf_page_1based": 221,
+      "printed_page": null,
+      "exhibit_code_as_published": "43.7.1",
+      "organisation_field_as_published": "Jawahar Navodaya Vidhyalaya",
+      "student_name_as_published": "Manasa",
+      "school_as_published": "Jawahar Navodaya Vidyalaya",
+      "school_address_as_published": "Jawahar Navodaya Vidyalaya Thiruvananthapuram, Kerela-695551",
+      "school_location_state": "Kerala",
+      "title_as_published": "Definite Integrals – The Revolving Door",
+      "guide_teacher_as_published": null,
+      "selected_record_id": "rbvp-2023-selected-43-7-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p59",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 59,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.3.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Devdarsh Chand K",
+      "school_as_published": "Rajeev Gandhi Memorial HSS",
+      "school_address_as_published": "Mokeri (po) , Kannur (Dt), Kerala(St) , 670692(Pin) - 670692",
+      "school_location_state": "Kerala",
+      "title_as_published": "E-Plant,Automatic Smart Agri System",
+      "guide_teacher_as_published": "Rajesh K",
+      "selected_record_id": "rbvp-2024-selected-12-3-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p60",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 60,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.3.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Jia S Jith",
+      "school_as_published": "Rajeev Gandhi Memorial HSS",
+      "school_address_as_published": "Mokeri (PO) , Kannur (Dt), Kerala(St) , 670692(Pin) - 670692",
+      "school_location_state": "Kerala",
+      "title_as_published": "E-Plant,Automatic Smart Agri System",
+      "guide_teacher_as_published": "Rajesh K",
+      "selected_record_id": "rbvp-2024-selected-12-3-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p61",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 61,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.4.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Ahamed Nibras E A",
+      "school_as_published": "Government Higher Secondary School, Cherkala Central",
+      "school_address_as_published": "Cherkala, Kasaragod, Kerala, 671541 - 671541",
+      "school_location_state": "Kerala",
+      "title_as_published": "Nolvas- Five in one Truck",
+      "guide_teacher_as_published": "K Shima",
+      "selected_record_id": "rbvp-2024-selected-12-4-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p62",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 62,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.4.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Mohammed Shamil Sidhik",
+      "school_as_published": "Government Higher Secondary School, Cherkala Central",
+      "school_address_as_published": "Cherkala, Kasaragod, Kerala, 671541 - 671541",
+      "school_location_state": "Kerala",
+      "title_as_published": "Nolvas- Five in one Truck",
+      "guide_teacher_as_published": "K Shima",
+      "selected_record_id": "rbvp-2024-selected-12-4-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p63",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 63,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.5.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Naja fathima P",
+      "school_as_published": "Memunda Higher Secondary School",
+      "school_address_as_published": "Memunda Higher Secondary School,Memunda PO, Vatakara, Kozhikod District, Kerala - 673104",
+      "school_location_state": "Kerala",
+      "title_as_published": "Prismatic Pillar",
+      "guide_teacher_as_published": "Sarath PK",
+      "selected_record_id": "rbvp-2024-selected-12-5-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p64",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 64,
+      "printed_page": null,
+      "exhibit_code_as_published": "12.5.2",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Awani O",
+      "school_as_published": "Mambaram Higher Secondary School",
+      "school_address_as_published": "Mambaram (Po), Thalassery, Kannur - 670741",
+      "school_location_state": "Kerala",
+      "title_as_published": "Volume Of Frustum",
+      "guide_teacher_as_published": "Ragin Raj K K",
+      "selected_record_id": "rbvp-2024-selected-12-5-2",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    },
+    {
+      "id": "rbvp-2024-form-p259",
+      "event_year": 2024,
+      "record_kind": "participant_form",
+      "source_id": "pathways-35",
+      "pdf_page_1based": 259,
+      "printed_page": null,
+      "exhibit_code_as_published": "42.4.1",
+      "organisation_field_as_published": "Kerala",
+      "student_name_as_published": "Abhikrishna K A",
+      "school_as_published": "PM Shri Jawahar Navodaya Vidyalaya, Thrissur",
+      "school_address_as_published": "JNV Mayannur Post, Thrissur Dist., Kerala - 679105",
+      "school_location_state": "Kerala",
+      "title_as_published": "Auto Rescue Smart Notification System",
+      "guide_teacher_as_published": "Ajai P",
+      "selected_record_id": "rbvp-2024-selected-42-4-1",
+      "selection_status": null,
+      "attendance_verified": false,
+      "prize_status": null,
+      "student_work_division_verified": false,
+      "source_scope": "Organiser-hosted participant form; submitted details and achievements are not independently certified here."
+    }
+  ],
+  "versioned_findings": [
+    {
+      "id": "variant-2023-tinyml-credits",
+      "exhibit_year": 2023,
+      "exhibit_code": "43.1.1",
+      "field": "student credits",
+      "versions": [
+        {
+          "source_id": "pathways-32",
+          "pdf_pages_1based": [
+            9
+          ],
+          "value": [
+            "Ayaz Akbar",
+            "Dhanush D",
+            "Anurag C"
+          ]
+        },
+        {
+          "source_id": "project-005",
+          "pdf_pages_1based": [
+            31
+          ],
+          "value": [
+            "Ayaz Akbar",
+            "Dhanush D",
+            "Anurag C"
+          ]
+        },
+        {
+          "source_id": "pathways-34",
+          "pdf_pages_1based": [
+            213,
+            214
+          ],
+          "value": [
+            "Ayaz Akbar",
+            "Muhammed Ashil Pari"
+          ]
+        }
+      ],
+      "interpretation": "Different published credit sets. Reason, actual attendance and division of work are not established; retain versions rather than combining them into one claimed team."
+    },
+    {
+      "id": "variant-2024-nolvas-guide",
+      "exhibit_year": 2024,
+      "exhibit_code": "12.4.1",
+      "field": "guide teacher",
+      "versions": [
+        {
+          "source_id": "pathways-33",
+          "pdf_pages_1based": [
+            4
+          ],
+          "value": [
+            "Sameer P.M."
+          ]
+        },
+        {
+          "source_id": "project-006",
+          "pdf_pages_1based": [
+            131
+          ],
+          "value": [
+            "Sameer P.M."
+          ]
+        },
+        {
+          "source_id": "pathways-35",
+          "pdf_pages_1based": [
+            61,
+            62
+          ],
+          "value": [
+            "K Shima"
+          ]
+        }
+      ],
+      "interpretation": "Different published guide credits. The record does not establish whether an escort changed or a publication error occurred."
+    },
+    {
+      "id": "identity-2023-cassava-school",
+      "exhibit_year": 2023,
+      "exhibit_code": "42.2.1",
+      "field": "school identity",
+      "versions": [
+        {
+          "source_id": "project-005",
+          "pdf_pages_1based": [
+            56
+          ],
+          "value": "Naval Base, Kochi NH47, Katari Bagh, Kerala"
+        },
+        {
+          "source_id": "pathways-32",
+          "pdf_pages_1based": [
+            8
+          ],
+          "value": "Naval Base, kochi; NH 47 , Katari bagh; Kochi, Ernakulam; Kerala"
+        },
+        {
+          "source_id": "pathways-34",
+          "pdf_pages_1based": [
+            206,
+            207
+          ],
+          "value": "PM Shri Kendriya Vidyalaya No.1, Naval Base Kochi"
+        }
+      ],
+      "interpretation": "The form supplies a separate institutional identity linked by exhibit code and project title. Do not overwrite the address-only field published in the synopsis catalogue."
+    },
+    {
+      "id": "scope-2024-auto-rescue-organisation",
+      "exhibit_year": 2024,
+      "exhibit_code": "42.4.1",
+      "field": "state versus selection group",
+      "versions": [
+        {
+          "source_id": "pathways-33",
+          "pdf_pages_1based": [
+            14
+          ],
+          "value": "Navodaya Vidyalaya Samiti heading"
+        },
+        {
+          "source_id": "pathways-35",
+          "pdf_pages_1based": [
+            259
+          ],
+          "value": "Kerala in State/UTs/Organization field"
+        }
+      ],
+      "interpretation": "The form field can describe geographic state; the organiser selection table explicitly groups this exhibit under NVS. Neither establishes Kerala DGE nomination."
+    }
+  ],
+  "document_populations": [
+    {
+      "source_id": "pathways-30",
+      "edition_year_in_archive": 2022,
+      "pdf_pages": 20,
+      "unique_revised_exhibit_codes": 148,
+      "kerala_heading_located": false,
+      "kerala_school_location_matches_identified": 0,
+      "finding_scope": "Text and section-heading review of this archived version; not proof of no Kerala selection or attendance elsewhere."
+    },
+    {
+      "source_id": "pathways-31",
+      "edition_year_in_archive": 2022,
+      "pdf_pages": 14,
+      "unique_revised_exhibit_codes": 149,
+      "kerala_school_location_matches_identified": 0,
+      "finding_scope": "This companion version includes revised code19.1.2 not found in pathways-30. Counts describe document populations, not a certified reconciliation."
+    },
+    {
+      "source_id": "project-009",
+      "edition_year": 2022,
+      "pdf_pages": 168,
+      "english_credit_address_blocks_audited": 143,
+      "kerala_school_location_matches_identified": 0,
+      "finding_scope": "Synopsis-catalogue discovery result. Revised-code lists and final catalogue codes are not automatically interchangeable."
+    },
+    {
+      "source_id": "pathways-32",
+      "edition_year": 2023,
+      "pdf_pages": 9,
+      "unique_exhibit_codes": 173,
+      "kerala_state_heading_located": false,
+      "kerala_school_location_matches_identified": 3,
+      "kerala_state_group_entries_identified": 0,
+      "kerala_located_organisation_group_entries_identified": 3
+    },
+    {
+      "source_id": "pathways-33",
+      "edition_year": 2024,
+      "pdf_pages": 14,
+      "unique_exhibit_codes": 185,
+      "kerala_state_heading_located": true,
+      "kerala_school_location_matches_identified": 6,
+      "kerala_state_group_entries_identified": 5,
+      "kerala_located_organisation_group_entries_identified": 1
+    },
+    {
+      "source_id": "pathways-34",
+      "edition_year": 2023,
+      "pdf_pages": 221,
+      "relevant_form_pages_indexed": [
+        206,
+        207,
+        213,
+        214,
+        221
+      ],
+      "distinct_relevant_exhibit_codes": 3
+    },
+    {
+      "source_id": "pathways-35",
+      "edition_year": 2024,
+      "pdf_pages": 265,
+      "relevant_form_pages_indexed": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        259
+      ],
+      "distinct_relevant_exhibit_codes": 5,
+      "not_located_by_text_search": {
+        "exhibit_code": "12.5.3",
+        "terms": [
+          "12.5.3",
+          "Volume Around Us",
+          "T.R.K",
+          "TRK",
+          "Vaniyamkulam"
+        ],
+        "limitation": "No matching form located in this compilation; not evidence of nonattendance."
+      }
+    }
+  ],
+  "limitations": [
+    "An organiser selected-exhibit list supports selection, not attendance, an award, individual code authorship or measured performance.",
+    "A Kerala section in an NCERT table is stronger evidence than school location alone, but does not recover the underlying Kerala DGE nomination proceedings or state-fair rank.",
+    "Organiser-hosted participant forms can contain participant-reported achievements and inconsistent credits. Those fields are not treated as certified awards here.",
+    "No Kerala DGE/SCERT selection or SISF delegation order was recovered in this pass.",
+    "Absence from an inspected document or search is not proof of nonparticipation across an event or year."
+  ]
+}

@@ -4,7 +4,8 @@
     "year": 2024,
     "title": "E-Plant, Automatic Smart Agri System",
     "source_ids": [
-      "project-006"
+      "project-006",
+      "pathways-33"
     ],
     "exhibit_code": "12.3.1",
     "students_credited": [
@@ -18,20 +19,30 @@
     "school_location_state": "Kerala",
     "pdf_page_1based": 90,
     "printed_page": 77,
-    "selection_status": "national_catalogue_listing",
+    "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "official_synopsis",
     "method_tag": "sensor automation",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-12-3-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 3,
+      "heading_as_published": "Kerala",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
   },
   {
     "id": "case-2024-nolvas",
     "year": 2024,
     "title": "NOLVAS—Five-in-One Truck",
     "source_ids": [
-      "project-006"
+      "project-006",
+      "pathways-33"
     ],
     "exhibit_code": "12.4.1",
     "students_credited": [
@@ -45,20 +56,34 @@
     "school_location_state": "Kerala",
     "pdf_page_1based": 131,
     "printed_page": 118,
-    "selection_status": "national_catalogue_listing",
+    "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "official_synopsis",
     "method_tag": "hydraulics",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-12-4-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "heading_as_published": "Kerala",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    },
+    "credit_variant_finding_ids": [
+      "variant-2024-nolvas-guide"
+    ],
+    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer."
   },
   {
     "id": "case-2024-auto-rescue",
     "year": 2024,
     "title": "Auto Rescue Smart Notification System",
     "source_ids": [
-      "project-006"
+      "project-006",
+      "pathways-33"
     ],
     "exhibit_code": "42.4.1",
     "students_credited": [
@@ -71,20 +96,30 @@
     "school_location_state": "Kerala",
     "pdf_page_1based": 152,
     "printed_page": 139,
-    "selection_status": "national_catalogue_listing",
+    "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "official_synopsis",
     "method_tag": "notification pipeline",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-42-4-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 14,
+      "heading_as_published": "Navodaya Vidyalaya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
   },
   {
     "id": "case-2023-tinyml",
     "year": 2023,
     "title": "Tiny ML in Robotics",
     "source_ids": [
-      "project-005"
+      "project-005",
+      "pathways-32"
     ],
     "exhibit_code": "43.1.1",
     "students_credited": [
@@ -99,20 +134,34 @@
     "school_location_state": "Kerala",
     "pdf_page_1based": 31,
     "printed_page": 19,
-    "selection_status": "national_catalogue_listing",
+    "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "official_synopsis",
     "method_tag": "gesture input",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2023-selected-43-1-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "heading_as_published": "Navodya Vidyalya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    },
+    "credit_variant_finding_ids": [
+      "variant-2023-tinyml-credits"
+    ],
+    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer."
   },
   {
     "id": "case-2023-integral",
     "year": 2023,
     "title": "Definite Integral—The Revolving Door",
     "source_ids": [
-      "project-005"
+      "project-005",
+      "pathways-32"
     ],
     "exhibit_code": "43.7.1",
     "students_credited": [
@@ -125,13 +174,22 @@
     "school_location_state": "Kerala",
     "pdf_page_1based": 194,
     "printed_page": 182,
-    "selection_status": "national_catalogue_listing",
+    "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "official_synopsis",
     "method_tag": "interactive mathematics",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2023-selected-43-7-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "heading_as_published": "Navodya Vidyalya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
   },
   {
     "id": "case-2019-trap",
@@ -949,5 +1007,55 @@
     "evidence_limits": "No actual geothermal drilling, electricity generation, hydrogen production or desalination is established. The report’s mixed decomposition/electrolysis description needs scientific clarification.",
     "student_work_division_verified": false,
     "performance_independently_verified": false
+  },
+  {
+    "id": "case-2011-automatic-crane",
+    "year": 2011,
+    "title": "Automatic Crane",
+    "source_ids": [
+      "project-023"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Anura Nair",
+      "A.R. Ayana S.P."
+    ],
+    "teachers_credited": [
+      "Alice Scariya",
+      "Mini, M.L."
+    ],
+    "school_as_published": "Government Girls Higher Secondary School, Vaznuthakkad, Thiruvananthapuram, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 37,
+    "printed_page": 29,
+    "chapter_pdf_pages_1based": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "chapter_printed_pages": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "lever and pulley, remote-controlled motors and electromagnet",
+    "method_summary": "A lever/pulley assembly uses geared motors for rotation and lifting. FM remote circuits operate motor relays; a separate IR remote circuit switches an electromagnet.",
+    "evidence_limits": "No quantified load, range, response/reliability tests or safety validation is supplied. The mechanical-advantage calculation, signal-frequency wording and no-loss-of-energy claim are not independently verified; listed 6 V motors versus described 9 V motor operation also need clarification. No AI or source-code implementation is established.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2011-14-4",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "The 2011 catalogue lists Automatic Crane for Government Girls Higher Secondary School, Vaznuthakka, Thiruvananthapuram (code 14.4). Title and locality match, with a published spelling variation, but that catalogue row has no pupil/teacher credits. This is not a formal recovered author/code crosswalk; exhibit_code remains null."
+    }
   }
 ]

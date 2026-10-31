@@ -2586,7 +2586,17 @@
       "prize_status": null,
       "notes": [
         "The published School field supplies only the Naval Base/Kochi address, without an institutional school name. No school name or KVS/state qualifying route is inferred from exhibit code 42.2.1."
-      ]
+      ],
+      "supplemental_identity_evidence": {
+        "finding_id": "identity-2023-cassava-school",
+        "source_id": "pathways-34",
+        "pdf_pages_1based": [
+          206,
+          207
+        ],
+        "school_identity_in_separate_source": "PM Shri Kendriya Vidyalaya No.1, Naval Base Kochi",
+        "note": "Original catalogue school/address field is retained; this is a separate organiser-hosted participant-form attribution."
+      }
     },
     {
       "id": "ncert-discovery-2023-43-7-1",

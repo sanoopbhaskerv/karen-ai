@@ -245,11 +245,16 @@
   },
   {
     "id": "project-023",
-    "title": "NCERT: Structure and Working, 2011 archive link (not retrieved)",
+    "title": "NCERT: Structure and Working of Science Models, 2011",
     "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2011.pdf",
     "accessed_on": "2026-11-01",
-    "source_type": "official_archive_link_not_retrieved",
-    "notes": "Official archive links this Patna 2011 book. Standard TLS-verified curl requests twice failed with connection reset, and browser tooling could not retrieve it. No source contents, Kerala-case count or publication-date claim is made. The link is an unresolved acquisition lead, not evidence of nonpublication or nonparticipation."
+    "source_type": "official_model_reports",
+    "notes": "Earlier TLS/reset and browser retrieval failures were transient: the same official URL was successfully downloaded on 1 November 2026 using standard TLS-verified curl. Complete 96-page file: eight front-matter pages, contiguous printed body pages 1–85, then blank/back matter. All 23 contents/chapter starts and all 62 other printed body-page headers align. All 23 chapter-attribution blocks reviewed, including two Hindi blocks visually confirmed as Rajasthan; one Kerala chapter located. Automatic Crane chapter 8, PDF 37–41/printed 29–33 read in full and all five pages rendered/inspected. Publication statement November 2011/PDF 4; preface 11 November 2011/PDF 6. Reported construction is distinct from unverified mechanical-advantage, frequency and lossless-operation claims; no prize, route or catalogue exhibit code is established.",
+    "source_date": "2011-11",
+    "download_sha256": "5c37899a0198f11af4efd4e6b2a5fb5f749d54c5c39fd6202c21d33d66051e38",
+    "download_bytes": 11113643,
+    "pdf_pages": 96,
+    "received_file_complete": true
   },
   {
     "id": "project-024",
