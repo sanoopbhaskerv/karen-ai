@@ -1,6 +1,6 @@
 # Kerala school science exhibition pathways
 
-Research initially checked on 31 October 2026, with the administrative and 2023 SISF records below added on 1 November 2026. Kerala's School Sasthrolsavam, the NCERT exhibition system, Southern India Science Fair, INSPIRE-MANAK and National Children's Science Congress have different entry routes. An award in one event does not by itself establish admission to another. Rules below retain the edition or source date that supports them.
+Research initially checked on 31 October 2026, with the administrative, archived participant-list and SISF compendium records below added on 1 November 2026. Kerala's School Sasthrolsavam, the NCERT exhibition system, Southern India Science Fair, INSPIRE-MANAK and National Children's Science Congress have different entry routes. An award in one event does not by itself establish admission to another. Rules below retain the edition or source date that supports them.
 
 ## Programme map
 
@@ -47,7 +47,27 @@ An **undated DGE section-duty document hosted by KITE** assigns the state Scienc
 
 VITM's **2022–23 activity report** documents the **34th SISF, 27–31 January 2023, at Chaldean Syrian Higher Secondary School, Thrissur**, organised with Kerala's General Education Department. Its table records **169 schools, 240 participants, 169 projects and 7,500 visitors** across the regional event. These are event-wide totals, not a count of Kerala's delegation. The narrative separately describes about 1,500 inaugural attendees and 6,000 visitors over three days. [VITM report, printed pages 10 and 42 / PDF pages 11 and 43](https://www.vismuseum.gov.in/assets/pdf/activity-report/2022-23-Annual-Activity-Report-VITM-SU-PDF1.pdf#page=43)
 
-Neither source supplies Kerala's actual selected-exhibit or delegation list. Those proceedings and full project reports remain necessary to connect an individual state entry to its regional or national participation.
+These two sources do not supply Kerala's actual selected-exhibit or delegation list for their editions. The historical participant list below provides separate evidence for 2014; current nomination proceedings remain a gap.
+
+### A recovered Kerala participant list for SISF 2014
+
+A scan originally published on Kerala's education department domain, recovered from a **24 January 2014 Internet Archive capture**, contains an explicitly headed **Kerala Directorate of Public Instruction list of participants**. Its three list pages contain **15 group entries, 20 individual entries and 15 teacher entries**: 50 exhibit entries, rather than 50 people. The final page bears the DPI seal and the signature/name of **Arun Kumar A, Additional Director of Public Instruction (Academic)**, dated **6 January 2014**. The attached organiser instructions schedule the fair for **20–24 January 2014 at Madras Christian College Higher Secondary School, Chennai**, with registration on 19 January. [Official-origin archived PDF, instructions page 1 and list pages 1–3 / PDF pages 1 and 3–5](https://web.archive.org/web/20140124012417id_/http://education.kerala.gov.in:80/downloads2013/announcements/sathernindia_06012014.pdf#page=3)
+
+The list records pupils/teachers and schools, but **no exhibit titles**. It supports an administrative participant-list record for that edition; it does not verify attendance, prizes, the underlying Kerala qualifying item/rank, or a match to a later similarly named project. This historical recovery does not establish current team quotas or replace a 2023–2026 Kerala nomination order.
+
+### Organiser-published Kerala exhibits at SISF 2026
+
+SCERT Telangana now publishes a **349-page Compendium of Exhibits** for the 19–23 January 2026 fair. Its preface describes projects showcased by participating pupils and teachers, and its Kerala sections contain **31 credited write-ups: 14 individual, seven group and ten teacher exhibits**. These are counted published write-ups, rather than a certified complete selection or attendance total. [SCERT compendium, preface printed v / PDF page 9; Kerala section PDF pages 193–247](https://www.scert.telangana.gov.in/Pdf/publication/SouthernIndiasciencefair2026-ExhibitsCompendium.pdf#page=193)
+
+| Published Kerala category | Category heading, PDF page | Write-up pages, printed / PDF |
+| --- | --- | --- |
+| Individual Exhibits | 193 | 156–179 / 195–218 |
+| Group Exhibits | 219 | 180–191 / 221–232 |
+| Teacher Exhibits | 233 | 192–204 / 235–247 |
+
+Use the actual pages when citing this version: its contents table incorrectly places Kerala's teacher section at printed page 204, and its inner title has a 2025 label alongside January 2026 dates and a 2026 sidebar. The official homepage link, preface and section headings identify the 2026 edition. A publication issue date was not verified. [Title and contents, PDF pages 5 and 19](https://www.scert.telangana.gov.in/Pdf/publication/SouthernIndiasciencefair2026-ExhibitsCompendium.pdf#page=19)
+
+This host publication supplies titles, school attribution and substantive project descriptions that were absent from prize tables. It is separate from Kerala's missing nomination proceedings: it does not identify each exhibit's qualifying Sasthrolsavam item/rank or certify each pupil's attendance, authorship contribution, performance or prize. The official VITM award list remains the source for documented prizes. The [SISF method guide](SISF_2026_MODELS.md) and [31-entry index](sisf-2026-models.json) track what the write-ups actually describe.
 
 ## NCERT state and national exhibitions
 
@@ -93,7 +113,7 @@ The circular uses the same seven broad areas as the NCERT August notification. A
 
 Source: [CBSE circular, PDF pages 1–4 and registration annexure](https://cbseacademic.nic.in/web_material/Circulars/2026/69_Circular_2026.pdf). The [CBSE microsite](https://academic.cbseit.in/science_ex/) gives the regional-to-national workflow; its generic registration-month banner is less precise than the dated circular.
 
-The [national selection evidence guide](SELECTIONS.md) and [versioned records](national-selection-index.json) add dated-edition evidence from the 2022–2024 organiser documents. The 2023 and 2024 rows distinguish Kerala state headings from KVS/NVS organisational headings; participant forms remain separate from selection and attendance. The underlying Kerala DGE nomination proceedings and SISF delegation lists are still missing.
+The [national selection evidence guide](SELECTIONS.md) and [versioned records](national-selection-index.json) add dated-edition evidence from the 2022–2024 organiser documents. The 2023 and 2024 rows distinguish Kerala state headings from KVS/NVS organisational headings; participant forms remain separate from selection and attendance. The underlying Kerala DGE nomination proceedings and recent SISF delegation lists are still missing; the separate 2014 DPI participant list above is a historical record.
 
 ## National exhibitions during the pandemic years
 
@@ -147,6 +167,6 @@ KITE describes Samagra as providing resources for standards 1–12, including pu
 3. Actual Kerala project reports, abstracts, student logbooks and judges' feedback, shared by schools with permission, especially the five verified 2025 NCERT entries. These would add substance beyond titles and awards.
 4. Kerala's 2026 NCSC programme/evaluation booklet and district/state schedule, plus a readable coordinator directory. The activity guide supports research method but does not establish all event administration.
 5. Authorised Malayalam transcripts of programme videos and explanatory materials. Keep each transcript linked to its publisher and recording date.
-6. Historical NCERT/SISF Kerala delegation lists and printed exhibit catalogues. They can connect school-fair winners to actual regional/national projects across years.
+6. Further historical NCERT/SISF Kerala delegation lists and printed exhibit catalogues, especially for 2023–2025. The recovered 2014 list lacks titles, and the 2026 host compendium does not supply Kerala nomination proceedings; neither can by itself identify a qualifying state item or rank.
 
 The [rules collection](RULES.md) records Kerala's 2 September 2026 adoption of the attached NCERT topics and its inconsistent explanatory note. Check later amendments and organisers' item-specific directions before applying the themes to an entry.

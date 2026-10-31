@@ -1,6 +1,6 @@
 # Rule versions, amendments and catalogue reconciliation
 
-Research cut-off: **31 October 2026**. This archive supplements [RULES.md](RULES.md), which describes the current entrant rules. It separates a document's date, the year of the portal hosting it, and the competition level. A historical rule is evidence about that edition, not permission for a current entry.
+Initial research: **31 October 2026**; historical form/circular follow-up: **1 November 2026**. This archive supplements [RULES.md](RULES.md), which describes the current entrant rules. It separates a document's date, the year of the portal hosting it, and the competition level. A historical rule is evidence about that edition, not permission for a current entry.
 
 For Karen's clarified target, **HS Science Working Model, item 115**, the inspected official manuals support a two-pupil entry. The same requirement is present in the older edition. No inspected 2026 document grants a single-pupil exception for this item. An individual digital event, a school's one qualifying exhibit, and the pupil count in a group entry are different quantities.
 
@@ -17,6 +17,21 @@ For Karen's clarified target, **HS Science Working Model, item 115**, the inspec
 | 2026 event instructions | The [official 2026 download zone](https://mela.kite.kerala.gov.in/2026/index.php/publics/instructions) still links the 2025 manual. DGE separately published [digital-event/magazine instructions on 31 August](https://education.kerala.gov.in/wp-content/uploads/2026/09/sasthrolsavam31082026.pdf), [science themes on 2 September](https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf), and [drama directions on 29 August](https://education.kerala.gov.in/wp-content/uploads/2026/08/sciencedrama29082026_compressed-2.pdf). | These are dated additions for their named subjects. A portal labelled 2026 does not turn every linked older document into a 2026 revision. |
 
 The mirrored order copies carry third-party presentation/watermarks. Their order identifiers agree with the references in the official compiled manual; their host is still a provenance limitation. Prefer the compiled official manual for current entrant instructions. A later applicable official circular can amend a named provision; unrelated event instructions cannot be transferred to Working Model merely because the exhibit uses electronics.
+
+## Earlier blank forms and IT directions
+
+Two blank entry forms recovered from the official site's **2015 directory** are explicitly labelled **2014–15**. Their November 2015 archive captures do not change that printed academic-year label. They are historical templates, not completed registrations or current eligibility notices.
+
+| Recovered document | What is visible | Evidence boundary |
+| --- | --- | --- |
+| [Science entry form, PDF 1–2](https://web.archive.org/web/20151106011250id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/science_fair.pdf) | HS and HSS/VHSS Working Model each provide numbered pupil lines 1 and 2 on page 1; UP does so on page 2. LP has Collections/Models, Charts and Simple Experiment. | Two visible entry lines corroborate the historical group-entry format. The current compulsory pupil count comes from the applicable manual, rather than the number of spaces in an old form. |
+| [IT entry form, PDF 1–2](https://web.archive.org/web/20151106011232id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/it_fair.pdf) | HSS/VHSS lists five digital events; HS also has IT Projects; UP lists Digital Painting, Malayalam Typing and IT Quiz. | No Working Model row occurs in this particular template. It does not establish whether a local supplementary exhibition existed. The cited 2007 circular was not recovered merely by reading its identifier. |
+
+The separately recovered **DPI circular NEP(3)/78759/2015, 5 October 2015**, has five pages. Its first page explicitly limits UP IT progression to subdistrict/revenue district while providing state competition for HS/HSS; it requires free software. Page 2 names **IT@School Edubuntu 10.04**, a historical platform instruction that must not be recommended as today's installation baseline. The archived file's title, handwritten dates and actual content were checked visually rather than inferred from its URL. [Circular, PDF 1–2](https://web.archive.org/web/20151028020149id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/itfest.pdf)
+
+Its **HS IT Project** is individual. Pages 4–5 require three printed report copies and one printout of the presentation slides seven days before the event, and allow fifteen minutes comprising ten for presentation plus five for interaction. Those instructions concern this dated IT Project event; they are not a Science Working Model pupil-count, report-deadline or demonstration-time rule. The circular's three-section event map is on page 3. [Circular, PDF 3–5](https://web.archive.org/web/20151028020149id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/itfest.pdf#page=3)
+
+All nine pages across these three files were rendered and reviewed. The files' hashes, page counts, archive captures and printed labels are in [rule-change-sources.json](rule-change-sources.json). No filled pupil/contact information was collected.
 
 ## Science: verified 2019–2025 comparisons
 
@@ -113,7 +128,7 @@ The inspected set comprises the official 2019 and 2025 manuals, the recovered 20
 
 - replaces the required two-pupil HS entry with a single-pupil option;
 - changes the 122 cm × 122 cm × 100 cm limit or assigns its axes;
-- supplies venue internet, guarantees a power outlet, or sets cloud/API access rules;
+- establishes contestant network access, guarantees an individual outlet, or sets cloud/API access rules; the separate state infrastructure duties are scoped in [OPERATIONS.md](OPERATIONS.md#internet-and-electricity-state-committee-duties);
 - explicitly permits or prohibits LLM APIs, downloaded models, third-party libraries or commercial microcontroller components for this prepared event;
 - extends the Electronics/IoT/Robotics on-the-spot construction and preassembled-system restrictions to prepared Working Model.
 

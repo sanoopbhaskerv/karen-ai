@@ -389,7 +389,8 @@
     "title": "Simulation Driving Instrument (Robotics)",
     "source_ids": [
       "project-007",
-      "project-008"
+      "project-008",
+      "pathways-37"
     ],
     "exhibit_code": "KL-I-09",
     "students_credited": [
@@ -405,17 +406,61 @@
     "selection_status": "SISF_2026_participant",
     "prize_status": "Kerala individual first",
     "qualifying_route": null,
-    "evidence_kind": "official_award_plus_secondary_mechanism",
+    "evidence_kind": "official_award_plus_official_compendium",
     "method_tag": "simulator interface",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "method_summary": "Arduino Leonardo steering/pedal inputs are mapped and calibrated to ETS2 simulation.",
+    "evidence_limits": "No training sample, scoring series or real-road safety benefit is established.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-individual-p168",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        207,
+        208
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code matches award code; pupil name and school location correspond with spelling/expansion variants. Title differs and guides differ; retain both source versions. No inference about work division or common guide identity.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-I-09",
+        "pdf_page_1based": 207,
+        "locator": "PDF207 embedded photograph: upper-left wall sign; additional smaller label KLI-9"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Muhammed Arif K F"
+        ],
+        "guide_credited": "Khadeeja T"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-individual-p168",
+        "pdf_pages_1based": [
+          207,
+          208
+        ],
+        "students_credited": [
+          "Muhammed Arif K.F."
+        ],
+        "guides_credited": [
+          "Hyrunnisa MH"
+        ]
+      }
+    ]
   },
   {
     "id": "case-2026-medibot",
     "year": 2026,
     "title": "Medibot Engineering",
     "source_ids": [
-      "project-007"
+      "project-007",
+      "pathways-37"
     ],
     "exhibit_code": "KL-I-05",
     "students_credited": [
@@ -431,17 +476,61 @@
     "selection_status": "SISF_2026_participant",
     "prize_status": "Overall individual second",
     "qualifying_route": null,
-    "evidence_kind": "award_only",
-    "method_tag": null,
+    "evidence_kind": "official_award_plus_official_compendium",
+    "method_tag": "cloud-scheduled medication dispensing",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "method_summary": "ESP32/C++ uses Firebase JSON schedules, NTP time and motors to dispense medicines.",
+    "evidence_limits": "No dose/reliability trial series or ingestion verification; hourly fetching conflicts with the immediate-update claim.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-individual-p176",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        215,
+        216
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code matches award code, and photograph poster says MEDBOT. School corresponds; pupil spelling Anuvind/Anuvund and guide Neetha K/Neetha differ. Long compendium title should not replace award title or credits.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-I-05",
+        "pdf_page_1based": 215,
+        "locator": "PDF215 embedded photograph: wall sign above MEDBOT poster"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "Anuvind K Raj"
+        ],
+        "guide_credited": "Neetha K"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-individual-p176",
+        "pdf_pages_1based": [
+          215,
+          216
+        ],
+        "students_credited": [
+          "Anuvund K Raj"
+        ],
+        "guides_credited": [
+          "Neetha"
+        ]
+      }
+    ]
   },
   {
     "id": "case-2026-fog",
     "year": 2026,
     "title": "Fog (Humidity) Harvesting System",
     "source_ids": [
-      "project-007"
+      "project-007",
+      "pathways-37"
     ],
     "exhibit_code": "KL-G-03",
     "students_credited": [
@@ -461,10 +550,55 @@
     "selection_status": "SISF_2026_participant",
     "prize_status": "Kerala group first",
     "qualifying_route": null,
-    "evidence_kind": "award_only",
-    "method_tag": null,
+    "evidence_kind": "official_award_plus_official_compendium",
+    "method_tag": "electrostatic fog collection",
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "method_summary": "An ionisation model attracts fog droplets to a Peltier-cooled collector mesh.",
+    "evidence_limits": "Testing is claimed without yield/energy tables or potable-water analysis.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-group-p185",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        226,
+        227
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code and both pupil names match award record; school address/title vary. Award teacher Abdul Shukkoor and compendium guide Jiji KR differ materially; do not resolve them into one credited person.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-G-03",
+        "pdf_page_1based": 226,
+        "locator": "PDF226 embedded photograph: red wall sign at top edge"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Saneen Jasim",
+          "Karthik P Panicker"
+        ],
+        "guide_credited": "Abdul Shukkoor"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-group-p185",
+        "pdf_pages_1based": [
+          226,
+          227
+        ],
+        "students_credited": [
+          "Saneen Jasim",
+          "Karthik P Panicker"
+        ],
+        "guides_credited": [
+          "Jiji KR"
+        ]
+      }
+    ]
   },
   {
     "id": "case-2026-diaper",
@@ -491,10 +625,46 @@
     "selection_status": "SISF_2026_participant",
     "prize_status": "Kerala group third",
     "qualifying_route": null,
-    "evidence_kind": "award_only",
+    "evidence_kind": "award_only_with_candidate_compendium",
     "method_tag": null,
     "student_work_division_verified": false,
-    "performance_independently_verified": false
+    "performance_independently_verified": false,
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-group-p182",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        223
+      ],
+      "status": "candidate_participant_school_and_topic_correspondence",
+      "note": "Strong candidate from both pupil names, school, category and subject, with expanded title and guide spelling Resmi/Reshmi variant. Code remains award-source-only until independently located in compendium. Do not infer authorship contribution or common guide identity."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Avanthika C R",
+          "Visishta Valsan"
+        ],
+        "guide_credited": "Resmi K A"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-group-p182",
+        "pdf_pages_1based": [
+          223
+        ],
+        "students_credited": [
+          "Avanthika CR",
+          "Visishta Valsan"
+        ],
+        "guides_credited": [
+          "Reshmi KA"
+        ]
+      }
+    ]
   },
   {
     "id": "case-2015-head-controlled-wheel-chair",
@@ -1057,5 +1227,88 @@
       "status": "candidate_school_and_topic_correspondence",
       "note": "The 2011 catalogue lists Automatic Crane for Government Girls Higher Secondary School, Vaznuthakka, Thiruvananthapuram (code 14.4). Title and locality match, with a published spelling variation, but that catalogue row has no pupil/teacher credits. This is not a formal recovered author/code crosswalk; exhibit_code remains null."
     }
+  },
+  {
+    "id": "case-1962-naval-school-project-record",
+    "year": 1962,
+    "title": "Report on the Rocket Launched by the Science Club of Naval High School, Cochin",
+    "source_ids": [
+      "project-027"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "S. Sreedhar",
+      "Balingibhan Bhattacharya",
+      "D. Narayana Moorthy",
+      "Srinivasa Bhakta"
+    ],
+    "teachers_credited": [
+      "A. C. De. Almeida"
+    ],
+    "school_as_published": "Naval High School, Cochin",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 31,
+    "printed_page": 25,
+    "report_pdf_pages_1based": [
+      31,
+      32,
+      33
+    ],
+    "report_printed_pages": [
+      25,
+      26,
+      27
+    ],
+    "selection_status": "historical_school_project_account",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "historical_institutional_project_report",
+    "method_tag": "project approval, iterative construction and failure observation",
+    "method_summary": "The account records an approved pupil project, repeated design revisions and teacher supervision. Its test narrative describes parts separating and the body striking a school wall.",
+    "evidence_limits": "The narrator calls the attempt a success, but the observations describe a failed flight. No independent measurements or safe reproducible design is established; operational construction and launch directions are excluded here. Publication in this regional-fairs report does not establish a competition entry, prize or national selection.",
+    "credit_variants": {
+      "opening_group_list": "S. Sreedhar",
+      "closing_signature": "S. Sridhar",
+      "note": "Preserved as a source spelling variant, not two verified people."
+    },
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2003-garbage-elutriator",
+    "year": 2003,
+    "title": "Garbage Elutriator",
+    "source_ids": [
+      "project-028"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 13,
+    "students_credited": [
+      "S Harisankar"
+    ],
+    "teachers_credited": [
+      "Jitha K Nair"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Vechoochira, Pathanamthitta, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 34,
+    "printed_page": 28,
+    "chapter_pdf_pages_1based": [
+      34,
+      35
+    ],
+    "chapter_printed_pages": [
+      28,
+      29
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "wastewater electrode cells, filtration and biogas concept",
+    "method_summary": "The report links waste chopping and collection, electrode cells, sand/gravel/charcoal filtration, and a biogas/manure stage in a process model.",
+    "evidence_limits": "The approximately 1.5 V is an attributed report claim, without current/load, electrode-material details or repeated measurements. No validated useful power, gas yield, filtration performance or drinking-water safety is established. Its electrolytic-cell terminology needs scientific checking. Publication does not establish a Kerala DGE selection route, prize or each pupil/teacher construction task.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
   }
 ]

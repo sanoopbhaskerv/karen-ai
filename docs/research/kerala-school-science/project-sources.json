@@ -294,5 +294,39 @@
     "download_bytes": 11124404,
     "pdf_pages": 90,
     "received_file_complete": true
+  },
+  {
+    "id": "project-027",
+    "title": "Report of Science Fairs Held During 1962–63, Publication No. 23",
+    "url": "https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_primary_institutional_report",
+    "source_date": null,
+    "publication_year": 1963,
+    "publisher": "Department of Extension Services, Government Training College, Trichur",
+    "notes": "Public scan hosted by Indic Digital Archive Foundation/Granthappura. Publication year is catalogue metadata; PDF3 establishes issuer. Complete school project account printed25–27/PDF31–33 read visually. This is a historical construction/failure record, not a national-selection or prize record. Preserve the S. Sreedhar/S. Sridhar credit variant; operational rocket directions are excluded from the case summary.",
+    "download_sha256": "c431af9bf430378df7f35d3776e9d8b59df31cad390c6d01dc35d616dc0e8ce2",
+    "download_bytes": 7866055,
+    "pdf_pages": 39,
+    "related_source_ids": [
+      "history-1963-fairs-report",
+      "history-1963-fairs-catalogue"
+    ]
+  },
+  {
+    "id": "project-028",
+    "title": "NCERT: Structure and Working of Science Models, 2003, university-archive scan",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6654/1/Structure%20And%20Working%20Of%20Science%20Models.pdf",
+    "catalogue_url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/handle/20.500.12497/6654",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_official_model_reports",
+    "source_date": "2003-11",
+    "publisher": "National Council of Educational Research and Training",
+    "notes": "Public Azim Premji University School Books Archive scan. Standard unlocked DSpace bitstream downloaded with normal TLS verification and is byte-identical to the public viewer acquisition; attachment UUID 509a6be3-2368-4f34-ba55-524c8eff1000, item UUID 7f81a37c-d7ac-41ed-be48-fcf5a8be23db. PDF1 title; PDF2 publication November 2003/Kartika 1925 and copyright NCERT 2003; PDF3–4 preface October 2003 identifies reports for 30th JNNSEC, Dehradun, selected from state exhibitions in 2002–03. No numbered edition statement seen. Scan metadata dates 2015 describe digitization, not publication. All 83 image-only pages OCRed; all 28 contents/chapter-start attribution blocks visually reviewed (21 English, seven Hindi), including locality-only addresses. One Kerala-school chapter: Garbage Elutriator, chapter13, printed28–29/PDF34–35, both pages read and visually inspected. Other 27 attribution blocks are outside Kerala, with no unresolved school address. Full numbered-body inventory corresponds to printed1–77 after six front-matter pages; all 28 chapter starts match contents and no missing body page detected. Some footer/edge clipping remains; physical covers and every original printed character are not certified. Edited write-up does not establish independent performance, prize or Kerala DGE qualifying route.",
+    "download_sha256": "94661d7954276d4f819c161ab6bc7b4d1a6ed40d7477fabaf2c95f6e204aad62",
+    "download_bytes": 2208480,
+    "pdf_pages": 83,
+    "received_file_complete": true,
+    "completeness_scope": "Published front matter and numbered-body page inventory; minor scan-edge/footer clipping and physical-cover completeness remain limitations."
   }
 ]

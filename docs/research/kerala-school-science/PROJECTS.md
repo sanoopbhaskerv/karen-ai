@@ -1,6 +1,6 @@
 # Kerala school science exhibit case studies
 
-Initial research cutoff and access date: **31 October 2026**; catalogue follow-up: **1 November 2026**. This sample contains **29 exhibits with a documented mechanism or method**, plus three 2026 prize records whose mechanisms remain unverified. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory. The separate [discovery index](DISCOVERY.md) covers 105 published catalogue rows; nine cases now also have [extended edited write-ups](MODEL_REPORTS.md).
+Initial research cutoff and access date: **31 October 2026**; catalogue follow-up: **1 November 2026**. This sample contains **33 exhibits with published mechanism or method information**, plus one prize record with a candidate method-source correspondence. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory. The separate [discovery index](DISCOVERY.md) covers 105 published catalogue rows; ten cases now also have [extended edited write-ups](MODEL_REPORTS.md). A separate [SISF 2026 compendium index](SISF_2026_MODELS.md) covers all 31 Kerala write-ups, including teacher exhibits; those overlapping counts are not added as unique projects.
 
 ## How to interpret the evidence
 
@@ -69,6 +69,10 @@ Three additional short synopses (`project-018` to `project-020`) connect Kerala-
 | Borewell Rescue System — Government Sanskrit HS, Meppayil | An Archimedes-screw mechanism is proposed for borewell rescue. | Geometry, load limits, trials and safe rescue validation. | [2013, printed 69 / PDF 79](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2013_Gangtok.pdf#page=79) |
 | Innovative Solar Water Heater — KV No. 1, Naval Base, Kochi | Discarded lighting tubes and old aluminium tubes form a solar-water-heating model. | Construction details, temperature measurements and comparison costs. | [2014, printed 39 / PDF 48](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2014_Chandigarh.pdf#page=48) |
 
+## Historical school construction account, 1962–63
+
+A regional-fairs report issued by Government Training College, Trichur (`project-027`) includes Naval High School, Cochin's account of a 1962 pupil project. It records proposal approval, revisions and teacher involvement, followed by a failed flight: parts separated and the body struck a wall. The narrator's description of success is not treated as verified performance. The opening credit “S. Sreedhar” differs from the signature “S. Sridhar”. See [printed 25–27 / PDF 31–33](https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf#page=31). The index excludes operational rocket directions. This is separate from NCERT selections and the ten edited model-report chapters.
+
 ## SISF 2026: separate prize scope from project explanation
 
 The official VITM/NCSM [SISF 2026 prize list](https://www.vismuseum.gov.in/assets/pdf/events/SISF-2026/Prize%20award%20list%20SISF-2026.pdf) (`project-007`) distinguishes overall fair awards from awards for each state's exhibits. It covers the Hyderabad fair of 19–23 January 2026. Four useful Kerala records are included in the index:
@@ -82,7 +86,7 @@ The official VITM/NCSM [SISF 2026 prize list](https://www.vismuseum.gov.in/asset
 
 **One additional mechanism, from secondary reporting:** [Onmanorama, 30 January 2026](https://www.onmanorama.com/news/kerala/2026/01/30/mohammed-arif-science-festival.html) (`project-008`) describes Arif connecting manual steering and a clutch to a driving simulator through EMC utility software. Steering input becomes game-control data. This documents a reported hardware/software integration, not measured improvement in driving skill. Its broad “tops” headline should be qualified by the official award scope above. The news report spells the school Mar Kurilos HSS, Pattimattam; the official list abbreviates it M C M H S School, Pattimattom. Keep both provenance records rather than silently choosing a spelling.
 
-The prize list supplies no methods for the other three exhibits. Their titles must not be expanded into invented mechanisms, materials, clinical capabilities or performance figures.
+The prize list itself supplies no methods for the other three exhibits. The subsequently recovered [official SISF compendium](SISF_2026_MODELS.md) now provides 31 Kerala write-ups with mechanisms and limitations. Three links are supported by matching codes visible in source photographs; the diaper link remains a pupil/school/topic candidate. Differing pupil/guide credits are stored by source, with original award credits retained. Read each published version before linking a reported mechanism to a prize.
 
 ## Selection evidence and credit versions
 
@@ -113,7 +117,7 @@ The 2011 *Structure and Working* book was recovered from the same official URL a
 Highest-value follow-up collection:
 
 1. Original school reports, test tables, construction records and source code for the identified Kerala cases, obtained from schools/pupils with an appropriate reuse basis. Neither a synopsis nor an edited extended write-up establishes independent reproducibility or individual contribution.
-2. A 2026 SISF Kerala exhibit booklet or school-authored demonstration for Medibot, fog harvesting and the natural-fibre diaper, linked to the official award record. Record the duration, transcript and what the video actually demonstrates.
+2. Original school-authored demonstrations, code and test records for the [31 recovered SISF 2026 write-ups](SISF_2026_MODELS.md), plus records resolving their candidate award correspondences and credit differences. The official compendium is recovered; independently verified demonstrations remain missing.
 3. Kerala SCERT/education-department nomination lists connecting named exhibits to the state and national events. This would resolve routes without guessing from school location or similar titles.
 4. SchoolWiki school-authored reports and KITE/Victers demonstrations with substantive methods. No SchoolWiki-authored full project report or verified video transcript is included here: search-index snippets, generic club pages and unviewed video titles were insufficient. Public API requests encountered a bot challenge, and the alternate SchoolWiki host had a TLS certificate problem during this pass.
 5. Remaining NCERT years and unindexed Kerala entries, including alternate publication locations for the years not linked in the reviewed archive. The [official English archive](https://ncert.nic.in/archive-jnnsmee.php?ln=en) (`project-002`) is a discovery aid; a link in that archive is not itself evidence for an exhibit's details.

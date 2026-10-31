@@ -140,5 +140,52 @@
     "document_date": null,
     "confidence": "directory_only",
     "notes": "Opened public administrative directory during local notice search. Directory fields do not independently establish current individual responsibility or Karen's subdistrict. No messages were sent and personal contact fields were not copied into this research note."
+  },
+  {
+    "id": "rule-change-science-form-2014-15",
+    "title": "Science Fair subdistrict blank entry form labelled 2014–15, archived from the official 2015 directory",
+    "url": "https://web.archive.org/web/20151106011250id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/science_fair.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_blank_entry_form",
+    "document_date": null,
+    "academic_year_as_printed": "2014-15",
+    "portal_year": 2015,
+    "archive_capture": "2015-11-06T01:12:50Z",
+    "confidence": "high_for_template_contents_only",
+    "notes": "Both scanned pages visually checked. Heading explicitly says SCHOOL SASTHROLSAVAM 2014-15, SUB DISTRICT LEVEL - SCIENCE FAIR. Directory/capture year 2015 does not override the printed academic-year label. HSS/VHSS and HS Working Model each have numbered pupil rows 1 and 2 on PDF1; UP Working Model has two numbered rows on PDF2. LP lists Collections/Models, Charts and Simple Experiment. These are blank template fields, not a completed registration, attendance list or independently sufficient current-rule authority. No filled pupil or contact data collected.",
+    "download_sha256": "c15f49bbb0e303e50750f69e278b78855caca1c1abe1b47cda888a8b7e788bf1",
+    "download_bytes": 192983,
+    "pdf_pages": 2
+  },
+  {
+    "id": "rule-change-it-form-2014-15",
+    "title": "IT Fair subdistrict blank entry form labelled 2014–15, archived from the official 2015 directory",
+    "url": "https://web.archive.org/web/20151106011232id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/it_fair.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_blank_entry_form",
+    "document_date": null,
+    "academic_year_as_printed": "2014-15",
+    "portal_year": 2015,
+    "archive_capture": "2015-11-06T01:12:32Z",
+    "confidence": "high_for_template_contents_only",
+    "notes": "Both scanned pages visually checked. Printed 2014-15 subdistrict heading retained separately from 2015 hosting/capture. Page1 HSS/VHSS lists Digital Painting, Multimedia Presentation, Web Page Designing, IT Quiz and Malayalam Typing. Page2 HS also has IT Projects; UP lists Digital Painting, Malayalam typing competition and IT Quiz. No Working Model row in this particular blank IT template; this bounded observation does not prove no local supplementary exhibition existed. Declaration cites NEP3/82862/2007/DPI without reproducing the underlying order or establishing its full scope. No filled pupil or contact data collected.",
+    "download_sha256": "d441736f4b6dd186b585d1cfeb2e669646f208760c56043b23fc8ebf59311bf5",
+    "download_bytes": 108652,
+    "pdf_pages": 2
+  },
+  {
+    "id": "rule-change-it-directions-2015",
+    "title": "DPI circular NEP(3)/78759/2015, historical IT competition directions",
+    "url": "https://web.archive.org/web/20151028020149id_/http://schoolsasthrolsavam.in:80/2015/entry_forms/itfest.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_circular",
+    "document_date": "2015-10-05",
+    "order_number": "NEP(3)/78759/2015",
+    "archive_capture": "2015-10-28T02:01:49Z",
+    "confidence": "high_for_historical_circular_contents",
+    "notes": "Five-page circular on archived official festival URL; all five pages visually checked because extracted Malayalam is unreliable. Handwritten header date and signature date identify 5 October 2015; reference is the 14 October 2014 NEP-3/72517/2014/DPI circular. PDF1 separates UP progression through revenue district from HS/HSS state competition, and requires free software. PDF2 clause12 names IT@School Edubuntu10.04; this is a dated historical platform instruction, not a current installation recommendation. PDF3 has a three-section event map. HS IT Project on PDF4 is individual, with three printed report copies and one printout of the presentation slides due seven days before the contest to the specified AEO/DDE offices. PDF5 gives a fifteen-minute project presentation/interaction total, ten plus five minutes; it is not a Science Working Model time limit. Not a modern cloud-AI, microcontroller or offline-only Working Model rule.",
+    "download_sha256": "6a13d801cb15044c297bdeb259c1b93ed5e117f2d3c5ed98a30d0a51b53c24ce",
+    "download_bytes": 4503262,
+    "pdf_pages": 5
   }
 ]

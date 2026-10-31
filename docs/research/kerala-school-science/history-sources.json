@@ -375,7 +375,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "government_news",
     "document_date": "2019-11-06",
-    "notes": "Government I&PRD portal closing report; date corroborated by portal search index. Kozhikode and Palakkad both 1,374; first ranks 20 versus 19 determine winner; Kannur 1,366 third. BSS Gurukulam 141 first school, Dwaraka 132 second, Memunda 118 third. Direct conflict with current KITE archive overall winner and scores; cause unresolved. Report also lists stream and special-school results."
+    "notes": "Government I&PRD portal closing report; date corroborated by portal search index. Kozhikode and Palakkad both 1,374; first ranks 20 versus 19 determine winner; Kannur 1,366 third. BSS Gurukulam 141 first school, Dwaraka 132 second, Memunda 118 third. Direct conflict with current KITE archive overall winner and scores; cause unresolved. Report also lists stream and special-school results. Reopened 1 November 2026: final paragraph explicitly records ADPI C. A. Santhosh releasing Sasthrolsava Rekha at the closing ceremony. This supports publication/release only; souvenir body not obtained. Full HTML snapshot 63,650 bytes, SHA-256 d66f5545059b50d0a0cc50b439a21f72cc2da8c6885b9de3911a688c49da00ee; initial access date retained."
   },
   {
     "id": "history-2019-prd-participation",
@@ -523,7 +523,7 @@
     "page_count": 2,
     "bytes": 264697,
     "sha256": "51ef1d18535b8009d5a462a89261dd40e9d8539a8fe39361c269b9322df72658",
-    "notes": "Official-looking programme-committee scan on non-government MediaFire mirror, discovered through SimonMash download index. Both pages visually inspected. Header 23–27 November 2016, Shoranur; names Girish Kumar K, convener, and V K Sreekandan, chairman. Page 1: Science Theresa's HSS Shoranur (Malayalam venue line, checked against enlarged scan), Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2: IT St Theresa High School Shoranur and 25–27 November timetable. Original issuing URL, issue date and independent original-copy authentication not obtained; corroborates existing committee notice. Treat as scheduled programme. Stable permalink directly returned PDF to curl; browser download timed out. PDF contains only CamScanner text layer; claims checked visually rather than through failed text search."
+    "notes": "Official-looking programme-committee scan on non-government MediaFire mirror, discovered through SimonMash download index. Both pages visually inspected. Header 23–27 November 2016, Shoranur; names Girish Kumar K, convener, and V K Sreekandan, chairman. Page 1: Science Theresa's HSS Shoranur (Malayalam venue line, checked against enlarged scan), Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2: IT St Theresa High School Shoranur and 25–27 November timetable. Subsequent 1 November 2026 review recovered the same visible two-page programme content at the archived official festival URL registered as history-2016-programme-official-archive. The two PDFs are not byte-identical and have different margins/watermarks; retain both artifacts. Explicit issue date remains unestablished. Treat as scheduled programme. Stable permalink directly returned PDF to curl; browser download timed out. PDF contains only CamScanner text layer; claims checked visually rather than through failed text search."
   },
   {
     "id": "history-2016-programme-mirror-index",
@@ -595,5 +595,72 @@
     "bytes": 1316473,
     "sha256": "7ae735bab4a8d751796923b975549e79bf834a0539326b0780680b6e52b5d6b2",
     "notes": "Government-hosted 54-page scan without embedded text. Cover/title PDF 1–2 identify Kerala 1965; introduction PDF 4 identifies Bureau of Economics and Statistics preparation. Contents PDF 3 and printed 13/PDF 24 education section visually inspected. That passage summarises enrolment, school numbers, SSLC, technical education and expenditure; it does not establish science-fair inauguration. Investigated search lead, not evidence that school fairs were absent. Economic Review is distinct from actual Education Department Administration Report 1964–65 recovered from university archive."
+  },
+  {
+    "id": "history-2016-programme-official-archive",
+    "title": "Shoranur 2016–17 state Sasthrolsavam: programme recovered from official festival-site archive",
+    "url": "https://web.archive.org/web/20161130125005id_/http://www.schoolsasthrolsavam.in:80/site16/doc/schedules/programeschedul.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_programme",
+    "document_date": null,
+    "page_count": 2,
+    "bytes": 346809,
+    "sha256": "fa535ae1cae884b8023c464943e3053004187b36ea1ec88ad31535af279d4b05",
+    "notes": "Original festival URL recovered from public Internet Archive CDX index; archive capture 30 November 2016 at 12:50:05 UTC. HTTP 200 application/pdf; archived original server Last-Modified 21 November 2016 at 04:37:26 UTC. PDF metadata LibreOffice 4.2, creation 19 November 2016 at 14:44:14 +05:30; metadata and server dates are not an explicit issue date. Both pages rendered and visually compared with history-2016-programme-scan. Same visible programme text, dates, named programme committee and venues, but different PDF artifact, wider margins and no CamScanner watermark; not claimed byte-identical. Page 1 header schedules 23–27 November 2016 at Shoranur; Science venue Theresa's HSS Shoranur, Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2 IT venue St Theresa High School, timetable 25–27 November and scheduled closing 27 November. Scheduled allocations do not themselves prove completion."
+  },
+  {
+    "id": "history-2024-souvenir-cover-notice",
+    "title": "Kerala government notice inviting cover designs for the 2024 state school Sasthrolsavam souvenir",
+    "url": "https://kerala.gov.in/whatsnewdetailwise/MTIwNTYyMTQyNS44",
+    "accessed_on": "2026-11-01",
+    "source_type": "government_publication_notice",
+    "bytes": 146841,
+    "sha256": "e8a541dd00317c13a409e7e5b6322d9d9829d7d8275a4ffc08f86ee59062b924",
+    "notes": "Official Government of Kerala portal; visible article last-updated date 12 November 2024, distinct from current site-wide update date. Full HTML snapshot cached and body text reviewed. Invites government/aided HS and HSS pupils to design the 2024 state school Sasthrolsavam souvenir cover, deadline 13 November at 5 pm. Evidence of planned publication/cover competition, not completed souvenir body or inaugural history. Public organiser contact details deliberately not transcribed. HTML snapshot hash identifies acquired version, not a fixed PDF edition.",
+    "article_last_updated_on": "2024-11-12",
+    "document_date": null
+  },
+  {
+    "id": "history-it-programme-2011",
+    "title": "IT@School programme at Technopark Club, 13–14 January 2011",
+    "url": "https://web.archive.org/web/20110124131613id_/http://www.itschool.gov.in:80/itfest/Programme.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_programme",
+    "document_date": null,
+    "event_dates_as_printed": [
+      "2011-01-13",
+      "2011-01-14"
+    ],
+    "archive_capture": "2011-01-24T13:16:13Z",
+    "notes": "Two image-only PDF pages rendered and visually checked. Explicit heading PROGRAMMES @ TECHNOPARK CLUB, first day Thursday13.01.2011 and second day Friday14.01.2011. HS/HSS IT item timetable includes typing, painting, project, multimedia, quiz and web-page design alongside inauguration, talks and valediction. This is a separate IT phase from the earlier January2011 Aluva Science/Maths/SocialScience/WorkExperience programme. Scheduled dates, not independently observed attendance or proof all agenda items occurred. Programme issue date not printed; archive capture is separate.",
+    "bytes": 378543,
+    "sha256": "3dc77b378449f0f79820cf40056e2e5793f55b0886158b86f0580b46429c11fd",
+    "page_count": 2
+  },
+  {
+    "id": "history-it-hs-result-archived-2011",
+    "title": "IT@School HS item-result page captured 18 January 2011; event year not stamped",
+    "url": "https://web.archive.org/web/20110118003524id_/http://itschool.gov.in:80/itfest/results_hs.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_results",
+    "document_date": null,
+    "archive_capture": "2011-01-18T00:35:24Z",
+    "event_year_independently_stamped": false,
+    "notes": "Archived official HTML publishes named place/A-grade entries under Malayalam Typing, Digital Painting, IT Project, Multimedia Presentation, IT Quiz and Web Page Designing. Links Programme.pdf and companion HSS page. Retained as a dated publication snapshot: page itself does not print an event year, so its January2011 capture and link context do not establish a certified edition-wide result. Repeated place labels are preserved, not silently deduplicated or converted into total entrants. No school/district aggregate or event-wide championship published on this page. Raw footer contacts and pupil images are not copied into the collection.",
+    "bytes": 17560,
+    "sha256": "2df8d784043bbcb937fdeb1dc55386678919e6121cb912b40973b5807728a8db"
+  },
+  {
+    "id": "history-it-hss-result-archived-2011",
+    "title": "IT@School HSS item-result page captured 18 January 2011; event year not stamped",
+    "url": "https://web.archive.org/web/20110118003528id_/http://itschool.gov.in:80/itfest/results_hss.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_results",
+    "document_date": null,
+    "archive_capture": "2011-01-18T00:35:28Z",
+    "event_year_independently_stamped": false,
+    "notes": "Archived official HTML publishes named place/A-grade entries under Digital Painting, Multi Media Presentation, IT Quiz and Web Page Designing, including two third-place Web Page Designing entries. Links Programme.pdf and companion HS page. No event year or certified overall championship is stamped in the page; preserve archive capture separately from an inferred event edition. Not a full attendance roster, mechanisms report or source of district aggregate points. Raw footer contacts and pupil images are not copied into the collection.",
+    "bytes": 14084,
+    "sha256": "13ac3cdf5af78a59ec21369487dab653d228da9def929df48d96707be86587f3"
   }
 ]

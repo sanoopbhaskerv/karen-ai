@@ -63,6 +63,8 @@ For state organiser infrastructure duties, see [printed 21 / PDF 32](https://mel
 
 Prepare the circuit diagram for the actual board, a block diagram marking every online service, and a short account of the problem, student contribution, cost and observed results. These are practical recommendations. If an applicable organiser instruction requires fully offline operation, the current implementation would need a different offline architecture and fresh validation. A personal hotspot supplies internet; a recording or scripted answer does not establish live offline AI operation.
 
+Related [SISF 2026 write-ups](SISF_2026_MODELS.md#keep-claims-and-capabilities-separate) provide architecture comparisons: SAMARTH lists phone software and AI APIs, with offline edge AI as a proposed improvement; HOPE uses LoRa to a base station and Wi-Fi/MQTT for cloud notifications. These reports help explain component and network roles. They are descriptions from a different fair, not permission for Karen's current entry or proof those systems met their performance claims.
+
 ## Prepare for the actual scoring criteria
 
 The Working Model scoring table totals 100. The preparation ideas below are recommendations, not additional rules. [Manual printed page 64, PDF page 75](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=75)
