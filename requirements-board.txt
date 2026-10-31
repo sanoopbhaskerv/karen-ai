@@ -1,0 +1,2 @@
+# Optional USB identification tools; bootstrap --firmware installs into .venv.
+esptool>=5,<6

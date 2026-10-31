@@ -2,6 +2,10 @@
 
 This is the shortcut for the [English guide](../README.md) and [മലയാളം ഗൈഡ്](../READMEMALAYALAM.md). Malayalam instructions are below the English section.
 
+For the Windows + S3-N16R8 call, use the [staged wiring guide](FIRST_CALL_WINDOWS.md). Board setup now also installs `esptool` 5.x for explicit chip/flash checks. Long setup steps print a heartbeat every 20 seconds; `.tools/bootstrap.log` records timestamps, duration, exit status and sanitized output.
+
+After setup, `doctor-windows.cmd --controller esp32_s3` checks software and reports unfinished hardware/network checks. Add `--port COM5 --probe-chip` only with the actual board port; this read-only probe may reset the board. Add `--server http://YOUR_LAPTOP_IPV4:8080` for a health check without an AI request. Doctor logs go to `.tools/doctor.log`. `scripts/board.py monitor --port COM5 --log` saves redacted timestamped output to `.tools/serial.log`; close it with Ctrl+C before uploading. Read the call guide before wiring.
+
 ## English
 
 ### What you need first

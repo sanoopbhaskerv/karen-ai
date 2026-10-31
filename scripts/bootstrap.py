@@ -5,6 +5,7 @@ Existing private files and memory are never replaced. No live AI call or upload.
 """
 import argparse
 from collections import deque
+from datetime import datetime, timezone
 import hashlib
 import json
 import os
@@ -17,6 +18,8 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+import threading
+import time
 import urllib.request
 import zipfile
 
@@ -50,37 +53,73 @@ def private_values(root):
                     values.append(value.strip().strip('\'"'))
     path = root / 'firmware/karen_ai/config.h'
     if path.is_file():
-        values.extend(re.findall(r'^\s*#define\s+WIFI_(?:SSID|PASSWORD)\s+"([^"\n]+)"', path.read_text(encoding='utf-8'), re.M))
+        for value in re.findall(r'^\s*#\s*define\s+WIFI_(?:SSID|PASSWORD)\s+"((?:\\.|[^"\\])*)"', path.read_text(encoding='utf-8'), re.M):
+            values.extend((value, re.sub(r'\\(["\\])', r'\1', value)))
     return sorted({v for v in values if v}, key=len, reverse=True)
 
 
 def sanitized(text, values):
+    text = re.sub(r'^.*#\s*define\s+WIFI_(?:SSID|PASSWORD)\b.*$',
+                  '[credential definition redacted]', text, flags=re.MULTILINE)
     text = re.sub(r'(https?://)[^\s/@]+:[^\s/@]+@', r'\1[REDACTED]@', text)
     for value in values:
         text = text.replace(value, '[REDACTED]')
     return text
 
 
+def setup_log(root, message):
+    path = root / '.tools/bootstrap.log'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
+    with path.open('a', encoding='utf-8') as handle:
+        handle.write(f'[{stamp}] {message}\n')
+
+
 def run(command, root, label, *, env=None, timeout=600, log=True):
     print(label, flush=True)
     values = private_values(root)
+    started = time.monotonic()
+    stopped = threading.Event()
+    safe_label = sanitized(label, values)
+    if log:
+        setup_log(root, 'START ' + safe_label)
+
+    def heartbeat():
+        while not stopped.wait(20):
+            message = f'Still working ({int(time.monotonic() - started)}s): {safe_label}'
+            print(message, flush=True)
+            if log:
+                setup_log(root, message)
+
+    worker = threading.Thread(target=heartbeat, daemon=True)
+    worker.start()
     try:
         result = subprocess.run(command, cwd=root, env=env, stdout=subprocess.PIPE,
                                 stderr=subprocess.STDOUT, text=True, encoding='utf-8',
                                 errors='replace', timeout=timeout)
     except subprocess.TimeoutExpired:
+        if log:
+            setup_log(root, f'TIMEOUT after {int(time.monotonic() - started)}s: {safe_label}')
         raise SetupError('That step timed out. Check internet/the tool installation, then rerun setup.') from None
+    finally:
+        stopped.set()
+        worker.join(timeout=1)
     output = sanitized(result.stdout or '', values)
     if log:
-        path = root / '.tools/bootstrap.log'
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with path.open('a', encoding='utf-8') as handle:
-            handle.write(label + '\n' + output + '\n')
+        setup_log(root, f'END exit={result.returncode} elapsed={time.monotonic() - started:.1f}s: {safe_label}\n{output}')
     if result.returncode:
         print('\n'.join(deque(output.splitlines(), maxlen=16)))
         raise SetupError('Step failed. Read the message above. Existing settings and memory were kept.')
     # Parsing callers need unmodified JSON. Only sanitized output reaches logs/UI.
     return result.stdout or ''
+
+
+def prepare_board_python(root):
+    python = venv_python(root)
+    run([str(python), '-m', 'pip', 'install', '--disable-pip-version-check',
+         '-r', str(root / 'requirements-board.txt')], root,
+        'Installing read-only board identification tools...')
+    run([str(python), '-m', 'esptool', 'version'], root, 'Checking esptool version...', timeout=60)
 
 
 def create_once(path, content):
@@ -238,6 +277,8 @@ def check(root, firmware=False):
     if not (root / '.env').is_file():
         raise SetupError('.env is missing. Run setup first.')
     if firmware:
+        run([str(python), '-m', 'esptool', 'version'], root,
+            'Checking board identification tools...', timeout=60, log=False)
         cli = find_cli(root)
         if not cli or not toolchain_ready(cli, root, log=False):
             raise SetupError('Board tools incomplete. Run setup with --firmware.')
@@ -270,9 +311,11 @@ def main(argv=None, root=ROOT):
         if args.check:
             check(root, args.firmware)
             return 0
+        setup_log(root, f'SESSION Python={platform.python_version()} OS={platform.system()} CPU={platform.machine()} controller={args.controller or "existing/default"}')
         prepare_python(root, args.dev)
         prepare_files(root, args.controller)
         if args.firmware or args.compile:
+            prepare_board_python(root)
             prepare_firmware(root)
         if args.compile:
             command = [str(venv_python(root)), str(root / 'scripts/firmware.py')]

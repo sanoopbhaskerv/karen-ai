@@ -1,6 +1,17 @@
-# Validation record — 28 October 2026
+# Validation record — latest check 31 October 2026
 
-## Verified on this Mac
+## Windows S3 first-call kit — 31 October 2026
+
+- `main` was five commits behind remote main; the newest bootstrap branch was one further commit ahead. Main was fast-forwarded to include both histories. New work is on main at the owner's explicit request.
+- Full local suite: **109 passed**, with the same two upstream Python 3.14 deprecation warnings. Added coverage for diagnostic decisions, exact chip/flash parsing, malformed/loopback firmware origins, actual-port selection, no implicit probe/AI/upload, health-response filtering, escaped WiFi secret redaction, persistent serial logs and monitor interruption/forced termination.
+- Real Mac bootstrap with `--firmware --controller esp32_s3` installed esptool **5.6.0**, reused the existing matching Arduino packages, and passed `--check --firmware` and `pip check`. A second bootstrap preserved every existing `.env`, `.env.local`, `data/memory.txt` and `config.h` byte-for-byte, checked with before/after hashes.
+- Both updated firmware example builds passed with Arduino-ESP32 **3.3.12** / ESP8266Audio **2.4.1**: S3 **1,191,479 program bytes / 47,364 static RAM bytes**; classic **1,205,960 program bytes / 49,272 static RAM bytes**. No board upload or private-config build.
+- Actual doctor software/toolchain checks passed on the Mac. Chip identity and board network remain explicitly pending. Doctor `/health` was also exercised against a real temporary Flask server; no AI request or saved-memory edit occurred in that check.
+- A fresh live Gemini diagnostic using the existing key and `gemini-3.5-flash-lite` succeeded with a Malayalam answer. This tests this Mac/key at this time, not the student's Windows credentials, browser microphone or controller audio.
+- Python compilation, Git whitespace, local documentation links/fences and **34 matching English/Malayalam command/settings blocks** passed. The [first-call guide](FIRST_CALL_WINDOWS.md) gives exact Windows commands, staged S3 wiring, expected diagnostic output and recovery checks.
+- Native Windows launcher behavior and the GitHub Windows runner result must be checked separately. No S3 is connected here: measured S3 flash/PSRAM, COM-driver operation, upload/boot, power, microphone and speaker acceptance still require the call. The existing ignored classic-board logs do not establish S3 readiness.
+
+## Verified on this Mac — 28 October 2026
 
 - Original backend suite ran before changes: **18 passed**.
 - Before the bootstrap addition: **53 passed** (36 backend and 17 firmware build/adapter regressions), including the original language/route/history/memory/WAV tests and regression coverage for retries, sanitized errors, request deduplication, concurrent duplicate requests, deadlines, responsive health/dashboard, reset/memory edits during inference, TTS/oversized-audio failure before history commit, and bounded result retention.

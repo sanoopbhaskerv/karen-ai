@@ -178,6 +178,7 @@ def test_compile_is_example_build_only_and_never_upload(project, monkeypatch):
     monkeypatch.setattr(bootstrap, 'prepare_python', lambda *_a: None)
     monkeypatch.setattr(bootstrap, 'prepare_files', lambda *_a: None)
     monkeypatch.setattr(bootstrap, 'prepare_firmware', lambda *_a: None)
+    monkeypatch.setattr(bootstrap, 'prepare_board_python', lambda *_a: None)
     monkeypatch.setattr(bootstrap, 'run', lambda command, *_a, **_k: calls.append(command) or '')
     assert bootstrap.main(['--compile', '--controller', 'esp32_s3'], project) == 0
     assert len(calls) == 1
@@ -185,9 +186,38 @@ def test_compile_is_example_build_only_and_never_upload(project, monkeypatch):
     assert '--upload' not in calls[0] and '--use-config' not in calls[0]
 
 
+def test_board_python_installs_identification_tools_without_flashing(project, monkeypatch):
+    calls = []
+    monkeypatch.setattr(bootstrap, 'run', lambda command, *_a, **_k: calls.append(command))
+    bootstrap.prepare_board_python(project)
+    assert calls[0][-2:] == ['-r', str(project / 'requirements-board.txt')]
+    assert calls[1][-3:] == ['-m', 'esptool', 'version']
+    assert not any('write-flash' in command or 'erase-flash' in command for command in calls)
+
+
+def test_setup_log_records_timing_exit_and_sanitized_output(project, monkeypatch):
+    (project / '.env').write_text('GEMINI_API_KEY=hidden-key\n')
+    monkeypatch.setattr(bootstrap.subprocess, 'run', lambda *_a, **_k: SimpleNamespace(returncode=0, stdout='ok hidden-key'))
+    bootstrap.run(['fake'], project, 'Checking fake tool')
+    log = (project / '.tools/bootstrap.log').read_text()
+    assert 'START Checking fake tool' in log
+    assert 'END exit=0 elapsed=' in log
+    assert 'hidden-key' not in log and '[REDACTED]' in log
+
+
+def test_escaped_wifi_passwords_are_hidden_in_source_and_decoded_output(project):
+    config = '#define WIFI_PASSWORD "private\\"password\\\\tail"\n'
+    (project / 'firmware/karen_ai/config.h').write_text(config)
+    source = 'private\\"password\\\\tail'
+    decoded = 'private"password\\tail'
+    output = bootstrap.sanitized(config + source + '\n' + decoded, bootstrap.private_values(project))
+    assert source not in output and decoded not in output
+    assert '[credential definition redacted]' in output
+
+
 def test_mac_launcher_handles_spaces_and_other_working_directory(project):
-    if not shutil.which('bash'):
-        pytest.skip('Bash unavailable')
+    if bootstrap.os.name == 'nt' or not shutil.which('bash'):
+        pytest.skip('Mac shell launcher requires a POSIX host')
     shutil.copyfile(bootstrap.ROOT / 'bootstrap-mac.command', project / 'bootstrap-mac.command')
     python = project / '.venv/bin/python'; python.parent.mkdir(parents=True)
     python.write_text('#!/bin/sh\nif [ "$1" = "-c" ]; then exit 0; fi\nprintf "%s\\n" "$PWD" "$@"\n')

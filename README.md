@@ -6,6 +6,8 @@ Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
 
+For the Windows + S3-N16R8 wiring call, use the [first-call guide](docs/FIRST_CALL_WINDOWS.md): exact commands, one-stage-at-a-time wiring, expected logs and stop/go checks. Download **main** for the current kit.
+
 ## Quick setup kit — recommended
 
 First extract the project and install Python once (Steps 2–3 below). Then double-click **`bootstrap-windows.cmd`** on Windows or **`bootstrap-mac.command`** on Mac. It offers computer-only setup first, with optional S3/classic board tools. Existing private settings and saved memory are preserved.
@@ -86,7 +88,7 @@ Test-Path .\app.py
 
 Commands in boxes marked `powershell` go into PowerShell. Do not paste them into the browser or into a Python window showing `>>>`. Copy one command at a time. A block containing `{` and `}` can be pasted as a whole. Wait for it to finish before the next block.
 
-The repository is private. If downloading from GitHub, ask the owner for access to the updated files. If the latest setup pull request is still open, use the branch shown in that pull request; the default branch may not contain the new kit yet.
+The repository is private. Download the current **main** branch using an account with access, or ask the owner for its ZIP. Use main for setup and future updates.
 
 If a project folder already works, keep its `.env`, `.env.local`, `data/memory.txt` and `firmware/karen_ai/config.h`. Do not replace these with blank example files.
 
@@ -311,7 +313,7 @@ $karenPort = 'COM5'
 Check the chip and flash size:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install esptool
+.\.venv\Scripts\python.exe -m pip install -r requirements-board.txt
 .\.venv\Scripts\python.exe -m esptool --port $karenPort flash-id
 ```
 

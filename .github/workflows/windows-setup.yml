@@ -1,0 +1,84 @@
+name: Windows setup
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: '1'
+      GEMINI_API_KEY: ''
+      DEMO_MODE: '1'
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python 3.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.14'
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run tests including native launchers in a path with spaces
+        run: python -m pytest -q
+      - name: Run real computer-only bootstrap
+        shell: cmd
+        run: call bootstrap-windows.cmd --controller esp32_s3
+      - name: Check real installed environment
+        shell: cmd
+        run: call bootstrap-windows.cmd --check
+      - name: Start native server launcher and check health without AI
+        shell: python
+        run: |
+          import json
+          import os
+          from pathlib import Path
+          import subprocess
+          import time
+          import urllib.error
+          import urllib.request
+
+          root = Path.cwd()
+          log_path = root / '.tools' / 'windows-start-smoke.log'
+          log_path.parent.mkdir(exist_ok=True)
+          env = dict(os.environ, PORT='18080', GEMINI_API_KEY='', DEMO_MODE='1',
+                     MEMORY_PATH=str(root / '.tools' / 'ci-memory.txt'))
+          executable = subprocess.list2cmdline([os.environ.get('COMSPEC', 'cmd.exe')])
+          command = f'{executable} /d /s /c ""{root / "start-windows.cmd"}""'
+          with log_path.open('w', encoding='utf-8') as output:
+              process = subprocess.Popen(command, cwd=root, env=env, stdout=output,
+                                         stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL)
+              try:
+                  deadline = time.monotonic() + 30
+                  while time.monotonic() < deadline:
+                      try:
+                          with urllib.request.urlopen('http://127.0.0.1:18080/health', timeout=2) as response:
+                              health = json.load(response)
+                          assert health['status'] == 'ok', health
+                          assert health['mode'] == 'demo', health
+                          assert health['configured'] is False, health
+                          print('Native Windows server /health passed; no AI request made.')
+                          break
+                      except (OSError, urllib.error.URLError):
+                          if process.poll() is not None:
+                              raise RuntimeError('Native launcher exited before health became ready.')
+                          time.sleep(0.2)
+                  else:
+                      raise RuntimeError('Native launcher did not become healthy in 30 seconds.')
+              except Exception:
+                  output.flush()
+                  print(log_path.read_text(encoding='utf-8', errors='replace'))
+                  raise
+              finally:
+                  # Kill the cmd.exe process and its Python child; leave no server.
+                  subprocess.run(['taskkill', '/PID', str(process.pid), '/T', '/F'],
+                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False)
+                  process.wait(timeout=10)

@@ -1,5 +1,7 @@
 # Windows setup — HW678 / ESP32-S3 N16R8
 
+For the Windows + S3-N16R8 wiring call, start with the [first-call guide](FIRST_CALL_WINDOWS.md). It includes the automated setup, readiness checker, exact wiring sequence and saved debug logs.
+
 For first-time use, follow the fully explained [English guide](../README.md) or [മലയാളം ഗൈഡ്](../READMEMALAYALAM.md). This page is a shorter technical reference. For the automatic setup/start launchers, see the [bootstrap kit](BOOTSTRAP.md).
 
 The user's photos show an HW678 PCB with a Sixspan module marked **S3-N16R8**, two USB-C connectors labelled **COM** and **USB** on the back, and an onboard RGB LED. This guide selects the ESP32-S3 adapter. The original classic ESP32 remains supported.
@@ -8,7 +10,7 @@ The S3 build uses the advertised **16 MB flash / 8 MB octal PSRAM** configuratio
 
 ## 1. Get the updated source and start the backend
 
-Use the updated project folder. If a setup pull request is still open, use its branch to get the latest kit. The repository is private, so use an authorized checkout or a source copy. Local `.env`, saved memory and WiFi configuration are deliberately absent from Git.
+Use the updated project folder from **main**. The repository is private, so use an authorized checkout or a source copy. Local `.env`, saved memory and WiFi configuration are deliberately absent from Git.
 
 For a new setup, install a current Python 3.14 Windows installer from the [official Python downloads](https://www.python.org/downloads/windows/). A working existing Python 3.12 virtual environment can stay as it is. In PowerShell, open the project folder (replace the example path):
 
@@ -84,7 +86,7 @@ Ordinary builds use **example credentials** in a temporary sketch and do not upl
 4. Verify flash using Espressif esptool, replacing COM5 with the actual port:
 
    ```powershell
-   .\.venv\Scripts\python.exe -m pip install esptool
+   .\.venv\Scripts\python.exe -m pip install -r requirements-board.txt
    .\.venv\Scripts\python.exe -m esptool --port COM5 flash-id
    ```
 
