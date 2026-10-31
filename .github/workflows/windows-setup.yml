@@ -52,10 +52,15 @@ jobs:
           call bootstrap-windows.cmd --check
       - name: Check board Python dependencies without hardware
         shell: cmd
+        env:
+          # Reproduce a newly released Python with no PyYAML wheel available.
+          # Disable caches so a previous compiled wheel cannot hide this failure.
+          PIP_NO_BINARY: PyYAML
+          PIP_NO_CACHE_DIR: '1'
         run: |
-          .venv\Scripts\python.exe -m pip install -r requirements-board.txt
+          .venv\Scripts\python.exe -c "from scripts.bootstrap import ROOT, prepare_board_python; prepare_board_python(ROOT)"
           if errorlevel 1 exit /b 1
-          .venv\Scripts\python.exe -m esptool version
+          .venv\Scripts\python.exe -c "import yaml, esptool; assert not yaml.__with_libyaml__; assert yaml.safe_load('board: esp32_s3')['board'] == 'esp32_s3'; print('PyYAML source install passed with no compiled extension; esptool imports work.')"
           if errorlevel 1 exit /b 1
           .venv\Scripts\python.exe -m pip check
       - name: Verify official Windows Arduino CLI download without SDK

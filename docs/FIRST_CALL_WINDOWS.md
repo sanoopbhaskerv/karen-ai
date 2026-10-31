@@ -30,6 +30,8 @@ py -3.14 --version
 
 **Go:** `True`, a supported Python version, and finally `SETUP COMPLETE`; the example build reports `Controller: esp32_s3` and succeeds. An existing supported Python installation can be found by the launcher even if the specific `py -3.14` command is unavailable. Setup creates the Python environment, downloads verified Arduino CLI/ESP32/audio tools and esptool, and compiles example firmware. Allow at least **8 GB free disk space** and time for several GB of downloads. Progress messages show that long steps are still running. This command does not upload firmware.
 
+If setup stops with **Failed building wheel for PyYAML / Microsoft Visual C++ required**, keep the existing environment. Use the [PyYAML recovery commands](BOOTSTRAP.md#pyyaml-asks-for-microsoft-c-build-tools), then rerun setup. Updated bootstrap handles this automatically.
+
 Setup preserves existing `.env`, `.env.local`, `config.h`, and saved memory. `--controller` does not rewrite an existing settings file; we explicitly select S3 in every board command below. On failure, read the last message and `.tools\bootstrap.log`, fix it, and rerun the same command. Do not continue past a failed build.
 
 ```powershell

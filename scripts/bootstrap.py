@@ -116,9 +116,14 @@ def run(command, root, label, *, env=None, timeout=600, log=True):
 
 def prepare_board_python(root):
     python = venv_python(root)
+    # PyYAML may have no wheel for a newly released Python. Its source build
+    # otherwise attempts a C extension and fails on student Windows laptops.
+    # esptool works with pure-Python YAML; scope this choice to this pip process.
+    environment = dict(os.environ, PYYAML_FORCE_LIBYAML='0')
     run([str(python), '-m', 'pip', 'install', '--disable-pip-version-check',
          '-r', str(root / 'requirements-board.txt')], root,
-        'Installing read-only board identification tools...')
+        'Installing board identification tools (PyYAML source builds use pure Python; no C compiler needed)...',
+        env=environment)
     run([str(python), '-m', 'esptool', 'version'], root, 'Checking esptool version...', timeout=60)
 
 

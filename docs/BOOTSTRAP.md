@@ -94,6 +94,19 @@ Do not manually delete `.env`, `.env.local` or saved memory to fix installation.
 
 Fresh and repeated Mac setup, private-file preservation, native Mac startup/Flask health, official CLI checksum/execution and a real S3 example build were tested. The fresh board build reused matching installed Mac core/library packages. Installation into a new isolated SDK folder is covered by regression tests, not a second multi-GB download. Native `.cmd` argument/exit handling, real computer-only bootstrap/check and server health passed on a Windows runner. Physical Windows board-tool setup/upload remains pending on the student's PC. No physical upload or paid/live AI request is made by bootstrap.
 
+### PyYAML asks for Microsoft C++ Build Tools
+
+Board setup now disables PyYAML's optional LibYAML extension for its pip process. This lets a source installation use pure Python when a wheel is unavailable, including Python 3.15. Existing environments and settings are kept.
+
+If an older copy stops with `Failed building wheel for PyYAML`, run these in the same PowerShell window, one command at a time, then wait for `SETUP COMPLETE`:
+
+```powershell
+$env:PYYAML_FORCE_LIBYAML = '0'
+.\bootstrap-windows.cmd --controller esp32_s3 --firmware --compile
+```
+
+Do not delete `.venv` or private settings for this error. The temporary environment value applies to this PowerShell window; new bootstrap versions handle it automatically. PyYAML's C++ compiler prompt does not mean the controller needs connecting.
+
 ## മലയാളം
 
 ### ആദ്യം വേണ്ടത്

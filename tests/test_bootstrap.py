@@ -200,11 +200,21 @@ def test_compile_is_example_build_only_and_never_upload(project, monkeypatch):
 
 def test_board_python_installs_identification_tools_without_flashing(project, monkeypatch):
     calls = []
-    monkeypatch.setattr(bootstrap, 'run', lambda command, *_a, **_k: calls.append(command))
+    environments = []
+    monkeypatch.setenv('PYYAML_FORCE_LIBYAML', '1')
+    monkeypatch.setenv('KAREN_TEST_KEEP', 'keep-environment')
+    def run(command, *_a, **kwargs):
+        calls.append(command)
+        environments.append(kwargs.get('env'))
+    monkeypatch.setattr(bootstrap, 'run', run)
     bootstrap.prepare_board_python(project)
     assert calls[0][-2:] == ['-r', str(project / 'requirements-board.txt')]
     assert calls[1][-3:] == ['-m', 'esptool', 'version']
     assert not any('write-flash' in command or 'erase-flash' in command for command in calls)
+    assert environments[0]['PYYAML_FORCE_LIBYAML'] == '0'
+    assert environments[0]['KAREN_TEST_KEEP'] == 'keep-environment'
+    assert bootstrap.os.environ['PYYAML_FORCE_LIBYAML'] == '1'
+    assert environments[1] is None  # Installer choice stays scoped to pip.
 
 
 def test_setup_log_records_timing_exit_and_sanitized_output(project, monkeypatch):
