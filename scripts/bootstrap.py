@@ -1,4 +1,4 @@
-"""Safe Windows/Mac setup. Python 3.12-3.14 is the only prerequisite.
+"""Safe Windows/Mac setup. Python 3.12-3.15 is the only prerequisite.
 
 No arguments: a short menu in a terminal, computer-only setup otherwise.
 Existing private files and memory are never replaced. No live AI call or upload.
@@ -155,7 +155,7 @@ def prepare_python(root, dev=False):
         if not python.is_file():
             raise SetupError('Existing .venv is incomplete or from another operating system. It was not replaced. Ask the owner to move ONLY .venv aside and rerun setup.')
         try:
-            run([str(python), '-c', 'import sys; sys.exit(not ((3,12) <= sys.version_info[:2] < (3,15)))'],
+            run([str(python), '-c', 'import sys; sys.exit(not ((3,12) <= sys.version_info[:2] < (3,16)))'],
                 root, 'Checking existing Python environment...')
         except SetupError:
             raise SetupError('Existing .venv does not run a supported Python. It was kept. Ask the owner to move ONLY .venv aside, install Python 3.14, then rerun setup.') from None
@@ -297,8 +297,8 @@ def main(argv=None, root=ROOT):
     if args.check and (args.compile or args.dev):
         parser.error('--check cannot be combined with --compile or --dev')
     try:
-        if not (3, 12) <= sys.version_info[:2] < (3, 15):
-            raise SetupError('Use Python 3.12, 3.13 or 3.14. See the English/Malayalam README.')
+        if not (3, 12) <= sys.version_info[:2] < (3, 16):
+            raise SetupError('Use Python 3.12, 3.13, 3.14 or 3.15. See the English/Malayalam README.')
         if not (root / 'app.py').is_file():
             raise SetupError('Project files missing. Extract the complete project ZIP before running setup.')
         if not supplied and sys.stdin.isatty():

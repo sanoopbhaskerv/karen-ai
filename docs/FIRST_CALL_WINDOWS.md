@@ -19,7 +19,7 @@ Unplug USB and every external supply before moving wires. Use only low-voltage U
 
 1. Sign into GitHub with the account that has access to [the private repository](https://github.com/sanoopbhaskerv/karen-ai/tree/main). Select **main → Code → Download ZIP**, then **Extract All** to a normal writable folder such as `Documents\karen-ai`. The owner can send the current main ZIP if access is unavailable. Do not send tokens or passwords on the call.
 2. Open the folder containing `app.py`, `bootstrap-windows.cmd`, `scripts`, and `firmware`. Click File Explorer's address bar, type `powershell`, press Enter.
-3. If Python is not installed, install Python **3.14** from [Python's Windows downloads](https://www.python.org/downloads/windows/), including the launcher/PATH option. Reopen PowerShell. A working Python 3.12–3.14 is also supported. Do not copy a Mac `.venv` or `.tools` folder onto Windows.
+3. Existing Python **3.15** can be used directly; no downgrade is needed. For the version check below use `py -3.15 --version` when 3.15 is installed. If Python is not installed, install Python **3.14** from [Python's Windows downloads](https://www.python.org/downloads/windows/), including the launcher/PATH option. Reopen PowerShell. A working Python 3.12–3.15 is also supported. Do not copy a Mac `.venv` or `.tools` folder onto Windows.
 4. Run one command at a time:
 
 ```powershell

@@ -94,6 +94,8 @@ If a project folder already works, keep its `.env`, `.env.local`, `data/memory.t
 
 ## 3. Install Python once
 
+**Already have Python 3.15?** Keep it: the bootstrap supports Python 3.12–3.15. Run the setup launcher; for manual commands below, use `py -3.15` instead of `py -3.14` if 3.15 is your installed version. Existing working environments are kept.
+
 For a new Windows setup, use **Python 3.14**, which is also the Python series used by the tested Mac environment. A working existing Python 3.12 virtual environment can stay as it is.
 
 **Already have a working `.venv` on this Windows PC?** Skip the installer and the `py -3.14` check below; continue at Step 4. Its creation command leaves an existing `.venv` alone.

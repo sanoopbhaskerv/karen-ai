@@ -94,6 +94,8 @@ GitHub repository private ആണ്. Access ഉള്ള account ഉപയോഗ
 
 ## 3. Python ഒരിക്കൽ install ചെയ്യുക
 
+**Python 3.15 ഇതിനകം ഉണ്ടോ?** അത് മാറ്റേണ്ടതില്ല. Bootstrap Python 3.12–3.15 പിന്തുണയ്ക്കുന്നു. Setup launcher പ്രവർത്തിപ്പിക്കുക. താഴെയുള്ള manual commands-ൽ നിങ്ങളുടെ version 3.15 ആണെങ്കിൽ `py -3.14` എന്നതിന് പകരം `py -3.15` ഉപയോഗിക്കുക. നിലവിലുള്ള working environment സംരക്ഷിക്കും.
+
 പുതിയ Windows setup-ന് **Python 3.14** ഉപയോഗിക്കുക. പരിശോധിച്ച Mac environment-ലും ഈ Python series ആണ് ഉപയോഗിക്കുന്നത്. ഇതിനകം Python 3.12 virtual environment ശരിയായി പ്രവർത്തിക്കുന്നുണ്ടെങ്കിൽ അത് മാറ്റേണ്ടതില്ല.
 
 **ഈ Windows PC-യിൽ ഇതിനകം പ്രവർത്തിക്കുന്ന `.venv` ഉണ്ടോ?** ഉണ്ടെങ്കിൽ താഴെയുള്ള installer-ഉം `py -3.14` പരിശോധനയും വിട്ട് ഘട്ടം 4-ലേക്ക് പോകാം. അവിടത്തെ creation command നിലവിലുള്ള `.venv` മാറ്റില്ല.

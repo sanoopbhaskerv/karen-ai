@@ -10,6 +10,11 @@ permissions:
 
 jobs:
   windows:
+    name: Windows Python ${{ matrix.python }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.14', '3.15']
     runs-on: windows-latest
     timeout-minutes: 20
     env:
@@ -21,12 +26,13 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Set up Python 3.14
+      - name: Set up Python ${{ matrix.python }}
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
-          python-version: '3.14'
+          python-version: ${{ matrix.python }}
       - name: Install test dependencies
-        run: python -m pip install -r requirements-dev.txt
+        # Confirm a beginner's PC does not need a C compiler for backend packages.
+        run: python -m pip install --only-binary=:all: -r requirements-dev.txt
       - name: Run tests including native launchers in a path with spaces
         run: python -m pytest -q
       - name: Run real computer-only bootstrap
@@ -34,7 +40,18 @@ jobs:
         run: call bootstrap-windows.cmd --controller esp32_s3
       - name: Check real installed environment
         shell: cmd
-        run: call bootstrap-windows.cmd --check
+        run: |
+          .venv\Scripts\python.exe -c "import sys; assert sys.version_info[:2] == tuple(map(int, '${{ matrix.python }}'.split('.'))), sys.version"
+          if errorlevel 1 exit /b 1
+          call bootstrap-windows.cmd --check
+      - name: Check board Python dependencies without hardware
+        shell: cmd
+        run: |
+          .venv\Scripts\python.exe -m pip install -r requirements-board.txt
+          if errorlevel 1 exit /b 1
+          .venv\Scripts\python.exe -m esptool version
+          if errorlevel 1 exit /b 1
+          .venv\Scripts\python.exe -m pip check
       - name: Verify official Windows Arduino CLI download without SDK
         shell: python
         run: |

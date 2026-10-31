@@ -11,7 +11,7 @@ After setup, `doctor-windows.cmd --controller esp32_s3` checks software and repo
 ### What you need first
 
 - Extract the complete project folder. Do not run inside the ZIP.
-- Install Python **3.14** once if needed. Existing Python **3.12–3.14** is supported. The launcher finds it; if none is found it shows the official download link. The kit does not install Python, Homebrew or system drivers for you.
+- Install Python **3.14** once if needed. Existing Python **3.12–3.15** is supported. The launcher finds it; if none is found it shows the official download link. The kit does not install Python, Homebrew or system drivers for you.
 - Keep internet available for Python packages. Optional board support needs **at least 8 GB free space** and a large download.
 - Use source files on each computer; do not copy another computer's `.venv` or Arduino tool folders.
 
@@ -99,7 +99,7 @@ Fresh and repeated Mac setup, private-file preservation, native Mac startup/Flas
 ### ആദ്യം വേണ്ടത്
 
 - മുഴുവൻ project folder extract ചെയ്യുക. ZIP-ന്റെ ഉള്ളിൽനിന്ന് പ്രവർത്തിപ്പിക്കരുത്.
-- ആവശ്യമെങ്കിൽ **Python 3.14** ഒരിക്കൽ install ചെയ്യുക. നിലവിലുള്ള **Python 3.12–3.14** ഉപയോഗിക്കാം. Launcher അത് കണ്ടെത്തും. ഇല്ലെങ്കിൽ ഔദ്യോഗിക download link കാണിക്കും. Python, Homebrew, system drivers എന്നിവ ഈ kit സ്വയം install ചെയ്യുന്നില്ല.
+- ആവശ്യമെങ്കിൽ **Python 3.14** ഒരിക്കൽ install ചെയ്യുക. നിലവിലുള്ള **Python 3.12–3.15** ഉപയോഗിക്കാം. Launcher അത് കണ്ടെത്തും. ഇല്ലെങ്കിൽ ഔദ്യോഗിക download link കാണിക്കും. Python, Homebrew, system drivers എന്നിവ ഈ kit സ്വയം install ചെയ്യുന്നില്ല.
 - Python packages download ചെയ്യാൻ ഇന്റർനെറ്റ് വേണം. Board tools കൂടി വേണമെങ്കിൽ **കുറഞ്ഞത് 8 GB free space** വേണം; download വലുതാണ്.
 - ഓരോ കമ്പ്യൂട്ടറിലും source files ഉപയോഗിച്ച് setup ചെയ്യുക. മറ്റൊരു കമ്പ്യൂട്ടറിന്റെ `.venv`, Arduino tools folders എന്നിവ പകർത്തരുത്.
 

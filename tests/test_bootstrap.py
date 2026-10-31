@@ -12,6 +12,18 @@ import pytest
 from scripts import bootstrap, toolchain
 
 
+@pytest.mark.parametrize('version, accepted', [
+    ((3, 11), False), ((3, 12), True), ((3, 14), True),
+    ((3, 15), True), ((3, 16), False),
+])
+def test_supported_python_versions_reach_install_check(project, monkeypatch, version, accepted):
+    monkeypatch.setattr(bootstrap, 'sys', SimpleNamespace(version_info=version))
+    checked = []
+    monkeypatch.setattr(bootstrap, 'check', lambda *_a: checked.append(True))
+    assert bootstrap.main(['--check'], project) == (0 if accepted else 1)
+    assert bool(checked) == accepted
+
+
 @pytest.fixture
 def project(tmp_path):
     root = tmp_path / 'Karen project with spaces'

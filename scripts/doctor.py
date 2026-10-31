@@ -159,8 +159,8 @@ def checks(doctor, args):
     if not python.is_file():
         doctor.result('FAIL', 'Project Python', 'Missing .venv for this operating system. Run bootstrap-windows.cmd first; do not copy a Mac .venv.')
         return
-    if not (3, 12) <= sys.version_info[:2] < (3, 15):
-        doctor.result('FAIL', 'Python version', 'Use Python 3.12–3.14 and rerun bootstrap.')
+    if not (3, 12) <= sys.version_info[:2] < (3, 16):
+        doctor.result('FAIL', 'Python version', 'Use Python 3.12–3.15 and rerun bootstrap.')
         return
     try:
         result = doctor.run([str(python), '-c', 'import flask, dotenv, speech_recognition, gtts; from google import genai'], timeout=30)
