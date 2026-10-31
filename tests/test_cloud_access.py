@@ -136,3 +136,33 @@ def test_device_token_is_redacted_in_firmware_and_diagnostic_logs(tmp_path, caps
     Doctor(tmp_path).write(output)
     assert secret not in capsys.readouterr().out
     assert secret not in (tmp_path / '.tools/doctor.log').read_text()
+
+
+def test_public_ui_opens_without_login_but_owner_memory_stays_protected(cloud):
+    app, client, provider = cloud
+    app.config['KAREN_PUBLIC_UI'] = True
+    response = client.get('/')
+    assert response.status_code == 200 and 'WWW-Authenticate' not in response.headers
+    assert 'id="memory"' not in response.text and '/admin' in response.text
+    assert client.get('/static/app.js').status_code == 200
+    assert client.get('/docs/cloud-use-malayalam.html').status_code == 200
+    assert client.get('/admin').status_code == 401
+    assert 'id="memory"' in client.get('/admin', headers=basic()).text
+    with client.session_transaction() as session:
+        csrf = session['csrf']
+    assert client.post('/update', data={'csrf_token': csrf, 'memory_text': 'public overwrite'}).status_code == 401
+    assert client.post('/test_chat', json={'user_message': 'hi'}).status_code == 403
+    headers = {'X-CSRF-Token': csrf}
+    assert client.post('/test_chat', json={'user_message': 'hi'}, headers=headers).status_code == 200
+    assert client.post('/chat', data=pcm(), content_type='audio/wav').status_code == 403
+    voice = client.post('/chat', data=pcm(), content_type='audio/wav', headers=headers)
+    assert voice.status_code == 200 and voice.headers['X-Karen-Result'] == 'ok'
+    assert client.post('/reset', data={'csrf_token': csrf}).status_code == 302
+
+
+def test_public_ui_still_accepts_board_token_without_browser_csrf(cloud):
+    app, client, provider = cloud
+    app.config['KAREN_PUBLIC_UI'] = True
+    assert client.post('/chat', data=pcm(), content_type='audio/wav', headers=device('wrong')).status_code == 401
+    voice = client.post('/chat', data=pcm(), content_type='audio/wav', headers=device())
+    assert voice.status_code == 200 and voice.headers['X-Karen-Result'] == 'ok'

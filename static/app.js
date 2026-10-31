@@ -75,7 +75,7 @@ record.addEventListener('click', async () => {
     const ratio=sampleRate/16000; const pcm=new Float32Array(Math.floor(joined.length/ratio));
     for(let i=0;i<pcm.length;i++){const start=Math.floor(i*ratio),end=Math.max(start+1,Math.floor((i+1)*ratio));let sum=0;for(let j=start;j<end;j++)sum+=joined[j]||0;pcm[i]=sum/(end-start);}
     const body=new FormData(); body.append('audio',wavBlob(pcm,16000),'question.wav'); statusText.textContent='Listening → thinking → speaking…';
-    const response=await ask('/chat',{method:'POST',body});
+    const response=await ask('/chat',{method:'POST',headers:{'X-CSRF-Token':csrf},body});
     if(!response.ok){const result=await response.json();throw new Error(result.error||'Voice request failed');}
     if(!response.headers.get('Content-Type')?.startsWith('audio/mpeg')) throw new Error('Server returned an unexpected audio format.');
     if(audioURL)URL.revokeObjectURL(audioURL); audioURL=URL.createObjectURL(await response.blob());

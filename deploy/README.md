@@ -14,9 +14,9 @@ Sources: [Lightsail pricing](https://aws.amazon.com/lightsail/pricing/), [billin
 
 ## Access and secrets
 
-For the deployment operator, generated credentials are saved locally at `.tools/aws/access.txt` and `.tools/aws/cloud.env` with mode 0600. Neither file is in Git, the source archive, the Docker build context or the hosted guides. Transfer the dashboard password and board token privately to the owner/student; never put them in a URL or screenshot.
+For the deployment operator, generated credentials are saved locally at `.tools/aws/access.txt` and `.tools/aws/cloud.env` with mode 0600. Neither file is in Git, the source archive, the Docker build context or the hosted guides. Keep the owner password private; transfer the board token privately to the student; never put them in a URL or screenshot.
 
-The dashboard uses browser HTTP Basic authentication over HTTPS. `KAREN_DEVICE_TOKEN` authenticates only `POST /chat` and voice-result polling. It cannot open the dashboard, edit memory, reset chat or read browser text results. `/health` remains public and does not make an AI request. Browser mutations still require CSRF tokens. Hosted session cookies are secure-only.
+The UI, text/voice chat and guides are public when `KAREN_PUBLIC_UI=1`, as requested for the exhibition. Only `/admin` and saved-memory updates require owner HTTP Basic authentication over HTTPS. Public browser voice submissions require the page CSRF token; board bearer-token submissions do not need browser cookies. `KAREN_DEVICE_TOKEN` authenticates only `POST /chat` and voice-result polling. It cannot open the dashboard, edit memory, reset chat or read browser text results. `/health` remains public and does not make an AI request. Browser mutations still require CSRF tokens. Hosted session cookies are secure-only.
 
 The AWS profile recorded for this test is `fantasy-staging`; identity and DNS checks established that it owns the `makemykindred.com` zone. The default profile points to a different account. Always verify the account before AWS changes. SSH is restricted to the operator's source IPv4 at deployment time; 8080 is internal to Docker. Only 80 (HTTPS certificate/redirect) and 443 are public.
 
@@ -34,6 +34,7 @@ SECRET_KEY=GENERATE_A_LONG_RANDOM_VALUE
 KAREN_ADMIN_USERNAME=karen
 KAREN_ADMIN_PASSWORD=GENERATE_A_LONG_RANDOM_VALUE
 KAREN_DEVICE_TOKEN=GENERATE_A_DIFFERENT_RANDOM_VALUE
+KAREN_PUBLIC_UI=1
 ```
 
 Restrict this file to mode 0600. From `/opt/karen-ai/deploy`:
