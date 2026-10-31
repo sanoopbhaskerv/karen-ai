@@ -1,4 +1,13 @@
-# Validation record — latest check 31 October 2026
+# Validation record — latest check 1 November 2026
+
+## Anonymous exhibition identity — 1 November 2026
+
+- Full local Python suite: **171 passed / 5 Windows-only skips**, with the same two upstream Python 3.14 deprecation warnings. No live AI service was called for these checks.
+- Regression checks cover legacy-memory migration, dotted/spaced names and school initials, expanded school names, restart persistence, memory edits, direct creator questions, generated-answer filtering, sanitized user echoes, history and cached text/audio results. Unrelated science facts, superscripts such as `10³`/`m²`, and Malayalam characters/joiners survive migration unchanged.
+- The model diagnostic uses isolated temporary memory and forces live mode. Mocked checks prove it leaves an existing legacy file byte-for-byte unchanged for missing-key, listing-only and inference paths, including an inherited demo-mode setting.
+- Isolated Chrome checks at 390×844 and 1440×1000 passed anonymous page rendering, an identifying question without a visible identifying echo, normal question routing, a deliberately identifying fake-provider reply, and saved-memory cleanup. Screenshots were inspected; there was no horizontal overflow or browser runtime error. These were fake-provider UI checks, not live Gemini, human microphone or physical-board acceptance.
+- The existing local saved biography was removed after making a private backup inside the ignored `data/` directory. This private backup is not a repository artifact. The hosted instance was not changed by these checks.
+- Restart every application process and refresh browsers when applying the update, so old RAM history and cached text/audio responses cannot remain in use. Student registration and genuine construction evidence remain separate from the assistant's anonymous presentation.
 
 ## First Windows compile timeout recovery — 31 October 2026
 
@@ -27,11 +36,11 @@
 - A separate isolated Chrome test saved a test fact through the memory editor, retrieved it via real Malayalam Gemini chat, reset the conversation, then restarted the temporary server and confirmed saved facts persisted with empty history. The real saved memory was never edited.
 - Existing `.env` and `data/memory.txt` remain byte-for-byte unchanged (hashes compared before/after). The working model is selected through a new ignored `.env.local`; no key or saved memory was published.
 - Existing key successfully listed models through `google-genai` with SDK retries disabled. The configured `gemini-3.8-flash` was listed, but inference returned 504 `DEADLINE_EXCEEDED` at a 30-second limit (~29 seconds) and again at a 60-second limit (~59 seconds). Another attempt returned 503 `UNAVAILABLE` / high demand. A longer timeout did not fix it.
-- API-listed `gemini-3.5-flash-lite` returned a Malayalam answer about Sreehari with Karen's full instructions and existing saved facts in **1.2 seconds** using the same key. This proves a usable key/model combination; it does not establish Google's internal cause for 3.8 failures.
+- API-listed `gemini-3.5-flash-lite` returned a Malayalam answer using the creator identity configured at that time, with Karen's full instructions and existing saved facts, in **1.2 seconds** using the same key. This proves a usable key/model combination; it does not establish Google's internal cause for 3.8 failures or validate the later anonymous-identity behaviour.
 - Actual Flask `/test_chat`: creator question **200 / 1.42 seconds**; rain question **200 / 3.63 seconds**, both Malayalam. `/health` reported `gemini.status: ready` afterward.
 - `python scripts/diagnose_gemini.py` successfully listed models and generated a Malayalam answer without altering saved memory/history.
 - Actual multipart WAV → Google Malayalam STT → Gemini → gTTS MP3: **200 / ~4 seconds / `X-Karen-Result: ok`**. Output was 103,488 bytes; macOS `afinfo` recognized mono 24 kHz MP3, **12.936 seconds**.
-- Chrome/Playwright at 390×844: actual Malayalam text, creator identity, recorder, downsampling/WAV upload, live STT/Gemini/gTTS and decoded MP3 playback all passed. The test deliberately lost the first accepted text POST response; the browser retried with the same request ID and recovered successfully. Audio decoded to 8.88–12.576 seconds across runs. No JavaScript runtime errors or horizontal overflow. Screenshot inspected at `/tmp/karen-audio/mobile-dashboard.png` (local temporary output, not a repository asset).
+- Chrome/Playwright at 390×844: actual Malayalam text, the creator identity configured at that time, recorder, downsampling/WAV upload, live STT/Gemini/gTTS and decoded MP3 playback all passed. The test deliberately lost the first accepted text POST response; the browser retried with the same request ID and recovered successfully. Audio decoded to 8.88–12.576 seconds across runs. No JavaScript runtime errors or horizontal overflow. Screenshot inspected at `/tmp/karen-audio/mobile-dashboard.png` (local temporary output, not a repository asset). This historical run did not test the later anonymous-identity behaviour.
 
 The speech input for software tests was synthesized Malayalam (`മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?`), converted to 16 kHz mono 16-bit PCM with macOS `afconvert` and fed to Chrome's fake microphone. These are **real provider requests**, but not a human-microphone/noise/physical-device test. MP3 decoding/playback was checked programmatically; listening quality still needs human acceptance.
 
