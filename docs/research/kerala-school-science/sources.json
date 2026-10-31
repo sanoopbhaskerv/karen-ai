@@ -18,6 +18,37 @@
     "topic_register": "additional-circular-sources.json"
   },
   {
+    "id": "additional-circular-it-quiz-original-2026",
+    "title": "KITE IT Quiz school/subdistrict/revenue-district instructions and schedule, 31 July 2026",
+    "url": "https://kite.kerala.gov.in/KITE/itsadmin/uploads/docs/1132.pdf",
+    "discovery_url": "https://kite.kerala.gov.in/KITE/index.php/welcome/kite_circular",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_IT_quiz_circular",
+    "document_date": "2026-07-31",
+    "order_number": "KITE/2026/1275(6)",
+    "notes": "Scanned one-page official circular, read visually and independently checked. School questions are prepared in SRG under headteachers’ leadership; subdistrict and district use KITE-prepared common questions in presentation format. No portal instruction appears. School target by 5 September; subdistrict originally 9 September UP 10 am/HS 11:30 am/HSS 2 pm; district 19 September HS 10:30 am/HSS 2 pm. The later 7 September circular changes only the subdistrict date to 10 September, preserving clock times. No duration, venue, participant limit, state-stage timetable or actual completion supplied. Handwritten signature labelled Chief Executive Officer; no personal name inferred. Dates are scheduled targets, not attendance evidence.",
+    "download_sha256": "77eac1149a67f0041cfa140aff5df8101f02a17d026b902ded4b6786afef54d0",
+    "download_bytes": 47592,
+    "pdf_pages": 1,
+    "topic_register": "additional-circular-sources.json"
+  },
+  {
+    "id": "additional-circular-it-quiz-date-2026-mirror",
+    "title": "KITE subdistrict IT Quiz date amendment, 7 September 2026, public mirror",
+    "url": "https://drive.google.com/file/d/1n8zFdAwBahQtafXjVtNUIA0qsyzTISmU/view",
+    "download_url": "https://drive.google.com/uc?export=download&id=1n8zFdAwBahQtafXjVtNUIA0qsyzTISmU",
+    "discovery_url": "https://www.hsslive.in/2012/09/sasthrolsavam-sciencesocialmathswork.html?m=0",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_KITE_circular",
+    "document_date": "2026-09-07",
+    "order_number": "KITE/2026/1275(9)",
+    "notes": "Entire scanned page read visually and independently checked. Moves subdistrict IT Quiz from 9 to 10 September 2026; time schedule unchanged. Refers to 31 July KITE/2026/1275(6), GO(MS)143/2018 of 6 October 2018 and DGE 12 September 2025 proceedings. No postponement reason or clock times supplied here. It changes neither the district quiz date nor Maths/Science/Working Model schedules. Handwritten signature labelled Chief Executive Officer, no legible personal name inferred. Mirror provenance is retained; an original government-hosted copy was not recovered. No cryptographic signature verification or actual-held claim.",
+    "download_sha256": "fcbe3f04ccd22a87142d4be42023324562a2411a38baf2e6f338fecb9ffd6837",
+    "download_bytes": 53876,
+    "pdf_pages": 1,
+    "topic_register": "additional-circular-sources.json"
+  },
+  {
     "id": "core-subdistrict-items-2022",
     "title": "KITE 2022 subdistrict master item catalogue",
     "url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
@@ -49,6 +80,88 @@
     "sha256": "d7492ad237bba83dc313780897873b2bfc310eccbb6ac100f6e19e8603d3ad62",
     "notes": "Direct HTTP retrieval; 154 historical master catalogue rows. Current eligibility not inferred.",
     "topic_register": "catalogue-sources.json"
+  },
+  {
+    "id": "governance-club-elections-2026",
+    "title": "DGE subject-club office-bearer election circular, 2026-05-20, public mirror",
+    "url": "https://drive.google.com/file/d/19XRfqtLwIOg3JRq5VaWD6U-_cnObgfcT/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=19XRfqtLwIOg3JRq5VaWD6U-_cnObgfcT",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_department_circular",
+    "document_date": "2026-05-20",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "file_reference_as_printed": "Y1/8659/26/DGE; e-file DGE/8659/2026-Y1",
+    "dispatch_reference_as_printed": "I/1749830/2026",
+    "visible_signature_block": {
+      "name": "Santhosh C A",
+      "date": "2026-05-20",
+      "time": "22:45:27",
+      "designation": "Additional Director of General Education (Academic)"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validation performed.",
+    "streams_as_printed": [
+      "Science",
+      "Mathematics",
+      "Social Science",
+      "Work Experience"
+    ],
+    "club_terms_as_printed": {
+      "school_years": 1,
+      "subdistrict_years": 2,
+      "revenue_district_years": 2
+    },
+    "directed_targets": {
+      "subdistrict_election_by": "2026-06-15",
+      "district_election_by": "2026-06-22",
+      "secretary_particulars_by": "2026-06-26"
+    },
+    "notes": "Both pages read visually and independently checked. AEOs convene the general body of new school-club office-bearers and elect subdistrict office-bearers; DDEs convene the new subdistrict general body and elect district office-bearers. Working committees are to be constituted per the manual and secretaries’ particulars reported. Targets do not prove elections occurred or identify appointed office-bearers. School-election completion is not the stated meaning of the subdistrict target. Four subject streams only; no IT/Little Kites or state-club term supplied. Public mirror hosting is distinct from the visible departmental document; an original government-hosted copy was not recovered in the bounded lookup.",
+    "download_sha256": "31ec7dcf97240c6df7b8df0a60a964d33600df7019e07cb953101d022062d0d5",
+    "download_bytes": 166081,
+    "pdf_pages": 2,
+    "topic_register": "club-governance-sources.json"
+  },
+  {
+    "id": "governance-club-elections-2024",
+    "title": "DGE subject-club office-bearer election circular, 2024-07-04, public mirror",
+    "url": "https://drive.google.com/file/d/1xFyEOGcgXYAPvrp0rYz94ZFUydiE5Y7t/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1xFyEOGcgXYAPvrp0rYz94ZFUydiE5Y7t",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_department_circular",
+    "document_date": "2024-07-04",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "file_reference_as_printed": "Y1/10095/2024/DGE; e-file DGE/10095/2024-Y1",
+    "dispatch_reference_as_printed": "I/811776/2024",
+    "visible_signature_block": {
+      "name": "Shinemon M K",
+      "date": "2024-07-04",
+      "time": "15:31:33",
+      "designation": "Additional Director (Academic)"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validation performed.",
+    "streams_as_printed": [
+      "Science",
+      "Mathematics",
+      "Social Science",
+      "Work Experience"
+    ],
+    "club_terms_as_printed": {
+      "school_years": 1,
+      "subdistrict_years": 2,
+      "revenue_district_years": 2
+    },
+    "directed_targets": {
+      "subdistrict_election_by": "2024-07-10",
+      "district_election_by": "2024-07-12",
+      "secretary_particulars_by": "2024-07-15"
+    },
+    "notes": "Both pages read visually and independently checked. AEOs convene the general body of new school-club office-bearers and elect subdistrict office-bearers; DDEs convene the new subdistrict general body and elect district office-bearers. Working committees are to be constituted per the manual and secretaries’ particulars reported. Targets do not prove elections occurred or identify appointed office-bearers. School-election completion is not the stated meaning of the subdistrict target. Four subject streams only; no IT/Little Kites or state-club term supplied. Public mirror hosting is distinct from the visible departmental document; an original government-hosted copy was not recovered in the bounded lookup.",
+    "download_sha256": "1599a7eee33e2c59df866f773cff36425d4e439c23e32ae306b205827cd524a1",
+    "download_bytes": 155142,
+    "pdf_pages": 2,
+    "topic_register": "club-governance-sources.json"
   },
   {
     "id": "core-root-2026",
@@ -629,6 +742,129 @@
     "topic_register": "district-status-sources.json"
   },
   {
+    "id": "early-administration-001",
+    "title": "School Science, Vol. IV No. 4, December 1965: Workshop of Science Club Sponsors",
+    "url": "https://archive.org/download/dli.ernet.231487/231487-School%20Science%20Vol-04.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.231487",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.231487",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_official_journal_news_archived_copy",
+    "publisher": "National Council of Educational Research and Training (NCERT), Department of Science Education",
+    "issue_date_as_printed": "December 1965",
+    "document_date": null,
+    "event_date_start": "1965-12-19",
+    "event_date_end": "1965-12-28",
+    "event_scope": "Interstate science-club sponsors' teacher workshop held in Madras; not a Kerala science fair",
+    "pdf_pages": 369,
+    "download_bytes": 21144029,
+    "download_sha256": "c2fe241b8762cf353d554c9ab3f57b037bf8e20d7dafee478b02d345e6192e18",
+    "archival_provenance": "Internet Archive item identifies Digital Library of India, C-DAC Noida scanning centre and NCERT source library. The bound-volume scan contains the original December 1965 issue cover and contents; accession/upload dates are not publication dates.",
+    "locators": [
+      {
+        "pdf_page": 289,
+        "printed_page": null,
+        "supports": "December 1965 issue cover, Vol. IV No. 4"
+      },
+      {
+        "pdf_page": 293,
+        "printed_page": null,
+        "supports": "Issue contents assign News and Notes to printed page 329"
+      },
+      {
+        "pdf_page": 361,
+        "printed_page": 329,
+        "supports": "Workshop dates, Madras venue, three participating states, 21 combined teachers, practical training and more than 100 project outlines intended for later school trials",
+        "page_number_note": "The first News and Notes page has no visible page numeral; contents and the following printed 330 establish printed 329."
+      },
+      {
+        "pdf_page": 362,
+        "printed_page": 330,
+        "supports": "Printed-page sequence check"
+      }
+    ],
+    "review_scope": "Visually checked issue covers, contents, workshop page and following page; OCR/XML were used to locate passages. This is not a claim of exhaustive visual review of all 369 pages.",
+    "notes": "Reports participation from Mysore, Kerala and Madras at Madras Christian College High School, 19–28 December 1965. The 21 teachers are a three-state total; no Kerala subtotal or names are supplied. Project trials are prospective. The issue month is not an exact release date. This neither locates a fair in Kerala nor establishes a statewide inauguration.",
+    "topic_register": "early-administration-sources.json"
+  },
+  {
+    "id": "early-administration-002",
+    "title": "School Science, Vol. V No. 1, March 1967: Biology in Indian High Schools",
+    "url": "https://archive.org/download/dli.ernet.231488/231488-School%20Science%20Vol-05.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.231488",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.231488",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_authored_survey_in_official_journal_archived_copy",
+    "publisher": "National Council of Educational Research and Training (NCERT)",
+    "authors_as_printed": [
+      "B. M. Johri",
+      "Manohar Lal"
+    ],
+    "author_affiliation_as_printed": "Department of Botany, University of Delhi, Delhi",
+    "issue_date_as_printed": "March 1967",
+    "document_date": null,
+    "paper_presentation_date_start": "1966-12-04",
+    "paper_presentation_date_end": "1966-12-10",
+    "paper_presentation_event": "First Asian Regional Conference on School Biology, Manila",
+    "event_scope": "National science-education survey with 1962–63 through 1965–66 fair totals; not a Kerala-specific programme or order",
+    "pdf_pages": 354,
+    "download_bytes": 19445888,
+    "download_sha256": "c06dcba032adadec4ecae2265e28ca193d616f1913c67357d631a34bd02a2c2b",
+    "archival_provenance": "Internet Archive item identifies Digital Library of India, C-DAC Noida scanning centre and NCERT source library. Original issue contents establish March 1967, independently of scan/upload dates.",
+    "locators": [
+      {
+        "pdf_page": 3,
+        "printed_page": null,
+        "supports": "Vol. V No. 1, March 1967 contents"
+      },
+      {
+        "pdf_page": 40,
+        "printed_page": 30,
+        "supports": "Article title, authors, affiliation and December 1966 Manila conference footnote",
+        "page_number_note": "Article-opening page number is established by contents and the consecutive following pages."
+      },
+      {
+        "pdf_page": 46,
+        "printed_page": 36,
+        "supports": "Source-wording anomaly: science-club initiation printed as 1967–68 in a March 1967 issue"
+      },
+      {
+        "pdf_page": 47,
+        "printed_page": 37,
+        "supports": "National science-fair programme account and district/state/regional totals for 1962–63 to 1965–66"
+      }
+    ],
+    "fair_totals_as_printed": [
+      {
+        "cycle": "1962–63",
+        "district": "—",
+        "state": "—",
+        "regional": 56
+      },
+      {
+        "cycle": "1963–64",
+        "district": "—",
+        "state": 2,
+        "regional": 80
+      },
+      {
+        "cycle": "1964–65",
+        "district": 283,
+        "state": 2,
+        "regional": 77
+      },
+      {
+        "cycle": "1965–66",
+        "district": 264,
+        "state": 5,
+        "regional": 79
+      }
+    ],
+    "source_wording_note": "Dashes in the table are retained, not converted to zeros. Printed 36/PDF 46 says science-club activities were initiated in 1967–68, despite the March 1967 issue date; that clause is preserved as an anomaly, not corrected or used as a founding-date fact.",
+    "review_scope": "Visually checked issue contents, article attribution/conference footnote, printed 36 and printed 37. OCR/XML aided discovery; the full bound volume has not received exhaustive visual review.",
+    "notes": "A contemporary survey published by NCERT, rather than original 1960 council minutes or a Kerala government administration order. Five state fairs are listed for 1965–66 but the states are unnamed. Neither that total nor the nearby national Central Science Club count establishes a Kerala statewide fair inaugural year or proves that Kerala's contemplated club opened.",
+    "topic_register": "early-administration-sources.json"
+  },
+  {
     "id": "historical-editions-001",
     "title": "State Sasthrolsavam 2012–13: original Kozhikode programme",
     "url": "https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
@@ -646,6 +882,22 @@
     "event_date_start": "2012-11-26",
     "event_date_end": "2012-11-30",
     "review_scope": "All eight PDF pages visually reviewed; no participant-level transcription.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20121202015206",
+      "cached_body_sha1_base32": "RMAU6ODQXM6YO7OFC3DCMYGEHKM2SPYI",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+        "memento_datetime": "Sun, 02 Dec 2012 01:52:06 GMT",
+        "memento_timestamp": "20121202015206",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -665,6 +917,22 @@
     "event_date_start": "2013-11-25",
     "event_date_end": "2013-11-29",
     "review_scope": "All four PDF pages visually reviewed.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20131203221417",
+      "cached_body_sha1_base32": "MPLWQFERI667LGKERVPGB6UXSKA2GUL4",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+        "memento_datetime": "Tue, 03 Dec 2013 22:14:17 GMT",
+        "memento_timestamp": "20131203221417",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -685,6 +953,22 @@
     "event_date_end": "2014-11-30",
     "same_document_source_id": "history-2014-programme",
     "review_scope": "All four PDF pages visually reviewed; raw bytes compared with earlier mirrored copy.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161108091054",
+      "cached_body_sha1_base32": "MYTWNMWCA56CTMOXI2TP6TTC3SR2IJYT",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20161108091054id_/http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+        "memento_datetime": "Tue, 08 Nov 2016 09:10:54 GMT",
+        "memento_timestamp": "20161108091054",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -704,6 +988,22 @@
     "event_date_start": "2017-11-23",
     "event_date_end": "2017-11-26",
     "review_scope": "Both PDF pages visually reviewed.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171209053339",
+      "cached_body_sha1_base32": "MBH2VYT5OZFECNGVDP6QOQMLGWHQT6HW",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+        "memento_datetime": "Sat, 09 Dec 2017 05:33:39 GMT",
+        "memento_timestamp": "20171209053339",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -725,6 +1025,22 @@
     "item_code_min_as_printed": 201,
     "item_code_max_as_printed": 278,
     "review_scope": "All 85-page item-code/heading structure extracted; selected pages 1,19,41,60,85 visually reviewed. No individual placement audit.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20140215002049",
+      "cached_body_sha1_base32": "AIXV3CVSZNGBFCEBKOF3HDJPY7NA7FU7",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20140215002049id_/http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+        "memento_datetime": "Sat, 15 Feb 2014 00:20:49 GMT",
+        "memento_timestamp": "20140215002049",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -742,6 +1058,22 @@
     "notes": "Capture 27 November 2017. Populated Science Fair District Overall Champion table names Ernakulam UP 44,HS 68,HSS 54,total 166; runners-up Kannur 52/58/55=165 and Palakkad 52/58/54=164. All 14 district rows appear across champion/runners-up tables. PHP undefined item_code notices do not erase populated cells, but remain source defects. Page title still says 2016–17 despite site 17 navigation, 2017 capture context and the original 2017 programme; do not conceal mismatch. Separate completion-status capture 29 November lists all Science items complete. Captures are not one atomic database export. No signed statement or whole-festival winner established.",
     "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
     "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171127011100",
+      "cached_body_sha1_base32": "22O37O6U2HRUQELT5FQ7JWEYTMVPOMG3",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171127011100id_/http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+        "memento_datetime": "Mon, 27 Nov 2017 01:11:00 GMT",
+        "memento_timestamp": "20171127011100",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -759,6 +1091,22 @@
     "notes": "Capture 27 November 2017. IT District Overall Champion table names Kannur HS 61,HSS 52,total 113; runners-up Malappuram 59/51=110 and Kozhikode 56/52=108. Fourteen district rows. PHP undefined item_code notices and stale 2016–17 page title remain; site 17 navigation and programme provide edition context. Completion status captured 28 November lists 11 of 11 IT items complete. Not a Science Fair or whole-festival championship; no signed statement recovered.",
     "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
     "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171127011750",
+      "cached_body_sha1_base32": "GIBFH5Y6YXS343IVDYWHJGSUZOATRGS5",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171127011750id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+        "memento_datetime": "Mon, 27 Nov 2017 01:17:50 GMT",
+        "memento_timestamp": "20171127011750",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -776,6 +1124,22 @@
     "notes": "Capture 27 November 2018, distinct from the earlier backend endpoint that returned Result Not Prepared. The populated public site 18 Science Fair District Overall Champion table names Malappuram HS 68,HSS 56,total 124; runners-up Thrissur 58/60=118 and Kannur 61/56=117. Fourteen district rows. UP header remains but all UP cells are blank; do not invent zeros or an UP-inclusive total. PHP undefined item_code notices remain. Separate status capture 28 November lists UP 2/2,HS 10/10,HSS 7/7 complete; it does not explain blank UP cells, changes between captures or appeal status. Published stream-champion evidence, not a signed consolidated book or whole-festival result.",
     "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
     "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181127181941",
+      "cached_body_sha1_base32": "GVZOJHTWHKD2GRF7ZJPVDANSLWD4IO7Q",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181127181941id_/http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+        "memento_datetime": "Tue, 27 Nov 2018 18:19:41 GMT",
+        "memento_timestamp": "20181127181941",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -793,6 +1157,22 @@
     "notes": "Capture 27 November 2018. IT District Overall Champion table names Malappuram HS 72,HSS 64,total 136; runners-up Kozhikode 66/51=117 and Wayanad 55/47=102. Fourteen district rows; PHP undefined item_code notices remain. Separate status capture 28 November lists HS 6/6 and HSS 5/5 complete. This is an IT stream result, not Science Fair, a whole-festival championship, signed final book or verification of every individual result.",
     "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
     "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181127181916",
+      "cached_body_sha1_base32": "VMQKXH5CNG45JRQOIOPQ4ZGJICQNQUIQ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181127181916id_/http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+        "memento_datetime": "Tue, 27 Nov 2018 18:19:16 GMT",
+        "memento_timestamp": "20181127181916",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -828,6 +1208,22 @@
         "not_completed": 0
       }
     ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171129105139",
+      "cached_body_sha1_base32": "LBCP3S4FM4KVHGC5F5NOVNSI3SUSMQUZ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171129105139id_/http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+        "memento_datetime": "Wed, 29 Nov 2017 10:51:39 GMT",
+        "memento_timestamp": "20171129105139",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -857,6 +1253,22 @@
         "not_completed": 0
       }
     ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171128013919",
+      "cached_body_sha1_base32": "TVMIPTGK3JUYXVPHZXNUMXXVRLSJ5DU6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171128013919id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+        "memento_datetime": "Tue, 28 Nov 2017 01:39:19 GMT",
+        "memento_timestamp": "20171128013919",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -892,6 +1304,22 @@
         "not_completed": 0
       }
     ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181128230906",
+      "cached_body_sha1_base32": "VJK6ZSYBYGQT7DFWYJEHK5MJKYIIW572",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181128230906id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+        "memento_datetime": "Wed, 28 Nov 2018 23:09:06 GMT",
+        "memento_timestamp": "20181128230906",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -921,6 +1349,22 @@
         "not_completed": 0
       }
     ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181128230750",
+      "cached_body_sha1_base32": "3RBZEDGR5CPIROI2DW6P2QT7R5BQY57D",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181128230750id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+        "memento_datetime": "Wed, 28 Nov 2018 23:07:50 GMT",
+        "memento_timestamp": "20181128230750",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    },
     "topic_register": "historical-editions-sources.json"
   },
   {
@@ -935,6 +1379,94 @@
     "download_sha256": "35ef2badfda42406594ca716f2117a180a9351aefcfbb4b98454908fe4835520",
     "notes": "Contemporary secondary closing report headed ശാസ്ത്രമേളയിൽ മലപ്പുറം; published 26 November 2018 and updated 7 December 2018. Describes closure at Kannur and a Malappuram title; explicitly gives Work Experience marks Malappuram 29509,Kozhikode 29393,Kannur 29244. Science Malappuram 124,Thrissur 118,Kannur 117 and IT Malappuram 136,Kozhikode 117,Wayanad 102 match newly recovered archived public tables. Newspaper Maths Kozhikode 226 and Social Science Malappuram 129 differ from the 27 November public tables 276 and 144 respectively; no explanation or harmonisation established. Do not promote these as one certified consolidated total. Report calls festival two days, while programme includes 23 November quizzes; preserve distinction between main exhibition and full programme. No certified whole-festival numeric statement supplied.",
     "topic_register": "historical-editions-sources.json"
+  },
+  {
+    "id": "historical-science-circular-001",
+    "title": "DGE circular Y1/12030/2024/DGE, 19 October 2024: 2024–25 Sasthrolsavam club competitions and named Science topics",
+    "url": "https://drive.google.com/file/d/1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL/view?usp=sharing",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_departmental_circular",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "document_date": "2024-10-19",
+    "file_number_as_printed": "Y1/12030/2024/DGE",
+    "eoffice_document_identifier": "I/959995/2024",
+    "academic_year_as_printed": "2024-25",
+    "pdf_pages": 12,
+    "download_bytes": 231267,
+    "download_sha256": "9120fd79819b432e105f6980411976fc0d33d1d3337dbfc2a7525bf7032f05e7",
+    "download_acquisition": {
+      "request_url": "https://drive.google.com/uc?export=download&id=1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL",
+      "method": "GET",
+      "http_status": 200,
+      "headers_sha256": "f036b29a2c1e7283fc31e15d0323f7e304fb2a6cfeeb62dcf2c5f5ea33078599",
+      "response_content_type": "application/octet-stream",
+      "verified_file_format": "PDF"
+    },
+    "discovery_page_url": "https://almakthab.blogspot.com/p/sasthrolsavam.html",
+    "provenance_limit": "Public Google Drive reproduction discovered through a teacher index. The body bears the DGE/eOffice identifiers and visible signature block; no matching original-hosted body was located in the inspected October 2024 departmental posts. The mirror is not a separate official publisher.",
+    "visible_signature_block": {
+      "name_as_printed": "Santhosh C A",
+      "date_time_as_printed": "19-10-2024 22:46:24",
+      "pdf_page_1based": 12,
+      "validation_scope": "Visible block inspected; cryptographic signature validity not tested."
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Header/date; planned Alappuzha festival and district deadline; separately named NCERT one-day seminar."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "State Science Talent Search date/place and separate HS/HSS topics; state C. V. Raman essay date/place and earlier deadlines. The paragraph gives essay 7 November and says it runs alongside Talent Search, whose earlier paragraph gives 8 November."
+      },
+      {
+        "pdf_pages_1based": [
+          3,
+          4
+        ],
+        "scope": "C. V. Raman essay progression and format, reference period, AI-website restriction, writing/interaction and evaluation basis."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Essay topics for school/subdistrict/revenue-district HS/HSS stages; state topic is separately provided at competition time."
+      },
+      {
+        "pdf_pages_1based": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "scope": "Separate Mathematics Ramanujan Paper Presentation and Bhaskaracharya Seminar directions, topics and rubrics."
+      },
+      {
+        "pdf_pages_1based": [
+          10,
+          11,
+          12
+        ],
+        "scope": "Separate Mathematics and Social Science Talent Search sections; circulation and visible signature."
+      }
+    ],
+    "review_scope": "All twelve PDF pages rendered and read visually. Text extraction has damaged Malayalam glyphs; claims use the page images. No source PDF or render is copied into the repository.",
+    "scope_notes": [
+      "Historical 2024–25 item-specific directions, not current 2026 entry instructions.",
+      "The ChatGPT/AI-assisted-website restriction appears within C. V. Raman essay directions; no prepared Science Working Model prohibition is inferred.",
+      "Mathematics Talent Search question counts on PDF10–12 must not be transferred to Science Talent Search.",
+      "The circular contains planned dates and event requirements; it is not proof of completion, a championship certificate or an explanation for changed result tables.",
+      "The printed English essay topic on PDF4 says Green energy and environment conversion, while the Malayalam wording concerns conservation; retain the difference rather than silently editing the source.",
+      "Internal PDF2 date inconsistency: Talent Search is dated 8 November and the essay 7 November, while the essay paragraph says it runs alongside the Talent Search examination. Neither date is silently corrected and a common day is not inferred."
+    ],
+    "notes": "Public Drive reproduction of the dated 19 October 2024 DGE circular; all 12 pages rendered and read visually. Science Talent Search/C. V. Raman dates, topics and essay reference conditions are historical item directions. The essay-only AI website restriction is not a 2026 Working Model rule. Printed 7/8 November dates and alongside wording remain inconsistent. Later Mathematics/Social Science formats are separate. Visible signature inspected, not cryptographically validated; no official-hosted body or final championship statement recovered.",
+    "topic_register": "historical-science-circular-sources.json"
   },
   {
     "id": "history-origin-2022",
@@ -1264,6 +1796,23 @@
     "source_type": "archived_government_document",
     "document_date": "2009-10-22",
     "notes": "102-page government manual; foreword dated 22 October 2009 on printed pages 3–4, issued under Secretary, General Education Department. Describes HSS/VHSS inclusion and integrated organisation of four fairs. Printed page 5 supersedes previous manuals; not the first-ever manual. Downloaded and visually reviewed. Official-site capture dated 12 November 2011. Byte-identical to WordPress mirror; SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20111112000353",
+      "cached_body_sha1_base32": "BPHOFORLOSOMQVFGCS4GQV3YJSEXAHM6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20111112000353id_/http://schoolsasthrolsavam.in:80/sciencefair_manual.pdf",
+        "memento_datetime": "Sat, 12 Nov 2011 00:03:53 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
+    "download_sha256": "a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979",
+    "download_bytes": 603009,
+    "pdf_pages": 102,
     "topic_register": "history-sources.json"
   },
   {
@@ -1503,6 +2052,20 @@
     "bytes": 14688,
     "sha256": "1b7d36d42083f926edb295e6473c574eddb07e508e8e099fb52ba11e65e1559e",
     "notes": "Archived official festival URL captured 19 November 2016. One-page report rendered and visually checked; header state Science Drama, Palakkad, event 26 October 2016; generated 27 October 2016 at 09:44 am. All Results scoped to HS item 124 Science Drama, 24 listed rows. Separate October phase, not the November overall festival championship. No later appeal/revision evidence obtained. No individual-student table transcribed into repository.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161119015054",
+      "cached_body_sha1_base32": "DCPEX7ACPY6HMLBAG3VD6XHZVZPRZAF6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20161119015054id_/http://schoolsasthrolsavam.in:80/2016/science_drama_result.pdf",
+        "memento_datetime": "Sat, 19 Nov 2016 01:50:54 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
     "topic_register": "history-sources.json"
   },
   {
@@ -1546,6 +2109,22 @@
     "source_type": "archived_empty_result_endpoint",
     "document_date": null,
     "notes": "Capture dated 28 November 2016. Retrieved body contains PHP undefined-variable schools notices and Try later Points are Not Ready. No usable point table or champion identified. Investigated access/data failure only, not evidence for final result, cancellation, or why data is unavailable.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161128000132",
+      "cached_body_sha1_base32": "BLLFGPTGR2UK5HIKQOQ27PSCRSEUX53G",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20161128000132id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state16/index.php/publishresult/resultindex/schoolpoints",
+        "memento_datetime": "Mon, 28 Nov 2016 00:01:32 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
+    "download_sha256": "b73b763285828e2bc2a79d659e447869023e6c0d38bd9e5f0e5d66e32ca3281e",
+    "download_bytes": 1486,
     "topic_register": "history-sources.json"
   },
   {
@@ -1607,6 +2186,20 @@
     "bytes": 346809,
     "sha256": "fa535ae1cae884b8023c464943e3053004187b36ea1ec88ad31535af279d4b05",
     "notes": "Original festival URL recovered from public Internet Archive CDX index; archive capture 30 November 2016 at 12:50:05 UTC. HTTP 200 application/pdf; archived original server Last-Modified 21 November 2016 at 04:37:26 UTC. PDF metadata LibreOffice 4.2, creation 19 November 2016 at 14:44:14 +05:30; metadata and server dates are not an explicit issue date. Both pages rendered and visually compared with history-2016-programme-scan. Same visible programme text, dates, named programme committee and venues, but different PDF artifact, wider margins and no CamScanner watermark; not claimed byte-identical. Page 1 header schedules 23–27 November 2016 at Shoranur; Science venue Theresa's HSS Shoranur, Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2 IT venue St Theresa High School, timetable 25–27 November and scheduled closing 27 November. Scheduled allocations do not themselves prove completion.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161130125005",
+      "cached_body_sha1_base32": "LK23722CYFYLCDBIJ6QU6R2PQF53NYLJ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": true,
+      "header_observation": {
+        "evidence_kind": "original acquired GET header",
+        "effective_url": "https://web.archive.org/web/20161130125005id_/http://www.schoolsasthrolsavam.in:80/site16/doc/schedules/programeschedul.pdf",
+        "memento_datetime": "Wed, 30 Nov 2016 12:50:05 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
     "topic_register": "history-sources.json"
   },
   {
@@ -4564,6 +5157,16 @@
     "download_bytes": 27932804,
     "pdf_pages": 14,
     "received_file_complete": false,
+    "follow_up_retrieval": {
+      "checked_on": "2026-11-01",
+      "ordinary_tls_verified": true,
+      "complete_http_download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
+      "download_bytes": 27932804,
+      "pdf_pages": 14,
+      "same_as_previous_file": true,
+      "received_file_complete": false,
+      "scope": "Fresh full ordinary HTTP retrieval matches the same discontinuous14-page file; no complete publication was recovered. The reviewed official archive links2009–2017; bounded public university/InternetArchive title searches supplied no new annual book body. Absence of a link/search match is not absence of publication."
+    },
     "topic_register": "project-sources.json"
   },
   {
@@ -4681,6 +5284,556 @@
       "pdf_pages": 113
     },
     "topic_register": "project-sources.json"
+  },
+  {
+    "id": "result-reconciliation-001",
+    "title": "KITE 2019 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2019,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20220929212655"
+    ],
+    "snapshot_ids": [
+      "result-version-2019-district-20220929212655"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20220929212655",
+        "actual_archive_capture": "20220929212655",
+        "actual_memento_datetime_utc": "2022-09-29T21:26:55Z",
+        "memento_datetime_header": "Thu, 29 Sep 2022 21:26:55 GMT",
+        "http_status": 200,
+        "response_bytes": 18907,
+        "response_sha256": "62162d79335d9f73a0c405489efdb6cb3de31737220fd9356f93ce4ac52c0daa",
+        "headers_sha256": "ec478253ccf01f4515727fd93d0c91c8904f2beb179ada4a6f74c4eca4c22cfe",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 18907,
+        "decoded_body_sha256": "62162d79335d9f73a0c405489efdb6cb3de31737220fd9356f93ce4ac52c0daa"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-002",
+    "title": "KITE 2019 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2019,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20220929214839"
+    ],
+    "snapshot_ids": [
+      "result-version-2019-school-20220929214839"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20220929214839",
+        "actual_archive_capture": "20220929214839",
+        "actual_memento_datetime_utc": "2022-09-29T21:48:39Z",
+        "memento_datetime_header": "Thu, 29 Sep 2022 21:48:39 GMT",
+        "http_status": 200,
+        "response_bytes": 703731,
+        "response_sha256": "84dc9b11b298990d88c29c29bee4c4b5083ceba1afe50899b646d36604e209e3",
+        "headers_sha256": "5d8bb6568130b72138e1c3ac54fc6935a0fca033d450de3d006ed2bc653e23e9",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 703731,
+        "decoded_body_sha256": "84dc9b11b298990d88c29c29bee4c4b5083ceba1afe50899b646d36604e209e3"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-003",
+    "title": "KITE 2022 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20221126163317",
+      "20230402091852"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-district-20221126163317",
+      "result-version-2022-district-20230402091852"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20221126163317",
+        "actual_archive_capture": "20221126163317",
+        "actual_memento_datetime_utc": "2022-11-26T16:33:17Z",
+        "memento_datetime_header": "Sat, 26 Nov 2022 16:33:17 GMT",
+        "http_status": 200,
+        "response_bytes": 19054,
+        "response_sha256": "d3793b38b4d012b232fcb013a93e651a45db9a5983c94c0742f0e52de0ee0e05",
+        "headers_sha256": "6a0bdbe09a785a1ac94cfc9bb28bb71f3f53c5d3333c9261f80ae2293bbf2f26",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19054,
+        "decoded_body_sha256": "d3793b38b4d012b232fcb013a93e651a45db9a5983c94c0742f0e52de0ee0e05"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20230402091852id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20230402091852id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20230402091852",
+        "actual_archive_capture": "20230402091852",
+        "actual_memento_datetime_utc": "2023-04-02T09:18:52Z",
+        "memento_datetime_header": "Sun, 02 Apr 2023 09:18:52 GMT",
+        "http_status": 200,
+        "response_bytes": 19054,
+        "response_sha256": "850ee50000d54102cbe51edc814b885445e323c1cd720311350f8c2ba31098ca",
+        "headers_sha256": "03fa202399e52fe4f0f636986160c9fa58dc8633999f00a7907ec87d607aac5a",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19054,
+        "decoded_body_sha256": "850ee50000d54102cbe51edc814b885445e323c1cd720311350f8c2ba31098ca"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-004",
+    "title": "KITE 2022 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20221126154432",
+      "20230402083444"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-school-20221126154432",
+      "result-version-2022-school-20230402083444"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20221126154432",
+        "actual_archive_capture": "20221126154432",
+        "actual_memento_datetime_utc": "2022-11-26T15:44:32Z",
+        "memento_datetime_header": "Sat, 26 Nov 2022 15:44:32 GMT",
+        "http_status": 200,
+        "response_bytes": 736063,
+        "response_sha256": "92bbd5e3d94a39efd132a1d64ebfc6fc219347f9a0de10cc17b6be31bc9ff4d6",
+        "headers_sha256": "3ef9ac1e3eab01da2bc7e5ca06cd6781fc37017db67ad47f638adbfcb269a09a",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 736063,
+        "decoded_body_sha256": "92bbd5e3d94a39efd132a1d64ebfc6fc219347f9a0de10cc17b6be31bc9ff4d6"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20230402083444id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20230402083444id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20230402083444",
+        "actual_archive_capture": "20230402083444",
+        "actual_memento_datetime_utc": "2023-04-02T08:34:44Z",
+        "memento_datetime_header": "Sun, 02 Apr 2023 08:34:44 GMT",
+        "http_status": 200,
+        "response_bytes": 708063,
+        "response_sha256": "4e7c63a8bf3a22db57334a02653f9eb14015ae1c6c642c48f39ee4ae86d1f45e",
+        "headers_sha256": "82b83409830ebe516934aca0b61b88627b5783ffd810738b45efa8d99d655907",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 708063,
+        "decoded_body_sha256": "4e7c63a8bf3a22db57334a02653f9eb14015ae1c6c642c48f39ee4ae86d1f45e"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-005",
+    "title": "KITE 2022 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20230128204830"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-landing-20230128204830"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+        "requested_archive_capture": "20230128204830",
+        "actual_archive_capture": "20230128204830",
+        "actual_memento_datetime_utc": "2023-01-28T20:48:30Z",
+        "memento_datetime_header": "Sat, 28 Jan 2023 20:48:30 GMT",
+        "http_status": 200,
+        "response_bytes": 43512,
+        "response_sha256": "c2ef9905191b28e05f646af1bbfae78d04ba0fc73f0702b6abe4b212189a2979",
+        "headers_sha256": "cd6952b845ac4909b5ac9e2d29fe9c81af61cda6a2bcc218873e69819470162d",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43512,
+        "decoded_body_sha256": "c2ef9905191b28e05f646af1bbfae78d04ba0fc73f0702b6abe4b212189a2979"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-006",
+    "title": "KITE 2023 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20231207131226"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-landing-20231207131226"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+        "requested_archive_capture": "20231207131226",
+        "actual_archive_capture": "20231207131226",
+        "actual_memento_datetime_utc": "2023-12-07T13:12:26Z",
+        "memento_datetime_header": "Thu, 07 Dec 2023 13:12:26 GMT",
+        "http_status": 200,
+        "response_bytes": 43826,
+        "response_sha256": "8e889c0cedaa9c7eb23b9dc12e9f13b138e997c8448a0125ca732b72c6abf25f",
+        "headers_sha256": "0f62cf35996e302b1ea27a858b0620c5b4d401aed739c4735a022fb4c3849194",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43826,
+        "decoded_body_sha256": "8e889c0cedaa9c7eb23b9dc12e9f13b138e997c8448a0125ca732b72c6abf25f"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-007",
+    "title": "KITE 2023 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20240615070504"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-district-20240615070504"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20240615070504",
+        "actual_archive_capture": "20240615070504",
+        "actual_memento_datetime_utc": "2024-06-15T07:05:04Z",
+        "memento_datetime_header": "Sat, 15 Jun 2024 07:05:04 GMT",
+        "http_status": 200,
+        "response_bytes": 19331,
+        "response_sha256": "7ac2d2be92f46a9072eb6971c00146671543d3521a423266c22a5c3384e2e431",
+        "headers_sha256": "8c14297cf500ba579646864f9e76bb2a3aaa0d29e64b9fb314fb695c57e7b7ef",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19331,
+        "decoded_body_sha256": "7ac2d2be92f46a9072eb6971c00146671543d3521a423266c22a5c3384e2e431"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-008",
+    "title": "KITE 2023 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20241111020135"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-school-20241111020135"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20241111020135",
+        "actual_archive_capture": "20241111020135",
+        "actual_memento_datetime_utc": "2024-11-11T02:01:35Z",
+        "memento_datetime_header": "Mon, 11 Nov 2024 02:01:35 GMT",
+        "http_status": 200,
+        "response_bytes": 719867,
+        "response_sha256": "45459f395086a7d5ef73f04dbda720ed6ae23d053de66df1dd14795946f04f15",
+        "headers_sha256": "9a85a884b05edbdaf45f9c563b162f2fb172def3ab49e194176e9d2d20416c6f",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 719867,
+        "decoded_body_sha256": "45459f395086a7d5ef73f04dbda720ed6ae23d053de66df1dd14795946f04f15"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-009",
+    "title": "KITE 2024 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20241202104858",
+      "20250501035117",
+      "20250523120125"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-landing-20241202104858",
+      "result-version-2024-landing-20250501035117",
+      "result-version-2024-landing-20250523120125"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20241202104858",
+        "actual_archive_capture": "20241202104858",
+        "actual_memento_datetime_utc": "2024-12-02T10:48:58Z",
+        "memento_datetime_header": "Mon, 02 Dec 2024 10:48:58 GMT",
+        "http_status": 200,
+        "response_bytes": 43984,
+        "response_sha256": "14c1eb7f40accbed013a601cbdcc86d7623d61e78a719bfcb2e1a67185253508",
+        "headers_sha256": "2fce961b558846512d94338d4b1dc0acdd38659c21f10c076f6cddeaf5333911",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43984,
+        "decoded_body_sha256": "14c1eb7f40accbed013a601cbdcc86d7623d61e78a719bfcb2e1a67185253508"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250501035117id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20250501035117id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20250501035117",
+        "actual_archive_capture": "20250501035117",
+        "actual_memento_datetime_utc": "2025-05-01T03:51:17Z",
+        "memento_datetime_header": "Thu, 01 May 2025 03:51:17 GMT",
+        "http_status": 200,
+        "response_bytes": 43983,
+        "response_sha256": "c0fe3e27ccb42bbc64501c77048d047493ee64ad6c98da2ce188b3964ed6d8a3",
+        "headers_sha256": "8ce080751e99c941d2972ebb54e06c377560ae685e592e6baf4b836c854babc7",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43983,
+        "decoded_body_sha256": "c0fe3e27ccb42bbc64501c77048d047493ee64ad6c98da2ce188b3964ed6d8a3"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250523120125id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20250523120125id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20250523120125",
+        "actual_archive_capture": "20250523120125",
+        "actual_memento_datetime_utc": "2025-05-23T12:01:25Z",
+        "memento_datetime_header": "Fri, 23 May 2025 12:01:25 GMT",
+        "http_status": 200,
+        "response_bytes": 43983,
+        "response_sha256": "b0af29215f711effe249b273cb7118014a6e88a8ad1214985032c97f522733cd",
+        "headers_sha256": "26ae55311c996fc99cdf0370b0dbc5f78df630a74b0bbbc8ea3d35d225f29201",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43983,
+        "decoded_body_sha256": "b0af29215f711effe249b273cb7118014a6e88a8ad1214985032c97f522733cd"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-010",
+    "title": "KITE 2024 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20250418095116id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20250418095116",
+      "20250908020643"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-district-20250418095116",
+      "result-version-2024-district-20250908020643"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241210213558id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250418095116id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20241210213558",
+        "actual_archive_capture": "20250418095116",
+        "actual_memento_datetime_utc": "2025-04-18T09:51:16Z",
+        "memento_datetime_header": "Fri, 18 Apr 2025 09:51:16 GMT",
+        "http_status": 200,
+        "response_bytes": 19510,
+        "response_sha256": "bc83ab4668f49408248ed5379f46f3afa8e2cf11cc71cb724ef589ade578e8ac",
+        "headers_sha256": "ee3f2eaf8481c008c5a6405bb4169ad4dd277350baf99ff87d260b6c2a8a2e1b",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19510,
+        "decoded_body_sha256": "bc83ab4668f49408248ed5379f46f3afa8e2cf11cc71cb724ef589ade578e8ac"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250908020643id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250908020643id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250908020643",
+        "actual_archive_capture": "20250908020643",
+        "actual_memento_datetime_utc": "2025-09-08T02:06:43Z",
+        "memento_datetime_header": "Mon, 08 Sep 2025 02:06:43 GMT",
+        "http_status": 200,
+        "response_bytes": 3791,
+        "response_sha256": "d3e540c477df97dc12cff285e5820b7b996adbca9708e036ba71a02e5516941a",
+        "headers_sha256": "f8fe7a3fe12d7bd813b8662a0b651229dfb941082bf842626e4a8f4591fdf56e",
+        "content_encoding": "gzip",
+        "decoded_body_bytes": 19509,
+        "decoded_body_sha256": "5f5ad76844d77746673ae87a5af8fcc167553538da1e5c42185a0b7879c6e198"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-011",
+    "title": "KITE 2024 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20250417154755",
+      "20250909232447"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-school-20250417154755",
+      "result-version-2024-school-20250909232447"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250417154755",
+        "actual_archive_capture": "20250417154755",
+        "actual_memento_datetime_utc": "2025-04-17T15:47:55Z",
+        "memento_datetime_header": "Thu, 17 Apr 2025 15:47:55 GMT",
+        "http_status": 200,
+        "response_bytes": 721992,
+        "response_sha256": "782410aa0c14b97befbdb9e045216a3e707c95b50831d807e3bdad16972f3788",
+        "headers_sha256": "778f527544d887e11741c3570c06c14d018781209606e4f781cc77dd18a2ba57",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 721992,
+        "decoded_body_sha256": "782410aa0c14b97befbdb9e045216a3e707c95b50831d807e3bdad16972f3788"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250909232447id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250909232447id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250909232447",
+        "actual_archive_capture": "20250909232447",
+        "actual_memento_datetime_utc": "2025-09-09T23:24:47Z",
+        "memento_datetime_header": "Tue, 09 Sep 2025 23:24:47 GMT",
+        "http_status": 200,
+        "response_bytes": 52008,
+        "response_sha256": "6cec01ddb5ebd8b49f08fe1fa355a6ae9507f37c9014fe55410110eea56aab3a",
+        "headers_sha256": "4b21a2efd397e532554b0f98a5fd3a3758f1b5aba6ed991468c1e028a4e5dc47",
+        "content_encoding": "gzip",
+        "decoded_body_bytes": 718613,
+        "decoded_body_sha256": "d7c0f26c2dfa0e1f562579795af0fe0a444fe053631fbdcd66937af1fd4e8325"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality.",
+    "topic_register": "result-reconciliation-sources.json"
+  },
+  {
+    "id": "result-reconciliation-012",
+    "title": "DGE circular Y1/16807/2023 dated 4 October 2023: 2023–24 Sasthrolsavam guidance and grading table",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2023/10/sastholsavam10102023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_departmental_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "document_date": "2023-10-04",
+    "website_post_date": "2023-10-10",
+    "publication_page_url": "https://education.kerala.gov.in/2023/10/10/2023-24-%e0%b4%b5%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%b7%e0%b4%a4%e0%b5%8d%e0%b4%a4%e0%b5%86-%e0%b4%95%e0%b5%87%e0%b4%b0%e0%b4%b3-%e0%b4%b8%e0%b5%8d%e0%b4%95%e0%b5%82%e0%b4%b3%e0%b5%8d%e2%80%8d-%e0%b4%b6/",
+    "pdf_pages": 22,
+    "download_bytes": 6312391,
+    "download_sha256": "91a7faa6d51a3b477a94b9f8fbd903e3aed50776ece528b4666e00969b3e7df1",
+    "file_number_as_printed": "Y1/16807/2023/DGE",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "DGE header, issue date and 2023–24 cycle."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Grading table: at least 80 percent A/5, 70–79 percent B/3, 60–69 percent C/1."
+      }
+    ],
+    "review_scope": "PDF pages 1–5 visually read, plus received final blank PDF22. Only the cited header/grading table is used here; not a complete 22-page rules audit.",
+    "notes": "Official bytes match the public mirror recovered through a teacher download index. The 10 October website/filename date differs from the 4 October printed issue date. The cited grade table does not explain later championship/table revisions or prove a certified final result.",
+    "topic_register": "result-reconciliation-sources.json"
   },
   {
     "id": "core-result-2019-district",

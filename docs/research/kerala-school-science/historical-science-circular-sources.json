@@ -1,0 +1,89 @@
+[
+  {
+    "id": "historical-science-circular-001",
+    "title": "DGE circular Y1/12030/2024/DGE, 19 October 2024: 2024–25 Sasthrolsavam club competitions and named Science topics",
+    "url": "https://drive.google.com/file/d/1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL/view?usp=sharing",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_departmental_circular",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "document_date": "2024-10-19",
+    "file_number_as_printed": "Y1/12030/2024/DGE",
+    "eoffice_document_identifier": "I/959995/2024",
+    "academic_year_as_printed": "2024-25",
+    "pdf_pages": 12,
+    "download_bytes": 231267,
+    "download_sha256": "9120fd79819b432e105f6980411976fc0d33d1d3337dbfc2a7525bf7032f05e7",
+    "download_acquisition": {
+      "request_url": "https://drive.google.com/uc?export=download&id=1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL",
+      "method": "GET",
+      "http_status": 200,
+      "headers_sha256": "f036b29a2c1e7283fc31e15d0323f7e304fb2a6cfeeb62dcf2c5f5ea33078599",
+      "response_content_type": "application/octet-stream",
+      "verified_file_format": "PDF"
+    },
+    "discovery_page_url": "https://almakthab.blogspot.com/p/sasthrolsavam.html",
+    "provenance_limit": "Public Google Drive reproduction discovered through a teacher index. The body bears the DGE/eOffice identifiers and visible signature block; no matching original-hosted body was located in the inspected October 2024 departmental posts. The mirror is not a separate official publisher.",
+    "visible_signature_block": {
+      "name_as_printed": "Santhosh C A",
+      "date_time_as_printed": "19-10-2024 22:46:24",
+      "pdf_page_1based": 12,
+      "validation_scope": "Visible block inspected; cryptographic signature validity not tested."
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Header/date; planned Alappuzha festival and district deadline; separately named NCERT one-day seminar."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "State Science Talent Search date/place and separate HS/HSS topics; state C. V. Raman essay date/place and earlier deadlines. The paragraph gives essay 7 November and says it runs alongside Talent Search, whose earlier paragraph gives 8 November."
+      },
+      {
+        "pdf_pages_1based": [
+          3,
+          4
+        ],
+        "scope": "C. V. Raman essay progression and format, reference period, AI-website restriction, writing/interaction and evaluation basis."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Essay topics for school/subdistrict/revenue-district HS/HSS stages; state topic is separately provided at competition time."
+      },
+      {
+        "pdf_pages_1based": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "scope": "Separate Mathematics Ramanujan Paper Presentation and Bhaskaracharya Seminar directions, topics and rubrics."
+      },
+      {
+        "pdf_pages_1based": [
+          10,
+          11,
+          12
+        ],
+        "scope": "Separate Mathematics and Social Science Talent Search sections; circulation and visible signature."
+      }
+    ],
+    "review_scope": "All twelve PDF pages rendered and read visually. Text extraction has damaged Malayalam glyphs; claims use the page images. No source PDF or render is copied into the repository.",
+    "scope_notes": [
+      "Historical 2024–25 item-specific directions, not current 2026 entry instructions.",
+      "The ChatGPT/AI-assisted-website restriction appears within C. V. Raman essay directions; no prepared Science Working Model prohibition is inferred.",
+      "Mathematics Talent Search question counts on PDF10–12 must not be transferred to Science Talent Search.",
+      "The circular contains planned dates and event requirements; it is not proof of completion, a championship certificate or an explanation for changed result tables.",
+      "The printed English essay topic on PDF4 says Green energy and environment conversion, while the Malayalam wording concerns conservation; retain the difference rather than silently editing the source.",
+      "Internal PDF2 date inconsistency: Talent Search is dated 8 November and the essay 7 November, while the essay paragraph says it runs alongside the Talent Search examination. Neither date is silently corrected and a common day is not inferred."
+    ],
+    "notes": "Public Drive reproduction of the dated 19 October 2024 DGE circular; all 12 pages rendered and read visually. Science Talent Search/C. V. Raman dates, topics and essay reference conditions are historical item directions. The essay-only AI website restriction is not a 2026 Working Model rule. Printed 7/8 November dates and alongside wording remain inconsistent. Later Mathematics/Social Science formats are separate. Visible signature inspected, not cryptographically validated; no official-hosted body or final championship statement recovered."
+  }
+]

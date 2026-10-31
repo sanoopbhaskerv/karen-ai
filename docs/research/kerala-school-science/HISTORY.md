@@ -228,3 +228,12 @@ For old records, preserve the cover/title page, edition or academic year, issuin
 The [historical-editions supplement](HISTORICAL_EDITIONS.md) now supplies original archived programme bodies for November 2012, 2013 and 2017, and original-site provenance for the byte-identical 2014 brochure. The2012 source explicitly prints **GVHSS Cheruvannur** for Mathematics; the venue table above retains that designation. These documents establish printed schedules, rather than proof every scheduled activity occurred.
 
 Populated 2017/2018 Science and IT district-champion tables survive in public frontends. The 2018 tables are separate from that year’s unprepared administrative endpoints. Their stream totals and separately captured completion counters are preserved with stale 2017 headings, blank 2018 Science UP cells and conflicting 2018 secondary Mathematics/Social totals. They do not certify a combined whole-festival result. A recovered 85-page 2013 result PDF is specifically **Special School Work Experience**, not Science or the overall championship. See the supplement for exact sources, dates and page limits.
+
+
+## Later recovery of dated overall-result versions
+
+The [result-version supplement](RESULT_RECONCILIATION.md) adds a primary publication chronology for 2019 and 2022–2024. Earlier KITE captures reproduce the reported 2023/2024 closing totals; later observations show changed figures. For 2022, successive captured school tables and landing pages also change the displayed order. The existing closing reports and current portal snapshots remain source-specific versions. The 2019 portal values were already present in September 2022, without resolving their difference from the closing report.
+
+A requested archive timestamp is not always the delivered capture: one nominal December 2024 district replay redirects to April 2025. The new dataset uses actual Memento dates and retains redirect provenance. It does not identify exact revision dates, approved appeals, software policy, missing schools or a signed final championship. Use the capture-specific links when quoting a dated version.
+
+The [early contemporary supplement](EARLY_ADMINISTRATION.md) documents Kerala teachers at the December 1965 Madras workshop and an unnamed national state-fair count in a March 1967 authored survey. These establish context rather than Kerala’s statewide inaugural year. The missing Education Department reports remain a separate gap.

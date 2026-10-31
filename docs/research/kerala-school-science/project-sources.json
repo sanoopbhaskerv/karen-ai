@@ -241,7 +241,17 @@
     "download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
     "download_bytes": 27932804,
     "pdf_pages": 14,
-    "received_file_complete": false
+    "received_file_complete": false,
+    "follow_up_retrieval": {
+      "checked_on": "2026-11-01",
+      "ordinary_tls_verified": true,
+      "complete_http_download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
+      "download_bytes": 27932804,
+      "pdf_pages": 14,
+      "same_as_previous_file": true,
+      "received_file_complete": false,
+      "scope": "Fresh full ordinary HTTP retrieval matches the same discontinuous14-page file; no complete publication was recovered. The reviewed official archive links2009–2017; bounded public university/InternetArchive title searches supplied no new annual book body. Absence of a link/search match is not absence of publication."
+    }
   },
   {
     "id": "project-023",

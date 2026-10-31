@@ -64,3 +64,8 @@ For a lost or corrected **DGE-issued** certificate, the manual prescribes an app
 The souvenir committee must prepare the *Sasthrolsava Rekha* using articles, photographs and competitors' exhibit notes, submit the publication within a month after the event, and provide copies to education offices and the higher-secondary/vocational directorates. [Printed 29 / PDF 40](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=40)
 
 That is a concrete lead for locating older project descriptions and programmes. It does not prove that every required edition was published, survives, or is publicly downloadable. Seek published copies or catalogue information rather than pupils' private registration files.
+
+
+## Dated subject-club election directions
+
+The [2024/2026 club-governance supplement](CLUB_GOVERNANCE.md) records school one-year and subdistrict/revenue-district two-year terms, AEO/DDE election stages and reporting targets. Those four-subject-club directions do not identify the actual current office-bearers or prove a particular festival organising committee was appointed.

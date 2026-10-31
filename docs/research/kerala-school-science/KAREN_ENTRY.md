@@ -145,3 +145,6 @@ For the exhibit, pack the working assembly, permitted power supply and cables, c
 ## Current calendar and portal checks
 
 The [planned 2026–27 calendar](CALENDAR_2026.md) separates Science phases from other streams; its broad dates do not supply Karen’s local reporting time. The later [state recording notice](OPERATIONS.md#state-event-recording-29-october-2026-quotation) concerns organiser procurement, separate from the pupil construction video. The [district status snapshot](DISTRICT_STATUS.md) also shows why a current champion panel or first A-grade row must not be treated as a final prize result.
+
+
+The [2024 C. V. Raman essay directions](HISTORICAL_SCIENCE_CIRCULARS.md) include an AI-assisted-website restriction for that historical essay/reference process. It does not establish a 2026 prepared Working Model ban or affirmative cloud-AI permission. Keep that item/year boundary when explaining Karen’s dependencies.

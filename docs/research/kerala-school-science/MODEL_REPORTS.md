@@ -64,3 +64,6 @@ The public university-archive search on 1 November 2026 located the already-revi
 
 
 Four separately located [research-publication candidates](SCHOOL_PROJECT_REPORTS.md) concern components or a related study of two SISF 2026 entries. They are outside these eleven NCERT edited chapters and do not increase the chapter/page count. Their source-specific authors, affiliations, dates and data-quality limits remain separate.
+
+
+A fresh 1 November full retrieval of the official 2010 PDF is byte-identical to the earlier 14-page file. Bounded public official/university/Internet Archive searches recovered no complete alternate annual body; the completeness flag remains false. The source record preserves this verification without treating search absence as nonpublication.

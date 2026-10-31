@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-01",
+  "scope": "Versioned planned IT Quiz schedule from 31 July and 7 September 2026 circulars. Not Science/Mathematics Quiz or Working Model instructions; later changes are not exhaustively ruled out.",
+  "source_ids": [
+    "additional-circular-it-quiz-original-2026",
+    "additional-circular-it-quiz-date-2026-mirror"
+  ],
+  "entries": [
+    {
+      "id": "it-quiz-schedule-2026-01",
+      "event": "IT Quiz",
+      "level": "school",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-05",
+          "date_relation": "by"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-05",
+      "start_time_24h_normalisation": null,
+      "clock_scope": "No clock time printed",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": null
+    },
+    {
+      "id": "it-quiz-schedule-2026-02",
+      "event": "IT Quiz",
+      "level": "subdistrict",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-09",
+          "date_relation": "on"
+        },
+        {
+          "source_id": "additional-circular-it-quiz-date-2026-mirror",
+          "pdf_page_1based": 1,
+          "date": "2026-09-10",
+          "date_relation": "on",
+          "clock_time_change": "No change, as explicitly stated in amendment"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-10",
+      "start_time_24h_normalisation": "10:00",
+      "clock_scope": "Local scheduled start, not duration or verified check-in time",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": "UP"
+    },
+    {
+      "id": "it-quiz-schedule-2026-03",
+      "event": "IT Quiz",
+      "level": "subdistrict",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-09",
+          "date_relation": "on"
+        },
+        {
+          "source_id": "additional-circular-it-quiz-date-2026-mirror",
+          "pdf_page_1based": 1,
+          "date": "2026-09-10",
+          "date_relation": "on",
+          "clock_time_change": "No change, as explicitly stated in amendment"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-10",
+      "start_time_24h_normalisation": "11:30",
+      "clock_scope": "Local scheduled start, not duration or verified check-in time",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": "HS"
+    },
+    {
+      "id": "it-quiz-schedule-2026-04",
+      "event": "IT Quiz",
+      "level": "subdistrict",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-09",
+          "date_relation": "on"
+        },
+        {
+          "source_id": "additional-circular-it-quiz-date-2026-mirror",
+          "pdf_page_1based": 1,
+          "date": "2026-09-10",
+          "date_relation": "on",
+          "clock_time_change": "No change, as explicitly stated in amendment"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-10",
+      "start_time_24h_normalisation": "14:00",
+      "clock_scope": "Local scheduled start, not duration or verified check-in time",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": "HSS"
+    },
+    {
+      "id": "it-quiz-schedule-2026-05",
+      "event": "IT Quiz",
+      "level": "revenue_district",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-19",
+          "date_relation": "on"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-19",
+      "start_time_24h_normalisation": "10:30",
+      "clock_scope": "Local scheduled start, not duration or verified check-in time",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": "HS"
+    },
+    {
+      "id": "it-quiz-schedule-2026-06",
+      "event": "IT Quiz",
+      "level": "revenue_district",
+      "date_versions": [
+        {
+          "source_id": "additional-circular-it-quiz-original-2026",
+          "pdf_page_1based": 1,
+          "date": "2026-09-19",
+          "date_relation": "on"
+        }
+      ],
+      "latest_date_in_collected_documents": "2026-09-19",
+      "start_time_24h_normalisation": "14:00",
+      "clock_scope": "Local scheduled start, not duration or verified check-in time",
+      "completion_verified": false,
+      "attendance_verified": false,
+      "section_english_normalisation": "HSS"
+    }
+  ],
+  "question_preparation": {
+    "source_id": "additional-circular-it-quiz-original-2026",
+    "pdf_page_1based": 1,
+    "school": "Questions prepared in SRG under headteachers’ leadership. Source says SRG without an IT prefix.",
+    "subdistrict_and_district": "KITE-prepared common questions in presentation format; no portal URL/login or portal-conduct rule supplied."
+  },
+  "limitations": [
+    "The source says Higher Secondary category in Malayalam; HSS is this index’s English abbreviation. It does not explicitly print VHSS in that row.",
+    "No UP district row is printed; omission alone is not a complete eligibility rule.",
+    "School deadline by 5 September is not a precise school competition date.",
+    "An unchanged time schedule permits carrying the three printed subdistrict start times to the amended date; no duration is inferred.",
+    "No actual holding, attendance, participant limit, venue or state-stage timetable is established."
+  ]
+}

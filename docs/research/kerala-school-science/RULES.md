@@ -194,3 +194,8 @@ The highest-priority local evidence is a **redacted confirmation of the 2026 sub
 The [general participation and operations guide](OPERATIONS.md) adds stage-specific registration, permitted fees, judge/record provisions, state welfare duties and the *Sasthrolsava Rekha* archival lead.
 
 Further useful records are later amendments/corrigenda, local schedules and check-in instructions, current marking sheets correcting the LP arithmetic inconsistency, and the eventual 2026–27 exam grace-mark order. Source inspection included PDF text extraction and visual checking of the relevant tables; legacy-font extraction alone was not used to settle Malayalam rules.
+
+
+## Separate dated quiz and historical essay provisions
+
+Use the [additional 2026 circulars](ADDITIONAL_2026_CIRCULARS.md) for the original IT Quiz schedule and its subdistrict-only date amendment, distinct from the Mathematics amendment. A [19 October 2024 Science circular](HISTORICAL_SCIENCE_CIRCULARS.md) supplies historical Talent Search/C. V. Raman conditions, including an essay-specific AI-website restriction and unresolved date inconsistency. Its year/item directions are not current prepared Working Model instructions.

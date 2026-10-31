@@ -52,3 +52,10 @@ A separate aggregation check also finds that the school and district views do no
 All data rows in each fetched HTML table were accounted for, and each detailed table's first five rows match the separately fetched landing page. These checks do not explain the aggregate differences. Do not invent a missing-school, appeal, exclusion or correction explanation; the applicable organisers' consolidated records are still needed.
 
 For an individual exhibit, begin at the edition's declared-results list, then identify fair, pupil section and item code. Keep an item's place and grade separate from an overall school score. Detailed individual-result pages remain linked from the official archives; they are not all included in this overall-table snapshot.
+
+
+## Dated versions of the overall pages
+
+The [publication-version guide](RESULT_RECONCILIATION.md) and [separate version dataset](result-version-snapshots.json) add 17 actual archived capture pages, preserving 12 complete tables with 7,675 rows and ten landing top-five observations with 50 rows. The ten snapshots above remain unchanged. These are repeated observations, rather than additional unique schools or participants.
+
+Earlier KITE pages support the contemporary 2023/2024 closing totals; later captures document changed published values. The 2022 pages show multiple score states and a changed school order. The current 2019 version is established by September 2022, without settling the conflicting closing account. Actual capture dates, full-table versus top-five scope and non-atomic cross-capture sums remain explicit. No signed final statement, correction authority or causal explanation is inferred.

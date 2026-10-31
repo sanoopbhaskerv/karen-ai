@@ -294,7 +294,24 @@
     "accessed_on": "2026-10-31",
     "source_type": "archived_government_document",
     "document_date": "2009-10-22",
-    "notes": "102-page government manual; foreword dated 22 October 2009 on printed pages 3–4, issued under Secretary, General Education Department. Describes HSS/VHSS inclusion and integrated organisation of four fairs. Printed page 5 supersedes previous manuals; not the first-ever manual. Downloaded and visually reviewed. Official-site capture dated 12 November 2011. Byte-identical to WordPress mirror; SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979."
+    "notes": "102-page government manual; foreword dated 22 October 2009 on printed pages 3–4, issued under Secretary, General Education Department. Describes HSS/VHSS inclusion and integrated organisation of four fairs. Printed page 5 supersedes previous manuals; not the first-ever manual. Downloaded and visually reviewed. Official-site capture dated 12 November 2011. Byte-identical to WordPress mirror; SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20111112000353",
+      "cached_body_sha1_base32": "BPHOFORLOSOMQVFGCS4GQV3YJSEXAHM6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20111112000353id_/http://schoolsasthrolsavam.in:80/sciencefair_manual.pdf",
+        "memento_datetime": "Sat, 12 Nov 2011 00:03:53 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
+    "download_sha256": "a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979",
+    "download_bytes": 603009,
+    "pdf_pages": 102
   },
   {
     "id": "history-2009-manual-mirror",
@@ -511,7 +528,21 @@
     "page_count": 1,
     "bytes": 14688,
     "sha256": "1b7d36d42083f926edb295e6473c574eddb07e508e8e099fb52ba11e65e1559e",
-    "notes": "Archived official festival URL captured 19 November 2016. One-page report rendered and visually checked; header state Science Drama, Palakkad, event 26 October 2016; generated 27 October 2016 at 09:44 am. All Results scoped to HS item 124 Science Drama, 24 listed rows. Separate October phase, not the November overall festival championship. No later appeal/revision evidence obtained. No individual-student table transcribed into repository."
+    "notes": "Archived official festival URL captured 19 November 2016. One-page report rendered and visually checked; header state Science Drama, Palakkad, event 26 October 2016; generated 27 October 2016 at 09:44 am. All Results scoped to HS item 124 Science Drama, 24 listed rows. Separate October phase, not the November overall festival championship. No later appeal/revision evidence obtained. No individual-student table transcribed into repository.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161119015054",
+      "cached_body_sha1_base32": "DCPEX7ACPY6HMLBAG3VD6XHZVZPRZAF6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20161119015054id_/http://schoolsasthrolsavam.in:80/2016/science_drama_result.pdf",
+        "memento_datetime": "Sat, 19 Nov 2016 01:50:54 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    }
   },
   {
     "id": "history-2016-programme-scan",
@@ -550,7 +581,23 @@
     "accessed_on": "2026-11-01",
     "source_type": "archived_empty_result_endpoint",
     "document_date": null,
-    "notes": "Capture dated 28 November 2016. Retrieved body contains PHP undefined-variable schools notices and Try later Points are Not Ready. No usable point table or champion identified. Investigated access/data failure only, not evidence for final result, cancellation, or why data is unavailable."
+    "notes": "Capture dated 28 November 2016. Retrieved body contains PHP undefined-variable schools notices and Try later Points are Not Ready. No usable point table or champion identified. Investigated access/data failure only, not evidence for final result, cancellation, or why data is unavailable.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161128000132",
+      "cached_body_sha1_base32": "BLLFGPTGR2UK5HIKQOQ27PSCRSEUX53G",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "header_observation": {
+        "evidence_kind": "fresh HEAD only",
+        "effective_url": "https://web.archive.org/web/20161128000132id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state16/index.php/publishresult/resultindex/schoolpoints",
+        "memento_datetime": "Mon, 28 Nov 2016 00:01:32 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    },
+    "download_sha256": "b73b763285828e2bc2a79d659e447869023e6c0d38bd9e5f0e5d66e32ca3281e",
+    "download_bytes": 1486
   },
   {
     "id": "history-2018-school-section-report",
@@ -606,7 +653,21 @@
     "page_count": 2,
     "bytes": 346809,
     "sha256": "fa535ae1cae884b8023c464943e3053004187b36ea1ec88ad31535af279d4b05",
-    "notes": "Original festival URL recovered from public Internet Archive CDX index; archive capture 30 November 2016 at 12:50:05 UTC. HTTP 200 application/pdf; archived original server Last-Modified 21 November 2016 at 04:37:26 UTC. PDF metadata LibreOffice 4.2, creation 19 November 2016 at 14:44:14 +05:30; metadata and server dates are not an explicit issue date. Both pages rendered and visually compared with history-2016-programme-scan. Same visible programme text, dates, named programme committee and venues, but different PDF artifact, wider margins and no CamScanner watermark; not claimed byte-identical. Page 1 header schedules 23–27 November 2016 at Shoranur; Science venue Theresa's HSS Shoranur, Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2 IT venue St Theresa High School, timetable 25–27 November and scheduled closing 27 November. Scheduled allocations do not themselves prove completion."
+    "notes": "Original festival URL recovered from public Internet Archive CDX index; archive capture 30 November 2016 at 12:50:05 UTC. HTTP 200 application/pdf; archived original server Last-Modified 21 November 2016 at 04:37:26 UTC. PDF metadata LibreOffice 4.2, creation 19 November 2016 at 14:44:14 +05:30; metadata and server dates are not an explicit issue date. Both pages rendered and visually compared with history-2016-programme-scan. Same visible programme text, dates, named programme committee and venues, but different PDF artifact, wider margins and no CamScanner watermark; not claimed byte-identical. Page 1 header schedules 23–27 November 2016 at Shoranur; Science venue Theresa's HSS Shoranur, Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2 IT venue St Theresa High School, timetable 25–27 November and scheduled closing 27 November. Scheduled allocations do not themselves prove completion.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161130125005",
+      "cached_body_sha1_base32": "LK23722CYFYLCDBIJ6QU6R2PQF53NYLJ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": true,
+      "header_observation": {
+        "evidence_kind": "original acquired GET header",
+        "effective_url": "https://web.archive.org/web/20161130125005id_/http://www.schoolsasthrolsavam.in:80/site16/doc/schedules/programeschedul.pdf",
+        "memento_datetime": "Wed, 30 Nov 2016 12:50:05 GMT",
+        "matches_registered_capture": true
+      },
+      "scope": "Only the stated header evidence is used; fresh HEAD headers are not original acquisition headers."
+    }
   },
   {
     "id": "history-2024-souvenir-cover-notice",

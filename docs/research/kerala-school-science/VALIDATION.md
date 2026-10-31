@@ -6,11 +6,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 261 |
-| Distinct registered source URLs | 256 |
-| JSON files | 35 |
-| Concise English/Malayalam knowledge records | 105 |
-| Draft Malayalam evaluation questions | 83 |
+| Source records | 280 |
+| Distinct registered source URLs | 275 |
+| JSON files | 41 |
+| Concise English/Malayalam knowledge records | 115 |
+| Draft Malayalam evaluation questions | 93 |
 | Indexed exhibit records | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
@@ -38,6 +38,13 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Separate special-school catalogue records | 80 |
 | Historical overall district/school table snapshots | 10 |
 | Rows in those historical tables | 6,379 |
+| Separate archived result capture pages | 17 |
+| Archived complete tables / rows | 12 / 7,675 |
+| Archived landing top-five observations / rows | 10 / 50 |
+| Dated subject-club circulars | 2 |
+| Versioned IT Quiz schedule rows | 6 |
+| Historical Science circular pages reviewed | 12 |
+| Early contemporary journal sources | 2 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -87,3 +94,10 @@ Independent reviews checked the three banana component papers against the fair w
 The historical supplement adds 18 visually reviewed programme pages and a separately scoped 85-page special-school result book. Two independent parsers checked all 56 district rows and ten completion rows against eight captured bodies and hashes. All available numeric section sums match; 14 blank Science 2018 UP cells remain blank rather than zero-filled. Raw PHP notice blocks occur inside HTML comments. Stale titles, different capture times and secondary conflicts do not become certified combined results.
 
 Actual-file checks cover all 21 full MP4s, their expected sizes/hashes, the explicit resumed Range acquisition and all 21 finite/nonzero native PCM inputs. Independent native probes/decodes confirm format, duration and sample counts, with the derivative variability qualified in the audio guide. All machine outputs and model provenance are structurally checked; these checks do not approve transcript accuracy. All 16 additional six-frame samples were inspected, bringing the total to 137. Two degenerate transcripts were rejected, and no new knowledge fact comes solely from ASR.
+
+
+The new result-version pass checks 17 actual capture pages, 7,675 complete rows and 50 top-five rows against the raw responses. Independent parsing agrees cell for cell; all stored row totals recompute. Cross-capture sums are not atomic exports, ties do not acquire invented stable ranks, and one nominal replay redirect is represented once at its actual Memento date. The prior ten overall snapshots remain byte-identical. The dated 2023 grading table provides context, rather than an explanation for changing totals.
+
+An additional capture audit matched 13 earlier historical-edition bodies and four older spot checks to exact original-URL/timestamp/CDX digests. Fresh HEAD observations confirm their recorded dates; these are separated from original GET headers, retained for the older 2016 programme. Fresh headers are not presented as old acquisition evidence. No date correction was needed for those 17 records.
+
+All six pages of the two club-election and two IT Quiz circulars received independent visual review, with hashes/bytes/page counts checked. Election targets, actual conduct, subject/year scope, starts versus duration, SRG wording and the absence of portal instructions remain distinct. The 12-page 2024 Science circular was fully read visually; the historical AI-essay scope, conflicting November dates and other-stream sections remain explicit. Relevant early journal issue/attribution/table pages were inspected and both volume files match their registered hashes; these narrow reviews do not claim a complete historical journal audit. The fresh official 2010 model download still matches the earlier incomplete file.

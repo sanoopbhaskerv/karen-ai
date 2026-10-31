@@ -23,9 +23,13 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
 | [SISF 2026 model write-ups](SISF_2026_MODELS.md) | All 31 published Kerala write-ups, with pupil/teacher scope and reported-method limits |
 | [School-affiliated publications](SCHOOL_PROJECT_REPORTS.md) | Four primary papers with candidate component/related-study correspondences and source-quality limits |
+| [Dated result publication versions](RESULT_RECONCILIATION.md) | Archived score changes, actual capture dates and unresolved certification |
+| [Subject-club governance](CLUB_GOVERNANCE.md) | 2024/2026 terms, election targets and limits on appointment claims |
+| [Early contemporary context](EARLY_ADMINISTRATION.md) | The 1965 workshop and 1967 national survey, without an inaugural-year inference |
+| [Historical Science circular](HISTORICAL_SCIENCE_CIRCULARS.md) | 2024 item topics, essay directions and dated scope boundaries |
 | [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
 | [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
-| [Additional departmental circular](ADDITIONAL_2026_CIRCULARS.md) | The later Mathematics Quiz/Talent Search date amendment |
+| [Additional departmental circulars](ADDITIONAL_2026_CIRCULARS.md) | Mathematics date amendment and the separate IT Quiz schedule/amendment |
 | [Public SISF project media](MEDIA.md) | 31 QR references, 21 linked MP4s and precise visual-review limits |
 | [2026 district status](DISTRICT_STATUS.md) | 14 dated portal snapshots, Working Model report links and grade-only report limits |
 | [2026–27 planned calendar](CALENDAR_2026.md) | Science milestones, other-stream differences and later official corroboration |
@@ -39,6 +43,8 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 ## Structured records
 
 - [Catalogue snapshot index](ACCESS.md#item-catalogue-snapshots): eight factual catalogues from 2019 and 2022–26, including subdistrict lists with LP entries and the differing state-page views. These are **not eligibility lists for every competition level**. In particular, UP catalogue rows do not establish student eligibility at state level.
+- [Result publication versions](result-version-snapshots.json): 17 actual archive captures; 12 complete tables with 7,675 rows and ten landing top-five observations with 50 rows. These repeat schools/districts across dates and do not certify final results.
+- [IT Quiz schedule](it-quiz-schedule-2026.json): six scheduled rows with original/amended dates, explicit clock scope and no actual-held claim.
 - [Historical stream snapshots](historical-stream-results.json): 56 district rows across four Science/IT tables, plus ten separate completion rows. Preserve the blank section cells, stale titles and source-specific scope.
 - [Audio-processing index](media-audio-review.json): 21 cached artifact/input hashes and draft statuses; two repetitive outputs excluded, zero verified transcripts or listening reviews.
 - [Overall result data](result-snapshots.json): ten dated source snapshots containing 6,379 district and school score rows. Read the championship conflicts in the history guide before interpreting them as final results.
