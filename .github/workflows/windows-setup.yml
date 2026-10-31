@@ -32,7 +32,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Install test dependencies
         # Confirm a beginner's PC does not need a C compiler for backend packages.
-        run: python -m pip install --only-binary=:all: -r requirements-dev.txt
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-dev.txt
       - name: Run tests including native launchers in a path with spaces
         run: python -m pytest -q
       - name: Run real computer-only bootstrap
