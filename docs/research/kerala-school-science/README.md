@@ -29,6 +29,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical Science circulars](HISTORICAL_SCIENCE_CIRCULARS.md) | 2023/2024 topics, amendments, essay directions and dated scope boundaries |
 | [Historical appeal and Work Experience directions](HISTORICAL_OPERATIONS.md) | 2023/2025 schedules, distinct model events and appeal capacity |
 | [Pandemic decisions and online programmes](PANDEMIC_ACTIVITIES.md) | 2020–22 primary decisions, online plans and unresolved completion evidence |
+| [Earlier IT competitions](HISTORY_2000S.md) | Official 2004/2007 instructions, deferred/planned dates and historical category limits |
 | [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
 | [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
 | [Additional departmental circulars](ADDITIONAL_2026_CIRCULARS.md) | Mathematics date amendment and the separate IT Quiz schedule/amendment |

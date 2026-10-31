@@ -88,7 +88,15 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_circular",
     "document_date": "2026-03-16",
-    "notes": "Y1/23504/2025/DGE; cites G.O.(Ms)65/2026/GEDN dated 12 March 2026. Six PDF pages downloaded; grace tables on pages 1–3 visually inspected. Applies to 2025–26 examinations; do not project it to 2026–27."
+    "notes": "Y1/23504/2025/DGE; cites G.O.(Ms)65/2026/GEDN dated 12 March 2026. Six PDF pages downloaded; grace tables on pages 1–3 visually inspected. Applies to 2025–26 examinations; do not project it to 2026–27.",
+    "download_bytes": 210444,
+    "download_sha256": "bc8d54cb6b624766d6fc1c14e2c7c1f61519113db3620c376ff2e68e93e9b3f7",
+    "pdf_pages": 6,
+    "follow_up_visual_review": {
+      "checked_on": "2026-11-01",
+      "pdf_page_1based": 5,
+      "scope": "Named removed-item exception for earlier state grades in Mathematics/Work Experience, allowing class-10 revenue-district A in another item of the same fair. Not a general Science item-switching exception. Cached body reviewed; no fresh acquisition or current entitlement inferred."
+    }
   },
   {
     "id": "rules-registration-guide",
@@ -122,5 +130,28 @@
     "download_bytes": 169445,
     "download_sha256": "ca83a1a9e55765427e5e64a2f8d6b8e2cc5af6b9701816dac98d63b89264f29b",
     "notes": "Both pages extracted/rendered and visually checked. Actual subject is Kerala School Sasthrolsavam2026–27 despite SCHOOLKALOLSAVAM in filename. DGE notice29October2026, printed digital-signature block Santhosh C A29October10:53:14; no separate cryptographic verification performed. Plans18–21November2026 at five main venues in Mannarkkad, Palakkad, without naming the five venues. Invites CCTV monitoring and event/item-wise recordings, agency equipment/generator provision and staff details10days before the festival. Tender submission5November5pm; opening6November3pm. Procurement invitation is not an awarded contract, installed system or completed recording. It is not the pupil construction-video clause or a subdistrict reporting notice. Equipment line literally reads125 HD Night Vision Cameras50Nos; do not invent a resolution/quantity interpretation. Public organiser contact address and agency staff details are not copied into derived participant data."
+  },
+  {
+    "id": "rules-grace-government-order-2026",
+    "title": "G.O.(Ms)65/2026/GEDN, 12 March 2026: underlying grace-mark revision and programme-name recitals",
+    "url": "https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36",
+    "accessed_on": "2026-11-01",
+    "document_date": "2026-03-12",
+    "source_type": "official_government_order",
+    "file_reference": "GEDN-G1/25/2026-G.EDN; G.O.(Ms)65/2026/GEDN",
+    "effective_download_url": "https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36",
+    "retrieved_at_utc": "2026-10-31T23:10:24.054516+00:00",
+    "visible_signature_block": {
+      "name": "Ushakumari A",
+      "designation": "Section Officer",
+      "date": "2026-03-12",
+      "time": "14:20:32"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validity test.",
+    "review_scope": "All eight PDF pages visually inspected. Exhibition-related recitals, tables and conditions are on PDF 1–3 and 6; later sports clauses retain their separate scope.",
+    "notes": "Original government-hosted order from the VHSE portal, underlying the separately collected 16 March 2026 DGE circular for 2025–26 examinations. PDF 1 attributes Vocational Expo renaming as Kerala School Skill Festival and 19 on-the-spot items to G.O.(Ms)118/2024 of 20 September 2024; that earlier body remains unrecovered. Its Science Magazine recital describes conversion to a separate on-the-spot contest; PDF 2 explicitly includes state Science Magazine in the grace table. Do not silently remove later catalogue codes or infer a new fair entry route. PDF 2 gives grades 20/15/10 and ranked places 20/17/14; PDF 3 gives national exhibition 25 and SISF first-three places 22. PDF 6 conditions include earlier class-8/9 state achievement with class-10 same-item district A, highest eligible activity rather than addition, no further admission index bonus, and separate HSS/VHSS reference 394/2022. The 1 June 2025–31 May 2026 certificate window on PDF 7 belongs to sports clauses, not a universal Science deadline. No individual eligibility or 2026–27 application arrangement is inferred.",
+    "download_bytes": 255106,
+    "download_sha256": "8cb90518829e190dc841b3f8dcf264f7611bd8cd89525363939a33583b816f98",
+    "pdf_pages": 8
   }
 ]

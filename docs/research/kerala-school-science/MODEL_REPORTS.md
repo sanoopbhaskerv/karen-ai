@@ -67,3 +67,19 @@ Four separately located [research-publication candidates](SCHOOL_PROJECT_REPORTS
 
 
 A fresh 1 November full retrieval of the official 2010 PDF is byte-identical to the earlier 14-page file. Bounded public official/university/Internet Archive searches recovered no complete alternate annual body; the completeness flag remains false. The source record preserves this verification without treating search absence as nonpublication.
+
+## Publisher-library references for physical follow-up
+
+NCERT's official [General Publications bibliography](https://ncert.nic.in/ncertldd/collection/pdf/General_Publications.pdf), source `project-030`, supplies seven reference entries for the *Structure and Working* series. These are **catalogue references**, without new model-book bodies, confirmed current shelf availability or evidence of Kerala content. They do not increase the eleven-chapter/43-page method collection.
+
+| Library reference | Title-year / imprint-year fields as printed | PDF page |
+| --- | --- | --- |
+| F12792 | 1978 / 1978 | 16 |
+| F13659 | 1976 / 1976 | 18 |
+| F16001 | No title year / 1985 | 23 |
+| F20109 | 1992 / 1992 | 32 |
+| F23762 | 1991 / 2003 | 41 |
+| F23995 | 1991 / 1991 | 42 |
+| F25115 | 2005 / 2005 | 45 |
+
+The **F23762 title/imprint mismatch remains unresolved**. It must not be silently identified with the separately recovered 2003 annual report. Nor are seven entries necessarily seven distinct volumes. F25115 concerns 2005, whose actual book is already registered separately. The 59-page bibliography was text-screened, with targeted visual review of these reference pages; this is not a full historical library audit. A physical/library enquiry can use the reference and both printed date fields to seek a title/colophon and full scan. No new 2010 body was recovered by this pass.

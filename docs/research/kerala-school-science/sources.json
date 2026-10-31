@@ -1577,6 +1577,158 @@
     "topic_register": "historical-science-circular-sources.json"
   },
   {
+    "id": "history-2000s-001",
+    "title": "DPI NEP (3)-71186/04/DPI, 18 September 2004: historical IT competitions alongside science fairs",
+    "url": "https://web.archive.org/web/20050314041551id_/http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "original_url": "http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANATHAPURAM",
+    "document_date": "2004-09-18",
+    "reference_as_printed": "NEP (3)-71186/04/DPI",
+    "pdf_pages": 6,
+    "download_bytes": 111214,
+    "download_sha256": "74187529a391e7b7cbdf09cf5552514709ace0b0ab00326a7b5bceb238cb5b66",
+    "headers_sha256": "8966b6857147765acf7a2454a6c6396b706d8bbe8b306e67193d068818d506fd",
+    "archive_capture": "2005-03-14T04:15:51Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20050314041551",
+      "actual_memento_datetime_from_cached_get_headers": "Mon, 14 Mar 2005 04:15:51 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "received_body_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in:80/newitems/circular-%2520state%2520level%2520science%2520fair%25202004.pdf",
+      "original_url_encoding_note": "Cached replay Link rel=original double-escapes the space sequences as %2520; original_url above preserves the exact CDX row (%20). Received body SHA-1/base32 matches that CDX row, so this encoding difference is not a body mismatch."
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2004–05",
+    "references_as_printed": [
+      "Circular NEP (3)-68121/03/DPI dated 25 September 2003"
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference; historical IT competitions alongside district/state science fairs; on-the-spot student section classes 8–10."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "State Science Fair date/venue to be announced later; historical on-the-spot instructions."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia provisions."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Tentative November 2004 district timing, equipment/duties, appeal, handwritten for DPI block and circulation; image-only page."
+      },
+      {
+        "pdf_page_1based": 5,
+        "scope": "Blank Kerala State IT Fair 2004–2005 entry form; venue/date unfilled."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 2,
+        "scope": "Separate evaluation attachment; historical scoring criteria."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "for Director of Public Instruction",
+      "personal_name": "Not established",
+      "validation_scope": "Handwritten mark and designation visually read; no cryptographic validation."
+    },
+    "pagination_note": "Four instruction pages followed by blank form and evaluation attachment printed 2. Teacher provisions jump 7 to 9 across PDF 3–4; no provision 8 reconstructed.",
+    "notes": "Directs historical IT competitions alongside district/state science fairs. District dates are tentative November 2004; state date/venue explicitly deferred. The preceding-three-years wording does not establish a specific inaugural year. No state Science Fair date, venue, results or completion inferred; not current 2026 rules.",
+    "issuer_spelling_note": "The 2004 header prints THIRUVANATHAPURAM; this variant is retained rather than silently normalised.",
+    "topic_register": "history-2000s-sources.json"
+  },
+  {
+    "id": "history-2000s-002",
+    "title": "DPI NEP(3)/82862/07DPI, 5 December 2007: State School IT Fest 2007 instructions",
+    "url": "https://web.archive.org/web/20080828012615id_/http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "original_url": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANANTHAPURAM",
+    "document_date": "2007-12-05",
+    "reference_as_printed": "NEP(3)/82862/07DPI",
+    "pdf_pages": 6,
+    "download_bytes": 32662,
+    "download_sha256": "2fff1ca782681f8a69b6c222966729c41119035e82d30c15974c4bd76f2d1502",
+    "headers_sha256": "3a25d6b07706aeebcb71b9d4a9720f82a2bc8a911abf577d41377be68a5874e7",
+    "archive_capture": "2008-08-28T01:26:15Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20080828012615",
+      "actual_memento_datetime_from_cached_get_headers": "Thu, 28 Aug 2008 01:26:15 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "received_body_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf"
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2007–08",
+    "references_as_printed": [
+      "DPI circular Y1/59986/06/DPI dated 9 October 2006",
+      "DPI circular Y1/69707/07/DPI dated 16 October 2007"
+    ],
+    "scheduled_event": {
+      "name_as_printed": "State School IT Fest 2007",
+      "venue_as_printed": "Techno Park, Thiruvananthapuram",
+      "date_start": "2007-12-29",
+      "date_end": "2007-12-31",
+      "status": "Scheduled in instructions and blank form; completion not established."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference, State School IT Fest 2007 at Techno Park, 29–31 December 2007, high-school scope and student programming."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Student multimedia/digital painting and IT project report/slides deadline 24 December 2007, ten-minute presentation plus five-minute discussion."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia, trainer exclusion."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Equipment, team managers/escorts, appeal, separate invention/software/hardware demonstrations, IT@School arrangements and signature/designation/circulation."
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5,
+        "scope": "Historical 100-mark evaluation scheme, including genuineness and student involvement for projects."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 6,
+        "scope": "Blank entry form repeats scheduled venue and 29–31 December 2007 dates."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "Director of Public Instruction",
+      "personal_name": "Not inferred from handwritten mark",
+      "validation_scope": "Handwritten mark above designation visually inspected; no cryptographic validation."
+    },
+    "notes": "Actual body is dated 5 December 2007, despite August 2008 archive capture and local cache filename. Schedules a separate high-school State School IT Fest at Techno Park, 29–31 December 2007. Historical instructions, not a complete Science Fair programme, actual attendance/results/completion evidence, or 2026 category permission. Software/hardware demonstration provision is not a recovered event named IT Working Model.",
+    "topic_register": "history-2000s-sources.json"
+  },
+  {
     "id": "history-origin-2022",
     "title": "School Sasthrolsavam overview and reported first science fair year",
     "url": "https://malayalam.samayam.com/government-schemes/state/government-of-kerala-school-sasthrolsavam-for-school-students/amp_articleshow/89636530.cms",
@@ -5615,6 +5767,72 @@
     "topic_register": "project-sources.json"
   },
   {
+    "id": "project-030",
+    "title": "NCERT Library General Publications bibliography: seven model-book reference entries",
+    "url": "https://ncert.nic.in/ncertldd/collection/pdf/General_Publications.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_library_bibliography",
+    "publisher": "National Council of Educational Research and Training, Library and Documentation Division",
+    "review_scope": "All 59 pages text-screened; all seven reference pages visually checked. Not a full subject audit or a model-book body.",
+    "bibliographic_references": [
+      {
+        "reference_id": "F12792",
+        "pdf_page_1based": 16,
+        "title_year_as_printed": "1978",
+        "imprint_year_as_printed": "1978",
+        "printed_page_as_printed": 13
+      },
+      {
+        "reference_id": "F13659",
+        "pdf_page_1based": 18,
+        "title_year_as_printed": "1976",
+        "imprint_year_as_printed": "1976",
+        "printed_page_as_printed": 15
+      },
+      {
+        "reference_id": "F16001",
+        "pdf_page_1based": 23,
+        "title_year_as_printed": null,
+        "imprint_year_as_printed": "1985",
+        "printed_page_as_printed": 20
+      },
+      {
+        "reference_id": "F20109",
+        "pdf_page_1based": 32,
+        "title_year_as_printed": "1992",
+        "imprint_year_as_printed": "1992",
+        "printed_page_as_printed": 29
+      },
+      {
+        "reference_id": "F23762",
+        "pdf_page_1based": 41,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "2003",
+        "printed_page_as_printed": 38
+      },
+      {
+        "reference_id": "F23995",
+        "pdf_page_1based": 42,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "1991",
+        "printed_page_as_printed": 39
+      },
+      {
+        "reference_id": "F25115",
+        "pdf_page_1based": 45,
+        "title_year_as_printed": "2005",
+        "imprint_year_as_printed": "2005",
+        "printed_page_as_printed": 42
+      }
+    ],
+    "notes": "Official 59-page library bibliography, not a downloaded model volume or proof of current shelf availability. Seven references concern Structure and Working of Science Models; they are not asserted to be seven distinct editions. F23762 prints 1991 in its title but 2003 in its imprint; F23995 prints 1991 in both. Preserve the mismatch and do not silently identify F23762 with the separately recovered 2003 annual report. F25115 lists 2005, whose actual book is already registered as project-029. Other references are qualified physical/library leads only: no Kerala school, project method, prize, state route or full-volume recovery is inferred.",
+    "download_bytes": 2423392,
+    "download_sha256": "5af9d4c6d8170b91ed315386eb51a30bcc06fad2223209e4a1e1cb71742bf244",
+    "pdf_pages": 59,
+    "topic_register": "project-sources.json"
+  },
+  {
     "id": "result-reconciliation-001",
     "title": "KITE 2019 overall district point table: selected archived publication versions",
     "url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
@@ -6597,6 +6815,14 @@
     "source_type": "official_circular",
     "document_date": "2026-03-16",
     "notes": "Y1/23504/2025/DGE; cites G.O.(Ms)65/2026/GEDN dated 12 March 2026. Six PDF pages downloaded; grace tables on pages 1–3 visually inspected. Applies to 2025–26 examinations; do not project it to 2026–27.",
+    "download_bytes": 210444,
+    "download_sha256": "bc8d54cb6b624766d6fc1c14e2c7c1f61519113db3620c376ff2e68e93e9b3f7",
+    "pdf_pages": 6,
+    "follow_up_visual_review": {
+      "checked_on": "2026-11-01",
+      "pdf_page_1based": 5,
+      "scope": "Named removed-item exception for earlier state grades in Mathematics/Work Experience, allowing class-10 revenue-district A in another item of the same fair. Not a general Science item-switching exception. Cached body reviewed; no fresh acquisition or current entitlement inferred."
+    },
     "topic_register": "rules-sources.json"
   },
   {
@@ -6633,6 +6859,30 @@
     "download_bytes": 169445,
     "download_sha256": "ca83a1a9e55765427e5e64a2f8d6b8e2cc5af6b9701816dac98d63b89264f29b",
     "notes": "Both pages extracted/rendered and visually checked. Actual subject is Kerala School Sasthrolsavam2026–27 despite SCHOOLKALOLSAVAM in filename. DGE notice29October2026, printed digital-signature block Santhosh C A29October10:53:14; no separate cryptographic verification performed. Plans18–21November2026 at five main venues in Mannarkkad, Palakkad, without naming the five venues. Invites CCTV monitoring and event/item-wise recordings, agency equipment/generator provision and staff details10days before the festival. Tender submission5November5pm; opening6November3pm. Procurement invitation is not an awarded contract, installed system or completed recording. It is not the pupil construction-video clause or a subdistrict reporting notice. Equipment line literally reads125 HD Night Vision Cameras50Nos; do not invent a resolution/quantity interpretation. Public organiser contact address and agency staff details are not copied into derived participant data.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-grace-government-order-2026",
+    "title": "G.O.(Ms)65/2026/GEDN, 12 March 2026: underlying grace-mark revision and programme-name recitals",
+    "url": "https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36",
+    "accessed_on": "2026-11-01",
+    "document_date": "2026-03-12",
+    "source_type": "official_government_order",
+    "file_reference": "GEDN-G1/25/2026-G.EDN; G.O.(Ms)65/2026/GEDN",
+    "effective_download_url": "https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36",
+    "retrieved_at_utc": "2026-10-31T23:10:24.054516+00:00",
+    "visible_signature_block": {
+      "name": "Ushakumari A",
+      "designation": "Section Officer",
+      "date": "2026-03-12",
+      "time": "14:20:32"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validity test.",
+    "review_scope": "All eight PDF pages visually inspected. Exhibition-related recitals, tables and conditions are on PDF 1–3 and 6; later sports clauses retain their separate scope.",
+    "notes": "Original government-hosted order from the VHSE portal, underlying the separately collected 16 March 2026 DGE circular for 2025–26 examinations. PDF 1 attributes Vocational Expo renaming as Kerala School Skill Festival and 19 on-the-spot items to G.O.(Ms)118/2024 of 20 September 2024; that earlier body remains unrecovered. Its Science Magazine recital describes conversion to a separate on-the-spot contest; PDF 2 explicitly includes state Science Magazine in the grace table. Do not silently remove later catalogue codes or infer a new fair entry route. PDF 2 gives grades 20/15/10 and ranked places 20/17/14; PDF 3 gives national exhibition 25 and SISF first-three places 22. PDF 6 conditions include earlier class-8/9 state achievement with class-10 same-item district A, highest eligible activity rather than addition, no further admission index bonus, and separate HSS/VHSS reference 394/2022. The 1 June 2025–31 May 2026 certificate window on PDF 7 belongs to sports clauses, not a universal Science deadline. No individual eligibility or 2026–27 application arrangement is inferred.",
+    "download_bytes": 255106,
+    "download_sha256": "8cb90518829e190dc841b3f8dcf264f7611bd8cd89525363939a33583b816f98",
+    "pdf_pages": 8,
     "topic_register": "rules-sources.json"
   },
   {

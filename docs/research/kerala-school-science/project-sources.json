@@ -361,5 +361,70 @@
       "download_bytes": 4363058,
       "pdf_pages": 113
     }
+  },
+  {
+    "id": "project-030",
+    "title": "NCERT Library General Publications bibliography: seven model-book reference entries",
+    "url": "https://ncert.nic.in/ncertldd/collection/pdf/General_Publications.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_library_bibliography",
+    "publisher": "National Council of Educational Research and Training, Library and Documentation Division",
+    "review_scope": "All 59 pages text-screened; all seven reference pages visually checked. Not a full subject audit or a model-book body.",
+    "bibliographic_references": [
+      {
+        "reference_id": "F12792",
+        "pdf_page_1based": 16,
+        "title_year_as_printed": "1978",
+        "imprint_year_as_printed": "1978",
+        "printed_page_as_printed": 13
+      },
+      {
+        "reference_id": "F13659",
+        "pdf_page_1based": 18,
+        "title_year_as_printed": "1976",
+        "imprint_year_as_printed": "1976",
+        "printed_page_as_printed": 15
+      },
+      {
+        "reference_id": "F16001",
+        "pdf_page_1based": 23,
+        "title_year_as_printed": null,
+        "imprint_year_as_printed": "1985",
+        "printed_page_as_printed": 20
+      },
+      {
+        "reference_id": "F20109",
+        "pdf_page_1based": 32,
+        "title_year_as_printed": "1992",
+        "imprint_year_as_printed": "1992",
+        "printed_page_as_printed": 29
+      },
+      {
+        "reference_id": "F23762",
+        "pdf_page_1based": 41,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "2003",
+        "printed_page_as_printed": 38
+      },
+      {
+        "reference_id": "F23995",
+        "pdf_page_1based": 42,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "1991",
+        "printed_page_as_printed": 39
+      },
+      {
+        "reference_id": "F25115",
+        "pdf_page_1based": 45,
+        "title_year_as_printed": "2005",
+        "imprint_year_as_printed": "2005",
+        "printed_page_as_printed": 42
+      }
+    ],
+    "notes": "Official 59-page library bibliography, not a downloaded model volume or proof of current shelf availability. Seven references concern Structure and Working of Science Models; they are not asserted to be seven distinct editions. F23762 prints 1991 in its title but 2003 in its imprint; F23995 prints 1991 in both. Preserve the mismatch and do not silently identify F23762 with the separately recovered 2003 annual report. F25115 lists 2005, whose actual book is already registered as project-029. Other references are qualified physical/library leads only: no Kerala school, project method, prize, state route or full-volume recovery is inferred.",
+    "download_bytes": 2423392,
+    "download_sha256": "5af9d4c6d8170b91ed315386eb51a30bcc06fad2223209e4a1e1cb71742bf244",
+    "pdf_pages": 59
   }
 ]

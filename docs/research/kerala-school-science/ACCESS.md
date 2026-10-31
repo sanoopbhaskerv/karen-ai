@@ -59,6 +59,8 @@ KITE's [Sasthrolsavam description](https://mela.kite.kerala.gov.in/2026/state/in
 
 The state portal's 2026 Vocational Expo destination, `https://mela.kite.kerala.gov.in/2026/vhseExpo/state26/index.php`, returned HTTP 404 when inspected. Current entry instructions, venues and programme details still need an official notice or a working replacement link.
 
+A later original-hosted [government order, G.O.(Ms)65/2026/GEDN of 12 March 2026, PDF 1–2](https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36), records that **Vocational Expo was renamed Kerala School Skill Festival with 19 on-the-spot items**, attributing that change to **G.O.(Ms)118/2024 of 20 September 2024**. This is the later order's account; the earlier order body and complete Skill Festival item rules remain unrecovered here. Preserve the older portal label and later documented name without converting this adjacent vocational programme into Science Working Model or assuming a current local entry route.
+
 ## Downloads needing replacement or confirmation
 
 | Officially linked destination | Observation on access date | What would resolve it |

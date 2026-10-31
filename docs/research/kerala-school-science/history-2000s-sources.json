@@ -1,0 +1,152 @@
+[
+  {
+    "id": "history-2000s-001",
+    "title": "DPI NEP (3)-71186/04/DPI, 18 September 2004: historical IT competitions alongside science fairs",
+    "url": "https://web.archive.org/web/20050314041551id_/http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "original_url": "http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANATHAPURAM",
+    "document_date": "2004-09-18",
+    "reference_as_printed": "NEP (3)-71186/04/DPI",
+    "pdf_pages": 6,
+    "download_bytes": 111214,
+    "download_sha256": "74187529a391e7b7cbdf09cf5552514709ace0b0ab00326a7b5bceb238cb5b66",
+    "headers_sha256": "8966b6857147765acf7a2454a6c6396b706d8bbe8b306e67193d068818d506fd",
+    "archive_capture": "2005-03-14T04:15:51Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20050314041551",
+      "actual_memento_datetime_from_cached_get_headers": "Mon, 14 Mar 2005 04:15:51 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "received_body_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in:80/newitems/circular-%2520state%2520level%2520science%2520fair%25202004.pdf",
+      "original_url_encoding_note": "Cached replay Link rel=original double-escapes the space sequences as %2520; original_url above preserves the exact CDX row (%20). Received body SHA-1/base32 matches that CDX row, so this encoding difference is not a body mismatch."
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2004–05",
+    "references_as_printed": [
+      "Circular NEP (3)-68121/03/DPI dated 25 September 2003"
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference; historical IT competitions alongside district/state science fairs; on-the-spot student section classes 8–10."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "State Science Fair date/venue to be announced later; historical on-the-spot instructions."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia provisions."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Tentative November 2004 district timing, equipment/duties, appeal, handwritten for DPI block and circulation; image-only page."
+      },
+      {
+        "pdf_page_1based": 5,
+        "scope": "Blank Kerala State IT Fair 2004–2005 entry form; venue/date unfilled."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 2,
+        "scope": "Separate evaluation attachment; historical scoring criteria."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "for Director of Public Instruction",
+      "personal_name": "Not established",
+      "validation_scope": "Handwritten mark and designation visually read; no cryptographic validation."
+    },
+    "pagination_note": "Four instruction pages followed by blank form and evaluation attachment printed 2. Teacher provisions jump 7 to 9 across PDF 3–4; no provision 8 reconstructed.",
+    "notes": "Directs historical IT competitions alongside district/state science fairs. District dates are tentative November 2004; state date/venue explicitly deferred. The preceding-three-years wording does not establish a specific inaugural year. No state Science Fair date, venue, results or completion inferred; not current 2026 rules.",
+    "issuer_spelling_note": "The 2004 header prints THIRUVANATHAPURAM; this variant is retained rather than silently normalised."
+  },
+  {
+    "id": "history-2000s-002",
+    "title": "DPI NEP(3)/82862/07DPI, 5 December 2007: State School IT Fest 2007 instructions",
+    "url": "https://web.archive.org/web/20080828012615id_/http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "original_url": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANANTHAPURAM",
+    "document_date": "2007-12-05",
+    "reference_as_printed": "NEP(3)/82862/07DPI",
+    "pdf_pages": 6,
+    "download_bytes": 32662,
+    "download_sha256": "2fff1ca782681f8a69b6c222966729c41119035e82d30c15974c4bd76f2d1502",
+    "headers_sha256": "3a25d6b07706aeebcb71b9d4a9720f82a2bc8a911abf577d41377be68a5874e7",
+    "archive_capture": "2008-08-28T01:26:15Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20080828012615",
+      "actual_memento_datetime_from_cached_get_headers": "Thu, 28 Aug 2008 01:26:15 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "received_body_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf"
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2007–08",
+    "references_as_printed": [
+      "DPI circular Y1/59986/06/DPI dated 9 October 2006",
+      "DPI circular Y1/69707/07/DPI dated 16 October 2007"
+    ],
+    "scheduled_event": {
+      "name_as_printed": "State School IT Fest 2007",
+      "venue_as_printed": "Techno Park, Thiruvananthapuram",
+      "date_start": "2007-12-29",
+      "date_end": "2007-12-31",
+      "status": "Scheduled in instructions and blank form; completion not established."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference, State School IT Fest 2007 at Techno Park, 29–31 December 2007, high-school scope and student programming."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Student multimedia/digital painting and IT project report/slides deadline 24 December 2007, ten-minute presentation plus five-minute discussion."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia, trainer exclusion."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Equipment, team managers/escorts, appeal, separate invention/software/hardware demonstrations, IT@School arrangements and signature/designation/circulation."
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5,
+        "scope": "Historical 100-mark evaluation scheme, including genuineness and student involvement for projects."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 6,
+        "scope": "Blank entry form repeats scheduled venue and 29–31 December 2007 dates."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "Director of Public Instruction",
+      "personal_name": "Not inferred from handwritten mark",
+      "validation_scope": "Handwritten mark above designation visually inspected; no cryptographic validation."
+    },
+    "notes": "Actual body is dated 5 December 2007, despite August 2008 archive capture and local cache filename. Schedules a separate high-school State School IT Fest at Techno Park, 29–31 December 2007. Historical instructions, not a complete Science Fair programme, actual attendance/results/completion evidence, or 2026 category permission. Software/hardware demonstration provision is not a recovered event named IT Working Model."
+  }
+]

@@ -6,11 +6,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 289 |
-| Distinct registered source URLs | 284 |
-| JSON files | 43 |
-| Concise English/Malayalam knowledge records | 120 |
-| Draft Malayalam evaluation questions | 98 |
+| Source records | 293 |
+| Distinct registered source URLs | 288 |
+| JSON files | 44 |
+| Concise English/Malayalam knowledge records | 122 |
+| Draft Malayalam evaluation questions | 100 |
 | Indexed exhibit records | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
@@ -47,6 +47,9 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Historical appeal/Work Experience documents / pages | 3 / 6 |
 | Pandemic documents / pages | 5 / 10 |
 | Early contemporary journal sources | 2 |
+| Pre-2009 IT circulars / pages | 2 / 12 |
+| Publisher-library model-book reference entries | 7 |
+| Underlying March 2026 grace-order pages | 8 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -107,3 +110,7 @@ All six pages of the two club-election and two IT Quiz circulars received indepe
 The next historical pass adds three mirrored appeal/Work Experience documents and the official 12 October 2023 Science amendment. All ten physical pages were independently inspected; the amendment’s final page is blank. Hashes, byte sizes and page counts agree. Reviews preserve the appeal reference-year anomaly, group-size distinction, separate model events, prototype wording, conditional phone/laptop explanation, stage-qualified exhibition obligation and historical quiz/Mathematics amendments. The existing 115 facts and 93 evaluation records remain unchanged; five fact/evaluation pairs are appended.
 
 All ten pages of the five pandemic documents were visually inspected and independently checked. Original government hosting, mirrored copies, issue/index dates, reported departmental non-conduct and planned separate programmes remain distinct. Conflicting Shasthrarangam deadlines and NCSC January-year labels remain literal; no completion or statewide cancellation order is invented. Source metadata checks agree with cached bodies and headers. The renewed origin/delegation searches supply bounded negative outcomes and qualified physical-holding leads, without treating unavailable pages as evidence of absence.
+
+The pre-2009 pass adds two official-origin archived IT circulars. All twelve received pages were visually reviewed and independently checked against cached body/header hashes, exact CDX digests and actual Memento dates. The unavailable third archived body is excluded. Deferred state dates, a tentative district month, old software, separate hardware demonstrations and scheduled 2007 dates remain qualified.
+
+All eight pages of the original-hosted March 2026 government order and all seven relevant pages of the 59-page NCERT bibliography received independent visual review. The bibliography is a reference list, not seven recovered volumes or new method cases; the 1991/2003 mismatch is retained. The existing implementation circular’s page 5 was rechecked for the named Mathematics/Work Experience removed-item exception. The original 120 facts/98 evaluations and all 23 non-source structured datasets remain unchanged, with two fact/evaluation pairs appended. No original school report/code/test table was recovered in the bounded follow-up.
