@@ -1,6 +1,6 @@
 # Kerala school science exhibition pathways
 
-Research checked on 31 October 2026. Kerala's School Sasthrolsavam, the NCERT exhibition system, Southern India Science Fair, INSPIRE-MANAK and National Children's Science Congress have different entry routes. An award in one event does not by itself establish admission to another. Rules below retain the edition or source date that supports them.
+Research initially checked on 31 October 2026, with the administrative and 2023 SISF records below added on 1 November 2026. Kerala's School Sasthrolsavam, the NCERT exhibition system, Southern India Science Fair, INSPIRE-MANAK and National Children's Science Congress have different entry routes. An award in one event does not by itself establish admission to another. Rules below retain the edition or source date that supports them.
 
 ## Programme map
 
@@ -40,6 +40,14 @@ For that edition:
 Source: [SISF 2026 instructions, PDF pages 1–2, instructions 1–16](https://www.vismuseum.gov.in/assets/pdf/notice/SISF2026_instrauctions.pdf). These are SISF conditions, not automatically Kerala state-fair conditions.
 
 For the preceding edition, VITM records **21–25 January 2025 at Old Port Ground, Puducherry**, with separate forms for individual, group and teacher entries. This official event page is useful for reconstructing regional participation by edition. [SISF 2025](https://www.vismuseum.gov.in/events/sisf-2025.php)
+
+### Kerala administration and earlier SISF hosting
+
+An **undated DGE section-duty document hosted by KITE** assigns the state Science, Mathematics and Social Science fairs, SISF and Science Drama festival, and the former-name Jawaharlal Nehru National Science Exhibition to the **Y(1) seat**. Its Y Section is labelled with the PRO as unit officer and ADPI (Academic and General) as controlling officer. This is an archival administrative lead; it does not establish current staffing, current entry rules or a particular exhibit's selection. [DGE duties, PDF page 62](https://kite.kerala.gov.in/KITE/downloads/DGE_Secial_rules.pdf#page=62)
+
+VITM's **2022–23 activity report** documents the **34th SISF, 27–31 January 2023, at Chaldean Syrian Higher Secondary School, Thrissur**, organised with Kerala's General Education Department. Its table records **169 schools, 240 participants, 169 projects and 7,500 visitors** across the regional event. These are event-wide totals, not a count of Kerala's delegation. The narrative separately describes about 1,500 inaugural attendees and 6,000 visitors over three days. [VITM report, printed pages 10 and 42 / PDF pages 11 and 43](https://www.vismuseum.gov.in/assets/pdf/activity-report/2022-23-Annual-Activity-Report-VITM-SU-PDF1.pdf#page=43)
+
+Neither source supplies Kerala's actual selected-exhibit or delegation list. Those proceedings and full project reports remain necessary to connect an individual state entry to its regional or national participation.
 
 ## NCERT state and national exhibitions
 

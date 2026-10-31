@@ -1,6 +1,6 @@
 # Kerala School Science Exhibition History and State Archives
 
-Research date: 31 October 2026. Kerala School Sasthrolsavam is the umbrella school festival; its Science Fair is one constituent competition. A district winning the overall festival need not have won the Science Fair. This distinction also applies to school championships, age sections, teacher competitions, special-school events and Vocational Expo results.
+Initial research: 31 October 2026; historical-source follow-up: 1 November 2026. Kerala School Sasthrolsavam is the umbrella school festival; its Science Fair is one constituent competition. A district winning the overall festival need not have won the Science Fair. This distinction also applies to school championships, age sections, teacher competitions, special-school events and Vocational Expo results.
 
 ## Origins and edition numbering
 
@@ -12,11 +12,26 @@ The November 2012 Kozhikode programme was reported as the 46th Science Fair, 32n
 
 The January and November 2012 events belong to **different academic years**. An archive keyed only by calendar year would combine two editions incorrectly.
 
+## Regional school fairs documented in 1962–63
+
+An earlier primary report now prevents interpreting the later **1965–66** claim as the first school science fair anywhere in Kerala. *Report of Science Fairs Held During 1962–63*, Publication No. 23, identifies its issuer as the **Department of Extension Services, Government Training College, Trichur**. The digitised title page is PDF page 3; the archive catalogues the publication as 1963. [Report PDF](https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf#page=3)
+
+| Fair | Completed dates and venue | Participation scope stated by the report | Page |
+| --- | --- | --- | --- |
+| Chittur | **29 November–1 December 1962**, Government Girls’ High School, Chittur | Secondary-school science clubs from educational districts in the northern region | [Printed 1 / PDF 7](https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf#page=7) |
+| Alwaye | **28–30 January 1963**, Government High School, Alwaye | High-school clubs in the Ernakulam area | [Printed 20 / PDF 26](https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf#page=26) |
+
+These are verified **regional school fairs**, not evidence that the present statewide competition began in 1962. Its relationship to these earlier events remains unestablished. The [Granthappura catalogue](https://gpura.org/item/1963-report-of-science-fairs) and [27 February 2026 release note](https://gpura.org/blog/1963-report-of-science-fairs/) document the scan’s provenance. The 39-page PDF was downloaded and relevant pages visually inspected; its hash is recorded in the source register.
+
 ## The 2009 integration milestone
 
 The General Education Department's **2009 manual** provides a primary historical milestone. Its foreword, printed pages 3–4, is dated **22 October 2009** and issued under the Secretary, General Education Department. It explains that the government was integrating high school, higher secondary and vocational higher secondary activities, and combined the existing Science, Mathematics, Social Science and Work Experience rules. It explicitly says state-level Science Fairs had not previously been conducted for the higher secondary and vocational higher secondary sections; from that year these two sections would form one unit. The four fairs would be organised together from school level to reduce duplicated expenditure and lost instructional days. [Department-site manual, archived 27 November 2009](https://web.archive.org/web/20091127124352id_/http://www.education.kerala.gov.in:80/Science%20Fair%20Manual.pdf)
 
 This is **not evidence of the first-ever manual or the first Science Fair**: chapter 1, printed page 5, supersedes earlier manuals. The copies retrieved from the department website (2009 capture), official festival website (2011 capture) and WordPress mirror are byte-identical, with SHA-256 `a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979`. IT is not one of the four fairs named in this manual's title; its omission does not prove that separate IT competitions did not exist. [Festival-site archive](https://web.archive.org/web/20111112000353id_/http://schoolsasthrolsavam.in:80/sciencefair_manual.pdf), [Manual mirror](https://itteacherhelp.wordpress.com/wp-content/uploads/2011/10/all-science-fair-manual-prevailing-2009.pdf)
+
+## National-exhibition history: a separate series
+
+NCERT’s *Four Decades of National Science Exhibition for Children*, first edition **September 2012**, identifies **Kochi in 1991** among national-exhibition host cities. Printed page 4 / PDF page 12 also records the first NCERT/UGC national exhibition in New Delhi in December 1971. This establishes Kerala hosting a **national** edition; it does not date Kerala’s state-series inauguration. Exact Kochi dates and its school/building venue are not supplied by that host table. The foreword is dated September 2011, a different date from the edition statement. [NCERT monograph, host table](https://ncert.nic.in/desm/pdf/4decadepdf.pdf#page=12)
 
 ## State edition chronology
 
@@ -145,7 +160,8 @@ Accessible state-result landing pages were verified for [2019](https://mela.kite
 
 ## Archive searches that remain unresolved
 
-- Searches for a primary account of the reported **1965–66** start, including government education, State Planning Board and school-fair archives, have not yet produced a contemporaneous inaugural programme or order. The 2009 manual documents integration, not the inaugural year.
+- Searches for a primary account of the reported **1965–66 statewide-series start**, including government education, State Planning Board and school-fair archives, have not yet produced a contemporaneous inaugural programme or order. The recovered 1962–63 report establishes earlier regional school fairs, while the 2009 manual documents integration. Neither establishes the statewide inaugural year.
+- The government-hosted *Kerala 1963: An Economic Review*, printed in 1964, was checked through its scanned education section (printed 173–180 / PDF 200–207). That section did not establish a science-fair inauguration; this limited search is not evidence of absence. [Economic Review scan](https://spb.kerala.gov.in/sites/default/files/inline-files/1963.pdf#page=200)
 - The official site's January 2012 file named `souvenier.pdf` was recovered from the Internet Archive, but it is a **two-page request for souvenir advertising**, not the completed souvenir or a history book. It cannot confirm the origin claim. [Archived file](https://web.archive.org/web/20120113062203id_/http://www.schoolsasthrolsavam.in:80/doc/souvenier.pdf)
 - The recovered 27 November 2018 official overall-championship page says **Result Not Prepared**; the corresponding school-points page says **Points are Not Ready**. An HTTP 200 response or a page labelled “overall champions” does not establish a result. A usable 2018 closing report or signed result book remains missing. [Archived district page](https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions), [Archived school page](https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints)
 

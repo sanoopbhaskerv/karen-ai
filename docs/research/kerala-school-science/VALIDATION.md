@@ -1,17 +1,17 @@
 # Research collection checks
 
-Checked on 31 October 2026. These checks establish the integrity and stated scope of the collected records. They do not resolve missing historical evidence or independently validate the performance of student exhibits.
+Collection integrity checked on 1 November 2026; individual source access dates are retained. These checks establish the integrity and stated scope of the collected records. They do not resolve missing historical evidence or independently validate the performance of student exhibits.
 
 ## Collection inventory
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 136 |
-| Distinct source URLs | 132 |
+| Source records | 151 |
+| Distinct source URLs | 147 |
 | JSON files | 22 |
-| Concise English/Malayalam knowledge records | 66 |
-| Draft Malayalam evaluation questions | 46 |
-| Indexed exhibit records | 16 |
+| Concise English/Malayalam knowledge records | 69 |
+| Draft Malayalam evaluation questions | 49 |
+| Indexed exhibit records | 23 |
 | General catalogue snapshots | 8 |
 | Catalogue observations across those snapshots | 1,835 |
 | Separate special-school catalogue records | 80 |
@@ -29,12 +29,13 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - Every result table's stored row count agrees with the extracted rows. All HTML data rows were accounted for, and the top five entries agree with independently retrieved landing-page summaries.
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
+- The eight added 2010–2017 NCERT catalogue hashes and PDF page counts match the cached originals; indexed source-page numbers stay within their books. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
 
 ## Domain review
 
 Relevant official PDF pages were extracted and visually checked, including the two-pupil Working Model wording, required group attendance, dimensions, chart count, construction-video condition and the seven-criterion 100-mark rubric. The 2019 manual, later orders and 2026 circulars are kept distinct.
 
-Independent reviews checked historical edition boundaries, source-specific championship disagreements, different catalogue views, primary-teacher versus pupil progression, the recovered 2009 integration milestone, the dated INSPIRE quota and the distinction between exhibit selection, award scope and measured performance. NCERT case records retain their page references and school-system boundaries.
+Independent reviews checked historical edition boundaries, source-specific championship disagreements, different catalogue views, primary-teacher versus pupil progression, the recovered 2009 integration milestone, the dated INSPIRE quota and the distinction between exhibit selection, award scope and measured performance. NCERT case records retain their page references and school-system boundaries. Added primary pages were independently checked for the 1962–63 regional fairs, the 1991 Kochi national host record, 2012–2017 exhibit mechanisms and the 2023 SISF event-wide counts. The earlier regional fairs do not establish the statewide series’ inaugural year.
 
 Malayalam records remain marked for a teacher's language and educational review. They are a research/evaluation collection, not an approved model-training file. Runtime behaviour, live providers and physical hardware were not changed or exercised by this research; application tests are not evidence that the archive is historically complete.
 

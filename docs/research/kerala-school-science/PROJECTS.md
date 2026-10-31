@@ -1,10 +1,10 @@
 # Kerala school science exhibit case studies
 
-Research cutoff and access date: **31 October 2026**. This sample adds **13 exhibits with a documented mechanism or method**, plus three 2026 prize records whose mechanisms remain unverified. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory.
+Initial research cutoff and access date: **31 October 2026**; catalogue follow-up: **1 November 2026**. This sample contains **20 exhibits with a documented mechanism or method**, plus three 2026 prize records whose mechanisms remain unverified. The [project index](project-index.json) records credited pupils, guides, schools, exhibit codes, source pages, evidence type and unresolved claims. The [source register](project-sources.json) records publishers, dates and downloaded-file hashes. It is a selected sample, not a complete Kerala project inventory.
 
 ## How to interpret the evidence
 
-An NCERT catalogue entry establishes that an exhibit was included in that national exhibition's published list. It does not establish a Kerala Sasthrolsavam prize, a particular qualifying route, independently verified performance, or which pupil wrote each part of the code. School location is recorded separately from the route: Kerala-located JNV, KV and other school-system exhibits must not automatically be described as Kerala state-fair selections. Preserve the source's pupil and teacher credits together; the division of their work remains unknown.
+An NCERT catalogue entry establishes that an exhibit was included in that national exhibition's published list. It does not establish a Kerala Sasthrolsavam prize, a particular qualifying route, independently verified performance, or which pupil wrote each part of the code. School location is recorded separately from the route: Kerala-located JNV, KV and other school-system exhibits must not automatically be described as Kerala state-fair selections. Preserve the source's pupil and teacher credits together; the division of their work remains unknown. The inspected 2010–2017 catalogue rows name schools but omit pupil and teacher credits; empty credit arrays for the seven selected cases from these books mean the names were not supplied, not that no pupils or teachers participated.
 
 These are short factual paraphrases with links to the actual pages, not copies of complete abstracts. The catalogues supply concise descriptions rather than reproducible engineering reports. In the tables, the final column identifies evidence **not supplied on the cited page**; it does not assert that the pupils never collected it.
 
@@ -48,6 +48,27 @@ NCERT's November 2018 catalogue covers the 45th JNNSMEE, Ahmedabad, 23–28 Nove
 | Line Follower Robot using Arduino | Infrared reflectance detects line position and adjusts left/right motor movement. | Route complexity and tracking-error measurements. | [Printed 124 / PDF 136](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2018_Ahmedabad.pdf#page=136) |
 | SEBI with Auto WS | Arduino/Cayenne system uses ultrasonic measurements to monitor bin fill levels. | Field deployment and collection outcomes. | [Printed 108 / PDF 120](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2018_Ahmedabad.pdf#page=120) |
 
+## Earlier NCERT catalogue cases, 2015–2017
+
+These four school-attributed entries come from NCERT's *List of Exhibits* catalogues (`project-013` to `project-015`), rather than the separately reviewed *Structure and Working of Science Models* books. The 42nd JNNSMEE was held at Nirmala College, Muvattupuzha, 16–22 December 2015; the 43rd was held in Bengaluru, 13–19 December 2016. The 44th catalogue identifies Bhopal, 2017. These are national catalogue listings with no prize rank or individual construction credit established here.
+
+| Exhibit and school | Documented mechanism | Evidence still needed | Page |
+|---|---|---|---|
+| Head-Controlled Wheel Chair — Government HSS, South Tikaripur | MEMS input translates slight head movement into wheelchair control. | Control logic, response tests and safe use validation. | [2015, printed 9 / PDF 18](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2015_Muvattupuzha.pdf#page=18) |
+| Water Treatment by Vetiver Grass — Bhavan's Vidya Mandir, Elamakkara | Vetiver is used for wastewater treatment. | Treatment procedure, measured pollutant removal and suitability of treated water. | [2016, printed 65 / PDF 76](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2016_Bengaluru.pdf#page=76) |
+| Third Eye for the Blind — SMV HSS, Poonjar | Ultrasonic sensing supports a navigation-assistance device. | Detection range, feedback method and user trials. | [2017, printed 37 / PDF 51](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2017_Bhopal.pdf#page=51) |
+| EcoCook Power+ — Government Boys HSS, Haripad | Wood fuels a thermoelectric-generation model. | Electrical output, fuel efficiency and emissions comparisons. | [2017, printed 51 / PDF 65](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2017_Bhopal.pdf#page=65) |
+
+## Earlier NCERT catalogue cases, 2012–2014
+
+Three additional short synopses (`project-018` to `project-020`) connect Kerala-located schools with the national catalogues for Silvassa, Gangtok and Chandigarh. The host city is the national event's location; each school's address establishes its Kerala location. In particular, the Kendriya Vidyalaya entry below does not establish selection through Kerala's state-fair system.
+
+| Exhibit and school | Documented mechanism | Evidence still needed | Page |
+|---|---|---|---|
+| Line Follower — Providence Girls HSS, Nadakkav | A robot senses path colours and changes its movement. | Sensor hardware, control code and tracking performance; Arduino is not specified. | [2012, printed 61 / PDF 72](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2012_Silvassa.pdf#page=72) |
+| Borewell Rescue System — Government Sanskrit HS, Meppayil | An Archimedes-screw mechanism is proposed for borewell rescue. | Geometry, load limits, trials and safe rescue validation. | [2013, printed 69 / PDF 79](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2013_Gangtok.pdf#page=79) |
+| Innovative Solar Water Heater — KV No. 1, Naval Base, Kochi | Discarded lighting tubes and old aluminium tubes form a solar-water-heating model. | Construction details, temperature measurements and comparison costs. | [2014, printed 39 / PDF 48](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2014_Chandigarh.pdf#page=48) |
+
 ## SISF 2026: separate prize scope from project explanation
 
 The official VITM/NCSM [SISF 2026 prize list](https://www.vismuseum.gov.in/assets/pdf/events/SISF-2026/Prize%20award%20list%20SISF-2026.pdf) (`project-007`) distinguishes overall fair awards from awards for each state's exhibits. It covers the Hyderabad fair of 19–23 January 2026. Four useful Kerala records are included in the index:
@@ -77,7 +98,23 @@ For Karen's own working-model presentation, these cases support explaining hardw
 
 ## Coverage and next collection priorities
 
-Full catalogue PDFs for 2018, 2019, 2022, 2023 and 2024 were downloaded and text-extracted. Relevant complete pages were inspected, with representative visual checks for 2018, 2019, 2023 and 2024. This pass selected twelve method-bearing catalogue entries; it did not enumerate every Kerala entry. No Kerala case was confidently identified by the initial 2022 text search, which is an extraction/search gap and **not evidence of nonparticipation**. The 2015–2017 *Structure and Working of Science Models* books were also searched; no Kerala-school case was confidently located in this pass. Kerala hosting a book's exhibition is not a Kerala attribution for its exhibits. All are linked in the source register.
+Full *List of Exhibits* catalogue PDFs for 2010–2019, 2022, 2023 and 2024 were downloaded and text-extracted. Relevant complete pages were inspected, with representative visual checks for each year except 2022 in the initial pass; the follow-up also checked two 2022 pages visually. Nineteen method-bearing catalogue entries are now indexed; this is a selected sample rather than an enumeration of every Kerala entry. Kerala school matches were found in every reviewed 2010–2019 catalogue, even where no case was selected for this index. The English school-address columns of the older books were readable; problematic legacy-font Hindi extraction was not needed for these attributions. The 2015–2017 *Structure and Working of Science Models* books were separately searched; no Kerala-school case was confidently located in those books during that pass. Their absence from that search does not contradict the Kerala entries found in the different *List of Exhibits* publications. Kerala hosting a book's exhibition is not a Kerala attribution for its exhibits. All sources are linked in the source register.
+
+### Catalogue coverage ledger, checked 1 November 2026
+
+| Year or source | Review completed | Remaining boundary |
+|---|---|---|
+| 2015 *List of Exhibits* | All 134 pages extracted; Kerala school-address matches reviewed; PDF 18 visually checked; one case indexed. | Further entries were located but are not all indexed; no full reports or individual credits supplied by these tables. |
+| 2016 *List of Exhibits* | All 130 pages extracted; three Kerala-located rows reviewed; PDF 36 and 76 visually checked; one case indexed. | Two located rows remain outside the selected index; no quantitative performance validation. |
+| 2017 *List of Exhibits* | All 96 pages extracted; four Kerala-located rows reviewed; PDF 51 and 65 visually checked; two cases indexed. | Two located rows remain outside the selected index; no qualifying-route or prize proof. |
+| 2018, 2019, 2023, 2024 catalogues | Full text extraction and selected complete-page review, with representative rendered-page checks; twelve cases indexed. | These editions have not been exhaustively indexed for Kerala schools. |
+| 2022 catalogue | Follow-up reviewed all 143 English `School:` blocks; every synopsis page contained one. No Kerala-located school was confidently identified. PDF 32 and 142 visually confirm Lakshadweep schools. | This finding concerns the inspected catalogue and does **not** establish Kerala nonparticipation or absence from other records. |
+| 2020, 2021, 2025, 2026 synopsis catalogues | No such year-labelled catalogue link was found in the reviewed [English archive](https://ncert.nic.in/archive-jnnsmee.php?ln=en). | Not a claim that no book was published or no exhibition occurred. Selection lists, including the 2025 list, are separate documents. |
+| 2010 *List of Exhibits* | All 75 pages extracted; Kerala school-address matches reviewed, including the PDF 50–52 continuation; PDF 24 visually checked. | No case indexed; location matches are not an exhaustive participation list. |
+| 2011 *List of Exhibits* | All 84 pages extracted; Kerala school-address matches reviewed; PDF 53 visually checked. | No case indexed; qualifying routes and awards remain unverified. |
+| 2012 *List of Exhibits* | All 95 pages extracted; Kerala school-address matches reviewed; PDF 72 visually checked; one case indexed. | Other located entries remain outside this selected index. |
+| 2013 *List of Exhibits* | All 97 pages extracted; Kerala school-address matches reviewed; PDF 79 visually checked; one case indexed. | Rescue-system synopsis supplies no safety tests or operational deployment evidence. |
+| 2014 *List of Exhibits* | All 125 pages extracted; Kerala school-address matches reviewed; PDF 48 visually checked; one case indexed. | KV/JNV locations are distinct from selection through the Kerala state-fair route. |
 
 Highest-value follow-up collection:
 
@@ -85,6 +122,6 @@ Highest-value follow-up collection:
 2. A 2026 SISF Kerala exhibit booklet or school-authored demonstration for Medibot, fog harvesting and the natural-fibre diaper, linked to the official award record. Record the duration, transcript and what the video actually demonstrates.
 3. Kerala SCERT/education-department nomination lists connecting named exhibits to the state and national events. This would resolve routes without guessing from school location or similar titles.
 4. SchoolWiki school-authored reports and KITE/Victers demonstrations with substantive methods. No such full project report or verified video transcript is included here: search-index snippets, generic club pages and unviewed video titles were insufficient. Public API requests encountered a bot challenge, and the alternate SchoolWiki host had a TLS certificate problem during this pass.
-5. Remaining NCERT years through 2026, including checking the 2022 scan visually where text search failed. The [official English archive](https://www.ncert.nic.in/archive-jnnsmee.php?ln=en) (`project-002`) is a discovery aid; a link in that archive is not itself evidence for an exhibit's details.
+5. Remaining NCERT years and unindexed Kerala entries, including alternate publication locations for the years not linked in the reviewed archive. The [official English archive](https://ncert.nic.in/archive-jnnsmee.php?ln=en) (`project-002`) is a discovery aid; a link in that archive is not itself evidence for an exhibit's details.
 
 The dated [INSPIRE-MANAK notification](https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf) recovered during this collection is recorded as `project-001`. Its programme conditions and version boundaries are covered in [PATHWAYS.md](PATHWAYS.md).

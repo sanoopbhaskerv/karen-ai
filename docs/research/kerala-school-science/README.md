@@ -1,6 +1,6 @@
 # Kerala school science exhibitions research
 
-Research checked on 31 October 2026. This collection covers Kerala School Sasthrolsavam, its Science and IT fairs, historical state editions, participation rules, official results, special-school provision, and related regional and national science programmes. It is intended as evidence for Karen's future knowledge collection and as a reference for the student's exhibition preparation.
+Initial research checked on 31 October 2026, with archive follow-up on 1 November 2026. This collection covers Kerala School Sasthrolsavam, its Science and IT fairs, earlier regional school fairs, historical state editions, participation rules, official results, special-school provision, and related regional and national science programmes. It is intended as evidence for Karen's future knowledge collection and as a reference for the student's exhibition preparation.
 
 The collection remains open. Early history, some annual records, original project reports, and the exact registration category for Karen still need stronger evidence. An accessible results website is not a complete historical archive.
 
@@ -29,7 +29,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 - [Catalogue snapshot index](ACCESS.md#item-catalogue-snapshots): eight factual catalogues from 2019 and 2022–26, including subdistrict lists with LP entries and the differing state-page views. These are **not eligibility lists for every competition level**. In particular, UP catalogue rows do not establish student eligibility at state level.
 - [Overall result data](result-snapshots.json): ten dated source snapshots containing 6,379 district and school score rows. Read the championship conflicts in the history guide before interpreting them as final results.
 - [Catalogue differences](catalogue-changes.json): literal differences between the same subdistrict view in successive captured editions. These do not, by themselves, establish a rule change.
-- [Project index](project-index.json): 16 credited exhibit records, including 13 with published method information and three with award information only. School location does not establish a Kerala Sasthrolsavam qualifying route.
+- [Project index](project-index.json): 23 attributed exhibit records, including 20 with published method information and three with award information only. School location does not establish a Kerala Sasthrolsavam qualifying route.
 - [Special-school item catalogue](special-school-items.json): a separate work-experience catalogue. Its rules must not be transferred to the general Science fair.
 - [District result index](districts.json): official district URLs and portal identifiers.
 - [Source register](sources.json): cited sources, document dates when established, access dates, authority and limitations. The topic source files preserve additional research notes.

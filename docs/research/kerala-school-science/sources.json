@@ -647,6 +647,69 @@
     "topic_register": "history-sources.json"
   },
   {
+    "id": "history-1963-fairs-report",
+    "title": "Report of Science Fairs Held During 1962–63, Publication No. 23",
+    "url": "https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_primary_institutional_report",
+    "document_date": null,
+    "publication_year": 1963,
+    "publisher": "Department of Extension Services, Government Training College, Trichur",
+    "page_count": 39,
+    "sha256": "c431af9bf430378df7f35d3776e9d8b59df31cad390c6d01dc35d616dc0e8ce2",
+    "bytes": 7866055,
+    "notes": "Scanned primary report hosted by Indic Digital Archive Foundation/Granthappura. Publication year 1963 supplied by catalogue; cover/title states fairs during 1962–63. Title PDF 3 confirms issuer. Printed 1/PDF 7 records Chittur Girls High School, 29 November–1 December 1962, northern-region secondary-school science clubs; printed 20/PDF 26 records Government High School Alwaye, 28–30 January 1963, Ernakulam-area high-school clubs. Relevant pages rendered and visually checked. Supports regional fairs before 1965, not the inaugural date or continuity of the statewide competition. Printed 16/PDF 22 and printed 27/PDF 33 are indexed prize lists but were not fully transcribed. Original spelling of place names retained.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-1963-fairs-catalogue",
+    "title": "Granthappura catalogue: 1963 Report of Science Fairs",
+    "url": "https://gpura.org/item/1963-report-of-science-fairs",
+    "accessed_on": "2026-11-01",
+    "source_type": "digital_archive_catalogue",
+    "document_date": null,
+    "notes": "Public item 23069 links the recovered report PDF and IIIF viewer. Records publication 1963, 39 pages, English, Varghese Printing Works Trichur; digitised 27 February 2026 at Bengaluru Centre from a copy supplied by Dominic Nedumparambil. Catalogue metadata establishes provenance, while event dates/scope were checked against the report pages. Initial direct request timed out; repeat succeeded. Browser fetch returned 402, but direct public download succeeded.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-1963-fairs-release",
+    "title": "Granthappura release of the digitised 1963 science-fairs report",
+    "url": "https://gpura.org/blog/1963-report-of-science-fairs/",
+    "accessed_on": "2026-11-01",
+    "source_type": "digital_archive_release",
+    "document_date": "2026-02-27",
+    "notes": "Digitising institution release identifies Department of Extension Services, Govt Training College Trichur as report publisher and links catalogue/scans; names source-copy contributor. Release is corroborating provenance rather than substitute for the original report. Full release body and linked cover image retrieved; report itself downloaded from catalogue link.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-ncert-four-decades-2012",
+    "title": "Four Decades of National Science Exhibition for Children",
+    "url": "https://ncert.nic.in/desm/pdf/4decadepdf.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "primary_national_institutional_history",
+    "document_date": "2012-09",
+    "publisher": "National Council of Educational Research and Training",
+    "page_count": 168,
+    "sha256": "acad99934f8ad551bfc68d0f26c61169124cb9421664cd453b4bf65ac9403678",
+    "bytes": 31171088,
+    "notes": "First-edition statement September 2012/PDF 2; foreword dated September 2011/PDF 4. Printed 4/PDF 12 visually checked: Kochi 1991 in national host-city table; first NCERT/UGC national exhibition December 1971, New Delhi at Bal Bhavan/National Physical Laboratory. Host table does not supply exact Kochi dates or building venue and does not establish Kerala statewide inauguration. Full PDF text extracted; only Kochi 1991 was found in Kerala-place-name search, not proof of exhaustive image-caption review. www host failed certificate/browser fetch; canonical non-www NCERT download succeeded.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-economic-review-1963",
+    "title": "Kerala 1963: An Economic Review",
+    "url": "https://spb.kerala.gov.in/sites/default/files/inline-files/1963.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "primary_government_review_scan",
+    "document_date": "1964",
+    "publisher": "Government of Kerala",
+    "page_count": 244,
+    "sha256": "5cef211b0ad1fa6ba83a83720cbb8818242d747ccfcf047bfe5a3e7aecb35bed",
+    "bytes": 7904774,
+    "notes": "Government-hosted scan, 244 PDF pages with no embedded text. Title PDF2 states Government Press Trivandrum 1964; introduction PDF4 identifies Bureau of Economics and Statistics preparation. Rendered contents/title and education-section PDF200–207 (printed173–180); read OCR-assisted text. This inspected section did not establish a science-fair inauguration. It is an investigated search lead, not evidence that school fairs were absent; the separate 1962–63 fair report supplies direct regional evidence.",
+    "topic_register": "history-sources.json"
+  },
+  {
     "id": "pathways-01",
     "title": "KITE Sasthrolsavam About Us",
     "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us",
@@ -911,6 +974,41 @@
     "topic_register": "pathways-sources.json"
   },
   {
+    "id": "pathways-26",
+    "title": "DGE section-wise duties, KITE-hosted scan",
+    "url": "https://kite.kerala.gov.in/KITE/downloads/DGE_Secial_rules.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Undated 64-page scan. PDF page 62 was rendered, OCR-assisted and visually inspected in full. Y(1) seat includes state science/maths/social science fairs, SISF and Science Drama, and the former-name national exhibition. Administrative assignment does not establish current staffing, current eligibility or individual exhibit selection.",
+    "download_sha256": "e82848dcbe704d167578c0a03cac58b27db190d8d678ae915f0b9a9d86a70fa7",
+    "pdf_pages": 64,
+    "relevant_pdf_pages": [
+      62
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-27",
+    "title": "VITM and Satellite Units Activity Report 2022–23",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2022-23-Annual-Activity-Report-VITM-SU-PDF1.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "source_date": null,
+    "edition_label": "2022-23",
+    "notes": "Full PDF downloaded and text-extracted. Complete text read on PDF pages 11, 43 and 102 (printed 10, 42 and 101); PDF page 43 visually inspected. Confirms 34th SISF at Thrissur, 27–31 January 2023, with Kerala DGE collaboration. The 169 schools, 240 participants, 169 projects and 7,500 visitors are event-wide counts, not Kerala-only. Does not supply a Kerala nomination or delegation list.",
+    "download_sha256": "aafa418af4e6b84ad8dbc852fad938a07ee271991c1b7eb14bf0d8096900472a",
+    "pdf_pages": 116,
+    "relevant_pdf_pages": [
+      11,
+      43,
+      102
+    ],
+    "event_start_date": "2023-01-27",
+    "event_end_date": "2023-01-31",
+    "topic_register": "pathways-sources.json"
+  },
+  {
     "id": "project-001",
     "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
     "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
@@ -928,7 +1026,8 @@
     "url": "https://www.ncert.nic.in/archive-jnnsmee.php?ln=en",
     "accessed_on": "2026-10-31",
     "source_type": "official_archive",
-    "notes": "Opened archive and followed actual catalogue links. Discovery source only; archive listing does not prove an exhibit mechanism or prize.",
+    "notes": "Opened archive and followed actual catalogue links. Discovery source only; archive listing does not prove an exhibit mechanism or prize. Follow-up reviewed the non-www equivalent (https://ncert.nic.in/archive-jnnsmee.php?ln=en) on 1 November 2026; synopsis catalogue links present for 2010–2019 and 2022–2024, with no year-labelled 2020, 2021, 2025 or 2026 synopsis catalogue link found. This is an archive-link observation, not a publication or participation finding.",
+    "last_reviewed_on": "2026-11-01",
     "topic_register": "project-sources.json"
   },
   {
@@ -1009,9 +1108,10 @@
     "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2022.pdf",
     "accessed_on": "2026-10-31",
     "source_type": "official_exhibit_catalogue",
-    "notes": "Full PDF downloaded and extracted. Initial school/location text searches did not confidently locate a Kerala case. This is an extraction/search gap, not evidence of Kerala nonparticipation. No case indexed from this source.",
+    "notes": "Full PDF downloaded and extracted. Follow-up on 1 November 2026 reviewed all 143 English School: blocks, with no synopsis page missing that block; no Kerala-located school was confidently identified. PDF32 and142 were rendered to confirm Lakshadweep attribution rather than misclassifying those cases as Kerala. This describes the inspected catalogue, not proof of Kerala nonparticipation. No case indexed from this source.",
     "download_sha256": "57e28684a11c4b95c95fbbf394cc2238285294332630323666d93d84815622ea",
     "pdf_pages": 168,
+    "last_reviewed_on": "2026-11-01",
     "topic_register": "project-sources.json"
   },
   {
@@ -1045,6 +1145,102 @@
     "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
     "download_sha256": "970308fd17341088cf7b525b8bec0a413232346787228a2fa0633d73a599c8b1",
     "pdf_pages": 56,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-013",
+    "title": "NCERT: List of Exhibits, 42nd JNNSMEE, Muvattupuzha, 2015",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2015_Muvattupuzha.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted; Kerala school rows located and complete relevant pages inspected. PDF18 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2015 Structure and Working book (project-010). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2015-12",
+    "download_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
+    "pdf_pages": 134,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-014",
+    "title": "NCERT: List of Exhibits, 43rd JNNSMEE, Bengaluru, 2016",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2016_Bengaluru.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted. Three Kerala-located rows identified; full relevant pages inspected. PDF36 and76 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2016 Structure and Working book (project-011). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2016-11",
+    "download_sha256": "e627973a470fb9fcc72df312265b01b29f82c65c67f0b78c834d2d9daf75e44e",
+    "pdf_pages": 130,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-015",
+    "title": "NCERT: List of Exhibits, 44th JNNSMEE, Bhopal, 2017",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2017_Bhopal.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted. Four Kerala-located rows identified; full relevant pages inspected. PDF51 and65 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2017 Structure and Working book (project-012). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2017-10",
+    "download_sha256": "5f28f9d9e24ce4293d354a16ba82f945c907d95a1d089f4c21435e4645381ec5",
+    "pdf_pages": 96,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-016",
+    "title": "NCERT: List of Exhibits, 37th JNNSEC, Jaipur, 2010",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2010_Jaipur.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF14,22,24,50–52 and58 were reviewed, including the school-address continuation on PDF52; PDF24 rendered visually. No case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2010-11",
+    "download_sha256": "b0a2b3df99fe4f9787124d11253e5ba0ce8bdbb02b983bbcb486a88f936b2d79",
+    "pdf_pages": 75,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-017",
+    "title": "NCERT: List of Exhibits, 38th JNNESEC, Patna, 2011",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2011_Patna.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF15,21,35,41,53 and63 were reviewed; PDF53 rendered visually. No case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2011-11",
+    "download_sha256": "1957b48cc81ceeb642928ad517d903b294146f6f4f972480b0bda53905fa1a17",
+    "pdf_pages": 84,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-018",
+    "title": "NCERT: List of Exhibits, 39th JNNSMEE, Silvassa, 2012",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2012_Silvassa.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF22,26,28,40,56,58,72,82,84 and92 were reviewed; PDF72 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2012-11",
+    "download_sha256": "94088b1efc71ecf0288649d23a5fa712e59668007bd38161c93369a5b46e45f3",
+    "pdf_pages": 95,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-019",
+    "title": "NCERT: List of Exhibits, 40th JNNSMEE, Gangtok, 2013",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2013_Gangtok.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF17,55,57,69 and79 were reviewed; PDF79 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2013-10",
+    "download_sha256": "9717e843ee278935246b99eb33bdcc8b804981beed8a986659fd78695d7e1719",
+    "pdf_pages": 97,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-020",
+    "title": "NCERT: List of Exhibits, 41st JNNSMEE, Chandigarh, 2014",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2014_Chandigarh.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF34,36,48,68,82,92 and108 were reviewed; PDF48 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2014-11",
+    "download_sha256": "9373ee17af5fa948d57ac390ce613f86b4f0d0650d05d643482a6de23c490500",
+    "pdf_pages": 125,
     "topic_register": "project-sources.json"
   },
   {

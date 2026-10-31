@@ -237,5 +237,32 @@
     "source_type": "official_pdf",
     "source_date": "2026-09-02",
     "notes": "Located by parallel rules researcher. Parent rules collection owns content verification; PATHWAYS only links source and separates it from NCERT theme notice."
+  },
+  {
+    "id": "pathways-26",
+    "title": "DGE section-wise duties, KITE-hosted scan",
+    "url": "https://kite.kerala.gov.in/KITE/downloads/DGE_Secial_rules.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Undated 64-page scan. PDF page 62 was rendered, OCR-assisted and visually inspected in full. Y(1) seat includes state science/maths/social science fairs, SISF and Science Drama, and the former-name national exhibition. Administrative assignment does not establish current staffing, current eligibility or individual exhibit selection.",
+    "download_sha256": "e82848dcbe704d167578c0a03cac58b27db190d8d678ae915f0b9a9d86a70fa7",
+    "pdf_pages": 64,
+    "relevant_pdf_pages": [62]
+  },
+  {
+    "id": "pathways-27",
+    "title": "VITM and Satellite Units Activity Report 2022–23",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2022-23-Annual-Activity-Report-VITM-SU-PDF1.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "source_date": null,
+    "edition_label": "2022-23",
+    "notes": "Full PDF downloaded and text-extracted. Complete text read on PDF pages 11, 43 and 102 (printed 10, 42 and 101); PDF page 43 visually inspected. Confirms 34th SISF at Thrissur, 27–31 January 2023, with Kerala DGE collaboration. The 169 schools, 240 participants, 169 projects and 7,500 visitors are event-wide counts, not Kerala-only. Does not supply a Kerala nomination or delegation list.",
+    "download_sha256": "aafa418af4e6b84ad8dbc852fad938a07ee271991c1b7eb14bf0d8096900472a",
+    "pdf_pages": 116,
+    "relevant_pdf_pages": [11, 43, 102],
+    "event_start_date": "2023-01-27",
+    "event_end_date": "2023-01-31"
   }
 ]

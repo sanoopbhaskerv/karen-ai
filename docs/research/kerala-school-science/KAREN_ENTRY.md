@@ -1,6 +1,12 @@
 # Karen entry guide for the 2026 subdistrict Science Working Model
 
-Karen is being prepared for the **Science Fair Working Model** at the 2026 subdistrict Sasthrolsavam. The project repository identifies Sreehari V as a Class 9S student; if that is the current registered class, the expected section is **HS, classes 8–10**, and the catalogue item is **115 Working Model**. The school's confirmed entry is the authority for the actual section and item. [Project introduction](../../../README.md), [2026 official catalogue](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list), [manual printed page 40, PDF page 51](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=51)
+Karen is being prepared for the **Science Fair Working Model** at the 2026 subdistrict Sasthrolsavam. For a pupil currently in classes 8–10, the expected section is **HS** and the catalogue item is **115 Working Model**. The school's confirmed entry is the authority for the actual section and item. This public preparation guide does not need the pupil's name, class section or school identity. [2026 official catalogue](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list), [manual printed page 40, PDF page 51](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=51)
+
+## Anonymous presentation and registration
+
+At the user's request, Karen's exhibition replies and interface should describe the project without disclosing the pupils' names, school, class section or home details. Keep personal biographies out of the assistant's saved facts and any future exhibition-history prompt material. A neutral answer can explain Karen's components, operation and actual student contribution.
+
+That presentation choice does not remove the need for truthful organiser-facing registration or genuine construction evidence. Keep the registered pupils' participation visible to the evaluators through the required video and explanation. The inspected general and Working Model provisions did not establish the pasted blanket ban on school uniforms or badges; a later applicable local notice could add conditions. The verified school/district-name anonymity rule described in [RULES.md](RULES.md) concerns Science Magazine and should not be extended to every item without evidence.
 
 ## Settle the participant count before final registration
 
@@ -125,7 +131,7 @@ Bring the source, diagrams, construction video and a clearly labelled recording 
 Before finalising the entry, obtain or verify the following through the school:
 
 - Current class, school code, subdistrict, event date and reporting time.
-- Confirmed stream, section and item code: expected HS Science Working Model 115 if Class 9 remains correct.
+- Confirmed stream, section and item code: expected HS Science Working Model 115 for classes 8–10.
 - Registered pupil names and the applicable two-pupil requirement, or a later written instruction that expressly changes it.
 - Chosen 2026 science subtheme and any local amendments.
 - Escort details, identity/registration documents and permitted equipment/network arrangements.

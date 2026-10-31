@@ -437,5 +437,159 @@
     "method_tag": null,
     "student_work_division_verified": false,
     "performance_independently_verified": false
+  },
+  {
+    "id": "case-2015-head-controlled-wheel-chair",
+    "year": 2015,
+    "title": "Head-Controlled Wheel Chair",
+    "source_ids": [
+      "project-013"
+    ],
+    "exhibit_code": "16.1.4",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Government Higher Secondary School, South Tikaripur, Elambachi, Kasaragod, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 18,
+    "printed_page": 9,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "MEMS head-movement input",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2016-vetiver-water-treatment",
+    "year": 2016,
+    "title": "Water Treatment by Vetiver Grass",
+    "source_ids": [
+      "project-014"
+    ],
+    "exhibit_code": "46.3.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Bhavan’s Vidya Mandir, Elamakkara, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 76,
+    "printed_page": 65,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "plant-based wastewater treatment",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2017-third-eye",
+    "year": 2017,
+    "title": "Third Eye for the Blind",
+    "source_ids": [
+      "project-015"
+    ],
+    "exhibit_code": "16.3.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "SMV Higher Secondary School, Poonjar (PO), Kottayam, Kerala - 686581",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 51,
+    "printed_page": 37,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "ultrasonic navigation assistance",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2017-ecocook-power",
+    "year": 2017,
+    "title": "EcoCook Power+",
+    "source_ids": [
+      "project-015"
+    ],
+    "exhibit_code": "16.4.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Government Boys Higher Secondary School, Haripad, Alappuzha Dist., Kerala - 690514",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 65,
+    "printed_page": 51,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "wood-fuel thermoelectric generation",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2012-line-follower",
+    "year": 2012,
+    "title": "Line Follower",
+    "source_ids": [
+      "project-018"
+    ],
+    "exhibit_code": "14.5",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Providence Girls Higher Secondary School, Nadakkav, Kozhikode, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 72,
+    "printed_page": 61,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "colour-path sensing and robot motion",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2013-borewell-rescue",
+    "year": 2013,
+    "title": "Borewell Rescue System",
+    "source_ids": [
+      "project-019"
+    ],
+    "exhibit_code": "14-5.3",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Govt. Sanskrit H.S. School, Meppayil, Vatakara, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 79,
+    "printed_page": 69,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "Archimedes-screw rescue mechanism",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-solar-water-heater",
+    "year": 2014,
+    "title": "Innovative Solar Water Heater",
+    "source_ids": [
+      "project-020"
+    ],
+    "exhibit_code": "38.2.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Kendriya Vidyalaya No. 1, Naval Base, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 48,
+    "printed_page": 39,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "solar water heating with reused tubes",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
   }
 ]

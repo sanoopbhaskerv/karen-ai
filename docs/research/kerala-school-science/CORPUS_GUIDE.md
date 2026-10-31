@@ -10,6 +10,10 @@ Each source has an access date. Where known, a separate document date is retaine
 
 The catalogue snapshots record literal item names, section labels and codes. They expand ditto marks but do not infer eligibility, change official spellings, or turn teacher categories into student categories. Separate special-school catalogue records are not merged with general fair items.
 
+Karen's exhibition identity is anonymous at the user's request. Exclude its pupils' personal biography, school identity, class section, home details and registration documents from future assistant context or training examples. The preparation guide and class-group evaluation question use generic descriptions for that reason. Organiser-facing registration and genuine participation evidence remain separate from the assistant's public answers.
+
+Historical source credits identify the authors of those exhibits; they must not be presented as Karen's creators. Keep their attribution and source context when discussing the published historical work, without importing unrelated personal or contact information.
+
 ## Suggested answer process
 
 1. Identify the requested edition, level, fair and item. Ask for a missing distinction when it changes the answer: Science Working Model and IT contests have different formats.
@@ -34,6 +38,8 @@ These are proposed integration behaviours. No retrieval service, embedding index
 | A state winner can reach SISF/NCERT | Explain selection and invitation conditions. Do not promise automatic entry for every state item. |
 | A 2025–26 grace-mark circular is available | Label that exam cycle. It does not prove a 2026–27 entitlement. |
 | A school used a cloud AI service | Explain the documented dependency. It does not mean the student trained the foundation model or that the full system runs on the microcontroller. |
+| A report documents a regional fair before 1965 | Describe its place, date and regional scope. It does not establish the statewide series' inaugural year or continuity. |
+| Kochi appears in NCERT's 1991 host table | Identify the national exhibition series; do not relabel it as Kerala's first state fair. |
 
 ## Review before any fine-tuning
 
@@ -47,4 +53,4 @@ Add a source entry with a stable ID, title, exact URL, publisher/authority, acce
 
 For a result, retain academic year, calendar dates, fair, item, section, level, place, grade, score type and status where supplied. Keep a correction as another dated record with an explicit relationship to the earlier one; do not silently overwrite history. For a project, distinguish its title, proposed mechanism, measured results, selection and prize status.
 
-The most valuable next additions are original project reports/logbooks, certified historical result books, annual souvenirs and Karen's confirmed registration record. These provide evidence that a list of search links cannot supply.
+The most valuable next additions are original project reports/logbooks, certified historical result books, annual souvenirs and a redacted entry confirmation containing only the competition fields needed to resolve eligibility. These provide evidence that a list of search links cannot supply.
