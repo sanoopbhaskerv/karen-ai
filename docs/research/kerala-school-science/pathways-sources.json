@@ -1,0 +1,241 @@
+[
+  {
+    "id": "pathways-01",
+    "title": "KITE Sasthrolsavam About Us",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Broad school-to-state, SISF and national pathway; old national name and general item counts are not current rules."
+  },
+  {
+    "id": "pathways-02",
+    "title": "SISF 2026 instructions",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/notice/SISF2026_instrauctions.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Opened full two-page text; screenshot request for page 1 succeeded. Edition-specific selected-list, category, escort, space, explanation and safety conditions.",
+    "edition_label": "2026"
+  },
+  {
+    "id": "pathways-03",
+    "title": "SISF 2025 event page",
+    "url": "https://www.vismuseum.gov.in/events/sisf-2025.php",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Confirms 21–25 January 2025, Puducherry, and three category forms.",
+    "edition_label": "2025"
+  },
+  {
+    "id": "pathways-04",
+    "title": "NCERT RSBVP 2025–26 and 53rd RBVP 2026 guidelines",
+    "url": "https://ncert.nic.in/desm/pdf/rbvp_53rd_2025.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Downloaded using curl after browser failures; all 58 PDF pages extracted with pypdf. Relevant PDF page31 visually inspected. Printed pp25–26,29 establish entry routes and different state/national weights.",
+    "sha256": "e058f7b16ed427a3b25d47e770fe5add442909e064b495842422fcb37527cd93",
+    "edition_label": "2025-26"
+  },
+  {
+    "id": "pathways-05",
+    "title": "NCERT theme notification for RSBVP 2026–27 and RBVP 2027",
+    "url": "https://ncert.nic.in/desm/pdf/DESM-THEME-RSBVP-2026-27_554.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": "2026-08-28",
+    "notes": "Downloaded and rendered; scanned one-page circular visually inspected. F.No12-4/DESM/ACM/2026-27. Contains AI subtheme. Not sufficient to establish Kerala item eligibility.",
+    "sha256": "9cc29a2b73f3d1ef9e7818cb4eea3895801564297d22499cc75e5e6848826657"
+  },
+  {
+    "id": "pathways-06",
+    "title": "NCERT national exhibition renaming notice",
+    "url": "https://ncert.nic.in/desm/pdf/Rename_The_49th_RBVP_2022.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": "2022",
+    "notes": "Downloaded and text extracted; one-page notice confirms RBVP name from2022. Preserve historical titles in archive.",
+    "sha256": "367f3420ec020443785deeb482fd2098ba989380f195994ee064b46b0bd681d8"
+  },
+  {
+    "id": "pathways-07",
+    "title": "NCERT selected exhibits for 52nd RBVP 2025",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/Exhibits_selected_for_participation_2025.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Downloaded, all10pages extracted; PDF page2 rendered and visually inspected. Five Kerala selected entries. Selection does not establish prize or attendance. Student phone/email fields omitted from notes.",
+    "sha256": "d790f539e674b894dba768e2978d7888aab7827d9a0d1dc5bafa48967ad5242e",
+    "edition_label": "2025"
+  },
+  {
+    "id": "pathways-08",
+    "title": "NCERT science exhibition index",
+    "url": "https://ncert.nic.in/jn-national-science-exhibition.php",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Downloaded and parsed with curl after browser timeouts. Links current guidelines, themes, selected exhibits and older national records.",
+    "sha256": "f37e344e16e1c347a4ea5ff5e9405ad580738add4d330ba114431ce611c6ba31"
+  },
+  {
+    "id": "pathways-09",
+    "title": "CBSE Science Exhibition 2026–27 circular Acad69/2026",
+    "url": "https://cbseacademic.nic.in/web_material/Circulars/2026/69_Circular_2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": "2026-10-27",
+    "notes": "Opened10-page PDF text. Registration27Oct–14Nov2026; category/classes/team/assessment and conditional NCERT referral. Main fee statement and annexure team-based fee wording should be reconciled in portal."
+  },
+  {
+    "id": "pathways-10",
+    "title": "CBSE Science Exhibition microsite",
+    "url": "https://academic.cbseit.in/science_ex/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Regional and national workflow; generic Oct registration banner less precise than dated circular.",
+    "edition_label": "2026-27"
+  },
+  {
+    "id": "pathways-11",
+    "title": "INSPIRE-MANAK About",
+    "url": "https://www.inspireawards-dst.gov.in/UserP/Award.aspx",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Live page says classes6–12,5nominations, max2science-stream XI/XII. Programme targets, DBT and selection funnel. FY2026–27 closed banner observed31Oct2026."
+  },
+  {
+    "id": "pathways-12",
+    "title": "INSPIRE-MANAK FAQ",
+    "url": "https://www.inspireawards-dst.gov.in/UserP/faqs.aspx",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Individual ideas, originality/synopsis requirements; contains old2–3nomination wording inconsistent with About. Do not use generic calendar as yearly deadline."
+  },
+  {
+    "id": "pathways-13",
+    "title": "CBSE INSPIRE-MANAK circular Acad110/2022",
+    "url": "https://www.inspireawards-dst.gov.in/download/news/CBSE_Circular_2022.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": "2022-09-22",
+    "notes": "Opened full2-page PDF. Historical2022–23 age10–15/classes6–10 boundary; do not apply unchanged to2026–27."
+  },
+  {
+    "id": "pathways-14",
+    "title": "INSPIRE important communications",
+    "url": "https://www.inspireawards-dst.gov.in/UserP/viewImpComm.aspx",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Lists13July2026 nomination circular; attachment not obtained. Index confirms existence, not its detailed terms.",
+    "referenced_notice_date": "2026-07-13"
+  },
+  {
+    "id": "pathways-15",
+    "title": "KSCSTE National Children’s Science Congress",
+    "url": "https://kscste.kerala.gov.in/national-childrens-science-congress-ncsc/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": "2026-07-18",
+    "notes": "Opened Kerala nodal programme page; two-child age groups, guide rules, CWD provision, registration and2026coordinator links. Do not replace age provisions with assumptions from grade labels.",
+    "source_date_kind": "page_last_updated"
+  },
+  {
+    "id": "pathways-16",
+    "title": "NCSC 2026–27 activity guidebook linked by Kerala",
+    "url": "https://kscste.kerala.gov.in/storage/2025/10/Activity-Guidebook-for-NCSC-2026-27_0.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": null,
+    "notes": "Opened64-page PDF, relevant text inspected. Theme/model project and documentation guidance. Screenshot attempts for PDFpp56/61 timed out. Guide examples of presentation durations are not binding event limits.",
+    "edition_label": "2026-27"
+  },
+  {
+    "id": "pathways-17",
+    "title": "NCSC judging guidance",
+    "url": "https://ncsc.co.in/judgement",
+    "accessed_on": "2026-10-31",
+    "source_type": "programme_html",
+    "source_date": null,
+    "notes": "Opened NOSTC-network programme page. Undated; use for research assessment principles and logs, not a current numeric Kerala rubric."
+  },
+  {
+    "id": "pathways-18",
+    "title": "KSCSTE SPYTiS",
+    "url": "https://kscste.kerala.gov.in/scheme-for-promoting-young-talents-in-sciencespytis/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": "2025-12-20",
+    "notes": "Opened. School project support/classesVIII–XII/max5/₹5000/one-year duration; funding not automatic competition selection.",
+    "source_date_kind": "page_last_updated"
+  },
+  {
+    "id": "pathways-19",
+    "title": "39th Kerala Science Congress venue and dates",
+    "url": "https://kscnew.kerala.gov.in/venue-date/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Announces28–31January2027 at StJoseph’s College Devagiri Kozhikode; future event asof31Oct2026."
+  },
+  {
+    "id": "pathways-20",
+    "title": "39th Kerala Science Congress National Science Expo",
+    "url": "https://kscnew.kerala.gov.in/national-science-expo/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Describes39th2027Congress expo scope including institutions, industry,startups,students and public; keep distinct from school fair competition."
+  },
+  {
+    "id": "pathways-21",
+    "title": "Official INSPIRE videos index",
+    "url": "https://www.inspireawards-dst.gov.in/UserP/INSPIREVideos.aspx",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Links Malayalam animation film; source-provenance record, not transcript validation."
+  },
+  {
+    "id": "pathways-22",
+    "title": "INSPIRE-MANAK Malayalam animation film",
+    "url": "https://www.youtube.com/watch?v=t_qfUmnOYG4",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_linked_video",
+    "source_date": null,
+    "notes": "Opened through official video-index link; only title available. No transcript or content claims extracted."
+  },
+  {
+    "id": "pathways-23",
+    "title": "KITE e-governance applications directory",
+    "url": "https://kite.kerala.gov.in/KITE/index.php/welcome/e_gov_applications",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Describes Samagra multimedia/textbooks, SchoolWiki school-contributed records and separate school/special-school Sasthrolsavam portals."
+  },
+  {
+    "id": "pathways-24",
+    "title": "INSPIRE NLEPC winner-list index",
+    "url": "https://www.inspireawards-dst.gov.in/UserP/NLEPCAwardeeORList0fNLEPCWinners.aspx",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "source_date": null,
+    "notes": "Opened. Year selector visible; no complete Kerala winner records extracted."
+  },
+  {
+    "id": "pathways-25",
+    "title": "Kerala2026competition-topic circular",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "source_date": "2026-09-02",
+    "notes": "Located by parallel rules researcher. Parent rules collection owns content verification; PATHWAYS only links source and separates it from NCERT theme notice."
+  }
+]

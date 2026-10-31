@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "source_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result",
+  "portal_year": 2026,
+  "accessed_on": "2026-10-31",
+  "scope": "Observed official links; destination availability and result completeness must be checked for the requested district and date. Identifiers are not ranks.",
+  "districts": [
+    {
+      "district_id": 1,
+      "district": "Thiruvananthapuram",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/1/Thiruvananthapuram"
+    },
+    {
+      "district_id": 2,
+      "district": "Kollam",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/2/Kollam"
+    },
+    {
+      "district_id": 3,
+      "district": "Pathanamthitta",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/3/Pathanamthitta"
+    },
+    {
+      "district_id": 4,
+      "district": "Alappuzha",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/4/Alappuzha"
+    },
+    {
+      "district_id": 5,
+      "district": "Kottayam",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/5/Kottayam"
+    },
+    {
+      "district_id": 6,
+      "district": "Idukki",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/6/Idukki"
+    },
+    {
+      "district_id": 7,
+      "district": "Ernakulam",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/7/Ernakulam"
+    },
+    {
+      "district_id": 8,
+      "district": "Thrissur",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/8/Thrissur"
+    },
+    {
+      "district_id": 9,
+      "district": "Palakkad",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/9/Palakkad"
+    },
+    {
+      "district_id": 10,
+      "district": "Malappuram",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/10/Malappuram"
+    },
+    {
+      "district_id": 11,
+      "district": "Kozhikode",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/11/Kozhikode"
+    },
+    {
+      "district_id": 12,
+      "district": "Wayanad",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/12/Wayanad"
+    },
+    {
+      "district_id": 13,
+      "district": "Kannur",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/13/Kannur"
+    },
+    {
+      "district_id": 14,
+      "district": "Kasaragod",
+      "results_url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/14/Kasaragod"
+    }
+  ]
+}
