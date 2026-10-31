@@ -36,6 +36,11 @@ jobs:
           python -m pip install --only-binary=:all: -r requirements-dev.txt
       - name: Run tests including native launchers in a path with spaces
         run: python -m pytest -q
+      # Hosted runners also have 3.15 installed. Exercise preservation of an
+      # existing 3.14 environment here, and fresh 3.15 discovery in the other job.
+      - name: Prepare existing Python 3.14 environment
+        if: matrix.python == '3.14'
+        run: python -m venv .venv
       - name: Run real computer-only bootstrap
         shell: cmd
         run: call bootstrap-windows.cmd --controller esp32_s3
