@@ -77,18 +77,27 @@ def test_reset_or_memory_edit_cannot_be_undone_by_inflight_answer(setup, mutatio
 
 def test_request_deadline_never_commits_late_result(setup):
     app, c, p, token = setup
-    app.extensions['karen']['jobs'].timeout = 0.01
-    release = threading.Event()
+    entered, release = threading.Event(), threading.Event()
     original = p.answer
     def slow(*args):
+        entered.set()
         assert release.wait(2)
         return original(*args)
     p.answer = slow
-    response = submit(c, token)
-    assert response.status_code == 504
-    assert response.json['code'] == 'request_timeout'
-    assert submit(c, token, key='different-1234', asynchronous=True).json['code'] == 'busy'
-    release.set()
+    try:
+        assert submit(c, token, asynchronous=True).status_code == 202
+        assert entered.wait(1)
+        # Expire a known-running request explicitly. A 10 ms real-time wait can
+        # wake just before its deadline on Windows and legitimately return 202.
+        job = app.extensions['karen']['jobs'].get('request-1234')
+        with job.lock:
+            job.deadline = time.monotonic() - 1
+        response = c.get('/requests/request-1234')
+        assert response.status_code == 504
+        assert response.json['code'] == 'request_timeout'
+        assert submit(c, token, key='different-1234', asynchronous=True).json['code'] == 'busy'
+    finally:
+        release.set()
     assert finish(app, c).status_code == 504
     assert not app.extensions['karen']['history']
 
