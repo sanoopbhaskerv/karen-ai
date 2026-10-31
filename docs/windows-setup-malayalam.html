@@ -28,7 +28,7 @@
     pre{margin:0;padding:1rem;background:#fbfcfa;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;font-size:.88rem}
     code{font-family:Consolas,"Cascadia Code",ui-monospace,monospace}p code,li code{background:#edf2ec;padding:.1rem .25rem;border-radius:3px;overflow-wrap:anywhere;font-size:.9em}
     ul,ol{padding-left:1.5rem}li{margin:.4rem 0}.done{display:flex;align-items:center;gap:.7rem;margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.done input{width:20px;height:20px;accent-color:var(--green)}
-    .step.complete{border-color:#6f9e81}.wiring{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:.8rem 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}.wiring dt,.wiring dd{margin:0;padding:.55rem .8rem;border-bottom:1px solid var(--line)}.wiring dt{background:#f4f7f2;font-family:system-ui,sans-serif}.wiring dd{font-family:system-ui,sans-serif}.wiring :nth-last-child(-n+2){border-bottom:0}
+    .step.complete{border-color:#6f9e81}.wiring{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;margin:.8rem 0;border:1px solid var(--line);border-radius:8px;overflow:hidden}.wiring dt,.wiring dd{overflow-wrap:anywhere;min-width:0;margin:0;padding:.55rem .8rem;border-bottom:1px solid var(--line)}.wiring dt{background:#f4f7f2;font-family:system-ui,sans-serif}.wiring dd{font-family:system-ui,sans-serif}.wiring :nth-last-child(-n+2){border-bottom:0}
     footer{padding-top:0;color:var(--muted);font-size:.9rem}.status{font-size:.85rem;color:var(--green);min-height:1.5rem}.small{font-size:.88rem;color:var(--muted)}
     @media(max-width:520px){body{font-size:16px}.step{padding:1rem}header,main,footer{padding-left:.8rem;padding-right:.8rem}.command-head{padding:.45rem .6rem}pre{padding:.8rem}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
@@ -42,8 +42,8 @@
   <h1>ഓരോ ഘട്ടമായി<br>കാരെൻ ഒരുക്കാം.</h1>
   <p class="lead">Windows ലാപ്‌ടോപ്പിനുള്ള മലയാളം നിർദ്ദേശങ്ങൾ. ഈ ഫയൽ Edge അല്ലെങ്കിൽ Chrome-ൽ നേരിട്ട് തുറക്കാം; വായിക്കാൻ Karen server തുടങ്ങേണ്ടതില്ല. Setup downloads-നും live chat-നും ഇന്റർനെറ്റ് വേണം.</p>
   <div class="notice"><strong>ആദ്യം കമ്പ്യൂട്ടറും USB പരിശോധനയും മാത്രം.</strong> മൈക്രോഫോൺ, ബട്ടൺ, ആംപ്ലിഫയർ എന്നിവയുടെ wiring മുതിർന്നയാൾ ഒപ്പമുണ്ടാകുമ്പോൾ ചെയ്യുക. ഓരോ command-ഉം ഒന്നൊന്നായി നൽകുക. <strong>FAIL അല്ലെങ്കിൽ error കണ്ടാൽ നിർത്തുക.</strong></div>
-  <div class="tools"><button type="button" id="print">പ്രിന്റ് / PDF</button><span id="progress" aria-live="polite">0 / 7 ഘട്ടങ്ങൾ പൂർത്തിയായി</span></div>
-  <nav aria-label="ഘട്ടങ്ങൾ"><a href="#step1">1. Setup</a><a href="#step2">2. Doctor</a><a href="#step3">3. Laptop chat</a><a href="#step4">4. USB / COM</a><a href="#step5">5. WiFi</a><a href="#step6">6. Upload</a><a href="#step7">7. Mic / button</a></nav>
+  <div class="tools"><button type="button" id="print">പ്രിന്റ് / PDF</button><span id="progress" aria-live="polite">0 / 10 ഘട്ടങ്ങൾ പൂർത്തിയായി</span></div>
+  <nav aria-label="ഘട്ടങ്ങൾ"><a href="#step1">1. Setup</a><a href="#step2">2. Doctor</a><a href="#step3">3. Laptop chat</a><a href="#step4">4. USB / COM</a><a href="#step5">5. WiFi</a><a href="#step6">6. Upload</a><a href="#step7">7. Mic / button</a><a href="#step8">8. Amplifier</a><a href="#step9">9. Speaker</a><a href="#step10">10. Final test</a></nav>
   <p class="small">എല്ലാ PowerShell commands-ഉം <code>app.py</code> ഉള്ള project folder-ൽ നൽകുക. പേജ് മുഴുവൻ PowerShell-ൽ paste ചെയ്യരുത്. ഓരോ command-ന്റെയും കോപ്പി ബട്ടൺ ഉപയോഗിക്കുക.</p>
   <p id="copy-status" class="status" role="status" aria-live="polite"></p>
 </header>
@@ -125,8 +125,88 @@ PSRAM: 8388608 bytes
     <div class="command"><div class="command-head"><span>Window B · Serial Monitor</span><button class="copy" type="button" data-copy="cmd12" aria-describedby="cmd12">കോപ്പി</button></div><pre><code id="cmd12">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
     <p>Button ഒരിക്കൽ അമർത്തി വിടുക. <strong>[MIC] Recording. Speak now.</strong> കണ്ടശേഷം അഞ്ച് സെക്കൻഡിനുള്ളിൽ സംസാരിക്കുക. Button ആവർത്തിച്ച് അമർത്താതെ reply പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കുക.</p>
     <div class="go"><strong>പരിശോധിക്കുക:</strong> <code>samples=80000/80000</code>, <code>[HTTP] Result: ok</code> എന്നിവ പ്രതീക്ഷിക്കാം. Zero-signal warning അല്ലെങ്കിൽ <code>spoken-error</code> വന്നാൽ test വിജയിച്ചിട്ടില്ല. Laptop-ലെ Karen page refresh ചെയ്ത് തിരിച്ചറിഞ്ഞ ചോദ്യവും മറുപടിയും വായിക്കുക.</div>
-    <p><strong>ആംപ്ലിഫയർ ബന്ധിപ്പിക്കുന്നതുവരെ ബോർഡിൽ നിന്ന് ശബ്ദം വരില്ല.</strong> MAX98357A amplifier, അതിന്റെ power supply, speaker connections എന്നിവ പിന്നീട് മുതിർന്നയാളോടൊപ്പം പരിശോധിക്കാം. Speaker നേരിട്ട് GPIO-യിൽ ബന്ധിപ്പിക്കരുത്.</p>
+    <p><strong>ആംപ്ലിഫയർ ബന്ധിപ്പിക്കുന്നതുവരെ ബോർഡിൽ നിന്ന് ശബ്ദം വരില്ല.</strong> Mic / button test വിജയിച്ചാൽ amplifier, speaker എന്നിവ ബന്ധിപ്പിക്കാൻ <a href="#step8">ഘട്ടം 8</a> മുതൽ മുതിർന്നയാളോടൊപ്പം തുടരുക. Speaker നേരിട്ട് GPIO-യിൽ ബന്ധിപ്പിക്കരുത്.</p>
     <label class="done"><input type="checkbox">Mic / button test മുതിർന്നയാളോടൊപ്പം വിജയിച്ചു</label>
+  </section>
+  <section class="step" id="step8" aria-labelledby="title8">
+    <div class="step-heading"><span class="number" aria-hidden="true">8</span><h2 id="title8">MAX98357A amplifier — power, signal wiring</h2></div>
+    <p>ഘട്ടം 7-ലെ mic / button test വിജയിച്ചശേഷം മുതിർന്നയാളോടൊപ്പം തുടരുക. <strong>MAX98357A I2S</strong> module ആണെന്ന് പരിശോധിക്കുക. PAM8403 analog amplifier അല്ലെങ്കിൽ MAX98357B ഇതേ wiring/firmware-ന്റെ പകരമായി ഉപയോഗിക്കരുത്. Module-ന്റെ printed labels വായിക്കുക; pin-കളുടെ ഇടത്–വലത് ക്രമം അനുകരിക്കരുത്.</p>
+    <div class="notice"><strong>എല്ലാ power-ഉം ഓഫ് ചെയ്യുക:</strong> laptop-ൽ നിന്നുള്ള S3 USB ഊരുക; amplifier supply / power bank-ഉം disconnect ചെയ്യുക. Soldering, supply polarity പരിശോധന എന്നിവ മുതിർന്നയാൾ ചെയ്യണം. Loose headers, പുറത്തേക്ക് നീണ്ട copper strands, breadboard short എന്നിവ ശരിയാക്കാതെ power നൽകരുത്.</div>
+    <h3>8A. ഉപയോഗിക്കുന്ന power arrangement</h3>
+    <p>ഈ ആദ്യ പരീക്ഷണത്തിൽ <strong>S3-ക്ക് laptop USB (COM)</strong> വഴിയും <strong>amplifier-ന് വേറൊരു regulated 5 V supply</strong> വഴിയും power നൽകാം. Amplifier supply കുറഞ്ഞത് <strong>1 A rated</strong> ആയിരിക്കണം; അതിന്റെ polarity, actual module limits എന്നിവ മുതിർന്നയാൾ സ്ഥിരീകരിക്കണം. Labelled 5V/GND terminals ഉള്ള അനുയോജ്യമായ USB power breakout പോലുള്ള ready-made connection ഉപയോഗിക്കുക. Charger തുറക്കുകയോ mains wiring ചെയ്യുകയോ വേണ്ട.</p>
+    <pre><code>Laptop USB data cable ───────────────→ S3 COM socket
+Separate regulated 5 V supply (+) ──→ MAX98357A VIN
+Separate supply (− / GND) ──────────→ MAX98357A GND
+S3 GND ────────────────────────────→ MAX98357A GND</code></pre>
+    <p><strong>Positive supply rails തമ്മിൽ ബന്ധിപ്പിക്കരുത്:</strong> amplifier-ന്റെ external 5 V, USB-powered S3-യുടെ 5V/VIN/3V3 pin-ലേക്ക് ചേർക്കരുത്. Amplifier-ന് S3-യുടെ 3V3-യിൽ നിന്ന് power എടുക്കരുത്. <strong>Grounds മാത്രം common ആക്കണം.</strong> എല്ലാ wires-ഉം power ഓഫ് ചെയ്തിരിക്കുമ്പോഴാണ് ചേർക്കേണ്ടത്.</p>
+    <h3>8B. ഓരോ amplifier connection-ഉം</h3>
+    <ol>
+      <li>Verified external supply-യുടെ <strong>+5 V → amplifier VIN</strong>.</li>
+      <li>ആ supply-യുടെ <strong>negative / GND → amplifier GND</strong>.</li>
+      <li><strong>S3 GND → അതേ amplifier GND</strong>. വേണമെങ്കിൽ verified common GND rail ഉപയോഗിക്കാം; split breadboard rail തുടർച്ചയുള്ളതാണെന്ന് പരിശോധിക്കുക.</li>
+      <li><strong>S3 GPIO16 → amplifier BCLK</strong>.</li>
+      <li><strong>S3 GPIO17 → amplifier LRC / WS / LRCLK</strong>.</li>
+      <li><strong>S3 GPIO18 → amplifier DIN</strong>. ഇത് amplifier-ന്റെ digital audio input ആണ്.</li>
+      <li><strong>SD / EN, GAIN</strong> താഴെയുള്ള module-specific നിർദ്ദേശം അനുസരിച്ച് പരിശോധിക്കുക.</li>
+    </ol>
+    <dl class="wiring" id="amp-wiring"><dt>MAX98357A VIN</dt><dd>Verified external +5 V</dd><dt>GND</dt><dd>External supply − / GND + S3 GND</dd><dt>BCLK</dt><dd>S3 GPIO16</dd><dt>LRC / WS / LRCLK</dt><dd>S3 GPIO17</dd><dt>DIN</dt><dd>S3 GPIO18</dd><dt>SD / EN / MODE</dt><dd>Module instructions; see 8C</dd><dt>GAIN</dt><dd>Confirmed default; see 8C</dd><dt>MCLK</dt><dd>Connection ആവശ്യമില്ല</dd></dl>
+    <p>Mic-ന്റെ clock/data pins <strong>4 / 5 / 6</strong> തന്നെയാണ്; amplifier-ന്റേത് <strong>16 / 17 / 18</strong>. ഈ firmware-ൽ അവ തമ്മിൽ join ചെയ്യരുത്. I2S signal wires ചെറുതാക്കി വയ്ക്കുക. പുതിയ pin overrides ചേർക്കേണ്ടതില്ല.</p>
+    <h3>8C. SD / EN, GAIN എങ്ങനെ വയ്ക്കണം?</h3>
+    <p><strong>SD</strong> ഇവിടെ shutdown / channel-mode control ആണ്; microphone-ന്റെ SD audio pin-ുമായി ബന്ധിപ്പിക്കരുത്. SD-യെ GND-യിൽ ചേർത്താൽ MAX98357A shutdown ആകും.</p>
+    <ul>
+      <li><strong>Adafruit mono MAX98357A breakout അല്ലെങ്കിൽ അതേ schematic സ്ഥിരീകരിച്ച board:</strong> fitted 1 MΩ SD-to-VIN pull-up ഉണ്ടെങ്കിൽ, 5 V ഉപയോഗിക്കുമ്പോൾ SD-ക്ക് അധിക wire ആവശ്യമില്ല; default stereo-average output ഉപയോഗിക്കാം. GAIN unconnected ആയി വച്ചാൽ default 9 dB ആണ്.</li>
+      <li><strong>മറ്റൊരു clone / EN label ഉള്ള module:</strong> pull-up / enable resistor ഉണ്ടെന്ന് ഊഹിക്കരുത്. അതിന്റെ schematic / seller instructions പ്രകാരം amplifier enabled ആക്കണം. രേഖകൾ വ്യക്തമല്ലെങ്കിൽ module-ന്റെ ഇരുവശവും pin labels-ഉം മുതിർന്നയാൾ തിരിച്ചറിഞ്ഞശേഷം മാത്രം power നൽകുക. SD/GAIN-ലേക്ക് 5 V അല്ലെങ്കിൽ GND ഊഹിച്ച് ചേർക്കരുത്.</li>
+    </ul>
+    <p class="small">References: <a href="https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts" target="_blank" rel="noopener">Adafruit mono breakout pinouts / default resistors</a> · <a href="https://www.analog.com/en/products/max98357a.html" target="_blank" rel="noopener">MAX98357A manufacturer specifications</a>. Clone board-ന്റെ power circuitry ഈ references മാത്രം കൊണ്ട് സ്ഥിരീകരിക്കാനാവില്ല.</p>
+    <label class="done"><input type="checkbox">Power ഓഫ് ചെയ്ത നിലയിൽ amplifier power, signals, enable/gain മുതിർന്നയാൾ പരിശോധിച്ചു</label>
+  </section>
+  <section class="step" id="step9" aria-labelledby="title9">
+    <div class="step-heading"><span class="number" aria-hidden="true">9</span><h2 id="title9">Speaker ബന്ധിപ്പിക്കുക; എല്ലാ wires-ഉം വീണ്ടും പരിശോധിക്കുക</h2></div>
+    <p><strong>USB-യും amplifier supply-യും ഇപ്പോഴും disconnected ആയിരിക്കണം.</strong> കുറഞ്ഞത് <strong>4 Ω</strong> impedance ഉള്ള passive moving-coil speaker ഉപയോഗിക്കുക; 4 Ω / 8 Ω സാധാരണ options ആണ്. Speaker-ന്റെ actual marking നോക്കുക. 4 Ω / 10 W speaker ആണെങ്കിൽ amplifier കുറഞ്ഞ power-ൽ ഉപയോഗിക്കാം; speaker-ൽ 10 W എന്ന് എഴുതിയതുകൊണ്ട് ഈ amplifier 10 W നൽകില്ല.</p>
+    <ol>
+      <li>Speaker-ന്റെ ഒരു wire / marked <strong>+ → amplifier SPK+ / OUT+</strong>.</li>
+      <li>Speaker-ന്റെ മറ്റേ wire / marked <strong>− → amplifier SPK− / OUT−</strong>.</li>
+      <li>Screw terminals ഉണ്ടെങ്കിൽ wires മുറുകെ ഉറപ്പിക്കുക. രണ്ട് terminals തമ്മിൽ copper strand short ഇല്ലെന്ന് പരിശോധിക്കുക. Soldering ആവശ്യമെങ്കിൽ മുതിർന്നയാൾ ചെയ്യണം.</li>
+      <li>Speaker-നെ mic-ൽ നിന്ന് അകറ്റി വയ്ക്കുക. Mic opening മൂടരുത്. ആദ്യ test-ൽ speaker ചെവിയോട് ചേർക്കരുത്.</li>
+    </ol>
+    <dl class="wiring" id="speaker-wiring"><dt>Speaker +</dt><dd>Amplifier SPK+ / OUT+</dd><dt>Speaker −</dt><dd>Amplifier SPK− / OUT−</dd></dl>
+    <div class="notice"><strong>Speaker-ന്റെ ഒരു wire-ഉം GND-യിൽ ചേർക്കരുത്.</strong> രണ്ട് speaker terminals-ഉം amplifier outputs ആണ്. Speaker നേരിട്ട് S3 GPIO-യിലോ laptop audio jack-ലോ ബന്ധിപ്പിക്കരുത്. Amplifier-ന്റെ GND connection-ഉം speaker-ന്റെ SPK− output-ഉം വ്യത്യസ്തമാണ്.</div>
+    <h3>Power നൽകുന്നതിന് മുമ്പുള്ള മുഴുവൻ connection list</h3>
+    <ul id="connection-audit">
+      <li><strong>Mic:</strong> VDD → S3 3V3; GND → common GND; L/R → GND; SCK/BCLK → GPIO4; WS → GPIO5; SD → GPIO6.</li>
+      <li><strong>Button:</strong> GPIO7 ↔ verified switch contacts ↔ GND; അമർത്തുമ്പോൾ മാത്രം short; BOOT button ഉപയോഗിക്കരുത്.</li>
+      <li><strong>Amplifier signals:</strong> BCLK → GPIO16; LRC/WS → GPIO17; DIN → GPIO18; SD/GAIN → ഘട്ടം 8C-ൽ സ്ഥിരീകരിച്ച നില.</li>
+      <li><strong>Power:</strong> amplifier VIN → verified external +5 V; amplifier GND → supply negative + S3 GND. Mic/button grounds-ഉം ഇതേ common GND-യിലാണ്.</li>
+      <li><strong>Positive rails:</strong> external amplifier +5 V-ക്ക് S3 5V/VIN/3V3-യുമായി wire connection ഇല്ല. Mic-ക്ക് 3V3 മാത്രം.</li>
+      <li><strong>Speaker:</strong> അതിന്റെ രണ്ട് wires SPK+ / SPK−-ൽ മാത്രം; GND-യിലല്ല.</li>
+      <li><strong>Physical check:</strong> soldered headers, polarity, button contacts, split rails, loose wires, short circuits എന്നിവ മുതിർന്നയാൾ പരിശോധിച്ചു. എല്ലാ power sources-ഉം ഇതുവരെ off ആണ്.</li>
+    </ul>
+    <label class="done"><input type="checkbox">Speaker wires-ഉം മുഴുവൻ connection list-ഉം മുതിർന്നയാൾ പരിശോധിച്ചു</label>
+  </section>
+  <section class="step" id="step10" aria-labelledby="title10">
+    <div class="step-heading"><span class="number" aria-hidden="true">10</span><h2 id="title10">Power on ചെയ്ത് speaker-ൽ മറുപടി പരിശോധിക്കുക</h2></div>
+    <ol>
+      <li>Wiring check കഴിഞ്ഞാൽ verified amplifier 5 V supply on ചെയ്യുക. തുടർന്ന് laptop USB data cable S3-യുടെ <strong>COM</strong> socket-ൽ ബന്ധിപ്പിക്കുക. ഇനി power ഉള്ളപ്പോൾ വയറുകൾ മാറ്റരുത്.</li>
+      <li><strong>Window A</strong>-യിൽ Karen server പ്രവർത്തിക്കുന്നുണ്ടെന്ന് ഉറപ്പാക്കുക. അതേ WiFi, laptop IPv4 എന്നിവ ഉപയോഗിക്കണം.</li>
+      <li><strong>Window B</strong>-യിൽ താഴെയുള്ള Serial Monitor command നൽകുക. പഴയ monitor ഇതിനകം പ്രവർത്തിക്കുന്നുണ്ടെങ്കിൽ രണ്ടാമത്തേത് തുടങ്ങേണ്ടതില്ല.</li>
+    </ol>
+    <div class="command"><div class="command-head"><span>Window B · final speaker test</span><button class="copy" type="button" data-copy="cmd13" aria-describedby="cmd13">കോപ്പി</button></div><pre><code id="cmd13">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
+    <p>Window B അടച്ചുതുറന്നതാണെങ്കിൽ ഘട്ടം 4 പോലെ <code>$karenPort</code> വീണ്ടും നൽകുക. <code>[WIFI] Connected</code>, <code>[READY]</code> എന്നിവ കണ്ടശേഷം external question button ഒരിക്കൽ അമർത്തി വിടുക. <code>[MIC] Recording. Speak now.</code> കണ്ടാൽ അഞ്ച് സെക്കൻഡിനുള്ളിൽ മലയാളത്തിൽ ചെറിയ ചോദ്യം ചോദിക്കുക.</p>
+    <pre><code>[MIC] Complete ... samples=80000/80000
+[HTTP] Result: ok
+[PLAY] Decoder finished ...
+[READY] Waiting for the next button press.</code></pre>
+    <div class="go"><strong>വിജയിച്ചതിന്റെ തെളിവ്:</strong> speaker-ൽ നിന്ന് വ്യക്തമായി മനസ്സിലാകുന്ന മലയാളം മറുപടി കേൾക്കണം; laptop dashboard-ൽ recognized question ശരിയായിരിക്കണം; reboot / brownout / crackling ഉണ്ടാകരുത്. <code>[PLAY] Decoder finished</code> മാത്രം കാണുന്നത് speaker ശബ്ദം വന്നതിന് തെളിവല്ല.</div>
+    <p>Firmware playback gain ഇപ്പോൾ <strong>0.35</strong> ആണ്. ആദ്യം അത് നിലനിർത്തുക. അതേ pin map ഉള്ള firmware ഇതിനകം upload ചെയ്തിട്ടുണ്ടെങ്കിൽ amplifier ചേർത്തതിനായി മാത്രം വീണ്ടും upload ചെയ്യേണ്ടതില്ല.</p>
+    <h3>ശബ്ദം വരുന്നില്ലെങ്കിൽ / പ്രശ്നമുണ്ടെങ്കിൽ</h3>
+    <ul>
+      <li><code>spoken-error</code> / HTTP error ആണെങ്കിൽ server-ലെ request ID / error നോക്കുക. Voice-recognition അല്ലെങ്കിൽ AI failure speaker wiring മാറ്റി പരിഹരിക്കാനാവില്ല.</li>
+      <li><code>Result: ok</code> ഉണ്ടെങ്കിലും ശബ്ദമില്ലെങ്കിൽ <strong>രണ്ട് supplies-ഉം ഓഫ് ചെയ്തശേഷം</strong> amplifier VIN/GND, common ground, 16/17/18 signals, SD enable, speaker terminals എന്നിവ വീണ്ടും പരിശോധിക്കുക.</li>
+      <li>ചൂട്, കത്തുന്ന മണം, repeated reboot, brownout, ശക്തമായ distortion ഉണ്ടെങ്കിൽ power ഓഫ് ചെയ്ത് മുതിർന്നയാൾ പരിശോധിക്കണം. Volume/gain കൂട്ടുന്നത് ആദ്യ പരിഹാരമല്ല.</li>
+      <li>ഓരോ turn-ഉം പൂർത്തിയായി അടുത്ത <code>[READY]</code> വന്നശേഷം മാത്രം അടുത്ത ചോദ്യം ചോദിക്കുക. തുടർച്ചയായി <strong>10 വിജയകരമായ turns</strong> പരിശോധിക്കുക; തുടർന്ന് intended exhibition network/power ഉപയോഗിച്ചും പരീക്ഷിക്കുക.</li>
+    </ul>
+    <p>നിർത്തുമ്പോൾ ആദ്യം S3 USB disconnect ചെയ്യുക; തുടർന്ന് amplifier supply off/disconnect ചെയ്യുക. <strong>ഏതെങ്കിലും wire മാറ്റുന്നതിന് മുമ്പ് രണ്ട് supplies-ഉം disconnected ആയിരിക്കണം.</strong> സഹായത്തിന് ഘട്ടം, request ID, അവസാന error എന്നിവ അയക്കാം; സ്വകാര്യ settings അയക്കരുത്.</p>
+    <label class="done"><input type="checkbox">Speaker-ൽ വ്യക്തമായ മറുപടിയും 10 തുടർച്ചയായ വിജയകരമായ turns-ഉം പരിശോധിച്ചു</label>
   </section>
 </main>
 <footer>
@@ -137,10 +217,11 @@ PSRAM: 8388608 bytes
 <script>
   'use strict';
   document.getElementById('print').addEventListener('click', () => window.print());
-  document.querySelectorAll('.done input').forEach(input => input.addEventListener('change', () => {
+  const stepChecks = document.querySelectorAll('.done input');
+  stepChecks.forEach(input => input.addEventListener('change', () => {
     input.closest('.step').classList.toggle('complete', input.checked);
     const count = document.querySelectorAll('.done input:checked').length;
-    document.getElementById('progress').textContent = `${count} / 7 ഘട്ടങ്ങൾ പൂർത്തിയായി`;
+    document.getElementById('progress').textContent = `${count} / ${stepChecks.length} ഘട്ടങ്ങൾ പൂർത്തിയായി`;
   }));
   const copyFeedbackTimers = new WeakMap();
   let copyStatusTimer;
