@@ -98,7 +98,27 @@ GitHub repository private ആണ്. Access ഉള്ള account ഉപയോഗ
 
 പുതിയ Windows setup-ന് **Python 3.14** ഉപയോഗിക്കുക. പരിശോധിച്ച Mac environment-ലും ഈ Python series ആണ് ഉപയോഗിക്കുന്നത്. ഇതിനകം Python 3.12 virtual environment ശരിയായി പ്രവർത്തിക്കുന്നുണ്ടെങ്കിൽ അത് മാറ്റേണ്ടതില്ല.
 
-**ഈ Windows PC-യിൽ ഇതിനകം പ്രവർത്തിക്കുന്ന `.venv` ഉണ്ടോ?** ഉണ്ടെങ്കിൽ താഴെയുള്ള installer-ഉം `py -3.14` പരിശോധനയും വിട്ട് ഘട്ടം 4-ലേക്ക് പോകാം. അവിടത്തെ creation command നിലവിലുള്ള `.venv` മാറ്റില്ല.
+**ഈ Windows PC-യിൽ ഇതിനകം പ്രവർത്തിക്കുന്ന `.venv` ഉണ്ടോ?** ഉണ്ടെങ്കിൽ Python installation-ഉം താഴെയുള്ള `py -3.14` പരിശോധനയും വിട്ട് ഘട്ടം 4-ലേക്ക് പോകാം. അവിടത്തെ creation command നിലവിലുള്ള `.venv` മാറ്റില്ല.
+
+**Python Install Manager (`pymanager`) ഇതിനകം ഉണ്ടോ?** PowerShell-ൽ താഴെയുള്ള commands ഓരോന്നായി നൽകുക. ഓരോ command-ഉം തീരുന്നതുവരെ കാത്തിരിക്കുക:
+
+```powershell
+pymanager install 3.14
+```
+
+```powershell
+py -3.14 --version
+```
+
+```powershell
+.\bootstrap-windows.cmd
+```
+
+`pymanager install 3.` നൽകിയപ്പോൾ **Failed to find a suitable install for '3.'** കണ്ടെങ്കിൽ version tag പൂർണ്ണമല്ല. കൃത്യമായി `3.14` നൽകുക; അവസാനം dot-ഓ മറ്റൊരു punctuation-ഓ ചേർക്കരുത്. Signature verification വിജയിച്ചെന്ന സന്ദേശം സാധാരണമാണ്; അതുകൊണ്ട് Python install ആയെന്ന് അർത്ഥമില്ല. [Python Install Manager-ന്റെ ഔദ്യോഗിക നിർദേശങ്ങൾ](https://docs.python.org/3/using/windows.html#installing-runtimes) കാണുക.
+
+Bootstrap menu-ൽ **1 — Computer chat only** തിരഞ്ഞെടുത്ത് **SETUP COMPLETE** വരുന്നതുവരെ കാത്തിരിക്കുക. Computer-only installation പരിശോധിക്കാൻ `.\bootstrap-windows.cmd --check` നൽകുക. നേരത്തെയുള്ള **Run bootstrap-windows.cmd first** സന്ദേശം Windows environment ഇല്ലെന്നാണ് സൂചിപ്പിക്കുന്നത്. Chat പരിശോധിക്കുന്നതിന് മുമ്പ് private settings ഉറപ്പാക്കാൻ ഘട്ടം 5-ലേക്ക് പോകുക. [ആദ്യ കോൾ ഗൈഡിലെ](docs/FIRST_CALL_WINDOWS.md) optional board-tool setup കഴിഞ്ഞ് doctor ഉപയോഗിക്കുക. Doctor Arduino tools-ഉം പരിശോധിക്കുന്നതിനാൽ computer-only setup കഴിഞ്ഞ് അവ ഇല്ലെങ്കിൽ failures കാണിക്കും.
+
+**`pymanager` install ചെയ്തിട്ടില്ലെങ്കിൽ പകരം സാധാരണ installer ഉപയോഗിക്കുക:**
 
 1. [Python-ന്റെ ഔദ്യോഗിക Windows download പേജ്](https://www.python.org/downloads/windows/) തുറക്കുക.
 2. നിലവിലുള്ള ഒരു **Python 3.14.x** release തിരഞ്ഞെടുക്കുക. സാധാരണ Intel/AMD Windows PC ആണെങ്കിൽ **Windows installer (64-bit)** എടുക്കുക. സാധാരണ installer ആണ് വേണ്ടത്; embeddable ZIP അല്ല, source code അല്ല. ARM കമ്പ്യൂട്ടറാണെങ്കിൽ ശരിയായ installer തിരഞ്ഞെടുക്കാൻ മുതിർന്ന ഒരാളുടെ സഹായം തേടുക.

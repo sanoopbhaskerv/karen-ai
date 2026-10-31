@@ -98,7 +98,27 @@ If a project folder already works, keep its `.env`, `.env.local`, `data/memory.t
 
 For a new Windows setup, use **Python 3.14**, which is also the Python series used by the tested Mac environment. A working existing Python 3.12 virtual environment can stay as it is.
 
-**Already have a working `.venv` on this Windows PC?** Skip the installer and the `py -3.14` check below; continue at Step 4. Its creation command leaves an existing `.venv` alone.
+**Already have a working `.venv` on this Windows PC?** Skip Python installation and the `py -3.14` check below; continue at Step 4. Its creation command leaves an existing `.venv` alone.
+
+**Already have Python Install Manager (`pymanager`)?** Run these commands one at a time in PowerShell, waiting for each to finish:
+
+```powershell
+pymanager install 3.14
+```
+
+```powershell
+py -3.14 --version
+```
+
+```powershell
+.\bootstrap-windows.cmd
+```
+
+If `pymanager install 3.` reported **Failed to find a suitable install for '3.'**, the version tag was incomplete. Use exactly `3.14`, with no trailing dot or other punctuation. Successful signature verification is normal; it does not mean Python was installed. See [Python Install Manager's official instructions](https://docs.python.org/3/using/windows.html#installing-runtimes).
+
+Choose **1 — Computer chat only** in the bootstrap menu and wait for **SETUP COMPLETE**. Run `.\bootstrap-windows.cmd --check` to verify this computer-only installation. The earlier **Run bootstrap-windows.cmd first** message means the Windows environment was missing. Continue at Step 5 to check the private settings before testing chat. Use doctor after the optional board-tool setup in the [first-call guide](docs/FIRST_CALL_WINDOWS.md); it checks Arduino too, so missing board tools cause failures after computer-only setup.
+
+**If `pymanager` is not installed, use the regular installer instead:**
 
 1. Open the [official Python Windows downloads page](https://www.python.org/downloads/windows/).
 2. Find a current **Python 3.14.x** release. For a usual Intel/AMD Windows PC, choose **Windows installer (64-bit)**. Use the normal installer, not the embeddable ZIP or source code. If the computer is an ARM model, ask an adult to help select the matching installer.
