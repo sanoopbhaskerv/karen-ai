@@ -1,0 +1,441 @@
+[
+  {
+    "id": "case-2024-eplant",
+    "year": 2024,
+    "title": "E-Plant, Automatic Smart Agri System",
+    "source_ids": [
+      "project-006"
+    ],
+    "exhibit_code": "12.3.1",
+    "students_credited": [
+      "Devdarsh Chand K.",
+      "Jia S Jith"
+    ],
+    "teachers_credited": [
+      "Rajesh K."
+    ],
+    "school_as_published": "Rajeev Gandhi Memorial Higher Secondary School, Mokeri, Panoor Kannur",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 90,
+    "printed_page": 77,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "sensor automation",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2024-nolvas",
+    "year": 2024,
+    "title": "NOLVAS—Five-in-One Truck",
+    "source_ids": [
+      "project-006"
+    ],
+    "exhibit_code": "12.4.1",
+    "students_credited": [
+      "Ahamed Nibras E.A.",
+      "Mohammad Shamil Sidhik"
+    ],
+    "teachers_credited": [
+      "Sameer P.M."
+    ],
+    "school_as_published": "G.H.S.S. Cherkala Central, Cherkala, Chengala, Kasargod",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 131,
+    "printed_page": 118,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "hydraulics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2024-auto-rescue",
+    "year": 2024,
+    "title": "Auto Rescue Smart Notification System",
+    "source_ids": [
+      "project-006"
+    ],
+    "exhibit_code": "42.4.1",
+    "students_credited": [
+      "Abhikrishna K. A."
+    ],
+    "teachers_credited": [
+      "Ajai P."
+    ],
+    "school_as_published": "PM Shri Jawahar Navodaya Vidyalaya, Mayannur, Thrissur",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 152,
+    "printed_page": 139,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "notification pipeline",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2023-tinyml",
+    "year": 2023,
+    "title": "Tiny ML in Robotics",
+    "source_ids": [
+      "project-005"
+    ],
+    "exhibit_code": "43.1.1",
+    "students_credited": [
+      "Ayaz Akbar",
+      "Dhanush D",
+      "Anurag C"
+    ],
+    "teachers_credited": [
+      "Sreenivasan T.A"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Malappuram O.K. Muri (P.O.), Venkulam",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 31,
+    "printed_page": 19,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "gesture input",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2023-integral",
+    "year": 2023,
+    "title": "Definite Integral—The Revolving Door",
+    "source_ids": [
+      "project-005"
+    ],
+    "exhibit_code": "43.7.1",
+    "students_credited": [
+      "Mansa"
+    ],
+    "teachers_credited": [
+      "Latha V."
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Chettachal, Thiruvananthapuram",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 194,
+    "printed_page": 182,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "interactive mathematics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-trap",
+    "year": 2019,
+    "title": "Suction-bait Trap",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "39.1.1",
+    "students_credited": [
+      "Richard Joseph"
+    ],
+    "teachers_credited": [
+      "Ajith S.R.",
+      "P. Suma"
+    ],
+    "school_as_published": "Kendriya Vidyalaya No.-1, Naval Base, Kochi",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 32,
+    "printed_page": 21,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "field study",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-microscope",
+    "year": 2019,
+    "title": "Smart Electrical Microscope",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "16.2.1",
+    "students_credited": [
+      "Ashif Ali P.",
+      "Ruvais P."
+    ],
+    "teachers_credited": [
+      "Arun. S. Nair",
+      "Shabeer C.K."
+    ],
+    "school_as_published": "Crescent Higher Secondary School, Adakkakundu, Kalikavu",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 44,
+    "printed_page": 33,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "reused optics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-peltier",
+    "year": 2019,
+    "title": "Portable Smart Air Conditioner",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "16.3.1",
+    "students_credited": [
+      "Ashin P. Krishna",
+      "Anandu P."
+    ],
+    "teachers_credited": [
+      "Rasiya"
+    ],
+    "school_as_published": "G.H.S.S. Mavoor Kanniparamba, Mavoor, Kozhikode",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 80,
+    "printed_page": 69,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "thermoelectric cooling",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-cnc",
+    "year": 2019,
+    "title": "Computerised Numerical Control Machine",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "43.3.2",
+    "students_credited": [
+      "Spandan Karwade"
+    ],
+    "teachers_credited": [
+      "Leena Josephain"
+    ],
+    "school_as_published": "Navy Children School, Naval Base, Cochin",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 99,
+    "printed_page": 88,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "computer-controlled machining",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-planter",
+    "year": 2018,
+    "title": "PI Planter",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "16.5.1",
+    "students_credited": [
+      "Alok N",
+      "Johan J Chirackel"
+    ],
+    "teachers_credited": [
+      "Sanuja AS"
+    ],
+    "school_as_published": "Rajagiri High School, Kalamassery",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 135,
+    "printed_page": 123,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "agricultural monitoring",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-line-robot",
+    "year": 2018,
+    "title": "Line Follower Robot using Arduino",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "16.5.2",
+    "students_credited": [
+      "Nandana S",
+      "Abhija Ashok"
+    ],
+    "teachers_credited": [
+      "Ashok Kumar MP"
+    ],
+    "school_as_published": "Netaji High School, Pramadom",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 136,
+    "printed_page": 124,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "reflectance control",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-bins",
+    "year": 2018,
+    "title": "SEBI with Auto WS",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "39.4.1",
+    "students_credited": [
+      "Aarsha Paramelpady",
+      "Anjaly Sumap",
+      "Arundhathi R",
+      "Angha G",
+      "Devika R"
+    ],
+    "teachers_credited": [
+      "Beena Kumari"
+    ],
+    "school_as_published": "KV Ottapalam, Palakkad",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 120,
+    "printed_page": 108,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "bin monitoring",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2026-driving",
+    "year": 2026,
+    "title": "Simulation Driving Instrument (Robotics)",
+    "source_ids": [
+      "project-007",
+      "project-008"
+    ],
+    "exhibit_code": "KL-I-09",
+    "students_credited": [
+      "Muhammed Arif K F"
+    ],
+    "teachers_credited": [
+      "Khadeeja T"
+    ],
+    "school_as_published": "M C M H S School, Pattimattom, Ernakulam",
+    "class_as_published": "IX",
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala individual first",
+    "qualifying_route": null,
+    "evidence_kind": "official_award_plus_secondary_mechanism",
+    "method_tag": "simulator interface",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2026-medibot",
+    "year": 2026,
+    "title": "Medibot Engineering",
+    "source_ids": [
+      "project-007"
+    ],
+    "exhibit_code": "KL-I-05",
+    "students_credited": [
+      "Anuvind K Raj"
+    ],
+    "teachers_credited": [
+      "Neetha K"
+    ],
+    "school_as_published": "Koodali H S S, Koodali, Kannur",
+    "class_as_published": "X",
+    "pdf_page_1based": 1,
+    "printed_page": 1,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Overall individual second",
+    "qualifying_route": null,
+    "evidence_kind": "award_only",
+    "method_tag": null,
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2026-fog",
+    "year": 2026,
+    "title": "Fog (Humidity) Harvesting System",
+    "source_ids": [
+      "project-007"
+    ],
+    "exhibit_code": "KL-G-03",
+    "students_credited": [
+      "Saneen Jasim",
+      "Karthik P Panicker"
+    ],
+    "teachers_credited": [
+      "Abdul Shukkoor"
+    ],
+    "school_as_published": "Chentrappinni Higher Secondary School, Thrissur",
+    "class_as_published": [
+      "X",
+      "X"
+    ],
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala group first",
+    "qualifying_route": null,
+    "evidence_kind": "award_only",
+    "method_tag": null,
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2026-diaper",
+    "year": 2026,
+    "title": "Sustainable Diaper from Natural Fibres",
+    "source_ids": [
+      "project-007"
+    ],
+    "exhibit_code": "KL-G-06",
+    "students_credited": [
+      "Avanthika C R",
+      "Visishta Valsan"
+    ],
+    "teachers_credited": [
+      "Resmi K A"
+    ],
+    "school_as_published": "H S S Panangad, Thrissur",
+    "class_as_published": [
+      "IX",
+      "IX"
+    ],
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala group third",
+    "qualifying_route": null,
+    "evidence_kind": "award_only",
+    "method_tag": null,
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  }
+]

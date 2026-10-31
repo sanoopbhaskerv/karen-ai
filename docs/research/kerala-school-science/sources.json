@@ -1,5 +1,38 @@
 [
   {
+    "id": "core-subdistrict-items-2022",
+    "title": "KITE 2022 subdistrict master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2022,
+    "sha256": "d09b70c5a1707c8b1390333efb106516896e328e140244b81224bdae99703860",
+    "notes": "Direct HTTP retrieval; 239 catalogue rows captured. This is edition-specific catalogue evidence, not a substitute for the applicable rules.",
+    "topic_register": "catalogue-sources.json"
+  },
+  {
+    "id": "core-subdistrict-items-2023",
+    "title": "KITE 2023 subdistrict master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2023/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2023,
+    "sha256": "bcc640e2ae364289e807330e86615de4b278ffc13129ee4acb816f51378424d9",
+    "notes": "Direct HTTP retrieval; 239 catalogue rows captured. This is edition-specific catalogue evidence, not a substitute for the applicable rules.",
+    "topic_register": "catalogue-sources.json"
+  },
+  {
+    "id": "core-items-2019",
+    "title": "KITE 2019 historical state-page item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2019,
+    "sha256": "d7492ad237bba83dc313780897873b2bfc310eccbb6ac100f6e19e8603d3ad62",
+    "notes": "Direct HTTP retrieval; 154 historical master catalogue rows. Current eligibility not inferred.",
+    "topic_register": "catalogue-sources.json"
+  },
+  {
     "id": "core-root-2026",
     "title": "2026 school registration portal",
     "url": "https://mela.kite.kerala.gov.in/2026/",
@@ -160,7 +193,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "reproduced_event_document",
     "document_date": null,
-    "notes": "Visible body says 45 th science fair and 8–12 January 2012; PDF title metadata says 43 rd. Body visually checked after local rendering. Original department-hosted copy not obtained.",
+    "notes": "Visible body says 45th science fair and 8–12 January 2012; PDF title metadata says 43rd. Body visually checked after local rendering. Original department-hosted copy not obtained.",
     "topic_register": "history-sources.json"
   },
   {
@@ -170,7 +203,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "reproduced_event_document",
     "document_date": null,
-    "notes": "One-page Kerala State School Mathematics Club Association schedule;26 th maths fair, PMG HSS Palakkad,8–12 January 2012. Text says more detailed schedule to follow.",
+    "notes": "One-page Kerala State School Mathematics Club Association schedule; 26th maths fair, PMG HSS Palakkad,8–12 January 2012. Text says more detailed schedule to follow.",
     "topic_register": "history-sources.json"
   },
   {
@@ -190,7 +223,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "secondary_news",
     "document_date": "2012-11-30",
-    "notes": "Palakkad Science Fair 171; stream winners distinguished from aggregate championship.46 th state science exhibition at GVHSS Meenchanda.",
+    "notes": "Palakkad Science Fair 171; stream winners distinguished from aggregate championship. 46th state science exhibition at GVHSS Meenchanda.",
     "topic_register": "history-sources.json"
   },
   {
@@ -200,7 +233,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "teacher_association_archive",
     "document_date": "2013-11-25",
-    "notes": "25–29 November 2013 programme;47 th Science,33 rd Work Experience,28 th Maths,17 th Special School,12 th IT,9 th Vocational,8 th Social Science. Teacher association reproduction, not government-hosted final result.",
+    "notes": "25–29 November 2013 programme; 47th Science,33rd Work Experience,28th Maths,17th Special School,12th IT,9th Vocational,8th Social Science. Teacher association reproduction, not government-hosted final result.",
     "topic_register": "history-sources.json"
   },
   {
@@ -280,7 +313,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_results_portal",
     "document_date": null,
-    "notes": "Current historical table, not immutable signed export:Palakkad 1366, Kozhikode 1364, Kannur 1351; BSS Gurukulam 146. Category and item links present; not all item reports audited.",
+    "notes": "Current historical table, not immutable signed export:Palakkad 1366, Kozhikode 1364, Kannur 1351; BSS Gurukulam 146. Category and item links present; not all item reports audited. Current archive conflicts with the government 2019 closing report, which names Kozhikode overall champion; no reconciliation obtained.",
     "topic_register": "history-sources.json"
   },
   {
@@ -330,7 +363,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_results_portal",
     "document_date": null,
-    "notes": "Current table:Malappuram 1407, Palakkad 1320, Kozhikode 1299; school Durga 142, Panangad 134, Fathima 133. Preserve current archive scope.",
+    "notes": "Current table:Malappuram 1407, Palakkad 1320, Kozhikode 1299; school Durga 142, Panangad 134, Fathima 133. Preserve current archive scope. Contemporary closing press differs on scores, third district and school runner-up; see history-2023-press-closure.",
     "topic_register": "history-sources.json"
   },
   {
@@ -454,117 +487,164 @@
     "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-manual-2025",
-    "title": "Kerala School Sasthrolsavam Manual 2025",
-    "url": "https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf",
+    "id": "history-2009-manual-official-archive",
+    "title": "Kerala school Science, Mathematics, Social Science and Work Experience Fair manual, 2009: official-site archive",
+    "url": "https://web.archive.org/web/20111112000353id_/http://schoolsasthrolsavam.in:80/sciencefair_manual.pdf",
     "accessed_on": "2026-10-31",
-    "source_type": "official_manual",
-    "document_date": "2025-09-12",
-    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts.",
-    "topic_register": "rules-sources.json"
+    "source_type": "archived_government_document",
+    "document_date": "2009-10-22",
+    "notes": "102-page government manual; foreword dated 22 October 2009 on printed pages 3–4, issued under Secretary, General Education Department. Describes HSS/VHSS inclusion and integrated organisation of four fairs. Printed page 5 supersedes previous manuals; not the first-ever manual. Downloaded and visually reviewed. Official-site capture dated 12 November 2011. Byte-identical to WordPress mirror; SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-downloads-2026",
-    "title": "2026 official Sasthrolsavam download zone",
-    "url": "https://mela.kite.kerala.gov.in/2026/index.php/publics/instructions",
+    "id": "history-2009-manual-mirror",
+    "title": "2009 government science-fair manual reproduced by IT Teacher Help",
+    "url": "https://itteacherhelp.wordpress.com/wp-content/uploads/2011/10/all-science-fair-manual-prevailing-2009.pdf",
     "accessed_on": "2026-10-31",
-    "source_type": "official_portal",
+    "source_type": "reproduced_government_document",
+    "document_date": "2009-10-22",
+    "notes": "Same 102-page manual as the archived official-site copy, with matching SHA-256 and file size 603,009 bytes. Cover identifies General Education Department, Government of Kerala, 2009. Foreword and chapter 1 visually checked; historical rules must not replace the current manual.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2009-maths-quiz",
+    "title": "Contemporary report of the state Mathematics Quiz at Thrissur",
+    "url": "https://mathematicsschool.blogspot.com/2009/12/state-maths-quiz.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "teacher_report",
+    "document_date": "2009-12-31",
+    "notes": "Contemporary Maths Blog post describes the completed state HS Mathematics Quiz in Thrissur and how contributors supplied the questions from the venue. Supports late-December 2009 host evidence; not a complete festival result or full programme.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-early-teacher-profile",
+    "title": "C. K. Biju: first-person professional profile and earlier state Science Fair participation",
+    "url": "https://ckbijumash.blogspot.com/p/profile.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "participant_retrospective",
     "document_date": null,
-    "notes": "Opened. The current zone links the 2025 manual and a school-login guide with a 2022–23 filename. File dates and portal edition dates remain distinct.",
-    "topic_register": "rules-sources.json"
+    "notes": "Reports participation in state fairs at Ernakulam 1999–2000, Perinthalmanna 2001–02, Thiruvalla 2002–03, Ernakulam 2003–04 and Wayanad 2004–05. Personal retrospective, not organiser-certified host register. Full body retrieved with Python after browser search fetch was throttled. No private contact or biographical details transcribed.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-science-items-2025",
-    "title": "Official 2025 state item catalogue",
-    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/publics/item_list",
+    "id": "history-2008-2009-ktct-school",
+    "title": "KTCT Higher Secondary School institutional history",
+    "url": "https://ktcthss.com/about-us",
     "accessed_on": "2026-10-31",
-    "source_type": "official_catalogue",
+    "source_type": "school_retrospective",
     "document_date": null,
-    "notes": "Opened the science rows. Codes and participant capacities are factual catalogue data, not independent proof of eligibility at the state level.",
-    "portal_year": 2025,
-    "topic_register": "rules-sources.json"
+    "notes": "School claims Best School Award in State Science Fair 2008–09 and 2009–10. Section and championship scope unspecified. Treat as a lead for certificates and result books; do not promote to umbrella overall champion.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-it-circular-2026",
-    "title": "IT Mela 2026 school subdistrict and revenue district instructions",
-    "url": "https://kite.kerala.gov.in/KITE/itsadmin/uploads/docs/1136.pdf",
+    "id": "history-2009-programme-index",
+    "title": "Teacher download index: December 2009 Thrissur state fair programme and schedule",
+    "url": "https://vinodsanthipuram.blogspot.com/p/downloads_16.html",
     "accessed_on": "2026-10-31",
-    "source_type": "official_circular",
-    "document_date": "2026-09-03",
-    "notes": "KITE/2026/1275(8). Single scanned page downloaded and visually read. Mandates KITE Ubuntu 22.04; updates typing, animation, presentation, webpage design and Scratch. No Working Model item is added.",
-    "topic_register": "rules-sources.json"
-  },
-  {
-    "id": "rules-kite-circular-index",
-    "title": "KITE circular index",
-    "url": "https://kite.kerala.gov.in/KITE/index.php/welcome/kite_circular",
-    "accessed_on": "2026-10-31",
-    "source_type": "official_index",
+    "source_type": "teacher_archive",
     "document_date": null,
-    "notes": "Opened. The 3 September 2026 entry links the official 1136.pdf circular.",
-    "topic_register": "rules-sources.json"
+    "notes": "Index entries dated 26 and 28 December 2009 link StateProgramnotice. pdf and StateMela-Program. pdf on old Google Sites. Both target downloads redirect to Google sign-in as checked on access date; programme contents were not obtained. Page itself distinguishes science fair at Thrissur from arts Kalolsavam at Kozhikode.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-science-theme-2026",
-    "title": "Kerala 2026–27 science theme adoption circular",
-    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf",
+    "id": "history-2009-judgment-reproduction",
+    "title": "Harikrishnan A.S. v State of Kerala: reproduced judgment referring to the December 2009 state fair",
+    "url": "https://www.legalindia.com/judgments/harikrishnan-a-s-vs-the-state-of-kerala-on-11-june-2010",
     "accessed_on": "2026-10-31",
-    "source_type": "official_circular",
-    "document_date": "2026-09-02",
-    "notes": "Y1/9214/2026/DGE, three PDF pages. Downloaded; NCERT attachment on PDF page 3 visually inspected. Its main title differs from the explanatory note’s description of the main theme; the discrepancy is retained.",
-    "topic_register": "rules-sources.json"
+    "source_type": "reproduced_court_document",
+    "document_date": "2010-06-11",
+    "notes": "W. P.(C) 37274/2009 judgment reproduction. Refers to Thrissur state fair from 28 December 2009; quotes another petition with scheduled range 28 December 2009–1 January 2010 at Model Higher Secondary School Girls, Thrissur. Original court PDF and full event programme not obtained. Used as historical schedule lead only, not current legal or appeal guidance.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-science-digital-2026",
-    "title": "Electronics IoT Robotics and science magazine instructions 2026",
-    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/sasthrolsavam31082026.pdf",
+    "id": "history-2014-aeo-programme",
+    "title": "AEO Mattannur programme notice and inauguration-date change for Tirur state Sasthrolsavam",
+    "url": "https://aeomattannur.blogspot.com/2014/11/blog-post_77.html",
     "accessed_on": "2026-10-31",
-    "source_type": "official_circular",
-    "document_date": "2026-08-31",
-    "notes": "Y1/8659/2026/DGE, four PDF pages. Downloaded, text extracted, first three pages visually inspected. Explicit three-hour conditions apply to the named on-the-spot digital events, not automatically to Science Working Model or IT events.",
-    "topic_register": "rules-sources.json"
+    "source_type": "education_office_archive",
+    "document_date": "2014-11-22",
+    "notes": "AEO office post states 26–30 November 2014 at Tirur; attributes inauguration move from 26 to 27 November at 10 am to DPI while registration remains on 26 November. Links a four-page official programme on Drive, successfully downloaded. Original education. kerala. gov. in announcement link returns 404.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-science-drama-2026",
-    "title": "Kerala Science Drama 2026 circular and VITM annexures",
-    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/08/sciencedrama29082026_compressed-2.pdf",
+    "id": "history-2014-programme",
+    "title": "Kerala School Sasthrolsavam 2014–15: four-page Tirur programme",
+    "url": "https://drive.google.com/file/d/0ByHxAny24bZjMi1oaE5IWGotQ2c/view",
     "accessed_on": "2026-10-31",
-    "source_type": "official_circular",
-    "document_date": "2026-08-29",
-    "notes": "Y1/13334/2026/DGE, nine PDF pages. Downloaded and text extracted. Kerala state event scheduled for 11 November 2026 at Thrissur; regional event for 19–20 November 2026 at VITM. First-only advancement within Kerala differs from the regional invitation to first and second prize winners. Drama scoring matched the 2025 manual.",
-    "topic_register": "rules-sources.json"
-  },
-  {
-    "id": "rules-grace-2025-26",
-    "title": "2025–26 examination grace mark circular",
-    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/03/grace-mark-2025-26_circular-16.03.2026.pdf",
-    "accessed_on": "2026-10-31",
-    "source_type": "official_circular",
-    "document_date": "2026-03-16",
-    "notes": "Y1/23504/2025/DGE; cites G.O.(Ms)65/2026/GEDN dated 12 March 2026. Six PDF pages downloaded; grace tables on pages 1–3 visually inspected. Applies to 2025–26 examinations; do not project it to 2026–27.",
-    "topic_register": "rules-sources.json"
-  },
-  {
-    "id": "rules-registration-guide",
-    "title": "School Sasthrolsavam software school login guide",
-    "url": "https://mela.kite.kerala.gov.in/2026/entry_forms/School%20Sasthrolsavam_2022_23_school%20login_user%20manual_30_09.pdf",
-    "accessed_on": "2026-10-31",
-    "source_type": "official_user_guide",
+    "source_type": "reproduced_event_document",
     "document_date": null,
-    "notes": "Five-page official guide linked from the 2026 download zone. Opened and text read. It establishes an older documented registration workflow rather than proving every current screen is identical.",
-    "version_evidence": "Filename and screenshots identify2022–23; linked by2026portal.",
-    "topic_register": "rules-sources.json"
+    "notes": "Retrieved through AEO Mattannur link and Drive direct download. All four pages rendered and visually inspected. Cover says 26–30 November 2014, Tirur; page 2 gives registration 26 November 10:30 am, inauguration 27 November 10 am, closing 30 November 10:30 am; pages 2–3 give fair venues and competition schedules. Back cover identifies 48th Science, 34th Work Experience, 29th Maths, 18th Special School Work Experience, 13th IT, 10th Vocational Expo, ninth Social Science. PDF creation metadata 18 November 2014 is not asserted as issue date.",
+    "topic_register": "history-sources.json"
   },
   {
-    "id": "rules-items-2026",
-    "title": "Official 2026 state item catalogue",
-    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list",
+    "id": "history-2019-prd-closure",
+    "title": "State School Sasthrolsavam 2019: Kozhikode overall champions, government closing report",
+    "url": "https://keralanews.gov.in/115/State-science-fest:-Kozhikode-district-overall-champions.html",
     "accessed_on": "2026-10-31",
-    "source_type": "official_catalogue",
+    "source_type": "government_news",
+    "document_date": "2019-11-06",
+    "notes": "Government I&PRD portal closing report; date corroborated by portal search index. Kozhikode and Palakkad both 1,374; first ranks 20 versus 19 determine winner; Kannur 1,366 third. BSS Gurukulam 141 first school, Dwaraka 132 second, Memunda 118 third. Direct conflict with current KITE archive overall winner and scores; cause unresolved. Report also lists stream and special-school results.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2019-prd-participation",
+    "title": "State fair 2019 closes with student experiments: government participation report",
+    "url": "https://keralanews.gov.in/109/Kerala-science-fest.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "government_news",
+    "document_date": "2019-11-05",
+    "notes": "Government I&PRD portal report; date corroborated by portal search index. Reports 5,134 students across 122 items: HS/HSS 4,145 and special-school sections including LP/UP 989. Item totals: 18 Science, nine Maths, 15 Social Science, 12 IT, 68 Work Experience. Preserve report-specific scope; not directly comparable to current catalogue counts.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2023-press-closure",
+    "title": "State Science Fair: Malappuram regains overall title, contemporary closing report",
+    "url": "https://www.samakalikamalayalam.com/news/kerala/malappuram-stands-first-in-state-science-fair-palakkad-is-at-the-second-position-193553.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_news",
+    "document_date": "2023-12-04",
+    "notes": "Reports Malappuram 1,442, Palakkad 1,350, Kannur 1,333; schools Durga 142, Fathima 138, Panangad 134. Conflicts with current KITE scores, third district and school runner-up. Introductory paragraph has an apparent 350 typo for Palakkad; detailed paragraph says 1,350. No organiser reconciliation obtained.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2012-souvenir-request",
+    "title": "January 2012 Palakkad fair: request for souvenir advertisements, not the completed souvenir",
+    "url": "https://web.archive.org/web/20120113062203id_/http://www.schoolsasthrolsavam.in:80/doc/souvenier.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_event_document",
     "document_date": null,
-    "notes": "Current catalogue inspected in shared research collection. HS Science Working Model is item 115, group capacity two. The IT catalogue lists standard student and teacher events without a Working Model item. Generic catalogue entries do not independently determine eligibility at the state level.",
-    "portal_year": 2026,
-    "topic_register": "rules-sources.json"
+    "notes": "Two-page document on archived official site, captured 13 January 2012. Rendered and visually checked: request for advertisements for proposed souvenir, not a full souvenir/history. Does not support inaugural-year claim. Retained to document this unsuccessful archive lead.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2018-empty-overall-archive",
+    "title": "2018 official state overall-championship endpoint: archived empty result",
+    "url": "https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_endpoint",
+    "document_date": null,
+    "notes": "Actual retrieved body says Result Not Prepared. CDX also lists 1 September 2019 capture with identical digest. Not evidence of any champion; documents unsuccessful result recovery. HTTP 200 alone is insufficient.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2018-empty-school-archive",
+    "title": "2018 official state school-points endpoint: archived empty result",
+    "url": "https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_endpoint",
+    "document_date": null,
+    "notes": "Actual retrieved body contains PHP undefined-variable notices and Points are Not Ready. Not evidence of a school champion; documents unsuccessful archive lead.",
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-2009-manual-department-archive",
+    "title": "2009 integrated science-fair manual: contemporaneous General Education Department website capture",
+    "url": "https://web.archive.org/web/20091127124352id_/http://www.education.kerala.gov.in:80/Science%20Fair%20Manual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_document",
+    "document_date": "2009-10-22",
+    "notes": "Internet Archive capture dated 27 November 2009 of the original General Education Department website PDF. Successfully downloaded: 102 pages, 603,009 bytes, SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979. Identical to the official festival-site 2011 capture and WordPress mirror. Foreword dated 22 October 2009; printed pages 3–5 visually reviewed. Strengthens contemporaneous government provenance, but does not confirm the inaugural 1965–66 claim.",
+    "topic_register": "history-sources.json"
   },
   {
     "id": "pathways-01",
@@ -829,5 +909,520 @@
     "source_date": "2026-09-02",
     "notes": "Located by parallel rules researcher. Parent rules collection owns content verification; PATHWAYS only links source and separates it from NCERT theme notice.",
     "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "project-001",
+    "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
+    "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Signed cycle-specific notification, F.No. DST/S&TCB/INSPIRE-MANAK/NOMINATIONS/2026-27. Direct PDF downloaded, extracted and visually inspected. Initial window only; no deadline-extension verification. Separate postback delivery returned the same text with a different binary hash.",
+    "source_date": "2026-07-13",
+    "download_sha256": "a5a1f258087967640f5b1f0dfd56e2efda27eae41371f903dfdc2a0fa3a230b2",
+    "pdf_pages": 1,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-002",
+    "title": "NCERT: Archive JNNSMEE/RBVP, English version",
+    "url": "https://www.ncert.nic.in/archive-jnnsmee.php?ln=en",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_archive",
+    "notes": "Opened archive and followed actual catalogue links. Discovery source only; archive listing does not prove an exhibit mechanism or prize.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-003",
+    "title": "NCERT: Exhibits of 2018, 45th JNNSMEE, Ahmedabad",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2018_Ahmedabad.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF135 rendered visually. Source credits identify Kerala school locations; qualifying route and prize rank not established. Selected cases, not exhaustive Kerala extraction.",
+    "source_date": "2018-11",
+    "download_sha256": "32801987b075e0f50261b551a7bddd3faceed0dfbf75d9ca2fece8022e6b00d7",
+    "pdf_pages": 192,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-004",
+    "title": "NCERT: Exhibits of 2019, 46th JNNSMEE, Raipur",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2019_Raipur.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF44 rendered visually. Catalogue is a short synopsis source, not independent validation. Selected cases only.",
+    "source_date": "2019-10",
+    "download_sha256": "44b5b8f41ed79574f36b81cc61ba025ebd7b83959e8656370361e829dba74ba9",
+    "pdf_pages": 166,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-005",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2023, 50th RBVP, Pune",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2023_Inquisitive_Minds_Pune.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF obtained through direct HTTP download when web extraction timed out; text extracted, complete relevant pages inspected and PDF31 rendered visually. JNV location and state-fair route are distinct.",
+    "source_date": "2023-12",
+    "download_sha256": "39acce65f1509b433066303cc2004dfe53fb70a147f12217757ffeb735b39179",
+    "pdf_pages": 196,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-006",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2024, 51st RBVP, Sonipat",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/Exhibits_of_2024_Inquisitive.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "First-edition date from publication page. Full PDF downloaded and extracted; complete selected pages inspected, PDF90 and152 rendered visually. Selected synopses, not independent performance tests. A preface contains an inconsistent older date; cover and edition identify the 2024 event.",
+    "source_date": "2024-12",
+    "download_sha256": "39bde9bb2a79243d64e073467524a29e66a9ac5ca94b1e50a7ce1d84a1decfcc",
+    "pdf_pages": 206,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-007",
+    "title": "VITM/NCSM: Prizes Awarded at Southern India Science Fair 2026",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/events/SISF-2026/Prize%20award%20list%20SISF-2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_prize_list",
+    "notes": "Official prize list for the 19–23 January 2026 SISF. Publication day is not stated; event dates are stored separately. Overall awards and Kerala-specific awards are distinct. Full award table inspected.",
+    "source_date": null,
+    "download_sha256": "5810b9305342e5434802f16f57019069e5cae5c9eba11347a1e20863c801877c",
+    "pdf_pages": 12,
+    "event_start_date": "2026-01-19",
+    "event_end_date": "2026-01-23",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-008",
+    "title": "Onmanorama: Class 9 Kochi boy tops south India-level science festival",
+    "url": "https://www.onmanorama.com/news/kerala/2026/01/30/mohammed-arif-science-festival.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_news",
+    "notes": "Full article opened. Reported integration mechanism only; official award scope independently checked against project-007. Broad headline must not become an overall-fair-first claim. No code, test data or driving-skill validation supplied.",
+    "source_date": "2026-01-30",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-009",
+    "title": "NCERT: Exhibits of 2022, 49th RBVP, Guwahati",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2022.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and extracted. Initial school/location text searches did not confidently locate a Kerala case. This is an extraction/search gap, not evidence of Kerala nonparticipation. No case indexed from this source.",
+    "download_sha256": "57e28684a11c4b95c95fbbf394cc2238285294332630323666d93d84815622ea",
+    "pdf_pages": 168,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-010",
+    "title": "NCERT: Structure and Working of Science Models, 2015",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2015.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. Hosting-location references were not treated as school attribution.",
+    "download_sha256": "b7bc5072e8bbec30466c0eebca0681086ec5bc63f610a5413512342c86ca5507",
+    "pdf_pages": 87,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-011",
+    "title": "NCERT: Structure and Working of Science Models, 2016",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2016.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "download_sha256": "8aebe903e34898ff4323fa994aa19c73e046668996ad8256257f55211c1a327c",
+    "pdf_pages": 75,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-012",
+    "title": "NCERT: Structure and Working of Science Models, 2017",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2017.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "download_sha256": "970308fd17341088cf7b525b8bec0a413232346787228a2fa0633d73a599c8b1",
+    "pdf_pages": 56,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "core-result-2019-district",
+    "title": "KITE 2019 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2019,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "f069eaecd6263fbef20e2ef83aa14082087f099424d86cc5c2ffd04a6ee1ce62",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2019-school",
+    "title": "KITE 2019 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2019,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "0fdc24132dac9021d541284ee6f516851465a714d8930b1bbf4d4630d65154be",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2022-district",
+    "title": "KITE 2022 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2022,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "05edaf9ad51aa4cb6f30e1be529925a474af61fe89aefb0fb65dcd7d6776f382",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2022-school",
+    "title": "KITE 2022 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2022,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "a541cf78491f4aaebb3dd43b2959194a208367f232f82b80a322e6896eb37af3",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2023-district",
+    "title": "KITE 2023 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2023,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "fbb12d9ee290cc97fbe17947b36607e9686e74f98aec4d0cb8236916ae7109b8",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2023-school",
+    "title": "KITE 2023 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2023,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "47a1fb1541d8fc63e5d0a2774be683233c186d07b02cc04c4f0a91aade8de5cf",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2024-district",
+    "title": "KITE 2024 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2024,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "5f5ad76844d77746673ae87a5af8fcc167553538da1e5c42185a0b7879c6e198",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2024-school",
+    "title": "KITE 2024 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2024,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "dbabd4faa97d7b0b40a4066380ae8678c4d4883c6126fe776e44be14db33b9c8",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2025-district",
+    "title": "KITE 2025 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2025,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "bed4129efd8d94ba2149a5c7efc4bd7159ca287b8f233b2bc05b9104b189ad6f",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "core-result-2025-school",
+    "title": "KITE 2025 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2025,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "3c7cc0ace366b6a7c9b01c0f171ad3227107108438af09df13dbc5eaa3a25571",
+    "topic_register": "result-sources.json"
+  },
+  {
+    "id": "rule-change-manual-2019",
+    "title": "Kerala School Sasthrolsavam Manual 2019, hosted by the official 2024 portal",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/entry_forms/sasthrolsavam_manual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_manual",
+    "document_date": "2019-08-08",
+    "portal_year": 2024,
+    "confidence": "high",
+    "pages": "168 PDF pages; cover, foreword, order PDF p. 5, general PDF p. 11 and Science PDF pp. 42–48 visually inspected",
+    "notes": "Cover identifies 2019; hosting directory does not date the document. G.O.(Ms)119/2019/GEDN dated 8 August 2019 appears on PDF p. 5. Printed body page +8 generally gives PDF page. HS Working Model already requires two pupils on printed p. 35. Older general and Science UP progression clauses conflict.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-manual-2025-dge",
+    "title": "General Education Department publication of the revised Sasthrolsavam Manual 2025",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2025/09/sasthrolsavammanual-modifi12092025-converted.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_manual",
+    "document_date": "2025-09-12",
+    "confidence": "high",
+    "pages": "250 PDF pages; publication cover extracted and cross-checked with the KITE-hosted compiled manual",
+    "notes": "DGE order Y1/7858/2024/DGE dated 12 September 2025 cites G.O.146/2025/GEDN of 23 August 2025, G.O.118/2024/GEDN of 20 September 2024 and G.O.116/2024/GEDN of 19 September 2024. Downloaded 3,446,581 bytes, SHA256 12a132b7ca95954f9f290eda4a131611cde3769b23081ab91c7154416c054fd3. Different public file size from KITE copy; no claim of byte identity. Detailed current rule references use rules-manual-2025.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-go146-2025-mirror",
+    "title": "G.O.(Ms)146/2025/GEDN, government-order copy on a third-party mirror",
+    "url": "https://drive.google.com/file/d/1ssgsUsTmd0IeDxCZSbrhcoo0y6sl1LjO/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1ssgsUsTmd0IeDxCZSbrhcoo0y6sl1LjO",
+    "accessed_on": "2026-10-31",
+    "source_type": "mirrored_government_order",
+    "document_date": "2025-08-23",
+    "confidence": "medium",
+    "pages": "35 PDF pages; cover and Science PDF pp. 2–8, Social Science pp. 29–30, Work Experience pp. 34–35 inspected",
+    "notes": "418,381-byte PDF downloaded. Identifier/date match references in the official compiled 2025 manual. Third-party watermark; original government-hosted standalone order not recovered. Read amended right column rather than existing left column. Current rules cross-checked against official compiled manual.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-go116-2024-mirror",
+    "title": "G.O.(Ms)116/2024/GEDN and Work Experience annex, mirrored copy",
+    "url": "https://drive.google.com/file/d/1LdNi0W8DYeOfzRox_UR-67mXmLDZdPp9/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1LdNi0W8DYeOfzRox_UR-67mXmLDZdPp9",
+    "accessed_on": "2026-10-31",
+    "source_type": "mirrored_government_order",
+    "document_date": "2024-09-19",
+    "confidence": "medium",
+    "pages": "Two PDF pages; cover and annex visually inspected",
+    "notes": "683,414-byte PDF downloaded. Official compiled 2025 manual cites this order. Work Experience removals/additions differ between LP/UP and HS/HSS/VHSS. Agarbathi and Umbrella deletions are in the latter section, so retained LP codes 216 and 237 are not contradictions. Original government-hosted standalone order not recovered.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-amendment-discovery-2025",
+    "title": "Manual and 2025 government-order download discovery page",
+    "url": "https://www.muralipanamanna.in/2019/08/kerala-school-sasthrolsavam-manual.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_discovery_index",
+    "document_date": null,
+    "confidence": "discovery_only",
+    "notes": "Opened to locate the downloadable G.O.146/2025 copy. Page path dates do not date every linked update. The blog's prose is not used as authority for competition rules.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-amendment-discovery-2024",
+    "title": "2024 Work Experience order and revised manual download discovery page",
+    "url": "https://www.muralipanamanna.in/2024/09/Kerala-School-Sasthrolsavam-Guidelines-Manual.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_discovery_index",
+    "document_date": null,
+    "confidence": "discovery_only",
+    "notes": "Opened to locate G.O.116/2024, its annex and a revised Work Experience manual. The linked order was downloaded and visually inspected separately; the index is not rule authority.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-subdistrict-items-2024",
+    "title": "Official 2024 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2024/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2024,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed: 239 rows total; 39 LP rows (Science 3, Mathematics 6, Social Science 4, Work Experience 26), no LP IT row. Includes Science quiz S/max1 and HS Working Model 115 G/max2. Catalogue templates and reused codes do not independently establish current eligibility. Saved as subdistrict-catalogue-2024.json in the research collection.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-subdistrict-items-2025",
+    "title": "Official 2025 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2025/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2025,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed: 261 rows total; 40 LP rows (Science 5, Mathematics 6, Social Science 4, Work Experience 25), no LP IT row. Science quiz rows now G/max2; HS Working Model 115 remains G/max2. LP Social Science exposes four rows while the compiled manual combines Collections/Charts into one of three events. Saved as subdistrict-catalogue-2025.json.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-subdistrict-items-2026",
+    "title": "Official 2026 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2026/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2026,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed despite web-rendering retrieval failures: 261 rows total; 40 LP rows (Science 5, Mathematics 6, Social Science 4, Work Experience 25), no LP IT row. LP Science codes 101–105 are G/max2; HS Working Model 115 G/max2. LP Social Science four-row/three-event mismatch remains unresolved. Saved as subdistrict-catalogue-2026.json. Catalogue presence is not a replacement for manual eligibility.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-state-items-2019",
+    "title": "Official 2019 state portal item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2019,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "Opened Science rows. HS Working Model 115 and HSS Working Model 126 are G/max2; historical Science quiz rows S/max1. This corroborates a historical group capacity but the manual establishes the required pupil count. Generic state templates do not establish level eligibility.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-parappanangadi-programme-2026",
+    "title": "Parappanangadi subdistrict Sasthrolsavam 2026 programme uploaded to FlipHTML5",
+    "url": "https://fliphtml5.com/brkdd/evzs/1/",
+    "accessed_on": "2026-10-31",
+    "source_type": "local_programme_unverified_upload",
+    "document_date": "2026-09-26",
+    "confidence": "limited_to_opened_cover",
+    "pages": "Cover image visually inspected; interior item pages not read",
+    "notes": "Platform publication date 26 September 2026. Cover gives event 30 September–1 October 2026 at M H S S Munniyur. Uploader pkmpanicker3 authority not established. Historical local lead, not Karen's entry confirmation or verified current operational rule. Cover URL https://online.fliphtml5.com/brkdd/evzs/files/shot.jpg .",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-malappuram-district-news-2026",
+    "title": "Deshabhimani: Malappuram district School Sasthrolsavam announcement",
+    "url": "https://www.deshabhimani.com/district-news/-73594/district-school-science-festival-fy0",
+    "accessed_on": "2026-10-31",
+    "source_type": "news_report",
+    "document_date": "2026-10-30",
+    "confidence": "secondary_schedule_report",
+    "notes": "Opened. Organisers' press-conference report dated 30 October 2026, 00:31. Announces 37th revenue-district event 3–5 November 2026 at Edarikode/Klari/Kottakkal; Science/Social Science/IT 3–4 November at PKMMHSS. This is district, not subdistrict, and not a saved entrant registration or official item-level operational notice.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rule-change-contacts-2026",
+    "title": "Official 2026 Sasthrolsavam administrative contacts directory",
+    "url": "https://mela.kite.kerala.gov.in/2026/index.php/Home/contacts",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_portal",
+    "document_date": null,
+    "confidence": "directory_only",
+    "notes": "Opened public administrative directory during local notice search. Directory fields do not independently establish current individual responsibility or Karen's subdistrict. No messages were sent and personal contact fields were not copied into this research note.",
+    "topic_register": "rule-change-sources.json"
+  },
+  {
+    "id": "rules-manual-2025",
+    "title": "Kerala School Sasthrolsavam Manual 2025",
+    "url": "https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_manual",
+    "document_date": "2025-09-12",
+    "notes": "250-page PDF downloaded. Relevant general, appeal, championship, science and IT pages visually inspected. Printed body page plus 11 generally locates the PDF page. The foreword on PDF page 3 says the manual was prepared in 2009 and revised in 2019. LP scoring on printed page 64 contains component/total inconsistencies. HS Working Model on printed pages 40–41 stipulates two pupils; note 3 on page 44 requires group participation counts.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-downloads-2026",
+    "title": "2026 official Sasthrolsavam download zone",
+    "url": "https://mela.kite.kerala.gov.in/2026/index.php/publics/instructions",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_portal",
+    "document_date": null,
+    "notes": "Opened. The current zone links the 2025 manual and a school-login guide with a 2022–23 filename. File dates and portal edition dates remain distinct.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-science-items-2025",
+    "title": "Official 2025 state item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "notes": "Opened the science rows. Codes and participant capacities are factual catalogue data, not independent proof of eligibility at the state level.",
+    "portal_year": 2025,
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-it-circular-2026",
+    "title": "IT Mela 2026 school subdistrict and revenue district instructions",
+    "url": "https://kite.kerala.gov.in/KITE/itsadmin/uploads/docs/1136.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_circular",
+    "document_date": "2026-09-03",
+    "notes": "KITE/2026/1275(8). Single scanned page downloaded and visually read. Mandates KITE Ubuntu 22.04; updates typing, animation, presentation, webpage design and Scratch. No Working Model item is added.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-kite-circular-index",
+    "title": "KITE circular index",
+    "url": "https://kite.kerala.gov.in/KITE/index.php/welcome/kite_circular",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_index",
+    "document_date": null,
+    "notes": "Opened. The 3 September 2026 entry links the official 1136.pdf circular.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-science-theme-2026",
+    "title": "Kerala 2026–27 science theme adoption circular",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_circular",
+    "document_date": "2026-09-02",
+    "notes": "Y1/9214/2026/DGE, three PDF pages. Downloaded; NCERT attachment on PDF page 3 visually inspected. Its main title differs from the explanatory note’s description of the main theme; the discrepancy is retained.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-science-digital-2026",
+    "title": "Electronics IoT Robotics and science magazine instructions 2026",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/sasthrolsavam31082026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_circular",
+    "document_date": "2026-08-31",
+    "notes": "Y1/8659/2026/DGE, four PDF pages. Downloaded, text extracted, first three pages visually inspected. Explicit three-hour conditions apply to the named on-the-spot digital events, not automatically to Science Working Model or IT events.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-science-drama-2026",
+    "title": "Kerala Science Drama 2026 circular and VITM annexures",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/08/sciencedrama29082026_compressed-2.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_circular",
+    "document_date": "2026-08-29",
+    "notes": "Y1/13334/2026/DGE, nine PDF pages. Downloaded and text extracted. Kerala state event scheduled for 11 November 2026 at Thrissur; regional event for 19–20 November 2026 at VITM. First-only advancement within Kerala differs from the regional invitation to first and second prize winners. Drama scoring matched the 2025 manual.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-grace-2025-26",
+    "title": "2025–26 examination grace mark circular",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/03/grace-mark-2025-26_circular-16.03.2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_circular",
+    "document_date": "2026-03-16",
+    "notes": "Y1/23504/2025/DGE; cites G.O.(Ms)65/2026/GEDN dated 12 March 2026. Six PDF pages downloaded; grace tables on pages 1–3 visually inspected. Applies to 2025–26 examinations; do not project it to 2026–27.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-registration-guide",
+    "title": "School Sasthrolsavam software school login guide",
+    "url": "https://mela.kite.kerala.gov.in/2026/entry_forms/School%20Sasthrolsavam_2022_23_school%20login_user%20manual_30_09.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_user_guide",
+    "document_date": null,
+    "notes": "Five-page official guide linked from the 2026 download zone. Opened and text read. It establishes an older documented registration workflow rather than proving every current screen is identical.",
+    "version_evidence": "Filename and screenshots identify2022–23; linked by2026portal.",
+    "topic_register": "rules-sources.json"
+  },
+  {
+    "id": "rules-items-2026",
+    "title": "Official 2026 state item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "notes": "Current catalogue inspected in shared research collection. HS Science Working Model is item 115, group capacity two. The IT catalogue lists standard student and teacher events without a Working Model item. Generic catalogue entries do not independently determine eligibility at the state level.",
+    "portal_year": 2026,
+    "topic_register": "rules-sources.json"
   }
 ]

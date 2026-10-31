@@ -4,7 +4,7 @@ This collection supplies evidence for answers, rather than a model trained to re
 
 ## Files and provenance
 
-The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability.
+The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows, the project index records selected exhibit provenance, and the result snapshots preserve observed overall score tables. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability.
 
 Each source has an access date. Where known, a separate document date is retained. A URL containing 2026 is not sufficient evidence that the linked document was written in 2026: the portal currently serves a 2025 competition manual and a software guide bearing a 2022–23 filename. Likewise, a press page's upload date can differ from the event and the release's internal date.
 
@@ -25,10 +25,12 @@ These are proposed integration behaviours. No retrieval service, embedding index
 | Potential error | Correct handling |
 | --- | --- |
 | UP item appears at a state-portal URL | Check manual eligibility and whether the row is a teacher item. The master catalogue is generic. |
-| A source says one school entry | Distinguish exhibits/teams from pupils in each exhibit. Science HS Working Model specifies two pupils. |
+| A source says one school entry | Distinguish exhibits/teams from pupils in each exhibit. Science HS Working Model specifies two pupils, also recorded in the older 2019 manual. |
 | Electronics/IoT/Robotics must be assembled in three hours | Apply that circular to those items. Do not transfer it to prepared Working Model without a rule extending it. |
 | NCERT selected an exhibit | Say selected for that edition, not national prizewinner or scientifically validated technology. |
 | An old total is much higher than a recent total | Preserve scoring units and scope; do not compare totals across undocumented scoring systems. |
+| A school-table sum differs from the district-table sum | Preserve each fetched view and its scope. An internally correct row total does not resolve cross-table differences. |
+| An older INSPIRE FAQ gives a different quota | Use the dated 2026–27 notification for that cycle, retaining any live-page condition that needs separate authority. |
 | A state winner can reach SISF/NCERT | Explain selection and invitation conditions. Do not promise automatic entry for every state item. |
 | A 2025–26 grace-mark circular is available | Label that exam cycle. It does not prove a 2026–27 entitlement. |
 | A school used a cloud AI service | Explain the documented dependency. It does not mean the student trained the foundation model or that the full system runs on the microcontroller. |

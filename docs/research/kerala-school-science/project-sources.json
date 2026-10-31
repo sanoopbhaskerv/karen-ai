@@ -1,0 +1,127 @@
+[
+  {
+    "id": "project-001",
+    "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
+    "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Signed cycle-specific notification, F.No. DST/S&TCB/INSPIRE-MANAK/NOMINATIONS/2026-27. Direct PDF downloaded, extracted and visually inspected. Initial window only; no deadline-extension verification. Separate postback delivery returned the same text with a different binary hash.",
+    "source_date": "2026-07-13",
+    "download_sha256": "a5a1f258087967640f5b1f0dfd56e2efda27eae41371f903dfdc2a0fa3a230b2",
+    "pdf_pages": 1
+  },
+  {
+    "id": "project-002",
+    "title": "NCERT: Archive JNNSMEE/RBVP, English version",
+    "url": "https://www.ncert.nic.in/archive-jnnsmee.php?ln=en",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_archive",
+    "notes": "Opened archive and followed actual catalogue links. Discovery source only; archive listing does not prove an exhibit mechanism or prize."
+  },
+  {
+    "id": "project-003",
+    "title": "NCERT: Exhibits of 2018, 45th JNNSMEE, Ahmedabad",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2018_Ahmedabad.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF135 rendered visually. Source credits identify Kerala school locations; qualifying route and prize rank not established. Selected cases, not exhaustive Kerala extraction.",
+    "source_date": "2018-11",
+    "download_sha256": "32801987b075e0f50261b551a7bddd3faceed0dfbf75d9ca2fece8022e6b00d7",
+    "pdf_pages": 192
+  },
+  {
+    "id": "project-004",
+    "title": "NCERT: Exhibits of 2019, 46th JNNSMEE, Raipur",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2019_Raipur.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF44 rendered visually. Catalogue is a short synopsis source, not independent validation. Selected cases only.",
+    "source_date": "2019-10",
+    "download_sha256": "44b5b8f41ed79574f36b81cc61ba025ebd7b83959e8656370361e829dba74ba9",
+    "pdf_pages": 166
+  },
+  {
+    "id": "project-005",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2023, 50th RBVP, Pune",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2023_Inquisitive_Minds_Pune.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF obtained through direct HTTP download when web extraction timed out; text extracted, complete relevant pages inspected and PDF31 rendered visually. JNV location and state-fair route are distinct.",
+    "source_date": "2023-12",
+    "download_sha256": "39acce65f1509b433066303cc2004dfe53fb70a147f12217757ffeb735b39179",
+    "pdf_pages": 196
+  },
+  {
+    "id": "project-006",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2024, 51st RBVP, Sonipat",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/Exhibits_of_2024_Inquisitive.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "First-edition date from publication page. Full PDF downloaded and extracted; complete selected pages inspected, PDF90 and152 rendered visually. Selected synopses, not independent performance tests. A preface contains an inconsistent older date; cover and edition identify the 2024 event.",
+    "source_date": "2024-12",
+    "download_sha256": "39bde9bb2a79243d64e073467524a29e66a9ac5ca94b1e50a7ce1d84a1decfcc",
+    "pdf_pages": 206
+  },
+  {
+    "id": "project-007",
+    "title": "VITM/NCSM: Prizes Awarded at Southern India Science Fair 2026",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/events/SISF-2026/Prize%20award%20list%20SISF-2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_prize_list",
+    "notes": "Official prize list for the 19–23 January 2026 SISF. Publication day is not stated; event dates are stored separately. Overall awards and Kerala-specific awards are distinct. Full award table inspected.",
+    "source_date": null,
+    "download_sha256": "5810b9305342e5434802f16f57019069e5cae5c9eba11347a1e20863c801877c",
+    "pdf_pages": 12,
+    "event_start_date": "2026-01-19",
+    "event_end_date": "2026-01-23"
+  },
+  {
+    "id": "project-008",
+    "title": "Onmanorama: Class 9 Kochi boy tops south India-level science festival",
+    "url": "https://www.onmanorama.com/news/kerala/2026/01/30/mohammed-arif-science-festival.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_news",
+    "notes": "Full article opened. Reported integration mechanism only; official award scope independently checked against project-007. Broad headline must not become an overall-fair-first claim. No code, test data or driving-skill validation supplied.",
+    "source_date": "2026-01-30"
+  },
+  {
+    "id": "project-009",
+    "title": "NCERT: Exhibits of 2022, 49th RBVP, Guwahati",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2022.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and extracted. Initial school/location text searches did not confidently locate a Kerala case. This is an extraction/search gap, not evidence of Kerala nonparticipation. No case indexed from this source.",
+    "download_sha256": "57e28684a11c4b95c95fbbf394cc2238285294332630323666d93d84815622ea",
+    "pdf_pages": 168
+  },
+  {
+    "id": "project-010",
+    "title": "NCERT: Structure and Working of Science Models, 2015",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2015.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. Hosting-location references were not treated as school attribution.",
+    "download_sha256": "b7bc5072e8bbec30466c0eebca0681086ec5bc63f610a5413512342c86ca5507",
+    "pdf_pages": 87
+  },
+  {
+    "id": "project-011",
+    "title": "NCERT: Structure and Working of Science Models, 2016",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2016.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "download_sha256": "8aebe903e34898ff4323fa994aa19c73e046668996ad8256257f55211c1a327c",
+    "pdf_pages": 75
+  },
+  {
+    "id": "project-012",
+    "title": "NCERT: Structure and Working of Science Models, 2017",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2017.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "download_sha256": "970308fd17341088cf7b525b8bec0a413232346787228a2fa0633d73a599c8b1",
+    "pdf_pages": 56
+  }
+]

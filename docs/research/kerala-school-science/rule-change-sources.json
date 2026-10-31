@@ -1,0 +1,144 @@
+[
+  {
+    "id": "rule-change-manual-2019",
+    "title": "Kerala School Sasthrolsavam Manual 2019, hosted by the official 2024 portal",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/entry_forms/sasthrolsavam_manual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_manual",
+    "document_date": "2019-08-08",
+    "portal_year": 2024,
+    "confidence": "high",
+    "pages": "168 PDF pages; cover, foreword, order PDF p. 5, general PDF p. 11 and Science PDF pp. 42–48 visually inspected",
+    "notes": "Cover identifies 2019; hosting directory does not date the document. G.O.(Ms)119/2019/GEDN dated 8 August 2019 appears on PDF p. 5. Printed body page +8 generally gives PDF page. HS Working Model already requires two pupils on printed p. 35. Older general and Science UP progression clauses conflict."
+  },
+  {
+    "id": "rule-change-manual-2025-dge",
+    "title": "General Education Department publication of the revised Sasthrolsavam Manual 2025",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2025/09/sasthrolsavammanual-modifi12092025-converted.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_manual",
+    "document_date": "2025-09-12",
+    "confidence": "high",
+    "pages": "250 PDF pages; publication cover extracted and cross-checked with the KITE-hosted compiled manual",
+    "notes": "DGE order Y1/7858/2024/DGE dated 12 September 2025 cites G.O.146/2025/GEDN of 23 August 2025, G.O.118/2024/GEDN of 20 September 2024 and G.O.116/2024/GEDN of 19 September 2024. Downloaded 3,446,581 bytes, SHA256 12a132b7ca95954f9f290eda4a131611cde3769b23081ab91c7154416c054fd3. Different public file size from KITE copy; no claim of byte identity. Detailed current rule references use rules-manual-2025."
+  },
+  {
+    "id": "rule-change-go146-2025-mirror",
+    "title": "G.O.(Ms)146/2025/GEDN, government-order copy on a third-party mirror",
+    "url": "https://drive.google.com/file/d/1ssgsUsTmd0IeDxCZSbrhcoo0y6sl1LjO/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1ssgsUsTmd0IeDxCZSbrhcoo0y6sl1LjO",
+    "accessed_on": "2026-10-31",
+    "source_type": "mirrored_government_order",
+    "document_date": "2025-08-23",
+    "confidence": "medium",
+    "pages": "35 PDF pages; cover and Science PDF pp. 2–8, Social Science pp. 29–30, Work Experience pp. 34–35 inspected",
+    "notes": "418,381-byte PDF downloaded. Identifier/date match references in the official compiled 2025 manual. Third-party watermark; original government-hosted standalone order not recovered. Read amended right column rather than existing left column. Current rules cross-checked against official compiled manual."
+  },
+  {
+    "id": "rule-change-go116-2024-mirror",
+    "title": "G.O.(Ms)116/2024/GEDN and Work Experience annex, mirrored copy",
+    "url": "https://drive.google.com/file/d/1LdNi0W8DYeOfzRox_UR-67mXmLDZdPp9/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1LdNi0W8DYeOfzRox_UR-67mXmLDZdPp9",
+    "accessed_on": "2026-10-31",
+    "source_type": "mirrored_government_order",
+    "document_date": "2024-09-19",
+    "confidence": "medium",
+    "pages": "Two PDF pages; cover and annex visually inspected",
+    "notes": "683,414-byte PDF downloaded. Official compiled 2025 manual cites this order. Work Experience removals/additions differ between LP/UP and HS/HSS/VHSS. Agarbathi and Umbrella deletions are in the latter section, so retained LP codes 216 and 237 are not contradictions. Original government-hosted standalone order not recovered."
+  },
+  {
+    "id": "rule-change-amendment-discovery-2025",
+    "title": "Manual and 2025 government-order download discovery page",
+    "url": "https://www.muralipanamanna.in/2019/08/kerala-school-sasthrolsavam-manual.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_discovery_index",
+    "document_date": null,
+    "confidence": "discovery_only",
+    "notes": "Opened to locate the downloadable G.O.146/2025 copy. Page path dates do not date every linked update. The blog's prose is not used as authority for competition rules."
+  },
+  {
+    "id": "rule-change-amendment-discovery-2024",
+    "title": "2024 Work Experience order and revised manual download discovery page",
+    "url": "https://www.muralipanamanna.in/2024/09/Kerala-School-Sasthrolsavam-Guidelines-Manual.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_discovery_index",
+    "document_date": null,
+    "confidence": "discovery_only",
+    "notes": "Opened to locate G.O.116/2024, its annex and a revised Work Experience manual. The linked order was downloaded and visually inspected separately; the index is not rule authority."
+  },
+  {
+    "id": "rule-change-subdistrict-items-2024",
+    "title": "Official 2024 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2024/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2024,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed: 239 rows total; 39 LP rows (Science 3, Mathematics 6, Social Science 4, Work Experience 26), no LP IT row. Includes Science quiz S/max1 and HS Working Model 115 G/max2. Catalogue templates and reused codes do not independently establish current eligibility. Saved as subdistrict-catalogue-2024.json in the research collection."
+  },
+  {
+    "id": "rule-change-subdistrict-items-2025",
+    "title": "Official 2025 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2025/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2025,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed: 261 rows total; 40 LP rows (Science 5, Mathematics 6, Social Science 4, Work Experience 25), no LP IT row. Science quiz rows now G/max2; HS Working Model 115 remains G/max2. LP Social Science exposes four rows while the compiled manual combines Collections/Charts into one of three events. Saved as subdistrict-catalogue-2025.json."
+  },
+  {
+    "id": "rule-change-subdistrict-items-2026",
+    "title": "Official 2026 subdistrict portal item catalogue including LP",
+    "url": "https://mela.kite.kerala.gov.in/2026/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2026,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "HTML directly fetched and parsed despite web-rendering retrieval failures: 261 rows total; 40 LP rows (Science 5, Mathematics 6, Social Science 4, Work Experience 25), no LP IT row. LP Science codes 101–105 are G/max2; HS Working Model 115 G/max2. LP Social Science four-row/three-event mismatch remains unresolved. Saved as subdistrict-catalogue-2026.json. Catalogue presence is not a replacement for manual eligibility."
+  },
+  {
+    "id": "rule-change-state-items-2019",
+    "title": "Official 2019 state portal item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_catalogue",
+    "document_date": null,
+    "portal_year": 2019,
+    "confidence": "high_for_catalogue_fields_only",
+    "notes": "Opened Science rows. HS Working Model 115 and HSS Working Model 126 are G/max2; historical Science quiz rows S/max1. This corroborates a historical group capacity but the manual establishes the required pupil count. Generic state templates do not establish level eligibility."
+  },
+  {
+    "id": "rule-change-parappanangadi-programme-2026",
+    "title": "Parappanangadi subdistrict Sasthrolsavam 2026 programme uploaded to FlipHTML5",
+    "url": "https://fliphtml5.com/brkdd/evzs/1/",
+    "accessed_on": "2026-10-31",
+    "source_type": "local_programme_unverified_upload",
+    "document_date": "2026-09-26",
+    "confidence": "limited_to_opened_cover",
+    "pages": "Cover image visually inspected; interior item pages not read",
+    "notes": "Platform publication date 26 September 2026. Cover gives event 30 September–1 October 2026 at M H S S Munniyur. Uploader pkmpanicker3 authority not established. Historical local lead, not Karen's entry confirmation or verified current operational rule. Cover URL https://online.fliphtml5.com/brkdd/evzs/files/shot.jpg ."
+  },
+  {
+    "id": "rule-change-malappuram-district-news-2026",
+    "title": "Deshabhimani: Malappuram district School Sasthrolsavam announcement",
+    "url": "https://www.deshabhimani.com/district-news/-73594/district-school-science-festival-fy0",
+    "accessed_on": "2026-10-31",
+    "source_type": "news_report",
+    "document_date": "2026-10-30",
+    "confidence": "secondary_schedule_report",
+    "notes": "Opened. Organisers' press-conference report dated 30 October 2026, 00:31. Announces 37th revenue-district event 3–5 November 2026 at Edarikode/Klari/Kottakkal; Science/Social Science/IT 3–4 November at PKMMHSS. This is district, not subdistrict, and not a saved entrant registration or official item-level operational notice."
+  },
+  {
+    "id": "rule-change-contacts-2026",
+    "title": "Official 2026 Sasthrolsavam administrative contacts directory",
+    "url": "https://mela.kite.kerala.gov.in/2026/index.php/Home/contacts",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_portal",
+    "document_date": null,
+    "confidence": "directory_only",
+    "notes": "Opened public administrative directory during local notice search. Directory fields do not independently establish current individual responsibility or Karen's subdistrict. No messages were sent and personal contact fields were not copied into this research note."
+  }
+]

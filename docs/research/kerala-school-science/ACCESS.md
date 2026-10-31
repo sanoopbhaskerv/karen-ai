@@ -32,6 +32,19 @@ The official [2025 master list](https://mela.kite.kerala.gov.in/2025/state/index
 
 These are counts of catalogue records, including teacher entries, rather than counts of eligible student state contests. Ditto marks in section/fair cells have been expanded in the JSON. Source spellings, item codes and participant codes are preserved. The 2026 master list can be fetched directly even when a browser search tool returns an error. Small wording differences between snapshots are retained rather than rewritten into a single version.
 
+The subdistrict views include LP items omitted from the current state-page view. The following additional snapshots were directly retrieved; their provenance is retained with each JSON file:
+
+| Edition and view | All rows | LP rows | Snapshot |
+| --- | ---: | ---: | --- |
+| 2019 state-page historical catalogue | 154 | 0 | [2019 catalogue](item-catalogue-2019.json) |
+| 2022 subdistrict catalogue | 239 | 39 | [2022 catalogue](subdistrict-catalogue-2022.json) |
+| 2023 subdistrict catalogue | 239 | 39 | [2023 catalogue](subdistrict-catalogue-2023.json) |
+| 2024 subdistrict catalogue | 239 | 39 | [2024 catalogue](subdistrict-catalogue-2024.json) |
+| 2025 subdistrict catalogue | 261 | 40 | [2025 catalogue](subdistrict-catalogue-2025.json) |
+| 2026 subdistrict catalogue | 261 | 40 | [2026 catalogue](subdistrict-catalogue-2026.json) |
+
+Together with the two 221-row state-page snapshots above, these eight catalogues contain 1,835 observations across editions. Repeated item codes across years are separate versioned observations. The 2019 state-page view has four UP rows, rather than the newer generic UP list; do not infer a change in pupil eligibility from that interface difference. [Rule changes](RULE_CHANGES.md) documents the actual manual/order evidence. A 2019 subdistrict URL probe redirected in a loop, so it was not labelled a successfully captured catalogue.
+
 ## Special-school work experience fair
 
 The [2025–26 special-school portal](https://mela.kite.kerala.gov.in/2025/spss2025/index.php/login) explicitly names a separate State Special School Work Experience Fair. The [2026–27 results interface](https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publishresult/resultindex/resultview) separates visually impaired, hearing impaired LP–UP, hearing impaired HS, hearing impaired HSS, and two exhibition sections. It displayed zero declared items on the access date. These are the source's own category names.

@@ -1,0 +1,2417 @@
+{
+  "schema_version": 1,
+  "portal_year": 2022,
+  "source_url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
+  "final_url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
+  "retrieved_at": "2026-10-31T17:56:15.109934+00:00",
+  "accessed_on": "2026-10-31",
+  "response_sha256": "d09b70c5a1707c8b1390333efb106516896e328e140244b81224bdae99703860",
+  "source_kind": "official_KITE_subdistrict_master_item_catalogue",
+  "scope_note": "Observed historical generic catalogue including LP and teacher items. A catalogue alone does not establish permitted items or progression. Use the manual and dated circulars of the requested edition.",
+  "record_count": 239,
+  "fair_counts": {
+    "Science Fair": 28,
+    "Mathematics Fair": 42,
+    "Socialscience Fair": 27,
+    "Workexperience Fair": 122,
+    "IT Fair": 20
+  },
+  "section_counts": {
+    "LP": 39,
+    "UP": 50,
+    "HS": 76,
+    "HSS/VHSS": 74
+  },
+  "items": [
+    {
+      "ordinal": 1,
+      "section": "LP",
+      "fair": "Science Fair",
+      "item_code": 101,
+      "item_name": "Collections / Models",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 2,
+      "section": "LP",
+      "fair": "Science Fair",
+      "item_code": 102,
+      "item_name": "Charts",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 3,
+      "section": "LP",
+      "fair": "Science Fair",
+      "item_code": 103,
+      "item_name": "Simple Experiments",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 4,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 106,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 5,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 107,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 6,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 108,
+      "item_name": "Research Type Project",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 7,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 109,
+      "item_name": "Improvised Experiments",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 8,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 110,
+      "item_name": "Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 9,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 111,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 10,
+      "section": "UP",
+      "fair": "Science Fair",
+      "item_code": 112,
+      "item_name": "Teacher's Project",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 11,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 115,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 12,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 116,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 13,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 117,
+      "item_name": "Research Type Project",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 14,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 118,
+      "item_name": "Improvised Experiments",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 15,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 119,
+      "item_name": "Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 16,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 120,
+      "item_name": "Talent Search Exam",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 17,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 121,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 18,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 122,
+      "item_name": "Teacher's Project",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 19,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 123,
+      "item_name": "Science Magazine",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 20,
+      "section": "HS",
+      "fair": "Science Fair",
+      "item_code": 124,
+      "item_name": "Science Drama",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 8
+    },
+    {
+      "ordinal": 21,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 126,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 22,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 127,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 23,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 128,
+      "item_name": "Research Type Project",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 24,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 129,
+      "item_name": "Improvised Experiments",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 25,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 130,
+      "item_name": "Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 26,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 131,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 27,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 132,
+      "item_name": "Teacher's Project",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 28,
+      "section": "HSS/VHSS",
+      "fair": "Science Fair",
+      "item_code": 438,
+      "item_name": "Talent Search Examination",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 29,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 135,
+      "item_name": "Geometrical Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 30,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 136,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 31,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 137,
+      "item_name": "Puzzle",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 32,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 138,
+      "item_name": "Maths Magazine",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 33,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 139,
+      "item_name": "Number Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 34,
+      "section": "LP",
+      "fair": "Mathematics Fair",
+      "item_code": 437,
+      "item_name": "Maths Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 35,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 142,
+      "item_name": "Number Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 36,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 143,
+      "item_name": "Geometrical Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 37,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 144,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 38,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 145,
+      "item_name": "Puzzle",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 39,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 146,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 40,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 147,
+      "item_name": "Maths Magazine",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 41,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 422,
+      "item_name": "Maths Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 42,
+      "section": "UP",
+      "fair": "Mathematics Fair",
+      "item_code": 423,
+      "item_name": "Game",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 43,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 152,
+      "item_name": "Number Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 44,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 153,
+      "item_name": "Geometrical Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 45,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 154,
+      "item_name": "Other Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 46,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 155,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 47,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 156,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 48,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 157,
+      "item_name": "Pure Construction",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 49,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 158,
+      "item_name": "Applied Construction",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 50,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 159,
+      "item_name": "Puzzle",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 51,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 160,
+      "item_name": "Games",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 52,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 161,
+      "item_name": "Single Project",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 53,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 162,
+      "item_name": "Group Project",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 54,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 163,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 55,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 164,
+      "item_name": "Maths Magazine",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 56,
+      "section": "HS",
+      "fair": "Mathematics Fair",
+      "item_code": 165,
+      "item_name": "Maths Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 57,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 170,
+      "item_name": "Number Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 58,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 171,
+      "item_name": "Geometrical Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 59,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 172,
+      "item_name": "Other Chart",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 60,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 173,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 61,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 174,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 62,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 175,
+      "item_name": "Pure Construction",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 63,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 176,
+      "item_name": "Applied Construction",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 64,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 177,
+      "item_name": "Puzzle",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 65,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 178,
+      "item_name": "Games",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 66,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 179,
+      "item_name": "Single Project",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 67,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 180,
+      "item_name": "Group Project",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 68,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 181,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 69,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 182,
+      "item_name": "Maths Magazine",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 70,
+      "section": "HSS/VHSS",
+      "fair": "Mathematics Fair",
+      "item_code": 183,
+      "item_name": "Maths Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 71,
+      "section": "LP",
+      "fair": "Socialscience Fair",
+      "item_code": 185,
+      "item_name": "Collections",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 72,
+      "section": "LP",
+      "fair": "Socialscience Fair",
+      "item_code": 186,
+      "item_name": "Models",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 73,
+      "section": "LP",
+      "fair": "Socialscience Fair",
+      "item_code": 187,
+      "item_name": "Charts",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 74,
+      "section": "LP",
+      "fair": "Socialscience Fair",
+      "item_code": 188,
+      "item_name": "Social Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 75,
+      "section": "UP",
+      "fair": "Socialscience Fair",
+      "item_code": 190,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 76,
+      "section": "UP",
+      "fair": "Socialscience Fair",
+      "item_code": 191,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 77,
+      "section": "UP",
+      "fair": "Socialscience Fair",
+      "item_code": 192,
+      "item_name": "Elocution",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 78,
+      "section": "UP",
+      "fair": "Socialscience Fair",
+      "item_code": 193,
+      "item_name": "Social Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 79,
+      "section": "UP",
+      "fair": "Socialscience Fair",
+      "item_code": 194,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 80,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 198,
+      "item_name": "Atlas Making",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 81,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 199,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 82,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 200,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 83,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 201,
+      "item_name": "Local History Writing",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 84,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 202,
+      "item_name": "Elocution",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 85,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 203,
+      "item_name": "Social Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 86,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 204,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 87,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 205,
+      "item_name": "Talent Search Examination",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 88,
+      "section": "HS",
+      "fair": "Socialscience Fair",
+      "item_code": 206,
+      "item_name": "News Reading",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 89,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 208,
+      "item_name": "Atlas Making",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 90,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 209,
+      "item_name": "Working Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 91,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 210,
+      "item_name": "Still Model",
+      "gender_code": "C",
+      "item_type_code": "G",
+      "max_participants": 2
+    },
+    {
+      "ordinal": 92,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 211,
+      "item_name": "Local History Writing",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 93,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 212,
+      "item_name": "Elocution",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 94,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 213,
+      "item_name": "Social Science Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 95,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 214,
+      "item_name": "Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 96,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 432,
+      "item_name": "Talent Search Examination",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 97,
+      "section": "HSS/VHSS",
+      "fair": "Socialscience Fair",
+      "item_code": 433,
+      "item_name": "News Reading",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 98,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 216,
+      "item_name": "Agarbathi Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 99,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 217,
+      "item_name": "Bamboo Products (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 100,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 218,
+      "item_name": "Beads Work (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 101,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 219,
+      "item_name": "Book Binding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 102,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 220,
+      "item_name": "Coconut Shell Products (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 103,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 221,
+      "item_name": "Coir Door Mats (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 104,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 222,
+      "item_name": "Electrical Wiring (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 105,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 223,
+      "item_name": "Embroidery (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 106,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 224,
+      "item_name": "Fabric Painting (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 107,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 225,
+      "item_name": "Fabric Printing Using Vegetables (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 108,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 226,
+      "item_name": "Metal Engraving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 109,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 227,
+      "item_name": "Modelling with clay (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 110,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 229,
+      "item_name": "Paper Craft (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 111,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 230,
+      "item_name": "Prepare pattern using threads (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 112,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 231,
+      "item_name": "Products using palm leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 113,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 232,
+      "item_name": "Product using card & straw board (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 114,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 233,
+      "item_name": "Product using waste materials (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 115,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 234,
+      "item_name": "Puppet Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 116,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 235,
+      "item_name": "Sheet Metal Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 117,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 236,
+      "item_name": "Stuffed Toys (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 118,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 237,
+      "item_name": "Umbrella Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 119,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 238,
+      "item_name": "Wood Carving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 120,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 239,
+      "item_name": "Wood Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 121,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 240,
+      "item_name": "Volleyball/Badminton net making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 122,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 241,
+      "item_name": "Writting chalk making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 123,
+      "section": "LP",
+      "fair": "Workexperience Fair",
+      "item_code": 428,
+      "item_name": "General Display of Items in stall (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 124,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 250,
+      "item_name": "Agarbathi Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 125,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 251,
+      "item_name": "Bamboo Products (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 126,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 252,
+      "item_name": "Beads Work (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 127,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 253,
+      "item_name": "Book Binding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 128,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 254,
+      "item_name": "Coconut shell product (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 129,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 255,
+      "item_name": "Coir Door Mats (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 130,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 256,
+      "item_name": "Electrical Wiring (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 131,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 257,
+      "item_name": "Embroidery (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 132,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 258,
+      "item_name": "Fabric Painting (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 133,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 259,
+      "item_name": "Fabric Printing Using Vegetables (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 134,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 260,
+      "item_name": "Metal Engraving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 135,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 261,
+      "item_name": "Modelling with clay (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 136,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 262,
+      "item_name": "Products Using Waste Materials (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 137,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 263,
+      "item_name": "Volleyball/Badminton net making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 138,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 264,
+      "item_name": "Paper Craft (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 139,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 265,
+      "item_name": "Prepare pattern using threads (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 140,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 266,
+      "item_name": "Products using palm leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 141,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 267,
+      "item_name": "Product using card & straw board (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 142,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 268,
+      "item_name": "Writting Chalk Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 143,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 269,
+      "item_name": "Puppet Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 144,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 270,
+      "item_name": "Sheet Metal Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 145,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 271,
+      "item_name": "Stuffed Toys (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 146,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 272,
+      "item_name": "Umbrella Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 147,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 273,
+      "item_name": "Wood Carving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 148,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 274,
+      "item_name": "Wood Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 149,
+      "section": "UP",
+      "fair": "Workexperience Fair",
+      "item_code": 429,
+      "item_name": "General Display of Items in Stall (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 150,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 280,
+      "item_name": "Agarbathi Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 151,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 281,
+      "item_name": "Bamboo Products (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 152,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 282,
+      "item_name": "Beads Work (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 153,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 283,
+      "item_name": "Book Binding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 154,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 284,
+      "item_name": "Budding, Layering Grafting etc (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 155,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 285,
+      "item_name": "Coconut shell product (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 156,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 286,
+      "item_name": "Coir Door Mats (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 157,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 287,
+      "item_name": "Doll Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 158,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 288,
+      "item_name": "Economic nutritious food items and vegetable fruit preservation items (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 159,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 289,
+      "item_name": "Electrical Wiring (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 160,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 290,
+      "item_name": "Electronics (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 161,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 291,
+      "item_name": "Embroidery (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 162,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 292,
+      "item_name": "Fabric Painting (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 163,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 293,
+      "item_name": "Fabric Printing Using Vegetable (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 164,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 294,
+      "item_name": "Garment Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 165,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 295,
+      "item_name": "Volleyball/Badminton net making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 166,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 296,
+      "item_name": "Products using natural fiber except coconut fiber (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 167,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 297,
+      "item_name": "Metal Engraving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 168,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 298,
+      "item_name": "Modelling with clay (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 169,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 299,
+      "item_name": "Writting Chalk Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 170,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 300,
+      "item_name": "Paper Craft (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 171,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 301,
+      "item_name": "Plaster of paris moulding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 172,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 302,
+      "item_name": "Prepare pattern using threads (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 173,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 303,
+      "item_name": "Products using palm leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 174,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 304,
+      "item_name": "Product using card & straw board (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 175,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 305,
+      "item_name": "Products using Rexin, Canvas & Leather (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 176,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 306,
+      "item_name": "Products using Screw Pine Leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 177,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 307,
+      "item_name": "Products Using Waste materials (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 178,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 308,
+      "item_name": "Puppet Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 179,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 309,
+      "item_name": "Sheet Metal Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 180,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 310,
+      "item_name": "Stuffed Toys (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 181,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 311,
+      "item_name": "Umbrella Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 182,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 312,
+      "item_name": "Wood Carving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 183,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 313,
+      "item_name": "Wood Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 184,
+      "section": "HS",
+      "fair": "Workexperience Fair",
+      "item_code": 430,
+      "item_name": "General Display of Items in stall (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 185,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 320,
+      "item_name": "Agarbathi Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 186,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 321,
+      "item_name": "Bamboo Products (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 187,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 322,
+      "item_name": "Beads Work (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 188,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 323,
+      "item_name": "Book Binding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 189,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 324,
+      "item_name": "Budding, Layering, Grafting etc (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 190,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 325,
+      "item_name": "Coconut shell product (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 191,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 326,
+      "item_name": "Coir Door Mats (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 192,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 327,
+      "item_name": "Doll Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 193,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 328,
+      "item_name": "Economic nutritious food items and vegetable fruit preservation items (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 194,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 329,
+      "item_name": "Electrical Wiring (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 195,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 330,
+      "item_name": "Electronics (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 196,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 331,
+      "item_name": "Embroidery (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 197,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 332,
+      "item_name": "Fabric Painting (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 198,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 333,
+      "item_name": "Fabric Printing Using Vegetable (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 199,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 334,
+      "item_name": "Garment Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 200,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 335,
+      "item_name": "Volleyball/Badminton net making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 201,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 336,
+      "item_name": "Products using natural fiber except coconut fiber (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 202,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 337,
+      "item_name": "Metal Engraving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 203,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 338,
+      "item_name": "Modelling with clay (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 204,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 339,
+      "item_name": "Writting Chalk Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 205,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 340,
+      "item_name": "Paper Craft (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 206,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 341,
+      "item_name": "Plaster of Paris Moulding (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 207,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 342,
+      "item_name": "Prepare pattern using threads (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 208,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 343,
+      "item_name": "Products using palm leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 209,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 344,
+      "item_name": "Product using card & straw board (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 210,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 345,
+      "item_name": "Products using Rexin, Canvas & Leather (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 211,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 346,
+      "item_name": "Products using Screw Pine Leaves (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 212,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 347,
+      "item_name": "Products Using Waste materials (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 213,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 348,
+      "item_name": "Puppet Making (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 214,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 349,
+      "item_name": "Sheet Metal Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 215,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 350,
+      "item_name": "Stuffed Toys (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 216,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 351,
+      "item_name": "Umbrella Making (On the Spot)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 217,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 352,
+      "item_name": "Wood Carving (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 218,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 353,
+      "item_name": "Wood Work (On the Spot) (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 219,
+      "section": "HSS/VHSS",
+      "fair": "Workexperience Fair",
+      "item_code": 431,
+      "item_name": "General Display of Items in stall (Exhibition)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 220,
+      "section": "UP",
+      "fair": "IT Fair",
+      "item_code": 386,
+      "item_name": "Digital Painting",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 221,
+      "section": "UP",
+      "fair": "IT Fair",
+      "item_code": 387,
+      "item_name": "Malayalam Typing",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 222,
+      "section": "UP",
+      "fair": "IT Fair",
+      "item_code": 388,
+      "item_name": "IT Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 223,
+      "section": "UP",
+      "fair": "IT Fair",
+      "item_code": 434,
+      "item_name": "ICT Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 224,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 389,
+      "item_name": "Digital Painting",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 225,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 390,
+      "item_name": "Rachanayum Avatharanavum (Presentation)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 226,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 391,
+      "item_name": "Web Page Designing",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 227,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 392,
+      "item_name": "Malayalam Typingum Roopakalppanayum",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 228,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 393,
+      "item_name": "Scratch Programming",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 229,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 394,
+      "item_name": "IT Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 230,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 425,
+      "item_name": "Animation",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 231,
+      "section": "HS",
+      "fair": "IT Fair",
+      "item_code": 435,
+      "item_name": "ICT Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 232,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 395,
+      "item_name": "Digital Painting",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 233,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 396,
+      "item_name": "Rachanayum Avatharanavum (Presentation)",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 234,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 397,
+      "item_name": "Web Page Designing",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 235,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 398,
+      "item_name": "IT Quiz",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 236,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 399,
+      "item_name": "Malayalam Typingum Roopakalpanayum",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 237,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 426,
+      "item_name": "Scratch Programming",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 238,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 427,
+      "item_name": "Animation",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    },
+    {
+      "ordinal": 239,
+      "section": "HSS/VHSS",
+      "fair": "IT Fair",
+      "item_code": 436,
+      "item_name": "ICT Teaching Aid",
+      "gender_code": "C",
+      "item_type_code": "S",
+      "max_participants": 1
+    }
+  ]
+}

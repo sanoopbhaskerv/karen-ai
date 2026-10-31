@@ -91,7 +91,9 @@ The live official programme page describes a DST/NIF route beginning with origin
 
 The FAQ specifies individual rather than group nomination and accepts ideas in scheduled Indian languages. It asks for a meaningful project title and a synopsis describing the problem, proposed solution and advantage. Existing pictures/sketches can help reviewers. It discourages copied textbook displays, purchased sensor kits and familiar demonstrations without original improvement. The same FAQ still contains older two-to-three-nomination wording, conflicting with the five-nomination programme page. Its generic month-by-month calendar should not substitute for a year's notification. [INSPIRE FAQ](https://www.inspireawards-dst.gov.in/UserP/faqs.aspx)
 
-For historical comparison, CBSE circular Acad-110/2022 of **22 September 2022** specified ages 10–15 and classes 6–10. That historical boundary must not be applied unchanged to the current portal. Obtain the **13 July 2026 nomination notification** listed on the communications portal before giving definitive 2026–27 eligibility or quota advice. The live portal says FY2026–27 nominations are closed as observed on 31 October. [2022–23 circular](https://www.inspireawards-dst.gov.in/download/news/CBSE_Circular_2022.pdf), [official communications index](https://www.inspireawards-dst.gov.in/UserP/viewImpComm.aspx)
+The signed **13 July 2026 notification**, now retrieved, confirms classes VI–XII and up to five original ideas per recognised school per financial year for 2026–27. Its initial nomination window was **15 July–15 September 2026**; no later extension was verified. It resolves the quota conflict with older FAQ wording. The separate XI/XII science-stream condition appears on the live About page, not in this notification. [DST notification](https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf)
+
+For historical comparison, CBSE circular Acad-110/2022 of **22 September 2022** specified ages 10–15 and classes 6–10. That historical boundary must not be applied unchanged to the current cycle. The live portal says FY2026–27 nominations are closed as observed on 31 October. [2022–23 circular](https://www.inspireawards-dst.gov.in/download/news/CBSE_Circular_2022.pdf), [official communications index](https://www.inspireawards-dst.gov.in/UserP/viewImpComm.aspx)
 
 ## National Children's Science Congress
 
@@ -125,7 +127,7 @@ KITE describes Samagra as providing resources for standards 1–12, including pu
 ## Highest value documents still to obtain
 
 1. Kerala's current national/SISF selection proceedings, with category, exhibit title and school. The broad KITE pathway cannot identify which specific state items are nominated.
-2. The signed 2026–27 INSPIRE nomination circular and any later amendment. It should resolve the live-site class/quota inconsistencies.
+2. Any later 2026–27 INSPIRE amendment or extension and the authority for the extra XI/XII restriction on the live About page. The signed July notification is now available and establishes the five-idea quota.
 3. Actual Kerala project reports, abstracts, student logbooks and judges' feedback, shared by schools with permission, especially the five verified 2025 NCERT entries. These would add substance beyond titles and awards.
 4. Kerala's 2026 NCSC programme/evaluation booklet and district/state schedule, plus a readable coordinator directory. The activity guide supports research method but does not establish all event administration.
 5. Authorised Malayalam transcripts of programme videos and explanatory materials. Keep each transcript linked to its publisher and recording date.

@@ -24,7 +24,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "reproduced_event_document",
     "document_date": null,
-    "notes": "Visible body says 45 th science fair and 8–12 January 2012; PDF title metadata says 43 rd. Body visually checked after local rendering. Original department-hosted copy not obtained."
+    "notes": "Visible body says 45th science fair and 8–12 January 2012; PDF title metadata says 43rd. Body visually checked after local rendering. Original department-hosted copy not obtained."
   },
   {
     "id": "history-2012-january-maths",
@@ -33,7 +33,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "reproduced_event_document",
     "document_date": null,
-    "notes": "One-page Kerala State School Mathematics Club Association schedule;26 th maths fair, PMG HSS Palakkad,8–12 January 2012. Text says more detailed schedule to follow."
+    "notes": "One-page Kerala State School Mathematics Club Association schedule; 26th maths fair, PMG HSS Palakkad,8–12 January 2012. Text says more detailed schedule to follow."
   },
   {
     "id": "history-2012-november-launch",
@@ -51,7 +51,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "secondary_news",
     "document_date": "2012-11-30",
-    "notes": "Palakkad Science Fair 171; stream winners distinguished from aggregate championship.46 th state science exhibition at GVHSS Meenchanda."
+    "notes": "Palakkad Science Fair 171; stream winners distinguished from aggregate championship. 46th state science exhibition at GVHSS Meenchanda."
   },
   {
     "id": "history-2013-teachers-notice",
@@ -60,7 +60,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "teacher_association_archive",
     "document_date": "2013-11-25",
-    "notes": "25–29 November 2013 programme;47 th Science,33 rd Work Experience,28 th Maths,17 th Special School,12 th IT,9 th Vocational,8 th Social Science. Teacher association reproduction, not government-hosted final result."
+    "notes": "25–29 November 2013 programme; 47th Science,33rd Work Experience,28th Maths,17th Special School,12th IT,9th Vocational,8th Social Science. Teacher association reproduction, not government-hosted final result."
   },
   {
     "id": "history-2014-tirur-report",
@@ -132,7 +132,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_results_portal",
     "document_date": null,
-    "notes": "Current historical table, not immutable signed export:Palakkad 1366, Kozhikode 1364, Kannur 1351; BSS Gurukulam 146. Category and item links present; not all item reports audited."
+    "notes": "Current historical table, not immutable signed export:Palakkad 1366, Kozhikode 1364, Kannur 1351; BSS Gurukulam 146. Category and item links present; not all item reports audited. Current archive conflicts with the government 2019 closing report, which names Kozhikode overall champion; no reconciliation obtained."
   },
   {
     "id": "history-2019-report",
@@ -177,7 +177,7 @@
     "accessed_on": "2026-10-31",
     "source_type": "official_results_portal",
     "document_date": null,
-    "notes": "Current table:Malappuram 1407, Palakkad 1320, Kozhikode 1299; school Durga 142, Panangad 134, Fathima 133. Preserve current archive scope."
+    "notes": "Current table:Malappuram 1407, Palakkad 1320, Kozhikode 1299; school Durga 142, Panangad 134, Fathima 133. Preserve current archive scope. Contemporary closing press differs on scores, third district and school runner-up; see history-2023-press-closure."
   },
   {
     "id": "history-2023-programme-report",
@@ -286,5 +286,149 @@
     "source_type": "secondary_news",
     "document_date": "2022-11-13",
     "notes": "Reports four-day fair concluded Saturday, 12 November 2022. Contemporary school and runner-up scores conflict with current KITE archive."
+  },
+  {
+    "id": "history-2009-manual-official-archive",
+    "title": "Kerala school Science, Mathematics, Social Science and Work Experience Fair manual, 2009: official-site archive",
+    "url": "https://web.archive.org/web/20111112000353id_/http://schoolsasthrolsavam.in:80/sciencefair_manual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_document",
+    "document_date": "2009-10-22",
+    "notes": "102-page government manual; foreword dated 22 October 2009 on printed pages 3–4, issued under Secretary, General Education Department. Describes HSS/VHSS inclusion and integrated organisation of four fairs. Printed page 5 supersedes previous manuals; not the first-ever manual. Downloaded and visually reviewed. Official-site capture dated 12 November 2011. Byte-identical to WordPress mirror; SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979."
+  },
+  {
+    "id": "history-2009-manual-mirror",
+    "title": "2009 government science-fair manual reproduced by IT Teacher Help",
+    "url": "https://itteacherhelp.wordpress.com/wp-content/uploads/2011/10/all-science-fair-manual-prevailing-2009.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "reproduced_government_document",
+    "document_date": "2009-10-22",
+    "notes": "Same 102-page manual as the archived official-site copy, with matching SHA-256 and file size 603,009 bytes. Cover identifies General Education Department, Government of Kerala, 2009. Foreword and chapter 1 visually checked; historical rules must not replace the current manual."
+  },
+  {
+    "id": "history-2009-maths-quiz",
+    "title": "Contemporary report of the state Mathematics Quiz at Thrissur",
+    "url": "https://mathematicsschool.blogspot.com/2009/12/state-maths-quiz.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "teacher_report",
+    "document_date": "2009-12-31",
+    "notes": "Contemporary Maths Blog post describes the completed state HS Mathematics Quiz in Thrissur and how contributors supplied the questions from the venue. Supports late-December 2009 host evidence; not a complete festival result or full programme."
+  },
+  {
+    "id": "history-early-teacher-profile",
+    "title": "C. K. Biju: first-person professional profile and earlier state Science Fair participation",
+    "url": "https://ckbijumash.blogspot.com/p/profile.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "participant_retrospective",
+    "document_date": null,
+    "notes": "Reports participation in state fairs at Ernakulam 1999–2000, Perinthalmanna 2001–02, Thiruvalla 2002–03, Ernakulam 2003–04 and Wayanad 2004–05. Personal retrospective, not organiser-certified host register. Full body retrieved with Python after browser search fetch was throttled. No private contact or biographical details transcribed."
+  },
+  {
+    "id": "history-2008-2009-ktct-school",
+    "title": "KTCT Higher Secondary School institutional history",
+    "url": "https://ktcthss.com/about-us",
+    "accessed_on": "2026-10-31",
+    "source_type": "school_retrospective",
+    "document_date": null,
+    "notes": "School claims Best School Award in State Science Fair 2008–09 and 2009–10. Section and championship scope unspecified. Treat as a lead for certificates and result books; do not promote to umbrella overall champion."
+  },
+  {
+    "id": "history-2009-programme-index",
+    "title": "Teacher download index: December 2009 Thrissur state fair programme and schedule",
+    "url": "https://vinodsanthipuram.blogspot.com/p/downloads_16.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "teacher_archive",
+    "document_date": null,
+    "notes": "Index entries dated 26 and 28 December 2009 link StateProgramnotice. pdf and StateMela-Program. pdf on old Google Sites. Both target downloads redirect to Google sign-in as checked on access date; programme contents were not obtained. Page itself distinguishes science fair at Thrissur from arts Kalolsavam at Kozhikode."
+  },
+  {
+    "id": "history-2009-judgment-reproduction",
+    "title": "Harikrishnan A.S. v State of Kerala: reproduced judgment referring to the December 2009 state fair",
+    "url": "https://www.legalindia.com/judgments/harikrishnan-a-s-vs-the-state-of-kerala-on-11-june-2010",
+    "accessed_on": "2026-10-31",
+    "source_type": "reproduced_court_document",
+    "document_date": "2010-06-11",
+    "notes": "W. P.(C) 37274/2009 judgment reproduction. Refers to Thrissur state fair from 28 December 2009; quotes another petition with scheduled range 28 December 2009–1 January 2010 at Model Higher Secondary School Girls, Thrissur. Original court PDF and full event programme not obtained. Used as historical schedule lead only, not current legal or appeal guidance."
+  },
+  {
+    "id": "history-2014-aeo-programme",
+    "title": "AEO Mattannur programme notice and inauguration-date change for Tirur state Sasthrolsavam",
+    "url": "https://aeomattannur.blogspot.com/2014/11/blog-post_77.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "education_office_archive",
+    "document_date": "2014-11-22",
+    "notes": "AEO office post states 26–30 November 2014 at Tirur; attributes inauguration move from 26 to 27 November at 10 am to DPI while registration remains on 26 November. Links a four-page official programme on Drive, successfully downloaded. Original education. kerala. gov. in announcement link returns 404."
+  },
+  {
+    "id": "history-2014-programme",
+    "title": "Kerala School Sasthrolsavam 2014–15: four-page Tirur programme",
+    "url": "https://drive.google.com/file/d/0ByHxAny24bZjMi1oaE5IWGotQ2c/view",
+    "accessed_on": "2026-10-31",
+    "source_type": "reproduced_event_document",
+    "document_date": null,
+    "notes": "Retrieved through AEO Mattannur link and Drive direct download. All four pages rendered and visually inspected. Cover says 26–30 November 2014, Tirur; page 2 gives registration 26 November 10:30 am, inauguration 27 November 10 am, closing 30 November 10:30 am; pages 2–3 give fair venues and competition schedules. Back cover identifies 48th Science, 34th Work Experience, 29th Maths, 18th Special School Work Experience, 13th IT, 10th Vocational Expo, ninth Social Science. PDF creation metadata 18 November 2014 is not asserted as issue date."
+  },
+  {
+    "id": "history-2019-prd-closure",
+    "title": "State School Sasthrolsavam 2019: Kozhikode overall champions, government closing report",
+    "url": "https://keralanews.gov.in/115/State-science-fest:-Kozhikode-district-overall-champions.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "government_news",
+    "document_date": "2019-11-06",
+    "notes": "Government I&PRD portal closing report; date corroborated by portal search index. Kozhikode and Palakkad both 1,374; first ranks 20 versus 19 determine winner; Kannur 1,366 third. BSS Gurukulam 141 first school, Dwaraka 132 second, Memunda 118 third. Direct conflict with current KITE archive overall winner and scores; cause unresolved. Report also lists stream and special-school results."
+  },
+  {
+    "id": "history-2019-prd-participation",
+    "title": "State fair 2019 closes with student experiments: government participation report",
+    "url": "https://keralanews.gov.in/109/Kerala-science-fest.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "government_news",
+    "document_date": "2019-11-05",
+    "notes": "Government I&PRD portal report; date corroborated by portal search index. Reports 5,134 students across 122 items: HS/HSS 4,145 and special-school sections including LP/UP 989. Item totals: 18 Science, nine Maths, 15 Social Science, 12 IT, 68 Work Experience. Preserve report-specific scope; not directly comparable to current catalogue counts."
+  },
+  {
+    "id": "history-2023-press-closure",
+    "title": "State Science Fair: Malappuram regains overall title, contemporary closing report",
+    "url": "https://www.samakalikamalayalam.com/news/kerala/malappuram-stands-first-in-state-science-fair-palakkad-is-at-the-second-position-193553.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_news",
+    "document_date": "2023-12-04",
+    "notes": "Reports Malappuram 1,442, Palakkad 1,350, Kannur 1,333; schools Durga 142, Fathima 138, Panangad 134. Conflicts with current KITE scores, third district and school runner-up. Introductory paragraph has an apparent 350 typo for Palakkad; detailed paragraph says 1,350. No organiser reconciliation obtained."
+  },
+  {
+    "id": "history-2012-souvenir-request",
+    "title": "January 2012 Palakkad fair: request for souvenir advertisements, not the completed souvenir",
+    "url": "https://web.archive.org/web/20120113062203id_/http://www.schoolsasthrolsavam.in:80/doc/souvenier.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_event_document",
+    "document_date": null,
+    "notes": "Two-page document on archived official site, captured 13 January 2012. Rendered and visually checked: request for advertisements for proposed souvenir, not a full souvenir/history. Does not support inaugural-year claim. Retained to document this unsuccessful archive lead."
+  },
+  {
+    "id": "history-2018-empty-overall-archive",
+    "title": "2018 official state overall-championship endpoint: archived empty result",
+    "url": "https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_endpoint",
+    "document_date": null,
+    "notes": "Actual retrieved body says Result Not Prepared. CDX also lists 1 September 2019 capture with identical digest. Not evidence of any champion; documents unsuccessful result recovery. HTTP 200 alone is insufficient."
+  },
+  {
+    "id": "history-2018-empty-school-archive",
+    "title": "2018 official state school-points endpoint: archived empty result",
+    "url": "https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_endpoint",
+    "document_date": null,
+    "notes": "Actual retrieved body contains PHP undefined-variable notices and Points are Not Ready. Not evidence of a school champion; documents unsuccessful archive lead."
+  },
+  {
+    "id": "history-2009-manual-department-archive",
+    "title": "2009 integrated science-fair manual: contemporaneous General Education Department website capture",
+    "url": "https://web.archive.org/web/20091127124352id_/http://www.education.kerala.gov.in:80/Science%20Fair%20Manual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "archived_government_document",
+    "document_date": "2009-10-22",
+    "notes": "Internet Archive capture dated 27 November 2009 of the original General Education Department website PDF. Successfully downloaded: 102 pages, 603,009 bytes, SHA-256 a71ecad73610c1e5261f9cb82cde8176d54a176fa8e2c5bc42d398227176c979. Identical to the official festival-site 2011 capture and WordPress mirror. Foreword dated 22 October 2009; printed pages 3–5 visually reviewed. Strengthens contemporaneous government provenance, but does not confirm the inaugural 1965–66 claim."
   }
 ]
