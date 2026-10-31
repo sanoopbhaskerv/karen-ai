@@ -131,6 +131,8 @@ Connect one verified button contact to **GPIO7**, the other to **GND**; the sele
 
 Reconnect USB and open the same monitor command if needed. Keep Window A running. Press and release the question button **once**. Wait for `[MIC] Recording. Speak now.`, ask one short Malayalam question during the five seconds, and wait for completion. Expect `[MIC] Complete` with `samples=80000/80000`, changing nonzero signal measurements, then `[HTTP] Result: ok`. A zero/very-low-signal or clipping warning needs investigation. Match the request ID with Window A. `spoken-error` means the backend failed even when it generated an apology MP3. The firmware produces digital playback even without an amplifier, so `[PLAY] Decoder finished` cannot prove audible output.
 
+Refresh **http://localhost:8080** on the laptop after the turn. The shared conversation shows the recognized question under **YOU** and the generated answer under **KAREN**. Check that it understood what he actually said; this makes the microphone test useful even without an amplifier.
+
 **Go:** the server successfully recognizes the spoken question and generates the response; no repeated resets or recording failures. No amplifier means no sound from the board yet. If a request fails, inspect the existing request/error before pressing again; a turn can take over two minutes during network recovery. Do not repeatedly press while waiting.
 
 ## 7. Add the amplifier and speaker when ready

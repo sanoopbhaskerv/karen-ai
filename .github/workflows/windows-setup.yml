@@ -38,7 +38,12 @@ jobs:
       - name: Verify official Windows Arduino CLI download without SDK
         shell: python
         run: |
+          from pathlib import Path
           import subprocess
+          import sys
+
+          # GitHub executes shell:python from a temporary script directory.
+          sys.path.insert(0, str(Path.cwd()))
           from scripts.bootstrap import ROOT, download_cli
 
           cli = download_cli(ROOT)
