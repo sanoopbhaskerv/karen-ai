@@ -12,7 +12,7 @@ The S3 build uses the advertised **16 MB flash / 8 MB octal PSRAM** configuratio
 
 Use the updated project folder from **main**. The repository is private, so use an authorized checkout or a source copy. Local `.env`, saved memory and WiFi configuration are deliberately absent from Git.
 
-Python **3.15** is supported by bootstrap and doctor; existing 3.15 users can keep it and use `py -3.15` in the manual commands below. For a new setup, install a current Python 3.14 Windows installer from the [official Python downloads](https://www.python.org/downloads/windows/). A working existing Python 3.12 virtual environment can stay as it is. In PowerShell, open the project folder (replace the example path):
+Python **3.15** is supported by bootstrap and doctor; existing 3.15 users can keep it and use `py -3.15` in the manual commands below. For a new setup, install a current Python 3.14 Windows installer from the [official Python downloads](https://www.python.org/downloads/windows/). If Python Install Manager is already installed, use `pymanager install 3.14` instead; use the full tag `3.14`, with no trailing dot. Follow the [bootstrap recovery commands](BOOTSTRAP.md#what-you-need-first) if doctor asks you to run setup first. A working existing Python 3.12 virtual environment can stay as it is. In PowerShell, open the project folder (replace the example path):
 
 ```powershell
 Set-Location C:\Projects\karen-ai

@@ -15,6 +15,16 @@ After setup, `doctor-windows.cmd --controller esp32_s3` checks software and repo
 - Keep internet available for Python packages. Optional board support needs **at least 8 GB free space** and a large download.
 - Use source files on each computer; do not copy another computer's `.venv` or Arduino tool folders.
 
+If `pymanager` already works but Python is missing, run these commands one at a time in PowerShell:
+
+```powershell
+pymanager install 3.14
+py -3.14 --version
+.\bootstrap-windows.cmd
+```
+
+Use the complete tag **`3.14`**. If `pymanager install 3.` reports **Failed to find a suitable install for '3.'**, rerun the first command above without the trailing dot. The signature-verification messages are successful checks; the failed version lookup is the problem. The [official Python Install Manager guide](https://docs.python.org/3/using/windows.html#installing-runtimes) explains runtime installation. Choose **1 — Computer chat only** first, wait for **SETUP COMPLETE**, then verify it with `.\bootstrap-windows.cmd --check`. Follow the finish-setup steps below before starting Karen. Use doctor after optional board-tool setup; it checks Arduino too and reports failures if those tools are missing.
+
 ### Run setup
 
 | Windows | Mac |
@@ -102,6 +112,16 @@ Fresh and repeated Mac setup, private-file preservation, native Mac startup/Flas
 - ആവശ്യമെങ്കിൽ **Python 3.14** ഒരിക്കൽ install ചെയ്യുക. നിലവിലുള്ള **Python 3.12–3.15** ഉപയോഗിക്കാം. Launcher അത് കണ്ടെത്തും. ഇല്ലെങ്കിൽ ഔദ്യോഗിക download link കാണിക്കും. Python, Homebrew, system drivers എന്നിവ ഈ kit സ്വയം install ചെയ്യുന്നില്ല.
 - Python packages download ചെയ്യാൻ ഇന്റർനെറ്റ് വേണം. Board tools കൂടി വേണമെങ്കിൽ **കുറഞ്ഞത് 8 GB free space** വേണം; download വലുതാണ്.
 - ഓരോ കമ്പ്യൂട്ടറിലും source files ഉപയോഗിച്ച് setup ചെയ്യുക. മറ്റൊരു കമ്പ്യൂട്ടറിന്റെ `.venv`, Arduino tools folders എന്നിവ പകർത്തരുത്.
+
+`pymanager` പ്രവർത്തിക്കുന്നുണ്ടെങ്കിലും Python ഇല്ലെങ്കിൽ PowerShell-ൽ ഓരോ command വീതം നൽകുക:
+
+```powershell
+pymanager install 3.14
+py -3.14 --version
+.\bootstrap-windows.cmd
+```
+
+Version tag മുഴുവനായി **`3.14`** നൽകുക. `pymanager install 3.` നൽകിയപ്പോൾ **Failed to find a suitable install for '3.'** വന്നെങ്കിൽ മുകളിലെ ആദ്യ command വീണ്ടും നൽകുക; അവസാനം dot ചേർക്കരുത്. Signature verification വിജയിച്ചെന്ന സന്ദേശം പ്രശ്നമല്ല; version tag ആണ് തിരുത്തേണ്ടത്. [Python Install Manager-ന്റെ ഔദ്യോഗിക ഗൈഡ്](https://docs.python.org/3/using/windows.html#installing-runtimes) കാണാം. ആദ്യം **1 — Computer chat only** തിരഞ്ഞെടുക്കുക. **SETUP COMPLETE** വന്നശേഷം `.\bootstrap-windows.cmd --check` നൽകി പരിശോധിക്കുക. Karen തുടങ്ങുന്നതിന് മുമ്പ് താഴെയുള്ള setup പൂർത്തിയാക്കാനുള്ള നിർദേശങ്ങൾ പാലിക്കുക. Optional board-tool setup കഴിഞ്ഞ് doctor ഉപയോഗിക്കുക; Arduino tools ഇല്ലെങ്കിൽ doctor failures കാണിക്കും.
 
 ### Setup തുടങ്ങുക
 
