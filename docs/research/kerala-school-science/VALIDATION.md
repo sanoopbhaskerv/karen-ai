@@ -6,12 +6,16 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 151 |
-| Distinct source URLs | 147 |
-| JSON files | 22 |
-| Concise English/Malayalam knowledge records | 69 |
-| Draft Malayalam evaluation questions | 49 |
-| Indexed exhibit records | 23 |
+| Source records | 166 |
+| Distinct source URLs | 162 |
+| JSON files | 23 |
+| Concise English/Malayalam knowledge records | 72 |
+| Draft Malayalam evaluation questions | 52 |
+| Indexed exhibit records | 31 |
+| NCERT discovery catalogues audited | 13 |
+| Kerala-school discovery rows | 105 |
+| Extended published model chapters | 8 |
+| Pages in those eight chapters | 33 |
 | General catalogue snapshots | 8 |
 | Catalogue observations across those snapshots | 1,835 |
 | Separate special-school catalogue records | 80 |
@@ -29,7 +33,7 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - Every result table's stored row count agrees with the extracted rows. All HTML data rows were accounted for, and the top five entries agree with independently retrieved landing-page summaries.
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
-- The eight added 2010–2017 NCERT catalogue hashes and PDF page counts match the cached originals; indexed source-page numbers stay within their books. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
+- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eight extended report chapters have valid full page ranges totalling 33 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
 
 ## Domain review
 
@@ -39,4 +43,4 @@ Independent reviews checked historical edition boundaries, source-specific champ
 
 Malayalam records remain marked for a teacher's language and educational review. They are a research/evaluation collection, not an approved model-training file. Runtime behaviour, live providers and physical hardware were not changed or exercised by this research; application tests are not evidence that the archive is historically complete.
 
-The initial research commit passed the repository's Windows setup CI. Publication of later additions is tracked by the pull request's checks. The unresolved work is listed in [COVERAGE.md](COVERAGE.md).
+The initial research commit passed the repository's Windows setup CI. Publication of later additions is tracked by the pull request's checks. Additional reviews checked all catalogue school-address columns/blocks, split rows and state-boundary exclusions; all 55 attribution blocks in the 2015–2017 model books; source proposals versus described construction; ambiguous output units; and the separate national pandemic chronology. Enlarged scans resolved the 2016 programme venue and confirmed the Drama code. The unresolved work is listed in [COVERAGE.md](COVERAGE.md).

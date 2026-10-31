@@ -591,5 +591,363 @@
     "method_tag": "solar water heating with reused tubes",
     "student_work_division_verified": false,
     "performance_independently_verified": false
+  },
+  {
+    "id": "case-2009-fishery-waste",
+    "year": 2009,
+    "title": "Useful Products from Fishery Waste",
+    "source_ids": [
+      "project-021"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 11,
+    "students_credited": [
+      "Jameil S. Kolliyil",
+      "Sabin Raj",
+      "Sharath T S",
+      "Jerin Joe"
+    ],
+    "teachers_credited": [
+      "Ajith S R"
+    ],
+    "school_as_published": "Kendriya Vidyalaya, Port Trust, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 45,
+    "printed_page": 37,
+    "chapter_pdf_pages_1based": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "chapter_printed_pages": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "chemical recovery",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "The report describes processing crustacean shells to remove proteins and minerals, then converting chitin to chitosan. A separate workflow cleans, enzyme-treats, dries and powders tuna bones.",
+    "evidence_limits": "No measured yields, purity analyses, comparative costs or independent validation are supplied. Listed food and medical uses are proposed applications, not demonstrated product safety or clinical findings."
+  },
+  {
+    "id": "case-2012-water-pump",
+    "year": 2012,
+    "title": "Water Pump System",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 7,
+    "students_credited": [
+      "Akshaj Prem"
+    ],
+    "teachers_credited": [
+      "Aneesh Kumar KP",
+      "Vinod Kumar K"
+    ],
+    "school_as_published": "Mambaram Higher Secondary School, Mambaram, Pinarayi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 35,
+    "printed_page": 26,
+    "chapter_pdf_pages_1based": [
+      35,
+      36,
+      37
+    ],
+    "chapter_printed_pages": [
+      26,
+      27,
+      28
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "float and relay feedback",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Two vertical side pipes carry floats and metal contacts. High or low water levels complete separate circuits, energising relays to shut the pumping valve; closed and open outlets simulate obstruction and leakage.",
+    "evidence_limits": "No calibrated pressure thresholds, response-time series or field leakage trials are reported.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-6",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Strong school/locality/problem correspondence, with a title-wording variation. The catalogue synopsis identifies pipeline leakage. No pupil names appear in the inspected catalogue row, so this is not a formal recovered author/code crosswalk."
+    }
+  },
+  {
+    "id": "case-2012-maglev",
+    "year": 2012,
+    "title": "Maglev Rail",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Nijin V. Joseph",
+      "M.S. Suman"
+    ],
+    "teachers_credited": [
+      "V.R. Anish",
+      "M.S. Preethi"
+    ],
+    "school_as_published": "S.N.V. Skt Higher Secondary School, North Paravoor, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 38,
+    "printed_page": 29,
+    "chapter_pdf_pages_1based": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "chapter_printed_pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "magnetic model and control circuits",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Permanent magnets support a guided model; toy-aircraft propellers provide thrust. Separate DVD-loader mechanisms operate doors; limit-switch signals advance a PIC 16F877A/LCD next-station display.",
+    "evidence_limits": "Commercial metro use and energy/cost savings are proposed. No load, stability or comparative power measurements, or firmware listing, are supplied. Broad statements about real maglev systems are source claims, not independently verified technical facts.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-4",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Exact title and strong school/locality correspondence; the report adds Skt and spells the place North Paravoor. No pupil names appear in the inspected catalogue row, so report exhibit_code remains null."
+    }
+  },
+  {
+    "id": "case-2012-safe-skyscraper",
+    "year": 2012,
+    "title": "Safe Sky Scraper",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 9,
+    "students_credited": [
+      "Akash Sudarsan",
+      "S.H. Aswin"
+    ],
+    "teachers_credited": [
+      "S.R. Sheeba"
+    ],
+    "school_as_published": "Government Higher Secondary School, Anchal East, Kollam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 44,
+    "printed_page": 35,
+    "chapter_pdf_pages_1based": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "chapter_printed_pages": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "proposed structural design",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Proposes a building model combining base isolation, a shear core, an internal lightning conductor, a porous exterior and a hydraulic lift. Figures show models; disaster resistance is asserted rather than established by measured tests.",
+    "evidence_limits": "No seismic, wind, lightning or flood test results, engineering certification or full-scale deployment are supplied. Do not describe it as disaster-proof. The text mixes roller-isolation and lead-rubber-bearing descriptions without validating their combined implementation.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-7",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Strong school/locality/design correspondence with a plural/spacing title variation. No pupil names appear in the inspected catalogue row, so report exhibit_code remains null."
+    }
+  },
+  {
+    "id": "case-2013-molten-salt-solar",
+    "year": 2013,
+    "title": "Molten Salt Solar Technology",
+    "source_ids": [
+      "project-025"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Rohith Krishnan MK"
+    ],
+    "teachers_credited": [
+      "Abraham Varghese",
+      "Tessy Lukose"
+    ],
+    "school_as_published": "St. Ephrem's Higher Secondary School, Kottayam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 36,
+    "printed_page": 27,
+    "chapter_pdf_pages_1based": [
+      36,
+      37,
+      38
+    ],
+    "chapter_printed_pages": [
+      27,
+      28,
+      29
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "conceptual solar-thermal storage model",
+    "method_summary": "Craft materials represent a proposed molten-salt solar plant and its process components.",
+    "evidence_limits": "No measured electricity generation. Source output figures use MV/day and GV; these are unverified and must not be silently relabelled as MW. Process and by-product claims require separate scientific verification.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-step-climbing-trolley",
+    "year": 2014,
+    "title": "Step Climbing Trolley",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 3,
+    "students_credited": [
+      "Abhijit Vargese"
+    ],
+    "teachers_credited": [
+      "Saji P.C."
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Palakkad, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 17,
+    "printed_page": 10,
+    "chapter_pdf_pages_1based": [
+      17,
+      18,
+      19
+    ],
+    "chapter_printed_pages": [
+      10,
+      11,
+      12
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "curved-arm mechanical trolley",
+    "method_summary": "Ball bearings arranged on a curved arm assist a trolley over steps.",
+    "evidence_limits": "Sensors and automatic deployment are explicitly proposed improvements. No load, pulling-force or durability measurements are supplied.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-intelligent-ambulance",
+    "year": 2014,
+    "title": "Intelligent Ambulance and Multipurpose Traffic Signal",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 15,
+    "students_credited": [
+      "Jaya Krishnan",
+      "Sooraj Tom",
+      "Neeraj Ramchandra",
+      "Nithin M. Thomas"
+    ],
+    "teachers_credited": [
+      "V. Ramdas"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Vadavathoor, Kottayam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 63,
+    "printed_page": 56,
+    "chapter_pdf_pages_1based": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "chapter_printed_pages": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "metal detector, relay and alarm model",
+    "method_summary": "A metal-detector input switches model signals through a relay; NE555 circuits support alerts.",
+    "evidence_limits": "No AI/code implementation, reliable vehicle identification, real police-control-room integration or measured traffic benefit is established. CCTV, firefighting and enforcement applications remain unvalidated.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-geothermal-plant",
+    "year": 2014,
+    "title": "Multipurpose Geothermal Plant",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 17,
+    "students_credited": [
+      "Pratheeksha Praveen",
+      "Zayana Ali"
+    ],
+    "teachers_credited": [
+      "Anitha Kumary C",
+      "Sajima Beegam M.P"
+    ],
+    "school_as_published": "Providence Higher School, Calicut, Nadakkavu, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 76,
+    "printed_page": 69,
+    "chapter_pdf_pages_1based": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "chapter_printed_pages": [
+      69,
+      70,
+      71,
+      72
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "geothermal process concept model",
+    "method_summary": "PVC, cardboard and similar materials illustrate a proposed geothermal plant and associated uses.",
+    "evidence_limits": "No actual geothermal drilling, electricity generation, hydrogen production or desalination is established. The report’s mixed decomposition/electrolysis description needs scientific clarification.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
   }
 ]

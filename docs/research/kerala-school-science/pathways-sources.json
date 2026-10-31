@@ -248,7 +248,9 @@
     "notes": "Undated 64-page scan. PDF page 62 was rendered, OCR-assisted and visually inspected in full. Y(1) seat includes state science/maths/social science fairs, SISF and Science Drama, and the former-name national exhibition. Administrative assignment does not establish current staffing, current eligibility or individual exhibit selection.",
     "download_sha256": "e82848dcbe704d167578c0a03cac58b27db190d8d678ae915f0b9a9d86a70fa7",
     "pdf_pages": 64,
-    "relevant_pdf_pages": [62]
+    "relevant_pdf_pages": [
+      62
+    ]
   },
   {
     "id": "pathways-27",
@@ -261,8 +263,37 @@
     "notes": "Full PDF downloaded and text-extracted. Complete text read on PDF pages 11, 43 and 102 (printed 10, 42 and 101); PDF page 43 visually inspected. Confirms 34th SISF at Thrissur, 27–31 January 2023, with Kerala DGE collaboration. The 169 schools, 240 participants, 169 projects and 7,500 visitors are event-wide counts, not Kerala-only. Does not supply a Kerala nomination or delegation list.",
     "download_sha256": "aafa418af4e6b84ad8dbc852fad938a07ee271991c1b7eb14bf0d8096900472a",
     "pdf_pages": 116,
-    "relevant_pdf_pages": [11, 43, 102],
+    "relevant_pdf_pages": [
+      11,
+      43,
+      102
+    ],
     "event_start_date": "2023-01-27",
     "event_end_date": "2023-01-31"
+  },
+  {
+    "id": "pathways-28",
+    "title": "NCERT Annual Report 2021–22: combined virtual JNNSMEE 2020/2021",
+    "url": "https://ncert.nic.in/pdf/annualreport/AnnualReport2021-22.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "source_date": null,
+    "edition_label": "2021–22",
+    "notes": "Complete 320-page report downloaded. Printed 176/PDF 188 read and visually checked: the 47th/48th national exhibitions labelled 2020/2021 were held together online on 8–11 February 2022. Separate 81/64 exhibit totals are national edition-wide figures, not Kerala participation. This does not establish the occurrence or cancellation of Kerala state fairs.",
+    "download_sha256": "ce7ca081e77971cd1166f8922e2fa115a701e8bff26a3e62c6dd387666d42554",
+    "download_bytes": 3488973,
+    "pdf_pages": 320,
+    "relevant_pdf_pages": [
+      188
+    ]
+  },
+  {
+    "id": "pathways-29",
+    "title": "Historical JNNSMEE 2020/2021 virtual exhibition portal (currently unavailable)",
+    "url": "http://jnnsmee.ncert.org.in/",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_historical_portal_not_retrieved",
+    "source_date": null,
+    "notes": "Linked by NCERT official archive for the 47th/48th national exhibitions and named in Annual Report 2021–22. Current browser request failed with HTTP 502 and direct lookup failed DNS; an Internet Archive CDX query returned HTTP 503. No archived exhibit contents or Kerala list retrieved. Portal failure does not establish that the virtual event did not occur; the institutional report confirms it."
   }
 ]

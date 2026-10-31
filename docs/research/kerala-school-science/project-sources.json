@@ -102,9 +102,10 @@
     "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2015.pdf",
     "accessed_on": "2026-10-31",
     "source_type": "official_model_reports",
-    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. Hosting-location references were not treated as school attribution.",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 19 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
     "download_sha256": "b7bc5072e8bbec30466c0eebca0681086ec5bc63f610a5413512342c86ca5507",
-    "pdf_pages": 87
+    "pdf_pages": 87,
+    "last_reviewed_on": "2026-11-01"
   },
   {
     "id": "project-011",
@@ -112,9 +113,10 @@
     "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2016.pdf",
     "accessed_on": "2026-10-31",
     "source_type": "official_model_reports",
-    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 20 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
     "download_sha256": "8aebe903e34898ff4323fa994aa19c73e046668996ad8256257f55211c1a327c",
-    "pdf_pages": 75
+    "pdf_pages": 75,
+    "last_reviewed_on": "2026-11-01"
   },
   {
     "id": "project-012",
@@ -122,9 +124,10 @@
     "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2017.pdf",
     "accessed_on": "2026-10-31",
     "source_type": "official_model_reports",
-    "notes": "Full PDF downloaded and text-extracted for Kerala-school discovery; no confident Kerala case identified in this pass. No case indexed.",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 16 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
     "download_sha256": "970308fd17341088cf7b525b8bec0a413232346787228a2fa0633d73a599c8b1",
-    "pdf_pages": 56
+    "pdf_pages": 56,
+    "last_reviewed_on": "2026-11-01"
   },
   {
     "id": "project-013",
@@ -213,5 +216,78 @@
     "source_date": "2014-11",
     "download_sha256": "9373ee17af5fa948d57ac390ce613f86b4f0d0650d05d643482a6de23c490500",
     "pdf_pages": 125
+  },
+  {
+    "id": "project-021",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2009",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2009.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2009-11",
+    "notes": "Complete 87-page file downloaded; chapter-attribution audit found one Kerala report, chapter 11. Complete report PDF45–48 was read and visually checked. Publication statement November 2009/PDF4; embedded later file-edit timestamps do not change that publication date. Institutional edited model write-up, not an independently verified experiment or a prize list.",
+    "download_sha256": "395205bc3071cdda25b6028a6fc3391021155c3883c61b23e25db8a107868c25",
+    "download_bytes": 30260587,
+    "pdf_pages": 87,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-022",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2010",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2010.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2010-11",
+    "notes": "The received file has only 14 PDF pages, with front/back matter and nonconsecutive printed content (including42,43,45,49); it is incomplete relative to its contents list. Complete received file inspected, but it cannot establish whole-book absence of Kerala entries. Publication statement November 2010/PDF4. No case indexed from this partial file.",
+    "download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
+    "download_bytes": 27932804,
+    "pdf_pages": 14,
+    "received_file_complete": false
+  },
+  {
+    "id": "project-023",
+    "title": "NCERT: Structure and Working, 2011 archive link (not retrieved)",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2011.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_archive_link_not_retrieved",
+    "notes": "Official archive links this Patna 2011 book. Standard TLS-verified curl requests twice failed with connection reset, and browser tooling could not retrieve it. No source contents, Kerala-case count or publication-date claim is made. The link is an unresolved acquisition lead, not evidence of nonpublication or nonparticipation."
+  },
+  {
+    "id": "project-024",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2012",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2012.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2012-12",
+    "notes": "Complete 94-page file downloaded. All chapter-attribution starts audited, including Hindi sections; three Kerala reports located. Complete chapters PDF35–37,38–43,44–47 read and attribution/method pages visually checked. December 2012 edition statement; preface dated November 2012. Credited edited write-ups do not establish award scope, qualifying route, measured performance or individual construction work.",
+    "download_sha256": "56b6a6f422471266617bc461e2e9a5f778fbf8997e363837b7b4e273593aeda3",
+    "download_bytes": 8889590,
+    "pdf_pages": 94,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-025",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2013",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2013.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2013-11",
+    "notes": "Complete 86-page file downloaded and text-extracted; all 20 attribution blocks checked, including Hindi chapters. One Kerala chapter, PDF36–38 (printed27–29), read in full and visually checked. November 2013 edition. The solar plant is a craft-material concept model. Original MV/day and GV output wording is not converted into validated power figures; scientific descriptions and claimed applications require separate verification.",
+    "download_sha256": "cbd53775904f485aab476ffbc874a393eee18e78b3d2bc834bd306e7f7cb6354",
+    "download_bytes": 16365696,
+    "pdf_pages": 86,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-026",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2014",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2014.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2014-11",
+    "notes": "Complete 90-page file downloaded and text-extracted; all 20 attribution blocks checked, including Hindi chapters. Three Kerala chapters PDF17–19,63–68,76–79 read in full and attribution/method pages visually checked. November 2014 edition. Preserve mechanical/circuit models versus proposed automation, traffic integration and industrial plant uses. No field validation, energy-output tests or construction-work division verified.",
+    "download_sha256": "4627eb6d87e49a2668247e057896d08b5a59cf462360af8703b6e397a26ca22e",
+    "download_bytes": 11124404,
+    "pdf_pages": 90,
+    "received_file_complete": true
   }
 ]

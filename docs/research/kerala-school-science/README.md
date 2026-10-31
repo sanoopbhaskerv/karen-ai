@@ -18,6 +18,8 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Rule changes](RULE_CHANGES.md) | Original manuals, amendments and differences between rules and catalogue views |
 | [Regional and national pathways](PATHWAYS.md) | SISF, NCERT exhibitions, INSPIRE MANAK, NCSC, CBSE and other distinct programmes |
 | [Documented exhibit case studies](PROJECTS.md) | Published Kerala-school project mechanisms, credits, source pages and award scope |
+| [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
+| [Extended model write-ups](MODEL_REPORTS.md) | Eight credited chapters with construction details, diagrams, proposed features and evidence limits |
 | [Portals and adjacent exhibitions](ACCESS.md) | Registration, result navigation, district links, special-school provision, Vocational Expo, missing downloads and source limitations |
 | [Karen's entry and preparation](KAREN_ENTRY.md) | Science Working Model requirements, scoring, two-pupil entry and practical preparation |
 | [Coverage and evidence gaps](COVERAGE.md) | Investigated topics, unresolved questions, and the records that would fill them |
@@ -29,7 +31,8 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 - [Catalogue snapshot index](ACCESS.md#item-catalogue-snapshots): eight factual catalogues from 2019 and 2022–26, including subdistrict lists with LP entries and the differing state-page views. These are **not eligibility lists for every competition level**. In particular, UP catalogue rows do not establish student eligibility at state level.
 - [Overall result data](result-snapshots.json): ten dated source snapshots containing 6,379 district and school score rows. Read the championship conflicts in the history guide before interpreting them as final results.
 - [Catalogue differences](catalogue-changes.json): literal differences between the same subdistrict view in successive captured editions. These do not, by themselves, establish a rule change.
-- [Project index](project-index.json): 23 attributed exhibit records, including 20 with published method information and three with award information only. School location does not establish a Kerala Sasthrolsavam qualifying route.
+- [Project index](project-index.json): 31 attributed exhibit records, including 28 with published method information and three with award information only. School location does not establish a Kerala Sasthrolsavam qualifying route.
+- [National exhibit discovery](ncert-kerala-exhibit-discovery.json): 105 factual catalogue rows, separate from the selected method cases. These counts overlap and must not be added as a total of unique exhibits.
 - [Special-school item catalogue](special-school-items.json): a separate work-experience catalogue. Its rules must not be transferred to the general Science fair.
 - [District result index](districts.json): official district URLs and portal identifiers.
 - [Source register](sources.json): cited sources, document dates when established, access dates, authority and limitations. The topic source files preserve additional research notes.

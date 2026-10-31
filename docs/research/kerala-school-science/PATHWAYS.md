@@ -93,6 +93,12 @@ The circular uses the same seven broad areas as the NCERT August notification. A
 
 Source: [CBSE circular, PDF pages 1–4 and registration annexure](https://cbseacademic.nic.in/web_material/Circulars/2026/69_Circular_2026.pdf). The [CBSE microsite](https://academic.cbseit.in/science_ex/) gives the regional-to-national workflow; its generic registration-month banner is less precise than the dated circular.
 
+## National exhibitions during the pandemic years
+
+NCERT's **Annual Report 2021–22**, printed page 176 / PDF page 188, records that the **47th and 48th national exhibitions, labelled 2020 and 2021, were held together online on 8–11 February 2022**. It gives 81 exhibits for the 2020 edition and 64 for 2021, with 137 and 96 contributing pupils respectively. These are national edition-wide figures, not Kerala delegation counts. [NCERT annual report](https://ncert.nic.in/pdf/annualreport/AnnualReport2021-22.pdf#page=188)
+
+The report and NCERT's archive link the historical `jnnsmee.ncert.org.in` portal. Its current address could not be retrieved during this pass; an archive query also failed. No Kerala-specific online exhibit list or video was recovered. This access failure does not negate the institutional account of the virtual event. The national record also does not settle the separate cancellation or local activity of Kerala's state-series events in 2020–21.
+
 ## INSPIRE-MANAK
 
 The live official programme page describes a DST/NIF route beginning with original, socially useful technological ideas. It currently allows classes **6–12**, five school nominations, and at most two ideas from science-stream classes 11/12 within that total. Selected students receive ₹10,000 through DBT. The stated national selection funnel is 100,000 initial awards, 10,000 state-stage ideas, 1,000 national exhibits and 60 leading innovations. Novelty, usefulness, environmental impact, ease of use and advantage over existing approaches inform selection. These are programme targets, not Kerala participation totals. [INSPIRE programme page](https://www.inspireawards-dst.gov.in/UserP/Award.aspx)

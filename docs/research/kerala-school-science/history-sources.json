@@ -488,5 +488,77 @@
     "sha256": "5cef211b0ad1fa6ba83a83720cbb8818242d747ccfcf047bfe5a3e7aecb35bed",
     "bytes": 7904774,
     "notes": "Government-hosted scan, 244 PDF pages with no embedded text. Title PDF2 states Government Press Trivandrum 1964; introduction PDF4 identifies Bureau of Economics and Statistics preparation. Rendered contents/title and selected education pages PDF200–207; read OCR-assisted text. This inspected section did not establish a science-fair inauguration. It is an investigated search lead, not evidence that school fairs were absent; the separate 1962–63 fair report supplies direct regional evidence."
+  },
+  {
+    "id": "history-2015-science-drama-result",
+    "title": "State HS Science Drama 2015: archived official item-result PDF",
+    "url": "https://web.archive.org/web/20151123023042id_/http://schoolsasthrolsavam.in:80/2015/total_points.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result",
+    "document_date": "2015-10-31",
+    "page_count": 1,
+    "bytes": 18623,
+    "sha256": "74d7408241b93e97a1b5b53d5f9b848fb6c1e841db100b1ef0659902b5607903",
+    "notes": "Archived official festival URL captured 23 November 2015. One-page report rendered and visually checked; header state, Kollam, event 30 October 2015; generated 31 October 2015 at 06:52 am. All Results is scoped to HS item 124 Science Drama, with 24 listed rows. Misleading total_points.pdf filename must not be used to claim full overall totals. Entries are not complete team rosters; no total pupil count or revision/finality claim inferred. No individual-student table transcribed into repository."
+  },
+  {
+    "id": "history-2016-science-drama-result",
+    "title": "State HS Science Drama 2016: archived official item-result PDF",
+    "url": "https://web.archive.org/web/20161119015054id_/http://schoolsasthrolsavam.in:80/2016/science_drama_result.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result",
+    "document_date": "2016-10-27",
+    "page_count": 1,
+    "bytes": 14688,
+    "sha256": "1b7d36d42083f926edb295e6473c574eddb07e508e8e099fb52ba11e65e1559e",
+    "notes": "Archived official festival URL captured 19 November 2016. One-page report rendered and visually checked; header state Science Drama, Palakkad, event 26 October 2016; generated 27 October 2016 at 09:44 am. All Results scoped to HS item 124 Science Drama, 24 listed rows. Separate October phase, not the November overall festival championship. No later appeal/revision evidence obtained. No individual-student table transcribed into repository."
+  },
+  {
+    "id": "history-2016-programme-scan",
+    "title": "Shoranur 2016–17 state Sasthrolsavam programme: two-page reproduced scan",
+    "url": "https://www.mediafire.com/file/7a3jow8r3a52pxm/hsslive-State-sasthrolsavam-programme-schedule.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "reproduced_event_document",
+    "document_date": null,
+    "page_count": 2,
+    "bytes": 264697,
+    "sha256": "51ef1d18535b8009d5a462a89261dd40e9d8539a8fe39361c269b9322df72658",
+    "notes": "Official-looking programme-committee scan on non-government MediaFire mirror, discovered through SimonMash download index. Both pages visually inspected. Header 23–27 November 2016, Shoranur; names Girish Kumar K, convener, and V K Sreekandan, chairman. Page 1: Science Theresa's HSS Shoranur (Malayalam venue line, checked against enlarged scan), Maths SN Trust HSS, Social Science Vadanamkurussi HSS/HS/LP/BRC, Work Experience TRK HSS Vaniyamkulam. Page 2: IT St Theresa High School Shoranur and 25–27 November timetable. Original issuing URL, issue date and independent original-copy authentication not obtained; corroborates existing committee notice. Treat as scheduled programme. Stable permalink directly returned PDF to curl; browser download timed out. PDF contains only CamScanner text layer; claims checked visually rather than through failed text search."
+  },
+  {
+    "id": "history-2016-programme-mirror-index",
+    "title": "SimonMash download index linking the recovered 2016–17 state programme",
+    "url": "https://www.simonmash.com/p/the-kerala-state-school-sasthrolsavam.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "teacher_archive",
+    "document_date": null,
+    "notes": "Download index explicitly labels the MediaFire link State Sasthramela Programme Schedule 2016–17. Used to document provenance of the recovered two-page scan; not itself independent proof of official publication or completion. Other historical rule links were discovery leads only in this follow-up."
+  },
+  {
+    "id": "history-2016-nie-closure",
+    "title": "Palakkad team lifts Sasthrolsavom trophy in Kerala: contemporary 2016 closing report",
+    "url": "https://www.newindianexpress.com/states/kerala/2016/Nov/28/palakkad-team-lifts-sasthrolsavom-trophy-in-kerala-1543320.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "secondary_news",
+    "document_date": "2016-11-28",
+    "notes": "Contemporary NIE closing report says event concluded Sunday in Shoranur: overall Palakkad 48,229, Kasaragod 47,097, Malappuram 45,608. Science Fair Kannur 180, Thrissur 162, Malappuram 157. Results are secondary reporting, not certified consolidated final statement. Preserve historical scoring units; do not directly compare these overall totals to modern 1,300–1,500 scale. No inference that statewide overall and Science Fair winner are the same."
+  },
+  {
+    "id": "history-2016-empty-school-points-archive",
+    "title": "2016 official state school-points endpoint: archived error and unprepared table",
+    "url": "https://web.archive.org/web/20161128000132id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state16/index.php/publishresult/resultindex/schoolpoints",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_empty_result_endpoint",
+    "document_date": null,
+    "notes": "Capture dated 28 November 2016. Retrieved body contains PHP undefined-variable schools notices and Try later Points are Not Ready. No usable point table or champion identified. Investigated access/data failure only, not evidence for final result, cancellation, or why data is unavailable."
+  },
+  {
+    "id": "history-2018-school-section-report",
+    "title": "Contemporary 2018 report of Muslim Girls School Erattupetta subject/section achievements",
+    "url": "https://www.madhyamam.com/local-news/kottayam/575726",
+    "accessed_on": "2026-11-01",
+    "source_type": "secondary_news",
+    "document_date": "2018-11-28",
+    "notes": "Opened full contemporary report, published and updated 28 November 2018 at 10:31 IST. Reports school fourth in HSS Mathematics and A grade for HS Science Still Model, among other item achievements. No full district/school-overall championship totals or Science-stream champion supplied. Subject/section placing must not be promoted to festival-wide rank; individual pupil names not transcribed."
   }
 ]

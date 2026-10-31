@@ -33,6 +33,8 @@ This is **not evidence of the first-ever manual or the first Science Fair**: cha
 
 NCERT’s *Four Decades of National Science Exhibition for Children*, first edition **September 2012**, identifies **Kochi in 1991** among national-exhibition host cities. Printed page 4 / PDF page 12 also records the first NCERT/UGC national exhibition in New Delhi in December 1971. This establishes Kerala hosting a **national** edition; it does not date Kerala’s state-series inauguration. Exact Kochi dates and its school/building venue are not supplied by that host table. The foreword is dated September 2011, a different date from the edition statement. [NCERT monograph, host table](https://ncert.nic.in/desm/pdf/4decadepdf.pdf#page=12)
 
+NCERT also records the national editions labelled **2020 and 2021** as a combined online event on **8–11 February 2022**. That national chronology is separate from the reported two-year gap in Kerala's state festival; original state cancellation orders remain missing. [NCERT Annual Report 2021–22, printed 176 / PDF 188](https://ncert.nic.in/pdf/annualreport/AnnualReport2021-22.pdf#page=188)
+
 ## State edition chronology
 
 “Not established” means the available material does not substantiate the field. It does not mean the event did not occur. Dates from a programme or advance notice remain scheduled dates unless completion reporting corroborates them.
@@ -48,7 +50,7 @@ NCERT’s *Four Decades of National Science Exhibition for Children*, first edit
 | 2013–14 | 25–29 November 2013, Kannur schools; Science and IT at Chovva HSS | 47th Science Fair in teachers' association notice; final championship not established | [Kerala Botany Teachers Association archive](https://kbtaclt.blogspot.com/2013/) |
 | 2014–15 | **26–30 November 2014**, Tirur, Malappuram; registration 26 November; inauguration 27 November at 10 am | Four-page reproduced official programme verified visually. Science Fair identified as 48th. Signed final results still needed | [AEO Mattannur notice](https://aeomattannur.blogspot.com/2014/11/blog-post_77.html), [Programme PDF](https://drive.google.com/file/d/0ByHxAny24bZjMi1oaE5IWGotQ2c/view) |
 | 2015–16 | 24–28 November 2015, Kollam, in AEO notice | Kannur overall winner with 44,684 points as reported by Janmabhumi; Kozhikode second 44,180 and Thrissur third 43,327. Preserve the historical scoring system | [Madayi AEO archive](https://aeomadayiknr.blogspot.com/2015/), [29 November closure report](https://janmabhumi.in/2015/11/29/2659545/news/kerala/news352324/) |
-| 2016–17 | 23–27 November 2016, Shoranur, Palakkad, in programme-committee notice | Final overall championship not established; do not use live interim tables as finals | [Programme committee notice](https://jillasasthrolsavamksd.blogspot.com/2016/11/state-sasthrolsavam-website-home.html) |
+| 2016–17 | **23–27 November 2016**, Shoranur, Palakkad; a recovered programme scan corroborates the programme-committee notice | Contemporary NIE closing report: Palakkad overall 48,229, Kasaragod 47,097, Malappuram 45,608; Kannur won the Science Fair with 180. These are secondary-reported outcomes; certified consolidated final results remain missing | [Programme committee notice](https://jillasasthrolsavamksd.blogspot.com/2016/11/state-sasthrolsavam-website-home.html), [Programme scan on MediaFire](https://www.mediafire.com/file/7a3jow8r3a52pxm/hsslive-State-sasthrolsavam-programme-schedule.pdf), [28 November closing report](https://www.newindianexpress.com/states/kerala/2016/Nov/28/palakkad-team-lifts-sasthrolsavom-trophy-in-kerala-1543320.html) |
 | 2017–18 | 23–26 November 2017, Kozhikode; closing function at Malabar Christian College ground | Palakkad overall winner with 46,586 points; Malappuram second 46,359 and Kozhikode third 46,352, according to TOI; over 6,800 students reported | [Preview](https://www.malayalivartha.com/news/kerala/77396), [Closing report](https://timesofindia.indiatimes.com/city/kozhikode/kerala-state-school-science-fair-palakkad-wins-overall-championship/articleshow/61808880.cms) |
 | 2018–19 | Reproduced programme lists competitions on **23, 24 and 25 November 2018**, Kannur | Final overall championship not established. Some event aggregators say only 24–25; that omits quizzes listed on the 23rd in the programme | [Programme image, hosted by KPSTA](https://kpsta.in/uploads/order_circular/Sasthramela_Programme_Notice.jpg) |
 | 2019–20 | 3–5 November 2019, Kunnamkulam, Thrissur, according to contemporary reporting | Government closing report names Kozhikode champion after a 1,374-point tie with Palakkad; current KITE table places Palakkad first with 1,366. **Winner and score conflict; see below** | [Contemporary report](https://www.newindianexpress.com/states/kerala/2019/nov/05/malappuram-leads-in-kerala-state-science-fair-2057086.html), [Government closing report](https://keralanews.gov.in/115/State-science-fest:-Kozhikode-district-overall-champions.html), [KITE archive](https://mela.kite.kerala.gov.in/2019/state/result/Public_result) |
@@ -67,6 +69,19 @@ C. K. Biju's first-person professional profile places his state Science Fair par
 KTCT Higher Secondary School's own history claims a Best School Award at the State Science Fair in **2008–09 and 2009–10**. It does not identify the section or scoring scope. This supports seeking the school's certificates and the corresponding result books; it does not establish the umbrella festival's overall school champion. [School history](https://ktcthss.com/about-us)
 
 The December 2009 teachers' download index links a Thrissur state programme dated 26 December and competition schedule dated 28 December, but both Google Sites PDF links now redirect to sign-in. A reproduced 11 June 2010 Kerala High Court judgment, W.P.(C) 37274/2009, refers to the state fair at Thrissur from 28 December 2009; a quoted petition gives a scheduled range of **28 December 2009–1 January 2010**, at Model Higher Secondary School Girls, Thrissur. This quoted schedule remains a lead pending the actual programme or original court PDF; it is not independent evidence that every scheduled day occurred. [Contemporary download index](https://vinodsanthipuram.blogspot.com/p/downloads_16.html), [Judgment reproduced by Legal India](https://www.legalindia.com/judgments/harikrishnan-a-s-vs-the-state-of-kerala-on-11-june-2010)
+
+## Recovered 2016 programme scan and earlier Drama phases
+
+A two-page [programme scan](https://www.mediafire.com/file/7a3jow8r3a52pxm/hsslive-State-sasthrolsavam-programme-schedule.pdf), discovered through [SimonMash’s download index](https://www.simonmash.com/p/the-kerala-state-school-sasthrolsavam.html), corroborates the **23–27 November 2016** Shoranur schedule. It names programme-committee convener Girish Kumar K. and chairman V. K. Sreekandan. This is an **official-looking programme-committee document reproduced on a non-government mirror**; its original issuing URL and issue date have not been recovered. Both scanned pages were visually checked. Page 1 gives Science, Mathematics, Social Science and Work Experience venues; page 2 supplies the IT timetable. These are scheduled allocations, not completion records.
+
+Two one-page item-result PDFs survive on archived **official festival URLs**. Each labels itself state level and HS **Science Drama, item 124**. They establish an October Drama phase separately from the later November festival programme:
+
+| Report | Event date and place stated in header | Report generation time | Scope |
+| --- | --- | --- | --- |
+| [2015 PDF, page 1](https://web.archive.org/web/20151123023042id_/http://schoolsasthrolsavam.in:80/2015/total_points.pdf) | **30 October 2015**, Kollam | 31 October 2015, 6:52 am | 24 listed rows for Science Drama; despite its filename, this is not a festival-wide total-points statement |
+| [2016 PDF, page 1](https://web.archive.org/web/20161119015054id_/http://schoolsasthrolsavam.in:80/2016/science_drama_result.pdf) | **26 October 2016**, Palakkad | 27 October 2016, 9:44 am | 24 listed rows for Science Drama, not overall district or school champions |
+
+The listed row count must not be converted into a total pupil count: the sheets do not enumerate complete Drama teams. They also do not establish whether later appeals or revisions changed these item results. File hashes and capture dates are retained in the source register.
 
 ## Historical venue detail
 
@@ -95,6 +110,11 @@ These allocations explain the multi-school festival format. They are historical 
 | November 2014 | Social Science | Government HSS, Niramarathur |
 | November 2014 | Work Experience | KHM HSS, Alathiyur |
 | November 2014 | IT | SSM Polytechnic College |
+| November 2016 | Science | Theresa's Higher Secondary School, Shoranur; programme scan page 1 (Malayalam venue line) |
+| November 2016 | Mathematics | S. N. Trust HSS, Shoranur; programme scan page 1 |
+| November 2016 | Social Science | Vadanamkurussi HSS, HS, LP and BRC; programme scan page 1 |
+| November 2016 | Work Experience | T. R. K. HSS, Vaniyamkulam; programme scan page 1 |
+| November 2016 | IT | St Theresa’s High School, Shoranur; programme scan page 2 |
 | November 2018 | Science | St Teresa's HSS, Burnassery, Kannur |
 | November 2018 | Social Science | Chovva HSS, Melechovva |
 | November 2018 | Mathematics and IT | CHM HSS, Elayavoor |
@@ -106,7 +126,7 @@ These allocations explain the multi-school festival format. They are historical 
 | November–December 2023 | Work Experience | St Mary's HSS, Pattom |
 | November–December 2023 | Vocational Expo and Career Fest | Government V and HSS, Manacaud |
 
-Sources: [2011 announcement](https://kpstakasaragod.blogspot.com/2011/01/state-school-science-fair-at-aluva-t-he.html), [January 2012 mathematics programme](https://itteacherhelp.wordpress.com/wp-content/uploads/2011/08/state-maths-fair-schedule-2011-2012.pdf), [November 2012 report](https://malayalam.oneindia.com/news/2012/11/26/kerala-kerala-school-sasthramela-kozhikode-106180.html), [2013 teachers' notice](https://kbtaclt.blogspot.com/2013/), [2014 report](https://www.thiruvananthapuramfirst.in/?p=2032), [2014 programme PDF](https://drive.google.com/file/d/0ByHxAny24bZjMi1oaE5IWGotQ2c/view), [2018 programme image](https://kpsta.in/uploads/order_circular/Sasthramela_Programme_Notice.jpg), [2023 report](https://www.madhyamam.com/kerala/state-school-science-fair-logo-released-1226691).
+Sources: [2011 announcement](https://kpstakasaragod.blogspot.com/2011/01/state-school-science-fair-at-aluva-t-he.html), [January 2012 mathematics programme](https://itteacherhelp.wordpress.com/wp-content/uploads/2011/08/state-maths-fair-schedule-2011-2012.pdf), [November 2012 report](https://malayalam.oneindia.com/news/2012/11/26/kerala-kerala-school-sasthramela-kozhikode-106180.html), [2013 teachers' notice](https://kbtaclt.blogspot.com/2013/), [2014 report](https://www.thiruvananthapuramfirst.in/?p=2032), [2014 programme PDF](https://drive.google.com/file/d/0ByHxAny24bZjMi1oaE5IWGotQ2c/view), [2016 programme scan](https://www.mediafire.com/file/7a3jow8r3a52pxm/hsslive-State-sasthrolsavam-programme-schedule.pdf), [2018 programme image](https://kpsta.in/uploads/order_circular/Sasthramela_Programme_Notice.jpg), [2023 report](https://www.madhyamam.com/kerala/state-school-science-fair-logo-released-1226691).
 
 ## Result conflicts requiring preservation
 
@@ -148,7 +168,7 @@ The PRD closing release explains the second/third ordering: Palakkad and Kannur 
 
 ### Historical totals are not comparable on one scale
 
-The 2015 and 2017 newspaper reports give overall totals in the tens of thousands. Later KITE pages give totals around 1,300–1,500. Preserve the units, scope and original wording; do not interpret a lower later number as a decline in participation or performance. A historical scoring-method series has not been established. [2015 report](https://janmabhumi.in/2015/11/29/2659545/news/kerala/news352324/), [2017 report](https://timesofindia.indiatimes.com/city/kozhikode/kerala-state-school-science-fair-palakkad-wins-overall-championship/articleshow/61808880.cms)
+The 2015, 2016 and 2017 newspaper reports give overall totals in the tens of thousands. Later KITE pages give totals around 1,300–1,500. Preserve the units, scope and original wording; do not interpret a lower later number as a decline in participation or performance. A historical scoring-method series has not been established. [2015 report](https://janmabhumi.in/2015/11/29/2659545/news/kerala/news352324/), [2016 report](https://www.newindianexpress.com/states/kerala/2016/Nov/28/palakkad-team-lifts-sasthrolsavom-trophy-in-kerala-1543320.html), [2017 report](https://timesofindia.indiatimes.com/city/kozhikode/kerala-state-school-science-fair-palakkad-wins-overall-championship/articleshow/61808880.cms)
 
 ## Digital archive development
 
@@ -163,7 +183,10 @@ Accessible state-result landing pages were verified for [2019](https://mela.kite
 - Searches for a primary account of the reported **1965–66 statewide-series start**, including government education, State Planning Board and school-fair archives, have not yet produced a contemporaneous inaugural programme or order. The recovered 1962–63 report establishes earlier regional school fairs, while the 2009 manual documents integration. Neither establishes the statewide inaugural year.
 - The government-hosted *Kerala 1963: An Economic Review*, printed in 1964, was checked through selected scanned education pages (PDF 200–207). Those pages did not establish a science-fair inauguration; this limited search is not evidence of absence. [Economic Review scan](https://spb.kerala.gov.in/sites/default/files/inline-files/1963.pdf#page=200)
 - The official site's January 2012 file named `souvenier.pdf` was recovered from the Internet Archive, but it is a **two-page request for souvenir advertising**, not the completed souvenir or a history book. It cannot confirm the origin claim. [Archived file](https://web.archive.org/web/20120113062203id_/http://www.schoolsasthrolsavam.in:80/doc/souvenier.pdf)
+- A newly checked [28 November 2016 archived school-points endpoint](https://web.archive.org/web/20161128000132id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state16/index.php/publishresult/resultindex/schoolpoints) returns PHP notices and **Points are Not Ready**, not a usable table. It cannot certify the overall result or explain the missing data. The contemporary 2016 closing report remains secondary evidence.
 - The recovered 27 November 2018 official overall-championship page says **Result Not Prepared**; the corresponding school-points page says **Points are Not Ready**. An HTTP 200 response or a page labelled “overall champions” does not establish a result. A usable 2018 closing report or signed result book remains missing. [Archived district page](https://web.archive.org/web/20181127181845id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/dist_overallchampions), [Archived school page](https://web.archive.org/web/20181127181855id_/http://schoolsasthrolsavam.in:80/sasthrolsavam-state18/index.php/publishresult/resultindex/schoolpoints)
+
+A [contemporary school-achievement report dated 28 November 2018](https://www.madhyamam.com/local-news/kottayam/575726) gives Muslim Girls School, Erattupetta, fourth place in **HSS Mathematics**, plus an **HS Science Still Model A grade**. These limited subject/section achievements do not establish the overall school, district or Science Fair champion and do not resolve the missing final result book.
 
 ## Records that would close the major history gaps
 

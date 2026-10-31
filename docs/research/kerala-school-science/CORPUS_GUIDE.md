@@ -4,7 +4,7 @@ This collection supplies evidence for answers, rather than a model trained to re
 
 ## Files and provenance
 
-The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows, the project index records selected exhibit provenance, and the result snapshots preserve observed overall score tables. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability.
+The topic guides are readable research summaries. The JSON catalogues contain source-backed factual rows, the project index records selected exhibit provenance, and the result snapshots preserve observed overall score tables. `knowledge.jsonl` contains concise claims with stable source identifiers and validity notes; `sources.json` resolves those identifiers to the official or historical source. The topic-specific source registers retain notes about acquisition and reliability. The national discovery index supplies 105 title/code/school/page records; the case index supplies selected method explanations, including eight extended edited write-ups. These collections overlap and serve different evidence purposes.
 
 Each source has an access date. Where known, a separate document date is retained. A URL containing 2026 is not sufficient evidence that the linked document was written in 2026: the portal currently serves a 2025 competition manual and a software guide bearing a 2022–23 filename. Likewise, a press page's upload date can differ from the event and the release's internal date.
 
@@ -40,6 +40,9 @@ These are proposed integration behaviours. No retrieval service, embedding index
 | A school used a cloud AI service | Explain the documented dependency. It does not mean the student trained the foundation model or that the full system runs on the microcontroller. |
 | A report documents a regional fair before 1965 | Describe its place, date and regional scope. It does not establish the statewide series' inaugural year or continuity. |
 | Kochi appears in NCERT's 1991 host table | Identify the national exhibition series; do not relabel it as Kerala's first state fair. |
+| A model report proposes automatic control or a full-scale plant | Separate described construction from proposed applications and measured results. Publication does not validate every scientific claim. |
+| A source prints unexplained output units | Retain the source wording and uncertainty; do not invent a correction or relabel it as a validated performance result. |
+| The national editions are labelled 2020 and 2021 | Retain their actual combined virtual-event dates in February 2022; do not infer Kerala state-festival activity from them. |
 
 ## Review before any fine-tuning
 
