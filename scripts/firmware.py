@@ -4,12 +4,15 @@ KAREN_CONTROLLER comes from shell > .env.local > .env > esp32.
 Normal builds use example credentials. --upload requires a real config.h and port.
 """
 import argparse
+from datetime import datetime, timezone
 import os
 from pathlib import Path
 import re
 import shutil
 import subprocess
 import tempfile
+import threading
+import time
 
 from dotenv import dotenv_values
 if __package__:
@@ -73,10 +76,48 @@ def redact_output(output, config, settings):
     return output
 
 
-def run_tool(command, config, settings, timeout, env=None):
-    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                            text=True, encoding='utf-8', errors='replace', timeout=timeout, env=env)
-    print(redact_output(result.stdout or '', config, settings), end='', flush=True)
+def run_tool(command, config, settings, timeout, env=None, log_path=None, progress_interval=20):
+    phase = command[1]
+    started = time.monotonic()
+    stopped = threading.Event()
+    if log_path:
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+
+    def emit(message):
+        safe = redact_output(message, config, settings)
+        print(safe, end='' if safe.endswith('\n') else '\n', flush=True)
+        if log_path:
+            stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
+            with log_path.open('a', encoding='utf-8') as handle:
+                handle.write(f'[{stamp}] {safe.rstrip()}\n')
+
+    def heartbeat():
+        while not stopped.wait(progress_interval):
+            emit(f'[{phase}] Still running ({int(time.monotonic() - started)}s); limit={timeout}s. Keep USB connected.')
+
+    emit(f'[{phase}] Started; limit={timeout}s. Detailed tool output appears when this step finishes.')
+    worker = threading.Thread(target=heartbeat, daemon=True)
+    worker.start()
+    try:
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                                text=True, encoding='utf-8', errors='replace', timeout=timeout, env=env)
+    except subprocess.TimeoutExpired as exc:
+        partial = exc.stdout or ''
+        if isinstance(partial, bytes):
+            partial = partial.decode('utf-8', errors='replace')
+        emit(partial + f'\n[{phase}] Timed out after {time.monotonic() - started:.1f}s. Check the saved log before retrying.')
+        raise
+    except KeyboardInterrupt:
+        emit(f'[{phase}] Cancelled. Check the board state before another operation.')
+        raise
+    except OSError:
+        emit(f'[{phase}] Could not start Arduino CLI. Check installation and permissions.')
+        raise
+    finally:
+        stopped.set()
+        worker.join(timeout=1)
+    emit(result.stdout or '')
+    emit(f'[{phase}] Finished; exit={result.returncode}; elapsed={time.monotonic() - started:.1f}s.')
     return result.returncode
 
 
@@ -97,6 +138,8 @@ def build(args, root=ROOT, environment=None):
     tool_environment = arduino_environment(root)
     fqbn = PROFILES[controller]
     print(f'Controller: {controller}\nTarget: {fqbn}\nCredentials: {"private config.h" if private else "example only"}', flush=True)
+    log_path = root / '.tools/firmware.log'
+    print('Build/upload log: .tools/firmware.log (credentials redacted).', flush=True)
     with tempfile.TemporaryDirectory(prefix='karen-build-') as temporary:
         work = Path(temporary)
         sketch, artifacts = work / 'karen_ai', work / 'artifacts'
@@ -105,12 +148,13 @@ def build(args, root=ROOT, environment=None):
         # Absolute argument lists work with spaces/Windows paths and do not invoke a shell.
         command = [cli, 'compile', '--fqbn', fqbn, '--build-path', str(work / 'build'),
                    '--output-dir', str(artifacts), str(sketch)]
-        code = run_tool(command, config, settings, timeout=600, env=tool_environment)
+        code = run_tool(command, config, settings, timeout=600, env=tool_environment, log_path=log_path)
         if code or not args.upload:
             return code
         print('Uploading to the explicitly selected port…', flush=True)
         return run_tool([cli, 'upload', '--fqbn', fqbn, '--input-dir', str(artifacts),
-                         '--port', args.port, str(sketch)], config, settings, timeout=240, env=tool_environment)
+                         '--port', args.port, str(sketch)], config, settings, timeout=240, env=tool_environment,
+                        log_path=log_path)
 
 
 def main(argv=None):
@@ -131,6 +175,9 @@ def main(argv=None):
     except subprocess.TimeoutExpired:
         print('Arduino operation timed out. Check the toolchain/connection before retrying.')
         return 1
+    except KeyboardInterrupt:
+        print('\nArduino operation stopped. Check board state before retrying.')
+        return 130
 
 
 if __name__ == '__main__':

@@ -112,6 +112,8 @@ Save and close Notepad. Read the configuration warnings again, then upload:
 .\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log
 ```
 
+The build tool prints a progress heartbeat every 20 seconds and saves redacted, timestamped output to `.tools/firmware.log`. The compile limit is 10 minutes; upload has a separate 4-minute limit. Compiler details appear when that stage finishes. `Credentials: private config.h` is an information label, not a prompt. Older copies can stay quiet during the compile.
+
 Upload replaces the board's firmware; do this only on the intended project board. A first LittleFS mount may initialize this application's filesystem. The upload compiles the private WiFi configuration, then flashes the explicit port. Keep the board still and connected until it finishes. Close the monitor with **Ctrl+C** before another upload/probe.
 
 Once the monitor opens at **115200 baud**, tap RESET/EN if startup lines were missed. **Go:** `[BOOT]` shows `Controller: esp32_s3`, flash **16777216** bytes, PSRAM **8388608** bytes, microphone **4/5/6**, amplifier **16/17/18**, button **7**; then `[WIFI] Connected` and `[READY]`. If PSRAM is zero/wrong, boot repeats, or WiFi fails, stop here. `[READY]` by itself does not prove WiFi/server/audio success. Keep the monitor open for the next tests.

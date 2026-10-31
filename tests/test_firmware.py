@@ -3,6 +3,7 @@ from argparse import Namespace
 from pathlib import Path
 import shutil
 import subprocess
+import threading
 from types import SimpleNamespace
 
 import pytest
@@ -107,6 +108,49 @@ def test_compiler_source_diagnostics_are_redacted():
     output = '7 | #define WIFI_PASSWORD "my-password"\nexpansion my-password my-network api-secret\n'
     sanitized = firmware.redact_output(output, config, {'GEMINI_API_KEY': 'api-secret'})
     assert all(secret not in sanitized for secret in ('my-password', 'my-network', 'api-secret'))
+
+
+def test_build_log_hides_credentials_and_records_exit(project, monkeypatch, capsys):
+    config = '#define WIFI_PASSWORD "private-password"\n#define WIFI_SSID "private-network"\n'
+    log = project / '.tools/firmware.log'
+    monkeypatch.setattr(firmware.subprocess, 'run', lambda *_a, **_k: SimpleNamespace(
+        returncode=7, stdout='private-password private-network private-api-key\ncompile failed\n'))
+    assert firmware.run_tool(['cli', 'compile'], config, {'GEMINI_API_KEY':'private-api-key'},
+                             timeout=600, log_path=log) == 7
+    saved = log.read_text()
+    combined = saved + capsys.readouterr().out
+    assert all(secret not in combined for secret in ('private-password','private-network','private-api-key'))
+    assert '[compile] Started' in saved and 'exit=7' in saved and 'compile failed' in saved
+
+
+def test_progress_appears_before_tool_finishes(monkeypatch, capsys):
+    progress = threading.Event()
+    real_print = print
+    def capture(message, **kwargs):
+        real_print(message, **kwargs)
+        if 'Still running' in message:
+            progress.set()
+    monkeypatch.setattr(firmware, 'print', capture, raising=False)
+    def run(*_a, **_k):
+        assert progress.wait(timeout=2), 'User must see a heartbeat while output is buffered'
+        return SimpleNamespace(returncode=0, stdout='done')
+    monkeypatch.setattr(firmware.subprocess, 'run', run)
+    assert firmware.run_tool(['cli','compile'], '', {}, timeout=600, progress_interval=.01) == 0
+    output = capsys.readouterr().out
+    assert output.index('Still running') < output.index('Finished; exit=0')
+
+
+def test_timeout_partial_output_is_redacted_and_logged(project, monkeypatch, capsys):
+    def run(*_a, **_k):
+        raise subprocess.TimeoutExpired(['cli','compile'], 600, output=b'sensitive-password\npartial output')
+    monkeypatch.setattr(firmware.subprocess, 'run', run)
+    log = project / '.tools/firmware.log'
+    with pytest.raises(subprocess.TimeoutExpired):
+        firmware.run_tool(['cli','compile'], '#define WIFI_PASSWORD "sensitive-password"', {},
+                          timeout=600, log_path=log)
+    combined = log.read_text() + capsys.readouterr().out
+    assert 'sensitive-password' not in combined
+    assert 'Timed out' in combined and 'partial output' in combined
 
 
 def test_build_finds_bootstrap_project_local_toolchain(project, monkeypatch):
