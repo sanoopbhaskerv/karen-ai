@@ -3,6 +3,9 @@
 #define WIFI_PASSWORD "YOUR_HOTSPOT_PASSWORD"
 // Exact origin, no trailing slash. HTTP only for a trusted local network.
 #define SERVER_ORIGIN "http://192.168.1.100:8080"
+// Cloud deployment only: private device token, sent over verified HTTPS.
+// Leave empty for the original local server. Never commit the real token.
+#define KAREN_DEVICE_TOKEN ""
 // For HTTPS, replace with the PEM root CA that validates your deployment host.
 // Obtain from your host/certificate issuer; do not paste the leaf certificate.
 static const char ROOT_CA[] = R"PEM(

@@ -107,11 +107,11 @@ def find_cli(settings, root):
 def redact_output(output, config, settings):
     # Compile errors can quote config.h source. Hide credential definitions and
     # literal values, including escaped C++ strings; never use shell commands.
-    output = re.sub(r'^.*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD)\b.*$',
+    output = re.sub(r'^.*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD|KAREN_DEVICE_TOKEN)\b.*$',
                     '[credential definition redacted]', output, flags=re.MULTILINE)
     values = [value for key, value in settings.items() if value and
               any(part in key.upper() for part in ('API_KEY', 'SECRET', 'TOKEN', 'PASSWORD'))]
-    for name in ('WIFI_SSID', 'WIFI_PASSWORD'):
+    for name in ('WIFI_SSID', 'WIFI_PASSWORD', 'KAREN_DEVICE_TOKEN'):
         match = re.search(r'^\s*#\s*define\s+' + name + r'\s+"((?:\\.|[^"\\])*)"', config, re.MULTILINE)
         if match:
             values.append(match.group(1))

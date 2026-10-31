@@ -1,0 +1,11 @@
+{
+    acme_ca https://acme-v02.api.letsencrypt.org/directory
+}
+
+{$KAREN_DOMAIN} {
+    reverse_proxy app:8080 {
+        transport http {
+            response_header_timeout 155s
+        }
+    }
+}

@@ -1,0 +1,55 @@
+services:
+  app:
+    build:
+      context: ..
+    restart: unless-stopped
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:?Set GEMINI_API_KEY}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.5-flash-lite}
+      DEMO_MODE: '0'
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY}
+      KAREN_ADMIN_USERNAME: ${KAREN_ADMIN_USERNAME:-karen}
+      KAREN_ADMIN_PASSWORD: ${KAREN_ADMIN_PASSWORD:?Set KAREN_ADMIN_PASSWORD}
+      KAREN_DEVICE_TOKEN: ${KAREN_DEVICE_TOKEN:?Set KAREN_DEVICE_TOKEN}
+      KAREN_PUBLIC_UI: ${KAREN_PUBLIC_UI:-0}
+      SESSION_COOKIE_SECURE: '1'
+      MEMORY_PATH: /app/data/memory.txt
+    volumes:
+      - memory:/app/data
+    # Only the HTTPS proxy is reachable from outside Docker.
+    expose:
+      - '8080'
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      KAREN_DOMAIN: ${KAREN_DOMAIN:?Set KAREN_DOMAIN}
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      app:
+        condition: service_healthy
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+volumes:
+  memory:
+  caddy-data:
+  caddy-config:

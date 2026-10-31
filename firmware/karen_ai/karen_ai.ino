@@ -12,6 +12,11 @@
 #include "config.h"
 #include "controller.h"
 
+// Keep existing local config.h files compatible with the cloud-capable firmware.
+#ifndef KAREN_DEVICE_TOKEN
+#define KAREN_DEVICE_TOKEN ""
+#endif
+
 static const uint32_t RATE=16000;
 static const char *BOUNDARY="KarenESP32Boundary7d29";
 i2s_chan_handle_t mic=nullptr;
@@ -109,6 +114,9 @@ bool requestReply(){
   if(!createMultipart()){Serial.println("[FS][ERROR] Cannot prepare multipart upload; check free flash.");return false;}
   WiFiClient plain;WiFiClientSecure secure;
   String origin=SERVER_ORIGIN;
+  if(strlen(KAREN_DEVICE_TOKEN)>0&&!origin.startsWith("https://")){
+    Serial.println("[HTTP][ERROR] Device authentication requires verified HTTPS.");return false;
+  }
   if(origin.startsWith("https://")){
     if(strlen(ROOT_CA)<100){Serial.println("[TLS][ERROR] Set ROOT_CA in config.h before using HTTPS.");return false;}
     Serial.println("[TLS] Synchronizing clock for certificate verification.");
@@ -130,6 +138,7 @@ bool requestReply(){
     bool opened=origin.startsWith("https://")?http.begin(secure,origin+path):http.begin(plain,origin+path);
     if(!opened){Serial.println("[HTTP][ERROR] Cannot initialize request; check SERVER_ORIGIN syntax.");return false;}
     http.setConnectTimeout(10000);http.setTimeout(15000);http.useHTTP10(true);
+    if(strlen(KAREN_DEVICE_TOKEN)>0)http.addHeader("Authorization",String("Bearer ")+KAREN_DEVICE_TOKEN);
     const char *keys[]={"Content-Type","X-Karen-Result","X-Karen-Error"};http.collectHeaders(keys,3);
     int code;
     if(!submitted){
