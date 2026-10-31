@@ -21,8 +21,9 @@ class Result:
 
 
 class Job:
-    def __init__(self, key, digest, timeout):
+    def __init__(self, key, digest, timeout, kind=None):
         self.key, self.digest = key, digest
+        self.kind = kind
         self.deadline = time.monotonic() + timeout
         self.lock = threading.RLock()
         self.done = threading.Event()
@@ -79,7 +80,7 @@ class Jobs:
                 return job
             if any(job.active for job in self.items.values()) or len(self.items) >= self.capacity:
                 raise ServiceError('Karen is busy. Wait for the current request to finish.', 'busy', 503)
-            job = Job(key, digest, self.timeout)
+            job = Job(key, digest, self.timeout, kind)
             self.items[key] = job
 
             def run():

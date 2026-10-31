@@ -42,7 +42,7 @@ class Doctor:
             self.config = path.read_text(encoding='utf-8')
             # Hide both the C++ source spelling and decoded quoted/backslash
             # values; compiler/tool output can use either spelling.
-            for match in re.finditer(r'^\s*#\s*define\s+WIFI_(?:SSID|PASSWORD)\s+"((?:\\.|[^"\\])*)"', self.config, re.M):
+            for match in re.finditer(r'^\s*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD|KAREN_DEVICE_TOKEN)\s+"((?:\\.|[^"\\])*)"', self.config, re.M):
                 value = match.group(1)
                 self.values += [value, re.sub(r'\\(["\\])', r'\1', value)]
         self.values = sorted(set(self.values), key=len, reverse=True)
@@ -50,7 +50,7 @@ class Doctor:
 
     def write(self, message, *, console=True):
         safe = sanitized(str(message), self.values)
-        safe = re.sub(r'^.*#\s*define\s+WIFI_(?:SSID|PASSWORD)\b.*$', '[credential definition redacted]', safe, flags=re.M)
+        safe = re.sub(r'^.*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD|KAREN_DEVICE_TOKEN)\b.*$', '[credential definition redacted]', safe, flags=re.M)
         with self.log.open('a', encoding='utf-8') as handle:
             handle.write(safe + '\n')
         if console:

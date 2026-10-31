@@ -1,13 +1,16 @@
 """Karen AI: single-process science-fair voice assistant."""
 import io
+import base64
+import hashlib
 import logging
 import os
+import re
 import secrets
 import threading
 import time
 import wave
 from pathlib import Path
-from flask import Flask, jsonify, render_template, request, send_file, session, redirect, url_for
+from flask import Flask, abort, jsonify, render_template, request, send_file, session, redirect, url_for
 from dotenv import load_dotenv
 from jobs import Jobs, Result, ServiceError
 
@@ -146,10 +149,18 @@ def create_app(config=None, providers=None):
         GEMINI_API_KEY=os.getenv('GEMINI_API_KEY', ''),
         GEMINI_MODEL=os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
         DEMO_MODE=os.getenv('DEMO_MODE', '0') == '1',
+        KAREN_ADMIN_USERNAME=os.getenv('KAREN_ADMIN_USERNAME', 'karen'),
+        KAREN_ADMIN_PASSWORD=os.getenv('KAREN_ADMIN_PASSWORD', ''),
+        KAREN_DEVICE_TOKEN=os.getenv('KAREN_DEVICE_TOKEN', ''),
+        SESSION_COOKIE_SECURE=os.getenv('SESSION_COOKIE_SECURE', '0') == '1',
         REQUEST_TIMEOUT=140,
     )
     if config:
         app.config.update(config)
+    if app.config['KAREN_DEVICE_TOKEN'] and not app.config['KAREN_ADMIN_PASSWORD']:
+        raise ValueError('Set KAREN_ADMIN_PASSWORD when enabling device authentication.')
+    if app.config['KAREN_ADMIN_PASSWORD'] and not app.config['KAREN_ADMIN_USERNAME']:
+        raise ValueError('KAREN_ADMIN_USERNAME must not be empty when authentication is enabled.')
     memory_path = Path(app.config['MEMORY_PATH'])
     if not memory_path.is_absolute():
         memory_path = BASE / memory_path
@@ -173,6 +184,34 @@ def create_app(config=None, providers=None):
                                    demo=app.config['DEMO_MODE'], configured=bool(app.config['GEMINI_API_KEY']),
                                    model=app.config['GEMINI_MODEL'], csrf=session['csrf']), status
 
+    def matches(value, expected):
+        return secrets.compare_digest((value or '').encode('utf-8'), expected.encode('utf-8'))
+
+    @app.before_request
+    def access_guard():
+        # Local installations retain their existing behavior. Hosted installations
+        # require dashboard credentials; the board token only grants voice access.
+        if not app.config['KAREN_ADMIN_PASSWORD'] or request.endpoint == 'health':
+            return
+        auth = request.authorization
+        if auth and auth.type.lower() == 'basic':
+            if (matches(auth.username, app.config['KAREN_ADMIN_USERNAME']) and
+                    matches(auth.password, app.config['KAREN_ADMIN_PASSWORD'])):
+                return
+        if auth and auth.type.lower() == 'bearer' and app.config['KAREN_DEVICE_TOKEN']:
+            if matches(auth.token, app.config['KAREN_DEVICE_TOKEN']):
+                if request.endpoint == 'chat' and request.method == 'POST':
+                    return
+                if request.endpoint == 'request_result' and request.method == 'GET':
+                    job = jobs.get(request.view_args['key'])
+                    if job is None or job.kind == 'voice':
+                        return
+                return jsonify(error='Device credentials only permit voice requests.', code='forbidden'), 403
+        response = jsonify(error='Authentication required.', code='unauthorized')
+        response.status_code = 401
+        response.headers['WWW-Authenticate'] = 'Basic realm="Karen", charset="UTF-8"'
+        return response
+
     @app.before_request
     def csrf_guard():
         session.setdefault('csrf', secrets.token_urlsafe(24))
@@ -186,12 +225,38 @@ def create_app(config=None, providers=None):
         response.headers['Cache-Control'] = 'no-store'
         response.headers['X-Content-Type-Options'] = 'nosniff'
         response.headers['X-Frame-Options'] = 'DENY'
-        response.headers['Content-Security-Policy'] = "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'"
+        script_sources = style_sources = "'self'"
+        if request.endpoint == 'guide' and response.status_code == 200 and response.mimetype == 'text/html':
+            # The offline guides contain their own CSS and copy/print scripts.
+            # Hash only their trusted file content; no unsafe-inline exception.
+            source = response.get_data(as_text=True)
+            def hashes(tag):
+                return ''.join(" 'sha256-" + base64.b64encode(hashlib.sha256(block.encode()).digest()).decode() + "'"
+                               for block in re.findall(r'<' + tag + r'\b[^>]*>(.*?)</' + tag + '>', source, re.S))
+            script_sources += hashes('script')
+            style_sources += hashes('style')
+        response.headers['Content-Security-Policy'] = f"default-src 'self'; script-src {script_sources}; style-src {style_sources}; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'"
         return response
 
     @app.get('/')
     def index():
         return dashboard()
+
+    @app.get('/docs/<path:filename>')
+    def guide(filename):
+        allowed = {path.name: path for pattern in ('*.html', '*.md') for path in (BASE / 'docs').glob(pattern)}
+        allowed['cloud-root-ca.pem'] = BASE / 'docs/cloud-root-ca.pem'
+        path = allowed.get(filename)
+        if path is None:
+            abort(404)
+        mime = 'text/html' if path.suffix == '.html' else 'text/plain'
+        return app.response_class(path.read_text(encoding='utf-8'), mimetype=mime)
+
+    @app.get('/READMEMALAYALAM.md')
+    @app.get('/README.md')
+    def readme():
+        path = BASE / request.path.lstrip('/')
+        return app.response_class(path.read_text(encoding='utf-8'), mimetype='text/plain')
 
     @app.get('/health')
     def health():

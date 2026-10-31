@@ -6,6 +6,8 @@
 
 **Changing WiFi or the server address later?** Use [the Malayalam WiFi-change and retest guide](docs/windows-wifi-change-malayalam.html). It covers the updated settings, USB upload, network checks and a fresh board question test.
 
+**AWS test:** The [cloud-use Malayalam guide](docs/cloud-use-malayalam.html) covers the hosted UI and ESP32 HTTPS setup. Hosting, access protection, cost and scheduled cleanup are documented in [the deployment runbook](deploy/README.md).
+
 Karen is a Malayalam-speaking science exhibition project by **Sreehari V, Class 9S, PKMMHSS Edarikode**. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
