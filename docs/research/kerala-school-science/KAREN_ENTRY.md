@@ -148,3 +148,5 @@ The [planned 2026–27 calendar](CALENDAR_2026.md) separates Science phases from
 
 
 The [2024 C. V. Raman essay directions](HISTORICAL_SCIENCE_CIRCULARS.md) include an AI-assisted-website restriction for that historical essay/reference process. It does not establish a 2026 prepared Working Model ban or affirmative cloud-AI permission. Keep that item/year boundary when explaining Karen’s dependencies.
+
+A [29 October 2025 Work Experience circular](HISTORICAL_OPERATIONS.md#work-experience-29-october-2025) concerns a separate Innovative Working Model event and scoped phone/laptop explanation. It does not grant Karen’s Science Working Model cloud access. The school’s accepted item and applicable local instructions remain decisive; electronics alone does not settle classification.

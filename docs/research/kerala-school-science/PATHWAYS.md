@@ -170,3 +170,5 @@ KITE describes Samagra as providing resources for standards 1–12, including pu
 6. Further historical NCERT/SISF Kerala delegation lists and printed exhibit catalogues, especially for 2023–2025. The recovered 2014 list lacks titles, and the 2026 host compendium does not supply Kerala nomination proceedings; neither can by itself identify a qualifying state item or rank.
 
 The [rules collection](RULES.md) records Kerala's 2 September 2026 adoption of the attached NCERT topics and its inconsistent explanatory note. Check later amendments and organisers' item-specific directions before applying the themes to an entry.
+
+The [Kerala pandemic source review](PANDEMIC_ACTIVITIES.md) now supplies a separate official record of departmental competition interruption and planned online Shasthrarangam/NCSC activity. It preserves those programme boundaries and does not equate either with NCERT’s combined virtual exhibition or a completed virtual Sasthrolsavam.

@@ -1,4 +1,27 @@
-# Historical Science circulars: 2024–25 club competitions
+# Historical Science circulars: 2023–25
+
+Checked **1 November 2026**. This guide separates a government-hosted **12 October 2023** amendment from the publicly mirrored **19 October 2024** directions. The [source register](historical-science-circular-sources.json) records both files and their review scopes. Historical topics and amendments retain their event, stage and year.
+
+## Official amendment: 12 October 2023
+
+The official [DGE Y1/16807/2023/DGE circular](https://education.kerala.gov.in/wp-content/uploads/2023/10/sasthrolsavam12102023.pdf), published on 12 October, refers to the same-number **4 October 2023** circular registered as `result-reconciliation-012`. All four PDF pages were inspected: **pages 1–3 contain content and page 4 is blank**. Source `historical-science-circular-002`.
+
+The following are paraphrased historical topic groups, not a universal exhibition theme or current Working Model requirements. The HS subdistrict list crosses PDF 1–2; the state Talent Search list crosses PDF 2–3.
+
+| 2023–24 item and stage | HS topics, paraphrased | Higher Secondary topics, paraphrased |
+| --- | --- | --- |
+| C. V. Raman essay: school | Space-technology trends; millets and food security; climate/biodiversity responses | Nuclear energy; emerging/re-emerging epidemics; global warming |
+| Essay: subdistrict | Disaster science/technology; food-system innovations; sustainable living and recent science | Climate effects on food/water/environment; communication advances; green chemistry |
+| Essay: revenue district | Biotechnology and development goals; India's space programme; AI opportunities/challenges | Science for public health; space technology for sustainable development; AI/robotics in medicine |
+| Science Talent Search: state paper presentation | GM crops/food security; renewable energy; space exploration and humanity's future | Drug-resistant microbes; Chandrayaan's past/future; AI's emergence and effects |
+
+PDF 3 separately changes the **2023 IT Quiz** subdistrict date **13→16 October** and district date **18→19 October**, citing Higher Secondary Physics/Economics improvement/supplementary examinations. It supplies no new clock times here. This is distinct from the [2026 IT Quiz amendment](ADDITIONAL_2026_CIRCULARS.md#it-quiz-original-schedule-and-later-subdistrict-amendment).
+
+The same page cancels the specified earlier **100 multiple-choice-question direction for school/subdistrict/revenue-district Mathematics Talent Search**, saying it is inapplicable to that examination. It gives no replacement question format. This is not a Science Talent Search cancellation or a general 100-question rule.
+
+PDF 3 bears a handwritten signature and the printed name normalised as **Shanavas S**, Director of General Education. Signature appearance was inspected; cryptographic validity was not tested.
+
+## Mirrored directions: 19 October 2024
 
 Checked 1 November 2026. DGE **Y1/12030/2024/DGE; I/959995/2024**, dated **19 October 2024**, adds historical Science Talent Search and C. V. Raman essay conditions/topics. All twelve pages of the [public circular copy](https://drive.google.com/file/d/1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL/view?usp=sharing) were rendered and read visually; acquisition evidence is in [historical-science-circular-sources.json](historical-science-circular-sources.json).
 

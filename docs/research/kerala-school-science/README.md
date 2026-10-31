@@ -26,7 +26,9 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Dated result publication versions](RESULT_RECONCILIATION.md) | Archived score changes, actual capture dates and unresolved certification |
 | [Subject-club governance](CLUB_GOVERNANCE.md) | 2024/2026 terms, election targets and limits on appointment claims |
 | [Early contemporary context](EARLY_ADMINISTRATION.md) | The 1965 workshop and 1967 national survey, without an inaugural-year inference |
-| [Historical Science circular](HISTORICAL_SCIENCE_CIRCULARS.md) | 2024 item topics, essay directions and dated scope boundaries |
+| [Historical Science circulars](HISTORICAL_SCIENCE_CIRCULARS.md) | 2023/2024 topics, amendments, essay directions and dated scope boundaries |
+| [Historical appeal and Work Experience directions](HISTORICAL_OPERATIONS.md) | 2023/2025 schedules, distinct model events and appeal capacity |
+| [Pandemic decisions and online programmes](PANDEMIC_ACTIVITIES.md) | 2020–22 primary decisions, online plans and unresolved completion evidence |
 | [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
 | [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
 | [Additional departmental circulars](ADDITIONAL_2026_CIRCULARS.md) | Mathematics date amendment and the separate IT Quiz schedule/amendment |

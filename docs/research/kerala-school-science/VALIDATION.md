@@ -6,11 +6,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 280 |
-| Distinct registered source URLs | 275 |
-| JSON files | 41 |
-| Concise English/Malayalam knowledge records | 115 |
-| Draft Malayalam evaluation questions | 93 |
+| Source records | 289 |
+| Distinct registered source URLs | 284 |
+| JSON files | 43 |
+| Concise English/Malayalam knowledge records | 120 |
+| Draft Malayalam evaluation questions | 98 |
 | Indexed exhibit records | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
@@ -43,7 +43,9 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Archived landing top-five observations / rows | 10 / 50 |
 | Dated subject-club circulars | 2 |
 | Versioned IT Quiz schedule rows | 6 |
-| Historical Science circular pages reviewed | 12 |
+| Historical Science circular pages reviewed | 16 (15 content; one blank) |
+| Historical appeal/Work Experience documents / pages | 3 / 6 |
+| Pandemic documents / pages | 5 / 10 |
 | Early contemporary journal sources | 2 |
 | District-result destinations | 14 |
 
@@ -101,3 +103,7 @@ The new result-version pass checks 17 actual capture pages, 7,675 complete rows 
 An additional capture audit matched 13 earlier historical-edition bodies and four older spot checks to exact original-URL/timestamp/CDX digests. Fresh HEAD observations confirm their recorded dates; these are separated from original GET headers, retained for the older 2016 programme. Fresh headers are not presented as old acquisition evidence. No date correction was needed for those 17 records.
 
 All six pages of the two club-election and two IT Quiz circulars received independent visual review, with hashes/bytes/page counts checked. Election targets, actual conduct, subject/year scope, starts versus duration, SRG wording and the absence of portal instructions remain distinct. The 12-page 2024 Science circular was fully read visually; the historical AI-essay scope, conflicting November dates and other-stream sections remain explicit. Relevant early journal issue/attribution/table pages were inspected and both volume files match their registered hashes; these narrow reviews do not claim a complete historical journal audit. The fresh official 2010 model download still matches the earlier incomplete file.
+
+The next historical pass adds three mirrored appeal/Work Experience documents and the official 12 October 2023 Science amendment. All ten physical pages were independently inspected; the amendment’s final page is blank. Hashes, byte sizes and page counts agree. Reviews preserve the appeal reference-year anomaly, group-size distinction, separate model events, prototype wording, conditional phone/laptop explanation, stage-qualified exhibition obligation and historical quiz/Mathematics amendments. The existing 115 facts and 93 evaluation records remain unchanged; five fact/evaluation pairs are appended.
+
+All ten pages of the five pandemic documents were visually inspected and independently checked. Original government hosting, mirrored copies, issue/index dates, reported departmental non-conduct and planned separate programmes remain distinct. Conflicting Shasthrarangam deadlines and NCSC January-year labels remain literal; no completion or statewide cancellation order is invented. Source metadata checks agree with cached bodies and headers. The renewed origin/delegation searches supply bounded negative outcomes and qualified physical-holding leads, without treating unavailable pages as evidence of absence.

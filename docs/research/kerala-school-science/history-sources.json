@@ -738,6 +738,29 @@
     "bytes": 863202,
     "sha256": "4b8e7169bcf0f0ce9cee58b187dd7ee3a15e9e2a57543be004f6f7b354c296cb",
     "received_file_complete": false,
-    "notes": "Public Digital Library of India copy preserved on Internet Archive; metadata identifies original source library as Central Library, University of Rajasthan, barcode 04990010022979, scan centre C-DAK Kolkata. The catalogue date 1975 is unverified publication metadata: actual title PDF 2 explicitly prints reporting cycle 1965–66, while no publication-year statement is visible. General state-administration compilation, not the distinct Bureau of Economics and Statistics report or the Education Department 1964–65 report. All 33 scans OCRed; title, contents and end checked visually. Contents PDF 5 lists Education Department chapter VI beginning at printed 91; PDF 6 places the next Revenue chapter at 136. Received body stops at printed 23 / PDF 33 in Agriculture and includes duplicated/reordered early Justice pages (the same opening Justice page at PDF 13 and 15, interleaved with the Legislature page at PDF 14). Education chapter not present; no first-fair date, annual host or evidence of fair absence can be inferred. Generic archive download returned a 170-byte HTTP 500 HTML body; public metadata-supplied IA storage-host URL then returned valid PDF with recorded hash, using ordinary TLS and no authentication."
+    "notes": "Public Digital Library of India copy preserved on Internet Archive; metadata identifies original source library as Central Library, University of Rajasthan, barcode 04990010022979, scan centre C-DAK Kolkata. The catalogue date 1975 is unverified publication metadata: actual title PDF 2 explicitly prints reporting cycle 1965–66, while no publication-year statement is visible. General state-administration compilation, not the distinct Bureau of Economics and Statistics report or the Education Department 1964–65 report. All 33 scans OCRed; title, contents and end checked visually. Contents PDF 5 lists Education Department chapter VI beginning at printed 91; PDF 6 places the next Revenue chapter at 136. Received body stops at printed 23 / PDF 33 in Agriculture and includes duplicated/reordered early Justice pages (the same opening Justice page at PDF 13 and 15, interleaved with the Legislature page at PDF 14). Education chapter not present; no first-fair date, annual host or evidence of fair absence can be inferred. Generic archive download returned a 170-byte HTTP 500 HTML body; public metadata-supplied IA storage-host URL then returned valid PDF with recorded hash, using ordinary TLS and no authentication.",
+    "follow_up_discovery": {
+      "checked_on": "2026-11-01",
+      "outcome": "Fresh bounded public lookup did not recover the missing chapter or Education Department target reports; no absence/nonpublication conclusion.",
+      "physical_scan_target": "Original source library identified in archive metadata: Central Library, University of Rajasthan; barcode04990010022979. Verify title/colophon and printed90–136, including missing Education91–135.",
+      "catalogue_leads": [
+        {
+          "url": "https://niyamasabha.org/library/collect.htm",
+          "status": "Institutional administration-report/souvenir collections described; exact target-year holdings and scan not verified."
+        },
+        {
+          "url": "https://books.google.co.in/books?id=DEoWAQAAIAAJ",
+          "status": "Catalogue/snippet-only Education Department record labelled1967, original University of California; report cycle and full pages unverified."
+        },
+        {
+          "url": "https://books.google.co.in/books?id=6kkWAQAAIAAJ",
+          "status": "Catalogue/snippet-only Education Department record labelled1968, original University of California; report cycle and full pages unverified."
+        }
+      ],
+      "excluded_lead": {
+        "url": "https://www.ecostat.kerala.gov.in/storage/publications/1131.pdf",
+        "reason": "Visually identified as Bureau of Economics and Statistics administration report1966–67, with PlanningDepartmentGO(Rt)254/67/Plg20October1967; not the missing EducationDepartment report. No all-page review claimed."
+      }
+    }
   }
 ]

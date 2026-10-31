@@ -69,3 +69,7 @@ That is a concrete lead for locating older project descriptions and programmes. 
 ## Dated subject-club election directions
 
 The [2024/2026 club-governance supplement](CLUB_GOVERNANCE.md) records school one-year and subdistrict/revenue-district two-year terms, AEO/DDE election stages and reporting targets. Those four-subject-club directions do not identify the actual current office-bearers or prove a particular festival organising committee was appointed.
+
+## Historical conduct and appeal directions
+
+The [2023/2025 supplement](HISTORICAL_OPERATIONS.md) records dated Work Experience construction/exhibition sequences and appeal-handling capacity. Its Innovative Working Model item and permitted phone/laptop explanation are separate from Science Working Model. Historical advancing-entry capacity does not alter a current exhibit’s required group size.

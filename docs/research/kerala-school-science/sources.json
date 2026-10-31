@@ -1381,6 +1381,86 @@
     "topic_register": "historical-editions-sources.json"
   },
   {
+    "id": "historical-operations-appeal-2025",
+    "title": "DGE appeal-capacity directions for the 2025–26 school Sasthrolsavam, public mirror",
+    "url": "https://drive.google.com/file/d/1NYhLTwIOONiliTwUa3PdWof-2TuzxdD8/view",
+    "discovery_url": "https://www.hsslive.in/2012/09/sasthrolsavam-sciencesocialmathswork.html?m=0",
+    "accessed_on": "2026-11-01",
+    "document_date": "2025-10-27",
+    "source_type": "mirrored_department_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "file_reference_as_printed_english_normalisation": "Y(1)/16000/2025/DGE; e-file DGE/16000/2025-Y1; I/1497607/2025",
+    "signature_verification": "Visible block only; no cryptographic verification performed.",
+    "review_scope": "All two PDF pages visually read; independently checked.",
+    "notes": "Both pages read visually and independently checked. Addresses DDEs/AEOs and directs 2025–26 subdistrict/revenue-district appeals under the revised manual and cited W.A.1178/2017 dated22June2017. Only two qualifying contestants may advance from one level/item; an admitted third entrant requires an explicit order evaluating the already-qualified performances and excluding one. This is a dated procedural direction, not a named appeal, a championship correction or a new pupil count for a group exhibit. Underlying judgment not independently reviewed in this supplement. The body schedules7–10November2025 in Palakkad, without completion proof. Reference1 prints date23August2025 but order146/2015; preserve this anomaly beside the separate verified146/2025manual order. No uniform/badge, Working Model AI/network, or present-day local reporting permission is supplied.",
+    "visible_signature_block": {
+      "name": "Santhosh C A",
+      "date": "2025-10-27",
+      "time": "12:57:33",
+      "designation": "Additional Director of General Education (Academic)"
+    },
+    "reference_anomaly": "Reference1 prints23/08/2025 with G.O.(Ms)146/2015; do not silently replace the year.",
+    "download_sha256": "ff4eda4f2306b75ff2d6f09078f1df873d742672e06af549a773d8a55cb4e59e",
+    "download_bytes": 132780,
+    "pdf_pages": 2,
+    "download_url": "https://drive.google.com/uc?export=download&id=1NYhLTwIOONiliTwUa3PdWof-2TuzxdD8",
+    "effective_download_url": "https://drive.usercontent.google.com/download?id=1NYhLTwIOONiliTwUa3PdWof-2TuzxdD8&export=download",
+    "retrieved_at_utc": "2026-10-31T22:50:29.458237+00:00",
+    "topic_register": "historical-operations-sources.json"
+  },
+  {
+    "id": "historical-operations-workexperience-2025",
+    "title": "DGE Work Experience conduct clarifications, 29 October 2025, public mirror",
+    "url": "https://drive.google.com/file/d/1NdUG2iIH0-0quz37w9lg4jJMRRbKgls_/view",
+    "discovery_url": "https://www.hsslive.in/2012/09/sasthrolsavam-sciencesocialmathswork.html?m=0",
+    "accessed_on": "2026-11-01",
+    "document_date": "2025-10-29",
+    "source_type": "mirrored_department_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "file_reference_as_printed_english_normalisation": "WE2/4071835/2025/DGE",
+    "signature_verification": "Visible block only; no cryptographic verification performed.",
+    "review_scope": "All two PDF pages visually read; independently checked.",
+    "notes": "Both scanned pages read visually and independently checked. State Work Experience festival scheduled7–10November2025 at BEM HSS,Palakkad; special-school8November,HS9November,HSS/VHSS10November. Gives Book Binding quantity/type under judges/question paper, whole areca leaf-sheath single-colour preparation only, Innovative Working Model up tothree socially useful ideas with prototype forms, and Pottery Painting restrictions/maxthreepots. Innovative Working Model clause permits needed mobile/laptop explanation only with both judge and invigilator permission; the closing Work Experience clause bars contestant mobile/smartwatch possession/use during competition. Retain the specific permission and general restriction together, without extending either to Science Working Model, every laptop, cloud APIs or2026local arrangements. No uniform/badge ban or altered Science pupil count appears.",
+    "visible_signature_block": {
+      "name_normalisation": "C A Santhosh",
+      "designation": "Additional Director of General Education (Academic)",
+      "form": "Handwritten signature and printed Malayalam name; no signature date/time separately asserted."
+    },
+    "download_sha256": "d7238f71a85595dcb75e065643a50b57037b25b98acd50dbe5f6fa16f32d6343",
+    "download_bytes": 91093,
+    "pdf_pages": 2,
+    "download_url": "https://drive.google.com/uc?export=download&id=1NdUG2iIH0-0quz37w9lg4jJMRRbKgls_",
+    "effective_download_url": "https://drive.usercontent.google.com/download?id=1NdUG2iIH0-0quz37w9lg4jJMRRbKgls_&export=download",
+    "retrieved_at_utc": "2026-10-31T22:50:29.608257+00:00",
+    "topic_register": "historical-operations-sources.json"
+  },
+  {
+    "id": "historical-operations-workexperience-2023",
+    "title": "DGE revised Work Experience on-the-spot and exhibition timetable, 9 October 2023, public mirror",
+    "url": "https://drive.google.com/file/d/1VbOV6_GZSdIauHFTjKbhbFlDj7VSYTxJ/view",
+    "discovery_url": "https://www.hsslive.in/2012/09/sasthrolsavam-sciencesocialmathswork.html?m=0",
+    "accessed_on": "2026-11-01",
+    "document_date": "2023-10-09",
+    "source_type": "mirrored_department_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "file_reference_as_printed_english_normalisation": "WE3/1128176/2023/DGE",
+    "signature_verification": "Visible block only; no cryptographic verification performed.",
+    "review_scope": "All two PDF pages visually read; independently checked.",
+    "notes": "Both scanned pages read visually and independently checked. Schedules state general/special-school Work Experience30November–2December2023 in Thiruvananthapuram. On-the-spot9:30–12:30; final phase evaluation12:30–13:30; lunch/exhibition preparation13:30–14:30; exhibition/evaluation14:30–16:00; public viewing from15:30. Explicitly no exhibition contest at subdistrict, but district/state do have one; compulsory exhibition participation is read with that qualification. Exhibition includes all on-the-spot products, same-place display and individual-plus-exhibition championship marks. State first day special-school,secondHS,thirdHSS/VHSS; contestants remain until exhibition evaluation ends. Historical Work Experience directions do not set Science Working Model timing,2026dates, or completed attendance. Printed employee identifier/contact fields omitted from derived records.",
+    "visible_signature_block": {
+      "name_normalisation": "M K Shinemon",
+      "designation": "Additional Director of General Education (Academic)",
+      "form": "Handwritten signature and printed Malayalam name; no signature date/time separately asserted."
+    },
+    "download_sha256": "d1cda9dcc377b93811b0667131dbafb67a1cf9c37f2afa787591b494c29022a3",
+    "download_bytes": 1227954,
+    "pdf_pages": 2,
+    "download_url": "https://drive.google.com/uc?export=download&id=1VbOV6_GZSdIauHFTjKbhbFlDj7VSYTxJ",
+    "effective_download_url": "https://drive.usercontent.google.com/download?id=1VbOV6_GZSdIauHFTjKbhbFlDj7VSYTxJ&export=download",
+    "retrieved_at_utc": "2026-10-31T22:50:30.328503+00:00",
+    "topic_register": "historical-operations-sources.json"
+  },
+  {
     "id": "historical-science-circular-001",
     "title": "DGE circular Y1/12030/2024/DGE, 19 October 2024: 2024–25 Sasthrolsavam club competitions and named Science topics",
     "url": "https://drive.google.com/file/d/1Gcpg1EPcKaqgwcU7uv-snnhO-FtDEyZL/view?usp=sharing",
@@ -1466,6 +1546,34 @@
       "Internal PDF2 date inconsistency: Talent Search is dated 8 November and the essay 7 November, while the essay paragraph says it runs alongside the Talent Search examination. Neither date is silently corrected and a common day is not inferred."
     ],
     "notes": "Public Drive reproduction of the dated 19 October 2024 DGE circular; all 12 pages rendered and read visually. Science Talent Search/C. V. Raman dates, topics and essay reference conditions are historical item directions. The essay-only AI website restriction is not a 2026 Working Model rule. Printed 7/8 November dates and alongside wording remain inconsistent. Later Mathematics/Social Science formats are separate. Visible signature inspected, not cryptographically validated; no official-hosted body or final championship statement recovered.",
+    "topic_register": "historical-science-circular-sources.json"
+  },
+  {
+    "id": "historical-science-circular-002",
+    "title": "DGE Science topics and amended fair directions, 12 October 2023",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2023/10/sasthrolsavam12102023.pdf",
+    "discovery_url": "https://education.kerala.gov.in/2023/10/12/2023-24-%e0%b4%b5%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%b7%e0%b4%a4%e0%b5%8d%e0%b4%a4%e0%b5%86-%e0%b4%95%e0%b5%87%e0%b4%b0%e0%b4%b3-%e0%b4%b8%e0%b5%8d%e0%b4%95%e0%b5%82%e0%b4%b3%e0%b5%8d%e2%80%8d-2/",
+    "publication_post_date": "2023-10-12",
+    "accessed_on": "2026-11-01",
+    "document_date": "2023-10-12",
+    "source_type": "official_department_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "file_reference_as_printed_english_normalisation": "Y1/16807/2023/DGE",
+    "review_scope": "All four PDF pages visually reviewed; pages1–3 contain content and page4 is blank.",
+    "content_pages": 3,
+    "visible_signature_block": {
+      "name_normalisation": "Shanavas S",
+      "designation": "Director of General Education",
+      "form": "Handwritten signature and printed Malayalam name onPDF3; no separate signing timestamp asserted."
+    },
+    "signature_verification": "Visible block only; no cryptographic verification performed.",
+    "notes": "Official four-page scanned PDF with a blank last page. Gives historical2023–24C.V.Raman essay topics by school/subdistrict/revenue-district and HS/HSS sections, and six state Science Talent Search paper-presentation topics. Amends the4October2023circular: ITQuiz subdistrict13to16October because of HigherSecondaryPhysics/Economics improvement/supplementary examinations, and district18to19October. Cancels the earlier100MCQ instruction for school/subdistrict/revenue-district Mathematics Talent Search as inapplicable to that examination. This is not a cancellation of Science Talent Search, a2026ITQuiz amendment, an all-exhibit theme, a general AI ban or a Working Model pupil-count/network permission. Topic summaries preserve event/year/stage rather than copying historical titles as current requirements.",
+    "download_sha256": "18d26615cb144945864c4a10e7023d3e5c22d21adfdc10101e0020b6b9bc48bf",
+    "download_bytes": 1055409,
+    "pdf_pages": 4,
+    "download_url": "https://education.kerala.gov.in/wp-content/uploads/2023/10/sasthrolsavam12102023.pdf",
+    "effective_download_url": "https://education.kerala.gov.in/wp-content/uploads/2023/10/sasthrolsavam12102023.pdf",
+    "retrieved_at_utc": "2026-10-31T22:53:26.516704+00:00",
     "topic_register": "historical-science-circular-sources.json"
   },
   {
@@ -2276,6 +2384,29 @@
     "sha256": "4b8e7169bcf0f0ce9cee58b187dd7ee3a15e9e2a57543be004f6f7b354c296cb",
     "received_file_complete": false,
     "notes": "Public Digital Library of India copy preserved on Internet Archive; metadata identifies original source library as Central Library, University of Rajasthan, barcode 04990010022979, scan centre C-DAK Kolkata. The catalogue date 1975 is unverified publication metadata: actual title PDF 2 explicitly prints reporting cycle 1965–66, while no publication-year statement is visible. General state-administration compilation, not the distinct Bureau of Economics and Statistics report or the Education Department 1964–65 report. All 33 scans OCRed; title, contents and end checked visually. Contents PDF 5 lists Education Department chapter VI beginning at printed 91; PDF 6 places the next Revenue chapter at 136. Received body stops at printed 23 / PDF 33 in Agriculture and includes duplicated/reordered early Justice pages (the same opening Justice page at PDF 13 and 15, interleaved with the Legislature page at PDF 14). Education chapter not present; no first-fair date, annual host or evidence of fair absence can be inferred. Generic archive download returned a 170-byte HTTP 500 HTML body; public metadata-supplied IA storage-host URL then returned valid PDF with recorded hash, using ordinary TLS and no authentication.",
+    "follow_up_discovery": {
+      "checked_on": "2026-11-01",
+      "outcome": "Fresh bounded public lookup did not recover the missing chapter or Education Department target reports; no absence/nonpublication conclusion.",
+      "physical_scan_target": "Original source library identified in archive metadata: Central Library, University of Rajasthan; barcode04990010022979. Verify title/colophon and printed90–136, including missing Education91–135.",
+      "catalogue_leads": [
+        {
+          "url": "https://niyamasabha.org/library/collect.htm",
+          "status": "Institutional administration-report/souvenir collections described; exact target-year holdings and scan not verified."
+        },
+        {
+          "url": "https://books.google.co.in/books?id=DEoWAQAAIAAJ",
+          "status": "Catalogue/snippet-only Education Department record labelled1967, original University of California; report cycle and full pages unverified."
+        },
+        {
+          "url": "https://books.google.co.in/books?id=6kkWAQAAIAAJ",
+          "status": "Catalogue/snippet-only Education Department record labelled1968, original University of California; report cycle and full pages unverified."
+        }
+      ],
+      "excluded_lead": {
+        "url": "https://www.ecostat.kerala.gov.in/storage/publications/1131.pdf",
+        "reason": "Visually identified as Bureau of Economics and Statistics administration report1966–67, with PlanningDepartmentGO(Rt)254/67/Plg20October1967; not the missing EducationDepartment report. No all-page review claimed."
+      }
+    },
     "topic_register": "history-sources.json"
   },
   {
@@ -4370,6 +4501,204 @@
     "download_bytes": 66239,
     "notes": "searchDialCodeAssemble/getRequest constructs the source=web DIAL Code Consumption request with the dial code, configured content types and an empty guest userProfile; public hierarchy traversal exposes playable children.",
     "topic_register": "media-sources.json"
+  },
+  {
+    "id": "pandemic-activity-001",
+    "title": "G.O.(Rt)3563/2022/GEDN, 14 June 2022: no grace marks for 2021–22 and reported inability to hold departmental competitions",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2022/06/GO-3563-Grace-mark-14.06.2022.pdf",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_government_order",
+    "issuer_as_printed": "Government of Kerala, General Education (G) Department",
+    "document_date": "2022-06-14",
+    "order_number_as_printed": "G.O.(Rt)3563/2022/GEDN",
+    "academic_year": "2021–22",
+    "pdf_pages": 2,
+    "download_bytes": 198985,
+    "download_sha256": "3ce9923b1750ed9c7729244f3e7b318f98413f363d160f68a1a85e0ff065aeb5",
+    "headers_sha256": "c441e7ec4cfe7fe82b955138c3822d0c8a71081944a09e88195fa02f9fdef17c",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Order/date; preceding no-grace decision; DGE-reported non-conduct of departmental arts/sports/science competitions in 2021–22; no SSLC/Plus Two grace marks that year."
+      },
+      {
+        "pdf_page_1based": 2,
+        "scope": "Circulation and visible Section Officer signature block."
+      }
+    ],
+    "references_as_printed": [
+      "DGE letter Y1/382358/2022/DGE dated 31 January 2022",
+      "DGE letter Y2/382358/2022/DGE dated 2 June 2022"
+    ],
+    "visible_signature_block": {
+      "name_as_printed": "Savitha.s",
+      "date_time_as_printed": "14-06-2022 12:44:44",
+      "designation": "Section Officer",
+      "validation_scope": "Visible block read; cryptographic validity not tested."
+    },
+    "date_note": "The discovery index has duplicate links labelled 10 and 14 June 2022; the actual order and signature are 14 June.",
+    "review_scope": "Both received PDF pages visually read; damaged extracted Malayalam checked against the renders.",
+    "notes": "Original departmental-hosted government order. Records DGE's report that restrictions prevented the department's arts, sports and science competitions in 2021–22, in an examination grace-mark decision. It does not identify a specific state Sasthrolsavam cancellation order or establish that all local/online science activity ceased. Not a current 2026 grace-mark rule.",
+    "topic_register": "pandemic-activity-sources.json"
+  },
+  {
+    "id": "pandemic-activity-002",
+    "title": "General Education Department letter of 29 June 2021: 2020–21 public-examination grace marks",
+    "url": "https://drive.google.com/file/d/18XIC4gP7RZg71O7dDZwbyqgGZB3iptM2/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=18XIC4gP7RZg71O7dDZwbyqgGZB3iptM2",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_government_letter",
+    "issuer_as_printed": "Government of Kerala, General Education (G) Department",
+    "document_date": "2021-06-29",
+    "file_reference_as_printed": "File No.GEDN-G1/1055/2021-G.EDN",
+    "letter_reference_english_normalisation": "G/1055/2021/G.EDN",
+    "academic_year": "2020–21",
+    "pdf_pages": 1,
+    "download_bytes": 176253,
+    "download_sha256": "e5eaea74f7771223a65dd319a9ea57913f741f14d9936eedc7734887f33177a8",
+    "headers_sha256": "552ee57522511bdccef3cc396eaecf1d77f67b4f9061823b6da0428f14a5a642",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Header/date, government decision communicated to DGE, textual issuing officer and visible approval block."
+      }
+    ],
+    "visible_issuing_details": {
+      "textual_officer": "Joe Chacko Kathilankal, Additional Secretary, for Principal Secretary",
+      "approval_name_as_printed": "Savitha.s",
+      "approval_date_time_as_printed": "29-06-2021 12:24:56",
+      "validation_scope": "Visible text/block only; cryptographic validity not tested."
+    },
+    "provenance_limit": "Public Google Drive reproduction discovered through a teacher index; no original-hosted body recovered in this pass.",
+    "date_note": "Discovery index labels the link 28 June 2021; the letter and visible approval block say 29 June 2021.",
+    "review_scope": "Entire one-page scan read visually; no usable extracted body text.",
+    "notes": "Communicates the government decision not to award grace marks in 2020–21 public examinations, referring to DGE's 10 June 2021 letter. The body does not provide an event cancellation order, cancellation date or full explanation of which activities ceased. Keep it separate from the stronger 2022 non-conduct statement and from current 2026 entitlement.",
+    "topic_register": "pandemic-activity-sources.json"
+  },
+  {
+    "id": "pandemic-activity-003",
+    "title": "DGE Shasthrarangam 2021–22 online/digital activity directions, 12 July 2021, public mirror",
+    "url": "https://drive.google.com/file/d/1IaM82NemYU8hIfYzuoVrCKXgz0N03FDF/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1IaM82NemYU8hIfYzuoVrCKXgz0N03FDF",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_departmental_circular",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "document_date": "2021-07-12",
+    "reference_english_normalisation": "V.R.248106/2021/DGE",
+    "academic_year": "2021–22",
+    "pdf_pages": 4,
+    "download_bytes": 45623,
+    "download_sha256": "c56e2e6a505615c82442ba546413127b465f55561e20a1456b526f5d23aa42f6",
+    "headers_sha256": "f00eab635335ea1658ecfe7c50bf6c5ada0dab454005708a27202bad95959218",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "12 July header; Covid-related online/digital decision; school through state directions; project and home-experiment provisions."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Remaining activity types, distinct project/non-project schedules, inauguration target and forwarding/access directions."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "Level descriptions with different school/subdistrict dates, online conduct, academic/technical support and school/subdistrict duties."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "District/state committees, headteachers/principals, AEO/DDE and DIET duties; handwritten signature labelled Director of General Education and circulation."
+      }
+    ],
+    "date_anomalies": [
+      "Discovery index labels the link 10 July 2021; actual circular is 12 July 2021.",
+      "PDF2 explicitly gives non-project activities: school 30 August, subdistrict 20 September, district 30 September; projects: school 25 September, subdistrict 10 October, district 25 October.",
+      "PDF3 level descriptions have no explicit item heading and say school completion on 25 August, subdistrict on 15 September and district before 30 September. No single harmonised timetable is inferred."
+    ],
+    "provenance_limit": "Public Drive copy discovered through a teacher index. Handwritten signature is labelled Director of General Education; no personal signatory name or authenticated signature is inferred. No original-hosted copy recovered.",
+    "review_scope": "All four pages rendered and read visually. Legacy-font extraction is damaged and was used only as a discovery aid.",
+    "notes": "Directs online/digital Shasthrarangam activities because of Covid. Seven numbered activity types include projects, home experiments and mathematical concept presentations. Dated plans, selection/support duties and historical participation conditions do not prove completion or supply Science Working Model rules, a Sasthrolsavam resumption, or current cloud permission.",
+    "topic_register": "pandemic-activity-sources.json"
+  },
+  {
+    "id": "pandemic-activity-004",
+    "title": "DGE proceedings of 15 February 2021: Vidyarangam and Shasthrarangam expansion to HSS/VHSS",
+    "url": "https://drive.google.com/file/d/1eR-V07NW2Sj4unim983NydFjctFe4KOy/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1eR-V07NW2Sj4unim983NydFjctFe4KOy",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_departmental_proceedings",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "document_date": "2021-02-15",
+    "reference_english_normalisation": "V.R.9677/20/DGE",
+    "effective_academic_year_as_printed": "2021–22",
+    "pdf_pages": 1,
+    "download_bytes": 195843,
+    "download_sha256": "10fe7d605e4d1772780c6a22e1cf886783c39cb4ec7232cdb8debc00147982af",
+    "headers_sha256": "befaf1aa9d16aeb1624d9be0f83c4fe5c8d6f07bd8131fbca3afae3f310631ea",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Proceedings/date; expansion from 2021–22; instruction to revise guidelines/action plan; signature/name/designation."
+      }
+    ],
+    "visible_issuing_details": {
+      "name_english_normalisation": "Jeevan Babu K, IAS",
+      "designation": "Director of General Education",
+      "validation_scope": "Printed name and handwritten block inspected; no cryptographic validation."
+    },
+    "date_note": "Discovery index lists 17 February; the proceedings themselves say 15 February 2021. The cited ministerial announcement is 27 December 2019, not the issue date.",
+    "provenance_limit": "Public Drive reproduction; original-hosted body not recovered in this pass.",
+    "review_scope": "Entire one-page scan read visually.",
+    "notes": "Extends the named Vidyarangam/Shasthrarangam programmes to Higher Secondary and Vocational Higher Secondary from 2021–22 and calls for revised guidelines/action plan. This is institutional scope evidence; it neither establishes actual participation nor dates a Sasthrolsavam inception, cancellation or resumption.",
+    "topic_register": "pandemic-activity-sources.json"
+  },
+  {
+    "id": "pandemic-activity-005",
+    "title": "DGE QIP(1)/210114/2020/DGE, 9 December 2020: 28th NCSC activities planned online",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2020/12/ncsc_9.12.2020.pdf",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/blog-page.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_departmental_circular",
+    "issuer_as_printed": "Office of the Director of General Education, Kerala",
+    "document_date": "2020-12-09",
+    "file_number_as_printed": "QIP(1)/210114/2020/DGE",
+    "programme_as_printed": "28th National Children's Science Congress (NCSC)",
+    "pdf_pages": 2,
+    "download_bytes": 773375,
+    "download_sha256": "df27624f235cf12b18c7ba2c1e7fda81e8f5373399c61b28f64734c3fd0b203b",
+    "headers_sha256": "cc6eb9246bb7e20517897df07fa61c478fd4ef5f7665af3882eab467b1ca143a",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Date/reference; KSCSTE nodal agency; theme and historical participation conditions."
+      },
+      {
+        "pdf_page_1based": 2,
+        "scope": "Planned programme timetable, pandemic-related online-only direction, institutional assistance and visible issuing block."
+      }
+    ],
+    "reference_as_printed": "KSCSTE/1353/2020-SPP dated 30 November 2020",
+    "visible_issuing_details": {
+      "name_as_printed": "Shinemon M.K",
+      "designation": "Additional Director of General Education, for Director of General Education",
+      "validation_scope": "Printed name, handwritten signature and seal visually inspected; cryptographic validity not tested."
+    },
+    "schedule_wording_as_printed": {
+      "district_teacher_guide_workshop": "1st week of December 2020",
+      "project_preparation": "December–January 2020",
+      "district_congress": "1st week of January 2020",
+      "state_congress": "2nd & 3rd week of January 2020"
+    },
+    "date_anomaly": "January 2020 labels conflict with the December 2020 issue/planning sequence. They are not silently changed to January 2021 or used as actual-held dates.",
+    "review_scope": "Both original-hosted scanned pages rendered and read visually; no usable extracted body text.",
+    "notes": "Expressly directs all the named NCSC programmes online because of the pandemic. This is Kerala institutional support for a separate national programme, not Kerala Sasthrolsavam or NCERT's national exhibition. The body is a plan, not a completion report; historical eligibility conditions and printing anomalies are not current Karen-entry instructions.",
+    "topic_register": "pandemic-activity-sources.json"
   },
   {
     "id": "pathways-01",

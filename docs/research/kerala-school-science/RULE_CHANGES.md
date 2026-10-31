@@ -18,6 +18,8 @@ For Karen's clarified target, **HS Science Working Model, item 115**, the inspec
 
 The mirrored order copies carry third-party presentation/watermarks. Their order identifiers agree with the references in the official compiled manual; their host is still a provenance limitation. Prefer the compiled official manual for current entrant instructions. A later applicable official circular can amend a named provision; unrelated event instructions cannot be transferred to Working Model merely because the exhibit uses electronics.
 
+The [2023 Science amendment](HISTORICAL_SCIENCE_CIRCULARS.md#official-amendment-12-october-2023) and [2023/2025 appeal/Work Experience directions](HISTORICAL_OPERATIONS.md) add dated comparisons. In particular, Work Experience Innovative Working Model is a separate event: its phone/laptop provisions do not settle Science Working Model access. A two-advancing-contestant appeal direction is separate from a group's required pupil count.
+
 ## Earlier blank forms and IT directions
 
 Two blank entry forms recovered from the official site's **2015 directory** are explicitly labelled **2014–15**. Their November 2015 archive captures do not change that printed academic-year label. They are historical templates, not completed registrations or current eligibility notices.
