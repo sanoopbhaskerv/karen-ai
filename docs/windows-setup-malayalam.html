@@ -103,8 +103,16 @@
   <section class="step" id="step6" aria-labelledby="title6">
     <div class="step-heading"><span class="number" aria-hidden="true">6</span><h2 id="title6">Firmware upload ചെയ്യുക</h2></div>
     <p>ബോർഡിൽ ഇപ്പോഴും external വയറുകളൊന്നും ബന്ധിപ്പിക്കരുത്. Monitor തുറന്നിട്ടുണ്ടെങ്കിൽ <strong>Ctrl+C</strong> ഉപയോഗിച്ച് അടയ്ക്കുക. ഈ upload ബോർഡിലെ നിലവിലുള്ള firmware മാറ്റും.</p>
-    <div class="command"><div class="command-head"><span>Window B · compile + upload</span><button class="copy" type="button" data-copy="cmd10" aria-describedby="cmd10">കോപ്പി</button></div><pre><code id="cmd10">.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port $karenPort</code></pre></div>
+    <div class="command"><div class="command-head"><span>Window B · compile + upload</span><button class="copy" type="button" data-copy="cmd10" aria-describedby="cmd10">കോപ്പി</button></div><pre><code id="cmd10">.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port $karenPort --compile-timeout 1800 --jobs 2 --verbose</code></pre></div>
     <p>ആദ്യം compile നടക്കും. <code>Credentials: private config.h</code> ഒരു വിവരമാണ്; ഒന്നും ടൈപ്പ് ചെയ്യേണ്ടതില്ല. പുതുക്കിയ tool ഓരോ 20 സെക്കൻഡിലും progress കാണിക്കും. Compile limit 30 മിനിറ്റ്; upload limit 4 മിനിറ്റ്. രണ്ട് compiler jobs ഉപയോഗിക്കും. <code>--verbose</code> നൽകിയാൽ വിശദമായ output ഉടനെ കാണിക്കും; അല്ലെങ്കിൽ അതത് ഘട്ടം അവസാനിക്കുമ്പോൾ കാണിക്കും. Log: <code>.tools/firmware.log</code>.</p>
+    <details class="notice" id="compile-retry">
+      <summary><strong>പഴയ command timeout ആയോ? COM15 retry command</strong></summary>
+      <p>മുൻ command അവസാനിച്ച് PowerShell prompt തിരിച്ചുവന്നശേഷം മാത്രം update ചെയ്യുക:</p>
+      <div class="command"><div class="command-head"><span>Window B · update main</span><button class="copy" type="button" data-copy="retry-update" aria-describedby="retry-update">കോപ്പി</button></div><pre><code id="retry-update">git pull --ff-only origin main</code></pre></div>
+      <p>ബോർഡ് ഇപ്പോഴും <strong>COM15</strong>-ൽ ആണെന്ന് ഘട്ടം 4-ലെ port list ഉപയോഗിച്ച് ഉറപ്പാക്കുക. മറ്റൊരു COM number ആണെങ്കിൽ താഴെ അത് മാറ്റണം. Serial Monitor അടച്ചിരിക്കണം; bare controller COM USB-യിൽ connected ആയിരിക്കണം.</p>
+      <div class="command"><div class="command-head"><span>Window B · COM15 retry with live output</span><button class="copy" type="button" data-copy="retry-upload" aria-describedby="retry-upload">കോപ്പി</button></div><pre><code id="retry-upload">.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port COM15 --compile-timeout 1800 --jobs 2 --verbose</code></pre></div>
+      <p>ഇത് മുകളിലെ upload command-ന് പകരമുള്ള retry ആണ്. <strong>രണ്ട് builds ഒരുമിച്ച് തുടങ്ങരുത്. Upload ഇതിനകം വിജയിച്ചാൽ വീണ്ടും upload ചെയ്യേണ്ടതില്ല;</strong> താഴെയുള്ള monitor command-ലേക്ക് പോകുക. <code>[compile] Started; limit=1800s. Live tool output follows.</code> കണ്ടാൽ പുതുക്കിയ tool ആണ് പ്രവർത്തിക്കുന്നത്.</p>
+    </details>
     <p>Upload വിജയിച്ചശേഷം:</p>
     <div class="command"><div class="command-head"><span>Window B · Serial Monitor + log</span><button class="copy" type="button" data-copy="cmd11" aria-describedby="cmd11">കോപ്പി</button></div><pre><code id="cmd11">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
     <p>Startup സന്ദേശങ്ങൾ കാണുന്നില്ലെങ്കിൽ <strong>RESET/EN</strong> ഒരിക്കൽ അമർത്തുക. ഇവ പരിശോധിക്കുക:</p>
