@@ -20,6 +20,7 @@ _IDENTIFIERS = re.compile(
     r'|ശ്രീ\s*ഹരി'
     r'|(?<!\w)p[\W_]*k[\W_]*m[\W_]*m(?:[\W_]*h[\W_]*s[\W_]*s|\s+higher\s+secondary\s+school)?(?:[\W_]*edarikk?ode)?(?!\w)'
     r'|പി[\s.\-]*കെ[\s.\-]*എം[\s.\-]*എം'
+    r'|(?<!\w)edarikk?ode(?!\w)|എടരിക്കോ[ടഡ]'
     r'|(?<!\w)thottasheri(?:yar|y|ya|ar)?(?!\w)|തോട്ടശ്ശേരി|തോട്ടശേരി'
     r'|(?:class|section|standard|ക്ലാസ്|ക്ലാസ്സ്)\s*[:.\-]?\s*(?:9|ix|nine|ഒമ്പത്|ഒൻപത്)\s*[.\-]?\s*(?:s|എസ്)(?!\w)',
     re.I,
