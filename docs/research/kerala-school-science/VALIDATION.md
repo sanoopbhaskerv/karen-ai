@@ -9,8 +9,8 @@ Checked on 31 October 2026. These checks establish the integrity and stated scop
 | Source records | 136 |
 | Distinct source URLs | 132 |
 | JSON files | 22 |
-| Concise English/Malayalam knowledge records | 63 |
-| Draft Malayalam evaluation questions | 44 |
+| Concise English/Malayalam knowledge records | 66 |
+| Draft Malayalam evaluation questions | 46 |
 | Indexed exhibit records | 16 |
 | General catalogue snapshots | 8 |
 | Catalogue observations across those snapshots | 1,835 |

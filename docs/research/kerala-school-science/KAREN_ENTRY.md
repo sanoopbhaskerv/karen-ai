@@ -38,6 +38,23 @@ Kerala's [2 September 2026 circular](https://education.kerala.gov.in/wp-content/
 
 No inspected Working Model provision settles mobile-hotspot permission, cloud-API permission, network provision, sound level, outlet allocation or a specific battery limit. Confirm the practical arrangements through the school instead of treating an unmentioned facility as guaranteed or prohibited.
 
+## Live operation, offline advice and supporting diagrams
+
+Karen should demonstrate the actual microphone-to-speaker operation reliably. A functioning electronic system can be explained through its inputs, processing and outputs; the inspected Working Model passages do not state a separate mechanical-motion requirement. This does not, by itself, establish entry approval.
+
+The following distinctions matter when using general preparation advice:
+
+| Statement | What the inspected sources establish |
+| --- | --- |
+| The model must work without active internet | No offline-only condition or internet ban was located in the Working Model passages or inspected 2026 instructions. Venue connectivity is also not guaranteed. Karen's current recognition, Gemini response and gTTS voice flow needs online services; stable circuit power does not remove those dependencies. |
+| A circuit diagram and block diagram are mandatory for this item | These are useful explanations to prepare, but those diagram types are not mandated by the inspected Working Model clause. The general display notes permit up to five charts. |
+| A brief report is compulsory at subdistrict registration | The general note expressly requires a short description with photographs for district/state participants. It does not expressly include subdistrict; a local notice could add a requirement. |
+| Every microcontroller exhibit needs the on-the-spot design document | The document describing operation, block diagram and components is specified for the separate Electronics/IoT/Robotics items, prepared in their first half-hour. That rule is not automatically a Working Model requirement. |
+
+Sources: [Working Model and display notes, printed pages 40–45 / PDF pages 51–56](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=51), [digital-item design document, 31 August 2026 circular, PDF page 1](https://education.kerala.gov.in/wp-content/uploads/2026/09/sasthrolsavam31082026.pdf#page=1), and [Karen's online provider implementation](../../../app.py).
+
+Prepare the circuit diagram for the actual board, a block diagram marking every online service, and a short account of the problem, student contribution, cost and observed results. These are practical recommendations. If an applicable organiser instruction requires fully offline operation, the current implementation would need a different offline architecture and fresh validation. A personal hotspot supplies internet; a recording or scripted answer does not establish live offline AI operation.
+
 ## Prepare for the actual scoring criteria
 
 The Working Model scoring table totals 100. The preparation ideas below are recommendations, not additional rules. [Manual printed page 64, PDF page 75](https://mela.kite.kerala.gov.in/2025/entry_forms/sasthrolsavam_manual_2025.pdf#page=75)
