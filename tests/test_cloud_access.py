@@ -166,3 +166,18 @@ def test_public_ui_still_accepts_board_token_without_browser_csrf(cloud):
     assert client.post('/chat', data=pcm(), content_type='audio/wav', headers=device('wrong')).status_code == 401
     voice = client.post('/chat', data=pcm(), content_type='audio/wav', headers=device())
     assert voice.status_code == 200 and voice.headers['X-Karen-Result'] == 'ok'
+
+
+def test_public_browser_can_refresh_expired_csrf_without_disabling_protection(cloud):
+    app, client, provider = cloud
+    app.config['KAREN_PUBLIC_UI'] = True
+    client.get('/')
+    headers = {'X-CSRF-Token': 'expired-token', 'X-Request-ID': 'csrf-retry-123'}
+    failed = client.post('/test_chat', json={'user_message': 'hi'}, headers=headers)
+    assert failed.status_code == 403 and failed.json['code'] == 'csrf_expired'
+    assert not provider.seen
+    refreshed = client.get('/csrf-token')
+    assert refreshed.status_code == 200 and refreshed.headers['Cache-Control'] == 'no-store'
+    headers['X-CSRF-Token'] = refreshed.json['csrf']
+    assert client.post('/test_chat', json={'user_message': 'hi'}, headers=headers).status_code == 200
+    assert len(provider.seen) == 1

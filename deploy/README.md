@@ -62,6 +62,8 @@ Automated coverage includes cloud authentication, device permissions, CSRF, host
 
 The live browser check in `tests/browser.cjs` accepts `KAREN_URL`, `KAREN_TEST_USERNAME`, `KAREN_TEST_PASSWORD`, `KAREN_WAV` and `KAREN_SCREENSHOT` via the process environment. It tests all three guide links/copy/checklist controls, a real Malayalam text reply, a lost-response retry, browser recording with a generated audio fixture and MP3 decoding. Do not put credentials directly in shell commands/history. These software checks cannot prove physical microphone, ESP32 TLS/NTP or speaker sound; finish with a real board question.
 
+With Playwright and Chrome/WebKit installed, `node tests/browser_recording.cjs` runs isolated browser regressions without contacting AI services or touching saved user memory. Set `KAREN_TEST_BROWSER=webkit` to test the WebKit engine. These cover unanswered microphone prompts, cancellation/late streams, denied or occupied microphones, interrupted audio startup, silence, blocked playback, stalled response bodies, expired page tokens and older browser request APIs. Text remains available during microphone setup; recording can be cancelled. An active phone/WhatsApp call can still prevent the operating system from providing microphone audio.
+
 ## Back up or delete early
 
 Before deletion, copy `/app/data/memory.txt` out of the app container to a private backup. Do not commit that file. Keep the backup outside the server being deleted.

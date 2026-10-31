@@ -213,7 +213,7 @@ def create_app(config=None, providers=None):
                         return
                 return jsonify(error='Device credentials only permit voice requests.', code='forbidden'), 403
         if app.config['KAREN_PUBLIC_UI'] and not (auth and auth.type.lower() == 'bearer'):
-            if request.endpoint in ('index', 'static', 'guide', 'readme', 'test_chat', 'reset', 'chat', 'request_result'):
+            if request.endpoint in ('index', 'static', 'guide', 'readme', 'test_chat', 'reset', 'chat', 'request_result', 'csrf_token'):
                 return
         response = jsonify(error='Authentication required.', code='unauthorized')
         response.status_code = 401
@@ -228,7 +228,8 @@ def create_app(config=None, providers=None):
         if request.method == 'POST' and (request.path in ('/update', '/test_chat', '/reset') or public_voice):
             token = request.headers.get('X-CSRF-Token') or request.form.get('csrf_token', '')
             if not secrets.compare_digest(token, session['csrf']):
-                return jsonify(error='Page expired. Refresh and try again.'), 403
+                app.logger.warning('stage=browser code=csrf_expired endpoint=%s', request.endpoint)
+                return jsonify(error='Page expired. Refresh and try again.', code='csrf_expired'), 403
 
     @app.after_request
     def headers(response):
@@ -255,6 +256,10 @@ def create_app(config=None, providers=None):
     @app.get('/admin')
     def admin():
         return dashboard()
+
+    @app.get('/csrf-token')
+    def csrf_token():
+        return jsonify(csrf=session['csrf'])
 
     @app.get('/docs/<path:filename>')
     def guide(filename):
