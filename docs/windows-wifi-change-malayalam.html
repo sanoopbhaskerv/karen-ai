@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Karen AI-യുടെ WiFi അല്ലെങ്കിൽ server address മാറ്റാനും Windows + ESP32-S3 ഉപയോഗിച്ച് വീണ്ടും പരീക്ഷിക്കാനുമുള്ള മലയാളം ഗൈഡ്.">
+  <title>Karen — WiFi മാറ്റി വീണ്ടും പരീക്ഷിക്കാം</title>
+  <style>
+    :root{color-scheme:light;--ink:#1b302b;--muted:#52665f;--green:#175b46;--line:#d9e2db;--paper:#fff;--bg:#f4f6f1}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nirmala UI",Kartika,"Noto Sans Malayalam",system-ui,sans-serif;font-size:17px;line-height:1.85}
+    a{color:var(--green);text-underline-offset:4px}button,input{font:inherit}button,a,input{touch-action:manipulation}
+    button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #d58616;outline-offset:4px}
+    .skip{position:absolute;left:1rem;top:-6rem;padding:.7rem;background:white}.skip:focus{top:1rem}
+    header,main,footer{max-width:960px;margin:auto;padding:2rem 1.25rem}header{padding-top:3rem;padding-bottom:1rem}
+    .eyebrow{font-family:system-ui,sans-serif;font-size:.78rem;letter-spacing:.13em;font-weight:750;color:var(--green)}
+    h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.45;letter-spacing:-.03em;margin:.6rem 0}h2{font-size:1.3rem;line-height:1.65;margin:0 0 .75rem}
+    p{margin:.7rem 0}strong{font-weight:750}.lead{max-width:760px;color:var(--muted)}
+    .tools{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin:1.25rem 0}.tools button{background:var(--green);border:0;color:white;border-radius:8px;padding:.5rem 1rem}
+    nav{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.2rem 0}nav a{border:1px solid var(--line);background:white;border-radius:30px;padding:.35rem .85rem;text-decoration:none;font-size:.9rem}
+    main{padding-top:0}.step{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:1.2rem 0;padding:1.5rem}
+    .step-heading{display:flex;align-items:flex-start;gap:.85rem}.number{flex:none;display:grid;place-items:center;width:2.1rem;height:2.1rem;background:#e5f1e9;color:var(--green);border-radius:50%;font-family:system-ui,sans-serif;font-weight:750}
+    .notice{border-left:4px solid #c88b29;background:#fff6e5;padding:.85rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
+    .go{border-left:4px solid var(--green);background:#edf6ef;padding:.85rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0}
+    .command{border:1px solid var(--line);border-radius:9px;overflow:hidden;margin:.85rem 0}
+    .command-head{display:flex;justify-content:space-between;gap:.7rem;align-items:center;background:#eff3ee;padding:.45rem .8rem;font-size:.8rem;color:var(--muted)}
+    .copy{flex:none;border:1px solid #b8c9be;background:white;color:var(--green);border-radius:6px;padding:.3rem .65rem;font-size:.85rem;min-height:40px}
+    pre{margin:0;padding:1rem;background:#fbfcfa;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;font-size:.88rem}
+    code{font-family:Consolas,"Cascadia Code",ui-monospace,monospace}p code,li code,dd code{background:#edf2ec;padding:.1rem .25rem;border-radius:3px;overflow-wrap:anywhere;font-size:.9em}
+    ul,ol{padding-left:1.5rem}li{margin:.4rem 0}.done{display:flex;align-items:center;gap:.7rem;margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.done input{flex:none;width:20px;height:20px;accent-color:var(--green)}
+    .step.complete{border-color:#6f9e81}dt{font-weight:750;margin-top:1rem}dd{margin:.3rem 0 1rem}
+    footer{padding-top:0;color:var(--muted);font-size:.9rem}.status{font-size:.85rem;color:var(--green);min-height:1.5rem}.small{font-size:.88rem;color:var(--muted)}
+    @media(max-width:520px){body{font-size:16px}.step{padding:1rem}header,main,footer{padding-left:.8rem;padding-right:.8rem}.command-head{padding:.45rem .6rem}pre{padding:.8rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:white;font-size:11pt}header,main,footer{max-width:none;padding:.5rem}nav,.tools,.copy,.done,.status,.skip{display:none}.step{border-radius:0;break-inside:auto;margin:.75rem 0;padding:1rem}.command,.notice,.go{break-inside:avoid}h2,dt{break-after:avoid}a{color:inherit}pre{font-size:9pt}}
+  </style>
+</head>
+<body>
+<a class="skip" href="#guide">നിർദ്ദേശങ്ങളിലേക്ക് പോകുക</a>
+<header>
+  <div class="eyebrow">KAREN / WINDOWS + ESP32-S3 / S3-N16R8</div>
+  <h1>WiFi മാറ്റാം.<br>കാരെൻ വീണ്ടും പരീക്ഷിക്കാം.</h1>
+  <p class="lead">മുമ്പ് setup പൂർത്തിയാക്കിയ Karen-ന്റെ WiFi പേര്, password, അല്ലെങ്കിൽ server address മാറുമ്പോൾ പിന്തുടരാനുള്ള മലയാളം ഗൈഡ്. ഈ HTML ഫയൽ Edge/Chrome-ൽ നേരിട്ട് തുറക്കാം; ഗൈഡ് വായിക്കാൻ server വേണ്ട.</p>
+  <div class="notice"><strong>Settings മാറ്റിയാൽ USB വഴി വീണ്ടും firmware upload ചെയ്യണം.</strong> File save ചെയ്തതുകൊണ്ടോ board restart ചെയ്തതുകൊണ്ടോ പുതിയ വിവരങ്ങൾ ബോർഡിൽ എത്തില്ല. Python/packages വീണ്ടും install ചെയ്യേണ്ടതില്ല; WiFi മാറ്റാൻ Gemini API key മാറ്റേണ്ടതില്ല.</div>
+  <p>WiFi പേര്, password, server address എന്നിവ മൂന്നും പഴയതുപോലെ ആണെങ്കിൽ upload വേണ്ട. Server പ്രവർത്തിപ്പിച്ച് ഘട്ടം 8-ലെ question test ചെയ്യാം.</p>
+  <div class="tools"><button type="button" id="print">പ്രിന്റ് / PDF</button><span id="progress" aria-live="polite">0 / 8 ഘട്ടങ്ങൾ പൂർത്തിയായി</span></div>
+  <nav aria-label="ഘട്ടങ്ങൾ"><a href="#step1">1. പുതിയ WiFi</a><a href="#step2">2. IPv4</a><a href="#step3">3. Laptop test</a><a href="#step4">4. Network test</a><a href="#step5">5. Settings</a><a href="#step6">6. USB / COM</a><a href="#step7">7. Upload</a><a href="#step8">8. വീണ്ടും ചോദിക്കാം</a><a href="#troubleshooting">പ്രശ്നങ്ങൾ</a></nav>
+  <p class="small">എല്ലാ commands-ഉം <code>app.py</code> ഉള്ള project folder-ൽ തുറന്ന PowerShell-ൽ നൽകുക. ഓരോ command-ഉം ഒന്നൊന്നായി നൽകുക. ആദ്യ setup പൂർത്തിയായിട്ടില്ലെങ്കിൽ <a href="windows-setup-malayalam.html">ആദ്യ setup ഗൈഡ്</a> ഉപയോഗിക്കുക.</p>
+  <p id="copy-status" class="status" role="status" aria-live="polite"></p>
+</header>
+<main id="guide">
+  <section class="step" id="step1" aria-labelledby="title1">
+    <div class="step-heading"><span class="number" aria-hidden="true">1</span><h2 id="title1">പുതിയ WiFi-യും രണ്ട് windows-ഉം തയ്യാറാക്കുക</h2></div>
+    <p>Server പ്രവർത്തിക്കുന്ന Windows laptop പുതിയ WiFi/hotspot-ലേക്ക് connect ചെയ്യുക. ബോർഡിന് <strong>2.4 GHz WiFi</strong> വേണം. Laptop-നും board-നും പരസ്പരം എത്താൻ കഴിയണം; guest network/client isolation ഉള്ള hotspot പ്രശ്നമാകാം. Live AI മറുപടിക്ക് laptop-ൽ internet വേണം.</p>
+    <ul><li><strong>Window A — Server:</strong> Karen server പ്രവർത്തിക്കുന്ന PowerShell. അത് തുറന്നുതന്നെ വയ്ക്കുക.</li><li><strong>Window B — Board:</strong> Project folder-ൽ മറ്റൊരു PowerShell തുറക്കുക. ഇനി settings, port, upload, monitor commands എല്ലാം ഇതിൽ നൽകുക.</li></ul>
+    <p>Window B-ൽ പഴയ Serial Monitor തുറന്നിരിക്കുകയാണെങ്കിൽ <strong>Ctrl+C</strong> നൽകി അടയ്ക്കുക. Window A-യിലെ server നിർത്തരുത്.</p>
+    <p>WiFi മാറ്റാനായി wiring മാറ്റേണ്ടതില്ല. Wiring തൊടണമെങ്കിൽ ആദ്യം എല്ലാ power supplies-ഉം ഊരുക; USB ബന്ധിപ്പിക്കുമ്പോൾ മുമ്പ് പരിശോധിച്ച power ക്രമം തന്നെ പിന്തുടരുക.</p>
+    <div class="go"><strong>പരിശോധിക്കുക:</strong> Laptop പുതിയ network-ൽ ഉണ്ട്; internet ലഭിക്കുന്നു; Window A, Window B ഏതാണെന്ന് വ്യക്തമാണ്.</div>
+    <label class="done"><input type="checkbox">പുതിയ network-ും windows-ഉം തയ്യാറായി</label>
+  </section>
+  <section class="step" id="step2" aria-labelledby="title2">
+    <div class="step-heading"><span class="number" aria-hidden="true">2</span><h2 id="title2">Server laptop-ന്റെ പുതിയ IPv4 കണ്ടെത്തുക</h2></div>
+    <div class="command"><div class="command-head"><span>Window B · PowerShell</span><button class="copy" type="button" data-copy="cmd-ip" aria-describedby="cmd-ip">കോപ്പി</button></div><pre><code id="cmd-ip">ipconfig</code></pre></div>
+    <p>പുതിയ WiFi-യുമായി connect ചെയ്ത adapter-ന്റെ <strong>IPv4 Address</strong> എഴുതിവയ്ക്കുക. ഉദാഹരണം: <code>192.168.1.50</code>. നിങ്ങളുടെ address വ്യത്യസ്തമായിരിക്കാം.</p>
+    <div class="notice"><strong>Default Gateway എടുക്കരുത്.</strong> VPN/virtual adapter, <code>localhost</code>, <code>127.0.0.1</code>, <code>0.0.0.0</code> എന്നിവയും board-ന്റെ server address ആയി ഉപയോഗിക്കരുത്.</div>
+    <p>Server മറ്റൊരു Windows computer-ലേക്ക് മാറ്റിയെങ്കിൽ <code>ipconfig</code> ആ computer-ലാണ് നൽകേണ്ടത്. അതിൽ Karen setup, API key, server എന്നിവ നേരത്തേ തയ്യാറായിരിക്കണം. ഈ ഗൈഡ് local HTTP server-നും port <code>8080</code>-നും വേണ്ടിയുള്ളതാണ്; മറ്റൊരു port ആണെങ്കിൽ എല്ലാ server URLs-ലും അതേ port ഉപയോഗിക്കുക.</p>
+    <label class="done"><input type="checkbox">Server computer-ന്റെ ഇപ്പോഴത്തെ IPv4 എഴുതിവച്ചു</label>
+  </section>
+  <section class="step" id="step3" aria-labelledby="title3">
+    <div class="step-heading"><span class="number" aria-hidden="true">3</span><h2 id="title3">ആദ്യം laptop-ൽ Karen പരീക്ഷിക്കുക</h2></div>
+    <p>Window A-യിൽ server നേരത്തേ പ്രവർത്തിക്കുന്നുണ്ടെങ്കിൽ അത് ഉപയോഗിക്കാം. WiFi മാറിയതുകൊണ്ടുമാത്രം server restart ചെയ്യേണ്ടതില്ല. Server നിർത്തിയിരിക്കുകയാണെങ്കിൽ മാത്രം:</p>
+    <div class="command"><div class="command-head"><span>Window A · server തുടങ്ങുക</span><button class="copy" type="button" data-copy="cmd-start" aria-describedby="cmd-start">കോപ്പി</button></div><pre><code id="cmd-start">.\start-windows.cmd</code></pre></div>
+    <p><strong>Server computer-ൽ തന്നെ</strong> Chrome/Edge ഉപയോഗിച്ച് <a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a> തുറക്കുക.</p>
+    <ol><li><strong>മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?</strong> എന്ന് type ചെയ്ത് അയക്കുക. അർത്ഥമുള്ള മലയാളം മറുപടി ലഭിക്കണം.</li><li><strong>Record a question</strong> അമർത്തി microphone permission അനുവദിക്കുക. അഞ്ച് സെക്കൻഡിനുള്ളിൽ ചെറിയ ചോദ്യം ചോദിക്കുക.</li><li>ചോദ്യം തിരിച്ചറിഞ്ഞിട്ടുണ്ടോ, പൂർണ്ണമായ ശബ്ദമറുപടി ലഭിക്കുന്നുണ്ടോ എന്ന് പരിശോധിക്കുക.</li></ol>
+    <div class="go"><strong>തുടരാം:</strong> യഥാർഥ text, voice മറുപടികൾ ലഭിച്ചു. Apology/provider error അല്ലെങ്കിൽ scripted demo reply ലഭിച്ചാൽ live test വിജയിച്ചിട്ടില്ല; ആദ്യം server പ്രശ്നം പരിഹരിക്കുക.</div>
+    <label class="done"><input type="checkbox">Laptop-ൽ യഥാർഥ text, voice tests വിജയിച്ചു</label>
+  </section>
+  <section class="step" id="step4" aria-labelledby="title4">
+    <div class="step-heading"><span class="number" aria-hidden="true">4</span><h2 id="title4">മറ്റൊരു device-ൽ നിന്ന് server എത്തുന്നുണ്ടോ?</h2></div>
+    <p>അതേ WiFi-യിൽ connect ചെയ്ത മറ്റൊരു phone/laptop-ന്റെ browser-ൽ <strong>നിങ്ങളുടെ യഥാർഥ IPv4</strong> ഉപയോഗിച്ച് ഈ രീതിയിൽ തുറക്കുക:</p>
+    <pre><code>http://192.168.1.50:8080/health</code></pre>
+    <p><code>192.168.1.50</code> ഉദാഹരണം മാത്രമാണ്. Page-ൽ <code>"status": "ok"</code> ഉള്ള JSON ലഭിക്കണം. ഇത് server-ലേക്ക് network വഴി എത്തുന്നു എന്ന് മാത്രം തെളിയിക്കുന്നു; AI പ്രവർത്തിക്കുന്നു എന്നുറപ്പിക്കാൻ ഘട്ടം 3-ലെ tests വേണം.</p>
+    <div class="notice">Page തുറക്കുന്നില്ലെങ്കിൽ IPv4, server Window A, trusted <strong>Private network</strong>-ലെ Python firewall permission, hotspot client isolation എന്നിവ പരിശോധിക്കുക. Firewall മുഴുവനായി off ചെയ്യരുത്. Hotspot നൽകുന്ന phone-ൽ നിന്ന് test നടക്കണമെന്നില്ല; കഴിയുമെങ്കിൽ അതിൽ connect ചെയ്ത മറ്റൊരു device ഉപയോഗിക്കുക.</div>
+    <p>മറ്റൊരു device ലഭ്യമല്ലെങ്കിൽ ഈ പരിശോധന ബാക്കിയാണെന്ന് കുറിക്കുക. താഴെയുള്ള local check വിജയിച്ചാലും, മറ്റൊരു device-ൽ നിന്ന് എത്തുന്നു എന്ന് തെളിയില്ല; അവസാനം board question test വിജയിക്കണം.</p>
+    <p><strong>ആവശ്യമെങ്കിൽ local doctor check:</strong> Window B-ൽ ആദ്യം server origin നൽകുക:</p>
+    <div class="command"><div class="command-head"><span>Window B · actual server origin നൽകുക</span><button class="copy" type="button" data-copy="cmd-origin" aria-describedby="cmd-origin">കോപ്പി</button></div><pre><code id="cmd-origin">$karenServer = Read-Host "Type the server origin, for example http://192.168.1.50:8080"</code></pre></div>
+    <p>ചോദിക്കുമ്പോൾ യഥാർഥ IPv4 ഉള്ള URL നൽകി Enter അമർത്തുക. തുടർന്ന്:</p>
+    <div class="command"><div class="command-head"><span>Window B · local health check</span><button class="copy" type="button" data-copy="cmd-doctor" aria-describedby="cmd-doctor">കോപ്പി</button></div><pre><code id="cmd-doctor">.\doctor-windows.cmd --controller esp32_s3 --server $karenServer</code></pre></div>
+    <p><code>[PASS] Backend health</code> നോക്കുക; മറ്റ് <code>WARN</code>/<code>FAIL</code> വരികളും വായിക്കുക. ഈ command AI request അയക്കുകയോ firmware upload ചെയ്യുകയോ ചെയ്യുന്നില്ല.</p>
+    <label class="done"><input type="checkbox">മറ്റൊരു device-ൽ health പരിശോധിച്ചു; അല്ലെങ്കിൽ ബാക്കിയാണെന്ന് കുറിച്ചു</label>
+  </section>
+  <section class="step" id="step5" aria-labelledby="title5">
+    <div class="step-heading"><span class="number" aria-hidden="true">5</span><h2 id="title5">WiFi / server settings മാറ്റി save ചെയ്യുക</h2></div>
+    <div class="command"><div class="command-head"><span>Window B · നിലവിലുള്ള private file തുറക്കുക</span><button class="copy" type="button" data-copy="cmd-config" aria-describedby="cmd-config">കോപ്പി</button></div><pre><code id="cmd-config">notepad firmware\karen_ai\config.h</code></pre></div>
+    <p>നിലവിലുള്ള ഈ മൂന്ന് വരികളിൽ <strong>മാറിയ വിവരങ്ങൾ മാത്രം</strong> തിരുത്തുക. Duplicate വരികൾ ചേർക്കരുത്. താഴെയുള്ള block <strong>Notepad-നുള്ള ഉദാഹരണമാണ്; PowerShell-ൽ paste ചെയ്യരുത്.</strong></p>
+    <div class="command"><div class="command-head"><span>config.h · example values മാറ്റണം</span><button class="copy" type="button" data-copy="config-example" aria-describedby="config-example">കോപ്പി</button></div><pre><code id="config-example">#define WIFI_SSID "YOUR_2_4_GHZ_HOTSPOT"
+#define WIFI_PASSWORD "YOUR_HOTSPOT_PASSWORD"
+#define SERVER_ORIGIN "http://192.168.1.50:8080"</code></pre></div>
+    <ul><li>WiFi പേര്, password എന്നിവ കൃത്യമായി നൽകുക. Server address മാത്രം മാറിയെങ്കിൽ WiFi വരികൾ മാറ്റേണ്ടതില്ല.</li><li><code>SERVER_ORIGIN</code>-ൽ ഘട്ടം 2-ലെ IPv4 നൽകുക. <code>http://</code>, <code>:8080</code>, quotation marks നിലനിർത്തുക. അവസാനം <code>/</code> അല്ലെങ്കിൽ <code>/health</code> ചേർക്കരുത്.</li><li>മറ്റ് settings, GPIO pins, <code>ROOT_CA</code> block എന്നിവ മാറ്റരുത്. Gemini API key ഇവിടെ ഇടരുത്.</li><li><strong>Ctrl+S</strong> നൽകി save ചെയ്ത് Notepad അടയ്ക്കുക. File പേര് <code>config.h</code> തന്നെ വേണം; <code>config.h.txt</code> ആകരുത്.</li></ul>
+    <div class="notice">Notepad പുതിയ blank file സൃഷ്ടിക്കണോ എന്ന് ചോദിച്ചാൽ cancel ചെയ്യുക. ശരിയായ project folder-ലാണോ എന്ന് പരിശോധിക്കുക. നിലവിലുള്ള private file-നെ example file കൊണ്ട് overwrite ചെയ്യരുത്. ഇത് local HTTP ഗൈഡാണ്; cloud HTTPS-ലേക്ക് മാറ്റാൻ ശരിയായ root certificate ഉൾപ്പെടെയുള്ള വേറെ setup വേണം.</div>
+    <label class="done"><input type="checkbox">യഥാർഥ WiFi വിവരങ്ങളും server address-ഉം save ചെയ്തു</label>
+  </section>
+  <section class="step" id="step6" aria-labelledby="title6">
+    <div class="step-heading"><span class="number" aria-hidden="true">6</span><h2 id="title6">USB ബന്ധിപ്പിച്ച് ഇപ്പോഴത്തെ COM port കണ്ടെത്തുക</h2></div>
+    <p>Board-ന്റെ മുമ്പ് ഉപയോഗിച്ച <strong>COM USB socket</strong>-ൽ USB data cable ബന്ധിപ്പിക്കുക. പഴയ COM number മാറിയിരിക്കാം. Serial Monitor തുറന്നിട്ടുണ്ടെങ്കിൽ ആദ്യം Window B-ൽ <strong>Ctrl+C</strong> നൽകുക.</p>
+    <div class="command"><div class="command-head"><span>Window B · port list</span><button class="copy" type="button" data-copy="cmd-ports" aria-describedby="cmd-ports">കോപ്പി</button></div><pre><code id="cmd-ports">.\.venv\Scripts\python.exe scripts\board.py ports</code></pre></div>
+    <p>List-ൽ കണ്ട യഥാർഥ port തിരഞ്ഞെടുക്കുക. ഒന്നിലധികം ഉണ്ടെങ്കിൽ board unplug/replug ചെയ്ത് list വീണ്ടും പരിശോധിക്കുക; port ഊഹിക്കരുത്.</p>
+    <div class="command"><div class="command-head"><span>Window B · യഥാർഥ COM പേര് നൽകുക</span><button class="copy" type="button" data-copy="cmd-port" aria-describedby="cmd-port">കോപ്പി</button></div><pre><code id="cmd-port">$karenPort = Read-Host "Type the controller's COM port shown above"</code></pre></div>
+    <p>ചോദിക്കുമ്പോൾ ഉദാ. <code>COM5</code> എന്ന രീതിയിൽ <strong>list-ൽ കണ്ട പേര്</strong> നൽകി Enter അമർത്തുക. Upload-നും monitor-നും ഇതേ Window B ഉപയോഗിക്കുക.</p>
+    <label class="done"><input type="checkbox">Board ബന്ധിപ്പിച്ചു; യഥാർഥ COM port നൽകി</label>
+  </section>
+  <section class="step" id="step7" aria-labelledby="title7">
+    <div class="step-heading"><span class="number" aria-hidden="true">7</span><h2 id="title7">പുതിയ settings board-ലേക്ക് upload ചെയ്യുക</h2></div>
+    <p>ഇത് മുമ്പ് പരിശോധിച്ച <strong>ESP32-S3 / N16R8</strong> board-നുള്ള command ആണ്. മറ്റൊരു controller ആണെങ്കിൽ ഈ profile ഉപയോഗിക്കരുത്. Serial Monitor അടച്ചിരിക്കണം.</p>
+    <div class="command"><div class="command-head"><span>Window B · compile + upload</span><button class="copy" type="button" data-copy="cmd-upload" aria-describedby="cmd-upload">കോപ്പി</button></div><pre><code id="cmd-upload">.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port $karenPort --verbose</code></pre></div>
+    <p>ഈ command പുതിയ private settings ഉപയോഗിച്ച് <strong>compile ചെയ്തശേഷം upload ചെയ്യും</strong>. വേറെ compile command വേണ്ട. <code>Credentials: private config.h</code> വിവരം മാത്രമാണ്; ഒന്നും type ചെയ്യേണ്ടതില്ല.</p>
+    <p>Compile-ന് സമയം വേണം; output ശ്രദ്ധിച്ച് പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കുക. ഒരേ സമയം മറ്റൊരു build/upload തുടങ്ങരുത്. Error വന്നാൽ തുടർന്നുള്ള ഘട്ടത്തിലേക്ക് പോകരുത്. Log: <code>.tools/firmware.log</code>.</p>
+    <p>Upload വിജയിച്ച് command അവസാനിച്ചശേഷം:</p>
+    <div class="command"><div class="command-head"><span>Window B · Serial Monitor + log</span><button class="copy" type="button" data-copy="cmd-monitor" aria-describedby="cmd-monitor">കോപ്പി</button></div><pre><code id="cmd-monitor">.\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log</code></pre></div>
+    <p>Monitor <strong>115200 baud</strong>-ൽ തുറക്കും. Startup lines കാണുന്നില്ലെങ്കിൽ board-ന്റെ <strong>RESET/EN</strong> ഒരിക്കൽ അമർത്തുക. ഇതിൽ താഴെയുള്ളവ പരിശോധിക്കുക:</p>
+    <pre><code>Controller: esp32_s3
+flash: 16777216 bytes | PSRAM: 8388608 bytes
+[WIFI] Connected
+[READY]</code></pre>
+    <div class="go"><strong>തുടരാം:</strong> ശരിയായ memory sizes-ഉം <code>[WIFI] Connected</code>-ഉം കാണണം. <code>[READY]</code> മാത്രം കണ്ടാൽ WiFi/server test വിജയിച്ചതായി കരുതരുത്. WiFi error, wrong memory size, തുടർച്ചയായ reboot എന്നിവ വന്നാൽ നിർത്തി പരിശോധിക്കുക.</div>
+    <label class="done"><input type="checkbox">Upload വിജയിച്ചു; boot, memory, WiFi പരിശോധിച്ചു</label>
+  </section>
+  <section class="step" id="step8" aria-labelledby="title8">
+    <div class="step-heading"><span class="number" aria-hidden="true">8</span><h2 id="title8">Board-ൽ നിന്ന് ഒരു ചോദ്യം ചോദിച്ച് ഉറപ്പാക്കുക</h2></div>
+    <p>Window A-യിലെ server-ും Window B-യിലെ monitor-ും പ്രവർത്തിക്കണം. Microphone/external button നേരത്തേ പരിശോധിച്ച് ബന്ധിപ്പിച്ചിരിക്കണം.</p>
+    <ol><li><strong>External question button</strong> ഒരിക്കൽ അമർത്തി വിടുക. Onboard BOOT button ഉപയോഗിക്കരുത്.</li><li><code>[MIC] Recording. Speak now.</code> കണ്ടശേഷം <strong>മഴ എങ്ങനെയാണ് ഉണ്ടാകുന്നത്?</strong> എന്ന് അഞ്ച് സെക്കൻഡിനുള്ളിൽ ചോദിക്കുക.</li><li>Reply പൂർത്തിയാകുന്നതുവരെ വീണ്ടും button അമർത്തരുത്. Server response കാത്തിരിക്കുമ്പോൾ request-ന് 160 seconds വരെ സമയം എടുക്കാം.</li><li>Monitor-ൽ <code>samples=80000/80000</code>, <code>[HTTP] Result: ok</code> എന്നിവ നോക്കുക. Laptop-ലെ Karen page refresh ചെയ്ത് തിരിച്ചറിഞ്ഞ ചോദ്യവും മറുപടിയും വായിക്കുക.</li><li>Amplifier/speaker ബന്ധിപ്പിച്ചിട്ടുണ്ടെങ്കിൽ <strong>പൂർണ്ണവും വ്യക്തവുമായ ശബ്ദമറുപടി</strong> കേൾക്കണം. തുടർന്ന് മറ്റൊരു ചെറിയ ചോദ്യം കൂടി പരീക്ഷിക്കുക.</li></ol>
+    <div class="notice"><code>spoken-error</code>, zero-signal warning, provider error/apology എന്നിവ വന്നാൽ test വിജയിച്ചിട്ടില്ല. <code>[PLAY] Decoder finished</code> വന്നതുകൊണ്ടുമാത്രം speaker-ൽ ശബ്ദം കേൾക്കുന്നു എന്നുറപ്പില്ല. Amplifier/speaker ഇനിയും ബന്ധിപ്പിച്ചിട്ടില്ലെങ്കിൽ dashboard/log വഴി mic + server മാത്രം പരിശോധിക്കാം; speaker test ബാക്കിയാണ്.</div>
+    <div class="go"><strong>വിജയിച്ചു:</strong> പുതിയ network-ൽ board connect ചെയ്തു; server യഥാർഥ ചോദ്യം തിരിച്ചറിഞ്ഞു; ശരിയായ മറുപടി ലഭിച്ചു. Speaker ഉണ്ടെങ്കിൽ അത് പൂർണ്ണമായി കേട്ടു.</div>
+    <p>ഉപയോഗിക്കുമ്പോൾ server window തുറന്നുവയ്ക്കുക; laptop sleep ആകരുത്. അടുത്ത തവണ WiFi വിവരങ്ങളോ laptop IPv4-ഓ വീണ്ടും മാറിയാൽ settings മാറ്റി upload ആവർത്തിക്കുക. വിവരങ്ങൾ മാറിയിട്ടില്ലെങ്കിൽ upload വേണ്ട.</p>
+    <label class="done"><input type="checkbox">Board question test വിജയിച്ചു; speaker test ചെയ്തോ ബാക്കിയാണോ എന്ന് ഉറപ്പാക്കി</label>
+  </section>
+  <section class="step" id="troubleshooting" aria-labelledby="troubleshooting-title">
+    <h2 id="troubleshooting-title">പ്രശ്നം വന്നാൽ</h2>
+    <dl>
+      <dt>WiFi connect ആകുന്നില്ല</dt><dd>2.4 GHz, exact WiFi പേര്/password പരിശോധിക്കുക. Settings തിരുത്തിയശേഷം upload വിജയിച്ചോ എന്ന് ഉറപ്പാക്കുക.</dd>
+      <dt>WiFi connect ആയി; HTTP/server error വരുന്നു</dt><dd>Server Window A പ്രവർത്തിക്കുന്നുണ്ടോ, ഇപ്പോഴത്തെ laptop IPv4 തന്നെയാണോ <code>SERVER_ORIGIN</code>-ൽ, ശരിയായ port ആണോ, firewall/private-network permission ശരിയാണോ എന്ന് നോക്കുക. ഘട്ടം 4-ലെ remote health test ആവർത്തിക്കുക.</dd>
+      <dt>Port busy / upload connect ആകുന്നില്ല</dt><dd>എല്ലാ Serial Monitors-ഉം അടയ്ക്കുക. Data cable, ഇപ്പോഴത്തെ COM port എന്നിവ പരിശോധിക്കുക. വീണ്ടും ശ്രമിക്കുന്നതിന് മുമ്പ് ആദ്യ upload command അവസാനിച്ചെന്ന് ഉറപ്പാക്കുക. Flash erase ചെയ്യരുത്.</dd>
+      <dt>Compile error / timeout</dt><dd><code>.tools/firmware.log</code>-ലെ അവസാന error പരിശോധിക്കുക. ഒരേസമയം പല builds തുടങ്ങരുത്. <code>--verbose</code> command output-ന്റെ അവസാന വരികൾ സൂക്ഷിക്കുക.</dd>
+      <dt>Reply error അല്ലെങ്കിൽ ശബ്ദം വരുന്നില്ല</dt><dd>മുൻ request-ന്റെ error/request ID നോക്കിയശേഷം മാത്രം വീണ്ടും ചോദിക്കുക. <code>spoken-error</code> ആണെങ്കിൽ Python server logs പരിശോധിക്കുക. HTTP result ശരിയായിട്ടും ശബ്ദമില്ലെങ്കിൽ മുമ്പ് പരിശോധിച്ച amplifier/speaker/power connections മുതിർന്നയാളോടൊപ്പം നോക്കുക; wiring മാറ്റുന്നതിന് മുമ്പ് power off ചെയ്യുക.</dd>
+    </dl>
+  </section>
+</main>
+<footer>
+  <p><strong>സഹായം ചോദിക്കുമ്പോൾ:</strong> ഘട്ടത്തിന്റെ നമ്പർ, അവസാന error, യഥാർഥ COM port, request ID എന്നിവ നൽകുക. <code>.tools/firmware.log</code>, <code>.tools/serial.log</code>, <code>.tools/doctor.log</code> എന്നിവ ആദ്യം പരിശോധിക്കുക; machine/network വിവരങ്ങൾ ഉണ്ടായേക്കാം. API key, WiFi password, <code>.env</code>, <code>config.h</code> എന്നിവ അയക്കരുത്.</p>
+  <p>ഈ പേജ് passwords ചോദിക്കുകയോ വിവരങ്ങൾ അയക്കുകയോ ചെയ്യുന്നില്ല. Checkboxes reload ചെയ്യുമ്പോൾ reset ആകും. Print/PDF button browser-ന്റെ print dialog തുറക്കും.</p>
+  <p><a href="windows-setup-malayalam.html">ആദ്യ setup ഗൈഡ്</a> · <a href="../READMEMALAYALAM.md">വിശദമായ മലയാളം ഗൈഡ്</a> · <a href="FIRST_CALL_WINDOWS.md">Full call guide</a> · <a href="HARDWARE.md">Amplifier / hardware notes</a></p>
+</footer>
+<script>
+  'use strict';
+  document.getElementById('print').addEventListener('click', () => window.print());
+  const checklist = document.querySelectorAll('.done input');
+  checklist.forEach(input => input.addEventListener('change', () => {
+    input.closest('.step').classList.toggle('complete', input.checked);
+    const count = document.querySelectorAll('.done input:checked').length;
+    document.getElementById('progress').textContent = `${count} / ${checklist.length} ഘട്ടങ്ങൾ പൂർത്തിയായി`;
+  }));
+  const copyFeedbackTimers = new WeakMap();
+  let copyStatusTimer;
+  document.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
+    const code = document.getElementById(button.dataset.copy);
+    const text = code.textContent;
+    let copied = false;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        copied = true;
+      }
+    } catch (_) { /* File/permission restrictions: try the local fallback. */ }
+    if (!copied) {
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.setAttribute('aria-label', 'Copy command');
+      area.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0';
+      document.body.appendChild(area);
+      area.focus(); area.select();
+      try { copied = document.execCommand('copy'); } catch (_) { copied = false; }
+      area.remove();
+    }
+    if (!copied) {
+      const range = document.createRange(); range.selectNodeContents(code);
+      const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range);
+    }
+    button.textContent = copied ? 'കോപ്പി ചെയ്തു' : 'Ctrl+C നൽകുക';
+    document.getElementById('copy-status').textContent = copied
+      ? 'കോപ്പി ചെയ്തു. സൂചിപ്പിച്ച window-ൽ ഈ command മാത്രം paste ചെയ്യുക.'
+      : 'Text തിരഞ്ഞെടുത്തു. Ctrl+C ഉപയോഗിച്ച് കോപ്പി ചെയ്യുക.';
+    clearTimeout(copyFeedbackTimers.get(button));
+    copyFeedbackTimers.set(button, setTimeout(() => {
+      button.textContent = 'കോപ്പി';
+      copyFeedbackTimers.delete(button);
+    }, 4000));
+    clearTimeout(copyStatusTimer);
+    copyStatusTimer = setTimeout(() => {
+      document.getElementById('copy-status').textContent = '';
+    }, 4000);
+    if (copied) button.focus({preventScroll:true});
+  }));
+</script>
+</body>
+</html>

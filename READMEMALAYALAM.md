@@ -4,6 +4,8 @@
 
 **HTML ഗൈഡ്:** [മലയാളം setup page](docs/windows-setup-malayalam.html) download ചെയ്ത് Edge/Chrome-ൽ തുറക്കാം. ഓരോ command-നും copy button ഉണ്ട്; print/PDF ആക്കാനും കഴിയും. വായിക്കാൻ server പ്രവർത്തിക്കേണ്ടതില്ല.
 
+**പിന്നീട് WiFi / server address മാറിയോ?** [WiFi മാറ്റി വീണ്ടും പരീക്ഷിക്കാനുള്ള മലയാളം ഗൈഡ്](docs/windows-wifi-change-malayalam.html) ഉപയോഗിക്കുക. Settings മാറ്റൽ, USB upload, network പരിശോധന, board-ൽ നിന്ന് വീണ്ടും ചോദ്യം ചോദിക്കൽ എന്നിവ ഓരോ ഘട്ടമായി നൽകിയിട്ടുണ്ട്.
+
 Windows + S3-N16R8 wiring call-ന് [ആദ്യ കോൾ ഗൈഡ് (English)](docs/FIRST_CALL_WINDOWS.md) ഉപയോഗിക്കുക. ഓരോ ഘട്ടത്തിന്റെയും commands, wiring, പ്രതീക്ഷിക്കേണ്ട logs, stop/go checks അതിലുണ്ട്. ഇപ്പോഴത്തെ kit **main** branch-ൽ നിന്ന് download ചെയ്യുക.
 
 **ശ്രീഹരി V, ക്ലാസ് 9S, PKMMHSS എടരിക്കോട്** എന്ന വിദ്യാർത്ഥിയുടെ ശാസ്ത്രപ്രദർശന പ്രോജക്ടാണ് മലയാളത്തിൽ സംസാരിക്കുന്ന Karen AI. ആദ്യമായി ഇത് ഉപയോഗിക്കുന്ന ഒരാൾക്കുവേണ്ടിയാണ് ഈ ഗൈഡ്. കോഡ് മുഴുവൻ മനസ്സിലാക്കിയ ശേഷമേ തുടങ്ങാവൂ എന്നില്ല. ഒരു ഘട്ടം ശരിയായെന്ന് ഉറപ്പാക്കിയശേഷം അടുത്തതിലേക്ക് പോകുക.
