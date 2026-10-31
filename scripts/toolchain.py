@@ -5,6 +5,7 @@ import platform
 
 CORE = 'esp32:esp32'
 CORE_VERSION = '3.3.12'
+COMPILE_TIMEOUT_SECONDS = 1800
 AUDIO = 'ESP8266Audio'
 AUDIO_VERSION = '2.4.1'
 INDEX_URL = 'https://espressif.github.io/arduino-esp32/package_esp32_index.json'

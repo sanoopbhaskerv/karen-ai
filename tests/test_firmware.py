@@ -3,6 +3,7 @@ from argparse import Namespace
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import threading
 from types import SimpleNamespace
 
@@ -151,6 +152,72 @@ def test_timeout_partial_output_is_redacted_and_logged(project, monkeypatch, cap
     combined = log.read_text() + capsys.readouterr().out
     assert 'sensitive-password' not in combined
     assert 'Timed out' in combined and 'partial output' in combined
+
+
+def test_slow_build_controls_and_verbose_timeout_never_upload(project, monkeypatch):
+    (project / 'firmware/karen_ai/config.h').write_text('#define WIFI_SSID "network"\n#define WIFI_PASSWORD "password"\n')
+    monkeypatch.setattr(firmware, 'find_cli', lambda *_: 'arduino-cli')
+    calls = []
+    def stream(command, emit, timeout, env):
+        calls.append((command, timeout))
+        raise subprocess.TimeoutExpired(command, timeout)
+    monkeypatch.setattr(firmware, 'stream_tool', stream)
+    with pytest.raises(subprocess.TimeoutExpired):
+        firmware.build(args(upload=True, port='COM15', verbose=True, compile_timeout=2400, jobs=1), project, {})
+    assert len(calls) == 1 and calls[0][0][1] == 'compile'
+    assert '--verbose' in calls[0][0] and calls[0][1] == 2400
+    assert calls[0][0][calls[0][0].index('--jobs') + 1] == '1'
+
+
+def test_default_compile_allows_first_windows_build_and_limits_parallelism(project, monkeypatch):
+    monkeypatch.setattr(firmware, 'find_cli', lambda *_: 'arduino-cli')
+    calls = []
+    monkeypatch.setattr(firmware, 'run_tool', lambda command, *_a, **kw: calls.append((command, kw)) or 0)
+    assert firmware.build(args(), project, {}) == 0
+    assert calls[0][1]['timeout'] == 1800
+    assert calls[0][0][calls[0][0].index('--jobs') + 1] == '2'
+
+
+@pytest.mark.parametrize('options', [{'compile_timeout': 0}, {'compile_timeout': 7201}, {'jobs': 0}, {'jobs': 33}])
+def test_invalid_build_controls_do_not_invoke_tools(project, monkeypatch, options):
+    monkeypatch.setattr(firmware, 'find_cli', lambda *_: pytest.fail('Invalid controls must stop before tools'))
+    with pytest.raises(ValueError):
+        firmware.build(args(**options), project, {})
+
+
+def test_verbose_output_is_live_and_redacted(project, monkeypatch, capsys):
+    marker = project / 'reader-has-seen-output'
+    real_print = print
+    def capture(message, **kwargs):
+        real_print(message, **kwargs)
+        if 'STREAM_READY' in message:
+            marker.touch()
+    monkeypatch.setattr(firmware, 'print', capture, raising=False)
+    script = ('import pathlib,sys,time\n'
+              'print("private-stream-password", flush=True)\n'
+              'print("STREAM_READY", flush=True)\n'
+              'deadline=time.monotonic()+5\n'
+              'while not pathlib.Path(sys.argv[1]).exists() and time.monotonic()<deadline: time.sleep(.01)\n'
+              'sys.exit(0 if pathlib.Path(sys.argv[1]).exists() else 2)\n')
+    log = project / '.tools/firmware.log'
+    code = firmware.run_tool([sys.executable, '-u', '-c', script, str(marker)],
+                             '#define WIFI_PASSWORD "private-stream-password"', {},
+                             timeout=10, stream_output=True, log_path=log)
+    assert code == 0, 'Tool must receive the marker before it exits, proving live output'
+    combined = log.read_text() + capsys.readouterr().out
+    assert 'private-stream-password' not in combined and 'STREAM_READY' in combined
+
+
+def test_verbose_timeout_terminates_child_process(project, monkeypatch):
+    original = firmware.subprocess.Popen
+    processes = []
+    def popen(*a, **kw):
+        process = original(*a, **kw); processes.append(process); return process
+    monkeypatch.setattr(firmware.subprocess, 'Popen', popen)
+    with pytest.raises(subprocess.TimeoutExpired):
+        firmware.run_tool([sys.executable, '-u', '-c', 'import time; time.sleep(30)'], '', {},
+                          timeout=.2, stream_output=True)
+    assert processes[0].poll() is not None
 
 
 def test_build_finds_bootstrap_project_local_toolchain(project, monkeypatch):

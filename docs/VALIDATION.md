@@ -1,5 +1,12 @@
 # Validation record — latest check 31 October 2026
 
+## First Windows compile timeout recovery — 31 October 2026
+
+- A student Windows build exceeded the original 600-second compile cap before upload began. The log did not establish whether the underlying cause was slow compilation, memory pressure or a stalled compiler.
+- Default compile limit is now 1,800 seconds with two compiler jobs. Bounded `--compile-timeout` / `--jobs` overrides and `--verbose` live output are available. Bootstrap's outer example-build deadline includes the longer default.
+- Verbose output is filtered before console/log writes; timeout or cancellation stops the compiler process tree before retry. Non-verbose mode keeps buffered diagnostics and 20-second heartbeats.
+- Local suite: **125 passed / 5 Windows-only skips**, including actual child-process live output and termination, redaction, timeout-before-upload, limits and conservative defaults. Native Windows checks run in the existing 3.14/3.15 workflow. No physical upload was performed here.
+
 ## Windows S3 first-call kit — 31 October 2026
 
 - `main` was five commits behind remote main; the newest bootstrap branch was one further commit ahead. Main was fast-forwarded to include both histories. New work is on main at the owner's explicit request.

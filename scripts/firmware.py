@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import signal
 import subprocess
 import tempfile
 import threading
@@ -16,9 +17,9 @@ import time
 
 from dotenv import dotenv_values
 if __package__:
-    from .toolchain import arduino_environment
+    from .toolchain import arduino_environment, COMPILE_TIMEOUT_SECONDS
 else:
-    from toolchain import arduino_environment
+    from toolchain import arduino_environment, COMPILE_TIMEOUT_SECONDS
 
 ROOT = Path(__file__).resolve().parents[1]
 PROFILES = {
@@ -26,6 +27,52 @@ PROFILES = {
     'esp32_s3': ('esp32:esp32:esp32s3:PartitionScheme=no_ota,FlashSize=16M,FlashMode=qio,'
                  'PSRAM=opi,USBMode=hwcdc,CDCOnBoot=default,UploadMode=default,UploadSpeed=115200'),
 }
+DEFAULT_COMPILE_TIMEOUT = COMPILE_TIMEOUT_SECONDS
+
+
+def stop_process_tree(process):
+    """Release compiler children too, so a retry cannot overlap a timed-out build."""
+    if os.name == 'nt':
+        try:
+            subprocess.run(['taskkill', '/PID', str(process.pid), '/T', '/F'],
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=5)
+        except (OSError, subprocess.TimeoutExpired):
+            if process.poll() is None:
+                process.kill()
+    else:
+        try:
+            os.killpg(process.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+    process.wait(timeout=5)
+
+
+def stream_tool(command, emit, timeout, env):
+    """Stream complete lines through the same credential filter as buffered output."""
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                               text=True, encoding='utf-8', errors='replace', env=env,
+                               start_new_session=os.name != 'nt', bufsize=1)
+    errors = []
+    def read_output():
+        try:
+            for line in process.stdout:
+                emit(line)
+        except (OSError, ValueError) as exc:
+            errors.append(exc)
+    reader = threading.Thread(target=read_output, daemon=True)
+    reader.start()
+    try:
+        code = process.wait(timeout=timeout)
+    except BaseException:
+        stop_process_tree(process)
+        raise
+    finally:
+        reader.join(timeout=5)
+        if not reader.is_alive():
+            process.stdout.close()
+    if reader.is_alive() or errors:
+        raise OSError('Could not finish reading Arduino output.')
+    return subprocess.CompletedProcess(command, code, stdout='')
 
 
 def settings_for(root, environment=None):
@@ -76,7 +123,8 @@ def redact_output(output, config, settings):
     return output
 
 
-def run_tool(command, config, settings, timeout, env=None, log_path=None, progress_interval=20):
+def run_tool(command, config, settings, timeout, env=None, log_path=None, progress_interval=20,
+             stream_output=False):
     phase = command[1]
     started = time.monotonic()
     stopped = threading.Event()
@@ -95,12 +143,16 @@ def run_tool(command, config, settings, timeout, env=None, log_path=None, progre
         while not stopped.wait(progress_interval):
             emit(f'[{phase}] Still running ({int(time.monotonic() - started)}s); limit={timeout}s. Keep USB connected.')
 
-    emit(f'[{phase}] Started; limit={timeout}s. Detailed tool output appears when this step finishes.')
+    detail = 'Live tool output follows.' if stream_output else 'Detailed tool output appears when this step finishes.'
+    emit(f'[{phase}] Started; limit={timeout}s. {detail}')
     worker = threading.Thread(target=heartbeat, daemon=True)
     worker.start()
     try:
-        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                                text=True, encoding='utf-8', errors='replace', timeout=timeout, env=env)
+        if stream_output:
+            result = stream_tool(command, emit, timeout, env)
+        else:
+            result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                                    text=True, encoding='utf-8', errors='replace', timeout=timeout, env=env)
     except subprocess.TimeoutExpired as exc:
         partial = exc.stdout or ''
         if isinstance(partial, bytes):
@@ -122,6 +174,11 @@ def run_tool(command, config, settings, timeout, env=None, log_path=None, progre
 
 
 def build(args, root=ROOT, environment=None):
+    compile_timeout = getattr(args, 'compile_timeout', DEFAULT_COMPILE_TIMEOUT)
+    jobs = getattr(args, 'jobs', 2)
+    verbose = getattr(args, 'verbose', False)
+    if not 60 <= compile_timeout <= 7200 or not 1 <= jobs <= 32:
+        raise ValueError('Use --compile-timeout 60–7200 seconds and --jobs 1–32.')
     settings = settings_for(root, environment)
     controller = select_controller(settings, args.controller)
     if args.upload and not args.port:
@@ -146,15 +203,20 @@ def build(args, root=ROOT, environment=None):
         shutil.copytree(source, sketch, ignore=shutil.ignore_patterns('config.h'))
         (sketch / 'config.h').write_text(config, encoding='utf-8')
         # Absolute argument lists work with spaces/Windows paths and do not invoke a shell.
-        command = [cli, 'compile', '--fqbn', fqbn, '--build-path', str(work / 'build'),
+        command = [cli, 'compile', '--fqbn', fqbn, '--jobs', str(jobs), '--build-path', str(work / 'build'),
                    '--output-dir', str(artifacts), str(sketch)]
-        code = run_tool(command, config, settings, timeout=600, env=tool_environment, log_path=log_path)
+        if verbose:
+            command.insert(2, '--verbose')
+        code = run_tool(command, config, settings, timeout=compile_timeout, env=tool_environment,
+                        log_path=log_path, stream_output=verbose)
         if code or not args.upload:
             return code
         print('Uploading to the explicitly selected port…', flush=True)
-        return run_tool([cli, 'upload', '--fqbn', fqbn, '--input-dir', str(artifacts),
-                         '--port', args.port, str(sketch)], config, settings, timeout=240, env=tool_environment,
-                        log_path=log_path)
+        command = [cli, 'upload', '--fqbn', fqbn, '--input-dir', str(artifacts), '--port', args.port, str(sketch)]
+        if verbose:
+            command.insert(2, '--verbose')
+        return run_tool(command, config, settings, timeout=240, env=tool_environment,
+                        log_path=log_path, stream_output=verbose)
 
 
 def main(argv=None):
@@ -163,6 +225,10 @@ def main(argv=None):
     parser.add_argument('--use-config', action='store_true', help='Compile with private config.h instead of example credentials')
     parser.add_argument('--upload', action='store_true', help='Build with private config.h, then upload to --port')
     parser.add_argument('--port', help='Explicit serial port, e.g. COM5 or /dev/cu.usbserial-…')
+    parser.add_argument('--compile-timeout', type=int, default=DEFAULT_COMPILE_TIMEOUT,
+                        help='Compile limit in seconds (default: 1800; allowed: 60–7200)')
+    parser.add_argument('--jobs', type=int, default=2, help='Parallel compiler jobs (default: 2; allowed: 1–32)')
+    parser.add_argument('--verbose', action='store_true', help='Stream redacted live compile/upload details to console and log')
     args = parser.parse_args(argv)
     try:
         return build(args)

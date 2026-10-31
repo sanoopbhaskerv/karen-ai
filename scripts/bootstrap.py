@@ -24,9 +24,9 @@ import urllib.request
 import zipfile
 
 if __package__:
-    from .toolchain import CORE, CORE_VERSION, AUDIO, AUDIO_VERSION, INDEX_URL, LOCAL_MARKER, arduino_environment, isolation_identity, ToolchainError
+    from .toolchain import CORE, CORE_VERSION, AUDIO, AUDIO_VERSION, INDEX_URL, LOCAL_MARKER, arduino_environment, isolation_identity, ToolchainError, COMPILE_TIMEOUT_SECONDS
 else:
-    from toolchain import CORE, CORE_VERSION, AUDIO, AUDIO_VERSION, INDEX_URL, LOCAL_MARKER, arduino_environment, isolation_identity, ToolchainError
+    from toolchain import CORE, CORE_VERSION, AUDIO, AUDIO_VERSION, INDEX_URL, LOCAL_MARKER, arduino_environment, isolation_identity, ToolchainError, COMPILE_TIMEOUT_SECONDS
 
 ROOT = Path(__file__).resolve().parents[1]
 CLI_VERSION = '1.5.1'
@@ -326,7 +326,7 @@ def main(argv=None, root=ROOT):
             command = [str(venv_python(root)), str(root / 'scripts/firmware.py')]
             if args.controller:
                 command += ['--controller', args.controller]
-            output = run(command, root, 'Compiling example firmware; no upload...', timeout=600)
+            output = run(command, root, 'Compiling example firmware; no upload...', timeout=COMPILE_TIMEOUT_SECONDS + 120)
             print(sanitized(output, private_values(root)))
         launcher = 'start-windows.cmd' if os.name == 'nt' else 'start-mac.command'
         print(f'\nSETUP COMPLETE\n1. Add GEMINI_API_KEY locally in .env only if blank; keep an existing key. Never share it.\n2. Run {launcher}.\n3. Open http://localhost:8080 (default port) and test text chat first.\nFor the board, edit private config.h and follow Step 10 onward in the README.\nExisting .env/.env.local/config.h and saved memory were preserved.\nA setup check does not prove live AI or hardware works.\nSafe setup log: .tools/bootstrap.log')

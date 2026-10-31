@@ -112,7 +112,16 @@ Save and close Notepad. Read the configuration warnings again, then upload:
 .\.venv\Scripts\python.exe scripts\board.py monitor --port $karenPort --log
 ```
 
-The build tool prints a progress heartbeat every 20 seconds and saves redacted, timestamped output to `.tools/firmware.log`. The compile limit is 10 minutes; upload has a separate 4-minute limit. Compiler details appear when that stage finishes. `Credentials: private config.h` is an information label, not a prompt. Older copies can stay quiet during the compile.
+The build tool prints a progress heartbeat every 20 seconds and saves redacted, timestamped output to `.tools/firmware.log`. The default compile limit is 30 minutes with two parallel compiler jobs; upload has a separate 4-minute limit. Add `--verbose` to stream live redacted details instead of waiting until that stage finishes. `Credentials: private config.h` is an information label, not a prompt. Older copies can stay quiet during the compile.
+
+If an earlier version timed out at `Credentials: private config.h`, compilation exceeded its old 10-minute limit before upload started. Once the command has returned, update main and retry once with live diagnostics (replace COM15 if the actual port changed):
+
+```powershell
+git pull --ff-only origin main
+.\.venv\Scripts\python.exe scripts\firmware.py --controller esp32_s3 --upload --port COM15 --compile-timeout 1800 --jobs 2 --verbose
+```
+
+Keep Serial Monitor closed during upload. If output stops advancing again, report the last lines of `.tools/firmware.log`; do not repeatedly start parallel builds. No firmware was uploaded by the timed-out compile.
 
 Upload replaces the board's firmware; do this only on the intended project board. A first LittleFS mount may initialize this application's filesystem. The upload compiles the private WiFi configuration, then flashes the explicit port. Keep the board still and connected until it finishes. Close the monitor with **Ctrl+C** before another upload/probe.
 
