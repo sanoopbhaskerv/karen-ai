@@ -1,6 +1,13 @@
 # Validation record — latest check 1 November 2026
 
-## Anonymous exhibition identity — 1 November 2026
+## Name-only creator credit; school details private — 1 November 2026
+
+- Updated the privacy policy to allow Sreehari's public name in saved memory, displayed text and speech. Creator questions receive a fixed Malayalam name-only reply; questions about school, class section or home receive the privacy reply.
+- Known school, locality, home and full class-section aliases remain filtered before provider context, dashboard display, JSON delivery, speech synthesis and saved history. Name-only credits, unrelated science facts, scientific superscripts and Malayalam characters are preserved.
+- Full local Python suite: **206 passed, five Windows-only skips**, with the two existing upstream deprecation warnings. The focused privacy suite passed **81 tests**, including allowed names across persistence/provider/text boundaries and name-versus-school speech checks using fake providers. No live AI, physical microphone or deployed-host check was performed by these local tests.
+- Restart every running Karen process and refresh connected browsers after applying the update to remove old RAM history and cached audio. Official registration and genuine student-participation evidence remain separate.
+
+## Earlier anonymous exhibition identity — 1 November 2026 (superseded by name-only policy)
 
 - Full local Python suite: **202 passed / 5 Windows-only skips**, with the same two upstream Python 3.14 deprecation warnings. No live AI service was called for these checks.
 - Regression checks cover legacy-memory migration, dotted/spaced names and school initials, expanded school names, standalone school-locality references in English/Malayalam, restart persistence, memory edits, direct creator questions, generated-answer filtering, sanitized user echoes, history and cached text/audio results. The locality check also covers first-person replies that omit the pupil's name. Unrelated science facts, superscripts such as `10³`/`m²`, and Malayalam characters/joiners survive migration unchanged.
