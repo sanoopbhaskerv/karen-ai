@@ -43,7 +43,8 @@ form.addEventListener('submit', async event => {
   try {
     const response = await ask('/test_chat', {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json','X-CSRF-Token':csrf}, body:JSON.stringify({user_message:text})});
     const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Request failed');
-    append('user', text); append('model', result.reply); promptBox.value = ''; statusText.textContent = 'Ready for your next question';
+    const displayedQuestion = typeof result.user_message === 'string' ? result.user_message : 'ചോദ്യം അയച്ചു.';
+    append('user', displayedQuestion); append('model', result.reply); promptBox.value = ''; statusText.textContent = 'Ready for your next question';
   } catch (error) { statusText.textContent = error.message; } finally {setBusy(false);}
 });
 // Encode mono PCM instead of uploading browser-specific WebM/Opus.
