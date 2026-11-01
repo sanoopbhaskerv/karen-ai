@@ -13,6 +13,7 @@ Research initially checked on 31 October 2026, with the administrative, archived
 | CBSE Science Exhibition | CBSE | School registration, regional exhibition, national exhibition; later NCERT consideration is conditional | A separate board route relevant to CBSE schools in Kerala. |
 | INSPIRE-MANAK | Department of Science and Technology, DST, with National Innovation Foundation, NIF | School idea nomination, screening, district/state/national exhibition and project competition | Starts with an original practical innovation; it is not an unrestricted model-display entry. |
 | National Children's Science Congress, NCSC | DST/NCSTC nationally; KSCSTE is Kerala's nodal agency | Research project through the programme's district/state/national arrangements | Age groups, local investigation, project records and research explanation matter. |
+| IRIS / ISEF organiser records, 2024 case | IRIS shortlist and Society for Science abstract publication | One Kerala shortlist row explicitly labelled NCSC matches an ISEF 2024 organiser record | A case-specific documentary link, not automatic NCSC admission, a Sasthrolsavam route or a verified prize. |
 | Kerala Science Congress and National Science Expo | KSCSTE with edition-specific hosts | Separate invitations, registration or exhibitor arrangements | A wider research/public-science event, rather than the school festival's next contest stage. |
 
 Sources: [KITE's Sasthrolsavam description](https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us), [SISF 2026 instructions](https://www.vismuseum.gov.in/assets/pdf/notice/SISF2026_instrauctions.pdf), [NCERT 2025–26 guidelines](https://ncert.nic.in/desm/pdf/rbvp_53rd_2025.pdf), [CBSE portal](https://academic.cbseit.in/science_ex/), [INSPIRE programme](https://www.inspireawards-dst.gov.in/UserP/Award.aspx), [KSCSTE's NCSC page](https://kscste.kerala.gov.in/national-childrens-science-congress-ncsc/), [Kerala Science Congress](https://kscnew.kerala.gov.in/venue-date/).
@@ -148,7 +149,18 @@ For documentation it stresses dated, real-time handwritten observations, rather 
 
 The national programme site's judging guidance emphasises the child's own idea, theme fit, scientific understanding, data, analysis, validation, teamwork and communication. It calls for an authenticated daily log, with follow-up and improvement evidence relevant at later stages. This research process differs from simply displaying an attractive model. The undated page should be read with the edition's evaluation forms before quoting exact marks. [NCSC judging guidance](https://ncsc.co.in/judgement)
 
+### NCSC research and completed training records
+
+KFRI's **2021–22 Annual Report** lists an NCSC assessment project about 25 years in Kerala under **ongoing research / Plan Grants**, crediting A. V. Raghu, M. Amruth and P. Harinarayanan. The entry supplies no sample, methods or findings. Its status belongs to that reporting cycle; the title does not establish a founding year, present status or positive learning effects. [PDF 72, 76 and 78 / printed 67, 71 and 73](https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf#page=78)
+
+The report separately records **100 participants completing a one-day district-level NCSC training programme on 27 November 2021**, supported by KSCSTE. It does not identify participant roles, an assessment sample, the district, venue or delivery mode. This is institution-reported training completion, not an independently audited headcount or measured learning outcome. [PDF 83 / printed 78, item 4](https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf#page=83)
+
+### A documented NCSC-labelled IRIS / ISEF case
+
+The [indigenous-fish investigation](PROJECTS.md) from GHSS Avitanallur has matching title, pupil-credit and school fields in IRIS's **2024 shortlist row 23**, explicitly labelled **NCSC**, and Society for Science's **ISEF 2024** organiser record. The latter supplies a methods abstract and booth identifier. This does not identify the NCSC edition or establish a Kerala Sasthrolsavam rank, unchanged project version, physical attendance or award. The case guide retains both credit formats and the abstract's measurement limits.
+
 ## Project support and wider science events
+
 
 KSCSTE's **SPYTiS-I** supports school projects by groups of at most five students in classes VIII–XII, with up to ₹5,000 support and a one-year project duration according to the page updated 20 December 2025. Teacher-supervised awardees are encouraged to share findings through relevant science events. Funding does not confer automatic selection to Sasthrolsavam, SISF, RBVP or NCSC. [KSCSTE SPYTiS](https://kscste.kerala.gov.in/scheme-for-promoting-young-talents-in-sciencespytis/)
 

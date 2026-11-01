@@ -1355,5 +1355,74 @@
     "evidence_limits": "The reported 20–30 second closing interval lacks repeated timing measurements. No field reliability, obstruction detection, safe failure behaviour or comparative cost is demonstrated. Solar operation is a proposed application; no microcontroller, AI or source-code implementation is established.",
     "student_work_division_verified": false,
     "performance_independently_verified": false
+  },
+  {
+    "id": "case-2024-avitanallur-native-fish",
+    "year": 2024,
+    "title": "A Comparative Study of Indigenous Fishes in Paddy Fields for Pest Control and Mosquito Control in Avitanallur Village",
+    "source_ids": [
+      "project-031",
+      "project-032"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "N, Neeraj",
+      "U S, Adithyan"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "GHSS Avitanallur",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Kozhikode",
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-032 alternate one-page abstract PDF; IRIS shortlist context is separately located below.",
+    "printed_page": null,
+    "selection_status": "iris_2024_shortlist_and_isef_2024_finalist_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_shortlist_correspondence",
+    "method_tag": "native fish identification and feeding comparisons over 24 hours",
+    "method_summary": "The abstract reports identifying native fish, comparing feeding on rice pests and mosquito larvae over 24 hours, water analysis and specialist/farmer interviews. It reports 14 fish varieties, with Pseudosphromenus cupanus leading rice-pest feeding and Rasbora daniconius leading mosquito-larva feeding; a paddy-field water-level management system is described as designed.",
+    "evidence_limits": "The abstract supplies no sample sizes or replicate counts, controls, raw feeding or water-quality measurements, statistical analysis, device diagram/code or water-level-system validation. The same-year title, pupil pair and school support correspondence, not identical project versions. No exact NCSC edition, local rank, Kerala Sasthrolsavam qualifying route, attendance or award is established. The blank Awards Won field does not prove no award. No guide credit or individual work division is supplied.",
+    "ncsc_labelled_iris_shortlist": {
+      "source_id": "project-031",
+      "event_year_as_published": 2024,
+      "entry_type_as_published": "NCSC",
+      "row_number_as_published": 23,
+      "pdf_page_1based": 1,
+      "scope": "Explicit IRIS Entry Type label, not an identified NCSC edition, local rank, prize or complete qualifying route."
+    },
+    "isef_booth_identifier": {
+      "source_id": "project-032",
+      "event_year_as_published": 2024,
+      "booth_id_as_published": "EAEV038T",
+      "scope": "ISEF booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-032",
+        "alternate_pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "N, Neeraj",
+          "U S, Adithyan"
+        ],
+        "school_as_published": "GHSS Avitanallur"
+      },
+      {
+        "source_id": "project-031",
+        "pdf_pages_1based": [
+          1
+        ],
+        "row_number_as_published": 23,
+        "students_credited": [
+          "Neeraj N",
+          "Adithyan U S"
+        ],
+        "school_as_published": "GHSS Avitanallur"
+      }
+    ],
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
   }
 ]

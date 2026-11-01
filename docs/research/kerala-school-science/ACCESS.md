@@ -1,6 +1,6 @@
 # Official portals and adjacent exhibitions
 
-Checked on 31 October 2026. Portal contents are edition-specific snapshots and may change as registrations, appeals and results are processed.
+Checked on 31 October 2026, with a focused map/download follow-up on 1 November 2026. Portal contents are edition-specific snapshots and may change as registrations, appeals and results are processed.
 
 ## Registration and school records
 
@@ -17,6 +17,24 @@ The [2026 state results page](https://mela.kite.kerala.gov.in/2026/state/index.p
 The [district index](https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result) exposes all 14 district result destinations. Their names, identifiers and exact observed URLs are in [districts.json](districts.json). These identifiers are portal keys, not ranks. Follow the edition's own navigation rather than assuming every old endpoint has the same argument structure.
 
 An individual result row and a fair-wide points table answer different questions. A school's overall position is not the result for a particular model; a contestant's grade is not necessarily a rank. Preserve appeals or revisions where shown. The general master item list has rows for sections and teacher items that do not all compete at every level; level-specific eligibility comes from the manual and circulars.
+
+## Map and blank form served under the 2026 portal
+
+On **1 November 2026**, the state portal's [Location Map page](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps) served these seven literal venue/use rows with **School Sasthrolsavam 2026** as its HTML page title and **Location Map** as the body heading. The table itself supplies no issue date or event-year statement. The received HTML text and table structure were inspected; no browser-render review or independent review of the linked Google Maps destinations is claimed. Source `core-state-map-2026-observation`.
+
+| Venue as printed | Use as printed |
+| --- | --- |
+| MES HSS Olavakkode, Palakkad | Mathematics Fair |
+| Kanikkamatha HSS, Palakkad | IT Fair |
+| Big Bazar HSS, Palakkad | Social Science Fair |
+| BM HSS, Palakkad | Science Fair |
+| BEM HSS, Palakkad | Work Experience Fair |
+| Small Kotta Maithanam Palakkad | VHSE Expo (Exhibition) |
+| St.Sebastian's S B School | VHSE Expo (On The Spot) |
+
+These are the page's displayed rows, not a recovered final **Mannarkkad** venue allocation. The hosting path and page title do not establish when the table was prepared. No different edition is assigned to it without dated evidence; the final named venue/programme gap remains open.
+
+The [state download page](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions) also links an [undated blank Science entry form](https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf). Both scanned pages were read visually: PDF **1–2**, printed **128–129**. The form heading says **SUB DISTRICT SCHOOLS** despite its state-directory hosting. PDF 1 gives two numbered blank pupil slots for HS Working Model **115**, HSS/VHSS Working Model **126** and UP Working Model **106**; its HS Quiz **119** and HSS/VHSS Quiz **130** rows each show one numbered line. This records the form's layout, not a current maximum-pupil rule or a 2026 clearance. The applicable manual and dated circulars govern eligibility and capacity; see [rules](RULES.md) and [documented changes](RULE_CHANGES.md). No filled registration or pupil/contact data was collected. Source `core-state-science-form-undated`.
 
 ## Item catalogue snapshots
 
@@ -66,6 +84,7 @@ A later original-hosted [government order, G.O.(Ms)65/2026/GEDN of 12 March 2026
 | Officially linked destination | Observation on access date | What would resolve it |
 | --- | --- | --- |
 | `2026/state/entry_forms/Program_Notice_2026.pdf` | HTTP 404 | Published programme PDF or organiser's final schedule |
+| `2026/state/entry_forms/ID Card_KSS 2026-27.pdf` | HTTP 404 on 1 November 2026; linked from state downloads | Replacement public form or corrected link |
 | `2026/vhseExpo/state26/index.php` | HTTP 404 | Current VHSE Expo page or circular |
 | Special-school manual named `StateSpecialschoolKalolsavamManual.pdf` | Retrieved 18-page scanned work-experience document; no version established | Signed applicable manual/order and amendments |
 | General school software guide linked in 2026 | Filename/screens identify 2022–23 | Current operator instructions and local deadline |

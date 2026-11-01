@@ -482,5 +482,62 @@
     "pdf_pages": 353,
     "discovery_source_id": "pathways-08",
     "notes": "Official archive link says 52nd RBVP 2025; the URL filename says 51st_RBVP_2025. The actual form heading establishes RBVP2025 and RIE Bhopal, without an inspected issue date. All353 school/address blocks were text-screened, including organisational headings and colon variants; exactly eight Kerala-addressed forms at PDF76–83 were identified and visually checked. Selected-list and form credits/schools retain their differences. No contacts, photographs, achievement biographies or full source pages are copied into the derived index. Forms do not independently prove attendance, prizes, Kerala DGE nomination or pupil work division."
+  },
+  {
+    "id": "pathways-39",
+    "title": "KFRI Annual Report 2021–22: NCSC assessment-project listing and reported district training",
+    "url": "https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf",
+    "discovery_url": "https://www.kfri.res.in/publications/kfri-annual-reports.asp",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "reporting_period": "2021–22",
+    "source_type": "official_institution_annual_report",
+    "publisher": "KSCSTE – Kerala Forest Research Institute",
+    "download_bytes": 4045191,
+    "download_sha256": "0b169a1300782f9a28c10e9aa3579edcf0e6deabdc297bc02dbd9cc174a9de32",
+    "headers_sha256": "8a29ec8277a3142beb582e7c1a0c6f7fe0c3e3a0e5ea14dc4090e03834631835",
+    "pdf_pages": 120,
+    "retrieved_at_utc": "2026-11-01T00:16:37.695329+00:00",
+    "effective_download_url": "https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "visually_read_pdf_pages_1based": [
+      1,
+      72,
+      76,
+      78,
+      83
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Cover title, institution and annual-report period."
+      },
+      {
+        "pdf_page_1based": 72,
+        "printed_page": 67,
+        "scope": "Ongoing Research Projects section heading."
+      },
+      {
+        "pdf_page_1based": 76,
+        "printed_page": 71,
+        "scope": "Plan Grants subsection heading for the continuing project list."
+      },
+      {
+        "pdf_page_1based": 78,
+        "printed_page": 73,
+        "scope": "Item15, NCSC assessment-project title and investigator credits; not its research findings."
+      },
+      {
+        "pdf_page_1based": 83,
+        "printed_page": 78,
+        "scope": "Training item 4: one-day district-level NCSC programme on 27 November 2021, KSCSTE support and 100 reported completions."
+      }
+    ],
+    "review_scope": "All 120 physical PDF pages were screened in extracted text; the cover and four cited project/status/training pages were visually read and independently checked. This is a targeted NCSC review, not a full forestry-research or financial audit.",
+    "notes": "Lists an NCSC assessment project as ongoing under Plan Grants during the 2021–22 reporting cycle, and separately reports 100 participants completing a district-level NCSC training programme on 27 November 2021. The assessment listing supplies no methods, sample or findings. Training roles, district, venue and delivery mode are unspecified. Neither item proves learning gains or present-day project status. Reporting period, PDF metadata dates and publication date are not conflated.",
+    "evidence_limits": "Institution-reported project/training information, not the full assessment report, an independent attendance audit or a causal evaluation. Does not establish100 pupils, an assessment sample or completed online Sasthrolsavam. No pupil identities or private contact fields copied.",
+    "acquisition_note": "The actual official annual-reports index advertises the /AR/ PDF path used here. Older indexed /Annual-Reports/ paths returned HTTP 404; those failed responses are not registered as received PDFs."
   }
 ]

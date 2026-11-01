@@ -426,5 +426,90 @@
     "download_bytes": 2423392,
     "download_sha256": "5af9d4c6d8170b91ed315386eb51a30bcc06fad2223209e4a1e1cb71742bf244",
     "pdf_pages": 59
+  },
+  {
+    "id": "project-031",
+    "title": "IRIS National Fair Shortlist 2024, archived organiser PDF",
+    "url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "original_url": "https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "archived_official_shortlist",
+    "publisher": "IRIS National Fair",
+    "download_bytes": 474255,
+    "download_sha256": "6c1d6c8e4e7dd5b08fd1f46c51f0ce71c6a53d0b5388e2a72738a6486b770195",
+    "headers_sha256": "006a45cf836796c49d751dc731262fe6038ebe2a88a6607e09c0b0448f065b40",
+    "pdf_pages": 4,
+    "archive_capture": "2024-02-04T05:41:48Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "effective_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "requested_capture_timestamp": "20240204054148",
+      "actual_memento_datetime_from_cached_get_headers": "Sun, 04 Feb 2024 05:41:48 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "received_body_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked against the exact CDX row; no requested-date-only inference or fresh HEAD substitution."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "row_number_as_published": 23,
+        "scope": "2024 shortlist heading; NCSC Entry Type; project title, both pupil credits, GHSS Avitanallur, Kerala/Kozhikode."
+      }
+    ],
+    "review_scope": "All four received PDF pages visually read and text-screened. The table has 101 numbered entries; five NCSC-labelled rows 21–25 contain one Kerala entry at row 23. The other Kerala row 80 is labelled Online and is not treated as NCSC.",
+    "notes": "The live organiser URL redirected to a404 at retrieval; the archived organiser PDF is the adopted body. Its Year 2024 shortlist heading is not a separately established publication date. Row23 explicitly labels Entry Type as NCSC, while its Project Id cell is blank. Exact title words, both pupil credits and the school correspond to the separate ISEF 2024 organiser abstract at project-032. The correspondence does not prove an unchanged project version, a particular NCSC edition, local rank, full qualifying route, attendance or an award. No other pupil roster or contact fields are transcribed."
+  },
+  {
+    "id": "project-032",
+    "title": "Society for Science ISEF finalist abstract: indigenous fishes in Avitanallur, Year 2024, Booth EAEV038T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=Any%20Country&FairState=Any%20State&KeywordOrPhrase=Avitanallur&SelectedIsefYears%5B0%5D=2024&projectId=25236",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 10369,
+    "download_sha256": "8755559024bc865a51896aaa2b213fe20e3adb2dc94ebc412e965f665479c5e6",
+    "headers_sha256": "b889f699fba7b7a3e8c3f0be3d49d27f27d11bf92393987fc30df7b6f1fa056c",
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2024,
+      "booth_id_as_published": "EAEV038T",
+      "category_as_published": "Earth and Environmental Sciences",
+      "students_credited_as_published": [
+        "N, Neeraj",
+        "U S, Adithyan"
+      ],
+      "school_as_published": "GHSS Avitanallur",
+      "awards_won_field": "Blank; no award or absence of an award is inferred."
+    },
+    "discovery_method": "Actual public search form at https://abstracts.societyforscience.org/ submitted with keyword Avitanallur and year 2024. The received search-result href supplied this exact FullAbstract URL; it was not guessed from the project ID.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2024, Booth Id EAEV038T, category, both pupil credits/school, methods, observations and blank awards field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and source-as-printed pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=25236",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "download_bytes": 51553,
+      "download_sha256": "91131442561ba83c1fb5d765fad8d836b1ca6d6a05eb89c68175f11f66a0b1b6",
+      "headers_sha256": "de93b57c7bb9a3effe70ffc85a38986f265e3039b4d8d282d7ecf40568ac7818",
+      "pdf_pages": 1,
+      "review_scope": "Entire one-page PDF rendered and read visually; title, credits and abstract agree with the received FullAbstract record."
+    },
+    "review_scope": "Full public record HTML read directly; complete alternate one-page PDF visually read. No browser-render review or complete project report is claimed.",
+    "notes": "The actual organiser record explicitly prints Year 2024 and Booth Id EAEV038T, independently of its search-filter query. The booth identifier belongs to ISEF, not a Kerala or NCSC event code. This is an organiser-published finalist abstract reporting fish identification, feeding comparisons over 24 hours and water-level-system design, not raw research data, a reproducible device report or independent performance validation. Its exact title, pupil pair and school correspond to the NCSC-labelled IRIS 2024 shortlist entry in project-031; an exact NCSC edition, unchanged version, local rank and prize remain unproved. No teacher credit or pupil work division is supplied."
   }
 ]

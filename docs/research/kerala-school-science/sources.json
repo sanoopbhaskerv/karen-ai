@@ -298,6 +298,156 @@
     "topic_register": "core-sources.json"
   },
   {
+    "id": "core-state-map-2026-observation",
+    "title": "KITE state Location Map table served under the 2026 portal, seven undated venue/use rows",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+    "discovery_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_html_snapshot",
+    "issuer": "KITE / Kerala School Sasthrolsavam state portal",
+    "review_scope": "Received HTML text, links and table structure read directly; all seven venue/use rows inspected. No browser-render review and no independent inspection of the linked Google Maps destinations.",
+    "notes": "The Location Map table served under the 2026 state portal lists seven venue/use rows: MES HSS Olavakkode, Palakkad / Mathematics Fair; Kanikkamatha HSS, Palakkad / IT Fair; Big Bazar HSS, Palakkad / Social Science Fair; BM HSS, Palakkad / Science Fair; BEM HSS, Palakkad / Work Experience Fair; Small Kotta Maithanam Palakkad / VHSE Expo (Exhibition); St.Sebastian's S B School / VHSE Expo (On The Spot). The table has no issue date or independent event-year statement. Preserve these literal rows without assigning a proved different edition, treating a 2026 URL/HTML title as the table publication date, or calling this a recovered final Mannarkkad allocation. Programme PDF still returned 404 during the same bounded check. The current DGE notice search supplied no new final allocation, organising appointment, Working Model clarification or national delegation order.",
+    "venue_rows_as_received": [
+      {
+        "serial_as_printed": "1",
+        "venue_as_printed": "MES HSS Olavakkode, Palakkad",
+        "use_as_printed": "Mathematics Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/sSWLzae92pXLyGi18"
+      },
+      {
+        "serial_as_printed": "2",
+        "venue_as_printed": "Kanikkamatha HSS, Palakkad",
+        "use_as_printed": "IT Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/nm9peRQALLHgckiL6"
+      },
+      {
+        "serial_as_printed": "3",
+        "venue_as_printed": "Big Bazar HSS, Palakkad",
+        "use_as_printed": "Social Science Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/rV6CiucThmJRhNu29"
+      },
+      {
+        "serial_as_printed": "4",
+        "venue_as_printed": "BM HSS, Palakkad",
+        "use_as_printed": "Science Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/UdYXL6KLJmTMPCjU6"
+      },
+      {
+        "serial_as_printed": "5",
+        "venue_as_printed": "BEM HSS, Palakkad",
+        "use_as_printed": "Work Experience Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/dCa4NmkyMSGEvqF88"
+      },
+      {
+        "serial_as_printed": "6",
+        "venue_as_printed": "Small Kotta Maithanam Palakkad",
+        "use_as_printed": "VHSE Expo (Exhibition)",
+        "location_link_as_received": "https://maps.app.goo.gl/rQAobRdG9rgcbML58"
+      },
+      {
+        "serial_as_printed": "7",
+        "venue_as_printed": "St.Sebastian's S B School",
+        "use_as_printed": "VHSE Expo (On The Spot)",
+        "location_link_as_received": "https://maps.app.goo.gl/DKtKKtgmJDG19F7V8"
+      }
+    ],
+    "evidence_limits": [
+      "Undated displayed table, not a signed venue-allocation order, final Mannarkkad programme or current local entry instruction.",
+      "Linked Google Maps short URLs are retained as source links; their destination contents were not independently reviewed.",
+      "No historical edition is inferred from the place names alone."
+    ],
+    "download_sha256": "c4fd712b20c964d3610ec050249ddae5eabdf2a0ba17d172cf2644621377a8d4",
+    "download_bytes": 17569,
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:05:01.293931+00:00",
+      "bytes": 17569,
+      "sha256": "c4fd712b20c964d3610ec050249ddae5eabdf2a0ba17d172cf2644621377a8d4",
+      "headers_sha256": "022506216359127f2ae11fe82fd9a049681c5f1d879ae2d361f7428742ada311",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "page_title_as_received": "School Sasthrolsavam 2026",
+    "body_heading_as_received": "Location Map",
+    "topic_register": "core-sources.json"
+  },
+  {
+    "id": "core-state-science-form-undated",
+    "title": "Undated two-page blank Science Fair subdistrict entry form linked by the 2026 state portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "discovery_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_undated_blank_entry_form",
+    "issuer": "Kerala School Sasthrolsavam manual form, served by the KITE state portal",
+    "pdf_pages": 2,
+    "printed_pages": [
+      128,
+      129
+    ],
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "review_scope": "Both scanned pages rendered and visually read; extracted text is empty. Blank item/pupil-line layout inspected, without collecting any filled registration, pupil identity or contact data.",
+    "notes": "The state downloads page links this scanned form from its 2026 state directory. Its heading says SUB DISTRICT SCHOOLS and no issue year is printed. PDF 1 / printed 128 shows HSS/VHSS Working Model code 126, HS Working Model 115 and UP Working Model 106 with two numbered blank pupil slots each. HS Quiz 119 and HSS/VHSS Quiz 130 each show one numbered pupil line. PDF 2 / printed 129 continues LP rows and blank signature fields. These are form-layout observations, not a current participant maximum, accepted registration, completed attendance record or 2026 clearance. Read current capacity/eligibility from the applicable manual, item catalogue and dated circulars; hosting year does not revise this undated form. The linked ID Card_KSS 2026-27.pdf returned HTTP 404 on 1 November 2026.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 128,
+        "scope": "Undated subdistrict heading, HSS/VHSS/HS/UP item layout and numbered Working Model/Quiz lines."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 129,
+        "scope": "LP continuation and blank teacher/head-of-institution signature fields."
+      }
+    ],
+    "evidence_limits": [
+      "A blank line count is not sufficient current-rule authority or a signed 2026 clarification.",
+      "The form supplies no current schedule, final venue allocation, named organising appointment or SISF/NCERT delegation.",
+      "No issue year or source-manual edition is assigned without dated evidence."
+    ],
+    "download_sha256": "db72f576b8a72a225b67a87a4feefb37b3b76955da2c1bfdbc25f466f532271e",
+    "download_bytes": 171215,
+    "download_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "effective_download_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "retrieved_at_utc": "2026-11-01T00:06:01.611458+00:00",
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:06:01.611458+00:00",
+      "bytes": 171215,
+      "sha256": "db72f576b8a72a225b67a87a4feefb37b3b76955da2c1bfdbc25f466f532271e",
+      "headers_sha256": "6a723b201bb613b32701ca9d33750b614fc58de9b8c2503b43075cdef5005c4a",
+      "content_type": "application/pdf"
+    },
+    "discovery_acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:05:00.942070+00:00",
+      "bytes": 15416,
+      "sha256": "8630ff73cddd9cd2548d46caa656ee1a8613fed1fae22cae56846d458c9c9913",
+      "headers_sha256": "bb98af4eded8493318b1edb77ef4415d10bea412e421340412ad4740098bbc24",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "linked_download_observation": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/ID%20Card_KSS%202026-27.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/ID%20Card_KSS%202026-27.pdf",
+      "status": 404,
+      "retrieved_at_utc": "2026-11-01T00:06:00.806892+00:00",
+      "bytes": 162,
+      "sha256": "f33c27745f2bd87344be790465ef984a972fd539dc83bd4f61d4242c607ef1ee",
+      "headers_sha256": "b3a37f0d01367971b7f4c76f537c37b68859d25877a91d98cb31bd20e1ee4f1e",
+      "content_type": "text/html"
+    },
+    "topic_register": "core-sources.json"
+  },
+  {
     "id": "district-status-2026-01",
     "title": "KITE 2026 Thiruvananthapuram district portal status snapshot",
     "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
@@ -5784,6 +5934,64 @@
     "topic_register": "pathways-sources.json"
   },
   {
+    "id": "pathways-39",
+    "title": "KFRI Annual Report 2021–22: NCSC assessment-project listing and reported district training",
+    "url": "https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf",
+    "discovery_url": "https://www.kfri.res.in/publications/kfri-annual-reports.asp",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "reporting_period": "2021–22",
+    "source_type": "official_institution_annual_report",
+    "publisher": "KSCSTE – Kerala Forest Research Institute",
+    "download_bytes": 4045191,
+    "download_sha256": "0b169a1300782f9a28c10e9aa3579edcf0e6deabdc297bc02dbd9cc174a9de32",
+    "headers_sha256": "8a29ec8277a3142beb582e7c1a0c6f7fe0c3e3a0e5ea14dc4090e03834631835",
+    "pdf_pages": 120,
+    "retrieved_at_utc": "2026-11-01T00:16:37.695329+00:00",
+    "effective_download_url": "https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "visually_read_pdf_pages_1based": [
+      1,
+      72,
+      76,
+      78,
+      83
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Cover title, institution and annual-report period."
+      },
+      {
+        "pdf_page_1based": 72,
+        "printed_page": 67,
+        "scope": "Ongoing Research Projects section heading."
+      },
+      {
+        "pdf_page_1based": 76,
+        "printed_page": 71,
+        "scope": "Plan Grants subsection heading for the continuing project list."
+      },
+      {
+        "pdf_page_1based": 78,
+        "printed_page": 73,
+        "scope": "Item15, NCSC assessment-project title and investigator credits; not its research findings."
+      },
+      {
+        "pdf_page_1based": 83,
+        "printed_page": 78,
+        "scope": "Training item 4: one-day district-level NCSC programme on 27 November 2021, KSCSTE support and 100 reported completions."
+      }
+    ],
+    "review_scope": "All 120 physical PDF pages were screened in extracted text; the cover and four cited project/status/training pages were visually read and independently checked. This is a targeted NCSC review, not a full forestry-research or financial audit.",
+    "notes": "Lists an NCSC assessment project as ongoing under Plan Grants during the 2021–22 reporting cycle, and separately reports 100 participants completing a district-level NCSC training programme on 27 November 2021. The assessment listing supplies no methods, sample or findings. Training roles, district, venue and delivery mode are unspecified. Neither item proves learning gains or present-day project status. Reporting period, PDF metadata dates and publication date are not conflated.",
+    "evidence_limits": "Institution-reported project/training information, not the full assessment report, an independent attendance audit or a causal evaluation. Does not establish100 pupils, an assessment sample or completed online Sasthrolsavam. No pupil identities or private contact fields copied.",
+    "acquisition_note": "The actual official annual-reports index advertises the /AR/ PDF path used here. Older indexed /Annual-Reports/ paths returned HTTP 404; those failed responses are not registered as received PDFs.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
     "id": "project-001",
     "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
     "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
@@ -6239,6 +6447,93 @@
     "download_bytes": 2423392,
     "download_sha256": "5af9d4c6d8170b91ed315386eb51a30bcc06fad2223209e4a1e1cb71742bf244",
     "pdf_pages": 59,
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-031",
+    "title": "IRIS National Fair Shortlist 2024, archived organiser PDF",
+    "url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "original_url": "https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "archived_official_shortlist",
+    "publisher": "IRIS National Fair",
+    "download_bytes": 474255,
+    "download_sha256": "6c1d6c8e4e7dd5b08fd1f46c51f0ce71c6a53d0b5388e2a72738a6486b770195",
+    "headers_sha256": "006a45cf836796c49d751dc731262fe6038ebe2a88a6607e09c0b0448f065b40",
+    "pdf_pages": 4,
+    "archive_capture": "2024-02-04T05:41:48Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "effective_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "requested_capture_timestamp": "20240204054148",
+      "actual_memento_datetime_from_cached_get_headers": "Sun, 04 Feb 2024 05:41:48 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "received_body_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked against the exact CDX row; no requested-date-only inference or fresh HEAD substitution."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "row_number_as_published": 23,
+        "scope": "2024 shortlist heading; NCSC Entry Type; project title, both pupil credits, GHSS Avitanallur, Kerala/Kozhikode."
+      }
+    ],
+    "review_scope": "All four received PDF pages visually read and text-screened. The table has 101 numbered entries; five NCSC-labelled rows 21–25 contain one Kerala entry at row 23. The other Kerala row 80 is labelled Online and is not treated as NCSC.",
+    "notes": "The live organiser URL redirected to a404 at retrieval; the archived organiser PDF is the adopted body. Its Year 2024 shortlist heading is not a separately established publication date. Row23 explicitly labels Entry Type as NCSC, while its Project Id cell is blank. Exact title words, both pupil credits and the school correspond to the separate ISEF 2024 organiser abstract at project-032. The correspondence does not prove an unchanged project version, a particular NCSC edition, local rank, full qualifying route, attendance or an award. No other pupil roster or contact fields are transcribed.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-032",
+    "title": "Society for Science ISEF finalist abstract: indigenous fishes in Avitanallur, Year 2024, Booth EAEV038T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=Any%20Country&FairState=Any%20State&KeywordOrPhrase=Avitanallur&SelectedIsefYears%5B0%5D=2024&projectId=25236",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 10369,
+    "download_sha256": "8755559024bc865a51896aaa2b213fe20e3adb2dc94ebc412e965f665479c5e6",
+    "headers_sha256": "b889f699fba7b7a3e8c3f0be3d49d27f27d11bf92393987fc30df7b6f1fa056c",
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2024,
+      "booth_id_as_published": "EAEV038T",
+      "category_as_published": "Earth and Environmental Sciences",
+      "students_credited_as_published": [
+        "N, Neeraj",
+        "U S, Adithyan"
+      ],
+      "school_as_published": "GHSS Avitanallur",
+      "awards_won_field": "Blank; no award or absence of an award is inferred."
+    },
+    "discovery_method": "Actual public search form at https://abstracts.societyforscience.org/ submitted with keyword Avitanallur and year 2024. The received search-result href supplied this exact FullAbstract URL; it was not guessed from the project ID.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2024, Booth Id EAEV038T, category, both pupil credits/school, methods, observations and blank awards field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and source-as-printed pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=25236",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "download_bytes": 51553,
+      "download_sha256": "91131442561ba83c1fb5d765fad8d836b1ca6d6a05eb89c68175f11f66a0b1b6",
+      "headers_sha256": "de93b57c7bb9a3effe70ffc85a38986f265e3039b4d8d282d7ecf40568ac7818",
+      "pdf_pages": 1,
+      "review_scope": "Entire one-page PDF rendered and read visually; title, credits and abstract agree with the received FullAbstract record."
+    },
+    "review_scope": "Full public record HTML read directly; complete alternate one-page PDF visually read. No browser-render review or complete project report is claimed.",
+    "notes": "The actual organiser record explicitly prints Year 2024 and Booth Id EAEV038T, independently of its search-filter query. The booth identifier belongs to ISEF, not a Kerala or NCSC event code. This is an organiser-published finalist abstract reporting fish identification, feeding comparisons over 24 hours and water-level-system design, not raw research data, a reproducible device report or independent performance validation. Its exact title, pupil pair and school correspond to the NCSC-labelled IRIS 2024 shortlist entry in project-031; an exact NCSC edition, unchanged version, local rank and prize remain unproved. No teacher credit or pupil work division is supplied.",
     "topic_register": "project-sources.json"
   },
   {
@@ -8116,6 +8411,268 @@
     "download_url": "https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf",
     "effective_download_url": "https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf",
     "retrieved_at_utc": "2026-10-31T23:31:29.015435+00:00",
+    "topic_register": "technical-school-sources.json"
+  },
+  {
+    "id": "technical-school-005",
+    "title": "GO(Rt) No.405/2018/HEDN, expenditure permission for the first Technical High School Science & Technology Fair, 3 March 2018",
+    "url": "https://highereducation.kerala.gov.in/images/stories/2018/405.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": "2018-03-03",
+    "source_type": "official_standalone_government_order_scan",
+    "issuer": "Higher Education (J) Department, Government of Kerala",
+    "hosting": "Official Higher Education Department PDF, reached through an explicitly advertised government-order index link.",
+    "file_reference_as_printed": "HEDN-J3/336/2017-HEDN; സ.ഉ.(സാധാ) നം.405/2018/ഉ.വി.വ",
+    "reference_english_normalisation": "G.O.(Rt) No.405/2018/HEDN",
+    "review_scope": "Both scanned physical PDF pages were rendered and read completely by the root researcher and an independent reviewer. Cached bytes, headers, SHA256, page count and advertised index link were independently checked. The received PDFs have no usable extracted text.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "signature_verification": "Printed official designations and visible section-officer signing marks checked; no cryptographic signature verification performed.",
+    "download_sha256": "bd29aeb923c9af8cd671ba455994dbb1a8996c3e5b2afa60ea7edcdc0bc873f6",
+    "download_bytes": 205922,
+    "pdf_pages": 2,
+    "download_url": "https://highereducation.kerala.gov.in/images/stories/2018/405.pdf",
+    "effective_download_url": "https://highereducation.kerala.gov.in/images/stories/2018/405.pdf",
+    "retrieved_at_utc": "2026-11-01T00:08:01.195992+00:00",
+    "http_status": 200,
+    "headers_sha256": "ec4871aad3f2da30755b73dd6cd86fc0f2c98975f9bc9ef26e5ef7316ef4c7a5",
+    "transport_client": "System curl with normal TLS certificate verification; no insecure flag or custom CA override.",
+    "tls_verified": true,
+    "discovery_url": "https://highereducation.kerala.gov.in/index.php/g-o-s-circulars/g-o-index/g-o-index-for-2018/rt-series-18?start=9",
+    "discovery_index_sha256": "dc8a7e2b0159f98fca57985081ad9b965870c07e974a549ca70f583f226a77c3",
+    "discovery_index_headers_sha256": "984a97f5c737750c4c53c82414d2b9dbf9bc2d4c4acca8a37ada42788d32ab0c",
+    "academic_year": "2017–18",
+    "first_fair_wording_as_printed": "പ്രഥമ ശാസ്ത്ര സാങ്കേതിക മേള",
+    "references_as_printed": [
+      {
+        "reference": "G.O.(Rt) No.1789/2017/ഉ.വി.വ",
+        "date": "2017-10-07"
+      },
+      {
+        "reference": "C1/42067/DTE",
+        "dates": [
+          "2018-01-09",
+          "2017-11-17"
+        ]
+      }
+    ],
+    "page_locators": {
+      "order_date_first_fair_and_earlier_permission": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "spending_authorisation_parent_allocation_and_signature": {
+        "pdf_pages_1based": [
+          2
+        ]
+      }
+    },
+    "authorised_spending_rupees": 574200,
+    "parent_sitttr_budget_allocation_rupees": 22000000,
+    "parent_allocation_scope": "SITTTR 2017–18 allocation for syllabus revision, curriculum development and other activities in polytechnics and technical high schools.",
+    "finance_concurrence_as_printed": "U.O.(f) No.672268/EDN.C2/324/2017-FIN dated 08/02/2018",
+    "pdf_metadata_creation_as_received": "D:20180308142846+05'30'",
+    "pdf_metadata_modification_as_received": "D:20180308142854+05'30'",
+    "notes": "The actual order explicitly calls the 2017–18 event the first All Kerala Technical High School Science & Technology Fair. It recalls permission under the cited 7 October 2017 order for technical-school state science fairs from 2017–18 onward. DTE reports the previously mentioned development fund insufficient and requests access to the SITTTR allocation. The operative paragraph authorises Rs.5,74,200 from the Rs.220 lakh parent allocation. This body is a science/technology-fair order, although its index summary omits that subject detail. The printed order date is 3 March 2018; PDF scan metadata and a handwritten note dated 8 March are separate.",
+    "evidence_limits": [
+      "This supports the first academic-year cycle of the distinct Technical High School fair; it does not establish the inauguration of General Education Sasthrolsavam.",
+      "The Rs.220 lakh is a parent SITTTR allocation, not the fair budget. Spending permission is not proof of disbursement, an audited final expense or a completed event.",
+      "No precise fair dates, venue, attendance or results are supplied.",
+      "The cited 2017 order is not a recovered standalone original in this packet, and the underlying 2012 funding conditions remain unrecovered."
+    ],
+    "topic_register": "technical-school-sources.json"
+  },
+  {
+    "id": "technical-school-006",
+    "title": "GO(Rt) No.142/2020/HEDN, ratification of IHRD technical-school inclusion in the 2019–20 fair, 27 January 2020",
+    "url": "https://highereducation.kerala.gov.in/images/stories/2020/142.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": "2020-01-27",
+    "source_type": "official_standalone_government_order_scan",
+    "issuer": "Higher Education (J) Department, Government of Kerala",
+    "hosting": "Official Higher Education Department PDF, reached through an explicitly advertised government-order index link.",
+    "file_reference_as_printed": "HEDN-J3/370/2019-HEDN; സ.ഉ.(സാധാ) നം.142/2020/ഉ.വി.വ",
+    "reference_english_normalisation": "G.O.(Rt) No.142/2020/HEDN",
+    "review_scope": "Both scanned physical PDF pages were rendered and read completely by the root researcher and an independent reviewer. Cached bytes, headers, SHA256, page count and advertised index link were independently checked. The received PDFs have no usable extracted text.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "signature_verification": "Printed official designations and visible section-officer signing marks checked; no cryptographic signature verification performed.",
+    "download_sha256": "03c8c87a1f5cd0cad66242f0a5982cc53c16a01797455d493ca7c34227dec31b",
+    "download_bytes": 222052,
+    "pdf_pages": 2,
+    "download_url": "https://highereducation.kerala.gov.in/images/stories/2020/142.pdf",
+    "effective_download_url": "https://highereducation.kerala.gov.in/images/stories/2020/142.pdf",
+    "retrieved_at_utc": "2026-11-01T00:08:00.765018+00:00",
+    "http_status": 200,
+    "headers_sha256": "6f15059e98a58585594e348b909fc873951e646755f2b4c04bea9f9f554bd327",
+    "transport_client": "System curl with normal TLS certificate verification; no insecure flag or custom CA override.",
+    "tls_verified": true,
+    "discovery_url": "https://highereducation.kerala.gov.in/index.php/14-hedn?start=20",
+    "discovery_index_sha256": "888b57b7fb3f158321f0ab4fddcd8dd7a864a77a39b437763d8cdd0fd9ef8067",
+    "discovery_index_headers_sha256": "27fd8fa6f3d73d5963b7261fad7b9bf5ac71a9a5ad38094acfdab19cc8cccb21",
+    "academic_year": "2019–20",
+    "index_upload_date": "2020-02-12",
+    "index_date_column_as_printed": "Upload Date",
+    "references_as_printed": [
+      {
+        "type": "DTE letter",
+        "reference": "C1/40629/19/DTE",
+        "date": "2019-10-24"
+      },
+      {
+        "type": "DTE proceeding",
+        "reference": "C1/40629/19/DTE",
+        "date": "2019-10-24"
+      }
+    ],
+    "page_locators": {
+      "order_date_references_and_conditional_ratification": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "circulation_and_signature": {
+        "pdf_pages_1based": [
+          2
+        ]
+      }
+    },
+    "notes": "The Government ratifies the DTE action authorising SITTTR to include technical high schools under IHRD in the All Kerala Technical High School Science & Technology Fair scheduled for academic year 2019–20, subject to existing rules. The order date is 27 January 2020. The live official index separately labels 12 February 2020 as Upload Date; it is not the decision date or a PDF creation-date finding.",
+    "evidence_limits": [
+      "Ratification of an inclusion decision does not prove actual attendance, a number of participating IHRD schools or the first-ever IHRD participation date.",
+      "No event dates, venue, results or completed-fair statement are supplied.",
+      "This is the Technical Education route, not automatic eligibility for General Education Sasthrolsavam."
+    ],
+    "topic_register": "technical-school-sources.json"
+  },
+  {
+    "id": "technical-school-007",
+    "title": "GO(Rt) No.195/2020/HEDN, Pampady 2018–19 TechFest account ratification with closure and remittance conditions, 1 February 2020",
+    "url": "https://highereducation.kerala.gov.in/images/stories/2020/195.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": "2020-02-01",
+    "source_type": "official_standalone_government_order_scan",
+    "issuer": "Higher Education (J) Department, Government of Kerala",
+    "hosting": "Official Higher Education Department PDF, reached through an explicitly advertised government-order index link.",
+    "file_reference_as_printed": "HEDN-J3/412/2018-HEDN; സ.ഉ.(സാധാ) നം.195/2020/ഉ.വി.വ",
+    "reference_english_normalisation": "G.O.(Rt) No.195/2020/HEDN",
+    "review_scope": "Both scanned physical PDF pages were rendered and read completely by the root researcher and an independent reviewer. Cached bytes, headers, SHA256, page count and advertised index link were independently checked. The received PDFs have no usable extracted text.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "signature_verification": "Printed official designations and visible section-officer signing marks checked; no cryptographic signature verification performed.",
+    "download_sha256": "cb6f919d12c7be37d730b5469d2327725d8d26e5d4fb668fdb836e9ef085eb24",
+    "download_bytes": 335516,
+    "pdf_pages": 2,
+    "download_url": "https://highereducation.kerala.gov.in/images/stories/2020/195.pdf",
+    "effective_download_url": "https://highereducation.kerala.gov.in/images/stories/2020/195.pdf",
+    "retrieved_at_utc": "2026-11-01T00:08:00.764027+00:00",
+    "http_status": 200,
+    "headers_sha256": "bdc3bfef2a70d31662d58dada9a5c576f5000db96c7dc27e56f8eaf16e238cd9",
+    "transport_client": "System curl with normal TLS certificate verification; no insecure flag or custom CA override.",
+    "tls_verified": true,
+    "discovery_url": "https://highereducation.kerala.gov.in/index.php/14-hedn?start=20",
+    "discovery_index_sha256": "888b57b7fb3f158321f0ab4fddcd8dd7a864a77a39b437763d8cdd0fd9ef8067",
+    "discovery_index_headers_sha256": "27fd8fa6f3d73d5963b7261fad7b9bf5ac71a9a5ad38094acfdab19cc8cccb21",
+    "academic_year": "2018–19",
+    "index_upload_date": "2020-02-04",
+    "index_date_column_as_printed": "Upload Date",
+    "references_as_printed": [
+      {
+        "type": "DTE letter",
+        "reference": "C1/41771/18/DTE",
+        "date": "2019-09-16"
+      }
+    ],
+    "event_timing_as_recited": "Last week of November 2018; no exact day range printed.",
+    "event_venue_as_recited": "Government Technical High School, Pampady",
+    "page_locators": {
+      "event_recital_account_action_fair_ended_and_conditions": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "finance_reference_circulation_and_signature": {
+        "pdf_pages_1based": [
+          2
+        ]
+      }
+    },
+    "finance_concurrence_as_printed": "1339488/EDN-C4/73/2019-FIN dated 27/11/2019",
+    "notes": "The recital concerns arrangements for the Government Technical High Schools 2018–19 Science & Technology Fair (TechFest) in the last week of November 2018 at Government Technical High School, Pampady. The Superintendent opened a separate bank account without government permission. The operative paragraph says that the TechFest had ended and ratifies the account-opening action subject to closing the account promptly and remitting its balance to the State account. The fair-ended statement supplies retrospective official corroboration beyond an advance programme. The order is dated 1 February 2020; the official index separately gives 4 February 2020 as Upload Date.",
+    "evidence_limits": [
+      "Account closure and remittance are imposed conditions, not proof that those acts occurred.",
+      "The body supplies no exact event day range, pupil roster, per-item completion, results, attendance total, amount or audited expenditure.",
+      "A retrospective statement that the fair ended does not certify every scheduled activity or every historical venue detail.",
+      "This account-specific ratification is not general permission to open fair accounts without approval."
+    ],
+    "topic_register": "technical-school-sources.json"
+  },
+  {
+    "id": "technical-school-008",
+    "title": "Standalone GO(Rt) No.955/2024/HEDN, approval of three Technical High School manuals, 30 July 2024",
+    "url": "https://highereducation.kerala.gov.in/images/stories/2024/955.pdf",
+    "discovery_url": "https://highereducation.kerala.gov.in/index.php/g-o-s-circulars/g-o-index-for-2024/rt-2024?start=5",
+    "discovery_index_sha256": "88d4dd059a35e03aa146fa959b4d551c267eaf433e73610bc2c3890c3cbb332e",
+    "discovery_index_headers_sha256": "8ef4e344e26e80598b46acfa7191632dc1356a8d7b77fc2cde5a3cbae83a220b",
+    "accessed_on": "2026-11-01",
+    "document_date": "2024-07-30",
+    "source_type": "official_standalone_government_order_scan",
+    "issuer": "Higher Education (J) Department, Government of Kerala",
+    "hosting": "Official Higher Education Department PDF, reached through the advertised July 2024 order-index link.",
+    "reference_as_printed": "സ.ഉ.(സാധാ) നം.955/2024/HEDN",
+    "reference_english_normalisation": "G.O.(Rt) No.955/2024/HEDN",
+    "review_scope": "The entire single scanned PDF page was rendered and read by the root researcher and an independent reviewer. Actual bytes, headers, SHA256, one-page extent and explicit index link were checked. The PDF has no usable extracted text.",
+    "visually_read_pdf_pages_1based": [
+      1
+    ],
+    "page_locators": {
+      "order_date_referrals_three_manual_approval_and_signing_footer": {
+        "pdf_pages_1based": [
+          1
+        ]
+      }
+    },
+    "references_as_printed": [
+      {
+        "reference": "DTETVM/5142/2024-C1 (ACA)",
+        "date": "2024-06-25"
+      },
+      {
+        "reference": "DTETVM/5166/2024-C1 (ACA)",
+        "date": "2024-06-25"
+      },
+      {
+        "reference": "DTETVM/5157/2024-C1 (ACA)",
+        "date": "2024-06-27"
+      }
+    ],
+    "signed_footer_as_printed": "Signed by Salin P; Date: 31-07-2024 13:07:47",
+    "signature_verification": "Visible printed signing block and scanned footer only; no cryptographic signature verification performed.",
+    "notes": "The Government approves the All Kerala Technical High School Science & Technology Fair, sports fair and youth-festival 2024 manuals together on the DTE recommendations. This recovers the standalone approval act previously known from the served manual cover and the later amendment citation. The order calls the manuals 2024; the served science manual cover separately prints 2023. Preserve both literal year labels. The printed order date is 30 July 2024, distinct from the scanned Signed by Salin P footer dated 31 July 2024 at 13:07:47. The received one-page body has no attached manuals or Working Model instructions. Source001 retains its original cover-only review limitation; this new source fills that standalone-approval gap.",
+    "evidence_limits": [
+      "The approval body does not supply an annexed manual, individual Working Model provisions or a new team, time, size, eligibility or rubric amendment.",
+      "Cover year, approval date, visible signing-footer date, later 2025 amendment and current retrieval date remain distinct.",
+      "This is a separate Technical Education programme, not a General Education Sasthrolsavam rule, event completion record or payment certification."
+    ],
+    "download_sha256": "6f5b045f529fbae9ca3a6a55d8af073132284873abbee155ae239e03223910c6",
+    "download_bytes": 44067,
+    "pdf_pages": 1,
+    "download_url": "https://highereducation.kerala.gov.in/images/stories/2024/955.pdf",
+    "effective_download_url": "https://highereducation.kerala.gov.in/images/stories/2024/955.pdf",
+    "http_status": 200,
+    "headers_sha256": "758437543866aecfa807ece06e3ec24eb47df21673ae8c3f7b1ab7c9169988cb",
+    "received_http_date": "Sun, 01 Nov 2026 00:04:45 GMT",
+    "cache_file_mtime_utc": "2026-11-01T00:04:45.774368+00:00",
+    "retrieval_time_note": "Acquisition completed at approximately the cache-file modification time. The original curl command recorded response headers but no separate exact client request-start time.",
+    "transport_client": "System curl with normal TLS certificate verification; no insecure flag or custom CA override.",
+    "tls_verified": true,
     "topic_register": "technical-school-sources.json"
   }
 ]

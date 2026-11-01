@@ -6,13 +6,14 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 307 |
-| Distinct registered source URLs | 302 |
+| Source records | 316 |
+| Distinct registered source URLs | 311 |
 | Topic source registers | 22 |
 | JSON files | 46 |
-| Concise English/Malayalam knowledge records | 130 |
-| Draft Malayalam evaluation questions | 108 |
-| Indexed exhibit records | 35 |
+| Concise English/Malayalam knowledge records | 139 |
+| Draft Malayalam evaluation questions | 117 |
+| Indexed exhibit records | 36 |
+| Indexed exhibits with method information | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
 | Extended published model chapters | 11 |
@@ -31,8 +32,8 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Working Model link observations | 28 |
 | Grade-only report aggregates | 2 |
 | Science action-plan calendar lines | 23 |
-| Organiser selected-exhibit records | 14 |
-| Separate published participant-form records | 20 |
+| NCERT selected-exhibit records | 14 |
+| Separate NCERT participant-form records | 20 |
 | Credit/identity/heading findings | 6 |
 | General catalogue snapshots | 8 |
 | Catalogue observations across those snapshots | 1,835 |
@@ -51,8 +52,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Pre-2009 IT circulars / pages | 2 / 12 |
 | Archived early IT site bodies / item tables / numbered entries | 9 / 6 / 230 |
 | Contemporary observer articles / article pages | 1 / 2 |
-| Technical-school documents / physical PDF pages | 4 / 68 |
+| Technical-school documents / physical PDF pages | 8 / 75 |
 | Technical-school entry-form item rows / pupil slots | 13 / 16 |
+| Undated portal map rows / Science form pages | 7 / 2 |
+| Matched NCSC-labelled IRIS / ISEF cases | 1 |
+| KFRI NCSC annual-report physical PDF pages | 120 |
 | Publisher-library model-book reference entries | 7 |
 | Underlying March 2026 grace-order pages | 8 |
 | District-result destinations | 14 |
@@ -68,7 +72,7 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
 - All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eleven extended report chapters have valid full page ranges totalling 43 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
-- The eight national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All 14 selection rows, 20 separate form rows and six versioned findings have valid source/page references. Existing credits in all 35 focused project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
+- The eight national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All 14 selection rows, 20 separate form rows and six versioned findings have valid source/page references. Credits in the 35 previously indexed project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
 
 - All 31 SISF entries have unique IDs, complete nonoverlapping ranges covering 49 content pages, valid category/page references and separate pupil/teacher credits. Their codes, local qualifying routes and prize fields remain null. Three links to focused award cases have separately located source-image codes; one remains a candidate. Original award credits are preserved beside the compendium versions. Derived records contain no private contacts or source images.
 - The recovered historical forms, circular, IT programme/result pages, original 2016 programme, souvenir notice, 2014 DPI list and 2026 compendium match their acquired hashes and byte sizes; PDF page counts agree. The 2003 model book's hash, size and 83-page inventory also match. Academic-year labels, capture dates, article updates and publication dates retain their distinct meanings.
@@ -88,7 +92,7 @@ The 2003 book received a complete 28-attribution audit, including seven Hindi bl
 
 The public-media follow-up decoded all 31 compendium QR references and resolved their public units. The derived index distinguishes the 21 MP4 resources from the ten units without playable children. The initial pass sampled five videos through 41 frames; the later pass expands this to 21 videos and 137 frames. No continuous playback or audio listening review is claimed. Frame observations support only the specifically described visible actions. A separate check of the driving, fog and SAMARTH frames agreed with those limits and the visible SAMARTH exhibit code; no frames or source clips are committed.
 
-An independent media validator matched the cached bytes/hashes of all 31 application shells, 31 public lookup responses, 31 hierarchy responses and three frontend files. It also checked all 21 artifact-header captures, including HTTP status, MIME type and byte length, and matched hierarchy values against the derived unit/resource records. All model/case media pointers resolve, the initial 41 sampled PNGs match their declared review counts, and the derived media files contain no private contacts, credentials or embedded raw media. Existing core fields and credits in all 35 focused cases and all 31 SISF write-ups remain unchanged; new media/publication pointers are separate.
+An independent media validator matched the cached bytes/hashes of all 31 application shells, 31 public lookup responses, 31 hierarchy responses and three frontend files. It also checked all 21 artifact-header captures, including HTTP status, MIME type and byte length, and matched hierarchy values against the derived unit/resource records. All model/case media pointers resolve, the initial 41 sampled PNGs match their declared review counts, and the derived media files contain no private contacts, credentials or embedded raw media. Core fields and credits in the 35 earlier focused cases and all 31 SISF write-ups remain unchanged; new media/publication pointers are separate.
 
 All 42 district HTML captures were independently reparsed. Their 210 status rows, 28 Working Model link observations, original blank/dash cells and stored hashes match the derived snapshot. Alappuzha's two IT rows and grand total retain their arithmetic discrepancies. All six pages of the two available Working Model grade PDFs were checked: each has 46 pupil rows, A30/B16, with no rank, mark or project-title column. The committed data retain only report aggregates.
 
@@ -97,7 +101,7 @@ The two-page 29 October CCTV notice and nine-page action-plan attachment receive
 The original/OCR 2005 books, partial state report, CCTV notice, action plan and two grade-report PDFs match their registered hashes, byte sizes and page counts. Calendar date relations, places, page locators and planned status were checked line by line; the printed “Natural Science Day” wording is preserved with a caveat. Draft Malayalam still requires the teacher review described above.
 
 
-The new national forms pass screened all 353 school/address blocks from the organiser’s 2025 compilation and visually checked all eight Kerala forms plus the five selected-list rows. Independent checks preserve all earlier national records, all 35 focused cases, and the 31 SISF core records; the two latter publication links are candidate pointers only. Undelimited credits, changed school wording, a filename edition mismatch and reported achievements retain their source-specific limits.
+The national forms pass screened all 353 school/address blocks from the organiser’s 2025 compilation and visually checked all eight Kerala forms plus the five selected-list rows. That pass preserved all earlier national records, all 35 then-indexed focused cases, and the 31 SISF core records; the two latter publication links are candidate pointers only. Undelimited credits, changed school wording, a filename edition mismatch and reported achievements retain their source-specific limits.
 
 Independent reviews checked the three banana component papers against the fair write-up and the later microplastics paper against its candidate teacher entry. The poultry mean discrepancy, incomplete methods, qualitative ethanol scope, microplastics unit disagreement and corrected polymer locator are retained. No raw papers or private contacts are committed.
 
@@ -118,12 +122,24 @@ All ten pages of the five pandemic documents were visually inspected and indepen
 
 The pre-2009 pass adds two official-origin archived IT circulars. All twelve received pages were visually reviewed and independently checked against cached body/header hashes, exact CDX digests and actual Memento dates. The unavailable third archived body is excluded. Deferred state dates, a tentative district month, old software, separate hardware demonstrations and scheduled 2007 dates remain qualified.
 
-All eight pages of the original-hosted March 2026 government order and all seven relevant pages of the 59-page NCERT bibliography received independent visual review. The bibliography is a reference list, not seven recovered volumes or new method cases; the 1991/2003 mismatch is retained. The existing implementation circular’s page 5 was rechecked for the named Mathematics/Work Experience removed-item exception. The original 120 facts/98 evaluations and all 23 non-source structured datasets remain unchanged, with two fact/evaluation pairs appended. No original school report/code/test table was recovered in the bounded follow-up.
+All eight pages of the original-hosted March 2026 government order and all seven relevant pages of the 59-page NCERT bibliography received independent visual review. The bibliography is a reference list, not seven recovered volumes or new method cases; the 1991/2003 mismatch is retained. The existing implementation circular’s page 5 was rechecked for the named Mathematics/Work Experience removed-item exception. That pass preserved its original 120 facts/98 evaluations and all 23 non-source structured datasets, appending two fact/evaluation pairs. No original school report/code/test table was recovered in that bounded follow-up.
 
 The archived IT follow-up adds nine official event-site HTML bodies. Independent cached-body/header/CDX checks confirm all actual Memento dates and digests, the two date captions, six index links and 230 numbered result entries. Teacher-only entries, absent/NIL wording, the appeal annotation and separate announced/caption/capture dates remain literal. Direct HTML/table review is not photograph authentication, a browser-render review, attendance certification or a final overall championship.
 
 The KSSP January 2020 issue's publication page and both 2019 Science Fair article pages received independent visual review. Its hash, 52-page physical inventory, author affiliation and attributed claims agree. This is contemporary observer commentary, not an empirical evaluation or government result record.
 
-The four technical-school PDFs match their actual cached hashes, byte sizes and physical page counts: 59-page base, three-page amendment, four-page programme and two-page funding order. All 59 base pages were text-screened; critical visual review covered the cover/preface, eligibility, selection, model conditions, rubric, entry form, 2017 order reprint and detailed/appendix discrepancies, with exact coverage in the guide/register. All nine programme/order/amendment pages were visually read. An independent cross-review confirms the 13-item/16-pupil distinction, unresolved rubric differences, planned dates/counts and conditional funding scope. The old indexed HTML response is not adopted as a manual.
+The initial four technical-school PDFs match their actual cached hashes, byte sizes and physical page counts: 59-page base, three-page amendment, four-page programme and two-page funding order. All 59 base pages were text-screened; critical visual review covered the cover/preface, eligibility, selection, model conditions, rubric, entry form, 2017 order reprint and detailed/appendix discrepancies, with exact coverage in the guide/register. All nine programme/order/amendment pages were visually read. An independent cross-review confirms the 13-item/16-pupil distinction, unresolved rubric differences, planned dates/counts and conditional funding scope. The old indexed HTML response is not adopted as a manual.
 
-Against commit `c001c1d`, the existing 122 facts, 100 evaluations and all 23 non-source structured datasets remain unchanged. Eight new fact/evaluation pairs are appended, retaining programme/year/source-genre boundaries; all Malayalam remains subject to teacher review. No new fact comes solely from unverified audio. No runtime, training, retrieval or hardware change is part of this research update.
+The preceding addition, commit `534fdfe5`, preserved the 122 facts, 100 evaluations and all 23 non-source structured datasets from `c001c1d`, appending eight fact/evaluation pairs. All Malayalam remains subject to teacher review. No fact comes solely from unverified audio.
+
+Four further standalone technical-school orders add seven fully reviewed pages. Independent review checks the first 2017–18 cycle, ₹5,74,200 versus its ₹220-lakh parent allocation, conditional IHRD/account ratifications, retrospective conduct wording, upload dates and 2024 approval/signing dates. Original source records remain unchanged; no payment, account-closure record or General Education inaugural date is inferred.
+
+Both blank-form pages were visually checked, and all seven map rows were independently reparsed against received HTML. The HTML page title and body heading remain distinct. The map/form is undated content, not final Mannarkkad allocation or current capacity authority; the ID-card 404 is an access observation.
+
+The new indigenous-fish case was checked against all four archived IRIS shortlist pages, the actual Society for Science HTML record and its one-page alternate PDF. Actual Memento/CDX provenance, year/booth fields, credit variants and source hashes agree. The NCSC label, reported methods and unknown edition/route/prize remain separate; blank awards do not certify either an award or a no-award result.
+
+KFRI's 120-page annual report was text-screened, with the cover and four status/project/training pages visually reviewed and independently checked. An ongoing project listing and 100 reported training completions do not supply assessment findings or pupil/impact counts. Reporting period, PDF metadata dates and current retrieval remain distinct.
+
+Against `534fdfe5`, 22 non-source JSON datasets remain byte-identical; the project index preserves all 35 earlier objects and appends one case. Existing 130 fact and 108 evaluation records remain exact byte prefixes, with nine pairs appended. No runtime, fine-tuning, retrieval or hardware change is included.
+
+The final independent publication audit passed 4,071 checks, including all 54 inventory rows, 239 local links, preserved earlier records and the nine new source acquisitions. Its read-only review found no material evidence-scope or privacy blocker; it does not certify historical completeness or approve the draft Malayalam.

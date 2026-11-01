@@ -4,7 +4,7 @@ Reviewed on **1 November 2026**. This packet describes the separate Technical Hi
 
 ## Sources and document dates
 
-The four official PDF bodies are registered in [technical-school-sources.json](technical-school-sources.json).
+The eight official PDF bodies, comprising **75 physical PDF pages**, are registered in [technical-school-sources.json](technical-school-sources.json).
 
 | Source ID | Document and date scope | Physical PDF pages |
 | --- | --- | ---: |
@@ -12,14 +12,28 @@ The four official PDF bodies are registered in [technical-school-sources.json](t
 | `technical-school-002` | [GO(Rt) No.1292/2025/HEDN, 29 September 2025](https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=102), approving the annexure amendments to the Science & Technology and sports manuals. The Science & Technology annexure is PDF 3. | 3 |
 | `technical-school-003` | [DTE-hosted Krishnapuram programme](https://www.dtekerala.gov.in/static/news/Notice3.pdf), advertising the seventh fair for **17–19 October 2025**. A separate publication date is not printed. | 4 |
 | `technical-school-004` | [GO(Rt) No.2200/2025/LSGD, 12 September 2025](https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf), permitting specified local-body expenditure. Its recital says **18–19 October 2025**. | 2 |
+| `technical-school-005` | [GO(Rt) No.405/2018/HEDN, 3 March 2018](https://highereducation.kerala.gov.in/images/stories/2018/405.pdf), authorising expenditure for the **first 2017–18 technical-school Science & Technology Fair**. | 2 |
+| `technical-school-006` | [GO(Rt) No.142/2020/HEDN, 27 January 2020](https://highereducation.kerala.gov.in/images/stories/2020/142.pdf), ratifying IHRD technical-school inclusion in the **2019–20** fair. The official index separately gives **12 February 2020** as its upload date. | 2 |
+| `technical-school-007` | [GO(Rt) No.195/2020/HEDN, 1 February 2020](https://highereducation.kerala.gov.in/images/stories/2020/195.pdf), ratifying a Pampady bank-account action for the **2018–19** TechFest, with closure/remittance conditions. The official index separately gives **4 February 2020** as its upload date. | 2 |
+| `technical-school-008` | [Standalone GO(Rt) No.955/2024/HEDN, 30 July 2024](https://highereducation.kerala.gov.in/images/stories/2024/955.pdf), approving three **2024** technical-school manuals. A visible signing footer is separately dated **31 July 2024**. | 1 |
 
 The live SITTTR downloads index supplied endpoints **103** and **102**. An older indexed endpoint 79 returned HTML during acquisition and is not treated as a recovered manual. The currently served 59-page base manual still contains provisions changed by the separate 2025 annexure; it is not a fully consolidated amended text.
+
+The standalone 2024 approval body has now been recovered from the Higher Education Department’s advertised July index link. It approves the Science & Technology Fair, sports fair and youth-festival manuals together and calls them **2024** manuals; the served science-manual cover separately prints **2023**. The order date is **30 July 2024**. Its scanned “Signed by Salin P” footer prints **31 July 2024, 13:07:47**, which is not substituted for the order date. The received one-page order has no attached manuals or individual Working Model provisions. (`technical-school-008`, PDF 1.)
 
 ## Separate history and participation route
 
 The manual’s preface attributes the beginning of this **Technical High School** Science & Technology Fair and the first SITTTR manual to **2017**. Its discussion of technical schools opening in the 1960s concerns the institutions, not the fair’s first edition. These statements do not date the beginning of general-school Sasthrolsavam. (`technical-school-001`, PDF 2 / printed i.)
 
-The manual also reproduces **GO(Rt) No.1789/2017/HEDN, 7 October 2017**, sanctioning use of **20% of the Development Fund** for the technical-school fair, subject to the cited GO(Ms) No.516/2012/H.EDN conditions and SITTTR rules. The lower forwarding note is separately dated **17 October 2017**. The underlying 2012 order has not been reviewed in this packet. (`technical-school-001`, PDF 47 / printed 43.)
+The manual also reproduces **GO(Rt) No.1789/2017/HEDN, 7 October 2017**, sanctioning use of **20% of the Development Fund** for the technical-school fair, subject to the cited GO(Ms) No.516/2012/H.EDN conditions and SITTTR rules. The lower forwarding note is separately dated **17 October 2017**. The underlying **19 October 2012** order and a standalone original body of the 2017 order remain unrecovered; their full conditions are not reconstructed from later citations. (`technical-school-001`, PDF 47 / printed 43.)
+
+Three standalone orders add contemporary evidence for this separate technical-school series:
+
+- **First 2017–18 fair and expenditure permission:** GO(Rt) No.405/2018/HEDN explicitly names the **first** (പ്രഥമ) All Kerala Technical High School Science & Technology Fair for **2017–18**. It recalls the 2017 order’s permission for technical-school state science fairs from that academic year onward. It authorises **₹5,74,200** from the **₹220 lakh** SITTTR allocation for 2017–18 syllabus revision, curriculum development and other activities. The larger amount is the parent allocation, not a fair budget. This is spending permission, not proof of payment, completed activities or the inauguration of General Education Sasthrolsavam. It supplies no exact fair dates or venue. (`technical-school-005`, PDF 1–2.)
+- **IHRD inclusion for 2019–20:** GO(Rt) No.142/2020/HEDN ratifies the Director of Technical Education’s action authorising SITTTR to include IHRD technical high schools in the fair scheduled for **2019–20**, **subject to existing rules**. It cites both a DTE letter and proceeding dated **24 October 2019**. It does not certify actual attendance, a number of participating IHRD schools, event dates/venue or the first-ever IHRD participation. (`technical-school-006`, PDF 1; circulation/signature at PDF 2.)
+- **Pampady 2018–19 account ratification:** GO(Rt) No.195/2020/HEDN recites arrangements for the **2018–19** TechFest in the **last week of November 2018** at Government Technical High School, Pampady, and the Superintendent’s opening of a separate bank account without prior government permission. Its operative paragraph says the TechFest **had ended**, providing retrospective official corroboration beyond an advance programme. The Government ratifies the account-opening action subject to prompt closure and remittance of the balance to the **State account**. It does not prove that closure/remittance occurred, supply an exact day range, or certify every contest, result, attendance figure or expenditure. (`technical-school-007`, PDF 1; circulation/signature at PDF 2.)
+
+The 2020 index column is explicitly **Upload Date**: **12 February** for the 27 January inclusion order and **4 February** for the 1 February account order. These are publication-index dates, distinct from the printed order dates, academic cycles, event timing and current retrieval date. The 2018 budget scan’s PDF metadata dates **8 March 2018**; the printed order remains **3 March 2018**.
 
 The manual specifies:
 
@@ -117,6 +131,6 @@ The expenditure is from each body’s **own fund**, **subject to its governing b
 
 ## Review coverage and limits
 
-All **59 base-manual pages** were screened in extracted text. Critical visual review covered manual PDF pages **1, 2, 5, 7, 11, 13, 30, 31, 32, 34, 36, 41, 43, 44, 47, 48, 54, 57, 58 and 59**. The remaining instructional pages cited by the inventory were text-screened; the whole event inventory was visually checked against the entry form at PDF 48. All **three corrigendum**, **four programme** and **two funding-order pages** were visually read. Physical PDF and printed-page locators are kept separate.
+All **59 base-manual pages** were screened in extracted text. Critical visual review covered manual PDF pages **1, 2, 5, 7, 11, 13, 30, 31, 32, 34, 36, 41, 43, 44, 47, 48, 54, 57, 58 and 59**. The remaining instructional pages cited by the inventory were text-screened; the whole event inventory was visually checked against the entry form at PDF 48. All **three corrigendum**, **four programme**, **two local-body funding-order**, **six historical-order** and **one standalone approval-order pages** were visually read. The four new bodies and their actual cached bytes, hashes, page counts and advertised index links were independently checked. The packet contains **eight PDFs / 75 physical pages**; physical PDF and printed-page locators are kept separate.
 
 Official hosting and the visible order/signature blocks were checked; no cryptographic signature verification was performed. No pupil photos, contact fields, raw source images or media are copied into this collection. The packet supplies no completed 2025 result, named attendance/delegation list, expenditure return or automatic route for Karen’s general-school project.

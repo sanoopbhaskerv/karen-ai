@@ -19,7 +19,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical result snapshots](RESULTS.md) | Overall school and district point tables captured across five editions |
 | [Rule changes](RULE_CHANGES.md) | Original manuals, amendments and differences between rules and catalogue views |
 | [Regional and national pathways](PATHWAYS.md) | SISF, NCERT exhibitions, INSPIRE MANAK, NCSC, CBSE and other distinct programmes |
-| [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, 13-item inventory, manual/amendment versions, Working Model rules, planned 2025 programme and conditional funding |
+| [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, first-cycle budget, historical ratifications, 13-item inventory, manual/amendment versions and conditional funding |
 | [Contemporary observer accounts](OBSERVER_ACCOUNTS.md) | KSSP's attributed review of the 2019 Science Fair, separate from empirical studies and official results |
 | [Documented exhibit case studies](PROJECTS.md) | Published Kerala-school project mechanisms, credits, source pages and award scope |
 | [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
@@ -54,7 +54,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 - [Audio-processing index](media-audio-review.json): 21 cached artifact/input hashes and draft statuses; two repetitive outputs excluded, zero verified transcripts or listening reviews.
 - [Overall result data](result-snapshots.json): ten dated source snapshots containing 6,379 district and school score rows. Read the championship conflicts in the history guide before interpreting them as final results.
 - [Catalogue differences](catalogue-changes.json): literal differences between the same subdistrict view in successive captured editions. These do not, by themselves, establish a rule change.
-- [Project index](project-index.json): 35 attributed exhibit records, including 34 with published method information and one prize record with a candidate method-source correspondence. School location does not establish a Kerala Sasthrolsavam qualifying route.
+- [Project index](project-index.json): 36 attributed exhibit records, including 35 with published method information and one prize record with a candidate method-source correspondence. The new indigenous-fish case links an NCSC-labelled IRIS shortlist row to an ISEF 2024 organiser abstract; it does not establish a Sasthrolsavam route or prize.
 - [National exhibit discovery](ncert-kerala-exhibit-discovery.json): 105 factual catalogue rows, separate from the selected method cases. These counts overlap and must not be added as a total of unique exhibits.
 - [National selection evidence](national-selection-index.json): 14 selected-exhibit records and 20 separate participant forms, with six versioned findings. Selection, submitted details, attendance and prizes remain distinct.
 - [SISF 2026 methods](sisf-2026-models.json): 31 Kerala write-ups across 49 content pages: 14 individual, seven group and ten teacher exhibits. Three focused-case links have matching source-image codes; a fourth is a candidate. Do not add the indexes as unique projects.
