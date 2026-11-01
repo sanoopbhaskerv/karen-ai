@@ -2362,5 +2362,285 @@
     ],
     "review_scope": "All 308 native-text pages extracted for discovery; cover and relevant INSPIRE-MANAK context/award pages visually read. No full human audit of the entire departmental report claimed.",
     "notes": "Explicitly credits Navya Sharma, Daksh Kalia and Shreyansh Nayak with first, second and third tenth-NLEPC prizes respectively. Reports 9–11 October 2023 conduct and more than 12,000 Delhi-NCR student visitors. Visitor population is separate from selected exhibitors; no audited unique attendance, Kerala attribution, school/project match, per-pupil payment or lower prize rank is inferred. Adjacent nomination cohorts, fellowship funds and differently spelled later recognition remain separate."
+  },
+  {
+    "id": "pathways-81",
+    "title": "INSPIRE national-competition jury process and recommendations dated 15 August 2011",
+    "printed_opening_heading": "JURY PROCESS ADOPTED FOR ASSESMENT OF PROJECTS EXIBITED IN INSPIRE AWARD NATIONAL LEVEL COMPETITION",
+    "url": "https://web.archive.org/web/20160304081235id_/http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf",
+    "effective_url": "https://web.archive.org/web/20160304081235id_/http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf",
+    "original_url": "http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf",
+    "currently_advertised_url": "https://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf",
+    "discovered_via_source_id": "pathways-54",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_national_competition_jury_recommendations",
+    "publisher": "Department of Science and Technology, Government of India; official INSPIRE Awards document",
+    "document_date": null,
+    "recommendation_date_as_printed": "2011-08-15",
+    "date_scope": "The national, regional and state recommendation headings are dated 15-08-2011 on PDF/printed pages 2, 3 and 6. Publication date, exhibition dates and numbered edition are not established by this body. The 2016 archive capture and 2011 PDF creation metadata are separate observations.",
+    "edition_number_as_printed": null,
+    "cohort_as_printed": null,
+    "pdf_pages": 11,
+    "download_complete": true,
+    "download_bytes": 193131,
+    "download_sha256": "7cd8d19fa035e01efc4e6932ba27c2995a4ff164be941c48c24ab7bfae888add",
+    "body_sha1_base32": "V5UD7BDFPX3H2L2QKYFWGBN5K375W2LX",
+    "http_status": 200,
+    "tls_verified": true,
+    "retrieved_at_utc": "2026-11-01T05:15:32.098466+00:00",
+    "acquisition_record_sha256": "603a45f8ae6e95e876ef9f6a8f0b92b0946c10212c533aae3ba5e818c4aabc88",
+    "headers_sha256": "a591282d1a8d4407e40e2b6a8615bd40bee510c18b2fad453646ecaca2276642",
+    "archive_capture": "20160304081235",
+    "memento_datetime_received": "Fri, 04 Mar 2016 08:12:35 GMT",
+    "pdf_metadata": {
+      "title": "Regional INSPIRE Awards",
+      "creation_and_modification_raw": "D:20110824052003",
+      "date_scope": "File metadata only; not publication, exhibition or recommendation date evidence."
+    },
+    "live_link_status": {
+      "checked_on": "2026-11-01",
+      "http_status": 404,
+      "curl_exit_code": 22,
+      "headers_sha256": "00203c38728b8c455c9e0a734cd053254ab9e73fd677cd381dd3db16aa88ef34",
+      "pdf_body_received": false
+    },
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "Historical three-stage jury process, grading benchmarks and departmental guiding principles."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Dated national recommendations, explicit prize column and printed acceptance block."
+      },
+      {
+        "pdf_pages_1based": [
+          3,
+          4,
+          5
+        ],
+        "printed_pages": "3–5",
+        "scope": "Dated regional recommendations and printed acceptance continuation."
+      },
+      {
+        "pdf_pages_1based": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "printed_pages": "6–11",
+        "scope": "Dated state-category recommendations and printed acceptance continuation."
+      },
+      {
+        "pdf_page_1based": 10,
+        "printed_page": 10,
+        "scope": "Kerala state-category row: credited pupil/school, generic project label, evaluation grade and explicit prize."
+      }
+    ],
+    "review_scope": "Complete body bytes/hash/headers and all eleven physical pages checked; native extraction used for discovery, then every original page visually read. Derived proposal excludes raw pupil project/stall identifiers and the wider roster.",
+    "notes": "Historical populated jury recommendations, not an eligibility circular, blank application form, current 2026 rubric or Kerala Sasthrolsavam rule. Page 1 describes initial three-member panels, five two-member follow-up teams and final consensus with six regional coordinators. The page-10 Kerala row attributes a generically named model to Meera Murali of DBHS Cheriyanad and prints grade 5.5 with first place within the state-category recommendation table. Retain recommendation status and category; no national first prize, mechanism, original code, AI, safety, payment, attendance or fair-selection route follows. The score-symbol rendering and equal-score award rows do not support an automatic cutoff, and the page-1 4–6 clause supplies no explicit percent sign; neither is repaired into a current numerical rule.",
+    "endorsement_wording_observed": {
+      "pdf_pages_1based": [
+        2,
+        5,
+        11
+      ],
+      "printed_acceptance_heading": "Accepted",
+      "printed_signature_word": "Signed",
+      "scope": "The reviewed pages display these typewritten labels alongside the printed jury and acceptance names/roles. No independent handwritten-signature, cryptographic-signature, official issuance or later payment/presentation authentication was performed."
+    }
+  },
+  {
+    "id": "pathways-82",
+    "title": "KVS Regional Science Exhibition 2010-‘11",
+    "url": "https://librarykvpattom.wordpress.com/2010/09/01/kvs-regional-science-exhibition-2010-11/",
+    "effective_url": "https://librarykvpattom.wordpress.com/2010/09/01/kvs-regional-science-exhibition-2010-11/",
+    "accessed_on": "2026-11-01",
+    "source_type": "school_library_historical_event_report",
+    "publisher": "Library@Kendriya Vidyalaya Pattom",
+    "hosting_platform": "WordPress.com",
+    "article_author_as_printed": null,
+    "document_date": null,
+    "post_date_display_as_received": "September 1, 2010 • 10:28 am",
+    "post_published_timestamp_as_metadata": "2010-09-01T04:58:00+00:00",
+    "post_modified_timestamp_as_metadata": "2010-09-03T05:17:08+00:00",
+    "download_bytes": 380752,
+    "download_sha256": "9efd3de0c20d1884c363c10cfe543598a39306e1e4c416b34683bccc217123d9",
+    "headers_json_sha256": "682bc347d5e22601674d5d85e6caa919346cf26be7c29ee362f8cf9e6fdbbd95",
+    "acquisition_record_sha256": "6feaf74cf1b77f7d36cf31069520293e30207bddc3d83948d01532d219e1bb04",
+    "retrieved_at_utc": "2026-11-01T05:12:09.595422+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "date_scope": "The visible post date and metadata first-publication timestamp are distinct from the later 3 September modification timestamp and the event dates. Current retrospective wording is not proven unchanged since the initial post hour.",
+    "authorship_scope": "No article-specific byline, author meta or author link received. The current sidebar librarian profile and generic WordPress publisher meta are not promoted into post authorship or a signed KVS central document.",
+    "review_scope": "Actual complete post entry and relevant HTML metadata read; tables parsed from original received cells. Sidebar/comments excluded from event data. No photo download, screenshot, face/person identity verification or external contact.",
+    "reported_event_edition": "38th KVS Regional Science Exhibition",
+    "reported_event_dates_text": "1st and 2nd September 2010",
+    "reported_host": "Kendriya Vidyalaya Pattom",
+    "reported_region_scope": "Chennai Region(Kerala, Tamilnadu and Pondicherry)",
+    "reported_students_text": "Nearly Six Hundred students",
+    "reported_school_count": 62,
+    "evidence_locators": [
+      {
+        "html_locator": "post-4535 / entry / opening paragraph",
+        "scope": "Reported edition, dates, host and combined regional population."
+      },
+      {
+        "html_locator": "post-4535 / entry / Why the Exhibition ?",
+        "scope": "General NCERT national-exhibition context and six historical theme headings, not an individual advancement record."
+      },
+      {
+        "html_locator": "head article:published_time and article:modified_time; visible postMeta date",
+        "scope": "First-post and later modification timestamps."
+      }
+    ],
+    "notes": "Reports a historical KVS Chennai regional event in Pattom, with nearly 600 students from 62 KVs across Kerala, Tamilnadu and Pondicherry. This is neither a Kerala-only count nor Kerala Sasthrolsavam. General JNNSEC context does not prove individual qualification, national prizes or current rules.",
+    "advertised_newsletter": {
+      "title_as_advertised": "KVS Chennai Regional Science Exhibition 2010-’11 Newsletter",
+      "url": "https://librarykvpattom.wordpress.com/wp-content/uploads/2010/09/publication3.pdf",
+      "live_url_body_received": false,
+      "archived_files_host_counterpart_recovered": true,
+      "recovered_source_id": "pathways-83",
+      "scope": "The advertised liveURLfailed; an archived standardfiles-host counterpart was recovered separately, with its own hash, imprint and source-specific population/programme evidence."
+    }
+  },
+  {
+    "id": "pathways-83",
+    "title": "KVS Chennai Regional Science Exhibition 2010–2011: Event News Bulletin",
+    "url": "https://web.archive.org/web/20141119125718id_/http://librarykvpattom.files.wordpress.com/2010/09/publication3.pdf",
+    "effective_url": "https://web.archive.org/web/20141119125718id_/http://librarykvpattom.files.wordpress.com/2010/09/publication3.pdf",
+    "original_url": "http://librarykvpattom.files.wordpress.com/2010/09/publication3.pdf",
+    "advertised_download_url": "https://librarykvpattom.wordpress.com/wp-content/uploads/2010/09/publication3.pdf",
+    "discovered_via_source_id": "pathways-82",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_host_school_event_news_bulletin_and_programme",
+    "publisher": "Principal, Kendriya Vidyalaya Pattom",
+    "publisher_imprint_as_printed": "Published by the Principal, Kendriya Vidyalaya Pattom.",
+    "circulation_imprint_as_printed": "For private circulation only.",
+    "document_date": null,
+    "event_dates_as_printed": "1-2 September 2010",
+    "event_edition_as_printed": "38th KVS Regional Science Exhibition 2010-’11",
+    "reported_region": "CHENNAI REGION",
+    "host_as_printed": "Kendriya Vidyalaya Pattom, Thiruvananthapuram",
+    "download_bytes": 386126,
+    "download_sha256": "081290e30d841e764d43af0209df002872817cb46dac593d9175e0b08474919b",
+    "headers_json_sha256": "99a6f12690074ba308a12fbb31c6ef69dced3af193438ec2e61eda506e8a3000",
+    "acquisition_record_sha256": "fd9535c1a83562598609a1d0c9ecf75925060b207fdb5b0bc55337fbf5eabe50",
+    "retrieved_at_utc": "2026-11-01T05:25:06.419779+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "pdf_pages": 2,
+    "archive_capture": "20141119125718",
+    "memento_datetime_received": "Wed, 19 Nov 2014 12:57:18 GMT",
+    "archive_discovery": {
+      "method": "Actual public Wayback availability response for standard WordPress files-host counterpart",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Flibrarykvpattom.files.wordpress.com%2F2010%2F09%2Fpublication3.pdf&timestamp=20101001",
+      "response_bytes": 328,
+      "response_sha256": "5fb1c7ee2610765b5c909f165c67c61df03c6af9e320ecdb91d278b07c84d416",
+      "closest_capture_as_received": {
+        "status": "200",
+        "available": true,
+        "url": "http://web.archive.org/web/20141119125718/http://librarykvpattom.files.wordpress.com/2010/09/publication3.pdf",
+        "timestamp": "20141119125718"
+      }
+    },
+    "provenance_note": "The blog advertises publication3.pdf in its September 2010 upload directory. Live blog and standard files-host paths returned 404. The public archive supplies the same filename/directory counterpart, whose masthead identifies the same host/event/dates; no byte identity with an unretrieved live file is claimed. Actual Memento matches the advertised archive capture. No CDX/body-digest correspondence asserted.",
+    "pdf_metadata": {
+      "title": "Publication3",
+      "creation_and_modification_raw": "D:20100901170351-05'30'",
+      "scope": "File metadata only; not an authenticated publication day or actual event-hour."
+    },
+    "date_scope": "Masthead gives the event span and page 1 uses opening-day today wording. Programme dates, blog first-post/modification dates, file metadata and 2014 archive capture remain separate; no exact publication day or complete programme execution inferred.",
+    "reported_student_population_text": "Six hundred students",
+    "reported_school_population_text": "more than 60 Kendriya Vidyalayas",
+    "programme_rows_by_day": [
+      10,
+      13
+    ],
+    "programme_execution_verified": false,
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Masthead/event dates, opening-day report and source-specific population wording; complete programme left column."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Event heading/dates and publisher/private-circulation imprint; photographs not copied into derived data."
+      }
+    ],
+    "review_scope": "Complete two-page body guarded and both original pages visually read; programme 23 rows transcribed with visible clock wording. Text/captions used for scope, not face recognition or exhibit identity matching. No photographs or raw PDF committed.",
+    "notes": "This historical host-school bulletin is separate from the later-modified blog posts and from Kerala Sasthrolsavam/national results. Programme rows include food, sleep, breaks and departure, with incomplete 4.30- and a 6pm departure/6.30pm dinner-packet note retained as source wording. No current duration rule, audited unique attendance, individual advancement, teacher credit or construction method follows."
+  },
+  {
+    "id": "pathways-84",
+    "title": "KVS Chennai Regional Science Exhibition: Results",
+    "url": "https://librarykvpattom.wordpress.com/2010/09/02/kvs-chennai-regional-science-exhibition-results/",
+    "effective_url": "https://librarykvpattom.wordpress.com/2010/09/02/kvs-chennai-regional-science-exhibition-results/",
+    "accessed_on": "2026-11-01",
+    "source_type": "school_library_historical_regional_results_tables",
+    "publisher": "Library@Kendriya Vidyalaya Pattom",
+    "hosting_platform": "WordPress.com",
+    "article_author_as_printed": null,
+    "document_date": null,
+    "post_date_display_as_received": "September 2, 2010 • 9:41 am",
+    "post_published_timestamp_as_metadata": "2010-09-02T04:11:00+00:00",
+    "post_modified_timestamp_as_metadata": "2010-09-03T05:19:03+00:00",
+    "download_bytes": 351030,
+    "download_sha256": "36116208930dbb3c72a54c55f5eae9f66abdda6b30294a03a6f299557981c812",
+    "headers_json_sha256": "ed0f0fd149f65259e7a3d41f4a26039373b85c1dfb194e14564e1ee1d87968e5",
+    "acquisition_record_sha256": "2621f91281ececa6da19797c3fc25c96de0c2e62974dc9c809f876db179972cc",
+    "retrieved_at_utc": "2026-11-01T05:12:09.719948+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "date_scope": "The visible post date and metadata first-publication timestamp are distinct from the later 3 September modification timestamp and the event dates. Current retrospective wording is not proven unchanged since the initial post hour.",
+    "authorship_scope": "No article-specific byline, author meta or author link received. The current sidebar librarian profile and generic WordPress publisher meta are not promoted into post authorship or a signed KVS central document.",
+    "review_scope": "Actual complete post entry and relevant HTML metadata read; tables parsed from original received cells. Sidebar/comments excluded from event data. No photo download, screenshot, face/person identity verification or external contact.",
+    "evidence_locators": [
+      {
+        "html_locator": "post-4770 / entry / six Sub theme headings and following tables",
+        "scope": "21 name/school/topic rows; three literal blank position cells, no row/column spans."
+      },
+      {
+        "html_locator": "post-4770 / entry / Inter School Science Quiz table",
+        "scope": "Three rows with two literal name-text segments each; malformed paragraph boundary retained without unique-person inference."
+      },
+      {
+        "html_locator": "head article:published_time and article:modified_time; visible postMeta date",
+        "scope": "First-post and modification timestamps."
+      }
+    ],
+    "result_table_count": 7,
+    "theme_result_rows": 21,
+    "quiz_result_rows": 3,
+    "literal_blank_position_cells": 3,
+    "rowspan_attribute_count": 0,
+    "colspan_attribute_count": 0,
+    "notes": "Six theme tables supply position/name/school/topic cells; quiz supplies position/name/school. Blank position cells remain blank and do not acquire shared third or later rank. Source-specific spelling variants are retained. No teacher credits, construction methods, test data, original code, unique-person total, national prize or qualifying route follows. The unrelated recent-comments table outside the post is excluded."
   }
 ]

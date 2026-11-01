@@ -50,7 +50,7 @@ Original dated school records, code, raw test tables, independent replication an
 
 ## Separate early school account
 
-The [1962–63 historical case](PROJECTS.md#historical-school-construction-account-196263) records pupil revisions, teacher involvement and a failed flight in a regional-fairs report (`project-027`, printed 25–27 / PDF 31–33). It is outside the eleven NCERT chapters and their 43-page total.
+The [1962–63 historical case](PROJECTS.md#historical-school-construction-account-196263) records pupil revisions, teacher involvement and reported separation/defects with wall impact in a regional-fairs report (`project-027`, printed 25–27 / PDF 31–33). It is outside the eleven NCERT chapters and their 43-page total.
 
 ## Earlier recovered 2003 volume
 

@@ -1267,9 +1267,9 @@
     "prize_status": null,
     "qualifying_route": null,
     "evidence_kind": "historical_institutional_project_report",
-    "method_tag": "project approval, iterative construction and failure observation",
+    "method_tag": "project approval, iterative construction and reported defect observation",
     "method_summary": "The account records an approved pupil project, repeated design revisions and teacher supervision. Its test narrative describes parts separating and the body striking a school wall.",
-    "evidence_limits": "The narrator calls the attempt a success, but the observations describe a failed flight. No independent measurements or safe reproducible design is established; operational construction and launch directions are excluded here. Publication in this regional-fairs report does not establish a competition entry, prize or national selection.",
+    "evidence_limits": "The narrator calls the attempt a success while reporting separation, defects and wall impact. These are source observations and an attributed assessment, not an independently validated overall success/failure verdict. No independent measurements or safe reproducible design is established; operational construction and launch directions are excluded here. The account alone does not establish a competition entry, prize or national selection; the separately documented regional prize observation has its own correspondence limits.",
     "credit_variants": {
       "opening_group_list": "S. Sreedhar",
       "closing_signature": "S. Sridhar",

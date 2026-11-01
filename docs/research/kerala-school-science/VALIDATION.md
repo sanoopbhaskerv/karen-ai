@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 385 |
-| Distinct registered source URLs | 380 |
+| Source records | 389 |
+| Distinct registered source URLs | 384 |
 | Topic source registers | 22 |
-| JSON files | 49 |
-| Concise English/Malayalam knowledge records | 192 |
-| Draft Malayalam evaluation questions | 170 |
+| JSON files | 51 |
+| Concise English/Malayalam knowledge records | 198 |
+| Draft Malayalam evaluation questions | 176 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -95,6 +95,16 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | KSCSTE outreach newsletter works / physical PDF pages | 1 / 16 |
 | PMML institutional catalogue records / XML alternate formats | 5 / 5 |
 | PMML follow-up observations / existing targets / item rows | 5 / 4 / 8 |
+| Early regional report works / physical PDF pages | 1 / 39 |
+| Early regional events / qualified counts / description groups | 2 / 18 / 12 |
+| Separately scoped Alwaye regional prize observations | 1 |
+| NCERT national-history reviewed pages / backdrop observations | 29 / 1 |
+| Historical INSPIRE recommendation works / physical PDF pages | 1 / 11 |
+| Kerala state-category recommendation observations | 1 |
+| KVS 2010 HTML works / bulletin works / physical PDF pages | 2 / 1 / 2 |
+| KVS 2010 result tables / data rows | 7 / 24 |
+| KVS 2010 theme rows / quiz rows / blank ranks | 21 / 3 / 3 |
+| KVS 2010 published programme rows | 23 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -233,3 +243,14 @@ The PMML follow-up adds five institutional record observations and eight item ro
 Against `7b0a2c5`, all 375 earlier source objects, 38 core cases and 25 other non-source JSON datasets remain unchanged. The only structured dataset extension is the new institutional follow-up array in the existing holding register. The earlier 188 knowledge and 166 evaluation records remain exact byte prefixes, with four pairs appended. New Malayalam remains subject to teacher review and evaluations held out. No runtime, retrieval, fine-tuning, provider or hardware integration is included.
 
 The final independent publication audit passed **5,661 checks**, recalculating all **90 inventory rows** and checking **306 local links/anchors**, reference resolution, preservation and eighteen actual new acquisition nodes/formats. Separate reviews passed 186 checks on the four context/outreach sources and two bilingual pairs, 77 on the complete annual report and award pair, 112 on the PMML source packet, 224 on its holding transformations and 31 on the final integration/domain scope. The annual report's exact archive digest and complete range assembly agree; nested API/CDX response headers/acquisitions are separately checked against actual sidecars. No material factual, evidence-scope, prose or privacy blocker remained. These checks do not establish historical completeness, teacher-approved Malayalam, physical library availability or scientific performance.
+
+
+The regional-history packet completes visual reading of all 39 physical pages of the previously cached 1962–63 report. The source enrichment records its matching hash/size and the absence of the original HTTP sidecars; it does not invent a fresh network receipt. Two regional events retain eighteen qualified numerical observations, twelve institutional exhibit-description groups and one separately scoped Alwaye group-model prize line. The source prints a February date inside its January narrative; it is retained without repair. No unique-person or statewide-inauguration total follows. A scoped independent review read 26 original pages, checked all 39 render hashes and passed 142 checks after narrowing the rocket assessment and group-member wording.
+
+The dated NCERT enrichment reuses the complete 168-page body and records exactly 29 visually reviewed pages, including all 25 pages of its 1991–2000 image region. Three readers agreed on Ernakulam, 1991 and the 14 November end date in the reproduced backdrop; the apparent 7–14 November range retains its partly obscured start numeral. No full-programme or building-venue claim follows. The complete eleven-page historical INSPIRE recommendation document was separately reviewed, with an 83-check independent review; its 15 August 2011 headings and state-category first-place recommendation stay outside compendium totals and present rules.
+
+The KVS packet adds two complete school-library posts and a recovered two-page bulletin. The actual public archive capture and received Memento are retained; no identity with an unretrieved live body is claimed. All seven relevant HTML tables preserve 24 data rows, three literal blank rank cells, source spellings and the quiz cells’ separate text segments. Both original bulletin pages were visually read; its 23 programme rows remain a historical plan, and its population wording stays separate from the blog’s. The proposal review passed 291 checks. No original construction report, code, unique-pupil count, national rank or qualifying route was added.
+
+Against `f499f81`, 382 earlier source objects are unchanged. Two historical source records gain only new dated review fields, and project-027 changes only its notes to narrow an overbroad failure verdict. The same existing case changes only its method tag and evidence limits; the other 37 cases are exact. Twenty-four other non-source JSON datasets remain byte-identical. The INSPIRE register adds only a separate historical-award array; all earlier fields, 33 descriptions, four edition objects and eighteen link observations remain exact. Two new datasets are added. Of the earlier 192 knowledge and 170 evaluation records, only the explicitly corresponding historical-rocket fact and ml-66 wording are corrected; every other old JSONL line remains byte-identical. Six pairs are appended. Stable identifiers remain unchanged, all new evaluations stay held out, and Malayalam requires teacher review. No runtime, retrieval, fine-tuning, provider or hardware change is included.
+
+The final independent publication audit passed **6,222 checks**, recalculating all **100 inventory rows** and checking **318 local links/anchors**, 857 source-reference edges, 259 internal-reference edges and 328 fact-source edges. Five actual new acquisition nodes/formats and both reused historical PDF bodies match their recorded integrity and scope. Separate integrated semantic reviews preserve recommendation categories, literal table cells and the corrected historical-project assessment. These checks establish collection integrity and evidence handling; they do not establish historical completeness, teacher-approved Malayalam, unique attendance or independent scientific performance.

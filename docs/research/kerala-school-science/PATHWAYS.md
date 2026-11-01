@@ -221,3 +221,17 @@ The [Kerala pandemic source review](PANDEMIC_ACTIVITIES.md) now supplies a separ
 
 
 The [recovered combined NCERT 2020/2021 synopsis booklet](DISCOVERY.md) supplies its own December 2021 preface and planned 8–11 February 2022 online dates, separate from the later annual-report completion record above. Its 145 English address-block review adds no confidently identified Kerala-school row and no new method case. This bounded result is not a whole-event nonparticipation finding.
+
+## Historical INSPIRE recommendations, dated 15 August 2011
+
+The index also advertises a separate recommendation document. Its live link returned 404 on 1 November 2026; the exact original URL’s 4 March 2016 archive capture supplies a complete eleven-page official PDF. Its recommendation headings are dated 15 August 2011. It describes a historical three-stage jury process and contains populated national, regional and state award tables. The Kerala row on PDF/printed page 10 records Meera Murali of DBHS Cheriyanad, a generic model label, grade 5.5 and first place in that state category. This does not establish national first place, a Sasthrolsavam result, construction details, a numbered edition, eligibility or 2026 rules. Keep the row outside the compendium-description and edition totals. [Archived official document](https://web.archive.org/web/20160304081235id_/http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf)
+
+The separate `historical_award_observations` array in the [INSPIRE register](inspire-nlepc-kerala-projects.json) preserves this recommendation without adding a compendium description or edition. Printed Accepted/Signed labels are not authenticated signatures or payment/presentation proof; historical benchmark wording is not transferred into current eligibility.
+
+## KVS Chennai regional exhibition at Pattom, 2010
+
+The host-school library reports the 38th KVS regional exhibition at Pattom on 1–2 September 2010, with nearly 600 students from 62 KVs across Kerala, Tamilnadu and Pondicherry. These are combined regional figures. The two posts carry 1/2 September post dates and 3 September modification metadata, so the current retrospective wording is not a frozen first-post record. No individual post byline is supplied. [Host report](https://librarykvpattom.wordpress.com/2010/09/01/kvs-regional-science-exhibition-2010-11/)
+
+The [results page](https://librarykvpattom.wordpress.com/2010/09/02/kvs-chennai-regional-science-exhibition-results/) supplies 21 theme rows and three quiz rows. Three literal rank cells remain empty; no spans encode ties. Quiz name segments and source spellings remain unmerged. The separate dataset preserves topics and credits, without treating them as methods, code, teacher credits, national prizes or progression. This historical KVS event is separate from Kerala Sasthrolsavam. The recovered [two-page bulletin](https://web.archive.org/web/20141119125718id_/http://librarykvpattom.files.wordpress.com/2010/09/publication3.pdf) reports six hundred students from more than 60 KVs. Preserve its wording separately from the blog. Its 23 programme rows include meals and departure; retain literal clock strings as a historical plan. The publisher is the Principal, and the imprint says private circulation only; the body is publicly archived. No schedule execution or current duration rule follows.
+
+See the [literal results and programme dataset](kvs-regional-results-2010.json).

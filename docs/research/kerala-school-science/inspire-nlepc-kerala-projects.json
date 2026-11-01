@@ -1621,5 +1621,37 @@
       "scientific_performance_independently_validated": false,
       "integration_policy": "Append as a separate dated follow-up observation outside the 16 existing entry objects; preserve every old entry unchanged."
     }
+  ],
+  "historical_award_observations": [
+    {
+      "id": "inspire-recommendation-2011-kerala-state-category",
+      "programme": "INSPIRE Awards national-level project competition",
+      "edition_number": null,
+      "recommendation_date_as_printed": "2011-08-15",
+      "source_id": "pathways-81",
+      "pdf_page_1based": 10,
+      "printed_page": 10,
+      "section_scope": "State-category recommendations within the national-competition document",
+      "state_or_ut_as_published": "Kerala",
+      "pupil_credit_as_published": "Meera Murali",
+      "school_credit_as_published": "DBHS Cheriyanad,\nChengannurAlappuzha",
+      "project_label_as_published": "Working Model",
+      "evaluation_grade_as_published": "5.5",
+      "prize_as_published": "1st",
+      "status": "Explicit first place in the dated Kerala state-category recommendation row; printed acceptance text is part of the document. Award presentation or payment is not independently verified.",
+      "mechanism_or_construction_details": null,
+      "guide_credit": null,
+      "source_limits": [
+        "No numbered edition, event venue/dates, cohort, pupil age/class eligibility, nomination quota or source-code details established.",
+        "The generic project label is not a mechanism report or proof of the contemporary Kerala working-model registration category.",
+        "No identity merge with later pupils/schools/projects; no inferred national first prize, Sasthrolsavam result or progression route."
+      ],
+      "raw_identifiers_excluded": [
+        "project serial identifier",
+        "stall identifier"
+      ],
+      "dataset_treatment_recommendation": "Keep as a separate historical award observation. Do not add it to the reviewed compendium-description count, book/page count or edition count.",
+      "endorsement_scope": "The enclosing recommendations display typewritten Accepted and Signed wording on PDF/printed pages 2, 5 and 11. These labels are reported as document content without independent signature authentication or proof of award presentation/payment."
+    }
   ]
 }
