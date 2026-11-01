@@ -6,6 +6,18 @@ Checked **1 November 2026**. INSPIRE's National Level Exhibition and Project Com
 
 The official [compendium index](https://www.inspireawards-dst.gov.in/UserP/nlepc-compendium.aspx), source `pathways-54`, advertises **18 volume links** across the first through eleventh NLEPC labels. This is a link inventory, not 18 distinct editions or 18 completely reviewed books. Both tenth-edition labels and both eleventh-edition labels say “Vol II” despite distinct filenames; the received labels remain literal in the dataset. Downloaded bodies must establish their own volume and date context.
 
+## Sixth NLEPC: received supplement and four Kerala descriptions
+
+The [official index’s volume-I file](https://www.inspireawards-dst.gov.in/download/NLEPC/2016/vol-1.pdf), source `pathways-85`, contains 301 physical pages. Its cover says 2016 and 10–11 December at CSIR-NPL, New Delhi, with a participant-instructions label. PDF 3 prints copyright 2016; PDF 4 refers to ideas in 2015–16 without a financial-year label. PDF 5 calls the work a compendium and describes entries omitted from the main compendium as a supplement. Preserve these different labels. The 2017 metadata/server dates are not the event or a publication day.
+
+The complete Kerala heading/entry range is PDF 148–153: four descriptions at 150–153/printed 135–138. Eco Cook Power describes a woodstove/thermoelectric generator; Little Dracula proposes herbal mosquito oil; Colour Detection Robot uses Raspberry Pi/webcam/Python/GPIO; the rice account reports examining chemical use along the supply chain. These brief accounts do not validate electrical output, emissions, repellent safety, recognition performance or health effects. The stove text ends mid-sentence. Preserve the literal SITTLE DRACULA awardee field and printed rice-title spelling variants; do not repair a pupil identity or infer a final national prize.
+
+The separate KVS section, PDF 154–157 with Maharashtra boundary 158, contains two descriptions. Both print the same Karnataka school text and leave district/state blank. Palakkad occurs in one problem statement, which does not establish Kerala school attribution. Shared school wording does not justify an identity merge. They remain two non-counted review observations. The complete received index supplies no separately labelled NVS/JNV section; bounded OCR/metadata follow-up is not whole-programme absence evidence.
+
+Annexure-I, PDF 296/printed 306, separately records Kerala’s 15,278 sanctioned awards as of 30 September 2016, ₹763.90 lakh sanctioned for awards under the ₹5,000-per-award heading and ₹154.39 lakh released for organising competitions. It supplies no period start, sixth-event delegate total, verified individual payment or current rate. This historical scheme observation is outside project and edition counts.
+
+All 301 native layers are empty. Separate 301-page 120dpi machine OCR completed without failures; original-page follow-up covered 52 pages, including all 28 low-text page types. This targeted human review is not a full reading of every national project. No pupil photos, parent details, age/class or private contact data are copied into the derived register. The four descriptions are scoped to this received file; the historical-scheme row and two KVS review observations stay outside the description count.
+
 ## Seventh NLEPC: eight Kerala-section entries
 
 Both received volumes' prefaces give **14–15 February 2019 at IIT Delhi**, on PDF 2. The URL's `/2017/` directory and May 2019 PDF creation metadata are separate observations; neither establishes the event year or an original publication date. The historical classes 6–10 wording does not replace the [current cycle's eligibility](PATHWAYS.md#inspire-manak). Sources [pathways-55, volume 1](https://www.inspireawards-dst.gov.in/download/NLEPC/2017/7th-vol-1.pdf#page=2) and [pathways-56, volume 2](https://www.inspireawards-dst.gov.in/download/NLEPC/2017/7th-vol-2.pdf#page=2).
@@ -75,7 +87,7 @@ The descriptions include a reused-drum floating boat, Peltier PPE cooling, a ves
 
 Both original text layers are inadequate. Separate full **614-page machine OCR** supplied discovery leads, followed by literal/fuzzy metadata, low-text page-type and original-page checks. The complete KV section and boundaries, PDF 25–36 in volume 2, and JNV section/boundaries, PDF 193–200 in volume 1, were visually read. Physical/printed offsets vary, so the JNV locators were verified directly. The bounded screen supplied no further adopted location candidate; this does not prove geographic absence or a full human reading of every national project.
 
-With these twelve additions, the dedicated register contains **33 descriptions across four reviewed editions and eight books / 2,057 PDF pages**. These are source and file inventories, not unique-pupil, Kerala-delegation, attendance or winner totals.
+These twelve ninth-edition descriptions retain their original state/organisation scope. Source and file inventories are not unique-pupil, Kerala-delegation, attendance or winner totals.
 
 ### Dated event reports
 
@@ -97,7 +109,17 @@ The complete **308-page** [DST Annual Report 2023–24](https://web.archive.org/
 
 The same paragraph reports **more than 12,000 Delhi-NCR student visitors**, a different population from selected exhibitors. These pages do not establish Kerala affiliation, school/project matches, all sixty ranks, individual payments or audited attendance. The report cycle, adjacent June–September 2023 nominations and the earlier 2021–22 idea wording remain separate. Only the cover and relevant PDF **55–56 / printed 39–40** received visual review; a complete file is not a full human audit.
 
-An incomplete one-megabyte archive capture was excluded. A different exact CDX capture supplied the full report after a guarded range continuation; its final body digest matches the archive record. The two advertised tenth compendia remain in acquisition and **unreviewed**. No tenth compendium entries or methods have been added to the dataset from partial files.
+An incomplete one-megabyte archive capture was excluded. A different exact CDX capture supplied the full report after a guarded range continuation; its final body digest matches the archive record. Both advertised tenth compendia have now passed full-body validation and target review. The following section records eight Kerala-heading descriptions, with date, organisation and review-scope limits; no partial file supplied adopted facts.
+
+## Tenth NLEPC: eight Kerala-heading descriptions
+
+Both tenth books are now complete and independently guarded: **253 + 245 = 498 physical pages**. Their actual covers say **2023**, **Compendium I** and **Compendium II**; the index’s duplicate Vol II labels remain preserved. The preface and foreword are undated. The foreword uses the year **2021–22**, without an explicit financial-year label; dated event and award reporting remains separate.
+
+Volume I places eight descriptions under **Kerala**, PDF **241–248 / printed 231–238**. They cover a portable scooter, patient-support bed, IV alert, atmospheric-water generator, bore-well rescue crane, microscope, voice-controlled chair and sensing stick. The last explicitly credits a **Jawahar Navodaya school, Malampuzha** under that state heading. The KVS section (PDF 231–239) and volume II NVS section (PDF 78–83) were read without adding organisation-section rows; this does not mean no Kerala Navodaya participation or establish a Sasthrolsavam/DGE route.
+
+All **498 pages received machine OCR for discovery**; **44 original frontmatter/target/boundary pages received full author reading**. The separate reviewer’s type previews and metadata crops retain their narrower scopes. This is not a full human audit of all national projects. The eight descriptions do not establish final prizes, attendance, work division or independent performance. In particular, U Water’s component list and generic compressor explanation do not prove one integrated system or potability; Arduino/IoT and voice-module descriptions supply no original-code or general-AI proof. The received pages provide no relevant rescue-load, clinical, water-quality, recognition-accuracy or roadworthiness results; that does not establish that no testing ever occurred.
+
+[Compendium I, Kerala descriptions](https://www.inspireawards-dst.gov.in/download/NLEPC/2023/10th-NLEPC-Compendium_1.pdf#page=241); [Compendium II, NVS section](https://www.inspireawards-dst.gov.in/download/NLEPC/2023/10th-NLEPC-Compendium_2.pdf#page=78).
 
 ## Eleventh NLEPC: state and organisational sections
 
@@ -119,7 +141,7 @@ In volume 2's NVS section, **Fibres from Money Plant**, credited to **Sreedev S*
 
 Both full newer files were processed with machine OCR for discovery because their original text layers are inadequate. All five Kerala entries, the full KVS/NVS sections and target front matter/boundaries were visually reviewed. OCR supplied no further location candidate in the bounded screen; that is not proof of absence or a full human reading of every page. Some render sizes clipped metadata, so complete adopted fields were checked against legible alternate renders. Original PDFs were not altered.
 
-The register now contains **33 descriptions** across the seventh, eighth, ninth and eleventh editions. The eight books total **2,057 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
+The register now contains **45 descriptions** across six reviewed edition labels: sixth, seventh, eighth, ninth, tenth and eleventh. The eleven books total **2,856 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
 
 ## A later learner account: candidate correspondence
 
@@ -141,4 +163,4 @@ The inspected index and article do not supply the twelfth compendium body or Ker
 
 ## Separate historical award recommendations
 
-A complete eleven-page archived official document has national, regional and state recommendation headings dated 15 August 2011. Its Kerala row is a **state-category first-place recommendation**, not national first place, an identified numbered edition or a Sasthrolsavam result. It supplies no construction method or current eligibility rule. The [pathway summary](PATHWAYS.md#historical-inspire-recommendations-dated-15-august-2011) and separate historical-award array retain the category and date limits. The compendium inventory remains 33 descriptions, four reviewed editions and eight books / 2,057 physical pages. [Archived recommendations, PDF 10](https://web.archive.org/web/20160304081235id_/http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf#page=10)
+A complete eleven-page archived official document has national, regional and state recommendation headings dated 15 August 2011. Its Kerala row is a **state-category first-place recommendation**, not national first place, an identified numbered edition or a Sasthrolsavam result. It supplies no construction method or current eligibility rule. The [pathway summary](PATHWAYS.md#historical-inspire-recommendations-dated-15-august-2011) and separate historical-award array retain the category and date limits. The compendium inventory is 45 descriptions, six reviewed edition labels and eleven books / 2,856 physical pages. [Archived recommendations, PDF 10](https://web.archive.org/web/20160304081235id_/http://www.inspireawards-dst.gov.in/download/inspire-award-completion.pdf#page=10)
