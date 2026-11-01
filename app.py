@@ -317,6 +317,20 @@ def create_app(config=None, providers=None):
         reply = provider.answer(memory, previous, message)
         return reply, version
 
+    def measured_stage(job, timings, stage, operation):
+        started, status = time.monotonic(), 'error'
+        try:
+            value = operation()
+            status = 'ok'
+            return value
+        finally:
+            elapsed = max(0, int((time.monotonic() - started) * 1000))
+            timings[stage] = elapsed
+            app.logger.info('request=%s stage=%s status=%s elapsed_ms=%d', job.key, stage, status, elapsed)
+
+    def timing_headers(timings):
+        return {'Server-Timing': ', '.join(f'{stage};dur={elapsed}' for stage, elapsed in timings.items())}
+
     def commit(job, message, reply, version, result):
         with job.lock, lock:
             job.check()
@@ -371,8 +385,10 @@ def create_app(config=None, providers=None):
         try:
             message = validate_message(message)
             def operation(job):
-                reply, version = generate(message)
-                result = Result(dict(reply=reply, mode='demo' if app.config['DEMO_MODE'] else 'live'))
+                timings = {}
+                reply, version = measured_stage(job, timings, 'gemini', lambda: generate(message))
+                result = Result(dict(reply=reply, mode='demo' if app.config['DEMO_MODE'] else 'live'),
+                                headers=timing_headers(timings))
                 commit(job, message, reply, version, result)
                 return result
             job = jobs.submit('text', message.encode(), request.headers.get('X-Request-ID'), operation)
@@ -383,7 +399,7 @@ def create_app(config=None, providers=None):
             return response
         if job.result.status != 200:
             return dashboard(error=job.result.body['error'], status=job.result.status)
-        return dashboard()
+        return (*dashboard(), job.result.headers)
 
     @app.post('/chat')
     def chat():
@@ -396,23 +412,24 @@ def create_app(config=None, providers=None):
         except ServiceError as exc:
             return jsonify(error=str(exc)), 400
         def operation(job):
+            timings = {}
             spoken_error = None
             try:
-                transcript = validate_message(provider.transcribe(data))
+                transcript = measured_stage(job, timings, 'stt', lambda: validate_message(provider.transcribe(data)))
                 job.check()
-                reply, version = generate(transcript)
+                reply, version = measured_stage(job, timings, 'gemini', lambda: generate(transcript))
                 job.check()
             except ServiceError as exc:
                 if exc.code == 'request_timeout':
                     raise
                 reply = str(exc) if any('\u0d00' <= c <= '\u0d7f' for c in str(exc)) else 'ക്ഷമിക്കണം, ഇപ്പോൾ മറുപടി നൽകാൻ കഴിയുന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കൂ.'
                 spoken_error = exc.code
-            audio = provider.speak(reply)
+            audio = measured_stage(job, timings, 'tts', lambda: provider.speak(reply))
             job.check()
             if len(audio) > 512000:
                 raise ServiceError('Speech response too large. Try a shorter question.', 'audio_too_large', 502)
             result = Result(audio, headers={'X-Karen-Result': 'spoken-error' if spoken_error else 'ok',
-                                            'X-Karen-Error': spoken_error or ''})
+                                            'X-Karen-Error': spoken_error or '', **timing_headers(timings)})
             if not spoken_error:
                 commit(job, transcript, reply, version, result)
             return result

@@ -106,6 +106,8 @@ curl --fail-with-body --max-time 155 -F 'audio=@question.wav;type=audio/wav' \
 
 A successful reply is HTTP 200, `audio/mpeg`, `X-Karen-Result: ok`. `spoken-error` means an error apology was synthesized; `X-Karen-Error` identifies why. Invalid WAV returns JSON 400; failed TTS returns JSON 503. Never treat JSON or a spoken apology as a successful AI answer.
 
+The controller sends the WAV directly with `Content-Type: audio/wav`, avoiding an extra multipart file in flash. It uses HTTP/1.1 connection reuse when supported by the server and consumes each pending response before polling again. WiFi power saving is disabled for responsiveness. Completed voice results include `Server-Timing` for attempted `stt`, `gemini` and `tts` stages, with matching sanitized request-ID logs; text results include `gemini` only. A recognition failure skips Gemini and synthesizes an error reply. Cached results retain their original timings. See the [controller response-time guide](CONTROLLER_LATENCY.md) for upload instructions and comparable button-to-playback measurements.
+
 ## Tests and firmware
 
 ```bash
