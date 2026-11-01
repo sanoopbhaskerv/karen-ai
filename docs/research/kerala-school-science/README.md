@@ -23,9 +23,9 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [SISF annual-report chronology](SISF_HISTORY.md) | Seven report cycles, five reported regional events, pandemic statements and source-specific dates/counts |
 | [IRIS and ISEF research route](IRIS_ISEF.md) | Public-site edition/schedule conflicts, submission/video/anonymity rules, illustrative-paper limits and ISEF AI disclosures |
 | [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, first-cycle budget, historical ratifications, 13-item inventory, manual/amendment versions and conditional funding |
-| [Contemporary observer accounts](OBSERVER_ACCOUNTS.md) | KSSP's attributed review of the 2019 Science Fair, separate from empirical studies and official results |
+| [Contemporary observer accounts](OBSERVER_ACCOUNTS.md) | Attributed observations and proposals, separate from empirical studies and official results |
 | [Documented exhibit case studies](PROJECTS.md) | Published Kerala-school project mechanisms, credits, source pages and award scope |
-| [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
+| [NCERT exhibit discovery](DISCOVERY.md) | 14 reviewed publications and 105 published Kerala-school entries, with exact metadata and exclusions |
 | [SISF 2026 model write-ups](SISF_2026_MODELS.md) | All 31 published Kerala write-ups, with pupil/teacher scope and reported-method limits |
 | [School-affiliated publications](SCHOOL_PROJECT_REPORTS.md) | Four primary papers with candidate component/related-study correspondences and source-quality limits |
 | [Dated result publication versions](RESULT_RECONCILIATION.md) | Archived score changes, actual capture dates and unresolved certification |
@@ -84,4 +84,4 @@ For a rule affecting participation, prefer the current signed departmental or KI
 This research adds reference material only. It does not train a model, connect a retrieval service, change Karen's saved identity or runtime memory, or establish that Karen has qualified for a particular event. It also does not claim every historical exhibit has a publicly accessible abstract or report. Source links and original factual summaries are retained so the collection can grow without blending editions or programmes.
 
 
-The latest archival pass adds the complete official 2015 Kollam programme, a 2014 trophy-design invitation, the eighth INSPIRE volumes and separate event/award records, a combined NCERT 2020/2021 synopsis booklet, and a later KVS learner account. These preserve planned-versus-completed events, stream ordinals, bilingual duplicates, reported populations and project-version limits. See [coverage gaps](COVERAGE.md) and [validation](VALIDATION.md) for current scope.
+The latest pass adds historical trophy contribution/naming documents, a specific local funding rejection, a mobile-science provider proposal, two distinctly scoped implementation/commentary accounts and ninth INSPIRE books/event reports. The collection now has **375 source records, 188 bilingual facts and 166 draft Malayalam evaluations**. The INSPIRE subset has **33 source-bound descriptions across four editions**. These remain reference material for future Karen integration; [coverage gaps](COVERAGE.md) and [validation](VALIDATION.md) retain the limits.

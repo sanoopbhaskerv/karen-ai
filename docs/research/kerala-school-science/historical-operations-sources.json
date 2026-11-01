@@ -75,5 +75,75 @@
     "download_url": "https://drive.google.com/uc?export=download&id=1VbOV6_GZSdIauHFTjKbhbFlDj7VSYTxJ",
     "effective_download_url": "https://drive.usercontent.google.com/download?id=1VbOV6_GZSdIauHFTjKbhbFlDj7VSYTxJ&export=download",
     "retrieved_at_utc": "2026-10-31T22:50:30.328503+00:00"
+  },
+  {
+    "id": "historical-operations-kasaragod-funding-2024",
+    "url": "https://lsgkerala.gov.in/system/files/2024-07/CCMinutes17.07.2024.pdf",
+    "effective_url": "https://lsgkerala.gov.in/system/files/2024-07/CCMinutes17.07.2024.pdf",
+    "accessed_on": "2026-11-01",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 710884,
+    "download_sha256": "3abee3684ee263824acc23116e8390d983b120afbba5dbc95ba80546ad834c31",
+    "retrieved_at_utc": "2026-11-01T03:51:32.048849+00:00",
+    "acquisition_record_sha256": "cf9f5bf73deb6943edaf1aecb75584275a1d18fe54475a87245c70b8cc33500e",
+    "headers_json_sha256": "074701f0fcddfe5bc990f68dd715b5256bb8ab18312b0c282110db34dfa91fb9",
+    "title": "Kerala state decentralised-planning coordination committee, 17 July 2024: Kasaragod fair-funding request and rejection",
+    "source_type": "official_administrative_meeting_proceedings",
+    "publisher": "Local Self Government Department, Government of Kerala",
+    "document_date": "2024-07-17",
+    "date_scope": "Meeting date printed in the proceedings title; separate issue/publication date not established.",
+    "pdf_pages": 14,
+    "relevant_item": "4.11, Kasaragod District Panchayat",
+    "cited_references": [
+      {
+        "document": "District Planning Officer letter",
+        "document_date": "2024-03-26"
+      },
+      {
+        "document": "District Panchayat President letter",
+        "document_date": "2023-10-07",
+        "reference": "CA/1/710/23"
+      }
+    ],
+    "item_file_references": [
+      "SRG/392/24",
+      "CC/826/2023"
+    ],
+    "requested_amount_per_fair_inr": 100000,
+    "requested_number_of_fairs": 3,
+    "requested_total_inr": 300000,
+    "requested_fund": "District Panchayat own fund",
+    "fairs_as_described": [
+      "District school sports fair",
+      "District school science fair",
+      "District school arts fair"
+    ],
+    "decision": "request_rejected",
+    "rejection_reason_supplied": false,
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Title/contents identify the 17 July 2024 state-level coordination proceedings."
+      },
+      {
+        "pdf_page_1based": 8,
+        "printed_page": 7,
+        "scope": "Item 4.11 heading and its two letter references."
+      },
+      {
+        "pdf_page_1based": 9,
+        "printed_page": 8,
+        "scope": "Item 4.11 request, amounts and explicit rejection before item 4.12."
+      }
+    ],
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      8,
+      9
+    ],
+    "review_scope": "Title/context and complete relevant item 4.11 visually read, including surrounding item boundaries; independently reviewed. Damaged native-text extraction order checked against source images. No full reading of every unrelated item claimed.",
+    "notes": "Kasaragod sought permission for ₹1 lakh each for district school sports, science and arts fairs, totalling ₹3 lakh from own funds. The rationale reports the fairs collectively in the previous year’s October, November and December and an intention to pay after the financial year. The committee rejected the request without giving a reason here. This is neither an approved grant nor disbursement, a universal funding ban, exact dates for each fair, or a current entitlement. All unrelated personal/medical cases, pupil identities and contacts are excluded from derived notes."
   }
 ]

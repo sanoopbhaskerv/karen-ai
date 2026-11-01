@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 363 |
-| Distinct registered source URLs | 358 |
+| Source records | 375 |
+| Distinct registered source URLs | 370 |
 | Topic source registers | 22 |
 | JSON files | 49 |
-| Concise English/Malayalam knowledge records | 178 |
-| Draft Malayalam evaluation questions | 156 |
+| Concise English/Malayalam knowledge records | 188 |
+| Draft Malayalam evaluation questions | 166 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -72,17 +72,23 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Underlying March 2026 grace-order pages | 8 |
 | Pre-2009 IT retrospective documents / pages | 1 / 6 |
 | INSPIRE public compendium volume links | 18 |
-| INSPIRE compendium works / physical PDF pages | 6 / 1,443 |
-| INSPIRE reviewed edition labels | 3 |
-| INSPIRE source-bound project descriptions | 21 |
-| INSPIRE state-heading / organisational descriptions | 18 / 3 |
-| INSPIRE target PDF pages visually reviewed | 117 |
+| INSPIRE compendium works / physical PDF pages | 8 / 2,057 |
+| INSPIRE reviewed edition labels | 4 |
+| INSPIRE source-bound project descriptions | 33 |
+| INSPIRE state-heading / organisational descriptions | 29 / 4 |
+| INSPIRE target PDF pages visually reviewed | 163 |
 | Older NCERT model-book canonical holding targets | 5 |
 | 2015 state programme documents / pages | 1 / 8 |
 | 2014 gold-cup design notices / pages | 1 / 1 |
 | Eighth INSPIRE award-list works / pages | 1 / 5 |
 | Combined 2020/2021 NCERT booklet works / pages | 1 / 188 |
 | KVS learner-account works / pages | 1 / 4 |
+| Gold-cup contribution/naming/form works / physical PDF pages | 4 / 14 |
+| Historical coordination minutes works / physical PDF pages | 1 / 14 |
+| Institutional post-fair camp HTML works | 1 |
+| Personal blog commentary HTML works | 1 |
+| Science on Wheels provider EOI works / physical PDF pages | 1 / 3 |
+| Ninth INSPIRE official press reports | 2 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -203,3 +209,12 @@ Against 1287f36, all 354 earlier source objects and 38 core cases remain unchang
 
 
 The latest independent publication audit passed **5,418 checks**, recalculating all **78 inventory rows** and checking **291 local links/anchors**, reference resolution, permitted dataset updates, preservation and actual source acquisition chains. A separate scoped review passed 297 acquisition checks; eighth-edition integration passed 20 checks. Both historical pairs and all five further pairs received independent semantic/source review; the latter also passed 44 structural/count checks against the integrated records. No material evidence-scope or privacy finding remained. These reviews do not certify historical completeness, Malayalam teacher approval, individual attendance or scientific performance.
+
+
+The next packet adds twelve sources, including eight complete PDFs / 645 physical pages and four actual HTML works. Four gold-cup administrative bodies received full fourteen-page visual review; the funding proceedings received targeted title/item review at PDF 1, 8 and 9; the provider EOI received full three-page review. Institutional camp reporting and personal proposals remain separate from measured outcomes and official rules. Both ninth-event PIB bodies were read, preserving plans, population stages, support status and source-specific year wording.
+
+The two ninth compendia add 614 physical pages, all processed with machine OCR for bounded discovery. Source registers retain exact target visual-page coverage and any limited crop review; no full human reading of every national project is claimed. Native-layer sparsity, corrected physical/printed locators and excluded fuzzy location leads remain explicit. Public historical credits stay source-bound; photographs, private identifiers, contacts and unrelated personal/medical cases are excluded from derived material.
+
+Against `5100d25`, all 363 earlier source objects, 38 core cases and 25 other non-source JSON datasets remain unchanged. The INSPIRE dataset preserves its 21 earlier entries and three edition objects as exact prefixes; only the two ninth-volume download statuses/source IDs change in the literal 18-link inventory. The earlier 178 knowledge and 156 evaluation records remain exact byte prefixes, with ten pairs appended. Malayalam remains subject to teacher review and evaluations held out. No runtime, retrieval, fine-tuning, provider or hardware integration is included.
+
+The final independent publication audit passed **5,596 checks**, recalculating all **84 inventory rows** and checking **300 local links/anchors**, reference resolution, preservation and actual new acquisition chains. Separate source/semantic reviews passed 99 gold-cup checks, 45 provider-EOI checks, 47 PIB checks and 193 ninth-compendium checks. An additional **1,240-check** audit corroborated ordered OCR derivatives, text hashes/counts, render status and all fourteen empty pages across the 614 ninth-volume pages; it certifies derivative integrity, rather than transcription accuracy. Literal school-field corrections and a stale publication-count label were fixed before the final verdict. No material evidence-scope or privacy blocker remained. These reviews do not certify historical completeness, teacher-approved Malayalam, individual attendance or scientific performance.

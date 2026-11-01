@@ -48,3 +48,9 @@ For the state sequence, the first day is special-school, the second HS and the t
 PDF 2 has a handwritten signature and the printed Malayalam name normalised as **M K Shinemon**, Additional Director of General Education (Academic). Employee identifiers and contact fields were not copied. Source `historical-operations-workexperience-2023`.
 
 None of these three documents establishes a blanket school-uniform/badge ban. Use the current applicable manual and organiser notice for entrant instructions; historical Work Experience provisions and appeal capacity are separate from Karen's student-identity privacy choice.
+
+## A specific district funding request rejected in 2024
+
+The **17 July 2024** state decentralised-planning coordination proceedings record Kasaragod District Panchayat's request to use **₹1 lakh each** from own funds for district school **sports, science and arts fairs: ₹3 lakh total**. Item **4.11** cites letters dated **26 March 2024** and **7 October 2023**, mentions the previous year's October–December fairs collectively and seeks payment after the financial year. These are not exact dates assigned to each fair. The meeting date is printed in the title; a separate issue date is not established. [LSGD proceedings, PDF 1, 8–9 / printed 7–8](https://lsgkerala.gov.in/system/files/2024-07/CCMinutes17.07.2024.pdf#page=8)
+
+The decision explicitly **rejects the request**, without stating a reason here. Requested sums are not grants or disbursements, and this particular decision does not establish a universal funding ban. The fourteen-page file received native-text screening; PDF **1, 8 and 9** supplied visual review of the title, references and complete relevant item. Adjacent permissions and unrelated personal/medical cases are excluded. Source `historical-operations-kasaragod-funding-2024`.

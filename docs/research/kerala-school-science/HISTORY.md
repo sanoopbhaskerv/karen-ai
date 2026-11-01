@@ -274,3 +274,23 @@ The [SISF annual-report chronology](SISF_HISTORY.md) concerns a separate regiona
 A recovered one-page [Education Department notice](https://web.archive.org/web/20140913042303id_/http://www.education.kerala.gov.in:80/downloads2014/announcement/pressrelese_sasthramelagoldcup_1.9.2014.pdf) invites artwork for a **one-kilogram gold cup (125 pavan as printed)**, with receipt by the relevant revenue-district DDE due **17 September 2014**. Pupils in classes 1–12 and teachers at government, aided and recognised unaided schools could submit A4/A3 drawings incorporating Science, Mathematics, Social Science, Work Experience and IT symbols, optionally as one composite symbol. It promises a cash award for the selected artwork without specifying an amount.
 
 This is a design invitation, not evidence that a trophy was manufactured or presented, a named design winner, audited expenditure or a current prize. It contains no printed issue date or Kalam naming. The filename’s 1 September 2014 and the inconsistent January 2009 PDF metadata remain separate from the explicit deadline. Actual 13 September 2014 archive headers and the exact CDX/body digest corroborate the recovered file. No completed submissions or pupil/contact details are copied.
+
+### Contribution permission, procedures and the 2015 naming decision
+
+Four further bodies add administrative stages to the design notice. The **26 August 2014 G.O.(Ms)168/2014/GEdn** permits ₹1 contributions from pupils in classes 1–12 at government, aided and recognised unaided schools for a **one-kilogram/125-pavan** cup, and a savings account in the DPI's name at the historical SBT Jagathi branch. This is permission; no opening certificate, receipts or expenditure statement was recovered. The actual body is a public reproduction linked by an independent education archive, without a recovered government-hosted original or cryptographic authentication. [Order reproduction, PDF 1](https://drive.google.com/file/d/18C4o_Ja8j5b2h8QKZmymJSjOemxfYbBY/view)
+
+The **30 August 2014 DPI circular Y(1)/55555/2014/DPI** plans a rolling cup for the revenue district earning most state-fair points, and the following historical collection chain. These are scheduled actions, not evidence that the money or materials arrived. [Archived official circular, PDF 1–9](https://web.archive.org/web/20140913042321id_/http://www.education.kerala.gov.in:80/downloads2014/announcement/sasthramelagoldcup_circular.pdf)
+
+| Planned stage | Historical deadline | PDF locator |
+| --- | --- | --- |
+| Pupil contribution collection | 23 September 2014, 10–11 am | 2, 4 |
+| School demand-draft preparation | 23–24 September | 2, 5 |
+| School drafts and Annexure I to AEO/DEO | 25 September, noon | 2, 5 |
+| AEO/DEO forwarding to DDE | 29 September, noon | 2, 6 |
+| DDE handoff to ADPI (Academic) | 6 October, noon | 3, 7 |
+
+For the artwork, PDF 3, 7 and 8 retain **17 September** receipt, **19 September** district selection of five designs and **22 September noon** forwarding. The numbered instructions jump from 7 to 10; no missing steps are reconstructed. Reporting uses forms and computer/CD material, but the wording of a form number differs between passages. The separately recovered [blank Annexure I](https://web.archive.org/web/20140913042308id_/http://www.education.kerala.gov.in:80/downloads2014/announcement/sasthramela%20gold%20cup_annexure_1.pdf) has pupil-total, contribution and draft fields, with no completed amounts or printed issue date. Empty cells are neither measured zero receipts nor proof of payment.
+
+The **6 August 2015 G.O.(Ms)212/2015/GEdn**, referencing a **29 July 2015 DPI letter**, names the cup **Dr. A.P.J. Abdul Kalam Gold Cup**. Its wording still describes a cup being made; it does not certify completed manufacture, presentation, a design winner or paid award. This second reproduced order bears an independent archive's watermark; its printed order date remains separate from file metadata. [Naming-order reproduction, PDF 1](https://drive.google.com/file/d/0B_PAkW36uVGaLVctUjcwNDFZVjA/view)
+
+All **14 physical pages** of these four bodies were visually reviewed, including the circular's number-only final page and the form's near-blank second page. The circular and form have matching actual **13 September 2014 Mementos and exact CDX/body digests**. The two referenced DPI letter bodies remain missing. No current contribution requirement, bank-payment instruction or prize entitlement follows from these historical records; private contacts, account numbers and pupil details are excluded.

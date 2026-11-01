@@ -11,3 +11,7 @@ The author praises pupils' explanations and the organisation. He also describes 
 The two-page article supplies no sampling protocol, participant-level data, questionnaire, comparison group or measured learning outcomes. Its claims do not establish prevalence across Kerala, causal educational effects or present participation requirements. The author's teaching affiliation does not establish that he was a judge or an organiser. No pupil identity or personal contact details are retained here.
 
 The issue's publication details on PDF 3 and both article pages were read visually; the full received file has **52 PDF pages**. The [source register](observer-account-sources.json) retains acquisition and review details. The institutional publisher is Kerala Sasthra Sahithya Parishath; this publication is not a government instruction. For the broader dated chronology, see [HISTORY.md](HISTORY.md).
+
+## A separate personal proposal
+
+The [19 September 2026 blog post](https://sciencetvm.blogspot.com/2026/09/3_01415163238.html), source `observer-account-002`, offers draft reflection indicators. It supplies personal proposals, without official authority or empirical validation. These do not amend the applicable rubric.

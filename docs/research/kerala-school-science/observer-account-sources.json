@@ -19,19 +19,69 @@
     "author_affiliation_as_printed": "ശാസ്ത്രാധ്യാപകൻ, ഗവ. ഹയർ സെക്കന്ററി സ്കൂൾ, എരുമപ്പെട്ടി, തൃശ്ശൂർ ജില്ല",
     "author_affiliation_english_normalisation": "Science teacher, Government Higher Secondary School, Erumappetty, Thrissur district",
     "pdf_pages": 52,
-    "article_pdf_pages_1based": [41, 42],
-    "article_printed_pages": [41, 42],
+    "article_pdf_pages_1based": [
+      41,
+      42
+    ],
+    "article_printed_pages": [
+      41,
+      42
+    ],
     "download_bytes": 4840389,
     "download_sha256": "0baa1a20977417e9e5462bbce2fda792e78c8226a749a4ca552b9ebf0bdd4bc5",
     "evidence_locators": [
-      {"pdf_page_1based": 3, "printed_page": 3, "scope": "Issue date, volume, issue, institutional publisher and article contents entry."},
-      {"pdf_page_1based": 41, "printed_page": 41, "scope": "Article title, author/affiliation, attributed event dates/venue, attendance/grade statements and pupil presentations."},
-      {"pdf_page_1based": 42, "printed_page": 42, "scope": "Attributed subject concentration, teaching-aid design, public-viewing and peer-exchange observations."}
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "Issue date, volume, issue, institutional publisher and article contents entry."
+      },
+      {
+        "pdf_page_1based": 41,
+        "printed_page": 41,
+        "scope": "Article title, author/affiliation, attributed event dates/venue, attendance/grade statements and pupil presentations."
+      },
+      {
+        "pdf_page_1based": 42,
+        "printed_page": 42,
+        "scope": "Attributed subject concentration, teaching-aid design, public-viewing and peer-exchange observations."
+      }
     ],
-    "event_dates_as_reported": ["2019-11-03", "2019-11-04", "2019-11-05"],
+    "event_dates_as_reported": [
+      "2019-11-03",
+      "2019-11-04",
+      "2019-11-05"
+    ],
     "event_venue_as_reported_english_normalisation": "T. M. V. Higher Secondary School, Perumpilavu, Thrissur district",
     "review_scope": "Publication details on PDF 3 and both article pages rendered and read visually. Full-file text screening identified the article; damaged Malayalam extraction was checked against the images.",
     "evidence_limits": "Contemporary observer commentary, not a formal empirical evaluation, government rule or certified results record. No sampling protocol, raw participant data, comparison group or outcome measurement is supplied. Teacher affiliation does not prove judge/organiser status. Historical observations do not establish current requirements or statewide prevalence.",
     "privacy_note": "Personal telephone details printed beside the author credit are omitted; no pupil names or photographs are copied into this record."
+  },
+  {
+    "id": "observer-account-002",
+    "url": "https://sciencetvm.blogspot.com/2026/09/3_01415163238.html",
+    "effective_url": "https://sciencetvm.blogspot.com/2026/09/3_01415163238.html",
+    "accessed_on": "2026-11-01",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 262846,
+    "download_sha256": "eec6b000e720342a98d39e92d515d187d27abbf921492185cf8063668fc866c3",
+    "retrieved_at_utc": "2026-11-01T03:52:01.270471+00:00",
+    "acquisition_record_sha256": "89f2e9fc912ed12e89c64f3839d36baa9970a95fa5bc6fba4b98fdd517875b15",
+    "headers_json_sha256": "7e9361a8d1a64497372931c6f8ab5ef66d34dbe17cd2f0edce63838e78475da3",
+    "title": "SCHOOL SCIENCE: science-fair culture, part 3",
+    "source_type": "personal_blog_commentary",
+    "publisher_as_displayed": "SCHOOL SCIENCE",
+    "document_date": "2026-09-19",
+    "published_at_as_received": "2026-09-19T19:29:00+05:30",
+    "profile_label_as_received": "G.SREEKUMAR",
+    "profile_metadata_scope": "Sidebar profile; identity and official status unverified.",
+    "evidence_locators": [
+      {
+        "html_section": "Main article and draft-indicator annexure."
+      }
+    ],
+    "review_scope": "Main article read; unrelated sidebar posts excluded.",
+    "notes": "Personal commentary proposes inquiry and process reflection. Its draft indicators are neither official scoring requirements nor empirical findings."
   }
 ]

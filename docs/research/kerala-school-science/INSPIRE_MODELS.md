@@ -49,6 +49,38 @@ The received five-page [national award list](https://www.inspireawards-dst.gov.i
 
 All 616 native text layers were screened. The complete separate KV section (volume 2 PDF 14–27 including boundaries) and JNV section (volume 1 PDF 224–231 including boundaries), target frontmatter and metadata-label anomalies were visually read. No further explicit Kerala/locality lead arose there; this is a bounded observation, not geographic absence or a full human reading of every national project. No OCR run was required or claimed for these usable body layers.
 
+## Ninth NLEPC: eleven Kerala-heading descriptions and a separate KV entry
+
+The complete [volume 1](https://www.inspireawards-dst.gov.in/download/NLEPC/2022/9th_NLEPC_Compendium_I.pdf) and [volume 2](https://www.inspireawards-dst.gov.in/download/NLEPC/2022/9th_NLEPC_Compendium_II.pdf), sources `pathways-68` and `pathways-69`, total **270 + 344 = 614 physical PDF pages**. Their covers explicitly say **2022**, and both PDF 7 prefaces are dated **15 September 2022**. The preface discusses 2020–21 in a COVID/scouting context without an explicit financial-year label. Exact exhibition dates and a publication day are not inferred from cover, preface, PDF metadata or server timestamps; separate PIB reports supply event context.
+
+Volume 2’s Kerala heading is PDF 13 / printed 1. Its **eleven descriptions** occupy PDF 14–24 / printed 2–12, followed by the separate KV heading on PDF 25. All eleven full source pages were visually read.
+
+| Title as published | Pupil credit as published | Printed page / PDF page |
+| --- | --- | --- |
+| Floating PVC Structure to Save Life from Flood | Malavika M K | 2 / 14 |
+| VPPE Ventilated Personal Protective Equipment | Sreedarsh S | 3 / 15 |
+| Rice Water Drainer | Sithara K. S | 4 / 16 |
+| Electronic Surveillance System for COVID-19 Patients and Sanitizer Assurance and Alert System for Office | Lakshmi Pradeep | 5 / 17 |
+| Upliftment of Cerebral Palsy Victims | Amal Iqbal V | 6 / 18 |
+| Pepper Threshing Machine | Amal | 7 / 19 |
+| Flexy Wheelchair | Rosna John | 8 / 20 |
+| Remove the Gloves from the Hand without touching it | Navaneeth Krishna | 9 / 21 |
+| Bed-Shifter for Easy Moving of Bedridden Patients at Home | Joe Shibu Joseph | 10 / 22 |
+| Multipurpose Agriculture Vehicle | Adwaith K | 11 / 23 |
+| Sweeping Machine with Dumping Cart | Gopikrishna A Sreejith | 12 / 24 |
+
+A twelfth description is separately indexed under **Kendriya Vidyalaya (KV)**: **Versatile Agricultural Cycle: An Economical Boon to Farmers that Lights with Muscle Power**, credited to **Devika G S**, **Kendriya Vidyalaya Payyanur**, guide **Reena P V**, PDF 32 / printed 20. Its literal district/state field is **“KV_Ernakulam, Kendriya Vidyalaya Sangathan”**. It describes a pedal tricycle combining agricultural tasks with proposed battery charging and lighting. Regional wording does not make this a Kerala-heading entry or establish a Kerala DGE/Sasthrolsavam nomination.
+
+The descriptions include a reused-drum floating boat, Peltier PPE cooling, a vessel-tilting rice drainer, a coded-radio/sanitiser-gate model, assistive furniture, a pepper thresher, a pedal glove remover, a sliding bed-transfer sheet and agricultural/cleaning carts. These are organiser summaries. The claimed boat capacity, medical and infection-prevention benefits, operator safety, field output and cost savings are not independently validated. The synopsis calling an agricultural vehicle human-powered does not supply its drivetrain specification. Personal/family health narratives are excluded, as are raw pupil identifiers, photographs, age/class and private contact/address fields. Shared names or themes do not bridge identities or prove original code, AI, work division, attendance or a final national prize.
+
+Both original text layers are inadequate. Separate full **614-page machine OCR** supplied discovery leads, followed by literal/fuzzy metadata, low-text page-type and original-page checks. The complete KV section and boundaries, PDF 25–36 in volume 2, and JNV section/boundaries, PDF 193–200 in volume 1, were visually read. Physical/printed offsets vary, so the JNV locators were verified directly. The bounded screen supplied no further adopted location candidate; this does not prove geographic absence or a full human reading of every national project.
+
+With these twelve additions, the dedicated register contains **33 descriptions across four reviewed editions and eight books / 2,057 PDF pages**. These are source and file inventories, not unique-pupil, Kerala-delegation, attendance or winner totals.
+
+### Dated event reports
+
+The [14 September 2022 PIB report](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1859322&lang=2&reg=48), source `pathways-71`, reports inauguration at **ITPO Delhi**, public exhibition **14–15 September** and **556 students' exhibits**. Its **16 September / Vigyan Bhawan** award statement is a plan. The [16 September report](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1859810&lang=2&reg=48), source `pathways-72`, reports **60 awards** and **53,021 identified for ₹10,000 prototype support**. It does not independently confirm the planned venue or individual payments. Both associate **6.53 lakh ideas** with **the year 2020–21**, without an explicit financial-year label. These national populations are not Kerala counts. The closing article's “Start-Ups” wording does not establish incorporated companies or commercial success; its historical eligibility does not replace current rules.
+
 ## Eleventh NLEPC: state and organisational sections
 
 The two received volumes have **409 physical PDF pages**. Their PDF 7 prefaces are dated **12 September 2024** and describe a 2022–23 selected cohort; PDF 9 messages are dated 17 September. A separate [PIB report published 20 September](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2056903&lang=2&reg=48), source `pathways-61`, reports the exhibition on **17–18 September** and felicitation on **19 September at Vigyan Bhawan**. Its 350 displayed students and 31 felicitated innovators differ in status from the preface's 360 selected. These are national reported populations, without an individual crosswalk or a Kerala total.
@@ -69,7 +101,7 @@ In volume 2's NVS section, **Fibres from Money Plant**, credited to **Sreedev S*
 
 Both full newer files were processed with machine OCR for discovery because their original text layers are inadequate. All five Kerala entries, the full KVS/NVS sections and target front matter/boundaries were visually reviewed. OCR supplied no further location candidate in the bounded screen; that is not proof of absence or a full human reading of every page. Some render sizes clipped metadata, so complete adopted fields were checked against legible alternate renders. Original PDFs were not altered.
 
-The register now contains **21 descriptions** across the seventh, eighth and eleventh editions. The six books total **1,443 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
+The register now contains **33 descriptions** across the seventh, eighth, ninth and eleventh editions. The eight books total **2,057 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
 
 ## A later learner account: candidate correspondence
 
