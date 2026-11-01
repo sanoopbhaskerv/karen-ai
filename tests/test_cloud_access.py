@@ -181,3 +181,40 @@ def test_public_browser_can_refresh_expired_csrf_without_disabling_protection(cl
     headers['X-CSRF-Token'] = refreshed.json['csrf']
     assert client.post('/test_chat', json={'user_message': 'hi'}, headers=headers).status_code == 200
     assert len(provider.seen) == 1
+
+
+@pytest.mark.parametrize('public_ui', [False, True])
+def test_school_privacy_preserves_hosted_authentication_and_stage_timings(cloud, public_ui):
+    from exhibition_identity import CREATOR_REPLY, PRIVATE_REPLY, contains_identity
+    from test_exhibition_identity import LEGACY_MEMORY
+
+    app, client, provider = cloud
+    app.config['KAREN_PUBLIC_UI'] = public_ui
+    client.get('/admin', headers=basic())
+    with client.session_transaction() as session:
+        csrf = session['csrf']
+    owner = {**basic(), 'X-CSRF-Token': csrf}
+    assert client.post('/update', data={'memory_text': LEGACY_MEMORY}, headers=owner).status_code == 200
+    assert not contains_identity(client.get('/admin', headers=basic()).text)
+    dashboard = client.get('/', headers={} if public_ui else basic())
+    assert dashboard.status_code == 200 and not contains_identity(dashboard.text)
+    assert ('id="memory"' in dashboard.text) is (not public_ui)
+
+    browser = {'X-CSRF-Token': csrf} if public_ui else owner
+    name = client.post('/test_chat', json={'user_message': 'Who created you?'}, headers=browser)
+    assert name.json['reply'] == CREATOR_REPLY and 'gemini;dur=' in name.headers['Server-Timing']
+    school = client.post('/test_chat', json={'user_message': LEGACY_MEMORY}, headers=browser)
+    assert school.json['reply'] == PRIVATE_REPLY
+    assert not contains_identity(school.json['user_message'])
+    assert not provider.seen
+
+    spoken = []
+    provider.transcribe = lambda data: 'Who created you?'
+    provider.speak = lambda text: spoken.append(text) or b'ID3privacy-audio'
+    headers = {**device(), 'X-Request-ID': 'cloud-privacy-voice-001'}
+    voice = client.post('/chat', data=pcm(), content_type='audio/wav', headers=headers)
+    assert voice.status_code == 200 and spoken == [CREATOR_REPLY]
+    assert all(stage + ';dur=' in voice.headers['Server-Timing'] for stage in ('stt', 'gemini', 'tts'))
+    assert client.get('/requests/cloud-privacy-voice-001', headers=device()).data == b'ID3privacy-audio'
+    assert client.get('/admin', headers=device()).status_code == 403
+    assert not contains_identity(client.get('/', headers={} if public_ui else basic()).text)
