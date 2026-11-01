@@ -5,6 +5,7 @@ import json
 import math
 import re
 import unicodedata
+from sasthramela_results import lookup as standings_lookup
 
 ROOT = Path(__file__).parent / 'docs/research/kerala-school-science'
 NOTICE = '2026 നവംബർ 1 വരെ പരിശോധിച്ച രേഖകളെ അടിസ്ഥാനമാക്കിയുള്ള വിവരം. പുതിയ പ്രാദേശിക നിർദേശങ്ങൾ സംഘാടകരുമായി ഉറപ്പാക്കുക.'
@@ -39,6 +40,10 @@ def corpus():
 
 def lookup(question, history=()):
     """None means unrelated; unknown fair questions fail closed rather than guess."""
+    standings = standings_lookup(question, history)
+    if standings is not None:
+        standings['reply'] += '\n\n' + NOTICE
+        return standings
     q = normalize(question)
     followup = re.search(r'^(?:and |what about |how (?:long|many|much)|what (?:is|are) (?:its|the)|അതിന്റെ|അതിൽ|എത്ര|വീഡിയോ|മാർക്ക്)', q)
     contextual = bool(followup and history and FAIR.search(history[-2][1] if len(history)>1 else history[-1][1]))
