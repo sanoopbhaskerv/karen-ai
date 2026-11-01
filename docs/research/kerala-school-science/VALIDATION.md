@@ -6,15 +6,15 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 354 |
-| Distinct registered source URLs | 349 |
+| Source records | 363 |
+| Distinct registered source URLs | 358 |
 | Topic source registers | 22 |
 | JSON files | 49 |
-| Concise English/Malayalam knowledge records | 171 |
-| Draft Malayalam evaluation questions | 149 |
+| Concise English/Malayalam knowledge records | 178 |
+| Draft Malayalam evaluation questions | 156 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
-| NCERT discovery catalogues audited | 13 |
+| NCERT discovery catalogues audited | 14 |
 | Kerala-school discovery rows | 105 |
 | Extended published model chapters | 11 |
 | Pages in those model chapters | 43 |
@@ -72,12 +72,17 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Underlying March 2026 grace-order pages | 8 |
 | Pre-2009 IT retrospective documents / pages | 1 / 6 |
 | INSPIRE public compendium volume links | 18 |
-| INSPIRE compendium works / physical PDF pages | 4 / 827 |
-| INSPIRE reviewed edition labels | 2 |
-| INSPIRE source-bound project descriptions | 16 |
-| INSPIRE state-heading / organisational descriptions | 13 / 3 |
-| INSPIRE target PDF pages visually reviewed | 62 |
+| INSPIRE compendium works / physical PDF pages | 6 / 1,443 |
+| INSPIRE reviewed edition labels | 3 |
+| INSPIRE source-bound project descriptions | 21 |
+| INSPIRE state-heading / organisational descriptions | 18 / 3 |
+| INSPIRE target PDF pages visually reviewed | 117 |
 | Older NCERT model-book canonical holding targets | 5 |
+| 2015 state programme documents / pages | 1 / 8 |
+| 2014 gold-cup design notices / pages | 1 / 1 |
+| Eighth INSPIRE award-list works / pages | 1 / 5 |
+| Combined 2020/2021 NCERT booklet works / pages | 1 / 188 |
+| KVS learner-account works / pages | 1 / 4 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -183,8 +188,18 @@ Against `4ae61bf`, 327 earlier source objects remain unchanged and one existing 
 The packet's final independent publication audit passed **4,842 checks**, recalculating all **65 inventory rows** and checking **264 local links/anchors**, preservation, reference resolution and the actual new source acquisitions/nested formats against cached originals. A separate integrated cross-review passed 125 checks on the holding, manual, two case enrichments and five associated fact/evaluation pairs. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, physical attendance or Malayalam educator approval.
 
 
-The new early-IT report received full six-page visual review, preserving year headings, unknown issue date and actual Memento/CDX correspondence. Four complete INSPIRE compendia total 827 physical PDF pages: 418 seventh-edition pages screened through native text, and 409 newer pages processed with machine OCR for discovery. All adopted entry/credit/mechanism pages, organisational sections and target boundaries were visually read. Sparse native layers, bounded OCR and alternate-render clipping remain explicit; no full 827-page human audit is claimed. Separate reviews passed 149 checks on the first six new bilingual pairs, another 149 checks on the last five, 223 holding-transformation checks and 410/426 machine-derivative checks.
+The preceding packet at commit 1287f36 added an early-IT report with full six-page visual review, preserving year headings, unknown issue date and actual Memento/CDX correspondence. Four complete INSPIRE compendia total 827 physical PDF pages: 418 seventh-edition pages screened through native text, and 409 newer pages processed with machine OCR for discovery. All adopted entry/credit/mechanism pages, organisational sections and target boundaries were visually read. Sparse native layers, bounded OCR and alternate-render clipping remain explicit; no full 827-page human audit is claimed. Separate reviews passed 149 checks on the first six new bilingual pairs, another 149 checks on the last five, 223 holding-transformation checks and 410/426 machine-derivative checks.
 
 The current CBSE location record remains a separate observation beside the literal NVS district/state field. Eleven new fact/evaluation pairs preserve programme/date/status and source-quality limits, with all Malayalam still marked for teacher review and evaluations held out. Five catalogue targets add no original model-book bodies or Kerala method chapters. Against `249de92`, all 339 previous source objects, all 38 case objects and 24 non-source structured JSON datasets remain unchanged; the 160 knowledge and 138 evaluation records remain exact byte prefixes. Two new datasets are added. No runtime, provider, retrieval, training or hardware change is included.
 
-The latest independent publication audit passed **5,046 checks**, recalculating all **73 inventory rows** and checking **279 local links/anchors**, reference resolution, preservation and new source acquisitions against cached originals. A separate ten-check review corroborated the current CBSE fields while preserving the original NVS geography fields. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, attendance or Malayalam educator approval.
+That packet’s independent publication audit passed **5,046 checks**, recalculating all **73 inventory rows** and checking **279 local links/anchors**, reference resolution, preservation and new source acquisitions against cached originals. A separate ten-check review corroborated the current CBSE fields while preserving the original NVS geography fields. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, attendance or Malayalam educator approval.
+
+
+The latest packet adds nine sources, including seven complete PDFs / 822 physical pages and two actual PIB articles. Both historical archive bodies match their exact CDX digests and received Mementos. All eight programme pages and the cup-design notice were read visually. Two eighth-NLEPC files passed full prefix/suffix/entity verification before opening; all 616 native text layers were screened, with 55 target pages and complete organisational boundaries read visually. The separate five-page award list was read in full; only three explicit prize positions are adopted. Repeated HTML display/print text is one report.
+
+The recovered 188-page NCERT booklet received native extraction throughout and a complete 145-block English school/address review, including all rendered address crops and ten full frontmatter/boundary/sample/end pages. Parallel languages are deduplicated, with no new Kerala row inferred. All four KVS page layouts and the complete relevant learner account were inspected; its issue, government file host, internal-circulation imprint and failed fresh index-link observation remain explicit. The account is a separate candidate follow-up, not verified identity, unchanged design or load/clinical/safety evidence.
+
+Against 1287f36, all 354 earlier source objects and 38 core cases remain unchanged. Twenty-four other non-source JSON datasets remain byte-identical. The two updated datasets preserve all 16 earlier INSPIRE entries/two reviewed editions and all 13 earlier NCERT reviews/105 discovery rows; only the two eighth-volume download statuses/source IDs change within the literal 18-link index. The earlier 171 knowledge and 149 evaluation records remain exact byte prefixes, with seven new pairs appended. Malayalam remains teacher-review draft and evaluations held out; no runtime, retrieval, fine-tuning, provider or hardware integration is included.
+
+
+The latest independent publication audit passed **5,418 checks**, recalculating all **78 inventory rows** and checking **291 local links/anchors**, reference resolution, permitted dataset updates, preservation and actual source acquisition chains. A separate scoped review passed 297 acquisition checks; eighth-edition integration passed 20 checks. Both historical pairs and all five further pairs received independent semantic/source review; the latter also passed 44 structural/count checks against the integrated records. No material evidence-scope or privacy finding remained. These reviews do not certify historical completeness, Malayalam teacher approval, individual attendance or scientific performance.

@@ -19,7 +19,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical result snapshots](RESULTS.md) | Overall school and district point tables captured across five editions |
 | [Rule changes](RULE_CHANGES.md) | Original manuals, amendments and differences between rules and catalogue views |
 | [Regional and national pathways](PATHWAYS.md) | SISF, NCERT exhibitions, INSPIRE MANAK, NCSC, CBSE and other distinct programmes |
-| [INSPIRE project compendia](INSPIRE_MODELS.md) | Edition-specific Kerala, KVS and NVS summaries, source credits, nomination updates and separate national cohorts |
+| [INSPIRE project compendia](INSPIRE_MODELS.md) | Edition-specific Kerala, KVS and NVS summaries, separate award evidence, a candidate learner-account follow-up and nomination dates |
 | [SISF annual-report chronology](SISF_HISTORY.md) | Seven report cycles, five reported regional events, pandemic statements and source-specific dates/counts |
 | [IRIS and ISEF research route](IRIS_ISEF.md) | Public-site edition/schedule conflicts, submission/video/anonymity rules, illustrative-paper limits and ISEF AI disclosures |
 | [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, first-cycle budget, historical ratifications, 13-item inventory, manual/amendment versions and conditional funding |
@@ -82,3 +82,6 @@ For a rule affecting participation, prefer the current signed departmental or KI
 ## Collection boundaries
 
 This research adds reference material only. It does not train a model, connect a retrieval service, change Karen's saved identity or runtime memory, or establish that Karen has qualified for a particular event. It also does not claim every historical exhibit has a publicly accessible abstract or report. Source links and original factual summaries are retained so the collection can grow without blending editions or programmes.
+
+
+The latest archival pass adds the complete official 2015 Kollam programme, a 2014 trophy-design invitation, the eighth INSPIRE volumes and separate event/award records, a combined NCERT 2020/2021 synopsis booklet, and a later KVS learner account. These preserve planned-versus-completed events, stream ordinals, bilingual duplicates, reported populations and project-version limits. See [coverage gaps](COVERAGE.md) and [validation](VALIDATION.md) for current scope.

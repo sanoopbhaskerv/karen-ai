@@ -831,5 +831,44 @@
       "The public item record is not verification of current shelf presence, completeness, circulation/access conditions or a digital copy.",
       "No856 in this record does not prove that a digitised copy exists nowhere."
     ]
+  },
+  {
+    "id": "history-gold-cup-design-2014",
+    "title": "Education Department invitation for a school science-fair gold-cup design, September 2014",
+    "url": "https://web.archive.org/web/20140913042303id_/http://www.education.kerala.gov.in:80/downloads2014/announcement/pressrelese_sasthramelagoldcup_1.9.2014.pdf",
+    "original_url": "http://www.education.kerala.gov.in:80/downloads2014/announcement/pressrelese_sasthramelagoldcup_1.9.2014.pdf",
+    "discovery_url": "https://11002ghsskasargod.blogspot.com/p/downloads.html",
+    "archive_capture": "20140913042303",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_press_notice",
+    "document_date": null,
+    "submission_deadline_as_printed": "2014-09-17",
+    "filename_date_not_verified_issue_date": "2014-09-01",
+    "pdf_pages": 1,
+    "download_bytes": 33857,
+    "download_sha256": "7c68e2faf3d4894902f49648e97f8be1fc22ade7b82918a1b6e32defa2877f4a",
+    "visually_reviewed_pdf_pages_1based": [
+      1
+    ],
+    "notes": "Full one-page visual review of the archived Education Department notice. It announces a one-kilogram gold cup (125 pavan as printed) for the Kerala school science fair and invites design drawings from pupils in classes 1–12 and teachers at government, aided and recognised unaided schools across General, Higher Secondary and Vocational Higher Secondary Education. Designs should include Science, Mathematics, Social Science, Work Experience and IT symbols, optionally combined into one symbol; A4/A3 drawings may show multiple views on one sheet. Selected artwork is promised a cash award, with no amount specified. Receipt by the relevant revenue-district DDE is due 17 September 2014. This is a design invitation, not a manufacture contract, expenditure account, completed cup, named design winner or proof of presentation. No printed issue date or Kalam naming appears. The filename contains 1.9.2014; the PDF creation/modification metadata says 1 January 2009, before the explicit 2014 deadline. Neither is promoted to a printed issue date. The native legacy-font text is not intelligible Unicode; the rendered page supplies the reading. Requested identity/contact fields are blank submission instructions, and no completed pupil submissions or personal contacts are copied.",
+    "review_scope": "Complete one-page visual reading and independent review; planned design specification/deadline only, without current award or financial-completion inference.",
+    "acquisition_observation": {
+      "method": "GET",
+      "http_status": 200,
+      "effective_url": "https://web.archive.org/web/20140913042303id_/http://www.education.kerala.gov.in:80/downloads2014/announcement/pressrelese_sasthramelagoldcup_1.9.2014.pdf",
+      "retrieved_at_utc": "2026-11-01T03:08:44.355563+00:00",
+      "content_type": "application/pdf",
+      "content_length": 33857,
+      "memento_datetime": "Sat, 13 Sep 2014 04:23:03 GMT",
+      "original_last_modified": "Mon, 01 Sep 2014 07:30:47 GMT"
+    },
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20140913042303",
+      "cached_body_sha1_base32": "FR5JOF6AWH7JX5THUEP4TTDBNNJKAPBO",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": true,
+      "scope": "Actual GET Memento and exact CDX timestamp/digest match; preserved complete body length and hash verified. Capture, filename, metadata and printed deadline remain distinct."
+    }
   }
 ]

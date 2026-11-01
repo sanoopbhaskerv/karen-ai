@@ -500,5 +500,61 @@
     "download_bytes": 140486,
     "download_sha256": "35ef2badfda42406594ca716f2117a180a9351aefcfbb4b98454908fe4835520",
     "notes": "Contemporary secondary closing report headed ശാസ്ത്രമേളയിൽ മലപ്പുറം; published 26 November 2018 and updated 7 December 2018. Describes closure at Kannur and a Malappuram title; explicitly gives Work Experience marks Malappuram 29509,Kozhikode 29393,Kannur 29244. Science Malappuram 124,Thrissur 118,Kannur 117 and IT Malappuram 136,Kozhikode 117,Wayanad 102 match newly recovered archived public tables. Newspaper Maths Kozhikode 226 and Social Science Malappuram 129 differ from the 27 November public tables 276 and 144 respectively; no explanation or harmonisation established. Do not promote these as one certified consolidated total. Report calls festival two days, while programme includes 23 November quizzes; preserve distinction between main exhibition and full programme. No certified whole-festival numeric statement supplied."
+  },
+  {
+    "id": "historical-editions-015",
+    "title": "State Sasthrolsavam 2015: complete original Education Department Kollam programme",
+    "url": "https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+    "original_url": "http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+    "discovery_url": "https://kpsha.blogspot.com/p/downloads.html",
+    "archive_capture": "20160117113307",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "document_date": null,
+    "edition_label_as_printed": "2015",
+    "event_date_start": "2015-11-24",
+    "event_date_end": "2015-11-28",
+    "pdf_pages": 8,
+    "download_bytes": 1619045,
+    "download_sha256": "3474d6aadd1f7742f01e6323d08b57418aa6d3d8123f25c0c9e427941f66f549",
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "stream_edition_numbers_as_printed": {
+      "Science Fair": 49,
+      "Work Experience Fair": 35,
+      "Mathematics Fair": 30,
+      "Special School Work Experience Fair": 19,
+      "IT Fair": 14,
+      "Vocational Expo and Career Fest": 11,
+      "Social Science Fair": 10
+    },
+    "notes": "All eight unnumbered PDF pages were rendered and visually read. Cover PDF1 gives 24–28 November 2015, Kollam; PDF2 invitation and PDF8 repeat the distinct stream edition numbers. PDF3 places flag raising at 9:30 am, registration at 10:30 am and inauguration at 4 pm on 24 November at Government Model Boys HSS, Kollam; it also schedules a 3 pm procession starting from St Joseph HSS. PDF4 closing programme begins with prayer at 10:30 am on 28 November; PDF2 invitation describes the closing meeting as 11 am. Preserve this difference between the detailed sequence and invitation. PDF5 names Science venues St Aloysius HS and St Antony’s UPS, Kollam, and Mathematics venue St Joseph’s Convent HSS, Kollam. Science exhibit arrangement/evaluation for UP/HS is 25 November 9:30 am; HSS/VHSS is 26 November 9:30 am; public exhibition is separately scheduled. PDF6 names Social Science at S.N. Central School, Kollam and Work Experience at Christuraj HSS, Kollam. PDF7 names IT, Vocational Expo and Career Fest at Government Model Boys HSS, Kollam. Its Science Drama cultural item on 25 November is a performance of Prakashachakram, described as the 2015 state/southern-region first-place play; this is not the already registered 30 October competitive Drama result or proof that main-festival judging occurred again. The programme is a plan, not attendance, completed events or a signed final result. Original native text layers contain zero extracted characters on all 8 pages. PDF creation/modification metadata 19 November 2015 and original server Last-Modified are not printed issue dates. The 2016 archive capture is preservation, not event date; stream ordinals do not establish an uninterrupted annual series or inaugural year. Current instructions and local network/AI permission are not supplied.",
+    "review_scope": "Full eight-page visual review; historical planned dates, venue allocation and stream ordinals. No pupil-table transcription or inference of completed attendance/results.",
+    "acquisition_observation": {
+      "method": "GET",
+      "http_status": 200,
+      "effective_url": "https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+      "retrieved_at_utc": "2026-11-01T03:03:46.377298+00:00",
+      "content_type": "application/pdf",
+      "content_length": 1619045,
+      "memento_datetime": "Sun, 17 Jan 2016 11:33:07 GMT",
+      "original_last_modified": "Thu, 19 Nov 2015 09:10:39 GMT"
+    },
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20160117113307",
+      "cached_body_sha1_base32": "2PZUBDP55UVZIIFQDHMFQWXJQCGNOIZA",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": true,
+      "scope": "Actual GET Memento matches the requested capture and exact CDX timestamp/digest; preserved headers and complete body lengths agree. PDF/server metadata are not treated as printed issue dates."
+    }
   }
 ]

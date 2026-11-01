@@ -146,7 +146,7 @@ The signed **13 July 2026 notification**, now retrieved, confirms classes VI–X
 
 For historical comparison, CBSE circular Acad-110/2022 of **22 September 2022** specified ages 10–15 and classes 6–10. That historical boundary must not be applied unchanged to the current cycle. The live portal says FY2026–27 nominations are closed as observed on 31 October. [2022–23 circular](https://www.inspireawards-dst.gov.in/download/news/CBSE_Circular_2022.pdf), [official communications index](https://www.inspireawards-dst.gov.in/UserP/viewImpComm.aspx)
 
-The separate [INSPIRE compendium guide](INSPIRE_MODELS.md) adds national-project summaries, a public volume-link inventory and current-event/nomination date distinctions. These entries do not increase the NCERT/SISF method counts or establish a Kerala Sasthrolsavam qualifying route.
+The separate [INSPIRE compendium guide](INSPIRE_MODELS.md) adds national-project summaries, a public volume-link inventory and current-event/nomination date distinctions. Its eighth-edition supplement separates FY2019–20 from the September 2021 virtual event and keeps showcased, online-programme, shortlisted and awarded populations distinct. A later KVS first-person account remains a candidate follow-up, without confirmed project-version or safety evidence. These entries do not increase the NCERT/SISF method counts or establish a Kerala Sasthrolsavam qualifying route.
 
 ## National Children's Science Congress
 
@@ -204,3 +204,6 @@ KITE describes Samagra as providing resources for standards 1–12, including pu
 The [rules collection](RULES.md) records Kerala's 2 September 2026 adoption of the attached NCERT topics and its inconsistent explanatory note. Check later amendments and organisers' item-specific directions before applying the themes to an entry.
 
 The [Kerala pandemic source review](PANDEMIC_ACTIVITIES.md) now supplies a separate official record of departmental competition interruption and planned online Shasthrarangam/NCSC activity. It preserves those programme boundaries and does not equate either with NCERT’s combined virtual exhibition or a completed virtual Sasthrolsavam.
+
+
+The [recovered combined NCERT 2020/2021 synopsis booklet](DISCOVERY.md) supplies its own December 2021 preface and planned 8–11 February 2022 online dates, separate from the later annual-report completion record above. Its 145 English address-block review adds no confidently identified Kerala-school row and no new method case. This bounded result is not a whole-event nonparticipation finding.

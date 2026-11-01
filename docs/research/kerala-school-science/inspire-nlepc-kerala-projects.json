@@ -39,12 +39,14 @@
     {
       "label_as_received": "Compendium of Projects Submitted during 8th NLEPC - Vol - II - Click to Download",
       "url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium of Projects Submitted during 8th NLEPC - Vol - II.pdf",
-      "download_review_status": "not_reviewed_in_this_packet"
+      "download_review_status": "received_complete_target_review",
+      "source_id": "pathways-64"
     },
     {
       "label_as_received": "Compendium of Projects Submitted during 8th NLEPC - Vol - I - Click to Download",
       "url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium of Projects Submitted during 8th NLEPC - Vol - I.pdf",
-      "download_review_status": "not_reviewed_in_this_packet"
+      "download_review_status": "received_complete_target_review",
+      "source_id": "pathways-63"
     },
     {
       "label_as_received": "Compendium of Projects Exhibited during the 7th NLEPC - Vol II - Click to Download",
@@ -228,6 +230,152 @@
           "scope": "Generic school field supplies no locality; not included as a Kerala-associated entry."
         }
       ]
+    },
+    {
+      "edition_label": "8th NLEPC",
+      "source_ids": [
+        "pathways-63",
+        "pathways-64"
+      ],
+      "physical_pdf_pages": 616,
+      "date_scope": {
+        "exact_event_dates_from_compendium": null,
+        "cohort_cycle_from_compendium": null,
+        "publication_date": null,
+        "url_directory_year_not_event_or_publication_date": true,
+        "pdf_metadata_not_publication_date": true
+      },
+      "kerala_state_heading_entry_count": 5,
+      "kerala_content_pdf_pages_1based": {
+        "pathways-64": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "additional_organisational_entries_derived": 0,
+      "review_scope": "All 616 native text layers screened; full Kerala, KV and JNV sections/boundaries and metadata-label anomalies visually reviewed. Image-only frontmatter was read visually. No full-volume OCR or full human audit of every national synopsis.",
+      "award_cycle_label": {
+        "source_id": "pathways-66",
+        "cycle_as_published": "2019-20",
+        "basis": "Award-list title only; not an explicit financial-year label."
+      },
+      "separate_closing_event_report": {
+        "source_id": "pathways-67",
+        "published_on": "2021-09-08",
+        "published_time_as_printed": "19:22 IST",
+        "awards_ceremony_date_reported": "2021-09-08",
+        "event_format_reported": "virtual",
+        "national_shortlisted_students_reported": 581,
+        "national_awarded_students_reported": 60,
+        "scope": "National reported shortlisted/awarded statuses and actual virtual ceremony that day, not a Kerala count or audited individual attendance. Source 65 separately supplies exhibition access dates and explicit financial-year cohort."
+      },
+      "specific_received_award_list_review": {
+        "source_id": "pathways-66",
+        "pdf_pages_visually_read": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "serial_rows_derived": 60,
+        "state_name_kerala_value_seen": false,
+        "five_compendium_identity_crosswalks_adopted": 0,
+        "scope": "Only this received list and five source credits compared; no universal no-award conclusion."
+      },
+      "separate_opening_event_report": {
+        "source_id": "pathways-65",
+        "published_on": "2021-09-04",
+        "published_time_as_printed": "5:13PM",
+        "cohort_financial_year_as_explicitly_published": "2019-20",
+        "covid_deferral_reported": true,
+        "exhibition_access_window_reported": [
+          "2021-09-04",
+          "2021-09-08"
+        ],
+        "award_ceremony_planned_date": "2021-09-08",
+        "award_ceremony_planned_format": "virtual",
+        "national_students_whose_ideas_showcased_reported": 581,
+        "online_programme_students_attending_as_reported": "More than 1000",
+        "national_initial_ideas_received_reported": 392486,
+        "duplicate_display_print_copy_counted_once": true,
+        "scope": "Edition-level dated report, not proof that an individual compendium pupil attended or won. Keep book-derived event/cohort/publication nulls intact."
+      },
+      "explicit_top_three_positions": [
+        {
+          "position_as_published": "1st",
+          "pupil_credit_as_published": "Navshri Thakur",
+          "title_as_published": "Multi useful kitchen machine",
+          "school_field_as_published": "M.S. Dokri Kheda Pipariya",
+          "state_field_as_published": "Madhya Pradesh",
+          "source_id": "pathways-66",
+          "pdf_page_1based": 1,
+          "scope": "Explicit Position field only; no individual work, attendance or scientific-performance inference."
+        },
+        {
+          "position_as_published": "2nd",
+          "pupil_credit_as_published": "Owais Ahmed",
+          "title_as_published": "Safety horizontal stretcher",
+          "school_field_as_published": "Govt H.S, Bhatambra - Bhatambra",
+          "state_field_as_published": "Karnataka",
+          "source_id": "pathways-66",
+          "pdf_page_1based": 1,
+          "scope": "Explicit Position field only; no individual work, attendance or scientific-performance inference."
+        },
+        {
+          "position_as_published": "3rd",
+          "pupil_credit_as_published": "Dasari Ashok",
+          "title_as_published": "Ceiling fan lifting tool",
+          "school_field_as_published": "ZPHS, Gokafasalwad",
+          "state_field_as_published": "Telangana",
+          "source_id": "pathways-66",
+          "pdf_page_1based": 1,
+          "scope": "Explicit Position field only; no individual work, attendance or scientific-performance inference."
+        }
+      ],
+      "national_population_distinctions": [
+        {
+          "source_id": "pathways-65",
+          "value": 392486,
+          "unit_as_reported": "ideas and innovations",
+          "status": "received at season start"
+        },
+        {
+          "source_id": "pathways-65",
+          "value": 581,
+          "unit_as_reported": "students whose ideas were showcased",
+          "status": "national exhibition opening report"
+        },
+        {
+          "source_id": "pathways-65",
+          "value": "more than 1000",
+          "unit_as_reported": "students",
+          "status": "attended online programme, as reported on opening day"
+        },
+        {
+          "source_id": "pathways-67",
+          "value": 581,
+          "unit_as_reported": "students",
+          "status": "shortlisted"
+        },
+        {
+          "source_id": "pathways-67",
+          "value": 60,
+          "unit_as_reported": "students",
+          "status": "awarded"
+        }
+      ],
+      "misattribution_guard": {
+        "compendium_entry_id": "inspire8-kerala-multi-machine",
+        "compendium_source_id": "pathways-64",
+        "compendium_pdf_page_1based": 11,
+        "winner_list_source_id": "pathways-66",
+        "winner_list_pdf_page_1based": 1,
+        "finding": "The first-prize kitchen-machine record has a different pupil, school and state from Elsheba Ann Binu’s Kerala compendium record. Similar household-tool themes do not supply an identity or prize crosswalk."
+      }
     }
   ],
   "project_entries": [
@@ -703,6 +851,226 @@
         "scope": "Separately dated current registry geography only; not a physical or historical-location audit, compendium correction, attendance or qualifying-route proof."
       },
       "location_verification_scope": "No independent physical or historical campus-location audit. Current CBSE registry fields separately identify Kerala/Ernakulam/Neriamangalam as observed on 1 November 2026."
+    },
+    {
+      "programme": "INSPIRE-MANAK",
+      "edition_label": "8th NLEPC",
+      "source_id": "pathways-64",
+      "source_url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf",
+      "volume": 2,
+      "section_as_published": "Kerala",
+      "section_kind": "state",
+      "kerala_state_heading": true,
+      "event_year_from_compendium": null,
+      "exact_event_dates_from_compendium": null,
+      "publication_date": null,
+      "cohort_cycle_from_compendium": null,
+      "status": "organiser_compendium_entry",
+      "national_prize_rank": null,
+      "attendance_independently_verified": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "sasthrolsavam_connection_established": false,
+      "id": "inspire8-kerala-urinal",
+      "pdf_page_1based": 9,
+      "printed_page": 2,
+      "title_as_published": "Self-cleaning public urinal",
+      "pupil_credit_as_published": "Craiga Joel",
+      "school_field_as_published": "St. John’s HS Kurumanne, Kottayam.",
+      "region_field_as_published": "Kottayam, Kerala",
+      "guide_credit_as_published": "Tessy Cherain",
+      "description_paraphrase": "Pressure-driven flushing without electricity, triggered by door movement; the synopsis also proposes collecting, purifying and reusing discarded water.",
+      "evidence_limits": "No purification method, water-use measurements or microbiological hygiene tests supplied.",
+      "award_list_crosscheck": {
+        "source_id": "pathways-66",
+        "checked_on": "2026-11-01",
+        "pdf_pages_checked_1based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "match_status": "no_matching_credit_or_complete_title_adopted",
+        "method": "Complete visual read plus exact/normalised full pupil-credit and complete-title search in fresh native extraction.",
+        "scope": "A bounded source-list comparison; retain compendium-entry status and null national prize rank. No assertion of universal non-award."
+      }
+    },
+    {
+      "programme": "INSPIRE-MANAK",
+      "edition_label": "8th NLEPC",
+      "source_id": "pathways-64",
+      "source_url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf",
+      "volume": 2,
+      "section_as_published": "Kerala",
+      "section_kind": "state",
+      "kerala_state_heading": true,
+      "event_year_from_compendium": null,
+      "exact_event_dates_from_compendium": null,
+      "publication_date": null,
+      "cohort_cycle_from_compendium": null,
+      "status": "organiser_compendium_entry",
+      "national_prize_rank": null,
+      "attendance_independently_verified": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "sasthrolsavam_connection_established": false,
+      "id": "inspire8-kerala-waste",
+      "pdf_page_1based": 10,
+      "printed_page": 3,
+      "title_as_published": "Smart waste management system (SWaMs)",
+      "pupil_credit_as_published": "Riya Jibu",
+      "school_field_as_published": "Kendriya Vidyalaya Sap Cam, Peroorkada, Trivandrum.",
+      "region_field_as_published": "Trivandrum, Kerala",
+      "guide_credit_as_published": "Sandhya S.",
+      "description_paraphrase": "Proposes switch-controlled household waste collection through common pipes to an airtight tank, emptied by municipal workers using vacuum pipes.",
+      "evidence_limits": "No clogging, pressure, leakage or contamination test results supplied; school-name spelling retained.",
+      "award_list_crosscheck": {
+        "source_id": "pathways-66",
+        "checked_on": "2026-11-01",
+        "pdf_pages_checked_1based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "match_status": "no_matching_credit_or_complete_title_adopted",
+        "method": "Complete visual read plus exact/normalised full pupil-credit and complete-title search in fresh native extraction.",
+        "scope": "A bounded source-list comparison; retain compendium-entry status and null national prize rank. No assertion of universal non-award."
+      }
+    },
+    {
+      "programme": "INSPIRE-MANAK",
+      "edition_label": "8th NLEPC",
+      "source_id": "pathways-64",
+      "source_url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf",
+      "volume": 2,
+      "section_as_published": "Kerala",
+      "section_kind": "state",
+      "kerala_state_heading": true,
+      "event_year_from_compendium": null,
+      "exact_event_dates_from_compendium": null,
+      "publication_date": null,
+      "cohort_cycle_from_compendium": null,
+      "status": "organiser_compendium_entry",
+      "national_prize_rank": null,
+      "attendance_independently_verified": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "sasthrolsavam_connection_established": false,
+      "id": "inspire8-kerala-multi-machine",
+      "pdf_page_1based": 11,
+      "printed_page": 4,
+      "title_as_published": "Multi mechanical machine.",
+      "pupil_credit_as_published": "Elsheba Ann Binu",
+      "school_field_as_published": "Govt. Girls H.S.S. Mavelikara, Alappuzha",
+      "region_field_as_published": "Alapuzza, Kerala",
+      "guide_credit_as_published": "Derney Oommen",
+      "description_paraphrase": "Bicycle pedals and chain drive kitchen tools attached to a metal frame, including coconut scraping, knife sharpening and vegetable chopping/cutting.",
+      "evidence_limits": "No task-time, output, energy or blade-safety measurements supplied; source region spelling retained.",
+      "award_list_crosscheck": {
+        "source_id": "pathways-66",
+        "checked_on": "2026-11-01",
+        "pdf_pages_checked_1based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "match_status": "no_matching_credit_or_complete_title_adopted",
+        "method": "Complete visual read plus exact/normalised full pupil-credit and complete-title search in fresh native extraction.",
+        "scope": "A bounded source-list comparison; retain compendium-entry status and null national prize rank. No assertion of universal non-award."
+      }
+    },
+    {
+      "programme": "INSPIRE-MANAK",
+      "edition_label": "8th NLEPC",
+      "source_id": "pathways-64",
+      "source_url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf",
+      "volume": 2,
+      "section_as_published": "Kerala",
+      "section_kind": "state",
+      "kerala_state_heading": true,
+      "event_year_from_compendium": null,
+      "exact_event_dates_from_compendium": null,
+      "publication_date": null,
+      "cohort_cycle_from_compendium": null,
+      "status": "organiser_compendium_entry",
+      "national_prize_rank": null,
+      "attendance_independently_verified": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "sasthrolsavam_connection_established": false,
+      "id": "inspire8-kerala-banana-extract",
+      "pdf_page_1based": 12,
+      "printed_page": 5,
+      "title_as_published": "Banana stem extract as pH stabilizer and natural coagulant in agriculture ponds",
+      "pupil_credit_as_published": "P S Shreelakshmi",
+      "school_field_as_published": "St. Augustine’s Girls Hr. Se. School, Kuzhupilly, Evnakulam",
+      "region_field_as_published": "Evnakulam, Kerala",
+      "guide_credit_as_published": "Rani Varghese M",
+      "description_paraphrase": "Reports an experiment motivated by Pokkali-field practices, proposing banana-stem extract for coagulation and lowering agricultural-pond pH.",
+      "evidence_limits": "No protocol, dosage, pH readings, controls or ecological-safety data supplied; Evnakulam retained literally.",
+      "award_list_crosscheck": {
+        "source_id": "pathways-66",
+        "checked_on": "2026-11-01",
+        "pdf_pages_checked_1based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "match_status": "no_matching_credit_or_complete_title_adopted",
+        "method": "Complete visual read plus exact/normalised full pupil-credit and complete-title search in fresh native extraction.",
+        "scope": "A bounded source-list comparison; retain compendium-entry status and null national prize rank. No assertion of universal non-award."
+      }
+    },
+    {
+      "programme": "INSPIRE-MANAK",
+      "edition_label": "8th NLEPC",
+      "source_id": "pathways-64",
+      "source_url": "https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf",
+      "volume": 2,
+      "section_as_published": "Kerala",
+      "section_kind": "state",
+      "kerala_state_heading": true,
+      "event_year_from_compendium": null,
+      "exact_event_dates_from_compendium": null,
+      "publication_date": null,
+      "cohort_cycle_from_compendium": null,
+      "status": "organiser_compendium_entry",
+      "national_prize_rank": null,
+      "attendance_independently_verified": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "sasthrolsavam_connection_established": false,
+      "id": "inspire8-kerala-coconut-scraper",
+      "pdf_page_1based": 13,
+      "printed_page": 6,
+      "title_as_published": "Coconut Scraper",
+      "pupil_credit_as_published": "Nihal K N",
+      "school_field_as_published": "Govt. Boys High School, Wadakkanchery, Thrissur.",
+      "region_field_as_published": "Trissur, Kerala",
+      "guide_credit_as_published": "Sreeja K S",
+      "description_paraphrase": "Coconut-scraping device using a 12 V DC motor, battery, handled scraper, blades, switch and LED.",
+      "evidence_limits": "No throughput or injury/safety comparison supplied; source region spelling retained.",
+      "award_list_crosscheck": {
+        "source_id": "pathways-66",
+        "checked_on": "2026-11-01",
+        "pdf_pages_checked_1based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "match_status": "no_matching_credit_or_complete_title_adopted",
+        "method": "Complete visual read plus exact/normalised full pupil-credit and complete-title search in fresh native extraction.",
+        "scope": "A bounded source-list comparison; retain compendium-entry status and null national prize rank. No assertion of universal non-award."
+      }
     }
   ],
   "common_evidence_limits": [
@@ -710,5 +1078,40 @@
     "No row establishes a final NLEPC prize rank, actual attendance, Kerala Sasthrolsavam selection or present-day eligibility.",
     "Safety, environmental benefit, efficacy and proposed deployment remain source claims unless separately tested.",
     "Reference numbers, photographs, hobbies and private contact/address fields are excluded from these derived rows."
+  ],
+  "follow_up_observations": [
+    {
+      "id": "inspire-followup-2025-kvs-chronicle-health-device-candidate",
+      "related_entry_id": "inspire11-kvs-ernakulam-health-device",
+      "source_id": "project-046",
+      "observed_on": "2026-11-01",
+      "publication_issue_as_printed": "August2025",
+      "relationship": "candidate_correspondence_to_later_first_person_account",
+      "source_locator": "PDF 2/printed 2, complete lower-panel account; PDF 1 masthead and PDF 4 publisher imprint.",
+      "source_specific_credits": {
+        "author": "Kripali Sunil",
+        "school": "PM SHRI KV Payyannur",
+        "region": "Ernakulam Region"
+      },
+      "matching_basis": [
+        "Same published author name.",
+        "Payyanur/Payyannur school-name variant and Ernakulam-region context.",
+        "A manually turned handle raises weight from a platform, corresponding to the older object-lifting synopsis at a broad mechanism level.",
+        "The first-person account explicitly names INSPIRE Award MANAK; it does not specify the earlier edition or code."
+      ],
+      "reported_development_paraphrase": "The learner describes researching back strain, building a prototype with mentor guidance and basic materials, and using a rotating handle to raise weight from a platform. The account narrates INSPIRE-MANAK selection and a Sakura Science Exchange experience.",
+      "evidence_limits": [
+        "Candidate correspondence rather than independently confirmed personal identity or an identical project version.",
+        "No exact earlier exhibit title, code, edition or guide credit appears in this account.",
+        "No individual work-allocation audit, source code, dimensions, load/stability tables, controlled user outcomes or medical/safety validation.",
+        "Lifting objects does not verify lifting people; claimed relief of strain remains self-reported.",
+        "No national prize rank, Kerala DGE/Sasthrolsavam nomination or independent travel/attendance proof is established."
+      ],
+      "identity_independently_verified": false,
+      "unchanged_project_version_established": false,
+      "student_work_division_verified": false,
+      "scientific_performance_independently_validated": false,
+      "integration_policy": "Append as a separate dated follow-up observation outside the 16 existing entry objects; preserve every old entry unchanged."
+    }
   ]
 }

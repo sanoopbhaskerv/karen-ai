@@ -27,6 +27,28 @@ The DTMF synopsis describes phone control, rather than AI or recovered firmware.
 
 Both full files total **418 physical PDF pages**. All text layers were screened for Kerala attribution, with the front matter, complete Kerala spread and state boundary visually checked. The decorative, text-empty final page was also inspected. This is a targeted review, rather than a full visual audit of every national project. Original reference numbers, photographs, hobbies and private contact/address fields are excluded from the derived register.
 
+## Eighth NLEPC: five Kerala-section descriptions and separate awards
+
+The two complete [volume 1](https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20I.pdf) and [volume 2](https://www.inspireawards-dst.gov.in/download/NLEPC/2021/Compendium%20of%20Projects%20Submitted%20during%208th%20NLEPC%20-%20Vol%20-%20II.pdf) compendia contain **304 + 312 = 616 physical PDF pages**. Their covers identify the eighth edition, while their reviewed frontmatter gives no exact event or publication date or nomination cohort. URL years, PDF metadata and January 2022 server Last-Modified dates remain separate.
+
+The [4 September 2021 PIB opening report](https://www.pib.gov.in/PressReleaseIframePage.aspx?LID=1&PRID=1752021&RegID=17&lang=2&reg=48), source `pathways-65`, explicitly connects the edition to **FY2019–20**, reports a COVID deferral and gives public online exhibition access for **4–8 September 2021**. It reports **581 students’ ideas showcased**, **more than 1,000 students attending the online programme**, and **392,486 initial ideas/innovations**. The [8 September closing report](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=224738), source `pathways-67`, describes that day’s virtual awards ceremony and **581 shortlisted / 60 awarded** nationally. These are different reported populations/statuses, not a Kerala total or audited individual attendance. The opening page’s repeated display/print article is counted once.
+
+Volume 2’s Kerala heading is PDF 8 / printed 1; the five entries occupy PDF 9–13 / printed 2–6, followed by the separate KV heading on PDF 14. The KV-named school below is actually under **Kerala**, so it remains in that published section.
+
+| Title as published | Pupil credit as published | Printed page / PDF page |
+| --- | --- | --- |
+| Self-cleaning public urinal | Craiga Joel | 2 / 9 |
+| Smart waste management system (SWaMs) | Riya Jibu | 3 / 10 |
+| Multi mechanical machine. | Elsheba Ann Binu | 4 / 11 |
+| Banana stem extract as pH stabilizer and natural coagulant in agriculture ponds | P S Shreelakshmi | 5 / 12 |
+| Coconut Scraper | Nihal K N | 6 / 13 |
+
+The source’s `Sap Cam`, `Alapuzza`, `Evnakulam` and `Trissur` spellings remain literal in the register. The pressure-flushing proposal supplies no water-use or hygiene tests; the banana-extract synopsis gives no protocol, dosage, pH table, control or ecological-safety data. Its natural-origin claim does not establish safety. The pedal-driven kitchen assembly and motorised scraper similarly lack output and injury comparisons; automatic operation does not establish AI. These are concise organiser descriptions, not recovered code or original test reports.
+
+The received five-page [national award list](https://www.inspireawards-dst.gov.in/download/8th-INSPIRE-MANAK-NLEPC-Awardees-19-20.pdf), source `pathways-66`, contains **60 serial rows**, with only the first three having explicit values in a separate **Position** column. Serial numbers 4–60 are not further prize ranks. No positive credit/title match was adopted for the five Kerala descriptions; this bounded comparison does not establish universal non-award. The first-prize kitchen-machine record credits **Navshri Thakur, M.S. Dokri Kheda Pipariya, Madhya Pradesh**; it must not be transferred to Elsheba Ann Binu’s differently credited kitchen-tool description.
+
+All 616 native text layers were screened. The complete separate KV section (volume 2 PDF 14–27 including boundaries) and JNV section (volume 1 PDF 224–231 including boundaries), target frontmatter and metadata-label anomalies were visually read. No further explicit Kerala/locality lead arose there; this is a bounded observation, not geographic absence or a full human reading of every national project. No OCR run was required or claimed for these usable body layers.
+
 ## Eleventh NLEPC: state and organisational sections
 
 The two received volumes have **409 physical PDF pages**. Their PDF 7 prefaces are dated **12 September 2024** and describe a 2022–23 selected cohort; PDF 9 messages are dated 17 September. A separate [PIB report published 20 September](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2056903&lang=2&reg=48), source `pathways-61`, reports the exhibition on **17–18 September** and felicitation on **19 September at Vigyan Bhawan**. Its 350 displayed students and 31 felicitated innovators differ in status from the preface's 360 selected. These are national reported populations, without an individual crosswalk or a Kerala total.
@@ -47,7 +69,15 @@ In volume 2's NVS section, **Fibres from Money Plant**, credited to **Sreedev S*
 
 Both full newer files were processed with machine OCR for discovery because their original text layers are inadequate. All five Kerala entries, the full KVS/NVS sections and target front matter/boundaries were visually reviewed. OCR supplied no further location candidate in the bounded screen; that is not proof of absence or a full human reading of every page. Some render sizes clipped metadata, so complete adopted fields were checked against legible alternate renders. Original PDFs were not altered.
 
-The register now contains **16 descriptions** across the seventh and eleventh editions. The four books total **827 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
+The register now contains **21 descriptions** across the seventh, eighth and eleventh editions. The six books total **1,443 PDF pages**; these are file inventories, not a claim that every national project was visually audited. Short mechanisms and proposed benefits remain distinct from original code, measured field performance, safety validation and individual work allocation. No final prize rank is inferred from compendium order or a nonmatch in a separate winner list.
+
+## A later learner account: candidate correspondence
+
+An August 2025 issue of the [Kendriya Vidyalaya Chronicle](https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2025/07/2025072543.pdf), source `project-046`, contains Kripali Sunil’s first-person **My Journey – From an Idea to Japan** on PDF/printed page 2. It credits PM SHRI KV Payyannur and Ernakulam Region, describes mentor-guided prototype work and a rotating handle raising weight from a platform, and narrates INSPIRE-MANAK selection and a Sakura Science Exchange experience.
+
+The published name, school/region, mechanism and programme supply a **candidate correspondence** to the older *Health Care Device* synopsis. The article does not give that exact title, code, edition, guide or an unchanged-version statement. It is recorded as a separate dated observation; the earlier compendium entry remains unchanged. The narrative is not an independent identity, travel, work-division, load, clinical or safety audit, and object lifting is not verified patient lifting.
+
+All four page layouts and the complete relevant account were inspected; the masthead and publisher imprint identify KVS (HQ), with an “internal circulation” imprint. The file is openly served by a government S3WAAS host. Its current historical-index URL redirected to the homepage, so no fresh index-link provenance is asserted. The issue label, July URL directory and PDF metadata are separate date observations. No pupil portrait, class/age, family medical detail, contact or complete article is copied into the derived register.
 
 ## Current nomination notice and later homepage wording
 

@@ -99,3 +99,8 @@ The [holding register](ncert-model-holdings.json) adds five canonical NVLI MARC 
 Sources `project-040`–`project-044`. The IGNCA item explicitly records full call `607.34 STR` and barcode `IGNCA-G3753`. NMML item fields do not supply a full call number or barcode; classification fields are retained as classification. The 1996 record's additional 1997 note and the 2000 record's additional 1995 note are preserved without counting separate confirmed volumes. Two alias records are grouped rather than counted as extra works or known distinct copies. The 1978 target is separate from the publisher-library reference above; no identity of physical copies is established.
 
 None of the inspected records has a digital-location field. That does not establish that no digital copy exists elsewhere, or guarantee present shelf availability/completeness. A separately checked 1990 title lacks NCERT author/publisher confirmation and is excluded from these five targets. The complete 2010 volume and these older books' Kerala contents remain unrecovered.
+
+
+## A recovered combined 2020/2021 synopsis booklet
+
+The [188-page NCERT booklet](https://web.archive.org/web/20220205221256id_/http://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf) supplies the previously missing combined 2020/2021 selected-exhibit overview. It is separate from the *Structure and Working* construction volumes and does not fill the complete 2010 model-book gap. The [discovery audit](DISCOVERY.md) checked all 145 English school/address blocks (81 + 64) without identifying a confident Kerala school entry; this is not nonparticipation evidence. No Kerala method chapter, code, test table or new focused case is derived.

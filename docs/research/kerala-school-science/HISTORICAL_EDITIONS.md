@@ -1,6 +1,6 @@
 # Earlier state editions: recovered programmes and published results
 
-Checked **1 November 2026**. This supplement adds archived official programme bodies for 2012, 2013 and 2017, original-site provenance for the existing 2014 brochure, and populated Science/IT district-champion pages for 2017 and 2018. The [structured stream snapshots](historical-stream-results.json) retain all 56 district rows and ten separate item-status rows. A signed, consolidated final result book for the whole festival remains uncollected. The source register is [historical-editions-sources.json](historical-editions-sources.json); the wider chronology and remaining gaps are in [HISTORY.md](HISTORY.md).
+Checked **1 November 2026**. This supplement adds archived official programme bodies for 2012, 2013, 2015 and 2017, original-site provenance for the existing 2014 brochure, and populated Science/IT district-champion pages for 2017 and 2018. The [structured stream snapshots](historical-stream-results.json) retain all 56 district rows and ten separate item-status rows. A signed, consolidated final result book for the whole festival remains uncollected. The source register is [historical-editions-sources.json](historical-editions-sources.json); the wider chronology and remaining gaps are in [HISTORY.md](HISTORY.md).
 
 ## Programme bodies
 
@@ -11,6 +11,7 @@ Dates below are printed programme dates. An archive capture records preservation
 | 2012–13 | 26–30 November 2012, Kozhikode | Eight-page [official programme](https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf). Invitation dated **30 October 2012**, PDF 2 / printed1; registration 26 November 10:30am and inauguration 4:30pm at GVHSS Meenchanda, PDF3 / printed2; closing 30 November 11am there, PDF7 / printed6. |
 | 2013–14 | 25–29 November 2013, Kannur | Four-page [official brochure](https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf). PDF 2 schedules registration 25 November 10:30am and inauguration 4pm at GVHSS Kannur; closing 29 November 11am. Science and IT use Chovva HSS; Science Drama is separately scheduled at GVHSS Kannur on 27 November. |
 | 2014–15 | 26–30 November 2014, Tirur | Four-page [official-site archive copy](https://web.archive.org/web/20161108091054id_/http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf), **byte-identical** to the Drive reproduction already registered as `history-2014-programme`. PDF 2 schedules registration 26 November 10:30am, inauguration 27 November 10am and closing 30 November 10:30am. This improves provenance for the same programme. |
+| 2015–16 context; printed label 2015 | 24–28 November 2015, Kollam | Eight-page [Education Department programme](https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf). PDF 2 and 8 label Science **49th** and IT **14th**, among seven distinct fair labels. PDF 3 schedules registration at 10:30am and inauguration at 4pm on 24 November at Government Model Boys HSS, Kollam. |
 | 2017–18 | 23–26 November 2017, Kozhikode | Two-page [official schedule](https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf). PDF1 schedules all-fair registration from 10am on 23 November at Government Girls HSS, Nadakkavu. Science uses St Joseph’s Anglo Indian Girls School, Government Girls HSS Nadakkavu and St Angela’s Anglo Indian UP School. |
 
 The 2012 programme places Mathematics at **GVHSS Cheruvannur**, retaining its printed school designation; Social Science and Vocational Expo/Career Fest at NSS HSS Meenchanda; Work Experience at Sri Ramakrishna Mission HSS Meenchanda; and Science Drama at Town Hall, Kozhikode. These are PDF4–6 / printed3–5. There is no separate IT schedule in this brochure, which does not establish that IT competitions were absent. [2012 programme](https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf#page=4)
@@ -18,6 +19,25 @@ The 2012 programme places Mathematics at **GVHSS Cheruvannur**, retaining its pr
 For 2013, PDF3 places Mathematics at St Theresa’s AIGHSS, Work Experience at St Michael’s AIBHSS, Social Science at CHM HSS Elayavoor, and Vocational Expo at Collectorate Ground. PDF 2 identifies the 47th Science Fair and the DPI as general coordinator, ADPI Academic as general convener, and DDE as joint general convener. These are historical programme credits, without a separately recovered appointment order. [2013 brochure](https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf#page=2)
 
 The 2017 Science schedule places UP/HS model, project and improvised-experiment competitions on **24 November at 10am**, and HSS competitions on **25 November at 10am**. PDF 2 places IT at Government Girls HSS Nadakkavu and Work Experience at Malabar Christian College/HSS. Its IT Malayalam Typing line prints **9:45 PM** amid morning events; preserve this source anomaly. A closing note allows changes to times and venues. These historical times are not 2026 instructions. [2017 schedule](https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf)
+
+## The recovered 2015 Kollam programme
+
+The original eight-page [Education Department brochure](https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf) supplies historical venue allocations beyond the earlier AEO notice. Its seven labels are Science 49th, Work Experience 35th, Mathematics 30th, Special School Work Experience 19th, IT 14th, Vocational Expo/Career Fest 11th and Social Science 10th (PDF 2 and 8). These are distinct stream ordinals; they do not establish one common festival edition or uninterrupted annual conduct.
+
+| Fair | Venue as printed in the 2015 programme | PDF page |
+| --- | --- | --- |
+| Science | St Aloysius HS and St Antony’s UPS, Kollam | 5 |
+| Mathematics | St Joseph’s Convent HSS, Kollam | 5 |
+| Social Science | S.N. Central School, Kollam | 6 |
+| Work Experience | Christuraj HSS, Kollam | 6 |
+| IT | Government Model Boys HSS, Kollam | 7 |
+| Vocational Expo and Career Fest | Government Model Boys HSS, Kollam | 7 |
+
+Science exhibit arrangement/evaluation is scheduled for **25 November at 9:30am for UP/HS** and **26 November at 9:30am for HSS/VHSS**; public exhibition is listed separately. The invitation describes the 28 November closing meeting as **11am**, while the detailed closing sequence starts with prayer at **10:30am** (PDF 2 versus PDF 4). Preserve both programme descriptions without inventing a correction. These plans do not prove actual attendance, completion or final results, and do not supply present-day local conditions.
+
+The cultural programme lists a **25 November, 6:30pm** performance of *Prakashachakram*, described as the 2015 state/southern-region first-prize play (PDF 7). It is separate from the [30 October competitive Science Drama result](HISTORY.md#recovered-2016-programme-scan-and-earlier-drama-phases). No new competition date or repeat judging is inferred.
+
+All eight pages were visually read because their native text layers extract no characters. The actual GET Memento is **17 January 2016** and matches the exact CDX body digest; PDF creation/modification metadata and original server Last-Modified both point to 19 November 2015, without establishing a printed issue date. The programme’s cover and invitation explicitly give the November 2015 event dates.
 
 ## Populated 2017 and 2018 stream-champion tables
 
@@ -44,6 +64,6 @@ All page structures and item codes were extracted; PDF/printed pages 1,19,41,60 
 
 ## Acquisition and remaining gaps
 
-All new files were retrieved through ordinary public HTTPS downloads. Hashes, byte counts, PDF lengths, original URLs, exact archive captures and review limits are recorded in the source register. All 18 programme pages were rendered and visually checked. HTML result and status cells were checked from the archived response bodies; browser display was not visually audited.
+All new files were retrieved through ordinary public HTTPS downloads. Hashes, byte counts, PDF lengths, original URLs, exact archive captures and review limits are recorded in the source register. All 26 programme pages in this supplement were rendered and visually checked. HTML result and status cells were checked from the archived response bodies; browser display was not visually audited.
 
 The original 2012 and 2013 programme bodies and populated 2017/2018 stream results improve the evidence beyond news reports and unprepared endpoints. They do not resolve the statewide inauguration year, provide a signed whole-festival final book, or establish an uninterrupted annual series. Whole-festival 2018 certification and the conflicting secondary Mathematics/Social Science totals remain open.
