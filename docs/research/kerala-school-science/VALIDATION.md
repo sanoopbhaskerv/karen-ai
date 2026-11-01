@@ -10,8 +10,8 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Distinct registered source URLs | 401 |
 | Topic source registers | 22 |
 | JSON files | 52 |
-| Concise English/Malayalam knowledge records | 227 |
-| Draft Malayalam evaluation questions | 205 |
+| Concise English/Malayalam knowledge records | 233 |
+| Draft Malayalam evaluation questions | 211 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -23,8 +23,16 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | TinyML guideline full-original target pages reviewed | 14 |
 | NCSM 2014–15 annual-report works / physical PDF pages | 1 / 219 |
 | SISF 2015 blog HTML bodies / received result images | 3 / 23 |
-| SISF 2015 report original pages / blog images reviewed | 5 / 6 |
-| SISF 2015 event / award-category / candidate-correspondence observations | 1 / 2 / 1 |
+| SISF 2015 initial report original pages / blog images reviewed | 5 / 6 |
+| SISF 2015 initial event / award-category / candidate-correspondence observations | 1 / 2 / 1 |
+| SISF 2015 complete result follow-up originals / newly reviewed results | 23 / 19 |
+| SISF 2015 Kerala-attributed award-category row observations | 36 |
+| SISF 2015 separate host-department trophy observations | 1 |
+| SISF 2015 additional handwritten visit images received / read | 4 / 4 |
+| SISF 2015 school-visit date/time blocks | 8 |
+| SISF 2015 school-visit numbered positions / unnumbered additions | 83 / 3 |
+| NCERT 2015 SISF-comparison original pages reviewed | 3 |
+| SISF 2015 qualified NCERT catalogue correspondences | 3 |
 | Separate SISF 2026 Kerala write-ups | 31 |
 | Content pages in those SISF write-ups | 49 |
 | Public SISF QR/unit records | 31 |
@@ -321,3 +329,9 @@ The TinyML example is one canonical four-page publisher-reproduced illustrative 
 The separate SISF evidence dataset repeats one institution-reported event observation, two reproduced award-category records and one qualified correspondence; nested source observations are not extra events or prizes. Source97 is a complete 219-page received annual report, with five full target originals reviewed; its January/year/duration conflict is not repaired into ISO event dates. Source98 has three HTML publication bodies and 23 result images, with six full images visually reviewed and other result images screened by machine discovery. The canonical viewer, observed download chain, MIME/body distinctions and raw receipts remain separate. Author checks passed 383 and independent checks 425. Source branding does not independently authenticate the Blogger account or original sheets, establish payment/unique identity or validate the sweeper’s performance.
 
 The settled publication audit passed **6,474 checks**, independently recomputing all **119 inventory rows**, **343 local links/anchors**, 1,054 structured source-reference edges, 260 internal-reference edges and 376 fact-source edges. Exact reviewed source/case/dataset imports, preserved old fields and JSONL prefixes, 34 cached artifact/header/receipt checks and reviewed raster hashes agree. Those artifact checks include one discovery-only index and a byte-identical source04 mirror; neither is an extra publication or independent corroboration. Compressed HTML wire lengths are checked against curl transfer sizes separately from decoded cached-byte hashes. The initial wire/decoded-length checker assumption was corrected without changing the corpus. No new acquisition, parser, OCR, rendering, runtime or provider call was made for integration. These checks establish collection integrity and stated evidence scope, not exhaustive history, authenticated blog ownership/documents, verified attendance/payment/identity, scientific validation or teacher-approved Malayalam.
+
+## SISF 2015 complete-result and school-visit follow-up
+
+Author review reads all 23 result originals for Kerala-attributed awards (four repeated, nineteen additional), preserving the initial six-image review. It records 36 category rows and one separate host-department trophy. Four newly acquired advertised JPEG originals are handwritten school-visit plans, with eight dated/time groups, 83 numbered positions and three unassigned additions. Three targeted NCERT catalogue pages support qualified comparisons rather than new focused cases or discovery rows.
+
+Source98 and source13 each gain one dated additive review field, and the SISF dataset gains one dated nested follow-up while its original fields/two Puducherry award observations stay exact. Six fact/evaluation pairs206–211 are appended. The one superseded fact’s EN/ML/scope and ml-204’s required/prohibited fields are precisely corrected to distinguish initial versus later review; every other old JSONL line stays byte-exact. Other structured datasets, source fields and core counts remain unchanged. The dated source and dataset observations repeat the same records, not independent corroboration or additional people/projects. Original authenticity, unique identity/version, attendance/payment, scientific performance and Malayalam educator review remain unverified. No runtime/training/provider/hardware change or live AI call.

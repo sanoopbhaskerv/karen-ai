@@ -47,3 +47,7 @@ The inspected English archive lacked year-labelled synopsis links for 2020, 2021
 ## Remaining work
 
 Acquire original school reports, construction records, code and test data, then attach them to the correct edition and exhibit. Match reports and catalogue rows through explicit author or organiser evidence where possible; title/school similarities are recorded as candidate correspondence rather than silently filling unknown identifiers. Current school identities, merged schools and changed names need their own dated evidence if used for present-day contact or attribution.
+
+## Three candidate correspondences to the 2015 regional results
+
+Existing 2015 discovery rows 16.2.8, 16.4.2 and 16.6.2 have [qualified SISF correspondences](SISF_HISTORY.md#three-qualified-links-to-the-ncert-2015-catalogue) in school/title/topic wording. Complete original catalogue pages 38, 80 and 120 were read for this comparison. Preserve the school-only national credits and literal variants; no pupil/guide names, prize, qualifying route, unique identity or unchanged version is transferred. The discovery dataset’s 105 records remain unchanged. The plastic-burning environmental claim and short concrete-recovery description do not supply emissions, material-performance or independent safety evidence.

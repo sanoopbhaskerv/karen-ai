@@ -138,7 +138,82 @@
     "notes": "Full catalogue downloaded and all pages text-extracted; Kerala school rows located and complete relevant pages inspected. PDF18 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2015 Structure and Working book (project-010). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
     "source_date": "2015-12",
     "download_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
-    "pdf_pages": 134
+    "pdf_pages": 134,
+    "sisf2015_candidate_comparison_review_2026_11_01": {
+      "reviewed_on": "2026-11-01",
+      "review_kind": "three_targeted_original_page_reads_for_candidate_SISF_correspondence",
+      "registered_body_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
+      "pdf_pages_1based": [
+        38,
+        80,
+        120
+      ],
+      "printed_pages": [
+        29,
+        71,
+        111
+      ],
+      "candidate_correspondences": [
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-platonic-solids",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-2-8",
+          "catalogue_pdf_page_1based": 38,
+          "catalogue_printed_page": 29,
+          "catalogue_title_as_published": "Platonic Solids",
+          "catalogue_school_as_published": "Memunda Higher Secondary School, Vatakara, Memunda Calicut, Kerala",
+          "catalogue_reported_synopsis_summary": "The working model is described as characterising Platonic solids; no construction procedure or measured learning outcome is given in the cited row.",
+          "sisf_result_image": "img028.jpg",
+          "sisf_result_printed_page": 22,
+          "sisf_title_as_published": "Spheres Related With Platonic Solids",
+          "sisf_school_as_published": "Memunda Hr Sec School, Vatakara, Memunda, Kozhikode District",
+          "basis": "Corresponding school/locality wording and Platonic-solids topic; different published title and Calicut/Kozhikode wording remain literal.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        },
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-plastic-boiler",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-4-2",
+          "catalogue_pdf_page_1based": 80,
+          "catalogue_printed_page": 71,
+          "catalogue_title_as_published": "Boiler for Plastic Burning",
+          "catalogue_school_as_published": "St. Stephen’s High School Pathanapuram Kollam Kerala",
+          "catalogue_reported_synopsis_summary": "The catalogue proposes a waste-plastic-burning device and attributes an environmental benefit to it. This single-row assertion supplies no emissions measurement, pollution-control test or independently established environmental safety.",
+          "sisf_result_image": "img027.jpg",
+          "sisf_result_printed_page": 21,
+          "sisf_title_as_published": "Plastic Burning Boiler",
+          "sisf_school_as_published": "St. Stephen's Hr Sec School, Pathanapuram, Kollam District",
+          "basis": "Corresponding plastic-burning/boiler title and school/locality, with reordered title and High School/Hr Sec wording preserved.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        },
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-concrete-recycling",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-6-2",
+          "catalogue_pdf_page_1based": 120,
+          "catalogue_printed_page": 111,
+          "catalogue_title_as_published": "Concrete Recycling",
+          "catalogue_school_as_published": "Seethi Sahib Higher Secondary School Taliparmba, Kerala",
+          "catalogue_reported_synopsis_summary": "The synopsis describes recovering sand and gravel from discarded concrete for casting new structures. It supplies no process settings, recovery yield, material-strength results or original test data in the cited row.",
+          "sisf_result_image": "img027.jpg",
+          "sisf_result_printed_page": 21,
+          "sisf_title_as_published": "Concrete Recycling",
+          "sisf_school_as_published": "Seethi Sahib Hr Sec School, Taliparamba, Kannur District",
+          "basis": "Matching title and corresponding school/locality wording, retaining the published Taliparmba/Taliparamba spelling variants.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        }
+      ],
+      "scope": "Three complete original pages read, focused on the three existing discovery rows. No full 134-page new human audit, new focused case or discovery row, original school report/code/data or proven SISF-to-NCERT progression."
+    }
   },
   {
     "id": "project-014",

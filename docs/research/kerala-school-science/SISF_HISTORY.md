@@ -48,7 +48,7 @@ These reports do not provide Kerala's outgoing selected-exhibit annexures, pupil
 
 The seven existing VITM cycles remain a separate collection. The NCSM Annual Report 2014–2015, received through its institution-advertised Google Drive link, adds a 219-page annual/audited-accounts body containing an Activity Report section. Original PDF 15–16/printed 13–14 and 73/printed 71 explicitly report the 28th SISF at Thekkinkadu Maidan, Thrissur, with VITM/Southern education departments and Kerala DPI as host. The paragraph prints 5–10 January but also says inauguration 20 January 2014 and a five-day event. Keep these source-local inconsistencies unresolved. Its 204 students, 194 schools, 143 guiding teachers, 143 student exhibits, 56 teacher exhibits and 40,000 visitors are separate institution-reported event-wide units, not Kerala-only or independently audited unique people. No exact corrected event/inauguration year follows from the reporting cycle.
 
-The event-named SISF 2015 blog reproduces an About publication planning 6–10 January 2015 with 5 January registration; its poster and result headers instead print 5–10 January 2015. Keep all printed scopes. The bundle has 23 received result images, not a 23-page PDF. Institutional names/logos printed on reproduced sheets do not independently verify who controls the Blogger account or authenticate original documents. Whole visual review covers the specified poster/planning/selected result images; the remaining result sheets have machine discovery, not a full human prose audit.
+The event-named SISF 2015 blog reproduces an About publication planning 6–10 January 2015 with 5 January registration; its poster and result headers instead print 5–10 January 2015. Keep all printed scopes. The bundle has 23 received result images, not a 23-page PDF. Institutional names/logos printed on reproduced sheets do not independently verify who controls the Blogger account or authenticate original documents. The initial visual review covered the specified poster/planning/selected result images, with machine discovery for the remaining results. The dated follow-up below subsequently read all 23 result originals for Kerala-award extraction, preserving the earlier acquisition/review snapshot.
 
 Result printed 4 lists R Ajithkumar’s Solar Power Automated Road Sweeper for the Sir M. Visvesvaraya Engineering/Technology trophy; printed 11 separately lists Puducherry DSE Individual First Prize of Rs 1,400. These categories do not become an NCSM event-overall first or a verified cash payment. The result-school/guide fields are Govt Middle School/Kariamanickam/J Venkadesan, whereas source 86 PDF 573/printed 557 has Kamban Govt. Hr. Sec.School/Nettapakkam and R. Gurunathan Pst. Exact title/public-name/context correspondence stays qualified: no legal identity, unchanged project version, school-transfer history, guide duties or performance is inferred. Both credits remain Puducherry; no new Kerala-school description is added.
 
@@ -56,3 +56,37 @@ The separate 380 MB Activity Report advertisement yielded only a public scan-siz
 
 
 The [dedicated 2015 evidence dataset](sisf-thrissur-2015-evidence.json) repeats these source-specific observations once for reference. It is separate from the seven-cycle VITM dataset and the Kerala-school project collections; nested source records and dataset records are not additional events, prizes or independent corroboration. [NCSM institution-advertised report record](https://drive.google.com/file/d/0B2sxx9FjoulieExkN01nTmFBYVU/view), [event-named publication bundle](https://sisf2015.blogspot.com/).
+
+## Kerala-attributed awards in the complete 2015 result-image follow-up
+
+A dated follow-up personally read all **23 received result-sheet originals**, preserving the earlier six-image review as its initial snapshot. Four result sheets were reread and nineteen were newly reviewed. These remain reproduced images from the event-named blog, not an authenticated original result PDF or independent proof of presentation, payment, attendance or identity. [Reproduced result bundle](https://sisf2015.blogspot.com/p/results.html).
+
+The separate additive evidence section records **36 Kerala-attributed award-category rows**:
+
+| Printed award family | Row observations |
+| --- | ---: |
+| Kerala DPI non-rolling best-exhibit trophies | 3 |
+| NCSM entire-fair Group Second | 1 |
+| Kerala DPI cash awards | 6 |
+| Kerala DPI book prizes | 6 |
+| Sponsored special prizes | 20 |
+
+These are repeated category observations, not a total of unique projects or people. Each row’s KL state prefix and school/locality/district wording supply its source-specific Kerala attribution; an award issuer alone does not verify a school’s location. Group, individual and teacher-section roles stay explicit. One book-prize row for Mohanan V P sits under a teacher heading and T category marker but literally says “STUDENT EXHIBIT (INDIVIDUAL)”; retain that conflict without repairing it. Unranked special prizes do not acquire a cash amount or overall rank.
+
+“Slayer Tesla Unification” appears as NCSM Group Second on printed page 4, with **2 × ₹2,500** printed, and separately as the Kerala DPI best-group exhibit trophy on printed page 2. Both rows name only Rubin C James, Ossanam E M Hr Sec School, Kattappana, Idukki District, and guide Rosamma James. The two-payment heading does not supply a second pupil, complete group membership or proof of payment. No project mechanism, code or scientific-performance validation follows from these award lines.
+
+A separate printed-page-2 **SISF Trophy** is explicitly for the education department of the host state, Kerala DPI. It is a hosting-role trophy, distinct from school exhibit awards. No competitive state-overall/team rank was identified in these 23 sheets; that bounded observation neither establishes a Kerala team championship nor proves that no such award existed elsewhere. The two earlier Puducherry sweeper award records remain unchanged. No new focused method case or INSPIRE description is added, and no Kerala Sasthrolsavam qualifying route is inferred.
+
+The earlier fact/evaluation wording about partial visual review is temporally qualified: its initial six-image review included four result sheets; the dated follow-up supplies this later, finite complete-result review for Kerala-award extraction. Original source review/acquisition fields remain unchanged. Malayalam learning drafts require educator review.
+
+### Handwritten school-visit allocations
+
+A separate four-image follow-up to the blog’s School Visit Timings display contains handwritten school-visit allocations, rather than competition entry/judging conditions. Eight brackets cover 6–9 January 2015: each date has a bare “9.30” group and an explicitly AM-marked 11 group. No AM/PM suffix, opening/arrival time or duration is invented for 9.30; a crossed-out mark is not reconstructed.
+
+Numbered row positions run from 1 to 83, with three unnumbered school-label lines after 41 and partly clipped lower-edge text. The additions have no explicit separate bracket/date/time and are not assigned to 9 January. These are not 83 or 86 independently identified schools, unique people, selected exhibits or verified visitors. No school spelling/identity is silently repaired. The unsigned images’ issue date, issuing authority and original authenticity remain unverified on the event-named blog. They do not change Kerala’s 2026 Working Model conditions. The four additional image bodies/review are dated separately; prior source fields and result/Puducherry-award observations stay exact.
+
+### Three qualified links to the NCERT 2015 catalogue
+
+The existing catalogue rows for Memunda’s Platonic Solids, St Stephen’s Pathanapuram Boiler for Plastic Burning and Seethi Sahib’s Concrete Recycling have corresponding school/title/topic wording in the SISF result sheets. The national table supplies no pupil or guide names. Keep its Calicut/Kozhikode, High School/Hr Sec and Taliparmba/Taliparamba versions literal rather than merge credits or infer the same people/model or a qualifying route.
+
+The brief concrete synopsis describes recovering sand and gravel for new structures. The plastic-burning row asserts an environmental benefit without emissions measurements or pollution-control results in the cited paragraph. The Platonic-solids row gives a topic, not construction details. These are short attributed catalogue claims, not original reports/data, material tests, independent safety validation or three new focused cases. [NCERT catalogue, PDF38/80/120](https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2015_Muvattupuzha.pdf#page=38), [SISF reproduced results](https://sisf2015.blogspot.com/p/results.html).
