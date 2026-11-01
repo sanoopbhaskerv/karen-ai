@@ -1,0 +1,553 @@
+[
+  {
+    "id": "history-2000s-001",
+    "title": "DPI NEP (3)-71186/04/DPI, 18 September 2004: historical IT competitions alongside science fairs",
+    "url": "https://web.archive.org/web/20050314041551id_/http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "original_url": "http://www.education.kerala.gov.in:80/newitems/circular-%20state%20level%20science%20fair%202004.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANATHAPURAM",
+    "document_date": "2004-09-18",
+    "reference_as_printed": "NEP (3)-71186/04/DPI",
+    "pdf_pages": 6,
+    "download_bytes": 111214,
+    "download_sha256": "74187529a391e7b7cbdf09cf5552514709ace0b0ab00326a7b5bceb238cb5b66",
+    "headers_sha256": "8966b6857147765acf7a2454a6c6396b706d8bbe8b306e67193d068818d506fd",
+    "archive_capture": "2005-03-14T04:15:51Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20050314041551",
+      "actual_memento_datetime_from_cached_get_headers": "Mon, 14 Mar 2005 04:15:51 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "received_body_sha1_base32": "RKHYAPX67SZ33I4EUZJFCIBNQ5EUS6ZP",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in:80/newitems/circular-%2520state%2520level%2520science%2520fair%25202004.pdf",
+      "original_url_encoding_note": "Cached replay Link rel=original double-escapes the space sequences as %2520; original_url above preserves the exact CDX row (%20). Received body SHA-1/base32 matches that CDX row, so this encoding difference is not a body mismatch."
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2004–05",
+    "references_as_printed": [
+      "Circular NEP (3)-68121/03/DPI dated 25 September 2003"
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference; historical IT competitions alongside district/state science fairs; on-the-spot student section classes 8–10."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "State Science Fair date/venue to be announced later; historical on-the-spot instructions."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia provisions."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Tentative November 2004 district timing, equipment/duties, appeal, handwritten for DPI block and circulation; image-only page."
+      },
+      {
+        "pdf_page_1based": 5,
+        "scope": "Blank Kerala State IT Fair 2004–2005 entry form; venue/date unfilled."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 2,
+        "scope": "Separate evaluation attachment; historical scoring criteria."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "for Director of Public Instruction",
+      "personal_name": "Not established",
+      "validation_scope": "Handwritten mark and designation visually read; no cryptographic validation."
+    },
+    "pagination_note": "Four instruction pages followed by blank form and evaluation attachment printed 2. Teacher provisions jump 7 to 9 across PDF 3–4; no provision 8 reconstructed.",
+    "notes": "Directs historical IT competitions alongside district/state science fairs. District dates are tentative November 2004; state date/venue explicitly deferred. The preceding-three-years wording does not establish a specific inaugural year. No state Science Fair date, venue, results or completion inferred; not current 2026 rules.",
+    "issuer_spelling_note": "The 2004 header prints THIRUVANATHAPURAM; this variant is retained rather than silently normalised."
+  },
+  {
+    "id": "history-2000s-002",
+    "title": "DPI NEP(3)/82862/07DPI, 5 December 2007: State School IT Fest 2007 instructions",
+    "url": "https://web.archive.org/web/20080828012615id_/http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "original_url": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_circular",
+    "issuer_as_printed": "OFFICE OF THE DIRECTOR OF PUBLIC INSTRUCTION, THIRUVANANTHAPURAM",
+    "document_date": "2007-12-05",
+    "reference_as_printed": "NEP(3)/82862/07DPI",
+    "pdf_pages": 6,
+    "download_bytes": 32662,
+    "download_sha256": "2fff1ca782681f8a69b6c222966729c41119035e82d30c15974c4bd76f2d1502",
+    "headers_sha256": "3a25d6b07706aeebcb71b9d4a9720f82a2bc8a911abf577d41377be68a5874e7",
+    "archive_capture": "2008-08-28T01:26:15Z",
+    "capture_provenance": {
+      "requested_capture_timestamp": "20080828012615",
+      "actual_memento_datetime_from_cached_get_headers": "Thu, 28 Aug 2008 01:26:15 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "received_body_sha1_base32": "W2STJZHMTHV4DHHUAMKP7OE57QNOVIQW",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes were checked; the requested capture is not inferred solely from the URL. No fresh HEAD is substituted for original acquisition evidence.",
+      "rel_original_link_as_received": "http://www.education.kerala.gov.in/itschool/circular_itfair.pdf"
+    },
+    "review_scope": "All six received PDF pages rendered and visually read; entire available text reviewed. No student roster or private contacts are transcribed.",
+    "provenance_limit": "Primary document archived from the former official Kerala Education Department website. Visible issuing blocks only; no cryptographic signature validation. Scheduled arrangements are not completion evidence.",
+    "academic_year": "2007–08",
+    "references_as_printed": [
+      "DPI circular Y1/59986/06/DPI dated 9 October 2006",
+      "DPI circular Y1/69707/07/DPI dated 16 October 2007"
+    ],
+    "scheduled_event": {
+      "name_as_printed": "State School IT Fest 2007",
+      "venue_as_printed": "Techno Park, Thiruvananthapuram",
+      "date_start": "2007-12-29",
+      "date_end": "2007-12-31",
+      "status": "Scheduled in instructions and blank form; completion not established."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Issue date/reference, State School IT Fest 2007 at Techno Park, 29–31 December 2007, high-school scope and student programming."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Student multimedia/digital painting and IT project report/slides deadline 24 December 2007, ten-minute presentation plus five-minute discussion."
+      },
+      {
+        "pdf_page_1based": 3,
+        "printed_page": 3,
+        "scope": "IT quiz and teacher multimedia, trainer exclusion."
+      },
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 4,
+        "scope": "Equipment, team managers/escorts, appeal, separate invention/software/hardware demonstrations, IT@School arrangements and signature/designation/circulation."
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5,
+        "scope": "Historical 100-mark evaluation scheme, including genuineness and student involvement for projects."
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 6,
+        "scope": "Blank entry form repeats scheduled venue and 29–31 December 2007 dates."
+      }
+    ],
+    "visible_signature_block": {
+      "designation_as_printed": "Director of Public Instruction",
+      "personal_name": "Not inferred from handwritten mark",
+      "validation_scope": "Handwritten mark above designation visually inspected; no cryptographic validation."
+    },
+    "notes": "Actual body is dated 5 December 2007, despite August 2008 archive capture and local cache filename. Schedules a separate high-school State School IT Fest at Techno Park, 29–31 December 2007. Historical instructions, not a complete Science Fair programme, actual attendance/results/completion evidence, or 2026 category permission. Software/hardware demonstration provision is not a recovered event named IT Working Model."
+  },
+  {
+    "id": "history-2000s-003",
+    "title": "IT Fest official event homepage: Day 1 caption, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109095330id_/http://www.education.kerala.gov.in:80/itfest/",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_site_page",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 6071,
+    "download_sha256": "4f325a4990b57e951d5529cf9770de837f8bff50c5809f8170d5f8d584773e0c",
+    "headers_sha256": "67f9f3d2e1c88ece002174de5480fe718047d0713065641e71748af0b9625215",
+    "archive_capture": "2008-01-09T09:53:30Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109095330id_/http://www.education.kerala.gov.in:80/itfest/",
+      "effective_url": "https://web.archive.org/web/20080109095330id_/http://www.education.kerala.gov.in:80/itfest/",
+      "requested_capture_timestamp": "20080109095330",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 09:53:30 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "DX6DG43S2FBBYFBFRJW6GKKO3MTUFC64",
+      "received_body_sha1_base32": "DX6DG43S2FBBYFBFRJW6GKKO3MTUFC64",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "caption_as_published": "DAY 1 30th December 2007",
+    "notes": "Received page labels the stated December 2007 day. Keep the separate announced 29–31 December range and January 2008 capture date. No rescheduling or opening-date change is inferred. Referenced photographs and banner were not independently reviewed."
+  },
+  {
+    "id": "history-2000s-004",
+    "title": "IT Fest official second photo page: Day 2 caption, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221704id_/http://www.education.kerala.gov.in:80/itfest/photos_2.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/photos_2.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_site_page",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 5516,
+    "download_sha256": "eaef102ea3a19460d9dc0ee7dfc0ce2b30e5fc54873e48f82f9c17ffcd7a21a0",
+    "headers_sha256": "ead636c40e36205d3cdf18adea106325e851af7cdfbb355a4338b08efb1bea4f",
+    "archive_capture": "2008-01-09T22:17:04Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221704id_/http://www.education.kerala.gov.in:80/itfest/photos_2.htm",
+      "effective_url": "https://web.archive.org/web/20080109221704id_/http://www.education.kerala.gov.in:80/itfest/photos_2.htm",
+      "requested_capture_timestamp": "20080109221704",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:04 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "VLYKYVQPG67VTDMUGIIOM7WFOKMAG2FR",
+      "received_body_sha1_base32": "VLYKYVQPG67VTDMUGIIOM7WFOKMAG2FR",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "caption_as_published": "DAY 2 : 31st December 2007",
+    "notes": "Received page labels the stated December 2007 day. Keep the separate announced 29–31 December range and January 2008 capture date. No rescheduling or opening-date change is inferred. Referenced photographs and banner were not independently reviewed.",
+    "discovery_source_id": "history-2000s-003"
+  },
+  {
+    "id": "history-2000s-005",
+    "title": "IT Fest official result index and advertised programme links, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109081153id_/http://www.education.kerala.gov.in:80/itfest/result.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_index",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 5913,
+    "download_sha256": "92dd259b38537e8991ba7eab811b5d491ae301b8842b715f87387fba6872e3af",
+    "headers_sha256": "8cf0350a2998c9049a19bd902f5ccb14dbab38eafe7a897d117a379b06085b23",
+    "archive_capture": "2008-01-09T08:11:53Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109081153id_/http://www.education.kerala.gov.in:80/itfest/result.htm",
+      "effective_url": "https://web.archive.org/web/20080109081153id_/http://www.education.kerala.gov.in:80/itfest/result.htm",
+      "requested_capture_timestamp": "20080109081153",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 08:11:53 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "TNXROIYCZFT7RTLMZYTV7LGUIA5C6VMO",
+      "received_body_sha1_base32": "TNXROIYCZFT7RTLMZYTV7LGUIA5C6VMO",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "linked_items_as_published": [
+      "Multimedia Presentation — Students",
+      "Digital Painting",
+      "Multimedia Presentation — Teachers",
+      "Programming — Students",
+      "IT Quiz",
+      "Project"
+    ],
+    "advertised_unrecovered_files": [
+      "../../Downloads/brochure.jpg",
+      "../../Downloads/pdf/Programme%20Notice%20(Final)%20-%2026.12.2007%20(Printing).pdf"
+    ],
+    "notes": "Links six populated item-result bodies and advertises a brochure/programme. Those advertised bodies were not recovered; 26.12.2007 in a filename is not a verified printed issue date. No annual general Science Fair programme or championship supplied."
+  },
+  {
+    "id": "history-2000s-006",
+    "title": "IT Fest Digital Painting published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221709id_/http://www.education.kerala.gov.in:80/itfest/result_dp.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_dp.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 59939,
+    "download_sha256": "f308272fcf6718ffdca722a69cee9d2ce97069552d8f73f95baf4ae5bbbecf1f",
+    "headers_sha256": "2f9e13b2c0d30719ca6c6a6b2f10e59668d5dd2b7ea26fbf89e40d322433e73d",
+    "archive_capture": "2008-01-09T22:17:09Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221709id_/http://www.education.kerala.gov.in:80/itfest/result_dp.htm",
+      "effective_url": "https://web.archive.org/web/20080109221709id_/http://www.education.kerala.gov.in:80/itfest/result_dp.htm",
+      "requested_capture_timestamp": "20080109221709",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:09 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "J2O5P5FC3S27D3QHBCZUIDTRY6S5JRCV",
+      "received_body_sha1_base32": "J2O5P5FC3S27D3QHBCZUIDTRY6S5JRCV",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "Digital Painting",
+    "published_numbered_rows": 38,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules."
+  },
+  {
+    "id": "history-2000s-007",
+    "title": "IT Fest student Multimedia Presentation published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221714id_/http://www.education.kerala.gov.in:80/itfest/result_mm_s.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_mm_s.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 62567,
+    "download_sha256": "dfe30f65b8bb630b1b0ab64d53a8d91cecf4fc14066644f328a0bc238f091cfc",
+    "headers_sha256": "6b86fa696e5dcd69a474e1ef95d02a7eaa5b57ef418efcaf4af4868967584ac7",
+    "archive_capture": "2008-01-09T22:17:14Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221714id_/http://www.education.kerala.gov.in:80/itfest/result_mm_s.htm",
+      "effective_url": "https://web.archive.org/web/20080109221714id_/http://www.education.kerala.gov.in:80/itfest/result_mm_s.htm",
+      "requested_capture_timestamp": "20080109221714",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:14 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "MQBR4Z7Z6DUOIOSGAOQSS6ZDOABNOPNB",
+      "received_body_sha1_base32": "MQBR4Z7Z6DUOIOSGAOQSS6ZDOABNOPNB",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "Multimedia Presentation — Students",
+    "published_numbered_rows": 38,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules."
+  },
+  {
+    "id": "history-2000s-008",
+    "title": "IT Fest teacher Multimedia Presentation published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221719id_/http://www.education.kerala.gov.in:80/itfest/result_mm_t.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_mm_t.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 55795,
+    "download_sha256": "23ab57bd3dd7802f8a0007c3dc9475a1ad365744b4186ef421db29adc5c09b9f",
+    "headers_sha256": "a8faea2d63a1080685edae0b7706c5fe97b84726d4aa37a50a13f8ee6b71f8a3",
+    "archive_capture": "2008-01-09T22:17:19Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221719id_/http://www.education.kerala.gov.in:80/itfest/result_mm_t.htm",
+      "effective_url": "https://web.archive.org/web/20080109221719id_/http://www.education.kerala.gov.in:80/itfest/result_mm_t.htm",
+      "requested_capture_timestamp": "20080109221719",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:19 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "GNWBFGBU4BEKX4RZ5QBVOFG7E2ONN6WW",
+      "received_body_sha1_base32": "GNWBFGBU4BEKX4RZ5QBVOFG7E2ONN6WW",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "Multimedia Presentation — Teachers",
+    "published_numbered_rows": 38,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules.",
+    "population": "Teacher item; separate from pupil items",
+    "literal_nonattendance_or_empty_labels": [
+      "ABSENT",
+      "NIL"
+    ]
+  },
+  {
+    "id": "history-2000s-009",
+    "title": "IT Fest Programming published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109095335id_/http://www.education.kerala.gov.in:80/itfest/result_prg.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_prg.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 59313,
+    "download_sha256": "3536c2b27f22a87b1a3cee70553187b5a69726cb7c20dd86e1f229a481882eed",
+    "headers_sha256": "be8692df9b437bee6a780afbd21802ff1e2cb4310398f9c6594fafc8bef542e5",
+    "archive_capture": "2008-01-09T09:53:35Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109095335id_/http://www.education.kerala.gov.in:80/itfest/result_prg.htm",
+      "effective_url": "https://web.archive.org/web/20080109095335id_/http://www.education.kerala.gov.in:80/itfest/result_prg.htm",
+      "requested_capture_timestamp": "20080109095335",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 09:53:35 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "JXDXMREWLD7KP2GMQR56LZKMBV27O46D",
+      "received_body_sha1_base32": "JXDXMREWLD7KP2GMQR56LZKMBV27O46D",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "Programming",
+    "published_numbered_rows": 38,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules."
+  },
+  {
+    "id": "history-2000s-010",
+    "title": "IT Fest IT Quiz published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221733id_/http://www.education.kerala.gov.in:80/itfest/result_quiz.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_quiz.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 52614,
+    "download_sha256": "d5da2fa698c405ef90937b47525c767744b3acd959b27bb25aa5bb24f97fd16e",
+    "headers_sha256": "88156beb52f3280b7be166c46e55f3d3ebe9383835a9615c1a691d949ec107be",
+    "archive_capture": "2008-01-09T22:17:33Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221733id_/http://www.education.kerala.gov.in:80/itfest/result_quiz.htm",
+      "effective_url": "https://web.archive.org/web/20080109221733id_/http://www.education.kerala.gov.in:80/itfest/result_quiz.htm",
+      "requested_capture_timestamp": "20080109221733",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:33 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "6MUUPCKIIL6SJCONRI45SKZ67EARWFYM",
+      "received_body_sha1_base32": "6MUUPCKIIL6SJCONRI45SKZ67EARWFYM",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "IT Quiz",
+    "published_numbered_rows": 38,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules."
+  },
+  {
+    "id": "history-2000s-011",
+    "title": "IT Fest IT Project published result table, archived 9 January 2008",
+    "url": "https://web.archive.org/web/20080109221724id_/http://www.education.kerala.gov.in:80/itfest/result_project.htm",
+    "original_url": "http://www.education.kerala.gov.in:80/itfest/result_project.htm",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_result_table",
+    "publisher_context": "Former official Kerala Education Department website, IT@School event-site pages",
+    "document_date": null,
+    "download_bytes": 54919,
+    "download_sha256": "528cdc36f36599b956e3455ab54fc6fd49dbbc83305d876e924e9c60a0c03218",
+    "headers_sha256": "d2441dc00957e10c2070e7197e0e982f52c15d4638c5d7da6d0cbc44252cdbe4",
+    "archive_capture": "2008-01-09T22:17:24Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20080109221724id_/http://www.education.kerala.gov.in:80/itfest/result_project.htm",
+      "effective_url": "https://web.archive.org/web/20080109221724id_/http://www.education.kerala.gov.in:80/itfest/result_project.htm",
+      "requested_capture_timestamp": "20080109221724",
+      "actual_memento_datetime_from_cached_get_headers": "Wed, 09 Jan 2008 22:17:24 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "P7R6A7XTHCVBH3BJ3IONHCB4R6ZEI7AL",
+      "received_body_sha1_base32": "P7R6A7XTHCVBH3BJ3IONHCB4R6ZEI7AL",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked; no fresh HEAD or requested-date-only inference."
+    },
+    "review_scope": "Received HTML body, links and table/caption markup read directly. No browser-render review, photograph validation, pupil roster transcription or signature authentication claimed.",
+    "provenance_limit": "Archived official publication observation. Not a signed consolidated final result, verified attendance, full-festival completion proof or current 2026 entry rule.",
+    "item_english_normalisation": "IT Project",
+    "published_numbered_rows": 40,
+    "published_rank_label_counts": {
+      "FIRST": 1,
+      "SECOND": 1,
+      "THIRD": 1
+    },
+    "discovery_source_id": "history-2000s-005",
+    "event_year_heading_as_published": null,
+    "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
+    "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules.",
+    "annotation_scope": "Contains an appeal-allowed annotation citing DEO Order No.4274/2007 dated 7 December 2007, Thiruvalla. Underlying order not recovered/authenticated; no pupil identity copied."
+  },
+  {
+    "id": "history-2000s-012",
+    "title": "IT@School activities till date: official retrospective chronology of 2002–04 IT fairs",
+    "url": "https://web.archive.org/web/20080719181157id_/http://www.education.kerala.gov.in/master/progressitschool.pdf",
+    "original_url": "http://www.education.kerala.gov.in/master/progressitschool.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_government_activity_report",
+    "document_date": null,
+    "archive_capture": "2008-07-19T18:11:57Z",
+    "memento_datetime_received": "Sat, 19 Jul 2008 18:11:57 GMT",
+    "sha256": "0013d45b310df8e08128246cc3421520604520cb9d0a0c74c37dd7a1578ef375",
+    "bytes": 79652,
+    "pdf_pages": 6,
+    "body_sha1_base32": "SGNZUXCZ736PFM5TJSA43OG3ZJXWZZME",
+    "cdx_digest_matches": true,
+    "authority": "IT@School logo and report title on PDF 1; official Kerala Education Department host; Executive Director designation on PDF 6. No named signatory or signature authentication claimed.",
+    "date_note": "The body has year headings 2001–2005 and plans mentioning July 2006 but no visible standalone issue date. PDF metadata dates creation/modification to 28 January 2006 and names an underlying Progress of this Government-20.01.06.doc file; these are metadata, not adopted issue dates. The 2008 archive capture is not an event date.",
+    "review_scope": "All six PDF pages rendered and read visually; all six text layers extracted, with legacy Malayalam font damage checked against rendered pages. PDF 3 year heading 2004 was also checked in a focused PDF-render crop. No browser-render audit. New body retrieved using a previously cached CDX URL row, without any fresh network CDX query.",
+    "page_locators": [
+      {
+        "pdf_page": 1,
+        "printed_page": null,
+        "year_heading": "2002",
+        "clause": "(vii)",
+        "fact": "The chronology says the state’s first IT fair was held at Thiruvalla as part of the State School Science Fair."
+      },
+      {
+        "pdf_page": 2,
+        "printed_page": "2",
+        "year_heading": "2003",
+        "clause": "(x)",
+        "fact": "The chronology says the State School Science Fair and second IT fair were successfully held at Ernakulam."
+      },
+      {
+        "pdf_page": 3,
+        "printed_page": "3",
+        "year_heading": "2004",
+        "clause": "(ix)",
+        "fact": "The chronology says a school IT fair was successfully organised at Kottayam in association with the State School Science Fair."
+      },
+      {
+        "pdf_page": 6,
+        "printed_page": "6",
+        "fact": "Closing Executive Director designation; no personal name/signature inferred."
+      }
+    ],
+    "notes": "Primary government retrospective, distinct from an original fair circular or contemporaneous programme. Its first/second language concerns the IT stream. It does not settle the Science Fair inaugural year, provide exact event days, identify full venue schools or certify results. Year headings are retained as printed; no academic-year conversion or continuous series inferred.",
+    "retrieved_at_utc": "2026-11-01T02:04:39.909746+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]

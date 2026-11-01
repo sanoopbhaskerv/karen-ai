@@ -1,0 +1,1681 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-01",
+  "source_id": "pathways-37",
+  "source_pdf_pages": 349,
+  "source_download_sha256": "9ed4441b40999e67638af3ac1f45ce41e09d19fb1c2e01a9ca5c2768b8c88e6d",
+  "scope": "All 31 credited write-ups under the Kerala individual/group/teacher headings in the received SISF 2026 compendium. Not an inventory of all fair entrants, a Kerala Sasthrolsavam result, or a verified demonstration record.",
+  "review": {
+    "text_read_pdf_pages_1based": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247
+    ],
+    "attribution_starts_visually_checked_pdf_pages_1based": [
+      195,
+      198,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      207,
+      209,
+      211,
+      213,
+      215,
+      217,
+      221,
+      223,
+      224,
+      225,
+      226,
+      228,
+      230,
+      235,
+      236,
+      237,
+      238,
+      240,
+      242,
+      244,
+      245,
+      246,
+      247
+    ],
+    "additional_full_method_result_pages_visually_checked_pdf_pages_1based": [
+      195,
+      196,
+      199,
+      203,
+      204,
+      207,
+      208,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      221,
+      222,
+      223,
+      226,
+      227,
+      236,
+      239,
+      241,
+      246,
+      247
+    ],
+    "method": "All 49 content pages read in extracted text. All 31 title/school/credit blocks checked against rendered source images; 26 full method/result pages additionally checked visually. Actual section headings and page footers determine category/page ranges.",
+    "counts": {
+      "individual_writeups": 14,
+      "group_writeups": 7,
+      "teacher_writeups": 10,
+      "total_writeups": 31,
+      "content_pdf_pages": 49
+    },
+    "limitations": [
+      "A compendium write-up records reported work, not independent performance or individual work division.",
+      "The contents table misplaces the Kerala teacher start at printed204; the actual first teacher write-up is printed192/PDF235.",
+      "No contacts, participant photographs or source-page images are copied into the repository.",
+      "Source spelling and address anomalies are preserved; the comma-bearing teacher credit is not split into invented people.",
+      "Three award correspondences are supported by visible source-photograph codes; the diaper correspondence remains a pupil/school/topic candidate. Original credit versions remain distinct; no prize or code is transferred into the standalone compendium fields."
+    ]
+  },
+  "entries": [
+    {
+      "id": "sisf-2026-kerala-individual-p156",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "INVESTIGATORY PROJECT ON PALM FIBER",
+      "school_as_published": "G.H.S, Pannippara, Perkamanna, Malappuram, Kerala - 676541",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Miya Fathima KP"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Shadiya CP"
+      ],
+      "pdf_pages_1based": [
+        195,
+        196,
+        197
+      ],
+      "printed_pages": [
+        156,
+        157,
+        158
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Compares rubber without filler against palm-fibre rubber using milling, moulding and mechanical tests.",
+      "evidence_limits": "Numerical comparisons are reported; replicate runs, uncertainty and independent test certificates are absent.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p156"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p159",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "PRISMATIC PILLAR",
+      "school_as_published": "Memunda H.S.S., Memunda, PO Vatakara, Kozhikode, Kerala - 673104",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Alona S"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Sarath PK"
+      ],
+      "pdf_pages_1based": [
+        198,
+        199
+      ],
+      "printed_pages": [
+        159,
+        160
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Folded and rearranged solids illustrate prism, pyramid and frustum relationships.",
+      "evidence_limits": "An explanatory geometry model; learning gains and originality are not measured.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p159"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p161",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "AGRICULTURE VEHICLE",
+      "school_as_published": "St. Mary’s High School, Vazhavara, Idukki, Kerala - 685515",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Anex Joshy"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Sijomon Joseph"
+      ],
+      "pdf_pages_1based": [
+        200
+      ],
+      "printed_pages": [
+        161
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "A remote-operated vehicle combines cutting, seeding, spraying and water-cleaning functions.",
+      "evidence_limits": "Control circuitry, field trials, cost comparisons and capacity measurements are not supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p161"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p162",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "MATHS SCRAP BOOK",
+      "school_as_published": "A.S.M.H.S.S., Velliyancheri, Edappatta PO, Malappuram, Kerala - 679326",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Nishwa K"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Nisma K"
+      ],
+      "pdf_pages_1based": [
+        201
+      ],
+      "printed_pages": [
+        162
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Six linked scrapbook panels use visual layouts to explain mathematical topics.",
+      "evidence_limits": "Interest and comprehension claims lack a sample description or comparative assessment.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p162"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p163",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "RIVER CLEANING SYSTEM",
+      "school_as_published": "G.H.S.S., Kakkat, Bengalam, Kasaragod Kerala - 671314",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Badrinadh"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Jestin Raphel"
+      ],
+      "pdf_pages_1based": [
+        202
+      ],
+      "printed_pages": [
+        163
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Remote control operates geared motors and a conveyor collecting floating debris.",
+      "evidence_limits": "No collection-rate, payload or water-condition series is reported.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Sensors, solar power and IoT monitoring are future improvements."
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p163"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p164",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "HOPE (Hardware Optimized for People in Emergency)",
+      "school_as_published": "St. Terese H.S.S., Shoranur, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Niranjana Sreekanth"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Mary Rose"
+      ],
+      "pdf_pages_1based": [
+        203
+      ],
+      "printed_pages": [
+        164
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "ESP32 sensor nodes send LoRa alerts to a base station, then Wi-Fi/MQTT notifications.",
+      "evidence_limits": "The cited write-up gives no numerical range, false-alarm or outage-test series. Its cloud notification path uses the base station’s Wi-Fi/MQTT connection; LoRa transmission alone does not establish end-to-end service during an internet outage.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p164",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-006"
+        ],
+        "compendium_pdf_pages_1based": [
+          203
+        ],
+        "compendium_printed_pages": [
+          164
+        ],
+        "written_method_as_reported": [
+          "The write-up places ESP32 user transmitters near users and a LoRa receiver/base station at a caregiver or emergency-service location.",
+          "An IMU and voice module provide described fall/voice triggers; battery/BMS are listed. The base station forwards received alerts through Wi-Fi and an MQTT server."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5-second chart labels User Node, Base / Receiver Node and Network & Cloud Layer. A WEBSITE panel/dashboard is visible, without a readable public address in the inspected samples."
+        ],
+        "interpretation_limits": [
+          "The long-range/network-failure/reliability statements are attributed objectives or conclusions, not measurements established by this review.",
+          "The LoRa radio hop and Wi-Fi/MQTT cloud path are distinct dependencies. Their description does not establish end-to-end notification during an internet outage.",
+          "No numerical range, false-alarm or outage-test series is supplied by the cited page. The sampled frames do not verify causal emergency-trigger timing or emergency reliability."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p165",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "AGROLINK – AUTOMATIC SMART AGRI SYSTEM",
+      "school_as_published": "Rajeev Gandhi Memorial H.S.S. Kannur, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Devdarsh Chand K"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Rajesh K"
+      ],
+      "pdf_pages_1based": [
+        204
+      ],
+      "printed_pages": [
+        165
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Sensor readings control irrigation and other actuators, with Blynk/ESP32-CAM monitoring.",
+      "evidence_limits": "The cited write-up asserts water savings, plant-health improvements and accurate sensor responses without numerical trials or calibration results. The sampled chart’s use of AI does not supply a model, dataset, code or measured performance.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p165",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-007"
+        ],
+        "compendium_pdf_pages_1based": [
+          204
+        ],
+        "compendium_printed_pages": [
+          165
+        ],
+        "written_method_as_reported": [
+          "The write-up lists ESP32/Arduino Uno, soil-moisture, LDR, DHT11, pH and NPK sensors, and relays/pump/fogger/lighting/alarm components.",
+          "It describes sensor processing for irrigation, lighting, fogging, nutrient supply and alarms, with Blynk and ESP32-CAM monitoring."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5- and 30-second samples show an AgroLink synopsis and CIRCUIT DIAGRAM. The synopsis uses the term AI; the inspected written material supplies no AI model, dataset, code or evaluation procedure."
+        ],
+        "interpretation_limits": [
+          "The cited write-up asserts water savings, improved plant health and accurate/reliable sensor response without numerical trial counts, calibration results, crop measurements or cost accounting.",
+          "The chart’s AI wording does not establish an implemented machine-learning component or its authorship.",
+          "The samples show display/model components and a phone/interface view; they do not independently verify all automation functions, field outcomes or safety."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p166",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "AREA OF TANGENTIAL POLYGON",
+      "school_as_published": "GHS Thachangad, Dist: Kasargod, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Amritha Ramachandran"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Smitha PK"
+      ],
+      "pdf_pages_1based": [
+        205,
+        206
+      ],
+      "printed_pages": [
+        166,
+        167
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "An incircle-based triangle decomposition illustrates the area relation r × semiperimeter.",
+      "evidence_limits": "The relation requires a tangential polygon; no measured classroom comparison is provided.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p166"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p168",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37",
+        "pathways-99"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "LOW-COST DRIVING SIMULATOR FOR SAFE DRIVING TRAINING",
+      "school_as_published": "Mar Coorilose Memorial HSS, Pattimatoom, Ernakuulam, Kerala",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Muhammed Arif K.F."
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Hyrunnisa MH"
+      ],
+      "pdf_pages_1based": [
+        207,
+        208
+      ],
+      "printed_pages": [
+        168,
+        169
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Arduino Leonardo steering/pedal inputs are mapped and calibrated to ETS2 simulation.",
+      "evidence_limits": "No training sample, scoring series or real-road safety benefit is established.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Custom software, AI traffic, VR and performance analysis are future improvements."
+      ],
+      "existing_case_correspondence": {
+        "case_id": "case-2026-driving",
+        "status": "code_supported_correspondence",
+        "note": "Printed photograph code matches award code; pupil name and school location correspond with spelling/expansion variants. Title differs and guides differ; retain both source versions. No inference about work division or common guide identity.",
+        "award_transferred": false,
+        "credits_merged": false,
+        "source_image_code_evidence": {
+          "exhibit_code_as_visible": "KL-I-09",
+          "pdf_page_1based": 207,
+          "locator": "PDF207 embedded photograph: upper-left wall sign; additional smaller label KLI-9"
+        }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p168",
+      "prior_state_result_candidate_2026_11_01": {
+        "source_id": "pathways-99",
+        "source_year": 2025,
+        "source_item": "Science Fair HS Robotics 445",
+        "current_view_record": {
+          "name": "MUHAMMED ARIF K F",
+          "position": 2,
+          "school": "Mar Coorilose Memorial H. S. S. Pattimattom",
+          "district": "Ernakulam",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "2"
+        },
+        "relationship_status": "qualified_public_name_school_correspondence_only",
+        "SISF_source_id": "pathways-37",
+        "SISF_year": 2026,
+        "SISF_credit_as_published": [
+          "Muhammed Arif K.F."
+        ],
+        "SISF_school_as_published": "Mar Coorilose Memorial HSS, Pattimatoom, Ernakuulam, Kerala",
+        "SISF_category_as_published": "individual",
+        "basis": "Corresponding public name and school/locality forms, retaining initials, spelling and institutional-name variants. The result object contains no exhibit title or guide.",
+        "limits": "Do not infer unique person or unchanged project/version, automatic selection or a verified2025-to-2026 qualifying route. Keep the 2025 Robotics result separate from2026 SISF title, category, credits and unknown prize field; hardware alone does not establish current Kerala registration.",
+        "SISF_prize_or_route_transferred": false
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p170",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "Li-Fi Based Wireless Data Communication System Using Visible Light",
+      "school_as_published": "Carmel HSS Chalakudy, Thrissur Dist. Kerala",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Francpaul B."
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Lizzy C.F"
+      ],
+      "pdf_pages_1based": [
+        209,
+        210
+      ],
+      "printed_pages": [
+        170,
+        171
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Arduino-modulated light carries audio/data to a photodiode receiver; blocking the light stops transmission.",
+      "evidence_limits": "Data rate, range, ambient-light tolerance and error-rate measurements are absent.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p170"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p172",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "SAMARTH KERALA",
+      "school_as_published": "L.F.C.H.S Koratti, District Thrissur, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Evin Jacob Subin"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Joe J Arimboor"
+      ],
+      "pdf_pages_1based": [
+        211,
+        212
+      ],
+      "printed_pages": [
+        172,
+        173
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Phone software, AI APIs, ultrasonic sensing and embedded motor control support assistive navigation.",
+      "evidence_limits": "No model/dataset, accuracy protocol or patient-use safety validation is supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Offline edge AI and fully autonomous wheelchair navigation are future improvements."
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p172"
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p174",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "pdf_pages_1based": [
+        213,
+        214
+      ],
+      "printed_pages": [
+        174,
+        175
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Composting, fermentation, biorefining and moulding yield proposed banana-pseudostem products.",
+      "evidence_limits": "Trial narratives omit numerical results; food/feed safety, yields and commercial viability are unverified.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p174",
+      "related_publication_candidates": [
+        {
+          "source_id": "school-project-001",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        },
+        {
+          "source_id": "school-project-002",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        },
+        {
+          "source_id": "school-project-003",
+          "status": "candidate_component_correspondence",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p176",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "AN INTELLIGENT AUTOMATED IOT-BASED MEDICATION MANAGEMENT AND DISPENSING SYSTEM",
+      "school_as_published": "Koodali Higher Secondary School, Kannur, Kerala - 670592",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Anuvund K Raj"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Neetha"
+      ],
+      "pdf_pages_1based": [
+        215,
+        216
+      ],
+      "printed_pages": [
+        176,
+        177
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "ESP32/C++ uses Firebase JSON schedules, NTP time and motors to dispense medicines.",
+      "evidence_limits": "The cited write-up supplies no quantified dose/reliability trial series or ingestion verification. Its every-hour fetch/next-cycle update description is not reconciled with its immediate-update claim; pickup sensing, alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Pickup detection, camera authentication and vital-sign sensing are future improvements."
+      ],
+      "existing_case_correspondence": {
+        "case_id": "case-2026-medibot",
+        "status": "code_supported_correspondence",
+        "note": "Printed photograph code matches award code, and photograph poster says MEDBOT. School corresponds; pupil spelling Anuvind/Anuvund and guide Neetha K/Neetha differ. Long compendium title should not replace award title or credits.",
+        "award_transferred": false,
+        "credits_merged": false,
+        "source_image_code_evidence": {
+          "exhibit_code_as_visible": "KL-I-05",
+          "pdf_page_1based": 215,
+          "locator": "PDF215 embedded photograph: wall sign above MEDBOT poster"
+        }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p176",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-013"
+        ],
+        "compendium_pdf_pages_1based": [
+          215,
+          216
+        ],
+        "compendium_printed_pages": [
+          176,
+          177
+        ],
+        "written_method_as_reported": [
+          "The write-up describes four stepper motors/drivers connected to ESP32, and a Firebase web portal storing medicine names, dates and times.",
+          "It says ESP32 C++ synchronises time through NTP and fetches schedule JSON by REST every hour. It reports website changes taking effect on the next fetch, while separately claiming immediate adaptation."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5-, 20- and 35-second samples show a MEDIBOT capability poster and circuit diagram. Readable headings include Smart alert and Automated logging; finer wording is partly small/occluded."
+        ],
+        "interpretation_limits": [
+          "The cited page’s Wi-Fi boot timing and consistent single-pill/no-jam assertions are source-reported observations, not independently established reliability/dose trials.",
+          "The hourly/next-fetch description and immediate-update claim remain unreconciled.",
+          "Pickup sensing, an alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements in the write-up. The poster’s Smart alert heading does not resolve feature timing/version or prove implementation.",
+          "The cited text and samples do not establish correct prescription/dose, ingestion, patient benefit, clinical safety or student work division."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-individual-p178",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37",
+        "pathways-99"
+      ],
+      "category_as_published": "individual",
+      "category_heading_pdf_page_1based": 193,
+      "title_as_published": "SMART WHEELCHAIR FOR HANDICAPPED PEOPLE",
+      "school_as_published": "G.V.H.S.S. Kondotty, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Shazad Shaji V"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Muhammad Riyaz K.T."
+      ],
+      "pdf_pages_1based": [
+        217,
+        218
+      ],
+      "printed_pages": [
+        178,
+        179
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "ESP32 motor control accepts joystick, head-motion and voice inputs, plus claimed brain-signal control.",
+      "evidence_limits": "EEG module naming is ambiguous; no signal data, classifier details or safe wheelchair trials are supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Obstacle sensing, improved AI accuracy and emergency alerts are future improvements."
+      ],
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p178",
+      "prior_state_result_candidate_2026_11_01": {
+        "source_id": "pathways-99",
+        "source_year": 2025,
+        "source_item": "Science Fair HS Robotics 445",
+        "current_view_record": {
+          "name": "SHAZAD SHAJI V",
+          "position": 1,
+          "school": "G.V.H.S.S. Kondotty",
+          "district": "Malappuram",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "1"
+        },
+        "relationship_status": "qualified_public_name_school_correspondence_only",
+        "SISF_source_id": "pathways-37",
+        "SISF_year": 2026,
+        "SISF_credit_as_published": [
+          "Shazad Shaji V"
+        ],
+        "SISF_school_as_published": "G.V.H.S.S. Kondotty, Kerala.",
+        "SISF_category_as_published": "individual",
+        "basis": "Corresponding public name and school/locality forms, retaining initials, spelling and institutional-name variants. The result object contains no exhibit title or guide.",
+        "limits": "Do not infer unique person or unchanged project/version, automatic selection or a verified2025-to-2026 qualifying route. Keep the 2025 Robotics result separate from2026 SISF title, category, credits and unknown prize field; hardware alone does not establish current Kerala registration.",
+        "SISF_prize_or_route_transferred": false
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-group-p180",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "Exploring the Agricultural Potential of Invasive Plant Species",
+      "school_as_published": "G.H.S.S. Kakkavayal, Wayanad, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Vygha SN",
+        "Vyshakhi P"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Soli VP"
+      ],
+      "pdf_pages_1based": [
+        221,
+        222
+      ],
+      "printed_pages": [
+        180,
+        181
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Plant-derived growth promoters are compared on soil/crops; water comparisons use BOD/DO tests.",
+      "evidence_limits": "No replicate counts or numerical nutrient, yield or water-test results are presented.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p180",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          221,
+          222
+        ],
+        "printed_pages": [
+          180,
+          181
+        ],
+        "reported_method_details": [
+          {
+            "claim": "Objectives include surveying 50 households, field visits and interviews.",
+            "status": "objective_as_published_not_verified_completed_sample",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "Reported work concerns two Wayanad panchayats, named Muttill and Meenangadi, and three invasive plants.",
+            "status": "reported_setting_not_independently_verified",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "The printed materials name Pistia stratiotes, Senna spectabilis and Sphagneticola trilobata; preparation of a growth promoter is reported as taking 30 days.",
+            "status": "reported_species_and_duration_not_complete_reproducible_protocol",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "The account compares treated versus untreated soil/plants and water with versus without Pistia using named BOD/DO tests.",
+            "status": "reported_comparison_design_without_supplied_quantitative_results",
+            "pdf_page_1based": 221
+          }
+        ],
+        "external_survey_attribution": {
+          "institution_as_printed": "The Forest Research Institute of Peechi, Kerala",
+          "invasive_species_as_reported": 89,
+          "serious_threat_subset_as_reported": 19,
+          "bibliographic_title_author_date_or_URL_supplied": false,
+          "scope": "Attributed background statement in this exhibit account; the underlying survey has not been recovered or independently verified."
+        },
+        "qualitative_results_as_reported": [
+          "Treated soil and plants are described as having more nutrients/high yielding capacity, without numerical tables.",
+          "The Sphagneticola trilobata preparation is described as showing an excellent result, without a quantified comparison."
+        ],
+        "pistia_water_result_direction": {
+          "pdf_page_1based": 222,
+          "claim": "The account says water where Pistia grows shows more pollution than water without Pistia.",
+          "direction_as_printed": "more pollution",
+          "scope": "Keep this reported comparison direction; do not reverse it into successful water purification or infer that Pistia caused the difference. No numerical BOD/DO results or controlled site/treatment details are supplied."
+        },
+        "unresolved_method_and_number_claims": [
+          "The 50-household objective is not a supplied completed survey dataset or response count.",
+          "No replicate/sample counts, concentrations/application rates, baseline nutrient or yield tables, BOD/DO values, uncertainty or independent environmental-safety results are supplied.",
+          "Reported low cost and plant-growth benefits are not established by measured cost/yield tables."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "undated_institutional_survey_mention",
+            "label": "Forest Research Institute of Peechi survey",
+            "explicit_link": null,
+            "followed": false
+          },
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "X3L2C8",
+            "url": "https://diksha.gov.in/dial/X3L2C8",
+            "new_original_report_or_code": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-group-p182",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "SUSTAINABLE AND ECO FRIENDLY DIAPER PRODUCTION FROM NATURAL FIBRES OF BANANA AND BAMBOO",
+      "school_as_published": "HSS Panangad, Kodungallur, Thrissur, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Avanthika CR",
+        "Visishta Valsan"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Reshmi KA"
+      ],
+      "pdf_pages_1based": [
+        223
+      ],
+      "printed_pages": [
+        182
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Extracted fibres form diaper layers, followed by moisture-regain and absorbency comparisons.",
+      "evidence_limits": "No numerical absorption data, dermatological tests or biodegradation validation is supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "A replacement for the polythene leak-proof layer remains an improvement."
+      ],
+      "existing_case_correspondence": {
+        "case_id": "case-2026-diaper",
+        "status": "candidate_participant_school_and_topic_correspondence",
+        "note": "Strong candidate from both pupil names, school, category and subject, with expanded title and guide spelling Resmi/Reshmi variant. Code remains award-source-only until independently located in compendium. Do not infer authorship contribution or common guide identity.",
+        "award_transferred": false,
+        "credits_merged": false
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-group-p182",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          223
+        ],
+        "printed_pages": [
+          182
+        ],
+        "reported_method_details": [
+          {
+            "claim": "Materials list banana/bamboo fibre, chitosan, kitchen towel and a nonwoven bamboo sheet; the procedure names chemical fibre extraction and assembling diaper layers.",
+            "status": "materials_and_brief_procedure_as_reported_not_complete_protocol",
+            "pdf_page_1based": 223
+          },
+          {
+            "claim": "Moisture-regain and absorbancy tests are named.",
+            "status": "tests_named_without_numerical_data_or_protocol",
+            "pdf_page_1based": 223
+          },
+          {
+            "claim": "Banana fibre is reported to show more absorbancy than bamboo fibre.",
+            "status": "qualitative_direction_only_not_measured_effect_size",
+            "pdf_page_1based": 223
+          }
+        ],
+        "current_material_versus_improvement": {
+          "improvement_as_reported": "Find an eco-friendly leak-proof layer instead of a polythene sheet; the same line includes the parenthetical chitosan bioplastic.",
+          "scope": "The replacement is explicitly an improvement, not proof that polythene has already been removed. Chitosan appears in materials, but the parenthetical does not resolve which leak-proof layer was implemented or validate complete biodegradability."
+        },
+        "unvalidated_claims_as_reported": [
+          "non-toxic",
+          "hypo allergic",
+          "best absorbent capacity",
+          "eco friendly",
+          "compostable",
+          "reusable",
+          "reduced carbon footprint",
+          "sustainable",
+          "biodegradable",
+          "gentle to baby skin"
+        ],
+        "unresolved_method_and_number_claims": [
+          "No numerical absorption/moisture-regain values, sample counts, protocols, comparative product specification or uncertainty are supplied.",
+          "No dermatological/toxicity/reuse-hygiene/composting/biodegradation/life-cycle tests are supplied.",
+          "A listed objective or conclusion does not validate baby-skin safety or complete-product environmental performance."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "D8B6U6",
+            "url": "https://diksha.gov.in/dial/D8B6U6",
+            "new_original_report_or_code": false
+          }
+        ],
+        "literal_term_scope": "Absorbancy and hypo allergic are printed terms. They are not silently converted to quantified or clinically validated claims; no exact chemical-treatment recipe is reconstructed."
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-group-p183",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "WATER ON EARTH",
+      "school_as_published": "WOHSS Pinangode Wayanad, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Dev Darsh",
+        "Aron S Nair"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Vibinlal"
+      ],
+      "pdf_pages_1based": [
+        224
+      ],
+      "printed_pages": [
+        183
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Rainfall, aquifer information and soil/runoff experiments support a local water-budget comparison.",
+      "evidence_limits": "Full sampling dates, consumption totals and surplus/deficit calculations are not printed.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p183"
+    },
+    {
+      "id": "sisf-2026-kerala-group-p184",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "NEWTON’S LAW OF MOTION",
+      "school_as_published": "Mumbaram SSS Kannur, Kerala 680665",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Kartik K",
+        "Anunandha K"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Vinod Kumar K."
+      ],
+      "pdf_pages_1based": [
+        225
+      ],
+      "printed_pages": [
+        184
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Experiments illustrate momentum, changing mass at constant force, and gravitational free fall.",
+      "evidence_limits": "Apparatus details, measurements and uncertainty are not supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p184"
+    },
+    {
+      "id": "sisf-2026-kerala-group-p185",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "IONISATION BASED FOG HARVESTING SYSTEM",
+      "school_as_published": "Chentrappinni high school, thrissur, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Saneen Jasim",
+        "Karthik P Panicker"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Jiji KR"
+      ],
+      "pdf_pages_1based": [
+        226,
+        227
+      ],
+      "printed_pages": [
+        185,
+        186
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "An ionisation model attracts fog droplets to a Peltier-cooled collector mesh.",
+      "evidence_limits": "Testing is claimed without yield/energy tables or potable-water analysis.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "future_improvements_as_reported": [
+        "Filtration for potable quality and improved weather resistance are future improvements."
+      ],
+      "existing_case_correspondence": {
+        "case_id": "case-2026-fog",
+        "status": "code_supported_correspondence",
+        "note": "Printed photograph code and both pupil names match award record; school address/title vary. Award teacher Abdul Shukkoor and compendium guide Jiji KR differ materially; do not resolve them into one credited person.",
+        "award_transferred": false,
+        "credits_merged": false,
+        "source_image_code_evidence": {
+          "exhibit_code_as_visible": "KL-G-03",
+          "pdf_page_1based": 226,
+          "locator": "PDF226 embedded photograph: red wall sign at top edge"
+        }
+      },
+      "public_media_record_id": "media-sisf-2026-kerala-group-p185"
+    },
+    {
+      "id": "sisf-2026-kerala-group-p187",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "FROM POLLUTIONS TO INNOVATIONS",
+      "school_as_published": "C.G.H.S.S., Vadakken Cherry, Palakkad, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Varadha Vinod",
+        "Saanvi S"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Jomol PJ"
+      ],
+      "pdf_pages_1based": [
+        228,
+        229
+      ],
+      "printed_pages": [
+        187,
+        188
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "A city concept integrates bioenergy, algae, bioremediation and resource cycling.",
+      "evidence_limits": "No operating plant, energy balance, emissions inventory or measured net-zero result is established.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p187",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          228,
+          229
+        ],
+        "printed_pages": [
+          187,
+          188
+        ],
+        "reported_method_details": [
+          {
+            "claim": "The problem/objectives propose a sustainable-city model aimed at net-zero emissions, environmental quality, renewable energy, biodiversity and waste reduction.",
+            "status": "objectives_not_measured_outcomes",
+            "pdf_page_1based": 228
+          },
+          {
+            "claim": "The materials list renewable-energy systems, algae cultivation, carbon capture/storage, anaerobic digesters, bioremediation, water treatment/recycling and composting facilities.",
+            "status": "listed_components_not_independent_proof_of_operating_installations",
+            "pdf_page_1based": 228
+          },
+          {
+            "claim": "Research/background headings cover sustainable cities, bioenergy/algae, bioremediation and carbon sequestration.",
+            "status": "research_themes_not_identified_publications_or_experiment_results",
+            "pdf_page_1based": 229
+          }
+        ],
+        "named_concepts_not_bibliographic_citations": [
+          "Circular Economy",
+          "Sustainable Development",
+          "Cradle to Cradle"
+        ],
+        "bibliographic_scope": "No author, dated publication, named paper/report, DOI or original report/code/dataset URL is supplied. Cradle to Cradle is presented as a design principle, not an identifiable edition of a book.",
+        "future_improvements_as_reported": [
+          "Increase energy efficiency",
+          "Enhance algae production",
+          "Implement advanced bioremediation"
+        ],
+        "unresolved_method_and_number_claims": [
+          "No operating plant, independently observed full system, quantitative energy balance, emissions inventory, baseline/control, numerical carbon sequestration or net-zero result is supplied.",
+          "Reported climate/public-health/economic benefits remain proposed or asserted uses; a model display does not establish city-scale performance."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "D9N7S8",
+            "url": "https://diksha.gov.in/dial/D9N7S8",
+            "new_original_report_or_code": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "sisf-2026-kerala-group-p189",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "group",
+      "category_heading_pdf_page_1based": 219,
+      "title_as_published": "MAGNETISM",
+      "school_as_published": "Govt. HSS, Meenangadi, Wayanad, Kerala - 673591",
+      "school_location_state": "Kerala",
+      "students_credited": [
+        "Airin Biju",
+        "Amin Sha K"
+      ],
+      "teacher_exhibitors_credited": [],
+      "guides_credited": [
+        "Sunil TK"
+      ],
+      "pdf_pages_1based": [
+        230,
+        231,
+        232
+      ],
+      "printed_pages": [
+        189,
+        190,
+        191
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Coils, magnets and model tracks illustrate motor action, levitation and solenoid-field factors.",
+      "evidence_limits": "No field-strength, stability or transport-performance measurements are supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-group-p189"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p192",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "EARTH MOVEMENT",
+      "school_as_published": "N A M H S S Peringathur, Thalassery, Kannur, Kerala - 670675",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Asharaf PP"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        235
+      ],
+      "printed_pages": [
+        192
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Motorised classroom models illustrate tectonic and surface processes.",
+      "evidence_limits": "Learning benefit and the source’s worldwide-priority claim are unverified.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p192"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p193",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "The Impact of Three-Dimensional Manipulatives on Spatial Reasoning: Solving the Square Pyramid Challenge.",
+      "school_as_published": "St. Thomas HS Anickadu, Kottayam, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Thomas Sebastian"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        236
+      ],
+      "printed_pages": [
+        193
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Triangle cut-outs are compared with blackboard teaching on a square-pyramid task.",
+      "evidence_limits": "Reported outcomes are 18/20 versus 6/20; allocation, baseline equivalence and assessment details are absent.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p193"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p194",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "SOUND WAVES AND FREQUENCY",
+      "school_as_published": "G.H.S.S., Mupliyam, Thrissur, Kerala - 680312",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Sanish ER"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        237
+      ],
+      "printed_pages": [
+        194
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "A phone, amplifier and speaker support frequency/resonance experiments.",
+      "evidence_limits": "No frequency/wavelength series, measurement protocol or uncertainty is printed.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p194"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p195",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "THE RAINBOW UNFOLD",
+      "school_as_published": "CHS Calvary Mount, Calvary Mount, P.O, Idukki, Kerala - 685515",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Anand Tom"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        238,
+        239
+      ],
+      "printed_pages": [
+        195,
+        196
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Optical teaching aids supplement one of two 25-student groups, with pre/post tests.",
+      "evidence_limits": "Higher average marks are claimed without scores, variance or group-allocation details.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p195"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p197",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "HYDRO-SEASONAL INFLUENCE ON MICROPLASTICS DYNAMICS: A COMPARATIVE EVALUATION OF SURFACE WATERS IN THE ALAPPUZHA - CHANGANACHERRY CANAL (AC CANAL)",
+      "school_as_published": "ST. Anne’s GHSS Changanacherry, Kottayam, Kerala - 686101",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Jubymol, George,"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        240,
+        241
+      ],
+      "printed_pages": [
+        197,
+        198
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Seasonal canal samples undergo filtration, microscopy and Raman polymer identification.",
+      "evidence_limits": "Raw counts/spectra are absent; reported morphology percentages have unclear denominators and cannot be treated as exclusive shares.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "source_notes": "The single published teacher-credit string contains commas; it is preserved without inventing additional contributors.",
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p197",
+      "related_publication_candidates": [
+        {
+          "source_id": "school-project-004",
+          "status": "strong_candidate_related_publication",
+          "explicit_exhibition_link": false,
+          "credits_merged": false,
+          "identity_equivalence_verified": false,
+          "performance_independently_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p199",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "WONDERS OF WORLD-EYE AND VISION",
+      "school_as_published": "AKM HS Kudavoor, Njarayilkonam P O, Thiruvananthapuram, Kerala - 695602",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Ajith V R"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        242,
+        243
+      ],
+      "printed_pages": [
+        199,
+        200
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Lens-based teaching aids are compared across pretested class divisions.",
+      "evidence_limits": "No group counts, marks, allocation method or independent learning assessment is supplied.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p199"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p201",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "LEARNING AID BASED ON THE UNIT ‘ATMOSPHERIC CONDITIONS AND CLIMATE’",
+      "school_as_published": "S.N.V.H.S.S. Pamayara, Muttappalam, Varkala, Thiruvananthapuram, Kerala - 695145",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Unni G Kannan"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        244
+      ],
+      "printed_pages": [
+        201
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Blower, surface and rotating models illustrate wind, friction and deflection.",
+      "evidence_limits": "No numerical observations or comparative learning assessment is presented.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p201"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p202",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "Tabacco and Neem : A Promising Approach to Manage Giant African land Snail",
+      "school_as_published": "G.H.S.S. Peringolam, Kunnamangalam, Kozhokode, Kerala - 676519",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Asifa KP"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        245
+      ],
+      "printed_pages": [
+        202
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "A field survey relates snail occurrence to moisture and discusses plant-extract deterrence.",
+      "evidence_limits": "Survey sample size and controlled treatment data are absent; efficacy and environmental safety remain unverified.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p202"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p203",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "E. COLI AND PROTOZOA – INDICATOR A BRAIN EATING AMOEBA",
+      "school_as_published": "D.H.S.S., Nellipuzha, Mannarkkad, Palakkad, Kerala - 578582",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Raseena"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        246
+      ],
+      "printed_pages": [
+        203
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "Water-indicator testing is combined with an awareness survey.",
+      "evidence_limits": "Coliform observations do not establish pathogenic amoeba identification or a validated outbreak predictor.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p203"
+    },
+    {
+      "id": "sisf-2026-kerala-teacher-p204",
+      "year": 2026,
+      "source_ids": [
+        "pathways-37"
+      ],
+      "category_as_published": "teacher",
+      "category_heading_pdf_page_1based": 233,
+      "title_as_published": "TRIGONOMETRY IN PRACTICAL SITUATIONS",
+      "school_as_published": "Memunda HSS, Vatakara, Kozhikode, Kerala.",
+      "school_location_state": "Kerala",
+      "students_credited": [],
+      "teacher_exhibitors_credited": [
+        "Santhosh K"
+      ],
+      "guides_credited": [],
+      "pdf_pages_1based": [
+        247
+      ],
+      "printed_pages": [
+        204
+      ],
+      "exhibit_code": null,
+      "qualifying_route": null,
+      "prize_status": null,
+      "evidence_kind": "official_fair_compendium_writeup",
+      "method_summary": "An angle-measuring instrument divides a plot into triangles for area calculations.",
+      "evidence_limits": "Instrument calibration, surveyed comparisons and error propagation are absent; printed algebra needs checking.",
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "public_media_record_id": "media-sisf-2026-kerala-teacher-p204"
+    }
+  ]
+}

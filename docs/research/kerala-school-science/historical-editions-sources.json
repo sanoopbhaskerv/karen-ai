@@ -1,0 +1,560 @@
+[
+  {
+    "id": "historical-editions-001",
+    "title": "State Sasthrolsavam 2012–13: original Kozhikode programme",
+    "url": "https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+    "archive_capture": "20121202015206",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2012-13",
+    "document_date": null,
+    "pdf_pages": 8,
+    "download_bytes": 3901124,
+    "download_sha256": "354fb3ba1549bc51625f017b7b31647a0d89a820408cfdf18722d2a7eefeff1c",
+    "notes": "Eight-page official festival-site PDF; all pages rendered and visually checked. Cover PDF 1 and invitation PDF 2/printed 1 establish 26–30 November 2012, Kozhikode. The invitation is dated 30 October 2012. PDF 3/printed 2 schedules flag raising 26 November at 9: 30am, registration at 10: 30am and inauguration at 4: 30pm at GVHSS Meenchanda; PDF 7/printed 6 schedules closing 30 November at 11am there. PDF 4/printed 3 locates Science at GVHSS Meenchanda and Science Drama on 28 November at Town Hall, Kozhikode. PDF 5/printed 4 explicitly names Maths venue GVHSS Cheruvannur and Social Science venue NSS HSS Meenchanda. PDF 6/printed 5 names Work Experience venue Sri Ramakrishna Mission HSS Meenchanda and Vocational Expo/Career Fest venue NSS HSS Meenchanda. Invitation identifies 46th Science, 32nd Work Experience, 27th Maths, 16th Special School Work Experience,eighth Vocational Expo and seventh Social Science. There is no separate IT schedule in this brochure; omission is not evidence of no IT fair. Programme establishes plans, not completion or results. An identical PDF was present in an earlier scratch cache but had not entered the 69-record history register.",
+    "invitation_date_as_printed": "2012-10-30",
+    "event_date_start": "2012-11-26",
+    "event_date_end": "2012-11-30",
+    "review_scope": "All eight PDF pages visually reviewed; no participant-level transcription.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20121202015206",
+      "cached_body_sha1_base32": "RMAU6ODQXM6YO7OFC3DCMYGEHKM2SPYI",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20121202015206id_/http://www.schoolsasthrolsavam.in:80/doc/ProgrammeSchedule2012-13.pdf",
+        "memento_datetime": "Sun, 02 Dec 2012 01:52:06 GMT",
+        "memento_timestamp": "20121202015206",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-002",
+    "title": "State Sasthrolsavam 2013–14: original Kannur brochure",
+    "url": "https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+    "original_url": "http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+    "archive_capture": "20131203221417",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2013-14",
+    "document_date": null,
+    "pdf_pages": 4,
+    "download_bytes": 2544850,
+    "download_sha256": "250e49c8de68939f8c5c15b8876c641dda3f42b470df7805d4ff8835269f0d04",
+    "notes": "Four image-only pages, all rendered and visually checked. PDF 1 says 25–29 November 2013, Kannur. PDF 2 specifies 25 November flag raising at 9: 30am, registration at 10: 30am and inauguration at 4pm at GVHSS Kannur; closing 29 November at 11am. Science venue Chovva HSS, with UP/HS arrangement/evaluation 26 November at 9: 30am and HSS/VHSS arrangement/evaluation 27 November at 9: 30am. Science Drama is separately scheduled 27 November at GVHSS Kannur. PDF 3 names Maths venue St Theresa’s AIGHSS Kannur, Social Science venue CHM HSS Elayavoor, Work Experience venue St Michael’s AIBHSS Kannur, IT venue Chovva HSS and Vocational Expo venue Collectorate Ground; Career Seminar at GVHSS Kannur. PDF 4 venue map corroborates locations but has spelling variants. Invitation PDF 2 identifies 47th Science, 33rd Work Experience, 28th Maths, 17th Special School Work Experience, 12th IT,ninth Vocational Expo and eighth Social Science. Named DPI general coordinator, ADPI Academic general convener and DDE joint general convener establish historical organiser roles, not current appointments. No formal issue date, signature authentication or final results book established.",
+    "event_date_start": "2013-11-25",
+    "event_date_end": "2013-11-29",
+    "review_scope": "All four PDF pages visually reviewed.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20131203221417",
+      "cached_body_sha1_base32": "MPLWQFERI667LGKERVPGB6UXSKA2GUL4",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20131203221417id_/http://schoolsasthrolsavam.in:80/site/doc/schedules/brochure.pdf",
+        "memento_datetime": "Tue, 03 Dec 2013 22:14:17 GMT",
+        "memento_timestamp": "20131203221417",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-003",
+    "title": "State Sasthrolsavam 2014–15: archived official copy of Tirur brochure",
+    "url": "https://web.archive.org/web/20161108091054id_/http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+    "original_url": "http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+    "archive_capture": "20161108091054",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2014-15",
+    "document_date": null,
+    "pdf_pages": 4,
+    "download_bytes": 504764,
+    "download_sha256": "d9d86258ee121325a6962f40f6c73bff995cdc173b5b00cf7b7505a66738dd8e",
+    "notes": "Four-page official-site archive copy; all pages rendered and visually checked. Byte-identical to the earlier Drive reproduction registered as history-2014-programme: SHA 256 d 9d 86258ee 121325a 6962f 40f 6c 73bff 995cdc 173b 5b 00cf 7b 7505a 66738dd 8e, 504764bytes. This improves provenance for the same document, not a second edition. Cover 26–30 November 2014, Tirur. PDF 2 registration 26 November at 10: 30am, Government Boys HSS Tirur; inauguration 27 November at 10am; closing 30 November at 10: 30am. Science venue Government Boys HSS Tirur and Maths venue Devadar Government HSS Tanur. PDF 3 Social Science venue Government HSS Niramaruthur, Work Experience venue KHM HSS Alathiyoor and IT venue SSM Polytechnic Tirur. Science Drama 28 November at Thunchan Parambu. Archive capture 8 November 2016 is preservation date, not event or issue date. No final result established.",
+    "event_date_start": "2014-11-26",
+    "event_date_end": "2014-11-30",
+    "same_document_source_id": "history-2014-programme",
+    "review_scope": "All four PDF pages visually reviewed; raw bytes compared with earlier mirrored copy.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20161108091054",
+      "cached_body_sha1_base32": "MYTWNMWCA56CTMOXI2TP6TTC3SR2IJYT",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20161108091054id_/http://schoolsasthrolsavam.in:80/site14/doc/schedules/brochure.pdf",
+        "memento_datetime": "Tue, 08 Nov 2016 09:10:54 GMT",
+        "memento_timestamp": "20161108091054",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-004",
+    "title": "State Sasthrolsavam 2017–18: original Kozhikode programme schedule",
+    "url": "https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+    "archive_capture": "20171209053339",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2017-18",
+    "document_date": null,
+    "pdf_pages": 2,
+    "download_bytes": 54582,
+    "download_sha256": "9610281a52382a1ee5c0472a908c64a460e70a977376764728ce2c1ae2359143",
+    "notes": "Two-page programme; both rendered and visually checked. Header 23–26 November 2017, Kozhikode. PDF 1 all-fair registration 23 November from 10am at Government Girls HSS Nadakkavu. Science uses St Joseph’s Anglo Indian Girls School, Government Girls HSS Nadakkavu and St Angela’s Anglo Indian UP School. UP/HS model, project and improvised experiment competitions 24 November at 10am at St Joseph’s/St Angela’s; HSS 25 November at 10am at St Joseph’s. Maths venue St Joseph’s Boys HSS; Social Science venue BEM Girls HSS. PDF 2 Work Experience venue Malabar Christian College/HSS, IT venue Government Girls HSS Nadakkavu, Vocational Expo venue Government Model HSS and RMSA Science Exhibition venue Government Girls HSS Nadakkavu. Named programme committee chair/convener do not constitute a separately dated appointment order. Source prints 9: 45 PM for 25 November IT Malayalam Typing amid morning events; preserve anomaly rather than silently substituting AM. Final note permits time/venue changes due to circumstances. No final results proved by programme.",
+    "event_date_start": "2017-11-23",
+    "event_date_end": "2017-11-26",
+    "review_scope": "Both PDF pages visually reviewed.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171209053339",
+      "cached_body_sha1_base32": "MBH2VYT5OZFECNGVDP6QOQMLGWHQT6HW",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171209053339id_/http://www.schoolsasthrolsavam.in:80/site17/doc/schedules/programeschedul.pdf",
+        "memento_datetime": "Sat, 09 Dec 2017 05:33:39 GMT",
+        "memento_timestamp": "20171209053339",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-005",
+    "title": "Special School Work Experience Fair 2013–14: 85-page published item-results book",
+    "url": "https://web.archive.org/web/20140215002049id_/http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+    "original_url": "http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+    "archive_capture": "20140215002049",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "academic_year_as_printed": "2013-14",
+    "document_date": null,
+    "pdf_pages": 85,
+    "download_bytes": 258878,
+    "download_sha256": "11ed8f6f60489aeb8b0ba1c800bb6e3bf622845d2af1b300a17b28b12106fef4",
+    "notes": "Official-site PDF at a generic Result_Grade filename. Actual headers state Kerala Special School Work Experience Fair 2013–14, St Michael’s AIHSS, Kannur, 26 November 2013. All 85 pages text-extracted; first item codes checked: 78 distinct codes 201–278 without gaps, plus seven continuation pages. PDF/printed pages 1, 19, 41, 60, 85 visually checked. Rank/grade tables concern Special School Work Experience items, not Science Fair, a consolidated all-stream championship or attendance totals. Received file ends with item 278 Wood Carving HS on printed 85. No certification/signature page recovered; no assertion that every original event is represented. Derived guide records institutional/event scope, without named pupil records or classifications.",
+    "event_date_as_printed": "2013-11-26",
+    "distinct_item_codes_observed": 78,
+    "item_code_min_as_printed": 201,
+    "item_code_max_as_printed": 278,
+    "review_scope": "All 85-page item-code/heading structure extracted; selected pages 1,19,41,60,85 visually reviewed. No individual placement audit.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20140215002049",
+      "cached_body_sha1_base32": "AIXV3CVSZNGBFCEBKOF3HDJPY7NA7FU7",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20140215002049id_/http://schoolsasthrolsavam.in/site/doc/Result_Grade.pdf",
+        "memento_datetime": "Sat, 15 Feb 2014 00:20:49 GMT",
+        "memento_timestamp": "20140215002049",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-006",
+    "title": "Science 2017: archived published district-champion table",
+    "url": "https://web.archive.org/web/20171127011100id_/http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+    "archive_capture": "20171127011100",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 23282,
+    "download_sha256": "25878f50bfef54cf7a835308e74b10bcd9e181942fbbb1dc7be38f2b2386dfba",
+    "notes": "Capture 27 November 2017. Populated Science Fair District Overall Champion table names Ernakulam UP 44,HS 68,HSS 54,total 166; runners-up Kannur 52/58/55=165 and Palakkad 52/58/54=164. All 14 district rows appear across champion/runners-up tables. PHP undefined item_code notices do not erase populated cells, but remain source defects. Page title still says 2016–17 despite site 17 navigation, 2017 capture context and the original 2017 programme; do not conceal mismatch. Separate completion-status capture 29 November lists all Science items complete. Captures are not one atomic database export. No signed statement or whole-festival winner established.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171127011100",
+      "cached_body_sha1_base32": "22O37O6U2HRUQELT5FQ7JWEYTMVPOMG3",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171127011100id_/http://schoolsasthrolsavam.in:80/site17/index.php/welcome/dist_overallchampions/1",
+        "memento_datetime": "Mon, 27 Nov 2017 01:11:00 GMT",
+        "memento_timestamp": "20171127011100",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-007",
+    "title": "IT 2017: archived published district-champion table",
+    "url": "https://web.archive.org/web/20171127011750id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+    "archive_capture": "20171127011750",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 22182,
+    "download_sha256": "b166e82bcef8d074057c84c172001c0dfba0bce32292fe2cbe37e12a03b03f5a",
+    "notes": "Capture 27 November 2017. IT District Overall Champion table names Kannur HS 61,HSS 52,total 113; runners-up Malappuram 59/51=110 and Kozhikode 56/52=108. Fourteen district rows. PHP undefined item_code notices and stale 2016–17 page title remain; site 17 navigation and programme provide edition context. Completion status captured 28 November lists 11 of 11 IT items complete. Not a Science Fair or whole-festival championship; no signed statement recovered.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171127011750",
+      "cached_body_sha1_base32": "GIBFH5Y6YXS343IVDYWHJGSUZOATRGS5",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171127011750id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/dist_overallchampions",
+        "memento_datetime": "Mon, 27 Nov 2017 01:17:50 GMT",
+        "memento_timestamp": "20171127011750",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-008",
+    "title": "Science 2018: archived populated district-champion table",
+    "url": "https://web.archive.org/web/20181127181941id_/http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+    "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+    "archive_capture": "20181127181941",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 23346,
+    "download_sha256": "2e02ffaecec7c5c88d36828c236d3ce0db04e77f384847c6882907e8d918b891",
+    "notes": "Capture 27 November 2018, distinct from the earlier backend endpoint that returned Result Not Prepared. The populated public site 18 Science Fair District Overall Champion table names Malappuram HS 68,HSS 56,total 124; runners-up Thrissur 58/60=118 and Kannur 61/56=117. Fourteen district rows. UP header remains but all UP cells are blank; do not invent zeros or an UP-inclusive total. PHP undefined item_code notices remain. Separate status capture 28 November lists UP 2/2,HS 10/10,HSS 7/7 complete; it does not explain blank UP cells, changes between captures or appeal status. Published stream-champion evidence, not a signed consolidated book or whole-festival result.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181127181941",
+      "cached_body_sha1_base32": "GVZOJHTWHKD2GRF7ZJPVDANSLWD4IO7Q",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181127181941id_/http://schoolsasthrolsavam.in:80/site18/index.php/welcome/dist_overallchampions/1",
+        "memento_datetime": "Tue, 27 Nov 2018 18:19:41 GMT",
+        "memento_timestamp": "20181127181941",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-009",
+    "title": "IT 2018: archived published district-champion table",
+    "url": "https://web.archive.org/web/20181127181916id_/http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+    "original_url": "http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+    "archive_capture": "20181127181916",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 22274,
+    "download_sha256": "f3b0d60da44037f6750aa3a30358ca8e0bafc17e231317b062ae7202542c95cf",
+    "notes": "Capture 27 November 2018. IT District Overall Champion table names Malappuram HS 72,HSS 64,total 136; runners-up Kozhikode 66/51=117 and Wayanad 55/47=102. Fourteen district rows; PHP undefined item_code notices remain. Separate status capture 28 November lists HS 6/6 and HSS 5/5 complete. This is an IT stream result, not Science Fair, a whole-festival championship, signed final book or verification of every individual result.",
+    "review_scope": "Raw archivedHTML and complete champion/runnersup cells parsed and checked; browser display was not visually audited.",
+    "raw_html_notice_scope": "All 14 Undefined index: item_code notice blocks occur inside HTML comments; they are not established visibly rendered messages.",
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181127181916",
+      "cached_body_sha1_base32": "VMQKXH5CNG45JRQOIOPQ4ZGJICQNQUIQ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181127181916id_/http://schoolsasthrolsavam.in:80/site18/index.php/itfest/dist_overallchampions",
+        "memento_datetime": "Tue, 27 Nov 2018 18:19:16 GMT",
+        "memento_timestamp": "20181127181916",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-010",
+    "title": "Science 2017: archived item-completion status",
+    "url": "https://web.archive.org/web/20171129105139id_/http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+    "archive_capture": "20171129105139",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 12025,
+    "download_sha256": "ae0de16cef22e1085d9974b012f78f84cb50f3c00945e52634a64252c3988c57",
+    "notes": "Status of Completion of Items (Science Fair), captured 29 November 2017: UP 7/7,HS 10/10,HSS/VHSS 7/7 complete, with zero items not completed in each category. Different capture time from district-champion table; status does not certify all rows were final at another capture, appeals settled or a signed final statement. Page title retains 2016–17 despite 2017 navigation/edition context. Raw HTML table parsed; item totals are not entrant counts.",
+    "item_completion_as_published": [
+      {
+        "category": "UP",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      },
+      {
+        "category": "HS",
+        "item_total": 10,
+        "completed": 10,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      }
+    ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171129105139",
+      "cached_body_sha1_base32": "LBCP3S4FM4KVHGC5F5NOVNSI3SUSMQUZ",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171129105139id_/http://www.schoolsasthrolsavam.in:80/site17/index.php/welcome/festval_status/1",
+        "memento_datetime": "Wed, 29 Nov 2017 10:51:39 GMT",
+        "memento_timestamp": "20171129105139",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-011",
+    "title": "IT 2017: archived item-completion status",
+    "url": "https://web.archive.org/web/20171128013919id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+    "original_url": "http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+    "archive_capture": "20171128013919",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2017-18",
+    "document_date": null,
+    "download_bytes": 11615,
+    "download_sha256": "464ce79a71c490943b9756c14e52a27ab6150dd752c988cf7425ecaf28506b8d",
+    "notes": "Status of Completion of Items [IT], captured 28 November 2017: HS 6/6 and HSS/VHSS 5/5 complete, with zero items not completed. Different capture time from district-champion table; status does not certify rows at another capture, appeal outcomes or a signed final statement. Page title retains 2016–17 despite 2017 navigation/edition context. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "HS",
+        "item_total": 6,
+        "completed": 6,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 5,
+        "completed": 5,
+        "not_completed": 0
+      }
+    ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20171128013919",
+      "cached_body_sha1_base32": "TVMIPTGK3JUYXVPHZXNUMXXVRLSJ5DU6",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20171128013919id_/http://schoolsasthrolsavam.in:80/site17/index.php/itfest/festval_status",
+        "memento_datetime": "Tue, 28 Nov 2017 01:39:19 GMT",
+        "memento_timestamp": "20171128013919",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-012",
+    "title": "Science 2018: archived item-completion status",
+    "url": "https://web.archive.org/web/20181128230906id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+    "archive_capture": "20181128230906",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 12117,
+    "download_sha256": "e6992265769234455d57ee8f2803e34710b595cd157131a1bfee3bed86d8b4b6",
+    "notes": "Status of Completion of Items (Science Fair), captured 28 November 2018: UP 2/2,HS 10/10,HSS/VHSS 7/7 complete, with zero items not completed in each category. This does not explain blank UP cells in the separately captured district-champion table. Different capture times are not a single certified export or evidence about appeal outcomes. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "UP",
+        "item_total": 2,
+        "completed": 2,
+        "not_completed": 0
+      },
+      {
+        "category": "HS",
+        "item_total": 10,
+        "completed": 10,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 7,
+        "completed": 7,
+        "not_completed": 0
+      }
+    ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181128230906",
+      "cached_body_sha1_base32": "VJK6ZSYBYGQT7DFWYJEHK5MJKYIIW572",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181128230906id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/welcome/festval_status/1",
+        "memento_datetime": "Wed, 28 Nov 2018 23:09:06 GMT",
+        "memento_timestamp": "20181128230906",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-013",
+    "title": "IT 2018: archived item-completion status",
+    "url": "https://web.archive.org/web/20181128230750id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+    "original_url": "http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+    "archive_capture": "20181128230750",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_item_completion_page",
+    "edition_context": "2018-19",
+    "document_date": null,
+    "download_bytes": 11891,
+    "download_sha256": "e86970d028ab6c6bfd5299314a491ea81a589b5b570f15f77d164461e8ef0f24",
+    "notes": "Status of Completion of Items [IT], captured 28 November 2018: HS 6/6 and HSS/VHSS 5/5 complete, with zero items not completed. Different capture time from district-champion table; status does not certify rows at another capture, appeal outcomes or a signed final statement. Raw HTML table parsed; not an entrant count.",
+    "item_completion_as_published": [
+      {
+        "category": "HS",
+        "item_total": 6,
+        "completed": 6,
+        "not_completed": 0
+      },
+      {
+        "category": "HSS/VHSS",
+        "item_total": 5,
+        "completed": 5,
+        "not_completed": 0
+      }
+    ],
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20181128230750",
+      "cached_body_sha1_base32": "3RBZEDGR5CPIROI2DW6P2QT7R5BQY57D",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": false,
+      "fresh_head_observation": {
+        "method": "HEAD",
+        "http_status": 200,
+        "effective_url": "https://web.archive.org/web/20181128230750id_/http://www.schoolsasthrolsavam.in:80/site18/index.php/itfest/festval_status",
+        "memento_datetime": "Wed, 28 Nov 2018 23:07:50 GMT",
+        "memento_timestamp": "20181128230750",
+        "matches_registered_capture": true
+      },
+      "scope": "The cached body/date link is supported by the exact prior CDX digest. Fresh HEAD headers are not represented as original acquisition headers."
+    }
+  },
+  {
+    "id": "historical-editions-014",
+    "title": "Kerala Kaumudi 26November2018: contemporary Kannur festival closing report",
+    "url": "https://keralakaumudi.com/kerala/general/sastramela-18888",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_secondary_closing_report",
+    "document_date": "2018-11-26",
+    "updated_date_as_published": "2018-12-07",
+    "download_bytes": 140486,
+    "download_sha256": "35ef2badfda42406594ca716f2117a180a9351aefcfbb4b98454908fe4835520",
+    "notes": "Contemporary secondary closing report headed ശാസ്ത്രമേളയിൽ മലപ്പുറം; published 26 November 2018 and updated 7 December 2018. Describes closure at Kannur and a Malappuram title; explicitly gives Work Experience marks Malappuram 29509,Kozhikode 29393,Kannur 29244. Science Malappuram 124,Thrissur 118,Kannur 117 and IT Malappuram 136,Kozhikode 117,Wayanad 102 match newly recovered archived public tables. Newspaper Maths Kozhikode 226 and Social Science Malappuram 129 differ from the 27 November public tables 276 and 144 respectively; no explanation or harmonisation established. Do not promote these as one certified consolidated total. Report calls festival two days, while programme includes 23 November quizzes; preserve distinction between main exhibition and full programme. No certified whole-festival numeric statement supplied."
+  },
+  {
+    "id": "historical-editions-015",
+    "title": "State Sasthrolsavam 2015: complete original Education Department Kollam programme",
+    "url": "https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+    "original_url": "http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+    "discovery_url": "https://kpsha.blogspot.com/p/downloads.html",
+    "archive_capture": "20160117113307",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_event_document",
+    "document_date": null,
+    "edition_label_as_printed": "2015",
+    "event_date_start": "2015-11-24",
+    "event_date_end": "2015-11-28",
+    "pdf_pages": 8,
+    "download_bytes": 1619045,
+    "download_sha256": "3474d6aadd1f7742f01e6323d08b57418aa6d3d8123f25c0c9e427941f66f549",
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "stream_edition_numbers_as_printed": {
+      "Science Fair": 49,
+      "Work Experience Fair": 35,
+      "Mathematics Fair": 30,
+      "Special School Work Experience Fair": 19,
+      "IT Fair": 14,
+      "Vocational Expo and Career Fest": 11,
+      "Social Science Fair": 10
+    },
+    "notes": "All eight unnumbered PDF pages were rendered and visually read. Cover PDF1 gives 24–28 November 2015, Kollam; PDF2 invitation and PDF8 repeat the distinct stream edition numbers. PDF3 places flag raising at 9:30 am, registration at 10:30 am and inauguration at 4 pm on 24 November at Government Model Boys HSS, Kollam; it also schedules a 3 pm procession starting from St Joseph HSS. PDF4 closing programme begins with prayer at 10:30 am on 28 November; PDF2 invitation describes the closing meeting as 11 am. Preserve this difference between the detailed sequence and invitation. PDF5 names Science venues St Aloysius HS and St Antony’s UPS, Kollam, and Mathematics venue St Joseph’s Convent HSS, Kollam. Science exhibit arrangement/evaluation for UP/HS is 25 November 9:30 am; HSS/VHSS is 26 November 9:30 am; public exhibition is separately scheduled. PDF6 names Social Science at S.N. Central School, Kollam and Work Experience at Christuraj HSS, Kollam. PDF7 names IT, Vocational Expo and Career Fest at Government Model Boys HSS, Kollam. Its Science Drama cultural item on 25 November is a performance of Prakashachakram, described as the 2015 state/southern-region first-place play; this is not the already registered 30 October competitive Drama result or proof that main-festival judging occurred again. The programme is a plan, not attendance, completed events or a signed final result. Original native text layers contain zero extracted characters on all 8 pages. PDF creation/modification metadata 19 November 2015 and original server Last-Modified are not printed issue dates. The 2016 archive capture is preservation, not event date; stream ordinals do not establish an uninterrupted annual series or inaugural year. Current instructions and local network/AI permission are not supplied.",
+    "review_scope": "Full eight-page visual review; historical planned dates, venue allocation and stream ordinals. No pupil-table transcription or inference of completed attendance/results.",
+    "acquisition_observation": {
+      "method": "GET",
+      "http_status": 200,
+      "effective_url": "https://web.archive.org/web/20160117113307id_/http://education.kerala.gov.in/downloads2014/announcement/programenoticeitfest2015.pdf",
+      "retrieved_at_utc": "2026-11-01T03:03:46.377298+00:00",
+      "content_type": "application/pdf",
+      "content_length": 1619045,
+      "memento_datetime": "Sun, 17 Jan 2016 11:33:07 GMT",
+      "original_last_modified": "Thu, 19 Nov 2015 09:10:39 GMT"
+    },
+    "capture_provenance_audit": {
+      "checked_on": "2026-11-01",
+      "requested_capture_as_recorded": "20160117113307",
+      "cached_body_sha1_base32": "2PZUBDP55UVZIIFQDHMFQWXJQCGNOIZA",
+      "exact_original_url_and_cdx_timestamp_digest_match": true,
+      "original_acquisition_headers_retained": true,
+      "scope": "Actual GET Memento matches the requested capture and exact CDX timestamp/digest; preserved headers and complete body lengths agree. PDF/server metadata are not treated as printed issue dates."
+    }
+  }
+]

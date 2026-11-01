@@ -1,0 +1,102 @@
+# Official portals and adjacent exhibitions
+
+Checked on 31 October 2026, with a focused map/download follow-up on 1 November 2026. Portal contents are edition-specific snapshots and may change as registrations, appeals and results are processed.
+
+## Registration and school records
+
+The [2026 school portal](https://mela.kite.kerala.gov.in/2026/) says school registration has started and directs schools to use their Sampoorna login. The [2026 download zone](https://mela.kite.kerala.gov.in/2026/index.php/publics/instructions) links to the revised 2025 competition manual and a five-page school software guide whose filename and screenshots identify it as a 2022–23 guide.
+
+That [software guide](https://mela.kite.kerala.gov.in/2026/entry_forms/School%20Sasthrolsavam_2022_23_school%20login_user%20manual_30_09.pdf), PDF pages 1–5, describes school/escorting-teacher details, participant entry using admission numbers, fair-by-fair confirmation, printing the list, and an AEO-office reset after confirmation. Its LP teacher-item screen is a teacher-registration provision. The old interface screenshots should not be treated as a guarantee of today's screen layout or deadline.
+
+For Karen, the school's registration printout is the most useful next record: it should identify the fair, exact item, code if supplied, section, registered participant and organiser. A local phrase such as IT Working Model cannot be assigned a state item code without that evidence. No account login was required to inspect the public material collected here.
+
+## Results and levels
+
+The [2026 state results page](https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result) links to declared results, school/subdistrict/district points by fair, overall tables, a map, special-school provision and Vocational Expo. On the access date its overall champion panels said no results had been published. A Results heading or an empty destination does not establish a completed contest.
+
+The [district index](https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result) exposes all 14 district result destinations. Their names, identifiers and exact observed URLs are in [districts.json](districts.json). These identifiers are portal keys, not ranks. Follow the edition's own navigation rather than assuming every old endpoint has the same argument structure.
+
+An individual result row and a fair-wide points table answer different questions. A school's overall position is not the result for a particular model; a contestant's grade is not necessarily a rank. Preserve appeals or revisions where shown. The general master item list has rows for sections and teacher items that do not all compete at every level; level-specific eligibility comes from the manual and circulars.
+
+## Map and blank form served under the 2026 portal
+
+On **1 November 2026**, the state portal's [Location Map page](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps) served these seven literal venue/use rows with **School Sasthrolsavam 2026** as its HTML page title and **Location Map** as the body heading. The table itself supplies no issue date or event-year statement. The received HTML text and table structure were inspected; no browser-render review or independent review of the linked Google Maps destinations is claimed. Source `core-state-map-2026-observation`.
+
+| Venue as printed | Use as printed |
+| --- | --- |
+| MES HSS Olavakkode, Palakkad | Mathematics Fair |
+| Kanikkamatha HSS, Palakkad | IT Fair |
+| Big Bazar HSS, Palakkad | Social Science Fair |
+| BM HSS, Palakkad | Science Fair |
+| BEM HSS, Palakkad | Work Experience Fair |
+| Small Kotta Maithanam Palakkad | VHSE Expo (Exhibition) |
+| St.Sebastian's S B School | VHSE Expo (On The Spot) |
+
+These are the page's displayed rows, not a recovered final **Mannarkkad** venue allocation. The hosting path and page title do not establish when the table was prepared. No different edition is assigned to it without dated evidence; the final named venue/programme gap remains open.
+
+The [state download page](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions) also links an [undated blank Science entry form](https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf). Both scanned pages were read visually: PDF **1–2**, printed **128–129**. The form heading says **SUB DISTRICT SCHOOLS** despite its state-directory hosting. PDF 1 gives two numbered blank pupil slots for HS Working Model **115**, HSS/VHSS Working Model **126** and UP Working Model **106**; its HS Quiz **119** and HSS/VHSS Quiz **130** rows each show one numbered line. This records the form's layout, not a current maximum-pupil rule or a 2026 clearance. The applicable manual and dated circulars govern eligibility and capacity; see [rules](RULES.md) and [documented changes](RULE_CHANGES.md). No filled registration or pupil/contact data was collected. Source `core-state-science-form-undated`.
+
+## Item catalogue snapshots
+
+The official [2025 master list](https://mela.kite.kerala.gov.in/2025/state/index.php/publics/item_list) and [2026 master list](https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list) each supplied 221 catalogue rows when directly fetched. Counts computed from the rows are:
+
+| Fair label in source | Catalogue rows in each snapshot |
+| --- | ---: |
+| Science Fair | 39 |
+| Mathematics Fair | 42 |
+| Socialscience Fair | 25 |
+| Workexperience Fair | 95 |
+| IT Fair | 20 |
+
+These are counts of catalogue records, including teacher entries, rather than counts of eligible student state contests. Ditto marks in section/fair cells have been expanded in the JSON. Source spellings, item codes and participant codes are preserved. The 2026 master list can be fetched directly even when a browser search tool returns an error. Small wording differences between snapshots are retained rather than rewritten into a single version.
+
+The subdistrict views include LP items omitted from the current state-page view. The following additional snapshots were directly retrieved; their provenance is retained with each JSON file:
+
+| Edition and view | All rows | LP rows | Snapshot |
+| --- | ---: | ---: | --- |
+| 2019 state-page historical catalogue | 154 | 0 | [2019 catalogue](item-catalogue-2019.json) |
+| 2022 subdistrict catalogue | 239 | 39 | [2022 catalogue](subdistrict-catalogue-2022.json) |
+| 2023 subdistrict catalogue | 239 | 39 | [2023 catalogue](subdistrict-catalogue-2023.json) |
+| 2024 subdistrict catalogue | 239 | 39 | [2024 catalogue](subdistrict-catalogue-2024.json) |
+| 2025 subdistrict catalogue | 261 | 40 | [2025 catalogue](subdistrict-catalogue-2025.json) |
+| 2026 subdistrict catalogue | 261 | 40 | [2026 catalogue](subdistrict-catalogue-2026.json) |
+
+Together with the two 221-row state-page snapshots above, these eight catalogues contain 1,835 observations across editions. Repeated item codes across years are separate versioned observations. The 2019 state-page view has four UP rows, rather than the newer generic UP list; do not infer a change in pupil eligibility from that interface difference. [Rule changes](RULE_CHANGES.md) documents the actual manual/order evidence. A 2019 subdistrict URL probe redirected in a loop, so it was not labelled a successfully captured catalogue.
+
+## Special-school work experience fair
+
+The [2025–26 special-school portal](https://mela.kite.kerala.gov.in/2025/spss2025/index.php/login) explicitly names a separate State Special School Work Experience Fair. The [2026–27 results interface](https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publishresult/resultindex/resultview) separates visually impaired, hearing impaired LP–UP, hearing impaired HS, hearing impaired HSS, and two exhibition sections. It displayed zero declared items on the access date. These are the source's own category names.
+
+Its [download zone](https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions) links a manual, identity certificate and [three-page item-code PDF](https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/item_codes.pdf). The PDF contains 80 numbered catalogue records. The structured [special-school-items.json](special-school-items.json) preserves all 80, with code, source page and participant limit. Examples include craft work, waste-material products and exhibitions; it does not establish an additional general Science or IT Working Model item.
+
+The linked [manual PDF](https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf) has 18 scanned pages. Despite Kalolsavam in its filename, its first page discusses special-school work-experience aims and organisation. A version date was not established, and its pages are rotated scans. Its substantive numerical rules have not been adopted into the general competition guide.
+
+A full visual follow-up read all **18 physical pages / printed 1–35**. A fresh download is byte-identical to the earlier body; fresh headers are retained separately. PDF 2 / printed 3 cites **60613/എൻ3/06/പൊ.വി., 22 November 2006** for a Class 10 grade/grace provision. This is a reference inside the scan, not a recovered original order, manual issue/approval date or current entitlement. The received file starts at Chapter 1 and ends in item directions; no cover/imprint/approval page appears. Referenced forms **3(a/b), 4(a/b), 5(a/b)** are absent from this body. That limits this received scan, rather than proving the complete original publication omitted them or never supplied them separately.
+
+On **1 November 2026**, the special-school download/login pages advertised a working [blank common identity form](https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf). Its single page explicitly prints **2026–27, Mannarkkad, Palakkad, 18–21 November 2026**. The checkboxes label Science **58th**, Work Experience **44th**, Mathematics **39th**, Special School Work Experience **28th**, IT **23rd**, Vocational Expo and Career Fest **20th**, and Social Science **19th**. These are source-specific edition labels, not a calculation of inaugural years or proof of continuous annual conduct.
+
+The form has blank participant, school and attestation fields. It is not an issued pupil identity card, accepted registration, dated manual approval, eligibility/progression order or final named venue/item programme. No filled personal/contact record was collected. Its working endpoint does not change the separate general-state ID-card filename's recorded 404. Source `core-special-common-id-form-2026`.
+
+## Vocational Expo and Career Fest
+
+KITE's [Sasthrolsavam description](https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us) describes a Vocational Expo showing products made through vocational higher secondary production-training centres and a Career Fest offering guidance. These are adjacent activities; participation is not the same as a Science Working Model result.
+
+The state portal's 2026 Vocational Expo destination, `https://mela.kite.kerala.gov.in/2026/vhseExpo/state26/index.php`, returned HTTP 404 when inspected. Current entry instructions, venues and programme details still need an official notice or a working replacement link.
+
+A later original-hosted [government order, G.O.(Ms)65/2026/GEDN of 12 March 2026, PDF 1–2](https://www.vhseportal.kerala.gov.in/downloadAttachment/db64201b-7a92-4f7b-9891-5e961e3a2e36), records that **Vocational Expo was renamed Kerala School Skill Festival with 19 on-the-spot items**, attributing that change to **G.O.(Ms)118/2024 of 20 September 2024**. This is the later order's account; the earlier order body and complete Skill Festival item rules remain unrecovered here. Preserve the older portal label and later documented name without converting this adjacent vocational programme into Science Working Model or assuming a current local entry route.
+
+## Downloads needing replacement or confirmation
+
+| Officially linked destination | Observation on access date | What would resolve it |
+| --- | --- | --- |
+| `2026/state/entry_forms/Program_Notice_2026.pdf` | HTTP 404 | Published programme PDF or organiser's final schedule |
+| `2026/state/entry_forms/ID Card_KSS 2026-27.pdf` | HTTP 404 on 1 November 2026; special-school portal separately advertises the working common `Identity_Card_2027.pdf` | Confirmation/correction of the general-state link; no redirect equivalence established |
+| `2026/vhseExpo/state26/index.php` | HTTP 404 | Current VHSE Expo page or circular |
+| Special-school manual named `StateSpecialschoolKalolsavamManual.pdf` | Retrieved 18-page scanned work-experience document; no version established | Signed applicable manual/order and amendments |
+| General school software guide linked in 2026 | Filename/screens identify 2022–23 | Current operator instructions and local deadline |
+
+Temporary browser failures are not the same as confirmed missing documents. Several official PDFs were retrieved directly and visually inspected after the browser tool timed out. Source retrieval notes record that distinction.
+
+## Separate dated examples for the planned Mannarkkad venues
+
+The [September PRD account](CALENDAR_2026.md#planned-host-school-examples-in-the-september-prd-account) supplies four named proposed host-school examples. This narrows the earlier named-venue gap without authenticating the undated map table above, completing the five-main-venue allocation or assigning Working Model to a school. Keep the dated press report and undated portal rows separate.

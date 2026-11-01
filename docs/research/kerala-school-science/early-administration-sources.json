@@ -1,0 +1,123 @@
+[
+  {
+    "id": "early-administration-001",
+    "title": "School Science, Vol. IV No. 4, December 1965: Workshop of Science Club Sponsors",
+    "url": "https://archive.org/download/dli.ernet.231487/231487-School%20Science%20Vol-04.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.231487",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.231487",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_official_journal_news_archived_copy",
+    "publisher": "National Council of Educational Research and Training (NCERT), Department of Science Education",
+    "issue_date_as_printed": "December 1965",
+    "document_date": null,
+    "event_date_start": "1965-12-19",
+    "event_date_end": "1965-12-28",
+    "event_scope": "Interstate science-club sponsors' teacher workshop held in Madras; not a Kerala science fair",
+    "pdf_pages": 369,
+    "download_bytes": 21144029,
+    "download_sha256": "c2fe241b8762cf353d554c9ab3f57b037bf8e20d7dafee478b02d345e6192e18",
+    "archival_provenance": "Internet Archive item identifies Digital Library of India, C-DAC Noida scanning centre and NCERT source library. The bound-volume scan contains the original December 1965 issue cover and contents; accession/upload dates are not publication dates.",
+    "locators": [
+      {
+        "pdf_page": 289,
+        "printed_page": null,
+        "supports": "December 1965 issue cover, Vol. IV No. 4"
+      },
+      {
+        "pdf_page": 293,
+        "printed_page": null,
+        "supports": "Issue contents assign News and Notes to printed page 329"
+      },
+      {
+        "pdf_page": 361,
+        "printed_page": 329,
+        "supports": "Workshop dates, Madras venue, three participating states, 21 combined teachers, practical training and more than 100 project outlines intended for later school trials",
+        "page_number_note": "The first News and Notes page has no visible page numeral; contents and the following printed 330 establish printed 329."
+      },
+      {
+        "pdf_page": 362,
+        "printed_page": 330,
+        "supports": "Printed-page sequence check"
+      }
+    ],
+    "review_scope": "Visually checked issue covers, contents, workshop page and following page; OCR/XML were used to locate passages. This is not a claim of exhaustive visual review of all 369 pages.",
+    "notes": "Reports participation from Mysore, Kerala and Madras at Madras Christian College High School, 19–28 December 1965. The 21 teachers are a three-state total; no Kerala subtotal or names are supplied. Project trials are prospective. The issue month is not an exact release date. This neither locates a fair in Kerala nor establishes a statewide inauguration."
+  },
+  {
+    "id": "early-administration-002",
+    "title": "School Science, Vol. V No. 1, March 1967: Biology in Indian High Schools",
+    "url": "https://archive.org/download/dli.ernet.231488/231488-School%20Science%20Vol-05.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.231488",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.231488",
+    "accessed_on": "2026-11-01",
+    "source_type": "contemporary_authored_survey_in_official_journal_archived_copy",
+    "publisher": "National Council of Educational Research and Training (NCERT)",
+    "authors_as_printed": [
+      "B. M. Johri",
+      "Manohar Lal"
+    ],
+    "author_affiliation_as_printed": "Department of Botany, University of Delhi, Delhi",
+    "issue_date_as_printed": "March 1967",
+    "document_date": null,
+    "paper_presentation_date_start": "1966-12-04",
+    "paper_presentation_date_end": "1966-12-10",
+    "paper_presentation_event": "First Asian Regional Conference on School Biology, Manila",
+    "event_scope": "National science-education survey with 1962–63 through 1965–66 fair totals; not a Kerala-specific programme or order",
+    "pdf_pages": 354,
+    "download_bytes": 19445888,
+    "download_sha256": "c06dcba032adadec4ecae2265e28ca193d616f1913c67357d631a34bd02a2c2b",
+    "archival_provenance": "Internet Archive item identifies Digital Library of India, C-DAC Noida scanning centre and NCERT source library. Original issue contents establish March 1967, independently of scan/upload dates.",
+    "locators": [
+      {
+        "pdf_page": 3,
+        "printed_page": null,
+        "supports": "Vol. V No. 1, March 1967 contents"
+      },
+      {
+        "pdf_page": 40,
+        "printed_page": 30,
+        "supports": "Article title, authors, affiliation and December 1966 Manila conference footnote",
+        "page_number_note": "Article-opening page number is established by contents and the consecutive following pages."
+      },
+      {
+        "pdf_page": 46,
+        "printed_page": 36,
+        "supports": "Source-wording anomaly: science-club initiation printed as 1967–68 in a March 1967 issue"
+      },
+      {
+        "pdf_page": 47,
+        "printed_page": 37,
+        "supports": "National science-fair programme account and district/state/regional totals for 1962–63 to 1965–66"
+      }
+    ],
+    "fair_totals_as_printed": [
+      {
+        "cycle": "1962–63",
+        "district": "—",
+        "state": "—",
+        "regional": 56
+      },
+      {
+        "cycle": "1963–64",
+        "district": "—",
+        "state": 2,
+        "regional": 80
+      },
+      {
+        "cycle": "1964–65",
+        "district": 283,
+        "state": 2,
+        "regional": 77
+      },
+      {
+        "cycle": "1965–66",
+        "district": 264,
+        "state": 5,
+        "regional": 79
+      }
+    ],
+    "source_wording_note": "Dashes in the table are retained, not converted to zeros. Printed 36/PDF 46 says science-club activities were initiated in 1967–68, despite the March 1967 issue date; that clause is preserved as an anomaly, not corrected or used as a founding-date fact.",
+    "review_scope": "Visually checked issue contents, article attribution/conference footnote, printed 36 and printed 37. OCR/XML aided discovery; the full bound volume has not received exhaustive visual review.",
+    "notes": "A contemporary survey published by NCERT, rather than original 1960 council minutes or a Kerala government administration order. Five state fairs are listed for 1965–66 but the states are unnamed. Neither that total nor the nearby national Central Science Club count establishes a Kerala statewide fair inaugural year or proves that Kerala's contemplated club opened."
+  }
+]

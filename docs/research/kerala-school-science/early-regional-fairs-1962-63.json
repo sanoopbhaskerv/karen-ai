@@ -1,0 +1,774 @@
+{
+  "dataset_id": "early-regional-fairs-1962-63",
+  "reviewed_on": "2026-11-01",
+  "source_id": "history-1963-fairs-report",
+  "source_url": "https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf",
+  "source_body_sha256": "c431af9bf430378df7f35d3776e9d8b59df31cad390c6d01dc35d616dc0e8ce2",
+  "physical_pdf_pages": 39,
+  "numbered_report_pages": 30,
+  "review_scope": "All 39 physical pages visually read, including covers, blank versos, contents, narrative, complete prize lists, teacher lists and back matter. No fresh HTTP acquisition or original-issue date claim.",
+  "issuer_as_printed": "Department of Extension Services, Government Training College, Trichur (Kerala State)",
+  "publication_number_as_printed": "23",
+  "title_locator": {
+    "pdf_page_1based": 3
+  },
+  "title_credits": [
+    {
+      "role": "Honorary Director",
+      "name": "T. Paul Verghese"
+    },
+    {
+      "role": "Co-ordinator",
+      "name": "T. N. Padmanabhan"
+    }
+  ],
+  "title_date_scope": "Held during 1962–63 is the report coverage wording; 1963 remains the existing catalogue publication year, not an exact printed issue day.",
+  "events": [
+    {
+      "id": "early-fair-chittur-1962",
+      "event_label_as_printed": "Science Fair at Chittur",
+      "venue_as_printed": "Government Girls’ High School, Chittur",
+      "reported_start_date": "1962-11-29",
+      "reported_end_date": "1962-12-01",
+      "date_venue_locator": {
+        "pdf_page_1based": 7,
+        "printed_page": 1
+      },
+      "intended_scope_as_reported": "Science clubs of secondary schools of the Educational Districts in the northern region.",
+      "statewide_inauguration_established": false,
+      "institutional_programme": [
+        {
+          "activity": "Fair inaugural meeting",
+          "reported_day": "1962-11-29",
+          "reported_clock": "09:00",
+          "public_institutional_credit": "Dr A. S. Narayana Pillai, Principal, Government College, Chittur",
+          "locator": {
+            "pdf_page_1based": 7,
+            "printed_page": 1
+          }
+        },
+        {
+          "activity": "Science teachers’ meeting and four-group discussion",
+          "reported_day": "1962-11-29",
+          "reported_clock": "10:00",
+          "public_institutional_credit": "District Educational Officer, Palghat presided; Department of Extension Services coordinator led discussion of teaching methods.",
+          "locator": {
+            "pdf_page_1based": 10,
+            "printed_page": 4
+          },
+          "continuation_pdf_pages_1based": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "scope": "Reported professional discussions/recommendations, not an enacted current syllabus or fair marking scheme."
+        },
+        {
+          "activity": "Essay and science quiz competitions",
+          "reported_day": "1962-11-29",
+          "reported_clock": "afternoon",
+          "locator": {
+            "pdf_page_1based": 14,
+            "printed_page": 8
+          }
+        },
+        {
+          "activity": "Exhibition inauguration / formal opening",
+          "reported_day": "1962-11-29",
+          "reported_clocks_as_received": [
+            {
+              "label": "inaugurated",
+              "clock": "15:15",
+              "locator": {
+                "pdf_page_1based": 14,
+                "printed_page": 8
+              }
+            },
+            {
+              "label": "formally opened",
+              "clock": "16:00",
+              "locator": {
+                "pdf_page_1based": 17,
+                "printed_page": 11
+              }
+            }
+          ],
+          "public_institutional_credit": "V. Ananthanarayanan, Professor of Zoology, Government College, Chittur; later opening sentence uses Ananthanarayana Iyer.",
+          "scope": "Retain the two stages and received name wording; do not collapse them to one corrected clock or newly verified identity."
+        },
+        {
+          "activity": "Extempore speech competition",
+          "reported_day": "1962-11-30",
+          "reported_clock": "afternoon",
+          "locator": {
+            "pdf_page_1based": 14,
+            "printed_page": 8
+          }
+        },
+        {
+          "activity": "Students’ meeting; club reports and seven pupil papers",
+          "reported_day": "1962-11-30",
+          "reported_clock": "evening",
+          "locator": {
+            "pdf_page_1based": 20,
+            "printed_page": 14
+          }
+        },
+        {
+          "activity": "Valedictory; prizes and certificates",
+          "reported_day": "1962-12-01",
+          "reported_clock": "15:00",
+          "public_institutional_credit": "T. Paul Verghese, Honorary Director of Extension Services",
+          "locator": {
+            "pdf_page_1based": 21,
+            "printed_page": 15
+          },
+          "continuation_locator": {
+            "pdf_page_1based": 22,
+            "printed_page": 16
+          }
+        }
+      ],
+      "qualified_counts": [
+        {
+          "value": 40,
+          "unit": "science teachers at the teachers’ meeting",
+          "qualifier": "about",
+          "locator": {
+            "pdf_page_1based": 10,
+            "printed_page": 4
+          },
+          "limits": "Meeting attendance reported by the issuer; distinct from the 21-row teacher roster and visitor count."
+        },
+        {
+          "value": 23,
+          "unit": "pupils competing in essay",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 14,
+            "printed_page": 8
+          },
+          "limits": "Category-specific count; not a distinct-pupil total across competitions."
+        },
+        {
+          "value": 33,
+          "unit": "pupils competing in science quiz",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 14,
+            "printed_page": 8
+          },
+          "limits": "Category-specific count; not a distinct-pupil total across competitions."
+        },
+        {
+          "value": 12,
+          "unit": "pupils competing in extempore speech",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 14,
+            "printed_page": 8
+          },
+          "limits": "Category-specific count; not a distinct-pupil total across competitions."
+        },
+        {
+          "value": 6,
+          "unit": "science clubs contributing separate exhibition stalls",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 17,
+            "printed_page": 11
+          },
+          "limits": "The special Vignan Mandir, Pudur stall is described separately."
+        },
+        {
+          "value": 12,
+          "unit": "classrooms housing exhibits",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 17,
+            "printed_page": 11
+          },
+          "limits": "Venue-space count; not an exhibit or school total."
+        },
+        {
+          "value": 3000,
+          "unit": "persons described as students and teachers seeing the exhibition",
+          "qualifier": "more_than",
+          "locator": {
+            "pdf_page_1based": 17,
+            "printed_page": 11
+          },
+          "limits": "Reported for the two public exhibition days, 30 November and 1 December 1962; not audited unique visitors or competitor entries."
+        },
+        {
+          "value": 7,
+          "unit": "papers read by pupils at the students’ meeting",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 20,
+            "printed_page": 14
+          },
+          "limits": "Paper readings, not a total of model exhibits."
+        },
+        {
+          "value": 21,
+          "unit": "numbered teacher-list entries",
+          "qualifier": "observed_numbered_roster_rows",
+          "locator": {
+            "pdf_page_1based": 25,
+            "printed_page": 19
+          },
+          "limits": "Numbers 1–21 as printed. Do not equate this roster with the approximately forty teachers at the meeting or audited unique attendance."
+        }
+      ],
+      "exhibition_open_days_as_reported": [
+        "1962-11-30",
+        "1962-12-01"
+      ],
+      "exhibit_groups": [
+        {
+          "institution_as_printed": "Government Boys’ High School, Chittur",
+          "locator": {
+            "pdf_page_1based": 17,
+            "printed_page": 11
+          },
+          "continuation_locator": {
+            "pdf_page_1based": 18,
+            "printed_page": 12
+          },
+          "selected_subjects": [
+            "anatomical clay models and artificial lungs",
+            "plant/insect/seed collections and agricultural implements",
+            "hydroelectric-scheme model",
+            "electric bell, staircase switch and centre-of-gravity toys"
+          ],
+          "description_level": "Subject/apparatus list; no reproducible construction method or independent performance data."
+        },
+        {
+          "institution_as_printed": "Raja’s High School, Kollengode",
+          "locator": {
+            "pdf_page_1based": 18,
+            "printed_page": 12
+          },
+          "selected_subjects": [
+            "minerals and agricultural/plant collections",
+            "telescope and periscope",
+            "hand-made vernier and balance"
+          ],
+          "description_level": "Subject/apparatus list only."
+        },
+        {
+          "institution_as_printed": "Government Pandit Motilal Secondary School, Palghat",
+          "locator": {
+            "pdf_page_1based": 18,
+            "printed_page": 12
+          },
+          "selected_subjects": [
+            "biological and geological specimens",
+            "electric bell and pupil-made radio model",
+            "physiological transparencies album"
+          ],
+          "description_level": "Subject/apparatus list only."
+        },
+        {
+          "institution_as_printed": "St. Paul’s High School, Kozhinjampara",
+          "locator": {
+            "pdf_page_1based": 18,
+            "printed_page": 12
+          },
+          "selected_subjects": [
+            "automatic switching arrangements",
+            "transistor set",
+            "DC motor and science charts"
+          ],
+          "description_level": "Subject/apparatus list only; switching mechanism is not explained."
+        },
+        {
+          "institution_as_printed": "Government Girls’ High School, Chittur",
+          "locator": {
+            "pdf_page_1based": 19,
+            "printed_page": 13
+          },
+          "selected_subjects": [
+            "centre-of-gravity experiments",
+            "Cartesian diver and water wheel",
+            "liquid pressure varying with depth",
+            "pulley, telegraph and dynamo models",
+            "parallel-mirror reflection"
+          ],
+          "description_level": "Named demonstrations include a stated pressure/depth relationship, but no detailed setup, measured results or reproducible protocol."
+        },
+        {
+          "institution_as_printed": "N. E. High School, Alathur",
+          "locator": {
+            "pdf_page_1based": 19,
+            "printed_page": 13
+          },
+          "selected_subjects": [
+            "science manuscript magazine, albums, herbarium and scrapbook",
+            "periscope, kaleidoscope and pinhole-camera models"
+          ],
+          "description_level": "Subject/apparatus list only."
+        },
+        {
+          "institution_as_printed": "Vignan Mandir, Pudur",
+          "institutional_role": "separately described special stall",
+          "locator": {
+            "pdf_page_1based": 19,
+            "printed_page": 13
+          },
+          "continuation_locator": {
+            "pdf_page_1based": 20,
+            "printed_page": 14
+          },
+          "selected_subjects": [
+            "biological, crop and herbarium collections",
+            "models labelled as working telephone, motor, engine, turbine and bell",
+            "human-biology charts and science books"
+          ],
+          "description_level": "Institutional display; not all items are attributed to pupils. The report’s working label is not independent operational verification."
+        }
+      ],
+      "prize_list": {
+        "pdf_pages_1based": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "printed_pages": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "main_numbered_categories": [
+          "Essay",
+          "Extempore speech",
+          "Science Quiz",
+          "Reading of paper",
+          "Exhibits"
+        ],
+        "exhibit_subdivisions": [
+          "Charts—Physics",
+          "Charts—Chemistry",
+          "Charts—Biology",
+          "Models—Physical Science",
+          "Models—Natural Science",
+          "Collections",
+          "Experiments—Chemistry"
+        ],
+        "additional_sections": [
+          "Group Experiments",
+          "Special prizes—Scientific Magic",
+          "Special prizes—Puppet show"
+        ],
+        "observed_group_roster_sizes": [
+          {
+            "section": "Soap and match making",
+            "numbered_names": 3,
+            "locator": {
+              "pdf_page_1based": 24,
+              "printed_page": 18
+            }
+          },
+          {
+            "section": "Soap making",
+            "numbered_names": 5,
+            "locator": {
+              "pdf_page_1based": 24,
+              "printed_page": 18
+            }
+          },
+          {
+            "section": "Scientific magic",
+            "numbered_names": 3,
+            "locator": {
+              "pdf_page_1based": 24,
+              "printed_page": 18
+            }
+          },
+          {
+            "section": "Puppet show",
+            "numbered_names": 6,
+            "locator": {
+              "pdf_page_1based": 25,
+              "printed_page": 19
+            }
+          }
+        ],
+        "rank_layout_limit": "Several Roman-rank markers cover multiple names, and some entries have group rosters. The layout does not resolve shared work versus tied individual awards in every case; no unique-winner, unique-project or overall-champion total is derived."
+      }
+    },
+    {
+      "id": "early-fair-alwaye-1963",
+      "event_label_as_printed": "Science Fair at Alwaye",
+      "venue_as_printed": "Government High School, Alwaye",
+      "reported_start_date": "1963-01-28",
+      "reported_end_date": "1963-01-30",
+      "date_venue_locator": {
+        "pdf_page_1based": 26,
+        "printed_page": 20
+      },
+      "intended_scope_as_reported": "Clubs of high schools in the Ernakulam Area; the exhibition was intended for secondary-school teachers and students.",
+      "statewide_inauguration_established": false,
+      "institutional_programme": [
+        {
+          "activity": "Fair and exhibition inaugural meeting / formal opening",
+          "reported_day": "1963-01-28",
+          "reported_clocks_as_received": [
+            {
+              "label": "inaugurated",
+              "clock": "10:30",
+              "locator": {
+                "pdf_page_1based": 26,
+                "printed_page": 20
+              }
+            },
+            {
+              "label": "formally opened",
+              "clock": "11:00",
+              "locator": {
+                "pdf_page_1based": 27,
+                "printed_page": 21
+              }
+            }
+          ],
+          "public_institutional_credit": "Dr P. M. Mathai, Principal, Union Christian College, Alwaye"
+        },
+        {
+          "activity": "Essay and science quiz competitions",
+          "reported_day": "1963-01-28",
+          "reported_clock": "afternoon",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          }
+        },
+        {
+          "activity": "Extempore speech competition",
+          "reported_day": "1963-01-30",
+          "reported_clock": "afternoon",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          }
+        },
+        {
+          "activity": "Proposed second-day science teachers’ meeting cancelled",
+          "reported_day": null,
+          "day_month_as_printed": "29th February",
+          "locator": {
+            "pdf_page_1based": 28,
+            "printed_page": 22
+          },
+          "reason_as_reported": "Large number of visitors on the second day.",
+          "date_limit": "The printed February day conflicts with the surrounding 28–30 January 1963 fair account; no corrected date is supplied."
+        },
+        {
+          "activity": "Valedictory; club reports, pupil project paper, prizes and certificates",
+          "reported_day": "1963-01-30",
+          "reported_clock": "evening",
+          "public_institutional_credit": "T. Paul Verghese, Honorary Director of Extension Services",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          },
+          "scope": "The paper is a historical school project account; its experiment date is separate from this fair date."
+        }
+      ],
+      "qualified_counts": [
+        {
+          "value": 9,
+          "unit": "high-school science clubs participating in the fair",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 27,
+            "printed_page": 21
+          },
+          "limits": "Whole-fair club count; separate from six clubs contributing stalls."
+        },
+        {
+          "value": 6,
+          "unit": "high-school science clubs contributing separate exhibition stalls",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 27,
+            "printed_page": 21
+          },
+          "limits": "Three additional clubs sent selected exhibits; not nine separate stalls."
+        },
+        {
+          "value": 11,
+          "unit": "classrooms housing exhibits",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 28,
+            "printed_page": 22
+          },
+          "limits": "Film show is described as occupying a separate large hall."
+        },
+        {
+          "value": 300,
+          "unit": "visitors in a film-screening batch",
+          "qualifier": "about",
+          "locator": {
+            "pdf_page_1based": 28,
+            "printed_page": 22
+          },
+          "limits": "Batch size only, not total viewers or unique visitors."
+        },
+        {
+          "value": 6500,
+          "unit": "persons described as students, teachers and invited guests seeing the exhibition",
+          "qualifier": "about",
+          "locator": {
+            "pdf_page_1based": 28,
+            "printed_page": 22
+          },
+          "limits": "Reported across three days, 28–30 January 1963; not audited unique visitors or competitors."
+        },
+        {
+          "value": 22,
+          "unit": "pupils competing in essay",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          },
+          "limits": "Category-specific count, after school preliminary selection; no cross-category deduplication supplied."
+        },
+        {
+          "value": 23,
+          "unit": "pupils competing in science quiz",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          },
+          "limits": "Category-specific count, after school preliminary selection; no cross-category deduplication supplied."
+        },
+        {
+          "value": 12,
+          "unit": "pupils competing in extempore speech",
+          "qualifier": "as_reported",
+          "locator": {
+            "pdf_page_1based": 30,
+            "printed_page": 24
+          },
+          "limits": "Category-specific count, after school preliminary selection; no cross-category deduplication supplied."
+        },
+        {
+          "value": 30,
+          "unit": "numbered teacher-list entries",
+          "qualifier": "observed_numbered_roster_rows",
+          "locator": {
+            "pdf_page_1based": 36,
+            "printed_page": 30
+          },
+          "limits": "Numbers 1–30 as printed; no unique-attendance audit supplied."
+        }
+      ],
+      "exhibition_open_days_as_reported": [
+        "1963-01-28",
+        "1963-01-29",
+        "1963-01-30"
+      ],
+      "additional_clubs_sending_selected_exhibits": [
+        {
+          "institution_as_printed": "Government High School, Alwaye"
+        },
+        {
+          "institution_as_printed": "C. N. N. Boys’ High School, Cherpu"
+        },
+        {
+          "institution_as_printed": "Asram High School, Perumbavoor"
+        }
+      ],
+      "exhibit_groups": [
+        {
+          "institutions_as_printed": [
+            "Government Boys’ High School, Parur",
+            "Government Girls’ High School, Parur"
+          ],
+          "locator": {
+            "pdf_page_1based": 28,
+            "printed_page": 22
+          },
+          "continuation_locator": {
+            "pdf_page_1based": 29,
+            "printed_page": 23
+          },
+          "selected_subjects": [
+            "hand-made episcope",
+            "centre-of-gravity toys and optical devices",
+            "lung model and life-history/specimen collections",
+            "physics, chemistry and biology charts"
+          ],
+          "description_level": "Two school groups share one numbered description; do not count it as one participating school or derive one item per phrase."
+        },
+        {
+          "institution_as_printed": "Brahmanandodayam High School, Kaladi",
+          "locator": {
+            "pdf_page_1based": 29,
+            "printed_page": 23
+          },
+          "selected_subjects": [
+            "mechanical brain, telegraph and automatic switching",
+            "lemon-cell demonstration",
+            "Newton colour disc and crystal models",
+            "improvised common balance and floating-egg demonstrations",
+            "collection described as 46 kinds of paddy seeds"
+          ],
+          "description_level": "Subject/apparatus list; 46 describes kinds in a collection, not competitors or separate projects."
+        },
+        {
+          "institution_as_printed": "Naval High School, Cochin",
+          "locator": {
+            "pdf_page_1based": 29,
+            "printed_page": 23
+          },
+          "selected_subjects": [
+            "water girl and dancing doll",
+            "rocket and magic box",
+            "television demonstration",
+            "sympathetic vibrations and centre-of-gravity toys",
+            "double cone going up an incline"
+          ],
+          "description_level": "Exhibition subject list; a separate appended project narrative supplies process observations for a rocket, including separation, defects and wall impact."
+        },
+        {
+          "institution_as_printed": "St. Mary’s Convent Girls’ High School, Ollur",
+          "locator": {
+            "pdf_page_1based": 29,
+            "printed_page": 23
+          },
+          "selected_subjects": [
+            "clay anatomical and flower models",
+            "picture/feather albums and insect/shell/seed collections",
+            "telegraph, electric-brain and parallel-mirror models"
+          ],
+          "description_level": "Subject/apparatus list only."
+        },
+        {
+          "institution_as_printed": "St. Teresa’s Convent Girls’ High School, Ernakulam",
+          "locator": {
+            "pdf_page_1based": 29,
+            "printed_page": 23
+          },
+          "selected_subjects": [
+            "biological collections and albums",
+            "surface tension, resonance and vibrating air columns",
+            "hand-made sonometer",
+            "light, mirror and static-electricity demonstrations",
+            "diving duck and telegraph model"
+          ],
+          "description_level": "Named physical phenomena and apparatus; no detailed construction, measured outcomes or independent validation."
+        }
+      ],
+      "prize_list": {
+        "pdf_pages_1based": [
+          33,
+          34,
+          35
+        ],
+        "printed_pages": [
+          27,
+          28,
+          29
+        ],
+        "main_numbered_categories": [
+          "Essay",
+          "Extempore speech",
+          "Science Quiz",
+          "Charts",
+          "Albums",
+          "Manuscript Magazine",
+          "Models",
+          "Collections",
+          "Experiments",
+          "Models by groups"
+        ],
+        "subdivisions": {
+          "Charts": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+          ],
+          "Models": [
+            "Physics",
+            "Biology"
+          ],
+          "Collections": [
+            "Preservation",
+            "Insects",
+            "Biological collections"
+          ],
+          "Experiments": [
+            "Physics",
+            "Chemistry"
+          ]
+        },
+        "rank_layout_limit": "Models/Physics rank I contains two numbered school-linked entries under Episcope; one credits two contributors. Experiments/Physics rank II contains separately numbered Dancing Doll and Dancing Duck entries. A club-level manuscript-magazine entry has no visible Roman rank. Do not equate ranks, names, item rows or schools with unique winners or projects."
+      }
+    }
+  ],
+  "regional_prize_observations": [
+    {
+      "id": "early-alwaye-rocket-group-prize-observation",
+      "source_id": "history-1963-fairs-report",
+      "event_id": "early-fair-alwaye-1963",
+      "locator": {
+        "pdf_page_1based": 35,
+        "printed_page": 29
+      },
+      "category_as_printed": "Models by groups",
+      "rank_marker_as_printed": "I",
+      "exhibit_title_as_printed": "Rocket model",
+      "institution_as_printed": "Naval High School, Cochin",
+      "credited_name_as_printed": "S. Sreedhar",
+      "award_status": "explicit_regional_prize_list_entry",
+      "related_existing_case_id": "case-1962-naval-school-project-record",
+      "correspondence_scope": "Same school, project subject and opening credit as the appended account; no item code or explicit cross-reference proves physical identity of the exhibited model. The prize line does not enumerate all four group members named in the account.",
+      "national_selection_established": false,
+      "scientific_performance_independently_validated": false,
+      "new_core_case_count": 0
+    }
+  ],
+  "existing_project_account_scope": [
+    {
+      "id": "early-naval-project-account-scope",
+      "source_id": "history-1963-fairs-report",
+      "same_work_additional_source_id": "project-027",
+      "existing_case_id": "case-1962-naval-school-project-record",
+      "pdf_pages_1based": [
+        31,
+        32,
+        33
+      ],
+      "printed_pages": [
+        25,
+        26,
+        27
+      ],
+      "evidence_level": "Historical pupil-narrated project-process account, distinct from apparatus-name lists.",
+      "safe_process_summary": "The account describes teacher encouragement, a committee-approved project proposal, repeated design revisions, separation of parts, defects and the body striking a school wall. Its narrator calls the attempt successful; that assessment is not independently validated.",
+      "reported_test_date_as_printed": "8th October, 1962",
+      "test_date_scope": "Project experiment date, not the January 1963 Alwaye fair date.",
+      "printed_completion_clause": "6th October Monday 1962",
+      "date_anomaly": "The printed weekday/date combination is inconsistent with the Gregorian calendar; retain it rather than infer a corrected completion date.",
+      "operational_construction_and_launch_directions_omitted": true,
+      "new_method_case_count": 0,
+      "credit_scope": "Existing case preserves S. Sreedhar / S. Sridhar spelling variation; no new person or award to every group member named in the account inferred."
+    }
+  ],
+  "evidence_limits": [
+    "Regional events, not proof of statewide inauguration, uninterrupted annual conduct, present-day categories or qualifying routes.",
+    "Narrative attendance figures are institutional reporting, not audited unique headcounts.",
+    "Exhibit lists usually identify subjects/apparatus, without reconstructable mechanisms or measured performance.",
+    "Teacher-meeting recommendations and speeches are historical attributed views, not current policy, an official current rubric or measured educational impact.",
+    "The two registered source IDs refer to this same scanned work, not independent corroborating publications.",
+    "No contacts, addresses, student IDs, participant photographs or full personal-name prize/teacher rosters are copied."
+  ]
+}

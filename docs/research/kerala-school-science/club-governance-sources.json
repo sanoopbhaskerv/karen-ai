@@ -1,0 +1,82 @@
+[
+  {
+    "id": "governance-club-elections-2026",
+    "title": "DGE subject-club office-bearer election circular, 2026-05-20, public mirror",
+    "url": "https://drive.google.com/file/d/19XRfqtLwIOg3JRq5VaWD6U-_cnObgfcT/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=19XRfqtLwIOg3JRq5VaWD6U-_cnObgfcT",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_department_circular",
+    "document_date": "2026-05-20",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "file_reference_as_printed": "Y1/8659/26/DGE; e-file DGE/8659/2026-Y1",
+    "dispatch_reference_as_printed": "I/1749830/2026",
+    "visible_signature_block": {
+      "name": "Santhosh C A",
+      "date": "2026-05-20",
+      "time": "22:45:27",
+      "designation": "Additional Director of General Education (Academic)"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validation performed.",
+    "streams_as_printed": [
+      "Science",
+      "Mathematics",
+      "Social Science",
+      "Work Experience"
+    ],
+    "club_terms_as_printed": {
+      "school_years": 1,
+      "subdistrict_years": 2,
+      "revenue_district_years": 2
+    },
+    "directed_targets": {
+      "subdistrict_election_by": "2026-06-15",
+      "district_election_by": "2026-06-22",
+      "secretary_particulars_by": "2026-06-26"
+    },
+    "notes": "Both pages read visually and independently checked. AEOs convene the general body of new school-club office-bearers and elect subdistrict office-bearers; DDEs convene the new subdistrict general body and elect district office-bearers. Working committees are to be constituted per the manual and secretaries’ particulars reported. Targets do not prove elections occurred or identify appointed office-bearers. School-election completion is not the stated meaning of the subdistrict target. Four subject streams only; no IT/Little Kites or state-club term supplied. Public mirror hosting is distinct from the visible departmental document; an original government-hosted copy was not recovered in the bounded lookup.",
+    "download_sha256": "31ec7dcf97240c6df7b8df0a60a964d33600df7019e07cb953101d022062d0d5",
+    "download_bytes": 166081,
+    "pdf_pages": 2
+  },
+  {
+    "id": "governance-club-elections-2024",
+    "title": "DGE subject-club office-bearer election circular, 2024-07-04, public mirror",
+    "url": "https://drive.google.com/file/d/1xFyEOGcgXYAPvrp0rYz94ZFUydiE5Y7t/view?usp=sharing",
+    "download_url": "https://drive.google.com/uc?export=download&id=1xFyEOGcgXYAPvrp0rYz94ZFUydiE5Y7t",
+    "discovery_url": "https://sitcforumpalakkad.blogspot.com/p/downloads-2021.html",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_department_circular",
+    "document_date": "2024-07-04",
+    "issuer_as_printed": "Directorate of General Education, Kerala",
+    "file_reference_as_printed": "Y1/10095/2024/DGE; e-file DGE/10095/2024-Y1",
+    "dispatch_reference_as_printed": "I/811776/2024",
+    "visible_signature_block": {
+      "name": "Shinemon M K",
+      "date": "2024-07-04",
+      "time": "15:31:33",
+      "designation": "Additional Director (Academic)"
+    },
+    "signature_verification": "Visible block inspected; no cryptographic validation performed.",
+    "streams_as_printed": [
+      "Science",
+      "Mathematics",
+      "Social Science",
+      "Work Experience"
+    ],
+    "club_terms_as_printed": {
+      "school_years": 1,
+      "subdistrict_years": 2,
+      "revenue_district_years": 2
+    },
+    "directed_targets": {
+      "subdistrict_election_by": "2024-07-10",
+      "district_election_by": "2024-07-12",
+      "secretary_particulars_by": "2024-07-15"
+    },
+    "notes": "Both pages read visually and independently checked. AEOs convene the general body of new school-club office-bearers and elect subdistrict office-bearers; DDEs convene the new subdistrict general body and elect district office-bearers. Working committees are to be constituted per the manual and secretaries’ particulars reported. Targets do not prove elections occurred or identify appointed office-bearers. School-election completion is not the stated meaning of the subdistrict target. Four subject streams only; no IT/Little Kites or state-club term supplied. Public mirror hosting is distinct from the visible departmental document; an original government-hosted copy was not recovered in the bounded lookup.",
+    "download_sha256": "1599a7eee33e2c59df866f773cff36425d4e439c23e32ae306b205827cd524a1",
+    "download_bytes": 155142,
+    "pdf_pages": 2
+  }
+]

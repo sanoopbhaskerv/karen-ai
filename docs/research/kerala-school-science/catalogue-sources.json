@@ -1,0 +1,32 @@
+[
+  {
+    "id": "core-subdistrict-items-2022",
+    "title": "KITE 2022 subdistrict master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2022/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2022,
+    "sha256": "d09b70c5a1707c8b1390333efb106516896e328e140244b81224bdae99703860",
+    "notes": "Direct HTTP retrieval; 239 catalogue rows captured. This is edition-specific catalogue evidence, not a substitute for the applicable rules."
+  },
+  {
+    "id": "core-subdistrict-items-2023",
+    "title": "KITE 2023 subdistrict master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2023/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2023,
+    "sha256": "bcc640e2ae364289e807330e86615de4b278ffc13129ee4acb816f51378424d9",
+    "notes": "Direct HTTP retrieval; 239 catalogue rows captured. This is edition-specific catalogue evidence, not a substitute for the applicable rules."
+  },
+  {
+    "id": "core-items-2019",
+    "title": "KITE 2019 historical state-page item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_catalogue",
+    "portal_year": 2019,
+    "sha256": "d7492ad237bba83dc313780897873b2bfc310eccbb6ac100f6e19e8603d3ad62",
+    "notes": "Direct HTTP retrieval; 154 historical master catalogue rows. Current eligibility not inferred."
+  }
+]

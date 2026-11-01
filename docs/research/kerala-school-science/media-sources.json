@@ -1,0 +1,2061 @@
+[
+  {
+    "id": "media-001",
+    "title": "DIKSHA public DIAL reference P3Y7R6: INVESTIGATORY PROJECT ON PALM FIBER",
+    "url": "https://diksha.gov.in/dial/P3Y7R6",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 195,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/P3Y7R6",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/P3Y7R6?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "289ffbe8318c231f4b22aa9445b08a7767cc76202bccce2f4f071d02abe38af9",
+        "response_bytes": 4441,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "P3Y7R6",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489762611201385",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "78eb8d298e1b7a24e5bce6391a61de0ffcd6fe029de6107ab1927096b2d90dfd",
+        "response_bytes": 6364
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070204497100801425/investigatory-project-on-palm-fiber.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "35cf1419bc04df6971578279d4c11293345052e734827bdd4bedffc1f034820c",
+        "content_type": "video/mp4",
+        "content_length": 181128573
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070204497100801425/investigatory-project-on-palm-fiber.mp4",
+      "bytes": 181128573,
+      "sha256": "cd74ee783704114a12401071c57d8eb2347f4954f201540eeb6e6cd7f779ee7c",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-002",
+    "title": "DIKSHA public DIAL reference I3I4B8: PRISMATIC PILLAR",
+    "url": "https://diksha.gov.in/dial/I3I4B8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 198,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/I3I4B8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/I3I4B8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "74e3e5e4c9eab1cc612cc44d3a879c3dd9c26345982a33cf6677c838d80cbe91",
+        "response_bytes": 4424,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "I3I4B8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489754992641145",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "752fbc31f59f97516f6de3bd364b66e22b352a825ae0725fd83624cbb8a4fc7f",
+        "response_bytes": 6265
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507010858344448126572/prismatic-pillar-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "6452b1c9bb5019b4687f09714dc3a6bfd58574099b6f137ee1cfb4ebe8dc9c18",
+        "content_type": "video/mp4",
+        "content_length": 141050797
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507010858344448126572/prismatic-pillar-.mp4",
+      "bytes": 141050797,
+      "sha256": "2936f9c2975afd963f3e214acf3b3eddb960033acbd384051f6b625072874a8c",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-003",
+    "title": "DIKSHA public DIAL reference C3W9Q2: AGRICULTURE VEHICLE",
+    "url": "https://diksha.gov.in/dial/C3W9Q2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 200,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/C3W9Q2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/C3W9Q2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "87040150b60d857e462c0876087c03bee4e122021fb434336ca9037139f35900",
+        "response_bytes": 4422,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "C3W9Q2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975261696169",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "aa8d36334dcb2e9753a08d3dc699cd7347715caded7b33ce8c719c67a29ad4b4",
+        "response_bytes": 6240
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035327627182081505/agriculture-vehicle-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "9ea74c448d2e83ec16c2d689e03240efedc863d102da4d102460b57a2a5bc924",
+        "content_type": "video/mp4",
+        "content_length": 121642882
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035327627182081505/agriculture-vehicle-.mp4",
+      "bytes": 121642882,
+      "sha256": "afde365f1b85008eadbb114d98f53e8f22f642721fbd8d2d9bbfff817eb69128",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-004",
+    "title": "DIKSHA public DIAL reference Q7P4E9: MATHS SCRAP BOOK",
+    "url": "https://diksha.gov.in/dial/Q7P4E9",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 201,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Q7P4E9",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Q7P4E9?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "17ca59debed899730b4335ef4693f37a0a38812805bbf35fdaeed6e4d32bcf4b",
+        "response_bytes": 4422,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Q7P4E9",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489763184641405",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "d5e3c871dec18b66cb319ba42a29aa7cf6dbfba6be31a37d4a9949aa8925193d",
+        "response_bytes": 5874
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070307744645121464/maths-scrap-book.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "5cc5784dcda2e2472832e81e37fa3ab8f24f0f9b1b0940824dae19979fd47601",
+        "content_type": "video/mp4",
+        "content_length": 317104080
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070307744645121464/maths-scrap-book.mp4",
+      "bytes": 317104080,
+      "sha256": "40a025ff01fb444f8a379d742d9dfb2bca54658ad06ce76b71051122b369c0c2",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-005",
+    "title": "DIKSHA public DIAL reference S1J4M9: RIVER CLEANING SYSTEM",
+    "url": "https://diksha.gov.in/dial/S1J4M9",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 202,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/S1J4M9",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/S1J4M9?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "9a32a5b12351c58a0a8cb607cd1e177867082075e858c0c49c9b373bce664dfc",
+        "response_bytes": 4429,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "S1J4M9",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489762856961393",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "a08322f7ff80142b6cf2fa07b6f4c10abc1fa8f9b6b89c0600658483ec409a7c",
+        "response_bytes": 6354
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507017729802240126577/river-cleaning-system.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "6cdaf606313a5830dcdf46359fe01a9a8cb894bc06ebbd6bdb9ec05d53a1e839",
+        "content_type": "video/mp4",
+        "content_length": 133171862
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507017729802240126577/river-cleaning-system.mp4",
+      "bytes": 133171862,
+      "sha256": "6114caa956faadcb6d306fbacdefaaf1a026ec59b9147fbe272ed626a8091950",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-006",
+    "title": "DIKSHA public DIAL reference X2X1V7: HOPE (Hardware Optimized for People in Emergency)",
+    "url": "https://diksha.gov.in/dial/X2X1V7",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 203,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/X2X1V7",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/X2X1V7?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "52da2c77056032e2429245c8722bc646234976aca4072a9e2d4426439d1b58f9",
+        "response_bytes": 4454,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "X2X1V7",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489756712961173",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "6d4cb5d3a7b146f804742539a1161255847a2bbb80cb59c94c33b75ed6a7bb42",
+        "response_bytes": 6163
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035973423595521525/hope-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "4df124212fdb01be67169eb629df7c164bcaf3c0cdd7544e2ec8eb51d7a087b2",
+        "content_type": "video/mp4",
+        "content_length": 174717965
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035973423595521525/hope-.mp4",
+      "bytes": 174717965,
+      "sha256": "633b0f89478a62021b490e2cb0ec643714e6d5e01981b1837c23fc0152868ce7",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-007",
+    "title": "DIKSHA public DIAL reference U1M5L8: AGROLINK – AUTOMATIC SMART AGRI SYSTEM",
+    "url": "https://diksha.gov.in/dial/U1M5L8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 204,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/U1M5L8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/U1M5L8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "ae7a2f46b0c45a66c890963a673ceb8b0056036e44252c380eaa070ff8e52153",
+        "response_bytes": 4444,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "U1M5L8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489753927681113",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "39e712af677ef2fa3e11b526d499e12a6baea0b1b4013415218a37db2a86b14e",
+        "response_bytes": 5838
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503591018225664125371/agro-link-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "ec15c9c85f59c3e2ad830083e3bb2ded0454d4323df632fe45de95d54e6b5118",
+        "content_type": "video/mp4",
+        "content_length": 275777149
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503591018225664125371/agro-link-.mp4",
+      "bytes": 275777149,
+      "sha256": "f94f238f9e0c81018ea0d090bb0a2bd19edac4f78fb4e8fa290584d100a292c0",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-008",
+    "title": "DIKSHA public DIAL reference B4U3I2: AREA OF TANGENTIAL POLYGON",
+    "url": "https://diksha.gov.in/dial/B4U3I2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 205,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/B4U3I2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/B4U3I2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "5436c5e7213d839372a48bfd7f3222cb5b1c2423928b46385cfea1d8c77296c5",
+        "response_bytes": 4432,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "B4U3I2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489754009601115",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "ad3cf96724f527874d9f5eb26daa8fca1643e1004d4bb674f9d1cd6f769faab7",
+        "response_bytes": 5884
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035946698997761523/area-of-tangential-polygon.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "b10d0f32c03655535d8bf0f70b124dca82d641711018b1896bcc2394a278cd71",
+        "content_type": "video/mp4",
+        "content_length": 221388360
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035946698997761523/area-of-tangential-polygon.mp4",
+      "bytes": 221388360,
+      "sha256": "87ed8fa18de351e437cb7ace1f3ee99dc92ad6578fe7f12d0fc372dec2acc123",
+      "http_status": 206,
+      "download_method": "initial GET followed by resumed Range GET",
+      "initial_download": {
+        "http_status": "200",
+        "exit_code": 28,
+        "bytes": 201913155,
+        "sha256": "316f1f7ec4215099037595267ac8f08f17e297fb7247fd2395bc8ecc2fe92f45",
+        "elapsed_seconds": 240.13
+      },
+      "resume_request": {
+        "range_start": 201913155,
+        "http_status": "206",
+        "exit_code": 0,
+        "appended_bytes": 19475205
+      }
+    }
+  },
+  {
+    "id": "media-009",
+    "title": "DIKSHA public DIAL reference M8P5L1: LOW-COST DRIVING SIMULATOR FOR SAFE DRIVING TRAINING",
+    "url": "https://diksha.gov.in/dial/M8P5L1",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 207,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/M8P5L1",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/M8P5L1?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "29e209617bb518903ea0e63d58e44f0098190833eac4b09d489632d98ee02aad",
+        "response_bytes": 4460,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "M8P5L1",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489763266561409",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "85885e36f8025301af4f3a5036205ff3ca9399361b4ee9a4208791916fd3654a",
+        "response_bytes": 6344
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507029691187200126588/low-cost-driving-simulator.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "8eb64473ee23901bdb6ec542e74306ec2e0a8be1a90c90ed49a6b56ca79cf5c0",
+        "content_type": "video/mp4",
+        "content_length": 160323780
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507029691187200126588/low-cost-driving-simulator.mp4",
+      "bytes": 160323780,
+      "sha256": "e99ed28310a103407efeef615040a92abba3eff1a6bdd1cfbbacad26e3c3314b",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-010",
+    "title": "DIKSHA public DIAL reference J7E9C2: Li-Fi Based Wireless Data Communication System Using Visible Light",
+    "url": "https://diksha.gov.in/dial/J7E9C2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 209,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/J7E9C2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/J7E9C2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "663804cebb80a7c639ad8fc2f29a84d7f17d23298810ea515903a6b55a11f111",
+        "response_bytes": 4473,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "J7E9C2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489754337281125",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "e26749c3c73a5b4da83d8e1ca561fd26ae79f3389afb77083272fea32a388d56",
+        "response_bytes": 6022
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070240320880641427/li-fi-based-wireless-data-communication-system.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "e686066de9b179376b7a5f2fdb10c9ad45c8074d8211c729baa689a25400f79e",
+        "content_type": "video/mp4",
+        "content_length": 379180828
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070240320880641427/li-fi-based-wireless-data-communication-system.mp4",
+      "bytes": 379180828,
+      "sha256": "41c2194ea4dee380b82161f682985776f44f3e5cd2a72931c1baaaea4cf943f3",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-011",
+    "title": "DIKSHA public DIAL reference H7B8D3: SAMARTH KERALA",
+    "url": "https://diksha.gov.in/dial/H7B8D3",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 211,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/H7B8D3",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/H7B8D3?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "922ba850c5f50e44b70cd5150437bfb7cce3fdd54ac18bbe7e65ca4403ce318c",
+        "response_bytes": 4418,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "H7B8D3",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975187968145",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "76d91a0290cfbd784681336848f6f41a0f9fe58a88de8a9160f933fa2a103096",
+        "response_bytes": 6356
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035931027292161521/an-intelligent-mwdication-management-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "226eb4bf1530d4e0c82cd91dffa20b9d359902bb1adb5d26b801754244c70a19",
+        "content_type": "video/mp4",
+        "content_length": 161776993
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035931027292161521/an-intelligent-mwdication-management-.mp4",
+      "bytes": 161776993,
+      "sha256": "b5015713f09f06f99a53b09d47d0783157b003b85cfe36e382fa313c38e7edbe",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-012",
+    "title": "DIKSHA public DIAL reference B6V4X5: VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+    "url": "https://diksha.gov.in/dial/B6V4X5",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 213,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/B6V4X5",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/B6V4X5?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "7dfb1abe92bcac7eb51c0f01ddc506a5f1c33b8b735f816affbd855e6a928b00",
+        "response_bytes": 4454,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "B6V4X5",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975106048121",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "57ce2de323bf2b27b4b9a113f035d662ba098343e4923120afbd09b4538e2363",
+        "response_bytes": 5927
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070332363653121469/value-added-banana-pseudo-stem-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "eaf5461a4bc3653e63360cd55f9ed579cc9a9aa55dfd3d5ea43d25c0e38a4f9b",
+        "content_type": "video/mp4",
+        "content_length": 219961515
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070332363653121469/value-added-banana-pseudo-stem-.mp4",
+      "bytes": 219961515,
+      "sha256": "dd9ca9c80f31084374d8ac96782528238c9cf0971083a73ac951699089db598d",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-013",
+    "title": "DIKSHA public DIAL reference W8T8B8: AN INTELLIGENT AUTOMATED IOT-BASED MEDICATION MANAGEMENT AND DISPENSING SYSTEM",
+    "url": "https://diksha.gov.in/dial/W8T8B8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 215,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/W8T8B8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/W8T8B8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "3c70fc606d8724f8ef103dcc9804e06016f1eda808a3b3656dde0387261cdb43",
+        "response_bytes": 4482,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "W8T8B8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975073280113",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "908b507d6916853b437518c456bc507c8547e392be907d0b94dd341bb80efd37",
+        "response_bytes": 6381
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070230653829121426/iot-based-medication-management.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "4a6f4a99a71f3f33bb7854871ce3126911ffadc0be0efe28ab05ccba77aea0d5",
+        "content_type": "video/mp4",
+        "content_length": 116818305
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070230653829121426/iot-based-medication-management.mp4",
+      "bytes": 116818305,
+      "sha256": "5ccbb20106ae3b4b0a68a34ab91c3cc341dde7c9c7a37f4d7464505fa87bfc77",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-014",
+    "title": "DIKSHA public DIAL reference Z3P3B7: SMART WHEELCHAIR FOR HANDICAPPED PEOPLE",
+    "url": "https://diksha.gov.in/dial/Z3P3B7",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 217,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Z3P3B7",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Z3P3B7?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "22c57368a9e8024991a62dd9eecba2ac7f642faff5a87902e99051b76d02c4f7",
+        "response_bytes": 4446,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Z3P3B7",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489754173441119",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "d0476506817924e1626ee40e0ddc7bc8d0dc8c8d7461da0e71fcb5ac1230f718",
+        "response_bytes": 6355
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070321767301121467/smart-wheelchair-for-handicapped-people.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "75c8a0578b8f15cdf1033693e7f26603878b7b4f97190eeb238c4b3f173665b9",
+        "content_type": "video/mp4",
+        "content_length": 146774486
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070321767301121467/smart-wheelchair-for-handicapped-people.mp4",
+      "bytes": 146774486,
+      "sha256": "2269ba757ac91da7fdd195e3a0b55ce91e6e1fa2eaf988a63edec654de45d77a",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-015",
+    "title": "DIKSHA public DIAL reference X3L2C8: Exploring the Agricultural Potential of Invasive Plant Species",
+    "url": "https://diksha.gov.in/dial/X3L2C8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 221,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/X3L2C8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/X3L2C8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "ee7e61295f80db874f616f92a63a797a47d081840e2fe3a980be63399b535007",
+        "response_bytes": 4470,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "X3L2C8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489763758081429",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "44d5b8619171bfa8a4efd3bc5fd5a95dd7b0ff4683170b0e07fb8c6e95a069c5",
+        "response_bytes": 6388
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502812186771456125271/exploring-the-agricultural-potential-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "7192198ae39a49b824e5a318720ab8bdb74ce769e7d63acfdaa770626bf116a7",
+        "content_type": "video/mp4",
+        "content_length": 70584198
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502812186771456125271/exploring-the-agricultural-potential-.mp4",
+      "bytes": 70584198,
+      "sha256": "d8ef8636d70e1e93c3b71ee8c94cc130b2720ff075a9e7a348b0c43d1fced723",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-016",
+    "title": "DIKSHA public DIAL reference D8B6U6: SUSTAINABLE AND ECO FRIENDLY DIAPER PRODUCTION FROM NATURAL FIBRES OF BANANA AND BAMBOO",
+    "url": "https://diksha.gov.in/dial/D8B6U6",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 223,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/D8B6U6",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/D8B6U6?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "0f3e861fb93b5d674b2c5d5fe295d91595b7bf9aaf38a2fbef31f0c189395d80",
+        "response_bytes": 4487,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "D8B6U6",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975335424195",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "720ef2362cf87a75846ba1fdca1f1b22065df07a52eac87678111c3cfe9f0940",
+        "response_bytes": 6395
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035029542830081498/sustainable-and-eco-friendly-diaper.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "9ce6f2066dea22e4c7d5a9f0df2d75a409c9859fdf8ceed095d5a2d6eb62232f",
+        "content_type": "video/mp4",
+        "content_length": 91263348
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035029542830081498/sustainable-and-eco-friendly-diaper.mp4",
+      "bytes": 91263348,
+      "sha256": "a91c0defddcf56eeb03d5fb7321049bd7a8b417dd0150fa4d115aa9776326151",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-017",
+    "title": "DIKSHA public DIAL reference Q4X1J2: WATER ON EARTH",
+    "url": "https://diksha.gov.in/dial/Q4X1J2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 224,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Q4X1J2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Q4X1J2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "ce8ab91f96ea10d300e6b01c31b5c67483ca24ce4e820583f5ab4cfa898c6a05",
+        "response_bytes": 4423,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Q4X1J2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489762365441375",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "134154702670314937754dc65424f03d06f514c40e7a24c0b7de18b63b883a2d",
+        "response_bytes": 6229
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503509561991168125345/water-on-earth-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "553b9d7547fd4ccb29e2827a57b862399e3aaec005f8bde38519626a68957c31",
+        "content_type": "video/mp4",
+        "content_length": 119694115
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503509561991168125345/water-on-earth-.mp4",
+      "bytes": 119694115,
+      "sha256": "42f772a83460889224ad5dd8720b3496e47d6fc2156869efd559e0990780faee",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-018",
+    "title": "DIKSHA public DIAL reference R3Z7R2: NEWTON’S LAW OF MOTION",
+    "url": "https://diksha.gov.in/dial/R3Z7R2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 225,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/R3Z7R2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/R3Z7R2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "f7f1c5fd76271585a61f97c78017a1f55f6d1c65faf3dd62552e1f6218a6f10f",
+        "response_bytes": 4436,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "R3Z7R2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489761300481337",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "3d6324bb4fa19d1e83da809732650825d72eb6d36ee5778900adf7ddb5d67b88",
+        "response_bytes": 6207
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035016773877761497/newtons-law-of-motion-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "36eb1146330646cd6a439f677351cbebdc60dd900a2af60ca5d4e3c8e32f9810",
+        "content_type": "video/mp4",
+        "content_length": 144529438
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035016773877761497/newtons-law-of-motion-.mp4",
+      "bytes": 144529438,
+      "sha256": "65002cb8c9125382db0d76a15781a1504152ca338129f41631c003492bad6b7d",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-019",
+    "title": "DIKSHA public DIAL reference K3J4B4: IONISATION BASED FOG HARVESTING SYSTEM",
+    "url": "https://diksha.gov.in/dial/K3J4B4",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 226,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/K3J4B4",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/K3J4B4?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "6b2fbee65273c867df1c4bc5c470c759b286aa98dd71e6fe13128078fb0d2c44",
+        "response_bytes": 4447,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "K3J4B4",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489761546241345",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "8161f51197446d1d3c2131e2edb594fb9d55e34440658381661a6a74414894ac",
+        "response_bytes": 5950
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502817082531840125276/ionisation-based-fog-harvesting-system.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "ebce1bf8736da292b009f93f9eed1427ab6496eb27c9a0c07d8d822d994cc1f9",
+        "content_type": "video/mp4",
+        "content_length": 216647384
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502817082531840125276/ionisation-based-fog-harvesting-system.mp4",
+      "bytes": 216647384,
+      "sha256": "e16fe719737530990cfa6a43db77a71942d8e7b91401a0b299094f913880cc65",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-020",
+    "title": "DIKSHA public DIAL reference D9N7S8: FROM POLLUTIONS TO INNOVATIONS",
+    "url": "https://diksha.gov.in/dial/D9N7S8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 228,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/D9N7S8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/D9N7S8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "6f7512482a9f05f725ba8f1ea30839773da6aa92569ee889f718cbfbc9b63eba",
+        "response_bytes": 4437,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "D9N7S8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489757696001211",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "dca569b14c8c34c0b1cd918df68e9986fd6fda49b97f0b89aef1456d82efbeea",
+        "response_bytes": 6262
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145028144238264321446/from-pollutions-to-innovations-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "241be2ce5bb7f335fb84f78bb7b436224447af9c2842465db15c9134b98eec12",
+        "content_type": "video/mp4",
+        "content_length": 93842176
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145028144238264321446/from-pollutions-to-innovations-.mp4",
+      "bytes": 93842176,
+      "sha256": "f4cb657b30fb11587161cfd769f6ab0831de28e4b67e46e1e3b4f2284cf3972b",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-021",
+    "title": "DIKSHA public DIAL reference W6Q5X2: MAGNETISM",
+    "url": "https://diksha.gov.in/dial/W6Q5X2",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 230,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/W6Q5X2",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/W6Q5X2?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "ccc9dfe762e3e5a0c1f5b4bd2c3a69f7602311727e461c01e5f9aacc1507823c",
+        "response_bytes": 4413,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "W6Q5X2",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975212544155",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "425d37ba1f68055e8b533e98b50944960305d26b9199cde32ab3c3ea03f82a35",
+        "response_bytes": 5739
+      },
+      {
+        "request_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035002180730881496/magnetism-.mp4",
+        "method": "HEAD",
+        "http_status": 200,
+        "headers_sha256": "5787cc2e93f3eb2fdc052b6c029396c0af052f7ed73b0715f87e02891d260511",
+        "content_type": "video/mp4",
+        "content_length": 310339189
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json.",
+    "artifact_get_follow_up": {
+      "checked_on": "2026-11-01",
+      "url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035002180730881496/magnetism-.mp4",
+      "bytes": 310339189,
+      "sha256": "c0efcb013f3813d30521f234b7cdbacf18229d0bf6b20257cd86f9411afdce5d",
+      "http_status": 200,
+      "download_method": "single GET"
+    }
+  },
+  {
+    "id": "media-022",
+    "title": "DIKSHA public DIAL reference Q6A2H4: EARTH MOVEMENT",
+    "url": "https://diksha.gov.in/dial/Q6A2H4",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 235,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Q6A2H4",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Q6A2H4?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "40cdd348edd8f921e2907222841ee3427fbdc50575aa93abe128a6bdda4411eb",
+        "response_bytes": 4394,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Q6A2H4",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489759825921283",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "a4b6848f972fb773396c790cf015daf5896ee55398eeacd7096f3c909182dbde",
+        "response_bytes": 2166
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-023",
+    "title": "DIKSHA public DIAL reference T5F9N3: The Impact of Three-Dimensional Manipulatives on Spatial Reasoning: Solving the Square Pyramid Challenge.",
+    "url": "https://diksha.gov.in/dial/T5F9N3",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 236,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/T5F9N3",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/T5F9N3?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "9677d3a7421109859a11dfbab9dd59f8fc8dbf0b4ed4965ddabcec0e644113fc",
+        "response_bytes": 4483,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "T5F9N3",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489764986881475",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "e82264f9bf65397501a9efdbe5bb5029899d3008317a525cc6f8b06fa57eeb2e",
+        "response_bytes": 2255
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-024",
+    "title": "DIKSHA public DIAL reference E4G1T8: SOUND WAVES AND FREQUENCY",
+    "url": "https://diksha.gov.in/dial/E4G1T8",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 237,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/E4G1T8",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/E4G1T8?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "e50709ff8587300ddba316dde8e1987efe694a8faca1c7b03e65fd9c79be0c9a",
+        "response_bytes": 4402,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "E4G1T8",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975286272177",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "4dab5c02d643dd36d6d2b11c1633b060bd40b2f6c404c4628ef898ed29b77687",
+        "response_bytes": 2175
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-025",
+    "title": "DIKSHA public DIAL reference H3L8Z7: THE RAINBOW UNFOLD",
+    "url": "https://diksha.gov.in/dial/H3L8Z7",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 238,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/H3L8Z7",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/H3L8Z7?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "43e0bbc4de7f5c96f4d7045a13889604d51bbf678c2b5eae17edebf5511f9c3f",
+        "response_bytes": 4395,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "H3L8Z7",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_314492248975294464181",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "3f9a5f6185785ec93209fb81156a8290d840039a552fe7c647d49ba9af44100a",
+        "response_bytes": 2168
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-026",
+    "title": "DIKSHA public DIAL reference Y6T6W1: HYDRO-SEASONAL INFLUENCE ON MICROPLASTICS DYNAMICS: A COMPARATIVE EVALUATION OF SURFACE WATERS IN THE ALAPPUZHA - CHANGANACHERRY CANAL (AC CANAL)",
+    "url": "https://diksha.gov.in/dial/Y6T6W1",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 240,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Y6T6W1",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Y6T6W1?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "3f62aee2685749e74a0c4f7f2020d73f6b097dd357afb2e66c3c553021d8999f",
+        "response_bytes": 4430,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Y6T6W1",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489764085761441",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "8e8c5162874b134b45c0329c1115615cc13120eadd6d0e81e2a92833b8354151",
+        "response_bytes": 2202
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-027",
+    "title": "DIKSHA public DIAL reference H4Y9X9: WONDERS OF WORLD-EYE AND VISION",
+    "url": "https://diksha.gov.in/dial/H4Y9X9",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 242,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/H4Y9X9",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/H4Y9X9?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "fa89381c01b5b0a74e402e92c7abd44654c06c767ffe5dae24a3ad0c9cecf0f9",
+        "response_bytes": 4411,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "H4Y9X9",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489754255361121",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "c1971a84f5bb6dfcd37f3c921e49cd4a1ca6c2433ab3282cfb03034bb611e8be",
+        "response_bytes": 2183
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-028",
+    "title": "DIKSHA public DIAL reference U1K4M5: LEARNING AID BASED ON THE UNIT ‘ATMOSPHERIC CONDITIONS AND CLIMATE’",
+    "url": "https://diksha.gov.in/dial/U1K4M5",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 244,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/U1K4M5",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/U1K4M5?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "bc253ddf0dce957dc16bb2c6d99be962c54f5187965240a1c56e4b43ea70a1b2",
+        "response_bytes": 4460,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "U1K4M5",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489761792001355",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "7aab446befcbce36be4d2149502a853323f24255ea0648ad2cd392a0351312b6",
+        "response_bytes": 2232
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-029",
+    "title": "DIKSHA public DIAL reference Q7M3F6: Tabacco and Neem : A Promising Approach to Manage Giant African land Snail",
+    "url": "https://diksha.gov.in/dial/Q7M3F6",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 245,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Q7M3F6",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Q7M3F6?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "fcab596a60c709822ea2f5f377b202d49fb556d8cc738675e0f42743d9512214",
+        "response_bytes": 4453,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Q7M3F6",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489760071681291",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "397e110fecfd9dadef7dfcbbb88d42861c77cfa39bf09628ab41aec5c9e3578f",
+        "response_bytes": 2225
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-030",
+    "title": "DIKSHA public DIAL reference Z2Y1V3: E. COLI AND PROTOZOA – INDICATOR A BRAIN EATING AMOEBA",
+    "url": "https://diksha.gov.in/dial/Z2Y1V3",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 246,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/Z2Y1V3",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/Z2Y1V3?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "5b1b53822e6bc83a4da9f9a7ee13ee956e2a0590ca04f37bc4084774d9f92e39",
+        "response_bytes": 4432,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "Z2Y1V3",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489756794881175",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "8bf0b15fcd2ba21f8e6baaff5e1bdd9ed93ec5dcd2c53aab47d4ed543b12df97",
+        "response_bytes": 2204
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-031",
+    "title": "DIKSHA public DIAL reference G5W3Q9: TRIGONOMETRY IN PRACTICAL SITUATIONS",
+    "url": "https://diksha.gov.in/dial/G5W3Q9",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_project_media_metadata",
+    "issuer": "DIKSHA; linked video metadata credits SCERT, TELANGANA where present",
+    "compendium_source_id": "pathways-37",
+    "compendium_pdf_page_1based": 247,
+    "acquisitions": [
+      {
+        "request_url": "https://diksha.gov.in/dial/G5W3Q9",
+        "method": "GET",
+        "http_status": 200,
+        "final_url": "https://diksha.gov.in/get/dial/G5W3Q9?source=scan",
+        "response_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+        "response_bytes": 5426,
+        "response_scope": "Common client-side application shell; no project content in this HTML."
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/data/v1/dial/assemble",
+        "method": "POST",
+        "http_status": 200,
+        "response_sha256": "011052f2dd5cd41fcb0d0ca2acf46d8166b57623a5b73ea79d0510ecc6a565e8",
+        "response_bytes": 4417,
+        "request_body": {
+          "request": {
+            "source": "web",
+            "name": "DIAL Code Consumption",
+            "filters": {
+              "dialcodes": "G5W3Q9",
+              "contentType": [
+                "Collection",
+                "TextBook",
+                "TextBookUnit",
+                "Resource",
+                "Course"
+              ]
+            },
+            "userProfile": {}
+          }
+        }
+      },
+      {
+        "request_url": "https://diksha.gov.in/api/course/v1/hierarchy/do_3144922489764904961471",
+        "method": "GET",
+        "http_status": 200,
+        "response_sha256": "11091d0a2ee8fc6e92cf5fe43766c9de969cce43bda14e32d57379f86cb2490e",
+        "response_bytes": 2189
+      }
+    ],
+    "notes": "Read-only guest lookup reconstructed from the live portal frontend (media-033/media-034), followed by public collection hierarchy and artifact HEAD where available. Response snapshots are hashed by version. No authentication/access requests made; metadata availability and sampled visual review are separate in project-media-index.json."
+  },
+  {
+    "id": "media-032",
+    "title": "DIKSHA guest DIAL application shell",
+    "url": "https://diksha.gov.in/get/dial/M8P5L1?source=scan",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_frontend_source",
+    "issuer": "DIKSHA",
+    "download_sha256": "5f85a3582bef1f297009d1ab554ae9ae966df95234d91228b7a26fbb96f55663",
+    "download_bytes": 5426,
+    "notes": "Contains script references and an empty app-root; does not itself expose the project resource."
+  },
+  {
+    "id": "media-033",
+    "title": "DIKSHA public frontend main bundle",
+    "url": "https://diksha.gov.in/dist/main.1f83f909a33b935d71fa.js",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_frontend_source",
+    "issuer": "DIKSHA",
+    "download_sha256": "5dc2f5f2eaf5fbe37e481e604e71071e2650f3ef92773a8affca70c233c19286",
+    "download_bytes": 8953959,
+    "notes": "Defines PUBLIC_PREFIX=/api/, DIAL_ASSEMBLE_PREFIX=data/v1/dial/assemble, COURSE.HIERARCHY=course/v1/hierarchy, and guest content types."
+  },
+  {
+    "id": "media-034",
+    "title": "DIKSHA public DIAL-search frontend bundle",
+    "url": "https://diksha.gov.in/dist/46.1bb4f281591409b578ba.js",
+    "accessed_on": "2026-11-01",
+    "source_date": null,
+    "source_type": "official_public_frontend_source",
+    "issuer": "DIKSHA",
+    "download_sha256": "af601c83c509d423a2d1a044ffdee0243193a2e02234f8c5645dfabd2bc73c2d",
+    "download_bytes": 66239,
+    "notes": "searchDialCodeAssemble/getRequest constructs the source=web DIAL Code Consumption request with the dial code, configured content types and an empty guest userProfile; public hierarchy traversal exposes playable children."
+  }
+]

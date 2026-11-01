@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "case-2024-eplant",
+    "year": 2024,
+    "title": "E-Plant, Automatic Smart Agri System",
+    "source_ids": [
+      "project-006",
+      "pathways-33"
+    ],
+    "exhibit_code": "12.3.1",
+    "students_credited": [
+      "Devdarsh Chand K.",
+      "Jia S Jith"
+    ],
+    "teachers_credited": [
+      "Rajesh K."
+    ],
+    "school_as_published": "Rajeev Gandhi Memorial Higher Secondary School, Mokeri, Panoor Kannur",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 90,
+    "printed_page": 77,
+    "selection_status": "national_selected_list_and_catalogue",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "sensor automation",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-12-3-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 3,
+      "heading_as_published": "Kerala",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
+  },
+  {
+    "id": "case-2024-nolvas",
+    "year": 2024,
+    "title": "NOLVAS—Five-in-One Truck",
+    "source_ids": [
+      "project-006",
+      "pathways-33"
+    ],
+    "exhibit_code": "12.4.1",
+    "students_credited": [
+      "Ahamed Nibras E.A.",
+      "Mohammad Shamil Sidhik"
+    ],
+    "teachers_credited": [
+      "Sameer P.M."
+    ],
+    "school_as_published": "G.H.S.S. Cherkala Central, Cherkala, Chengala, Kasargod",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 131,
+    "printed_page": 118,
+    "selection_status": "national_selected_list_and_catalogue",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "hydraulics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-12-4-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 4,
+      "heading_as_published": "Kerala",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    },
+    "credit_variant_finding_ids": [
+      "variant-2024-nolvas-guide"
+    ],
+    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer."
+  },
+  {
+    "id": "case-2024-auto-rescue",
+    "year": 2024,
+    "title": "Auto Rescue Smart Notification System",
+    "source_ids": [
+      "project-006",
+      "pathways-33"
+    ],
+    "exhibit_code": "42.4.1",
+    "students_credited": [
+      "Abhikrishna K. A."
+    ],
+    "teachers_credited": [
+      "Ajai P."
+    ],
+    "school_as_published": "PM Shri Jawahar Navodaya Vidyalaya, Mayannur, Thrissur",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 152,
+    "printed_page": 139,
+    "selection_status": "national_selected_list_and_catalogue",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "notification pipeline",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2024-selected-42-4-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-33",
+      "pdf_page_1based": 14,
+      "heading_as_published": "Navodaya Vidyalaya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
+  },
+  {
+    "id": "case-2023-tinyml",
+    "year": 2023,
+    "title": "Tiny ML in Robotics",
+    "source_ids": [
+      "project-005",
+      "pathways-32",
+      "pathways-04",
+      "pathways-96"
+    ],
+    "exhibit_code": "43.1.1",
+    "students_credited": [
+      "Ayaz Akbar",
+      "Dhanush D",
+      "Anurag C"
+    ],
+    "teachers_credited": [
+      "Sreenivasan T.A"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Malappuram O.K. Muri (P.O.), Venkulam",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 31,
+    "printed_page": 19,
+    "selection_status": "national_selected_list_and_catalogue",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis_plus_publisher_reproduced_first_person_writeup",
+    "method_tag": "gesture input",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2023-selected-43-1-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "heading_as_published": "Navodya Vidyalya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    },
+    "credit_variant_finding_ids": [
+      "variant-2023-tinyml-credits"
+    ],
+    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer.",
+    "publisher_reproduced_writeup_observation": {
+      "source_ids": [
+        "pathways-04",
+        "pathways-96"
+      ],
+      "document_kind": "publisher_reproduced_illustrative_first_person_writeup",
+      "locators": [
+        {
+          "source_id": "pathways-04",
+          "pdf_pages_1based": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "printed_pages": [
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "source_id": "pathways-96",
+          "pdf_pages_1based": [
+            40,
+            41,
+            42,
+            43
+          ],
+          "printed_pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "sample_title_as_published": "TINYML IN ROBOTICS",
+      "sample_participant_credit_as_published": "AYAZ AKBAR",
+      "sample_guide_credit_as_published": "SREENIVASAN T A",
+      "sample_school_heading_as_published": "JAWAHAR NAVODAYA VIDYALAYA",
+      "sample_exhibit_label_source96": "IT Exhibit 2023-24",
+      "sample_full_school_address": null,
+      "sample_exhibit_code": null,
+      "correspondence_basis": [
+        "Title matches apart from spacing/case",
+        "Public pupil name agrees with one existing synopsis credit",
+        "Public guide name agrees apart from initials punctuation",
+        "RP2040/MPU6050 gesture-game mechanism corresponds"
+      ],
+      "correspondence_limits": "No full Malappuram address on sample; public-name correspondence does not independently establish identity, a single unchanged project version or pupil-work division. Original synopsis/selection/form credit sets remain separate.",
+      "source_reported_method": "A reproduced first-person sample describes MPU6050 I2C sensing, Pico gesture classification, USB/HC-05 messages to Python games and Edge Impulse deployment. It reports ten minutes of training per gesture and neural-network, anomaly-detection and spectral-analysis options.",
+      "training_time_as_reported": "10 min each gesture",
+      "signal_screenshot_labels_as_published": [
+        "Backward",
+        "Forward",
+        "Idle",
+        "Left",
+        "Right"
+      ],
+      "sample_scope_note": "Signal traces are illustrations. No downloadable raw dataset, exact training sample counts, trained weights, architecture/hyperparameters, measured recognition accuracy/latency or exhibit-specific code is supplied. Applications include wheelchair control, with no wheelchair trial on these pages.",
+      "publication_version_note": "Source96 retains IT Exhibit 2023–24; source04 masks the date area. Earlier reproduction chronology is edition-label evidence, not an exact issue date.",
+      "identity_independently_verified": false,
+      "unchanged_project_version_verified": false,
+      "scientific_performance_independently_verified": false,
+      "student_work_division_verified": false,
+      "wheelchair_trial_established": false,
+      "training_dataset_file_received": false,
+      "trained_model_file_received": false,
+      "project_code_repository_received": false
+    },
+    "chapter_source_id": "pathways-96",
+    "chapter_pdf_pages_1based": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "chapter_printed_pages": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "chapter_evidence_kind": "publisher_reproduced_illustrative_first_person_writeup",
+    "chapter_count_scope": "One canonical four-page illustrative report, reproduced in two guideline editions; not two models and not an additional Structure and Working selected-model chapter.",
+    "chapter_reproductions": [
+      {
+        "source_id": "pathways-96",
+        "pdf_pages_1based": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "printed_pages": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "edition_label": "2024–25 / 52nd RBVP 2025",
+        "canonical_page_count": 4
+      },
+      {
+        "source_id": "pathways-04",
+        "pdf_pages_1based": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "printed_pages": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "edition_label": "2025–26 / 53rd RBVP 2026",
+        "counted_as_additional_canonical_report": false
+      }
+    ]
+  },
+  {
+    "id": "case-2023-integral",
+    "year": 2023,
+    "title": "Definite Integral—The Revolving Door",
+    "source_ids": [
+      "project-005",
+      "pathways-32"
+    ],
+    "exhibit_code": "43.7.1",
+    "students_credited": [
+      "Mansa"
+    ],
+    "teachers_credited": [
+      "Latha V."
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Chettachal, Thiruvananthapuram",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 194,
+    "printed_page": 182,
+    "selection_status": "national_selected_list_and_catalogue",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "interactive mathematics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "national_selection_record_ids": [
+      "rbvp-2023-selected-43-7-1"
+    ],
+    "selection_heading_evidence": {
+      "source_id": "pathways-32",
+      "pdf_page_1based": 9,
+      "heading_as_published": "Navodya Vidyalya Samiti",
+      "scope": "Organiser selection grouping; not attendance, prize or a recovered local qualifying rank."
+    }
+  },
+  {
+    "id": "case-2019-trap",
+    "year": 2019,
+    "title": "Suction-bait Trap",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "39.1.1",
+    "students_credited": [
+      "Richard Joseph"
+    ],
+    "teachers_credited": [
+      "Ajith S.R.",
+      "P. Suma"
+    ],
+    "school_as_published": "Kendriya Vidyalaya No.-1, Naval Base, Kochi",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 32,
+    "printed_page": 21,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "field study",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-microscope",
+    "year": 2019,
+    "title": "Smart Electrical Microscope",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "16.2.1",
+    "students_credited": [
+      "Ashif Ali P.",
+      "Ruvais P."
+    ],
+    "teachers_credited": [
+      "Arun. S. Nair",
+      "Shabeer C.K."
+    ],
+    "school_as_published": "Crescent Higher Secondary School, Adakkakundu, Kalikavu",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 44,
+    "printed_page": 33,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "reused optics",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-peltier",
+    "year": 2019,
+    "title": "Portable Smart Air Conditioner",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "16.3.1",
+    "students_credited": [
+      "Ashin P. Krishna",
+      "Anandu P."
+    ],
+    "teachers_credited": [
+      "Rasiya"
+    ],
+    "school_as_published": "G.H.S.S. Mavoor Kanniparamba, Mavoor, Kozhikode",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 80,
+    "printed_page": 69,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "thermoelectric cooling",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2019-cnc",
+    "year": 2019,
+    "title": "Computerised Numerical Control Machine",
+    "source_ids": [
+      "project-004"
+    ],
+    "exhibit_code": "43.3.2",
+    "students_credited": [
+      "Spandan Karwade"
+    ],
+    "teachers_credited": [
+      "Leena Josephain"
+    ],
+    "school_as_published": "Navy Children School, Naval Base, Cochin",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 99,
+    "printed_page": 88,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "computer-controlled machining",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-planter",
+    "year": 2018,
+    "title": "PI Planter",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "16.5.1",
+    "students_credited": [
+      "Alok N",
+      "Johan J Chirackel"
+    ],
+    "teachers_credited": [
+      "Sanuja AS"
+    ],
+    "school_as_published": "Rajagiri High School, Kalamassery",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 135,
+    "printed_page": 123,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "agricultural monitoring",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-line-robot",
+    "year": 2018,
+    "title": "Line Follower Robot using Arduino",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "16.5.2",
+    "students_credited": [
+      "Nandana S",
+      "Abhija Ashok"
+    ],
+    "teachers_credited": [
+      "Ashok Kumar MP"
+    ],
+    "school_as_published": "Netaji High School, Pramadom",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 136,
+    "printed_page": 124,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "reflectance control",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2018-bins",
+    "year": 2018,
+    "title": "SEBI with Auto WS",
+    "source_ids": [
+      "project-003"
+    ],
+    "exhibit_code": "39.4.1",
+    "students_credited": [
+      "Aarsha Paramelpady",
+      "Anjaly Sumap",
+      "Arundhathi R",
+      "Angha G",
+      "Devika R"
+    ],
+    "teachers_credited": [
+      "Beena Kumari"
+    ],
+    "school_as_published": "KV Ottapalam, Palakkad",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 120,
+    "printed_page": 108,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "bin monitoring",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2026-driving",
+    "year": 2026,
+    "title": "Simulation Driving Instrument (Robotics)",
+    "source_ids": [
+      "project-007",
+      "project-008",
+      "pathways-37"
+    ],
+    "exhibit_code": "KL-I-09",
+    "students_credited": [
+      "Muhammed Arif K F"
+    ],
+    "teachers_credited": [
+      "Khadeeja T"
+    ],
+    "school_as_published": "M C M H S School, Pattimattom, Ernakulam",
+    "class_as_published": "IX",
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala individual first",
+    "qualifying_route": null,
+    "evidence_kind": "official_award_plus_official_compendium",
+    "method_tag": "simulator interface",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Arduino Leonardo steering/pedal inputs are mapped and calibrated to ETS2 simulation.",
+    "evidence_limits": "No training sample, scoring series or real-road safety benefit is established.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-individual-p168",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        207,
+        208
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code matches award code; pupil name and school location correspond with spelling/expansion variants. Title differs and guides differ; retain both source versions. No inference about work division or common guide identity.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-I-09",
+        "pdf_page_1based": 207,
+        "locator": "PDF207 embedded photograph: upper-left wall sign; additional smaller label KLI-9"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Muhammed Arif K F"
+        ],
+        "guide_credited": "Khadeeja T"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-individual-p168",
+        "pdf_pages_1based": [
+          207,
+          208
+        ],
+        "students_credited": [
+          "Muhammed Arif K.F."
+        ],
+        "guides_credited": [
+          "Hyrunnisa MH"
+        ]
+      }
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-individual-p168"
+  },
+  {
+    "id": "case-2026-medibot",
+    "year": 2026,
+    "title": "Medibot Engineering",
+    "source_ids": [
+      "project-007",
+      "pathways-37"
+    ],
+    "exhibit_code": "KL-I-05",
+    "students_credited": [
+      "Anuvind K Raj"
+    ],
+    "teachers_credited": [
+      "Neetha K"
+    ],
+    "school_as_published": "Koodali H S S, Koodali, Kannur",
+    "class_as_published": "X",
+    "pdf_page_1based": 1,
+    "printed_page": 1,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Overall individual second",
+    "qualifying_route": null,
+    "evidence_kind": "official_award_plus_official_compendium",
+    "method_tag": "cloud-scheduled medication dispensing",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "ESP32/C++ uses Firebase JSON schedules, NTP time and motors to dispense medicines.",
+    "evidence_limits": "No dose/reliability trial series or ingestion verification; hourly fetching conflicts with the immediate-update claim.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-individual-p176",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        215,
+        216
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code matches award code, and photograph poster says MEDBOT. School corresponds; pupil spelling Anuvind/Anuvund and guide Neetha K/Neetha differ. Long compendium title should not replace award title or credits.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-I-05",
+        "pdf_page_1based": 215,
+        "locator": "PDF215 embedded photograph: wall sign above MEDBOT poster"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "Anuvind K Raj"
+        ],
+        "guide_credited": "Neetha K"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-individual-p176",
+        "pdf_pages_1based": [
+          215,
+          216
+        ],
+        "students_credited": [
+          "Anuvund K Raj"
+        ],
+        "guides_credited": [
+          "Neetha"
+        ]
+      }
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-individual-p176"
+  },
+  {
+    "id": "case-2026-fog",
+    "year": 2026,
+    "title": "Fog (Humidity) Harvesting System",
+    "source_ids": [
+      "project-007",
+      "pathways-37"
+    ],
+    "exhibit_code": "KL-G-03",
+    "students_credited": [
+      "Saneen Jasim",
+      "Karthik P Panicker"
+    ],
+    "teachers_credited": [
+      "Abdul Shukkoor"
+    ],
+    "school_as_published": "Chentrappinni Higher Secondary School, Thrissur",
+    "class_as_published": [
+      "X",
+      "X"
+    ],
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala group first",
+    "qualifying_route": null,
+    "evidence_kind": "official_award_plus_official_compendium",
+    "method_tag": "electrostatic fog collection",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "An ionisation model attracts fog droplets to a Peltier-cooled collector mesh.",
+    "evidence_limits": "Testing is claimed without yield/energy tables or potable-water analysis.",
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-group-p185",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        226,
+        227
+      ],
+      "status": "code_supported_correspondence",
+      "note": "Printed photograph code and both pupil names match award record; school address/title vary. Award teacher Abdul Shukkoor and compendium guide Jiji KR differ materially; do not resolve them into one credited person.",
+      "source_image_code_evidence": {
+        "exhibit_code_as_visible": "KL-G-03",
+        "pdf_page_1based": 226,
+        "locator": "PDF226 embedded photograph: red wall sign at top edge"
+      }
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Saneen Jasim",
+          "Karthik P Panicker"
+        ],
+        "guide_credited": "Abdul Shukkoor"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-group-p185",
+        "pdf_pages_1based": [
+          226,
+          227
+        ],
+        "students_credited": [
+          "Saneen Jasim",
+          "Karthik P Panicker"
+        ],
+        "guides_credited": [
+          "Jiji KR"
+        ]
+      }
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-group-p185"
+  },
+  {
+    "id": "case-2026-diaper",
+    "year": 2026,
+    "title": "Sustainable Diaper from Natural Fibres",
+    "source_ids": [
+      "project-007"
+    ],
+    "exhibit_code": "KL-G-06",
+    "students_credited": [
+      "Avanthika C R",
+      "Visishta Valsan"
+    ],
+    "teachers_credited": [
+      "Resmi K A"
+    ],
+    "school_as_published": "H S S Panangad, Thrissur",
+    "class_as_published": [
+      "IX",
+      "IX"
+    ],
+    "pdf_page_1based": 4,
+    "printed_page": 4,
+    "selection_status": "SISF_2026_participant",
+    "prize_status": "Kerala group third",
+    "qualifying_route": null,
+    "evidence_kind": "award_only_with_candidate_compendium",
+    "method_tag": null,
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "compendium_correspondence": {
+      "entry_id": "sisf-2026-kerala-group-p182",
+      "source_id": "pathways-37",
+      "pdf_pages_1based": [
+        223
+      ],
+      "status": "candidate_participant_school_and_topic_correspondence",
+      "note": "Strong candidate from both pupil names, school, category and subject, with expanded title and guide spelling Resmi/Reshmi variant. Code remains award-source-only until independently located in compendium. Do not infer authorship contribution or common guide identity."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-007",
+        "pdf_pages_1based": [
+          4
+        ],
+        "students_credited": [
+          "Avanthika C R",
+          "Visishta Valsan"
+        ],
+        "guide_credited": "Resmi K A"
+      },
+      {
+        "source_id": "pathways-37",
+        "entry_id": "sisf-2026-kerala-group-p182",
+        "pdf_pages_1based": [
+          223
+        ],
+        "students_credited": [
+          "Avanthika CR",
+          "Visishta Valsan"
+        ],
+        "guides_credited": [
+          "Reshmi KA"
+        ]
+      }
+    ],
+    "public_media_record_id": "media-sisf-2026-kerala-group-p182"
+  },
+  {
+    "id": "case-2015-head-controlled-wheel-chair",
+    "year": 2015,
+    "title": "Head-Controlled Wheel Chair",
+    "source_ids": [
+      "project-013"
+    ],
+    "exhibit_code": "16.1.4",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Government Higher Secondary School, South Tikaripur, Elambachi, Kasaragod, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 18,
+    "printed_page": 9,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "MEMS head-movement input",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2016-vetiver-water-treatment",
+    "year": 2016,
+    "title": "Water Treatment by Vetiver Grass",
+    "source_ids": [
+      "project-014"
+    ],
+    "exhibit_code": "46.3.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Bhavan’s Vidya Mandir, Elamakkara, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 76,
+    "printed_page": 65,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "plant-based wastewater treatment",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2017-third-eye",
+    "year": 2017,
+    "title": "Third Eye for the Blind",
+    "source_ids": [
+      "project-015"
+    ],
+    "exhibit_code": "16.3.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "SMV Higher Secondary School, Poonjar (PO), Kottayam, Kerala - 686581",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 51,
+    "printed_page": 37,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "ultrasonic navigation assistance",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2017-ecocook-power",
+    "year": 2017,
+    "title": "EcoCook Power+",
+    "source_ids": [
+      "project-015"
+    ],
+    "exhibit_code": "16.4.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Government Boys Higher Secondary School, Haripad, Alappuzha Dist., Kerala - 690514",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 65,
+    "printed_page": 51,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "wood-fuel thermoelectric generation",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2012-line-follower",
+    "year": 2012,
+    "title": "Line Follower",
+    "source_ids": [
+      "project-018"
+    ],
+    "exhibit_code": "14.5",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Providence Girls Higher Secondary School, Nadakkav, Kozhikode, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 72,
+    "printed_page": 61,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "colour-path sensing and robot motion",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2013-borewell-rescue",
+    "year": 2013,
+    "title": "Borewell Rescue System",
+    "source_ids": [
+      "project-019"
+    ],
+    "exhibit_code": "14-5.3",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Govt. Sanskrit H.S. School, Meppayil, Vatakara, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 79,
+    "printed_page": 69,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "Archimedes-screw rescue mechanism",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-solar-water-heater",
+    "year": 2014,
+    "title": "Innovative Solar Water Heater",
+    "source_ids": [
+      "project-020"
+    ],
+    "exhibit_code": "38.2.1",
+    "students_credited": [],
+    "teachers_credited": [],
+    "school_as_published": "Kendriya Vidyalaya No. 1, Naval Base, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 48,
+    "printed_page": 39,
+    "selection_status": "national_catalogue_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_synopsis",
+    "method_tag": "solar water heating with reused tubes",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2009-fishery-waste",
+    "year": 2009,
+    "title": "Useful Products from Fishery Waste",
+    "source_ids": [
+      "project-021"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 11,
+    "students_credited": [
+      "Jameil S. Kolliyil",
+      "Sabin Raj",
+      "Sharath T S",
+      "Jerin Joe"
+    ],
+    "teachers_credited": [
+      "Ajith S R"
+    ],
+    "school_as_published": "Kendriya Vidyalaya, Port Trust, Kochi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 45,
+    "printed_page": 37,
+    "chapter_pdf_pages_1based": [
+      45,
+      46,
+      47,
+      48
+    ],
+    "chapter_printed_pages": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "chemical recovery",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "The report describes processing crustacean shells to remove proteins and minerals, then converting chitin to chitosan. A separate workflow cleans, enzyme-treats, dries and powders tuna bones.",
+    "evidence_limits": "No measured yields, purity analyses, comparative costs or independent validation are supplied. Listed food and medical uses are proposed applications, not demonstrated product safety or clinical findings."
+  },
+  {
+    "id": "case-2012-water-pump",
+    "year": 2012,
+    "title": "Water Pump System",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 7,
+    "students_credited": [
+      "Akshaj Prem"
+    ],
+    "teachers_credited": [
+      "Aneesh Kumar KP",
+      "Vinod Kumar K"
+    ],
+    "school_as_published": "Mambaram Higher Secondary School, Mambaram, Pinarayi, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 35,
+    "printed_page": 26,
+    "chapter_pdf_pages_1based": [
+      35,
+      36,
+      37
+    ],
+    "chapter_printed_pages": [
+      26,
+      27,
+      28
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "float and relay feedback",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Two vertical side pipes carry floats and metal contacts. High or low water levels complete separate circuits, energising relays to shut the pumping valve; closed and open outlets simulate obstruction and leakage.",
+    "evidence_limits": "No calibrated pressure thresholds, response-time series or field leakage trials are reported.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-6",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Strong school/locality/problem correspondence, with a title-wording variation. The catalogue synopsis identifies pipeline leakage. No pupil names appear in the inspected catalogue row, so this is not a formal recovered author/code crosswalk."
+    }
+  },
+  {
+    "id": "case-2012-maglev",
+    "year": 2012,
+    "title": "Maglev Rail",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Nijin V. Joseph",
+      "M.S. Suman"
+    ],
+    "teachers_credited": [
+      "V.R. Anish",
+      "M.S. Preethi"
+    ],
+    "school_as_published": "S.N.V. Skt Higher Secondary School, North Paravoor, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 38,
+    "printed_page": 29,
+    "chapter_pdf_pages_1based": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "chapter_printed_pages": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "magnetic model and control circuits",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Permanent magnets support a guided model; toy-aircraft propellers provide thrust. Separate DVD-loader mechanisms operate doors; limit-switch signals advance a PIC 16F877A/LCD next-station display.",
+    "evidence_limits": "Commercial metro use and energy/cost savings are proposed. No load, stability or comparative power measurements, or firmware listing, are supplied. Broad statements about real maglev systems are source claims, not independently verified technical facts.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-4",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Exact title and strong school/locality correspondence; the report adds Skt and spells the place North Paravoor. No pupil names appear in the inspected catalogue row, so report exhibit_code remains null."
+    }
+  },
+  {
+    "id": "case-2012-safe-skyscraper",
+    "year": 2012,
+    "title": "Safe Sky Scraper",
+    "source_ids": [
+      "project-024"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 9,
+    "students_credited": [
+      "Akash Sudarsan",
+      "S.H. Aswin"
+    ],
+    "teachers_credited": [
+      "S.R. Sheeba"
+    ],
+    "school_as_published": "Government Higher Secondary School, Anchal East, Kollam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 44,
+    "printed_page": 35,
+    "chapter_pdf_pages_1based": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "chapter_printed_pages": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "proposed structural design",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "method_summary": "Proposes a building model combining base isolation, a shear core, an internal lightning conductor, a porous exterior and a hydraulic lift. Figures show models; disaster resistance is asserted rather than established by measured tests.",
+    "evidence_limits": "No seismic, wind, lightning or flood test results, engineering certification or full-scale deployment are supplied. Do not describe it as disaster-proof. The text mixes roller-isolation and lead-rubber-bearing descriptions without validating their combined implementation.",
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2012-14-7",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "Strong school/locality/design correspondence with a plural/spacing title variation. No pupil names appear in the inspected catalogue row, so report exhibit_code remains null."
+    }
+  },
+  {
+    "id": "case-2013-molten-salt-solar",
+    "year": 2013,
+    "title": "Molten Salt Solar Technology",
+    "source_ids": [
+      "project-025"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Rohith Krishnan MK"
+    ],
+    "teachers_credited": [
+      "Abraham Varghese",
+      "Tessy Lukose"
+    ],
+    "school_as_published": "St. Ephrem's Higher Secondary School, Kottayam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 36,
+    "printed_page": 27,
+    "chapter_pdf_pages_1based": [
+      36,
+      37,
+      38
+    ],
+    "chapter_printed_pages": [
+      27,
+      28,
+      29
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "conceptual solar-thermal storage model",
+    "method_summary": "Craft materials represent a proposed molten-salt solar plant and its process components.",
+    "evidence_limits": "No measured electricity generation. Source output figures use MV/day and GV; these are unverified and must not be silently relabelled as MW. Process and by-product claims require separate scientific verification.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-step-climbing-trolley",
+    "year": 2014,
+    "title": "Step Climbing Trolley",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 3,
+    "students_credited": [
+      "Abhijit Vargese"
+    ],
+    "teachers_credited": [
+      "Saji P.C."
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Palakkad, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 17,
+    "printed_page": 10,
+    "chapter_pdf_pages_1based": [
+      17,
+      18,
+      19
+    ],
+    "chapter_printed_pages": [
+      10,
+      11,
+      12
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "curved-arm mechanical trolley",
+    "method_summary": "Ball bearings arranged on a curved arm assist a trolley over steps.",
+    "evidence_limits": "Sensors and automatic deployment are explicitly proposed improvements. No load, pulling-force or durability measurements are supplied.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-intelligent-ambulance",
+    "year": 2014,
+    "title": "Intelligent Ambulance and Multipurpose Traffic Signal",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 15,
+    "students_credited": [
+      "Jaya Krishnan",
+      "Sooraj Tom",
+      "Neeraj Ramchandra",
+      "Nithin M. Thomas"
+    ],
+    "teachers_credited": [
+      "V. Ramdas"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Vadavathoor, Kottayam, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 63,
+    "printed_page": 56,
+    "chapter_pdf_pages_1based": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "chapter_printed_pages": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "metal detector, relay and alarm model",
+    "method_summary": "A metal-detector input switches model signals through a relay; NE555 circuits support alerts.",
+    "evidence_limits": "No AI/code implementation, reliable vehicle identification, real police-control-room integration or measured traffic benefit is established. CCTV, firefighting and enforcement applications remain unvalidated.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2014-geothermal-plant",
+    "year": 2014,
+    "title": "Multipurpose Geothermal Plant",
+    "source_ids": [
+      "project-026"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 17,
+    "students_credited": [
+      "Pratheeksha Praveen",
+      "Zayana Ali"
+    ],
+    "teachers_credited": [
+      "Anitha Kumary C",
+      "Sajima Beegam M.P"
+    ],
+    "school_as_published": "Providence Higher School, Calicut, Nadakkavu, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 76,
+    "printed_page": 69,
+    "chapter_pdf_pages_1based": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "chapter_printed_pages": [
+      69,
+      70,
+      71,
+      72
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "geothermal process concept model",
+    "method_summary": "PVC, cardboard and similar materials illustrate a proposed geothermal plant and associated uses.",
+    "evidence_limits": "No actual geothermal drilling, electricity generation, hydrogen production or desalination is established. The report’s mixed decomposition/electrolysis description needs scientific clarification.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2011-automatic-crane",
+    "year": 2011,
+    "title": "Automatic Crane",
+    "source_ids": [
+      "project-023"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 8,
+    "students_credited": [
+      "Anura Nair",
+      "A.R. Ayana S.P."
+    ],
+    "teachers_credited": [
+      "Alice Scariya",
+      "Mini, M.L."
+    ],
+    "school_as_published": "Government Girls Higher Secondary School, Vaznuthakkad, Thiruvananthapuram, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 37,
+    "printed_page": 29,
+    "chapter_pdf_pages_1based": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "chapter_printed_pages": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "lever and pulley, remote-controlled motors and electromagnet",
+    "method_summary": "A lever/pulley assembly uses geared motors for rotation and lifting. FM remote circuits operate motor relays; a separate IR remote circuit switches an electromagnet.",
+    "evidence_limits": "No quantified load, range, response/reliability tests or safety validation is supplied. The mechanical-advantage calculation, signal-frequency wording and no-loss-of-energy claim are not independently verified; listed 6 V motors versus described 9 V motor operation also need clarification. No AI or source-code implementation is established.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "catalogue_correspondence": {
+      "discovery_id": "ncert-discovery-2011-14-4",
+      "status": "candidate_school_and_topic_correspondence",
+      "note": "The 2011 catalogue lists Automatic Crane for Government Girls Higher Secondary School, Vaznuthakka, Thiruvananthapuram (code 14.4). Title and locality match, with a published spelling variation, but that catalogue row has no pupil/teacher credits. This is not a formal recovered author/code crosswalk; exhibit_code remains null."
+    }
+  },
+  {
+    "id": "case-1962-naval-school-project-record",
+    "year": 1962,
+    "title": "Report on the Rocket Launched by the Science Club of Naval High School, Cochin",
+    "source_ids": [
+      "project-027"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "S. Sreedhar",
+      "Balingibhan Bhattacharya",
+      "D. Narayana Moorthy",
+      "Srinivasa Bhakta"
+    ],
+    "teachers_credited": [
+      "A. C. De. Almeida"
+    ],
+    "school_as_published": "Naval High School, Cochin",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 31,
+    "printed_page": 25,
+    "report_pdf_pages_1based": [
+      31,
+      32,
+      33
+    ],
+    "report_printed_pages": [
+      25,
+      26,
+      27
+    ],
+    "selection_status": "historical_school_project_account",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "historical_institutional_project_report",
+    "method_tag": "project approval, iterative construction and reported defect observation",
+    "method_summary": "The account records an approved pupil project, repeated design revisions and teacher supervision. Its test narrative describes parts separating and the body striking a school wall.",
+    "evidence_limits": "The narrator calls the attempt a success while reporting separation, defects and wall impact. These are source observations and an attributed assessment, not an independently validated overall success/failure verdict. No independent measurements or safe reproducible design is established; operational construction and launch directions are excluded here. The account alone does not establish a competition entry, prize or national selection; the separately documented regional prize observation has its own correspondence limits.",
+    "credit_variants": {
+      "opening_group_list": "S. Sreedhar",
+      "closing_signature": "S. Sridhar",
+      "note": "Preserved as a source spelling variant, not two verified people."
+    },
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2003-garbage-elutriator",
+    "year": 2003,
+    "title": "Garbage Elutriator",
+    "source_ids": [
+      "project-028"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 13,
+    "students_credited": [
+      "S Harisankar"
+    ],
+    "teachers_credited": [
+      "Jitha K Nair"
+    ],
+    "school_as_published": "Jawahar Navodaya Vidyalaya, Vechoochira, Pathanamthitta, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 34,
+    "printed_page": 28,
+    "chapter_pdf_pages_1based": [
+      34,
+      35
+    ],
+    "chapter_printed_pages": [
+      28,
+      29
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "wastewater electrode cells, filtration and biogas concept",
+    "method_summary": "The report links waste chopping and collection, electrode cells, sand/gravel/charcoal filtration, and a biogas/manure stage in a process model.",
+    "evidence_limits": "The approximately 1.5 V is an attributed report claim, without current/load, electrode-material details or repeated measurements. No validated useful power, gas yield, filtration performance or drinking-water safety is established. Its electrolytic-cell terminology needs scientific checking. Publication does not establish a Kerala DGE selection route, prize or each pupil/teacher construction task.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2005-fully-automatic-railway-gate",
+    "year": 2005,
+    "title": "Fully Automatic Railway Gate",
+    "source_ids": [
+      "project-029"
+    ],
+    "exhibit_code": null,
+    "chapter_number": 4,
+    "students_credited": [
+      "Mridul M.",
+      "Sruth J V."
+    ],
+    "teachers_credited": [
+      "Anil Kumar V",
+      "Shaj K."
+    ],
+    "school_as_published": "Rajiv Gandhi Memorial High School, Mokeri, PO Thalassery, Kannur 670 692, Kerala",
+    "school_location_state": "Kerala",
+    "pdf_page_1based": 18,
+    "printed_page": 10,
+    "chapter_pdf_pages_1based": [
+      18,
+      19,
+      20
+    ],
+    "chapter_printed_pages": [
+      10,
+      11,
+      12
+    ],
+    "selection_status": "national_model_report_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_model_report",
+    "method_tag": "leaf switches, electromagnet switching and model gate sequencing",
+    "method_summary": "Leaf switches detect a toy train; electromagnet-operated switches sequence signals, a buzzer and motorised gates. Later switches reverse the sequence after the train passes.",
+    "evidence_limits": "The reported 20–30 second closing interval lacks repeated timing measurements. No field reliability, obstruction detection, safe failure behaviour or comparative cost is demonstrated. Solar operation is a proposed application; no microcontroller, AI or source-code implementation is established.",
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2024-avitanallur-native-fish",
+    "year": 2024,
+    "title": "A Comparative Study of Indigenous Fishes in Paddy Fields for Pest Control and Mosquito Control in Avitanallur Village",
+    "source_ids": [
+      "project-031",
+      "project-032"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "N, Neeraj",
+      "U S, Adithyan"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "GHSS Avitanallur",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Kozhikode",
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-032 alternate one-page abstract PDF; IRIS shortlist context is separately located below.",
+    "printed_page": null,
+    "selection_status": "iris_2024_shortlist_and_isef_2024_finalist_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_shortlist_correspondence",
+    "method_tag": "native fish identification and feeding comparisons over 24 hours",
+    "method_summary": "The abstract reports identifying native fish, comparing feeding on rice pests and mosquito larvae over 24 hours, water analysis and specialist/farmer interviews. It reports 14 fish varieties, with Pseudosphromenus cupanus leading rice-pest feeding and Rasbora daniconius leading mosquito-larva feeding; a paddy-field water-level management system is described as designed.",
+    "evidence_limits": "The abstract supplies no sample sizes or replicate counts, controls, raw feeding or water-quality measurements, statistical analysis, device diagram/code or water-level-system validation. The same-year title, pupil pair and school support correspondence, not identical project versions. No exact NCSC edition, local rank, Kerala Sasthrolsavam qualifying route, attendance or award is established. The blank Awards Won field does not prove no award. No guide credit or individual work division is supplied.",
+    "ncsc_labelled_iris_shortlist": {
+      "source_id": "project-031",
+      "event_year_as_published": 2024,
+      "entry_type_as_published": "NCSC",
+      "row_number_as_published": 23,
+      "pdf_page_1based": 1,
+      "scope": "Explicit IRIS Entry Type label, not an identified NCSC edition, local rank, prize or complete qualifying route."
+    },
+    "isef_booth_identifier": {
+      "source_id": "project-032",
+      "event_year_as_published": 2024,
+      "booth_id_as_published": "EAEV038T",
+      "scope": "ISEF booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-032",
+        "alternate_pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "N, Neeraj",
+          "U S, Adithyan"
+        ],
+        "school_as_published": "GHSS Avitanallur"
+      },
+      {
+        "source_id": "project-031",
+        "pdf_pages_1based": [
+          1
+        ],
+        "row_number_as_published": 23,
+        "students_credited": [
+          "Neeraj N",
+          "Adithyan U S"
+        ],
+        "school_as_published": "GHSS Avitanallur"
+      }
+    ],
+    "student_work_division_verified": false,
+    "performance_independently_verified": false
+  },
+  {
+    "id": "case-2021-raksha-electrical-protection",
+    "year": 2021,
+    "title": "\"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits",
+    "source_ids": [
+      "project-033",
+      "project-034",
+      "project-037"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "Joji, Efraem"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "Devamatha CMI Public School",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Thrissur",
+    "school_location_evidence": {
+      "source_id": "project-034",
+      "observation_date": "2026-11-01",
+      "scope": "Current official district-administration location listing for the exact school name in the 2021 organiser abstract; not a recovered contemporaneous 2021 school-address record or historical-campus certification."
+    },
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-033 alternate one-page abstract PDF; actual event year and booth are explicit in the organiser HTML, not this generated PDF metadata.",
+    "printed_page": null,
+    "selection_status": "isef_2021_finalist_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_current_school_location_bridge",
+    "method_tag": "special transformer and current-component detection/chopping circuitry",
+    "method_summary": "The abstract describes a specially constructed transformer and associated circuitry that detects and chops specified current components. Electrocution prevention, mitigation of some short-circuit hazards and possible transformer/inverter/stabiliser functions are project claims.",
+    "evidence_limits": "No schematic, construction specifications, current thresholds, waveforms, test setup, quantitative safety results or independent certification is supplied. The contextual 85% fault statement is not a device success rate. No Arduino or AI component is named. The current location source is not contemporaneous 2021 address evidence. No local qualifying route, physical attendance, ISEF prize, 2021 guide credit or work division is established; the received abstract’s blank awards field does not prove no award. The earlier SPARK record has different school/guide credits and no final rank; it does not prove an unchanged 2021 project version.",
+    "isef_booth_identifier": {
+      "source_id": "project-033",
+      "event_year_as_published": 2021,
+      "booth_id_as_published": "EBED015",
+      "scope": "ISEF booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "physical_attendance_verified": false,
+    "related_earlier_records": [
+      {
+        "source_id": "project-037",
+        "reporting_cycle": "2018–19",
+        "competition_as_reported": "SPARK Innovation Awards",
+        "competition_date_as_reported": "2019-01-19",
+        "pdf_pages_1based": [
+          9,
+          10
+        ],
+        "printed_pages": [
+          7,
+          8
+        ],
+        "students_credited": [
+          "Mr. Efraem Joji"
+        ],
+        "teachers_credited": [
+          "Dr. Joji George"
+        ],
+        "school_as_published": "Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala.",
+        "project_title_as_published": "“RAKSHA” – System for Prevention of Electrocution and the Hazardous Effects of Short Circuits.”",
+        "selection_status": "selected_for_awards_with_final_winners_still_to_be_announced",
+        "prize_rank": null,
+        "same_project_version_verified": false,
+        "scope": "Distinctive title/pupil/function correspondence to an earlier source-specific version; different school/guide credits do not overwrite the2021organiser attribution or establish2021guide/work division."
+      }
+    ]
+  },
+  {
+    "id": "case-2022-taro-inspired-oil-water-membrane",
+    "year": 2022,
+    "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+    "source_ids": [
+      "project-035",
+      "project-036",
+      "project-038",
+      "project-039"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "Girish, Devika",
+      "Varghese, Sara"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "St. Peter's Senior Secondary School",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Kolenchery Ernakulam",
+    "school_location_evidence": {
+      "source_id": "project-036",
+      "pdf_page_1based": 84,
+      "scope": "Matching ISEF title, team booth code, pupil pair and school explicitly located in Kolenchery Ernakulam, Kerala, India in the 2022 organiser directory."
+    },
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-035 alternate one-page abstract PDF; directory context is separately located below.",
+    "printed_page": null,
+    "selection_status": "isef_2022_finalist_listing",
+    "prize_status": "ISEF 2022 Materials Science Second Award of $2,000, separately documented organiser award label",
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_directory_correspondence",
+    "method_tag": "electrospun ABS/ZnO membranes for selective oil transport",
+    "method_summary": "The abstract reports electrospun ABS and ABS/ZnO-nanoparticle membranes, ABS fibres averaging 1.0 micrometre, and a 135-degree water contact angle for both membranes. Selective oil absorption/transport is claimed; calcium oxalate filler and water-purification applications are proposed.",
+    "evidence_limits": "No electrospinning settings, filler loading, measurement protocol, replicate count, uncertainty, raw measurements, separation efficiency, flux, contaminant rejection or reuse/durability results are supplied. Proposed filler/use is not demonstrated field performance or potable-water certification. The directory Virtual label is not proof of completed or physical participation. No qualifying route, guide credit or individual work division is established. The received abstract’s blank award field is preserved; a separate organiser result confirms the Materials Science Second Award label without establishing individual payment or overall second place. University research-location context is not a complete report or contribution audit.",
+    "isef_booth_identifier": {
+      "source_id": "project-035",
+      "event_year_as_published": 2022,
+      "booth_id_as_published": "MATS002T",
+      "scope": "ISEF team booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "published_directory_mode": {
+      "source_id": "project-036",
+      "pdf_page_1based": 84,
+      "mode_as_published": "Virtual.",
+      "scope": "Published planned judging-mode label; not independently verified completion or physical attendance."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-035",
+        "alternate_pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "Girish, Devika",
+          "Varghese, Sara"
+        ],
+        "school_credit_versions_as_published": [
+          "St. Peter's Senior Secondary School",
+          "St.Peter's Senior Secondary School"
+        ]
+      },
+      {
+        "source_id": "project-036",
+        "pdf_pages_1based": [
+          84
+        ],
+        "students_credited": [
+          "Devika Girish",
+          "Sara Varghese"
+        ],
+        "school_as_published": "St. Peter's Senior Secondary School"
+      }
+    ],
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "physical_attendance_verified": false,
+    "award_evidence": {
+      "source_id": "project-039",
+      "event_year_as_published": 2022,
+      "publication_date": "2022-05-13",
+      "category_as_published": "MATERIALS SCIENCE",
+      "booth_id_as_published": "MATS002T",
+      "award_label_as_published": "Second Award of $2,000",
+      "amount_is_published_label_only": true,
+      "individual_payment_verified": false,
+      "scope": "Exact code/title/pupil-pair/school match in the separate official result. Category award, not overall fair second place, each-pupil payment or Kerala Sasthrolsavam rank."
+    },
+    "received_abstract_award_observation": {
+      "source_id": "project-035",
+      "field_as_received": "Awards Won blank in HTML and alternate PDF",
+      "scope": "Original received observation preserved; separate official result supplies the award rather than altering the abstract field."
+    },
+    "institutional_context": {
+      "source_id": "project-038",
+      "pupil_pair_as_published": [
+        "Sara Varghese",
+        "Devika Girish"
+      ],
+      "school_as_published": "St. Peter's Senior Secondary School, Kadayiruppu",
+      "research_location_as_reported": "Department of Polymer Science and Rubber Technology, Cochin University of Science and Technology",
+      "iris_year_as_published": 2022,
+      "project_title_in_article": null,
+      "mentor_names_in_article": null,
+      "same_project_version_verified": false,
+      "scope": "University-reported contextual correspondence through exact pupil pair/school/IRISyear; no exhibit title, original technical report, raw data, fabrication/analysis/code work division or physical-attendance validation supplied."
+    }
+  }
+]

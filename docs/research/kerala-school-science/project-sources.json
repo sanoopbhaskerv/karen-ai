@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "project-001",
+    "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
+    "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Signed cycle-specific notification, F.No. DST/S&TCB/INSPIRE-MANAK/NOMINATIONS/2026-27. Direct PDF downloaded, extracted and visually inspected. Initial window only; no deadline-extension verification. Separate postback delivery returned the same text with a different binary hash.",
+    "source_date": "2026-07-13",
+    "download_sha256": "a5a1f258087967640f5b1f0dfd56e2efda27eae41371f903dfdc2a0fa3a230b2",
+    "pdf_pages": 1
+  },
+  {
+    "id": "project-002",
+    "title": "NCERT: Archive JNNSMEE/RBVP, English version",
+    "url": "https://www.ncert.nic.in/archive-jnnsmee.php?ln=en",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_archive",
+    "notes": "Opened archive and followed actual catalogue links. Discovery source only; archive listing does not prove an exhibit mechanism or prize. Follow-up reviewed the non-www equivalent (https://ncert.nic.in/archive-jnnsmee.php?ln=en) on 1 November 2026; synopsis catalogue links present for 2010–2019 and 2022–2024, with no year-labelled 2020, 2021, 2025 or 2026 synopsis catalogue link found. This is an archive-link observation, not a publication or participation finding.",
+    "last_reviewed_on": "2026-11-01"
+  },
+  {
+    "id": "project-003",
+    "title": "NCERT: Exhibits of 2018, 45th JNNSMEE, Ahmedabad",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2018_Ahmedabad.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF135 rendered visually. Source credits identify Kerala school locations; qualifying route and prize rank not established. Selected cases, not exhaustive Kerala extraction.",
+    "source_date": "2018-11",
+    "download_sha256": "32801987b075e0f50261b551a7bddd3faceed0dfbf75d9ca2fece8022e6b00d7",
+    "pdf_pages": 192
+  },
+  {
+    "id": "project-004",
+    "title": "NCERT: Exhibits of 2019, 46th JNNSMEE, Raipur",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2019_Raipur.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and text-extracted; selected complete pages inspected, PDF44 rendered visually. Catalogue is a short synopsis source, not independent validation. Selected cases only.",
+    "source_date": "2019-10",
+    "download_sha256": "44b5b8f41ed79574f36b81cc61ba025ebd7b83959e8656370361e829dba74ba9",
+    "pdf_pages": 166
+  },
+  {
+    "id": "project-005",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2023, 50th RBVP, Pune",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2023_Inquisitive_Minds_Pune.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF obtained through direct HTTP download when web extraction timed out; text extracted, complete relevant pages inspected and PDF31 rendered visually. JNV location and state-fair route are distinct.",
+    "source_date": "2023-12",
+    "download_sha256": "39acce65f1509b433066303cc2004dfe53fb70a147f12217757ffeb735b39179",
+    "pdf_pages": 196
+  },
+  {
+    "id": "project-006",
+    "title": "NCERT: Inquisitive Minds, Exhibits of 2024, 51st RBVP, Sonipat",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/Exhibits_of_2024_Inquisitive.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "First-edition date from publication page. Full PDF downloaded and extracted; complete selected pages inspected, PDF90 and152 rendered visually. Selected synopses, not independent performance tests. A preface contains an inconsistent older date; cover and edition identify the 2024 event.",
+    "source_date": "2024-12",
+    "download_sha256": "39bde9bb2a79243d64e073467524a29e66a9ac5ca94b1e50a7ce1d84a1decfcc",
+    "pdf_pages": 206
+  },
+  {
+    "id": "project-007",
+    "title": "VITM/NCSM: Prizes Awarded at Southern India Science Fair 2026",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/events/SISF-2026/Prize%20award%20list%20SISF-2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_prize_list",
+    "notes": "Official prize list for the 19–23 January 2026 SISF. Publication day is not stated; event dates are stored separately. Overall awards and Kerala-specific awards are distinct. Full award table inspected.",
+    "source_date": null,
+    "download_sha256": "5810b9305342e5434802f16f57019069e5cae5c9eba11347a1e20863c801877c",
+    "pdf_pages": 12,
+    "event_start_date": "2026-01-19",
+    "event_end_date": "2026-01-23"
+  },
+  {
+    "id": "project-008",
+    "title": "Onmanorama: Class 9 Kochi boy tops south India-level science festival",
+    "url": "https://www.onmanorama.com/news/kerala/2026/01/30/mohammed-arif-science-festival.html",
+    "accessed_on": "2026-10-31",
+    "source_type": "secondary_news",
+    "notes": "Full article opened. Reported integration mechanism only; official award scope independently checked against project-007. Broad headline must not become an overall-fair-first claim. No code, test data or driving-skill validation supplied.",
+    "source_date": "2026-01-30"
+  },
+  {
+    "id": "project-009",
+    "title": "NCERT: Exhibits of 2022, 49th RBVP, Guwahati",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2022.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and extracted. Follow-up on 1 November 2026 reviewed all 143 English School: blocks, with no synopsis page missing that block; no Kerala-located school was confidently identified. PDF32 and142 were rendered to confirm Lakshadweep attribution rather than misclassifying those cases as Kerala. This describes the inspected catalogue, not proof of Kerala nonparticipation. No case indexed from this source.",
+    "download_sha256": "57e28684a11c4b95c95fbbf394cc2238285294332630323666d93d84815622ea",
+    "pdf_pages": 168,
+    "last_reviewed_on": "2026-11-01"
+  },
+  {
+    "id": "project-010",
+    "title": "NCERT: Structure and Working of Science Models, 2015",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2015.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 19 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
+    "download_sha256": "b7bc5072e8bbec30466c0eebca0681086ec5bc63f610a5413512342c86ca5507",
+    "pdf_pages": 87,
+    "last_reviewed_on": "2026-11-01"
+  },
+  {
+    "id": "project-011",
+    "title": "NCERT: Structure and Working of Science Models, 2016",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2016.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 20 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
+    "download_sha256": "8aebe903e34898ff4323fa994aa19c73e046668996ad8256257f55211c1a327c",
+    "pdf_pages": 75,
+    "last_reviewed_on": "2026-11-01"
+  },
+  {
+    "id": "project-012",
+    "title": "NCERT: Structure and Working of Science Models, 2017",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2017.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_model_reports",
+    "notes": "Full PDF downloaded and text-extracted. Follow-up audited all 16 chapter author/school blocks against contents, including rendered Hindi attribution pages. No Kerala school-attributed chapter identified among this book’s selected reports; no unresolved address classification. This does not establish Kerala nonparticipation: the separate List of Exhibits catalogues include Kerala schools. Host location and pupil names were not treated as school location.",
+    "download_sha256": "970308fd17341088cf7b525b8bec0a413232346787228a2fa0633d73a599c8b1",
+    "pdf_pages": 56,
+    "last_reviewed_on": "2026-11-01"
+  },
+  {
+    "id": "project-013",
+    "title": "NCERT: List of Exhibits, 42nd JNNSMEE, Muvattupuzha, 2015",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2015_Muvattupuzha.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted; Kerala school rows located and complete relevant pages inspected. PDF18 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2015 Structure and Working book (project-010). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2015-12",
+    "download_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
+    "pdf_pages": 134,
+    "sisf2015_candidate_comparison_review_2026_11_01": {
+      "reviewed_on": "2026-11-01",
+      "review_kind": "three_targeted_original_page_reads_for_candidate_SISF_correspondence",
+      "registered_body_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
+      "pdf_pages_1based": [
+        38,
+        80,
+        120
+      ],
+      "printed_pages": [
+        29,
+        71,
+        111
+      ],
+      "candidate_correspondences": [
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-platonic-solids",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-2-8",
+          "catalogue_pdf_page_1based": 38,
+          "catalogue_printed_page": 29,
+          "catalogue_title_as_published": "Platonic Solids",
+          "catalogue_school_as_published": "Memunda Higher Secondary School, Vatakara, Memunda Calicut, Kerala",
+          "catalogue_reported_synopsis_summary": "The working model is described as characterising Platonic solids; no construction procedure or measured learning outcome is given in the cited row.",
+          "sisf_result_image": "img028.jpg",
+          "sisf_result_printed_page": 22,
+          "sisf_title_as_published": "Spheres Related With Platonic Solids",
+          "sisf_school_as_published": "Memunda Hr Sec School, Vatakara, Memunda, Kozhikode District",
+          "basis": "Corresponding school/locality wording and Platonic-solids topic; different published title and Calicut/Kozhikode wording remain literal.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        },
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-plastic-boiler",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-4-2",
+          "catalogue_pdf_page_1based": 80,
+          "catalogue_printed_page": 71,
+          "catalogue_title_as_published": "Boiler for Plastic Burning",
+          "catalogue_school_as_published": "St. Stephen’s High School Pathanapuram Kollam Kerala",
+          "catalogue_reported_synopsis_summary": "The catalogue proposes a waste-plastic-burning device and attributes an environmental benefit to it. This single-row assertion supplies no emissions measurement, pollution-control test or independently established environmental safety.",
+          "sisf_result_image": "img027.jpg",
+          "sisf_result_printed_page": 21,
+          "sisf_title_as_published": "Plastic Burning Boiler",
+          "sisf_school_as_published": "St. Stephen's Hr Sec School, Pathanapuram, Kollam District",
+          "basis": "Corresponding plastic-burning/boiler title and school/locality, with reordered title and High School/Hr Sec wording preserved.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        },
+        {
+          "observation_id": "candidate-sisf2015-ncert2015-concrete-recycling",
+          "source_ids": [
+            "project-013",
+            "pathways-98"
+          ],
+          "catalogue_discovery_record_id": "ncert-discovery-2015-16-6-2",
+          "catalogue_pdf_page_1based": 120,
+          "catalogue_printed_page": 111,
+          "catalogue_title_as_published": "Concrete Recycling",
+          "catalogue_school_as_published": "Seethi Sahib Higher Secondary School Taliparmba, Kerala",
+          "catalogue_reported_synopsis_summary": "The synopsis describes recovering sand and gravel from discarded concrete for casting new structures. It supplies no process settings, recovery yield, material-strength results or original test data in the cited row.",
+          "sisf_result_image": "img027.jpg",
+          "sisf_result_printed_page": 21,
+          "sisf_title_as_published": "Concrete Recycling",
+          "sisf_school_as_published": "Seethi Sahib Hr Sec School, Taliparamba, Kannur District",
+          "basis": "Matching title and corresponding school/locality wording, retaining the published Taliparmba/Taliparamba spelling variants.",
+          "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+        }
+      ],
+      "scope": "Three complete original pages read, focused on the three existing discovery rows. No full 134-page new human audit, new focused case or discovery row, original school report/code/data or proven SISF-to-NCERT progression."
+    }
+  },
+  {
+    "id": "project-014",
+    "title": "NCERT: List of Exhibits, 43rd JNNSMEE, Bengaluru, 2016",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2016_Bengaluru.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted. Three Kerala-located rows identified; full relevant pages inspected. PDF36 and76 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2016 Structure and Working book (project-011). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2016-11",
+    "download_sha256": "e627973a470fb9fcc72df312265b01b29f82c65c67f0b78c834d2d9daf75e44e",
+    "pdf_pages": 130
+  },
+  {
+    "id": "project-015",
+    "title": "NCERT: List of Exhibits, 44th JNNSMEE, Bhopal, 2017",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2017_Bhopal.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full catalogue downloaded and all pages text-extracted. Four Kerala-located rows identified; full relevant pages inspected. PDF51 and65 rendered visually. School-only table credits; pupil and teacher names are not supplied in these rows. Separate from the 2017 Structure and Working book (project-012). Selected cases only; inclusion establishes neither prize rank nor a specific qualifying route.",
+    "source_date": "2017-10",
+    "download_sha256": "5f28f9d9e24ce4293d354a16ba82f945c907d95a1d089f4c21435e4645381ec5",
+    "pdf_pages": 96
+  },
+  {
+    "id": "project-016",
+    "title": "NCERT: List of Exhibits, 37th JNNSEC, Jaipur, 2010",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2010_Jaipur.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF14,22,24,50–52 and58 were reviewed, including the school-address continuation on PDF52; PDF24 rendered visually. No case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2010-11",
+    "download_sha256": "b0a2b3df99fe4f9787124d11253e5ba0ce8bdbb02b983bbcb486a88f936b2d79",
+    "pdf_pages": 75
+  },
+  {
+    "id": "project-017",
+    "title": "NCERT: List of Exhibits, 38th JNNESEC, Patna, 2011",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2011_Patna.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF15,21,35,41,53 and63 were reviewed; PDF53 rendered visually. No case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2011-11",
+    "download_sha256": "1957b48cc81ceeb642928ad517d903b294146f6f4f972480b0bda53905fa1a17",
+    "pdf_pages": 84
+  },
+  {
+    "id": "project-018",
+    "title": "NCERT: List of Exhibits, 39th JNNSMEE, Silvassa, 2012",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2012_Silvassa.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF22,26,28,40,56,58,72,82,84 and92 were reviewed; PDF72 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2012-11",
+    "download_sha256": "94088b1efc71ecf0288649d23a5fa712e59668007bd38161c93369a5b46e45f3",
+    "pdf_pages": 95
+  },
+  {
+    "id": "project-019",
+    "title": "NCERT: List of Exhibits, 40th JNNSMEE, Gangtok, 2013",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2013_Gangtok.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF17,55,57,69 and79 were reviewed; PDF79 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2013-10",
+    "download_sha256": "9717e843ee278935246b99eb33bdcc8b804981beed8a986659fd78695d7e1719",
+    "pdf_pages": 97
+  },
+  {
+    "id": "project-020",
+    "title": "NCERT: List of Exhibits, 41st JNNSMEE, Chandigarh, 2014",
+    "url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2014_Chandigarh.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_exhibit_catalogue",
+    "notes": "Full PDF downloaded and all pages text-extracted. English school/synopsis columns are readable; legacy-font Hindi extraction was not used for attribution. Kerala school-address matches on PDF34,36,48,68,82,92 and108 were reviewed; PDF48 rendered visually. One case selected for the index. School-only table credits omit pupil and teacher names. Location-based discovery is not an exhaustive attendance list, a prize record or proof of a Kerala state-fair route.",
+    "source_date": "2014-11",
+    "download_sha256": "9373ee17af5fa948d57ac390ce613f86b4f0d0650d05d643482a6de23c490500",
+    "pdf_pages": 125
+  },
+  {
+    "id": "project-021",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2009",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2009.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2009-11",
+    "notes": "Complete 87-page file downloaded; chapter-attribution audit found one Kerala report, chapter 11. Complete report PDF45–48 was read and visually checked. Publication statement November 2009/PDF4; embedded later file-edit timestamps do not change that publication date. Institutional edited model write-up, not an independently verified experiment or a prize list.",
+    "download_sha256": "395205bc3071cdda25b6028a6fc3391021155c3883c61b23e25db8a107868c25",
+    "download_bytes": 30260587,
+    "pdf_pages": 87,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-022",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2010",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2010.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2010-11",
+    "notes": "The received file has only 14 PDF pages, with front/back matter and nonconsecutive printed content (including42,43,45,49); it is incomplete relative to its contents list. Complete received file inspected, but it cannot establish whole-book absence of Kerala entries. Publication statement November 2010/PDF4. No case indexed from this partial file.",
+    "download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
+    "download_bytes": 27932804,
+    "pdf_pages": 14,
+    "received_file_complete": false,
+    "follow_up_retrieval": {
+      "checked_on": "2026-11-01",
+      "ordinary_tls_verified": true,
+      "complete_http_download_sha256": "c039b0d3923a85da860e3e7927d5c869aaafa76d3b91886605efcae3da039e3d",
+      "download_bytes": 27932804,
+      "pdf_pages": 14,
+      "same_as_previous_file": true,
+      "received_file_complete": false,
+      "scope": "Fresh full ordinary HTTP retrieval matches the same discontinuous14-page file; no complete publication was recovered. The reviewed official archive links2009–2017; bounded public university/InternetArchive title searches supplied no new annual book body. Absence of a link/search match is not absence of publication."
+    }
+  },
+  {
+    "id": "project-023",
+    "title": "NCERT: Structure and Working of Science Models, 2011",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2011.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "notes": "Earlier TLS/reset and browser retrieval failures were transient: the same official URL was successfully downloaded on 1 November 2026 using standard TLS-verified curl. Complete 96-page file: eight front-matter pages, contiguous printed body pages 1–85, then blank/back matter. All 23 contents/chapter starts and all 62 other printed body-page headers align. All 23 chapter-attribution blocks reviewed, including two Hindi blocks visually confirmed as Rajasthan; one Kerala chapter located. Automatic Crane chapter 8, PDF 37–41/printed 29–33 read in full and all five pages rendered/inspected. Publication statement November 2011/PDF 4; preface 11 November 2011/PDF 6. Reported construction is distinct from unverified mechanical-advantage, frequency and lossless-operation claims; no prize, route or catalogue exhibit code is established.",
+    "source_date": "2011-11",
+    "download_sha256": "5c37899a0198f11af4efd4e6b2a5fb5f749d54c5c39fd6202c21d33d66051e38",
+    "download_bytes": 11113643,
+    "pdf_pages": 96,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-024",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2012",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2012.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2012-12",
+    "notes": "Complete 94-page file downloaded. All chapter-attribution starts audited, including Hindi sections; three Kerala reports located. Complete chapters PDF35–37,38–43,44–47 read and attribution/method pages visually checked. December 2012 edition statement; preface dated November 2012. Credited edited write-ups do not establish award scope, qualifying route, measured performance or individual construction work.",
+    "download_sha256": "56b6a6f422471266617bc461e2e9a5f778fbf8997e363837b7b4e273593aeda3",
+    "download_bytes": 8889590,
+    "pdf_pages": 94,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-025",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2013",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2013.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2013-11",
+    "notes": "Complete 86-page file downloaded and text-extracted; all 20 attribution blocks checked, including Hindi chapters. One Kerala chapter, PDF36–38 (printed27–29), read in full and visually checked. November 2013 edition. The solar plant is a craft-material concept model. Original MV/day and GV output wording is not converted into validated power figures; scientific descriptions and claimed applications require separate verification.",
+    "download_sha256": "cbd53775904f485aab476ffbc874a393eee18e78b3d2bc834bd306e7f7cb6354",
+    "download_bytes": 16365696,
+    "pdf_pages": 86,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-026",
+    "title": "NCERT: Structure and Working of Science Models/Exhibits, 2014",
+    "url": "https://ncert.nic.in/desm/pdf/Structure_and_Working/Structure_and_Working_2014.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_model_reports",
+    "source_date": "2014-11",
+    "notes": "Complete 90-page file downloaded and text-extracted; all 20 attribution blocks checked, including Hindi chapters. Three Kerala chapters PDF17–19,63–68,76–79 read in full and attribution/method pages visually checked. November 2014 edition. Preserve mechanical/circuit models versus proposed automation, traffic integration and industrial plant uses. No field validation, energy-output tests or construction-work division verified.",
+    "download_sha256": "4627eb6d87e49a2668247e057896d08b5a59cf462360af8703b6e397a26ca22e",
+    "download_bytes": 11124404,
+    "pdf_pages": 90,
+    "received_file_complete": true
+  },
+  {
+    "id": "project-027",
+    "title": "Report of Science Fairs Held During 1962–63, Publication No. 23",
+    "url": "https://artifacts.keraladigitalarchive.org/public/1963-report-of-science-fairs/1963-report-of-science-fairs.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_primary_institutional_report",
+    "source_date": null,
+    "publication_year": 1963,
+    "publisher": "Department of Extension Services, Government Training College, Trichur",
+    "notes": "Public scan hosted by Indic Digital Archive Foundation/Granthappura. Publication year is catalogue metadata; PDF3 establishes issuer. Complete school project account printed25–27/PDF31–33 read visually. That account describes revisions, reported separation/defects and wall impact, with a positive assessment by its narrator; it does not independently validate successful or safe performance. The account alone does not establish a prize or national selection; the book’s separate Alwaye group-prize line is documented with its correspondence limits in the regional supplement. Preserve the S. Sreedhar/S. Sridhar credit variant; operational rocket directions are excluded from derived notes.",
+    "download_sha256": "c431af9bf430378df7f35d3776e9d8b59df31cad390c6d01dc35d616dc0e8ce2",
+    "download_bytes": 7866055,
+    "pdf_pages": 39,
+    "related_source_ids": [
+      "history-1963-fairs-report",
+      "history-1963-fairs-catalogue"
+    ]
+  },
+  {
+    "id": "project-028",
+    "title": "NCERT: Structure and Working of Science Models, 2003, university-archive scan",
+    "url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/bitstream/20.500.12497/6654/1/Structure%20And%20Working%20Of%20Science%20Models.pdf",
+    "catalogue_url": "https://schoolbooksarchive.azimpremjiuniversity.edu.in/handle/20.500.12497/6654",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_official_model_reports",
+    "source_date": "2003-11",
+    "publisher": "National Council of Educational Research and Training",
+    "notes": "Public Azim Premji University School Books Archive scan. Standard unlocked DSpace bitstream downloaded with normal TLS verification and is byte-identical to the public viewer acquisition; attachment UUID 509a6be3-2368-4f34-ba55-524c8eff1000, item UUID 7f81a37c-d7ac-41ed-be48-fcf5a8be23db. PDF1 title; PDF2 publication November 2003/Kartika 1925 and copyright NCERT 2003; PDF3–4 preface October 2003 identifies reports for 30th JNNSEC, Dehradun, selected from state exhibitions in 2002–03. No numbered edition statement seen. Scan metadata dates 2015 describe digitization, not publication. All 83 image-only pages OCRed; all 28 contents/chapter-start attribution blocks visually reviewed (21 English, seven Hindi), including locality-only addresses. One Kerala-school chapter: Garbage Elutriator, chapter13, printed28–29/PDF34–35, both pages read and visually inspected. Other 27 attribution blocks are outside Kerala, with no unresolved school address. Full numbered-body inventory corresponds to printed1–77 after six front-matter pages; all 28 chapter starts match contents and no missing body page detected. Some footer/edge clipping remains; physical covers and every original printed character are not certified. Edited write-up does not establish independent performance, prize or Kerala DGE qualifying route.",
+    "download_sha256": "94661d7954276d4f819c161ab6bc7b4d1a6ed40d7477fabaf2c95f6e204aad62",
+    "download_bytes": 2208480,
+    "pdf_pages": 83,
+    "received_file_complete": true,
+    "completeness_scope": "Published front matter and numbered-body page inventory; minor scan-edge/footer clipping and physical-cover completeness remain limitations."
+  },
+  {
+    "id": "project-029",
+    "title": "NCERT: Structure and Working of Science Models, 2005, Digital Library of India scan",
+    "url": "https://archive.org/download/dli.ernet.4068/4068-Structure%20And%20Working%20Of%20Science%20Models%202005.pdf",
+    "catalogue_url": "https://archive.org/details/dli.ernet.4068",
+    "metadata_url": "https://archive.org/metadata/dli.ernet.4068",
+    "accessed_on": "2026-11-01",
+    "source_type": "digitized_official_model_reports",
+    "source_date": "2005-11",
+    "publisher": "National Council of Educational Research and Training",
+    "notes": "Public primary-publication scan at Internet Archive, originating from Digital Library of India; archive metadata identifies C-DAC Noida as scanning centre and NCERT as source library. PDF3 title and PDF4 publication/copyright confirm NCERT 2005; preface PDF5–6 identifies the 32nd JNNSEC, Raipur. Original image PDF and same-length OCR derivative downloaded with normal TLS; an initial derivative request failed but a repeat succeeded. All 29 contents/chapter starts and attribution blocks visually checked: 18 English, 11 Hindi, one Kerala chapter. The complete Kerala chapter printed10–12/PDF18–20 read in full and visually inspected. Leaf switches and electromagnet-operated switches control a toy-track gate model; no microcontroller or field-safe railway system is established. Scandata maps contiguous printed1–103 to PDF9–111; PDF112 is a final unnumbered continuation and PDF113 is blank. All contents chapters present; minor scan text loss on the final continuation prevents certifying every original character. No exhibit code, prize or particular Kerala qualifying route recovered.",
+    "download_sha256": "ec97e3200515d4a015cb5ed72818e0432d7a1c52e03315b1e455000403a34d40",
+    "download_bytes": 3753030,
+    "pdf_pages": 113,
+    "received_file_complete": true,
+    "completeness_scope": "All contents chapters and numbered-body pages plus final unnumbered continuation are present; physical covers and every scanned character are not certified.",
+    "ocr_derivative": {
+      "url": "https://archive.org/download/dli.ernet.4068/4068-Structure%20And%20Working%20Of%20Science%20Models%202005_text.pdf",
+      "download_sha256": "392a559ce6ecb5323f32e1827cff69c8d53376efb0633c4188e5f29d66624a95",
+      "download_bytes": 4363058,
+      "pdf_pages": 113
+    }
+  },
+  {
+    "id": "project-030",
+    "title": "NCERT Library General Publications bibliography: seven model-book reference entries",
+    "url": "https://ncert.nic.in/ncertldd/collection/pdf/General_Publications.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_library_bibliography",
+    "publisher": "National Council of Educational Research and Training, Library and Documentation Division",
+    "review_scope": "All 59 pages text-screened; all seven reference pages visually checked. Not a full subject audit or a model-book body.",
+    "bibliographic_references": [
+      {
+        "reference_id": "F12792",
+        "pdf_page_1based": 16,
+        "title_year_as_printed": "1978",
+        "imprint_year_as_printed": "1978",
+        "printed_page_as_printed": 13
+      },
+      {
+        "reference_id": "F13659",
+        "pdf_page_1based": 18,
+        "title_year_as_printed": "1976",
+        "imprint_year_as_printed": "1976",
+        "printed_page_as_printed": 15
+      },
+      {
+        "reference_id": "F16001",
+        "pdf_page_1based": 23,
+        "title_year_as_printed": null,
+        "imprint_year_as_printed": "1985",
+        "printed_page_as_printed": 20
+      },
+      {
+        "reference_id": "F20109",
+        "pdf_page_1based": 32,
+        "title_year_as_printed": "1992",
+        "imprint_year_as_printed": "1992",
+        "printed_page_as_printed": 29
+      },
+      {
+        "reference_id": "F23762",
+        "pdf_page_1based": 41,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "2003",
+        "printed_page_as_printed": 38
+      },
+      {
+        "reference_id": "F23995",
+        "pdf_page_1based": 42,
+        "title_year_as_printed": "1991",
+        "imprint_year_as_printed": "1991",
+        "printed_page_as_printed": 39
+      },
+      {
+        "reference_id": "F25115",
+        "pdf_page_1based": 45,
+        "title_year_as_printed": "2005",
+        "imprint_year_as_printed": "2005",
+        "printed_page_as_printed": 42
+      }
+    ],
+    "notes": "Official 59-page library bibliography, not a downloaded model volume or proof of current shelf availability. Seven references concern Structure and Working of Science Models; they are not asserted to be seven distinct editions. F23762 prints 1991 in its title but 2003 in its imprint; F23995 prints 1991 in both. Preserve the mismatch and do not silently identify F23762 with the separately recovered 2003 annual report. F25115 lists 2005, whose actual book is already registered as project-029. Other references are qualified physical/library leads only: no Kerala school, project method, prize, state route or full-volume recovery is inferred.",
+    "download_bytes": 2423392,
+    "download_sha256": "5af9d4c6d8170b91ed315386eb51a30bcc06fad2223209e4a1e1cb71742bf244",
+    "pdf_pages": 59
+  },
+  {
+    "id": "project-031",
+    "title": "IRIS National Fair Shortlist 2024, archived organiser PDF",
+    "url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "original_url": "https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "archived_official_shortlist",
+    "publisher": "IRIS National Fair",
+    "download_bytes": 474255,
+    "download_sha256": "6c1d6c8e4e7dd5b08fd1f46c51f0ce71c6a53d0b5388e2a72738a6486b770195",
+    "headers_sha256": "006a45cf836796c49d751dc731262fe6038ebe2a88a6607e09c0b0448f065b40",
+    "pdf_pages": 4,
+    "archive_capture": "2024-02-04T05:41:48Z",
+    "capture_provenance": {
+      "request_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "effective_url": "https://web.archive.org/web/20240204054148id_/https://www.irisnationalfair.org/uploads/Shortlist2024-IRISNationalFair.pdf",
+      "requested_capture_timestamp": "20240204054148",
+      "actual_memento_datetime_from_cached_get_headers": "Sun, 04 Feb 2024 05:41:48 GMT",
+      "cached_get_status": 200,
+      "redirect_location_observed": false,
+      "cdx_digest_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "received_body_sha1_base32": "K6DLKQZJRORRGWB4XABWMPX5E3H55FGZ",
+      "body_digest_matches_cdx": true,
+      "scope": "Actual cached GET headers and received bytes checked against the exact CDX row; no requested-date-only inference or fresh HEAD substitution."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "row_number_as_published": 23,
+        "scope": "2024 shortlist heading; NCSC Entry Type; project title, both pupil credits, GHSS Avitanallur, Kerala/Kozhikode."
+      }
+    ],
+    "review_scope": "All four received PDF pages visually read and text-screened. The table has 101 numbered entries; five NCSC-labelled rows 21–25 contain one Kerala entry at row 23. The other Kerala row 80 is labelled Online and is not treated as NCSC.",
+    "notes": "The live organiser URL redirected to a404 at retrieval; the archived organiser PDF is the adopted body. Its Year 2024 shortlist heading is not a separately established publication date. Row23 explicitly labels Entry Type as NCSC, while its Project Id cell is blank. Exact title words, both pupil credits and the school correspond to the separate ISEF 2024 organiser abstract at project-032. The correspondence does not prove an unchanged project version, a particular NCSC edition, local rank, full qualifying route, attendance or an award. No other pupil roster or contact fields are transcribed."
+  },
+  {
+    "id": "project-032",
+    "title": "Society for Science ISEF finalist abstract: indigenous fishes in Avitanallur, Year 2024, Booth EAEV038T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=Any%20Country&FairState=Any%20State&KeywordOrPhrase=Avitanallur&SelectedIsefYears%5B0%5D=2024&projectId=25236",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2024,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 10369,
+    "download_sha256": "8755559024bc865a51896aaa2b213fe20e3adb2dc94ebc412e965f665479c5e6",
+    "headers_sha256": "b889f699fba7b7a3e8c3f0be3d49d27f27d11bf92393987fc30df7b6f1fa056c",
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2024,
+      "booth_id_as_published": "EAEV038T",
+      "category_as_published": "Earth and Environmental Sciences",
+      "students_credited_as_published": [
+        "N, Neeraj",
+        "U S, Adithyan"
+      ],
+      "school_as_published": "GHSS Avitanallur",
+      "awards_won_field": "Blank; no award or absence of an award is inferred."
+    },
+    "discovery_method": "Actual public search form at https://abstracts.societyforscience.org/ submitted with keyword Avitanallur and year 2024. The received search-result href supplied this exact FullAbstract URL; it was not guessed from the project ID.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2024, Booth Id EAEV038T, category, both pupil credits/school, methods, observations and blank awards field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and source-as-printed pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=25236",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf/25236",
+      "download_bytes": 51553,
+      "download_sha256": "91131442561ba83c1fb5d765fad8d836b1ca6d6a05eb89c68175f11f66a0b1b6",
+      "headers_sha256": "de93b57c7bb9a3effe70ffc85a38986f265e3039b4d8d282d7ecf40568ac7818",
+      "pdf_pages": 1,
+      "review_scope": "Entire one-page PDF rendered and read visually; title, credits and abstract agree with the received FullAbstract record."
+    },
+    "review_scope": "Full public record HTML read directly; complete alternate one-page PDF visually read. No browser-render review or complete project report is claimed.",
+    "notes": "The actual organiser record explicitly prints Year 2024 and Booth Id EAEV038T, independently of its search-filter query. The booth identifier belongs to ISEF, not a Kerala or NCSC event code. This is an organiser-published finalist abstract reporting fish identification, feeding comparisons over 24 hours and water-level-system design, not raw research data, a reproducible device report or independent performance validation. Its exact title, pupil pair and school correspond to the NCSC-labelled IRIS 2024 shortlist entry in project-031; an exact NCSC edition, unchanged version, local rank and prize remain unproved. No teacher credit or pupil work division is supplied."
+  },
+  {
+    "id": "project-033",
+    "title": "Society for Science ISEF finalist abstract: \"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits, Year 2021, Booth EBED015",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2021,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9783,
+    "download_sha256": "e29ffeca13a063cbe2c7f7ef7e9120654ac6bc7200728c9f7772a3f0af8d37b9",
+    "headers_sha256": "668074a323846e9926136fbcdd49ed47f8f345fcdb4ca6caabcf48a91e1e725a",
+    "retrieved_at_utc": "2026-11-01T00:46:53.782016+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2021,
+      "booth_id_as_published": "EBED015",
+      "category_as_published": "Embedded Systems",
+      "students_credited_as_published": [
+        "Joji, Efraem"
+      ],
+      "school_credit_versions_as_published": [
+        "Devamatha CMI Public School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2021, Booth Id EBED015, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "download_bytes": 47862,
+      "download_sha256": "ff5029a90b04f8d3c4612dce67286dbe459f84b8e93d77fa873c0c75090048fe",
+      "headers_sha256": "bd3ab70eb65cc7a76b49522346af801c9923d6b84e5ba5cb7c8ba4e2f9156818",
+      "retrieved_at_utc": "2026-11-01T00:47:29.875489+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2021 and the ISEF booth code. A special transformer and associated circuitry are described, with broad electrocution-prevention and short-circuit-mitigation claims. No schematic, component/current thresholds, waveforms, quantitative tests or independent safety certification is supplied. The contextual 85% phase-to-ground-fault assertion is not a measured device success rate. Arduino and AI are not identified. The exact credited school name has a separate current Thrissur district-administration location listing in project-034; that listing is not a contemporaneous 2021 address record. Incomplete 2021-directory transfers were excluded. Qualifying route, physical attendance, award and individual work division remain unproved."
+  },
+  {
+    "id": "project-034",
+    "title": "Thrissur district administration: current Devamatha CMI Public School location listing",
+    "url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_current_institution_location_listing",
+    "publisher": "District Thrissur, Government of Kerala",
+    "download_bytes": 121035,
+    "download_sha256": "c3211dad24c44fd121f51178f73c20ce0add0fa3f4b579fcd9ce3416fae8f91e",
+    "headers_sha256": "02dd95b6153623054dfa58b18626be078f03e48df9eb4bc0c1d22098a3955e8d",
+    "retrieved_at_utc": "2026-11-01T00:50:30.712607+00:00",
+    "effective_download_url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "http_status": 200,
+    "tls_verified": true,
+    "institution_name_as_published": "Devamatha CMI Public School",
+    "school_location_city": "Thrissur",
+    "school_location_state": "Kerala",
+    "evidence_locators": [
+      {
+        "html_section": "Devamatha CMI Public School public-utility heading and address",
+        "scope": "The current listing names that school and gives its Thrissur, Kerala location."
+      }
+    ],
+    "review_scope": "Received HTML title, institution heading and location/address text read directly. No browser-render review, historical capture or project-participation audit.",
+    "notes": "This is a current institution-location bridge for the exact school name credited in project-033. It is not a recovered 2021 school-address record, a historical-campus certification or proof of a Kerala Sasthrolsavam route, event attendance or project authorship. Personal/contact fields are not extracted into the derived case."
+  },
+  {
+    "id": "project-035",
+    "title": "Society for Science ISEF finalist abstract: Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation, Year 2022, Booth MATS002T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9988,
+    "download_sha256": "c8c3cc86523bbe1c97906550047bf2728136568f20a83beab53f7d5432335a8e",
+    "headers_sha256": "038a551a21778c56dee54c9d5043dcb7c48213f3d593d46f1090a3ecc7b6d266",
+    "retrieved_at_utc": "2026-11-01T00:46:53.800349+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2022,
+      "booth_id_as_published": "MATS002T",
+      "category_as_published": "Materials Science",
+      "students_credited_as_published": [
+        "Girish, Devika",
+        "Varghese, Sara"
+      ],
+      "school_credit_versions_as_published": [
+        "St. Peter's Senior Secondary School",
+        "St.Peter's Senior Secondary School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2022, Booth Id MATS002T, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "download_bytes": 49703,
+      "download_sha256": "13dc3a29eed60d37a48225cf38b05ad4a0b0e0c3706dc5f6b58cdeb65330355d",
+      "headers_sha256": "1db3f11e239e2d74a005a292d9d3fd0ebe89dc517755595d79489cc7924b0f0c",
+      "retrieved_at_utc": "2026-11-01T00:47:30.102298+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2022 and the ISEF team booth code. The abstract reports electrospun ABS and ABS/ZnO membranes, ABS fibres averaging 1.0 micrometre and a 135-degree water contact angle for both membranes. Calcium oxalate is proposed as an additional filler; water-purification use is also proposed. No spinning parameters, filler loading, replicate counts, uncertainty, raw measurements, separation efficiency, flux or reuse tests are supplied. The title wording is retained without inventing stronger contact-angle values. Project-036 separately locates the matching code/title/pupil pair/school in Kolenchery Ernakulam, Kerala and labels the entry Virtual. Neither independent separation performance nor physical attendance, pupil work division, qualifying route or prize is certified."
+  },
+  {
+    "id": "project-036",
+    "title": "Regeneron ISEF 2022 Finalist Directory: MATS002T school location and virtual listing",
+    "url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_finalist_directory",
+    "publisher": "Society for Science",
+    "download_bytes": 1287070,
+    "download_sha256": "d76bb48db6b2abe358bb3cb30377c9fd20033d1199cdee3deaa83523572d3a29",
+    "headers_sha256": "05238951247b71784857ce9fabc8f7120cda51d671c3bc48e3cdfa96022f136a",
+    "retrieved_at_utc": "2026-11-01T00:47:32.716666+00:00",
+    "effective_download_url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 122,
+    "visually_read_pdf_pages_1based": [
+      1,
+      84
+    ],
+    "pdf_metadata_creation_as_received": "D:20220428112718-04'00'",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "2022 Finalist Directory cover and future-tense explanation of In-person and Virtual labels; Virtual entries are described as due to be judged virtually on 4 or 5 May 2022."
+      },
+      {
+        "pdf_page_1based": 84,
+        "printed_page": null,
+        "scope": "Materials Science entry MATS002T: exact project title, Devika Girish and Sara Varghese, St. Peter's Senior Secondary School, Kolenchery Ernakulam, Kerala, India; Virtual label and linked project page."
+      }
+    ],
+    "published_entry": {
+      "booth_id_as_published": "MATS002T",
+      "title_as_published": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "students_credited_as_published": [
+        "Devika Girish",
+        "Sara Varghese"
+      ],
+      "school_as_published": "St. Peter's Senior Secondary School",
+      "school_location_as_published": "Kolenchery Ernakulam, Kerala, India",
+      "mode_as_published": "Virtual.",
+      "linked_project_page_as_published": "https://projectboard.world/isef/project/82875"
+    },
+    "review_scope": "Physical page count and PDF metadata checked; cover PDF 1 and complete target entry page PDF 84 rendered and read visually. No complete 122-page Kerala-school catalogue audit is claimed.",
+    "notes": "This organiser directory gives a contemporaneous 2022 Kerala location for the exact matching title, booth code, pupil pair and school in project-035. Name order/format and school spacing remain source-specific. Virtual is a published planned judging-mode label, not proof of completed participation or physical attendance. It supplies no Kerala local qualifying route, prize, guide credit or individual work division. PDF metadata dates are not substituted for an unprinted issue date."
+  },
+  {
+    "id": "project-037",
+    "title": "Dr. K. V. Rao Scientific Society Annual Report 2018–19: SPARK selection and Raksha credits",
+    "source_type": "original_organiser_annual_report",
+    "publisher": "Dr. K. V. Rao Scientific Society",
+    "url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 17749509,
+    "download_sha256": "6be6225cf1e07e7fa153124fe10f64286faef7268e06b9d4b3cbda9567cd2351",
+    "headers_sha256": "dfbffe2e428a4eb8d1d173fce940154c9aff7a2aa680fc8c50b7d93253c25a2c",
+    "retrieved_at_utc": "2026-11-01T01:30:51.173517+00:00",
+    "effective_download_url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 24,
+    "document_date": null,
+    "reporting_period": "2018–19",
+    "visually_read_pdf_pages_1based": [
+      1,
+      9,
+      10
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Annual Report 2018–19 cover; towards 2020 cover slogan is not substituted for report period."
+      },
+      {
+        "pdf_page_1based": 9,
+        "printed_page": 7,
+        "scope": "SPARK competition held 19 January 2019; seven projects shortlisted/selected for awards; final winners still to be announced during annual function."
+      },
+      {
+        "pdf_page_1based": 10,
+        "printed_page": 8,
+        "scope": "Category 2 Raksha title, Efraem Joji, Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala;guide Dr. Joji George;short principle/functions paragraph."
+      }
+    ],
+    "published_credit_version": {
+      "student": "Mr. Efraem Joji",
+      "school": "Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala.",
+      "guide_teacher": "Dr. Joji George",
+      "project_title": "“RAKSHA” – System for Prevention of Electrocution and the Hazardous Effects of Short Circuits.”",
+      "source_reported_competition_date": "2019-01-19",
+      "selection_status": "selected_for_awards_with_final_winners_still_to_be_announced",
+      "prize_rank": null
+    },
+    "candidate_case_id": "case-2021-raksha-electrical-protection",
+    "correspondence_basis": "Exact credited pupil-name words, distinctive full project title and matching electrical protection/stabiliser/inverter functions; the report is an earlier version with a different school and guide credit.",
+    "same_project_version_verified": false,
+    "method_substance_added": "A short organiser description attributes the protective principle to reducing resultant current through a body; it also claims voltage-stabilisation and inverter/backup functions. No technical diagram or data is supplied.",
+    "review_scope": "All 24 physical pages keyword-screened for Raksha/credit/context; cover and complete relevant PDF 9–10 pages visually read. Not a full 24-page narrative or photograph authentication review.",
+    "notes": "This is original organiser reporting of an earlier SPARK selected-for-awards entry, not a final award-rank certificate, the 2021 ISEF project report, or proof of an unchanged device/author contribution. Earlier school and guide credits must not overwrite or be transferred into the 2021 organiser attribution. The report supplies no circuit specification, thresholds, safety experiment, raw measurements or independent performance validation. The PDF metadata creation/modification is 30 April 2020, distinct from reporting period and 19 January 2019 competition. A separate current award page indexed under 2018 was not received/adopted or reconciled with this report."
+  },
+  {
+    "id": "project-038",
+    "title": "CUSAT achievements listing: Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "source_type": "official_institution_news_listing",
+    "publisher": "Cochin University of Science and Technology",
+    "url": "https://www.cusat.ac.in/achievements.php",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 2338285,
+    "download_sha256": "caf1d992d984b33e66da441703631ebd9a8ff72354907df752ec9e1f8e85c84d",
+    "headers_sha256": "f3aa0698a33c1d669ebeefa10e217728488f47c3138e70cc75d833e51f22db98",
+    "retrieved_at_utc": "2026-11-01T01:33:10.888390+00:00",
+    "effective_download_url": "https://www.cusat.ac.in/achievements.php",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": null,
+    "observed_article_heading": "Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "article_fields_as_received": {
+      "credited_pupil_pair": [
+        "Sara Varghese",
+        "Devika Girish"
+      ],
+      "school": "St. Peter's Senior Secondary School, Kadayiruppu",
+      "reported_research_location": "Department of Polymer Science and Rubber Technology, Cochin University of Science and Technology (CUSAT)",
+      "year_explicitly_attached_to_IRIS": "2022",
+      "project_title": null,
+      "mentor_names": null,
+      "linked_report_href_as_received": "Array"
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "correspondence_basis": "Matching exact pupil pair, school name and IRIS 2022 context; title is absent, so this is institution-reported contextual correspondence rather than a technical source for the exact exhibit.",
+    "review_scope": "Entire relevant article heading/body and adjacent item boundary read directly in receivedHTML; no browser-render/photo review. Current complete achievements listing searched in normalised visible text.",
+    "notes": "The university reports that the named pair's project was carried out in its polymer department and was among Top 20 IRIS 2022 projects. It supplies no taro title, method, mentor attribution, report/code/data link or work division. Kadayiruppu is retained rather than silently replacing the organiser directory's Kolenchery Ernakulam wording. Its broad GrandAwards statement is not used to establish an exact prize; the separate organiser result below provides that evidence. A department affiliation does not establish who fabricated, analysed or coded the project. No article issue date is printed in the observed item;2022 is the explicitly named IRIS year, not an invented page-publication date."
+  },
+  {
+    "id": "project-039",
+    "title": "Society for Science: Full Awards, Regeneron ISEF 2022 — Materials Science MATS002T",
+    "source_type": "official_organiser_award_results",
+    "publisher": "Society for Science",
+    "url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 265646,
+    "download_sha256": "43750045d2ccd4dbc7ed127a96e19a88c2a89b9f28e30c6141da035ff71df7f7",
+    "headers_sha256": "513e41c6e25c6931e527b1927822dc32b0b814821fb62fb6875d17529e24d42e",
+    "retrieved_at_utc": "2026-11-01T01:35:14.562771+00:00",
+    "effective_download_url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": "2022-05-13",
+    "event_year_as_published": 2022,
+    "jsonld_date_published_as_received": "2022-05-13T15:42:00+00:00",
+    "jsonld_date_modified_as_received": "2023-03-03T01:25:35+00:00",
+    "award_entry_as_published": {
+      "category": "MATERIALS SCIENCE",
+      "award_label": "Second Award of $2,000",
+      "booth_code": "MATS002T",
+      "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "pupil_school_versions": [
+        {
+          "pupil": "Devika Girish",
+          "school": "St. Peter’s Senior Secondary School, Kerala, India"
+        },
+        {
+          "pupil": "Sara Varghese",
+          "school": "St.Peter’s Senior Secondary School, Kerala, India"
+        }
+      ]
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "review_scope": "ReceivedHTML title/date metadata, Materials Science heading, preceding award boundary, exact MATS002T title/pupil/school entry and following award boundary read directly. No browser-render review.",
+    "notes": "This separate official result supports the stated ISEF 2022 Materials Science Second Award label for the exact matching code/title/pair/school. Preserve the actual blank Awards Won fields in the previously received abstract formats alongside this new source; do not rewrite that observation. The amount is the published award label, not proof of an individual payment to each pupil. No Kerala-fair prize, qualifying route, unchanged project version, physical attendance, fabrication work division or independent technical validation is established. Publication, modification and current-retrieval dates have distinct scopes."
+  },
+  {
+    "id": "project-040",
+    "title": "NVLI MARC catalogue holding: Structure and working of science models",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=443949",
+    "accessed_on": "2026-11-01",
+    "source_type": "public_institutional_catalogue_marc",
+    "publisher": "NVLI / Indian Culture public Union Catalogue",
+    "document_date": null,
+    "download_bytes": 228665,
+    "download_sha256": "ed81c5d9ee6b36f0fb2ed3e350f832957ce9919e96e04ae4ca78b6c42c54594e",
+    "headers_sha256": "8295aab8e99ac4e0f69d3dd3a9bd821e9e309449815dba657d3e7987904d5f7d",
+    "retrieved_at_utc": "2026-11-01T02:05:42.555798+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=443949&format=marcxml",
+      "download_bytes": 2544,
+      "download_sha256": "290a5631f872a31ae6adc3dc18be30213d7da0b93a4981a5bfdfb03156894539",
+      "headers_sha256": "da6cd4f3a7efcb0ddc552cc2e4b5e15fb35aba12f2b6dc963ba1121f7ee9a890",
+      "retrieved_at_utc": "2026-11-01T02:09:02.768925+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another work or original book."
+    },
+    "holding_target_id": "model-holding-443949",
+    "notes": "Actual complete MARC HTML and advertised XML read. Registered NCERT author/publisher attribution and bibliographic year/extent retained in ncert-model-holdings.json; no original book body recovered. Aliases are discovery counterparts, not extra counted works. No856digital-location field in received record is not proof no digital copy exists elsewhere. Catalogue metadata does not establish Kerala content, model methods, event year, award, current shelf access or physical completeness. IGNCA952$o/952$p explicitly give fullcall607.34STR and barcodeIGNCA-G3753."
+  },
+  {
+    "id": "project-041",
+    "title": "NVLI MARC catalogue holding: Structure and working of Science models.",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3581510",
+    "accessed_on": "2026-11-01",
+    "source_type": "public_institutional_catalogue_marc",
+    "publisher": "NVLI / Indian Culture public Union Catalogue",
+    "document_date": null,
+    "download_bytes": 234818,
+    "download_sha256": "4bf8793ac19987abc4dabd230294352c835f46202ccdde8386d28e96b55d18e3",
+    "headers_sha256": "18d9d1e9954833af576d519e46edec85029350e7aed836ffceb63926b0950a90",
+    "retrieved_at_utc": "2026-11-01T02:05:42.591416+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3581510&format=marcxml",
+      "download_bytes": 3915,
+      "download_sha256": "01cbb4801a804df9639600f769512d0d66744f25c62e39565800167486a43943",
+      "headers_sha256": "0194538d387c696e021c0db3450dae649bdf9805117f13549aaea195c1e88d88",
+      "retrieved_at_utc": "2026-11-01T02:09:02.836727+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another work or original book."
+    },
+    "holding_target_id": "model-holding-3581510",
+    "notes": "Actual complete MARC HTML and advertised XML read. Registered NCERT author/publisher attribution and bibliographic year/extent retained in ncert-model-holdings.json; no original book body recovered. Aliases are discovery counterparts, not extra counted works. No856digital-location field in received record is not proof no digital copy exists elsewhere. Catalogue metadata does not establish Kerala content, model methods, event year, award, current shelf access or physical completeness. NMML item fields lack full call/barcode; MARC082 classification remains classification. MARC505additional-year notes, if present, do not add confirmed volumes."
+  },
+  {
+    "id": "project-042",
+    "title": "NVLI MARC catalogue holding: Structure and working of science models, 1998.",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606554",
+    "accessed_on": "2026-11-01",
+    "source_type": "public_institutional_catalogue_marc",
+    "publisher": "NVLI / Indian Culture public Union Catalogue",
+    "document_date": null,
+    "download_bytes": 228407,
+    "download_sha256": "8331dc1032073de53af0a609a2cefd68c52abeab4b5a62cc4e9fbb1b0d741e1f",
+    "headers_sha256": "9aa52bd3d62657bbfbaca8803eaa50d900083c832ac111558f66accf7427bd3c",
+    "retrieved_at_utc": "2026-11-01T02:05:44.432076+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3606554&format=marcxml",
+      "download_bytes": 2604,
+      "download_sha256": "e1099bb5cb33d76e9f587c876ae268fdb4c3a0efec652b90010032fca0c10073",
+      "headers_sha256": "17e1c39fafd0e0a86715ead2562e6e4a6b42d249bb861fb8f3379e1a7820c5e3",
+      "retrieved_at_utc": "2026-11-01T02:09:02.836721+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another work or original book."
+    },
+    "holding_target_id": "model-holding-3606554",
+    "notes": "Actual complete MARC HTML and advertised XML read. Registered NCERT author/publisher attribution and bibliographic year/extent retained in ncert-model-holdings.json; no original book body recovered. Aliases are discovery counterparts, not extra counted works. No856digital-location field in received record is not proof no digital copy exists elsewhere. Catalogue metadata does not establish Kerala content, model methods, event year, award, current shelf access or physical completeness. NMML item fields lack full call/barcode; MARC082 classification remains classification. MARC505additional-year notes, if present, do not add confirmed volumes."
+  },
+  {
+    "id": "project-043",
+    "title": "NVLI MARC catalogue holding: Structure and working of science models, 1999.",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606497",
+    "accessed_on": "2026-11-01",
+    "source_type": "public_institutional_catalogue_marc",
+    "publisher": "NVLI / Indian Culture public Union Catalogue",
+    "document_date": null,
+    "download_bytes": 229560,
+    "download_sha256": "7c8f7e715d0cbb2c8c25e2272bee7dd46b941c748ccc89d0c27b4988ccae1a12",
+    "headers_sha256": "87fa167b26dc3fc4d6b0a8ad534ba2586ff74c44e8c51e70437006ab1b76c93a",
+    "retrieved_at_utc": "2026-11-01T02:05:45.093591+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3606497&format=marcxml",
+      "download_bytes": 2791,
+      "download_sha256": "3b54165f9ba456a208df0b1d9fea70df27b33466dd3400f014c6057f924e0a39",
+      "headers_sha256": "56d7a41e1f35c07282dd7a24ba9985a57918ffa79e9045b3234218ff158e14e5",
+      "retrieved_at_utc": "2026-11-01T02:09:02.756260+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another work or original book."
+    },
+    "holding_target_id": "model-holding-3606497",
+    "notes": "Actual complete MARC HTML and advertised XML read. Registered NCERT author/publisher attribution and bibliographic year/extent retained in ncert-model-holdings.json; no original book body recovered. Aliases are discovery counterparts, not extra counted works. No856digital-location field in received record is not proof no digital copy exists elsewhere. Catalogue metadata does not establish Kerala content, model methods, event year, award, current shelf access or physical completeness. NMML item fields lack full call/barcode; MARC082 classification remains classification. MARC505additional-year notes, if present, do not add confirmed volumes."
+  },
+  {
+    "id": "project-044",
+    "title": "NVLI MARC catalogue holding: Structure and working of science models, 2000 /",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3580424",
+    "accessed_on": "2026-11-01",
+    "source_type": "public_institutional_catalogue_marc",
+    "publisher": "NVLI / Indian Culture public Union Catalogue",
+    "document_date": null,
+    "download_bytes": 235206,
+    "download_sha256": "3c5d5728dfdb444a7824e70ce4ac8cc0bf7f3154b9d136d8dc73a8b8b47ade28",
+    "headers_sha256": "a837aefd5aea31bc5df16f57ae3a0f62e634139c7d37d786a0065b6150ef0d07",
+    "retrieved_at_utc": "2026-11-01T02:05:44.132834+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3580424&format=marcxml",
+      "download_bytes": 3998,
+      "download_sha256": "26c1605fe3518777e9ef4fefa5cac079c1712238dd0218224b94362d495a8782",
+      "headers_sha256": "f4f3cb2c3589e98bfbc0d67296a9660040cfc00562ae834a64c07b7a26e99497",
+      "retrieved_at_utc": "2026-11-01T02:09:02.682920+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another work or original book."
+    },
+    "holding_target_id": "model-holding-3580424",
+    "notes": "Actual complete MARC HTML and advertised XML read. Registered NCERT author/publisher attribution and bibliographic year/extent retained in ncert-model-holdings.json; no original book body recovered. Aliases are discovery counterparts, not extra counted works. No856digital-location field in received record is not proof no digital copy exists elsewhere. Catalogue metadata does not establish Kerala content, model methods, event year, award, current shelf access or physical completeness. NMML item fields lack full call/barcode; MARC082 classification remains classification. MARC505additional-year notes, if present, do not add confirmed volumes."
+  },
+  {
+    "id": "project-045",
+    "title": "NCERT: Exhibits of 2020 and 2021, combined 47th/48th JNNSMEE bilingual synopsis booklet",
+    "url": "https://web.archive.org/web/20220205221256id_/http://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf",
+    "original_url": "http://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf",
+    "live_https_url_as_discovered": "https://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_exhibit_synopsis_booklet",
+    "publisher": "Department of Education in Science and Mathematics, National Council of Educational Research and Training",
+    "document_date": null,
+    "preface_month_as_printed": "December, 2021",
+    "edition_labels_as_printed": [
+      "Exhibits of 2020",
+      "Exhibits of 2021"
+    ],
+    "national_editions_as_printed": [
+      "47th JNNSMEE",
+      "48th JNNSMEE"
+    ],
+    "event_dates_as_announced": [
+      "2022-02-08",
+      "2022-02-11"
+    ],
+    "event_mode_as_printed": "Virtual Exhibition / online mode",
+    "archive_capture": "2022-02-05T22:12:56Z",
+    "memento_datetime_received": "Sat, 05 Feb 2022 22:12:56 GMT",
+    "download_bytes": 1577202,
+    "download_sha256": "cf168d4febf40fea0b67acc94fd4a4a8ac66cc3402370d524076587063f73454",
+    "headers_sha256": "4a081c6976bc651f71cb80effc0ac22bc257f5f4ab1d5beb07a6a32c2c1465c1",
+    "pdf_pages": 188,
+    "retrieved_at_utc": "2026-11-01T03:07:41.304041+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "archived_url_discovery": {
+      "method": "Public archive.org/wayback/available lookup for the exact newly discovered PDF URL",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fjnnsmee.ncert.org.in%2Fassets%2Ffiles%2FExhibits_Book_for_JNNSMEE_2020_2021.pdf&timestamp=20220101",
+      "response_bytes": 354,
+      "response_sha256": "9291aa7610262437836596149c231a489bdc3f1b85dd0ca52e9bb898be5119f1",
+      "headers_sha256": "0617658c87dd11b123b49a03d5662646306ce6a9d5ed83ba398cd8cd89e95eff",
+      "closest_capture_as_returned": {
+        "status": "200",
+        "available": true,
+        "url": "http://web.archive.org/web/20220205221256/http://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf",
+        "timestamp": "20220205221256"
+      },
+      "note": "Archive availability response supplied the captured original HTTP URL. Raw archived payload was retrieved through verified HTTPS with id_ and actual Memento checked; no CDX digest-match claim."
+    },
+    "native_text_pages_extracted": 188,
+    "distinct_exhibit_credit_blocks": 145,
+    "blocks_by_labelled_edition": {
+      "2020": 81,
+      "2021": 64
+    },
+    "english_school_address_blocks_visually_reviewed": 145,
+    "full_pages_visually_read_1based": [
+      1,
+      3,
+      7,
+      8,
+      11,
+      13,
+      16,
+      107,
+      187,
+      188
+    ],
+    "school_address_crop_pdf_pages_1based": [
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      89,
+      90,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      100,
+      101,
+      102,
+      103,
+      104,
+      106,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      122,
+      124,
+      127,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      140,
+      141,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      154,
+      155,
+      157,
+      158,
+      160,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "page_locators": [
+      {
+        "pdf_page": 1,
+        "claim": "Cover names both editions and announces 8–11 February 2022 as a virtual exhibition."
+      },
+      {
+        "pdf_page": 3,
+        "claim": "Title page identifies DESM/NCERT as organiser; New Delhi is printed organiser context, not independent evidence of physical attendance."
+      },
+      {
+        "pdf_page": 7,
+        "printed_page": "v",
+        "claim": "English preface describes the planned combined online 47th/48th event and the separate 2020/2021 themes."
+      },
+      {
+        "pdf_page": 8,
+        "printed_page": "vi",
+        "claim": "Preface identifies the booklet as an overview and is dated December 2021; this is not a full original construction-report volume."
+      },
+      {
+        "pdf_page": 11,
+        "printed_page": "ix",
+        "claim": "Bilingual contents separates Part I, 2020, with seven sections, from Part II, 2021, with five sections."
+      },
+      {
+        "pdf_page": 16,
+        "printed_page": "4",
+        "claim": "Representative bilingual entry contains a single exhibit code, shared credits and parallel Hindi/English synopses, not two exhibits."
+      },
+      {
+        "pdf_page": 187,
+        "printed_page": "175",
+        "claim": "Last numbered Notes page; PDF 188 is the publisher back cover."
+      }
+    ],
+    "review_scope": "All 188 native text layers were extracted and screened. All 145 English school/address blocks were read in text and as source-rendered crops across seven contact sheets, covering all seven 2020 sections and all five 2021 sections; no block remained unparsed. Full cover, title, English preface, contents, part-boundary, sample-entry, last-notes and back-cover pages were read visually. This is not a full reading or technical validation of every synopsis, or a line-by-line bilingual translation audit.",
+    "notes": "This is a newly received body, with no SHA256 match among sources registered at baseline 1287f36. Hindi and English run in parallel for each exhibit. The count of 145 refers to distinct edition/code/credit blocks, not 290 language versions, unique schools, pupils or attendees. No confidently Kerala-located school was identified in the 145 reviewed addresses; this does not establish nonparticipation in either event or outside this booklet. The December 2021 preface, PDF creation on 3 February 2022, archive capture on 5 February 2022 and announced 8–11 February 2022 event remain distinct. This is a selected-exhibit synopsis booklet, separate from the edited Structure and Working chapter collection and original school logbooks. It adds no Kerala method case, award, code-authorship, qualifying-route or performance validation. The current HTTPS host failed DNS; the archived body was acquired normally without retrying the stopped GIPE or partial 2010 routes."
+  },
+  {
+    "id": "project-046",
+    "title": "Kendriya Vidyalaya Chronicle, Year 1 Issue 2, August 2025: Kripali Sunil first-person account",
+    "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2025/07/2025072543.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutionally_published_first_person_student_account",
+    "publisher": "Kendriya Vidyalaya Sangathan (HQ)",
+    "document_date": null,
+    "issue_label_as_printed": "Year-1, Issue-2, August2025Edition",
+    "article_title_as_printed": "My Journey – From an Idea to Japan",
+    "author_credit_as_printed": "Kripali Sunil",
+    "school_credit_as_printed": "Student, PM SHRI KV Payyannur",
+    "region_wording_in_account": "Ernakulam Region",
+    "article_pdf_pages_1based": [
+      2
+    ],
+    "article_printed_page": 2,
+    "download_bytes": 2684458,
+    "download_sha256": "6ba645e8447a0a4f464db5afd7f0c7b121385274e9ab5ee511b897fdce78152e",
+    "headers_sha256": "9a413523e7214965a0531df0c4edef2cfcf4a7ed134a41a037975d9554480996",
+    "pdf_pages": 4,
+    "retrieved_at_utc": "2026-11-01T03:16:44.936158+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "visually_inspected_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "page_locators": [
+      {
+        "pdf_page": 1,
+        "claim": "Masthead identifies Year 1 Issue 2, August 2025 edition."
+      },
+      {
+        "pdf_page": 2,
+        "printed_page": "2",
+        "claim": "Complete bylined first-person account in the lower panel gives school/region wording, a handle/platform mechanism and INSPIRE-MANAK/Sakura statements."
+      },
+      {
+        "pdf_page": 4,
+        "printed_page": "4",
+        "claim": "Publisher imprint attributes e-publication to KVS (HQ) and marks internal circulation."
+      }
+    ],
+    "provenance_note": "The PDF is openly served by a government S3WAAS file host and carries the KVS masthead and publisher imprint. Search discovery also returned an official Chronicle index URL, but its fresh ordinary GET redirected to the KVS homepage rather than the historical index. This fresh HTML body did not advertise the PDF. No authentication, email contact, access request or hidden resource was used.",
+    "date_note": "August 2025 is the printed issue label. The July 2025 URL directory and 25 July PDF metadata are separate observations, not an authenticated exact publication day or exhibition date.",
+    "review_scope": "Native text was extracted for all four pages; all page layouts and main text were visually inspected. The complete relevant first-person article on PDF 2 was read, with edition and publisher provenance checked on PDF 1 and 4. No newspaper-reprint transcription, QR/video follow-up, photograph-based identity check or independent narrative verification was performed.",
+    "notes": "Candidate correspondence to the existing HealthCareDevice record uses the published author name, school/region wording, manual platform-lifting mechanism and INSPIRE-MANAK reference. The account does not print the earlier exhibit title, code, edition, guide credit or an unchanged-version statement. Its narrated selection, prototype development and Japan experience remain attributed first-person claims, not independent proof of attendance, work division, load capacity, clinical/safety outcomes or award rank. Only a concise paraphrase is proposed; no class/age, family medical details, private contact, portrait or source PDF is copied into the repository."
+  },
+  {
+    "id": "project-047",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 2000 /",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=128707",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 101677,
+    "download_sha256": "1741130e65b6f65e0a4aa62c228177e5fc5081adca8dd31ea07ebbd4f559f8a5",
+    "headers_sha256": "ca249e81545094487c95f689fc82108df4985e489bffbad3933725b00b3f61c8",
+    "retrieved_at_utc": "2026-11-01T04:38:17.701067+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=128707&format=marcxml",
+      "download_bytes": 4834,
+      "download_sha256": "856b3e3a9e9447eede881dc1b33e831b4f857510e67d86e185dd9951816da6a0",
+      "headers_sha256": "7dfd4c610bf7b9b0b330183c1192a5f6dfbb97ca62e9d027d7f6bfea5a3f4e2e",
+      "retrieved_at_utc": "2026-11-01T04:39:05.278432+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3580424",
+    "institutional_catalogue_record_id": "128707",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. The RR 923.254165 K7 / GI6677 item under this record is retained as an unresolved anomalous association."
+  },
+  {
+    "id": "project-048",
+    "title": "PMML institutional catalogue item record: Structure and working of Science models.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=129825",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 101563,
+    "download_sha256": "98d12fcbc30d9647988be6fe2d72487b715e5398a16db49225791fae98af8636",
+    "headers_sha256": "28316ce8cbcbb5cf8f360fcbbbc9dfcd4d812b617178dedbfd6c3309a31d33ea",
+    "retrieved_at_utc": "2026-11-01T04:38:21.200462+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=129825&format=marcxml",
+      "download_bytes": 4746,
+      "download_sha256": "6bae14304fd0eadcf79102c061f45ca963b48ae051be3a93e6c8fac7955d8e48",
+      "headers_sha256": "bfdefd2a5f7e527ddb01a26c83e8d8e80ed09942404cc296d888ed310cace77c",
+      "retrieved_at_utc": "2026-11-01T04:39:07.917296+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3581510",
+    "institutional_catalogue_record_id": "129825",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-049",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 2000.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156300",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 96846,
+    "download_sha256": "c6a0cc46efb884ca77fe1b673209d05ee27551942aa8dc00b4e666a7b39e6c6c",
+    "headers_sha256": "b6c894f2c0d2911be17b87714033db60afc210be2491fe923a51535e68bd7cd7",
+    "retrieved_at_utc": "2026-11-01T04:38:24.807470+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156300&format=marcxml",
+      "download_bytes": 3085,
+      "download_sha256": "816d1220ed989ffcd154001a392f0e6db8067ca6b1cbcee58b493ab35e19e57f",
+      "headers_sha256": "9b3394a19cce03da89d62f03b337a7e7560cac59ba0370b33048b7930d034b4e",
+      "retrieved_at_utc": "2026-11-01T04:39:10.702627+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3580424",
+    "institutional_catalogue_record_id": "156300",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-050",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 1999.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156303",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 99163,
+    "download_sha256": "f5fd7181c15cc916826b00a6fdad84535d264eb9c79ad10653d07dafd6295162",
+    "headers_sha256": "f97b03a7a0358760d85a615eb33805a6c9606378ba583771746939967a6061a3",
+    "retrieved_at_utc": "2026-11-01T04:38:28.724190+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156303&format=marcxml",
+      "download_bytes": 3629,
+      "download_sha256": "5781e88233ef3cdb350fa977661364c8634866bcb4133230ef78469f9474847e",
+      "headers_sha256": "01ff9538bb0f699f41cc7552602cdc7980b9e626670b27b4142624255ed2d614",
+      "retrieved_at_utc": "2026-11-01T04:39:13.844829+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3606497",
+    "institutional_catalogue_record_id": "156303",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-051",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 1998.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156363",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 96798,
+    "download_sha256": "de28516fe9565060e561bc65fc4f115ef76e584020578a2b8e00ae99748f4f5a",
+    "headers_sha256": "ae59579825bc8e9306ccdbd44480e8c0c61d590876bb16e38ad390a055e9d582",
+    "retrieved_at_utc": "2026-11-01T04:38:31.889236+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156363&format=marcxml",
+      "download_bytes": 2894,
+      "download_sha256": "ea7f6b6bdf4a8c11146f6c0033f8eca37482afd4188964787b07c559f4cd458f",
+      "headers_sha256": "deef8be280d380b5e4da171787b6eb8bf6b9e67028afb69bdd1d6bf9b67a98c6",
+      "retrieved_at_utc": "2026-11-01T04:39:16.432571+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3606554",
+    "institutional_catalogue_record_id": "156363",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  }
+]

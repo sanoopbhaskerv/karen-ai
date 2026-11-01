@@ -1,0 +1,1746 @@
+{
+  "title": "Thrissur SISF 2015: separate institutional report and reproduced event publications",
+  "checked_on": "2026-11-01",
+  "source_ids": [
+    "pathways-97",
+    "pathways-98",
+    "pathways-86"
+  ],
+  "scope": "One institution-reported event observation, two source-specific reproduced award-category observations and one qualified cross-programme correspondence. The existing seven VITM-cycle records and 95 INSPIRE descriptions remain unchanged.",
+  "count_scope": "Nested source97/98 observations and these records describe the same source-specific observations, not additional events, independent-origin corroboration or unique-winner counts.",
+  "event_observation": {
+    "observation_id": "sisf-ncsm-annual-2014-15-thrissur",
+    "source_id": "pathways-97",
+    "reporting_cycle_as_published": "2014-2015",
+    "evidence_kind": "institution_reported_event_with_unreconciled_date_wording",
+    "ordinal_as_published": 28,
+    "event_label_as_published": "28th Southern India Science Fair",
+    "organiser_as_reported": "Visvesvaraya Industrial & Technological Museum, in collaboration with the Education Departments of Southern Indian States",
+    "host_as_reported": "Directorate of Public Instruction, Government of Kerala",
+    "venue_as_reported": "Thekkinkadu Maidan, Thrissur, Kerala",
+    "fair_range_as_published": "5th to 10th January",
+    "fair_calendar_year_explicit_in_cited_paragraph": null,
+    "inauguration_as_published": "20th January 2014",
+    "duration_as_published": "five-day event",
+    "date_reconciliation": "Unresolved. The inauguration wording falls outside the stated January day range, and the duration wording is retained without replacing it with a calculated interval. The reporting cycle is not silently promoted to an exact corrected event/inauguration year.",
+    "reported_populations": {
+      "students": 204,
+      "schools": 194,
+      "teachers_guiding_students": 143,
+      "southern_states": 5,
+      "student_category_exhibits": 143,
+      "teacher_category_exhibits": 56,
+      "visitors_students_teachers_general_public": 40000,
+      "scope": "Event-wide institution-reported units; not Kerala-only, a unique-person census, independent headcount, learning measurement or prize roster."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 15,
+        "printed_page": "13",
+        "scope": "VITM programme account explicitly begins 28th SISF statement."
+      },
+      {
+        "pdf_page_1based": 16,
+        "printed_page": "14",
+        "scope": "Statement continues with organiser collaboration, 5–10 January and Thekkinkadu/Thrissur."
+      },
+      {
+        "pdf_page_1based": 73,
+        "printed_page": "71",
+        "scope": "Separate fair account: ordinal, same venue/day range, host, literal inauguration 20 January 2014, event-wide populations and five-day wording."
+      }
+    ],
+    "independent_attendance_or_performance_verified": false,
+    "pupil_awards_supplied_by_cited_report_passages": false
+  },
+  "reproduced_award_observations": [
+    {
+      "source_id": "pathways-98",
+      "programme_as_published": "Southern India Science Fair - 2015",
+      "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+      "pupil_credit_as_published": "R Ajithkumar",
+      "model_title_as_published": "Solar Power Automated Road Sweeper",
+      "school_name_as_published": "Govt Middle School",
+      "school_locality_as_published": "Kariamanickam",
+      "district_as_published": "Puducherry District",
+      "guide_teacher_as_published": "J Venkadesan",
+      "individual_work_division_verified": false,
+      "physical_award_presentation_or_payment_verified": false,
+      "scientific_performance_independently_verified": false,
+      "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+      "observation_id": "sisf2015-reproduced-engineering-trophy-sweeper",
+      "category_as_published": "NON Rolling Trophies constituted by V I T Museum, (NCSM), Bangalore",
+      "award_label_as_published": "Sir M. Visvesvaraya Trophy for BEST Exhibit in Engineering / Technology",
+      "numeric_overall_rank": null,
+      "cash_amount_as_published_inr": null,
+      "result_image_filename_as_advertised": "img010.jpg",
+      "printed_page_visually_verified": 4,
+      "image_sequence_index": 4,
+      "scope_distinction": "Engineering/Technology trophy; not the separately headed NCSM overall Individual First cash award or a national all-category first."
+    },
+    {
+      "source_id": "pathways-98",
+      "programme_as_published": "Southern India Science Fair - 2015",
+      "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+      "pupil_credit_as_published": "R Ajithkumar",
+      "model_title_as_published": "Solar Power Automated Road Sweeper",
+      "school_name_as_published": "Govt Middle School",
+      "school_locality_as_published": "Kariamanickam",
+      "district_as_published": "Puducherry District",
+      "guide_teacher_as_published": "J Venkadesan",
+      "individual_work_division_verified": false,
+      "physical_award_presentation_or_payment_verified": false,
+      "scientific_performance_independently_verified": false,
+      "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+      "observation_id": "sisf2015-reproduced-puducherry-individual-first-sweeper",
+      "category_as_published": "PUDUCHERRY DIRECTORATE OF SCHOOL EDUCATION / CASH AWARDS FOR INDIVIDUAL CATEGORY",
+      "award_label_as_published": "FIRST PRIZE",
+      "rank_within_that_published_category": 1,
+      "cash_amount_as_published_inr": 1400,
+      "result_image_filename_as_advertised": "img017.jpg",
+      "printed_page_visually_verified": 11,
+      "image_sequence_index": 11,
+      "scope_distinction": "Puducherry DSE Individual category first, distinct from the Engineering/Technology trophy and NCSM event-overall Individual cash-award category. Listed amount is not a payment receipt."
+    }
+  ],
+  "cross_source_correspondence": {
+    "observation_id": "candidate-sisf2015-sweeper-inspire5-description",
+    "source_ids": [
+      "pathways-86",
+      "pathways-98"
+    ],
+    "relationship_status": "qualified_source_specific_correspondence_only",
+    "basis": "Exact model-title wording and corresponding public pupil-name form, Puducherry context, and the INSPIRE synopsis recognition paragraph naming the SISF 2015 Thrissur engineering award.",
+    "credit_versions": [
+      {
+        "source_id": "pathways-98",
+        "printed_result_pages": [
+          4,
+          11
+        ],
+        "pupil_credit_as_published": "R Ajithkumar",
+        "school_name_as_published": "Govt Middle School",
+        "school_locality_as_published": "Kariamanickam",
+        "guide_teacher_as_published": "J Venkadesan"
+      },
+      {
+        "source_id": "pathways-86",
+        "pdf_page_1based": 573,
+        "printed_page": "557",
+        "pupil_credit_as_published": "R. Ajith Kumar",
+        "school_as_published": "Kamban Govt. Hr. Sec.School, Nettapakkam, Puducherry.",
+        "teacher_field_as_published": "R. Gurunathan Pst"
+      }
+    ],
+    "recognition_claim_scope": "Source 86 pupil synopsis attributes a best-engineering award to SISF 2015 at Thrissur. Source 98 reproduced results separately display the matching-title Engineering/Technology trophy and a separately categorised Puducherry individual first. Their different school/guide fields remain literal.",
+    "limits": [
+      "No legal/unique-person identity proof, school-transfer explanation, unchanged model/version, guide/work-division transfer, complete qualifying route, receipt of cash or science/safety validation.",
+      "The source 86 page itself says further research is to make a real model and take remedial measures in real-time situations; no road-ready deployment is inferred.",
+      "Puducherry school credits remain outside the Kerala-school description count; this is Kerala-hosted-event context, not a new Kerala-school method case."
+    ]
+  },
+  "boundaries": [
+    "Retain report inauguration/duration inconsistency and separate About/poster/result date scopes.",
+    "Blog ownership/original-document authentication, physical presentation/payment, unique identity/version, school-transfer cause and scientific performance are not independently verified.",
+    "No new Kerala-school case, original school project report, code or raw data is recovered."
+  ],
+  "review_enrichment_2026_11_01": {
+    "reviewed_on": "2026-11-01",
+    "source_ids": [
+      "pathways-98",
+      "project-013"
+    ],
+    "scope_note": "The parent fields retain the initial institutional/two-Puducherry-award snapshot and its source list. This dated follow-up separately records Kerala-attributed category observations, handwritten school-visit plans and qualified NCERT catalogue correspondences. Nested source records and this dataset repeat the same observations; do not add them as extra awards or independent corroboration.",
+    "complete_result_review": {
+      "reviewed_on": "2026-11-01",
+      "source_id": "pathways-98",
+      "evidence_kind": "dated_full_result_image_followup",
+      "result_image_count": 23,
+      "printed_result_page_range": [
+        1,
+        23
+      ],
+      "full_original_result_images_read": 23,
+      "initial_result_images_previously_read": 4,
+      "additional_distinct_result_images_read": 19,
+      "kerala_attributed_award_category_row_count": 36,
+      "award_family_counts": {
+        "kerala_dpi_non_rolling_trophy": 3,
+        "ncsm_overall_cash": 1,
+        "kerala_dpi_cash": 6,
+        "kerala_dpi_book": 6,
+        "sponsor_special_prize": 20
+      },
+      "category_role_row_counts": {
+        "group": 11,
+        "individual": 14,
+        "teacher": 11
+      },
+      "category_role_count_scope": "Counts follow printed section/category markers:11group,14individual,11teacher-section rows. One teacher-section book row prints a conflicting student/individual label; preserve the explicit row conflict.",
+      "separate_host_department_trophy_count": 1,
+      "award_category_observations": [
+        {
+          "observation_id": "sisf2015-kerala-result-p02-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img008.jpg",
+          "image_sequence_index": 2,
+          "printed_page_visually_verified": 2,
+          "award_family": "kerala_dpi_non_rolling_trophy",
+          "category_role": "group",
+          "category_label": "Directorate of Public Instruction, Kerala — non-rolling trophy for the best student exhibit (group)",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Rubin C James"
+          ],
+          "school_name_as_published": "Ossanam E M Hr Sec School",
+          "school_locality_as_published": "Kattappana",
+          "district_as_published": "Idukki District",
+          "model_title_as_published": "Slayer Tesla Unification",
+          "guide_teacher_as_published": "Rosamma James",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Only one pupil is named; no second member is supplied in this row."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p02-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img008.jpg",
+          "image_sequence_index": 2,
+          "printed_page_visually_verified": 2,
+          "award_family": "kerala_dpi_non_rolling_trophy",
+          "category_role": "individual",
+          "category_label": "Directorate of Public Instruction, Kerala — non-rolling trophy for the best student exhibit (individual)",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Rohan Anil"
+          ],
+          "school_name_as_published": "Mar Elias Hr Sec School",
+          "school_locality_as_published": "Kothamangalam, Kottappady",
+          "district_as_published": "Ernakulam District",
+          "model_title_as_published": "Earth Quake Resistant Building",
+          "guide_teacher_as_published": "Basil Varghese Mathew",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p02-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img008.jpg",
+          "image_sequence_index": 2,
+          "printed_page_visually_verified": 2,
+          "award_family": "kerala_dpi_non_rolling_trophy",
+          "category_role": "teacher",
+          "category_label": "Directorate of Public Instruction, Kerala — non-rolling trophy for the best teacher exhibit",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Ravi K"
+          ],
+          "school_name_as_published": "A V Hr Sec School",
+          "school_locality_as_published": "Ponnani",
+          "district_as_published": "Malappuram District",
+          "model_title_as_published": "Teaching Aid",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p04-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img010.jpg",
+          "image_sequence_index": 4,
+          "printed_page_visually_verified": 4,
+          "award_family": "ncsm_overall_cash",
+          "category_role": "group",
+          "category_label": "National Council of Science Museums (NCSM) Group Second Prize",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": "2 x ₹2500.00",
+          "public_exhibitor_credits_as_published": [
+            "Rubin C James"
+          ],
+          "school_name_as_published": "Ossanam E M Hr Sec School",
+          "school_locality_as_published": "Kattappana",
+          "district_as_published": "Idukki District",
+          "model_title_as_published": "Slayer Tesla Unification",
+          "guide_teacher_as_published": "Rosamma James",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Heading provides two payments but the row names only one pupil; no second member is inferred.",
+          "cash_amount_scope": "Printed as payable to the students who are Second Best winner of the entire fair in GROUP Category; not a cash receipt or verification of payment.",
+          "cash_amount_structure_as_published": {
+            "multiplicity": 2,
+            "amount_each_inr": 2500,
+            "sum_not_needed_for_observation": true
+          },
+          "scope_distinction": "NCSM entire-fair Group Second category, separate from Kerala DPI group cash/book/trophy and sponsor special prizes. Only one pupil name is printed despite the two-payment heading."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "group",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for group category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": "₹1000.00 each for Two students = ₹2000.00",
+          "public_exhibitor_credits_as_published": [
+            "Anand S",
+            "Mohamed Ashif K M"
+          ],
+          "school_name_as_published": "Govt Boys Hr Sec School",
+          "school_locality_as_published": "Manjeri",
+          "district_as_published": "Malappuram District",
+          "model_title_as_published": "Wound Healing Activity of Root of Plumbago zeylanica",
+          "guide_teacher_as_published": "Somasundaran T V",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division.",
+          "cash_amount_structure_as_published": {
+            "multiplicity": 2,
+            "amount_each_inr": 1000,
+            "total_as_printed_inr": 2000
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "group",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for group category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": "₹900.00 each for Two students = ₹1800.00",
+          "public_exhibitor_credits_as_published": [
+            "Mohammed Shibily M V",
+            "Vishnu K P"
+          ],
+          "school_name_as_published": "Abdurahiman Nagar High School",
+          "school_locality_as_published": "A R Nagar Post, Chendappuraya",
+          "district_as_published": "Malappuram District",
+          "model_title_as_published": "Automatic Cleaning Toilet",
+          "guide_teacher_as_published": "Sreelatha B",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division.",
+          "cash_amount_structure_as_published": {
+            "multiplicity": 2,
+            "amount_each_inr": 900,
+            "total_as_printed_inr": 1800
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "individual",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for individual category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": "₹1200.00",
+          "public_exhibitor_credits_as_published": [
+            "Rohan Anil"
+          ],
+          "school_name_as_published": "Mar Elias Hr Sec School",
+          "school_locality_as_published": "Kothamangalam, Kottappady",
+          "district_as_published": "Ernakulam District",
+          "model_title_as_published": "Earth Quake Resistant Building",
+          "guide_teacher_as_published": "Basil Varghese Mathew",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "cash_amount_structure_as_published": {
+            "amount_inr": 1200
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-04",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "individual",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for individual category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": "₹1000.00",
+          "public_exhibitor_credits_as_published": [
+            "Ajay V Dev"
+          ],
+          "school_name_as_published": "V V Hr Sec School",
+          "school_locality_as_published": "Charummood, Thamarakulam",
+          "district_as_published": "Alappuzha District",
+          "model_title_as_published": "Safety Breaking System",
+          "guide_teacher_as_published": "K V Rajasekharan",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "literal_wording_note": "Breaking is printed; not silently changed to Braking.",
+          "cash_amount_structure_as_published": {
+            "amount_inr": 1000
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-05",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "teacher",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for teachers category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": "₹1000.00",
+          "public_exhibitor_credits_as_published": [
+            "Ravi K"
+          ],
+          "school_name_as_published": "A V Hr Sec School",
+          "school_locality_as_published": "Ponnani",
+          "district_as_published": "Malappuram District",
+          "model_title_as_published": "Teaching Aid",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "cash_amount_structure_as_published": {
+            "amount_inr": 1000
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p07-06",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img013.jpg",
+          "image_sequence_index": 7,
+          "printed_page_visually_verified": 7,
+          "award_family": "kerala_dpi_cash",
+          "category_role": "teacher",
+          "category_label": "Kerala Directorate of Public Instruction cash awards for teachers category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": "₹800.00",
+          "public_exhibitor_credits_as_published": [
+            "Shaly C M"
+          ],
+          "school_name_as_published": "Govt Voc Hr Sec School",
+          "school_locality_as_published": "Pudukad",
+          "district_as_published": "Thrissur District",
+          "model_title_as_published": "Map Study of India",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "cash_amount_structure_as_published": {
+            "amount_inr": 800
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "group",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for group category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Varsha Prasad",
+            "Adharsh S"
+          ],
+          "school_name_as_published": "S N Hr Sec School",
+          "school_locality_as_published": "Poochakkal Post, Sreekandeswaram",
+          "district_as_published": "Cherthala District",
+          "model_title_as_published": "Automatic Dosa Maker",
+          "guide_teacher_as_published": "Babu Abraham P V",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "group",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for group category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Navya S K",
+            "Bhagya Prakasan N"
+          ],
+          "school_name_as_published": "Govt Hr Sec School",
+          "school_locality_as_published": "Chavassery",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Cone and Volume",
+          "guide_teacher_as_published": "Satheendran N",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "individual",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for individual category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Muhammed Safuvan A P"
+          ],
+          "school_name_as_published": "Memunda Hr Sec School",
+          "school_locality_as_published": "Vatakara, Memunda",
+          "district_as_published": "Kozhikode District",
+          "model_title_as_published": "Magical Pagoda",
+          "guide_teacher_as_published": "Sunil Kumar P P",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-04",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "individual",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for individual category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Samyuktha Ranjith"
+          ],
+          "school_name_as_published": "Kadambur Hr Sec School",
+          "school_locality_as_published": "Kadambur",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Auto Toilet Cleaner",
+          "guide_teacher_as_published": "Pramod Kumar G",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-05",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "teacher",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for teacher category",
+          "rank_as_published": "First",
+          "numeric_rank": 1,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Yohannan P G"
+          ],
+          "school_name_as_published": "Govt Hr Sec School",
+          "school_locality_as_published": "Payyanamon, Elimullumplackal",
+          "district_as_published": "Pathanamthitta District",
+          "model_title_as_published": "Teaching Aids in Hard Spots in Geography",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p08-06",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img014.jpg",
+          "image_sequence_index": 8,
+          "printed_page_visually_verified": 8,
+          "award_family": "kerala_dpi_book",
+          "category_role": "teacher",
+          "category_label": "Kerala Directorate of Public Instruction book prizes for teacher category",
+          "rank_as_published": "Second",
+          "numeric_rank": 2,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Mohanan V P"
+          ],
+          "school_name_as_published": "Chothavoor Hr Sec School",
+          "school_locality_as_published": "Champad, Thalassery",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Factors of Speed & Direction of Wind",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "category_label_conflict": {
+            "section_heading_as_published": "BOOK PRIZES FOR TEACHER CATEGORY",
+            "row_label_as_published": "SECOND PRIZE FOR STUDENT EXHIBIT (INDIVIDUAL) AWARDED TO",
+            "nonidentifying_category_marker": "T",
+            "scope": "Teacher-section/category-marker attribution is retained beside the inconsistent literal student/individual row label. No correction or current eligibility inference is supplied."
+          }
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p15-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img021.jpg",
+          "image_sequence_index": 15,
+          "printed_page_visually_verified": 15,
+          "award_family": "sponsor_special_prize",
+          "category_role": "group",
+          "category_label": "Special Prizes sponsored by BHARAT ELECTRONICS LTD, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Ganesh R",
+            "Karthik Pradeep C"
+          ],
+          "school_name_as_published": "Netaji Hr Sec School",
+          "school_locality_as_published": "Pathanamthitta, Pramadom",
+          "district_as_published": "Pathanamthitta District",
+          "model_title_as_published": "Automatic Infromation System Using GSM",
+          "guide_teacher_as_published": "Rajesh A G",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division.",
+          "literal_wording_note": "Infromation is retained as visually printed; no method is derived from this title."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p15-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img021.jpg",
+          "image_sequence_index": 15,
+          "printed_page_visually_verified": 15,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by BHARAT ELECTRONICS LTD, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Paulson C C"
+          ],
+          "school_name_as_published": "Govt National Boys High School",
+          "school_locality_as_published": "Kodakkara",
+          "district_as_published": "Thrissur District",
+          "model_title_as_published": "Integrated Electric & Electronic Circuits",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p16-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img022.jpg",
+          "image_sequence_index": 16,
+          "printed_page_visually_verified": 16,
+          "award_family": "sponsor_special_prize",
+          "category_role": "group",
+          "category_label": "Special Prizes sponsored by BHARAT HEAVY ELECTRICALS LTD, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Gokul C S",
+            "Sreeraag P S"
+          ],
+          "school_name_as_published": "St Joseph's Hr Sec School",
+          "school_locality_as_published": "Mathilakam, Thrissur",
+          "district_as_published": "Thrissur District",
+          "model_title_as_published": "Multi-function Pedal Power Machine",
+          "guide_teacher_as_published": "Sajith E M",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p17-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img023.jpg",
+          "image_sequence_index": 17,
+          "printed_page_visually_verified": 17,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by INDIAN SPACE RESEARCH ORGANISATION, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Gowri Priya T R"
+          ],
+          "school_name_as_published": "St George Hr Sec School",
+          "school_locality_as_published": "Kattappana",
+          "district_as_published": "Idukki District",
+          "model_title_as_published": "Mars Orbiter Mission - Mangalyaan",
+          "guide_teacher_as_published": "Leena Mathew",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p17-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img023.jpg",
+          "image_sequence_index": 17,
+          "printed_page_visually_verified": 17,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by INDIAN SPACE RESEARCH ORGANISATION, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Aswin Raj R P"
+          ],
+          "school_name_as_published": "New Hr Sec School",
+          "school_locality_as_published": "Nellimoodu",
+          "district_as_published": "Thiruvananthapuram District",
+          "model_title_as_published": "Science In Mangalyaan - Soil and River?.",
+          "guide_teacher_as_published": "Wilfred D D",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "literal_wording_note": "Question mark and period are visible at the title end."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p17-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img023.jpg",
+          "image_sequence_index": 17,
+          "printed_page_visually_verified": 17,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by INDIAN SPACE RESEARCH ORGANISATION, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Pradeep Kumar K V"
+          ],
+          "school_name_as_published": "Moothedath Hr Sec School",
+          "school_locality_as_published": "Taliparamba",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Sky Calendar",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p18-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img024.jpg",
+          "image_sequence_index": 18,
+          "printed_page_visually_verified": 18,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by KARNATAKA RENEWABLE ENERGY DEVELOPMENT LTD",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Ushadevi K"
+          ],
+          "school_name_as_published": "Govt Voc Hr Sec School",
+          "school_locality_as_published": "Nandikkara",
+          "district_as_published": "Thrissur District",
+          "model_title_as_published": "An Improvised Teaching Aid Kit for Geometry",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p20-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img026.jpg",
+          "image_sequence_index": 20,
+          "printed_page_visually_verified": 20,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by PETROLEUM CONSERVATION RESEARCH AGENCY",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Adeeb C"
+          ],
+          "school_name_as_published": "JDT Islam High School",
+          "school_locality_as_published": "Marikunnu",
+          "district_as_published": "Kozhikode District",
+          "model_title_as_published": "Teaching Aid",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Nubra Shirin C"
+          ],
+          "school_name_as_published": "Ideal Eng Hr Sec School",
+          "school_locality_as_published": "Ayankalam, Kadakassery",
+          "district_as_published": "Malappuram District",
+          "model_title_as_published": "Maths Working Model",
+          "guide_teacher_as_published": "Rajesh C",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Minulakshmi S"
+          ],
+          "school_name_as_published": "Koodali Hr Sec School",
+          "school_locality_as_published": "Koodali",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Inscribing Square In Triangles",
+          "guide_teacher_as_published": "Viji V",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Ansifa Abdullah"
+          ],
+          "school_name_as_published": "Seethi Sahib Hr Sec School",
+          "school_locality_as_published": "Taliparamba",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Concrete Recycling",
+          "guide_teacher_as_published": "Sulaikha",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-04",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Subin Krishna V V"
+          ],
+          "school_name_as_published": "Mambaram Hr Sec School",
+          "school_locality_as_published": "Mambaram",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Symphony Of Pyramids",
+          "guide_teacher_as_published": "T Pavithran",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-05",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Fathima Haneefa"
+          ],
+          "school_name_as_published": "Muslim Girls Hr Sec School",
+          "school_locality_as_published": "Erattupetta",
+          "district_as_published": "Kottayam District",
+          "model_title_as_published": "Supercritical Fluid Extraction",
+          "guide_teacher_as_published": "Tessymol Mathew",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-06",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "group",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Privin Nelson",
+            "Pranav S"
+          ],
+          "school_name_as_published": "St. Stephen's Hr Sec School",
+          "school_locality_as_published": "Pathanapuram",
+          "district_as_published": "Kollam District",
+          "model_title_as_published": "Plastic Burning Boiler",
+          "guide_teacher_as_published": "Rajeev T Mathew",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p21-07",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img027.jpg",
+          "image_sequence_index": 21,
+          "printed_page_visually_verified": 21,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by UNDERWRITER LABORATORIES INDIA INC",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Pradeepan M"
+          ],
+          "school_name_as_published": "Iritty Hr Sec School",
+          "school_locality_as_published": "Keezhur",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Sin A, Cos A, Tan A & Sine Curve Plotting",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p22-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img028.jpg",
+          "image_sequence_index": 22,
+          "printed_page_visually_verified": 22,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by VISVESVARAYA INDUSTRIAL MUSEUM SOCIETY TRUST",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Naval Marjan M K"
+          ],
+          "school_name_as_published": "Memunda Hr Sec School",
+          "school_locality_as_published": "Vatakara, Memunda",
+          "district_as_published": "Kozhikode District",
+          "model_title_as_published": "Spheres Related With Platonic Solids",
+          "guide_teacher_as_published": "Jithesh P K",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p22-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img028.jpg",
+          "image_sequence_index": 22,
+          "printed_page_visually_verified": 22,
+          "award_family": "sponsor_special_prize",
+          "category_role": "group",
+          "category_label": "Special Prizes sponsored by VISVESVARAYA INDUSTRIAL MUSEUM SOCIETY TRUST",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Ganesh S Pai",
+            "Umanath M Shenoy"
+          ],
+          "school_name_as_published": "T D High School",
+          "school_locality_as_published": "Mattancherry",
+          "district_as_published": "Ernakulam District",
+          "model_title_as_published": "Solids of Revolution",
+          "guide_teacher_as_published": "Usha S",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p23-01",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img029.jpg",
+          "image_sequence_index": 23,
+          "printed_page_visually_verified": 23,
+          "award_family": "sponsor_special_prize",
+          "category_role": "individual",
+          "category_label": "Special Prizes sponsored by WIPRO, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Sandra Thilak"
+          ],
+          "school_name_as_published": "Ramavilasam Hr Sec School",
+          "school_locality_as_published": "Chokli",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Self Sufficient Flat System",
+          "guide_teacher_as_published": "Pradeep Kinathi",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p23-02",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img029.jpg",
+          "image_sequence_index": 23,
+          "printed_page_visually_verified": 23,
+          "award_family": "sponsor_special_prize",
+          "category_role": "group",
+          "category_label": "Special Prizes sponsored by WIPRO, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Anakha L",
+            "Adarsh S S"
+          ],
+          "school_name_as_published": "L V High School",
+          "school_locality_as_published": "Pothencode",
+          "district_as_published": "Trivandrum District",
+          "model_title_as_published": "Improvised Experiment",
+          "guide_teacher_as_published": "R S Ashok Kumar",
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": false,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route.",
+          "group_credit_scope": "Two names are printed in this row; this does not independently verify complete group membership, attendance or individual work division."
+        },
+        {
+          "observation_id": "sisf2015-kerala-result-p23-03",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "programme_as_published": "Southern India Science Fair - 2015",
+          "result_image_filename_as_advertised": "img029.jpg",
+          "image_sequence_index": 23,
+          "printed_page_visually_verified": 23,
+          "award_family": "sponsor_special_prize",
+          "category_role": "teacher",
+          "category_label": "Special Prizes sponsored by WIPRO, BANGALORE",
+          "rank_as_published": null,
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "public_exhibitor_credits_as_published": [
+            "Mohamedali P P"
+          ],
+          "school_name_as_published": "Seethisahib Hr Sec School",
+          "school_locality_as_published": "Taliparamba",
+          "district_as_published": "Kannur District",
+          "model_title_as_published": "Useful Products from Building Debris",
+          "guide_teacher_as_published": null,
+          "state_attribution": {
+            "state_as_attributed": "Kerala",
+            "nonidentifying_printed_state_prefix": "KL",
+            "basis": "The original row carries the KL state prefix and the preserved school/locality/district text; Kerala attribution is not inferred from the issuer alone. No full pupil/entry identifier is retained.",
+            "school_location_independently_verified": false
+          },
+          "full_group_membership_verified": null,
+          "individual_work_division_verified": false,
+          "physical_award_presentation_or_payment_verified": false,
+          "scientific_performance_independently_verified": false,
+          "scope": "Award-category row observation, not a unique project/person, method description, payment receipt, scientific validation or Kerala Sasthrolsavam qualifying route."
+        }
+      ],
+      "institutional_trophy_observations": [
+        {
+          "observation_id": "sisf2015-kerala-host-department-trophy",
+          "source_id": "pathways-98",
+          "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+          "result_image_filename_as_advertised": "img008.jpg",
+          "printed_page_visually_verified": 2,
+          "category_as_published": "SISF Trophy",
+          "award_label_as_published": "TROPHY for the Education Department of the State which hosts the SISF",
+          "recipient_as_published": "Directorate of Public Instruction, Govt. of Kerala",
+          "numeric_rank": null,
+          "cash_amount_as_published": null,
+          "classification": "host_department_trophy",
+          "scope": "Explicit hosting-role trophy; not a competitive state-overall/team championship or a school exhibit award. Physical presentation is not independently verified."
+        }
+      ],
+      "competitive_state_overall_or_team_rank_observations": [],
+      "finite_bundle_negative_scope": "No competitive state-overall/team rank was identified in the 23 received result sheets. This is a bounded observation about these sheets, not proof that no such award existed or that Kerala won a team championship.",
+      "source_authority_limit": "Actual source pages reproduce planning and result sheets bearing institutional names/logos, but independent control/endorsement of the event-named Blogger account and cryptographic/original-document authentication were not established. Describe what the received reproduced sheets list. Do not promote them to independent ceremony, receipt-of-payment, unique-identity or science validation.",
+      "count_scope": "36 repeated award-category row observations and one separate host-department trophy, not 36 unique projects, schools, pupils or verified recipients. Repeated title/name rows remain separate category observations. The two previously adopted Puducherry sweeper award observations remain exact in their original array and are not counted as Kerala.",
+      "privacy_scope": "Only necessary public historical exhibitor/guide/school/locality/title credits are retained. Full participant/entry identifiers, class, postal numbers, personal/contact/family/photo data are omitted.",
+      "project_scope": "Titles and awards do not supply project mechanisms, code, measured results, independent safety/performance, complete membership or a Kerala Sasthrolsavam route. No new focused case or INSPIRE description is added.",
+      "review_scope_limit": "All 23 result originals were read for category and Kerala-attribution extraction. This is not a certified full transcription or authenticity/payment/identity audit of every national result row.",
+      "repeated_benefit_footer_observations": [
+        {
+          "printed_pages": [
+            4,
+            7,
+            8
+          ],
+          "benefit_as_reported": "Lite Lab Optics Kit",
+          "scope": "Footers report an additional kit for NCSM cash, Kerala DPI cash and Kerala DPI book award winners respectively; no extra award-category row, unique recipient or independently verified delivery is counted."
+        }
+      ]
+    },
+    "additional_image_review": {
+      "source_id": "pathways-98",
+      "reviewed_on": "2026-11-01",
+      "content_kind": "handwritten_school_visit_allocation_lists_as_presented_under_School_Visit_Timings",
+      "date_time_blocks": [
+        {
+          "block_sequence": 1,
+          "source_id": "pathways-98",
+          "source_image_sequence": 1,
+          "numbered_row_label_range": [
+            1,
+            11
+          ],
+          "numbered_row_positions": 11,
+          "date_as_read": "6/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-06",
+          "time_as_read": "9.30",
+          "AM_marker_explicit": false,
+          "meridiem_as_read": null,
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 2,
+          "source_id": "pathways-98",
+          "source_image_sequence": 1,
+          "numbered_row_label_range": [
+            12,
+            20
+          ],
+          "numbered_row_positions": 9,
+          "date_as_read": "7/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-07",
+          "time_as_read": "9.30",
+          "AM_marker_explicit": false,
+          "meridiem_as_read": null,
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 3,
+          "source_id": "pathways-98",
+          "source_image_sequence": 2,
+          "numbered_row_label_range": [
+            21,
+            30
+          ],
+          "numbered_row_positions": 10,
+          "date_as_read": "8/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-08",
+          "time_as_read": "9.30",
+          "AM_marker_explicit": false,
+          "meridiem_as_read": null,
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 4,
+          "source_id": "pathways-98",
+          "source_image_sequence": 2,
+          "numbered_row_label_range": [
+            31,
+            41
+          ],
+          "numbered_row_positions": 11,
+          "date_as_read": "9/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-09",
+          "time_as_read": "9.30",
+          "AM_marker_explicit": false,
+          "meridiem_as_read": null,
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 5,
+          "source_id": "pathways-98",
+          "source_image_sequence": 3,
+          "numbered_row_label_range": [
+            42,
+            52
+          ],
+          "numbered_row_positions": 11,
+          "date_as_read": "6/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-06",
+          "time_as_read": "11 AM",
+          "AM_marker_explicit": true,
+          "meridiem_as_read": "AM",
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 6,
+          "source_id": "pathways-98",
+          "source_image_sequence": 3,
+          "numbered_row_label_range": [
+            53,
+            62
+          ],
+          "numbered_row_positions": 10,
+          "date_as_read": "7/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-07",
+          "time_as_read": "11 AM",
+          "AM_marker_explicit": true,
+          "meridiem_as_read": "AM",
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 7,
+          "source_id": "pathways-98",
+          "source_image_sequence": 4,
+          "numbered_row_label_range": [
+            63,
+            72
+          ],
+          "numbered_row_positions": 10,
+          "date_as_read": "8/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-08",
+          "time_as_read": "11 AM",
+          "AM_marker_explicit": true,
+          "meridiem_as_read": "AM",
+          "crossed_out_time_mark_visible": false,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        },
+        {
+          "block_sequence": 8,
+          "source_id": "pathways-98",
+          "source_image_sequence": 4,
+          "numbered_row_label_range": [
+            73,
+            83
+          ],
+          "numbered_row_positions": 11,
+          "date_as_read": "9/1/2015",
+          "date_interpretation_in_January_2015_event_context": "2015-01-09",
+          "time_as_read": "11 AM",
+          "AM_marker_explicit": true,
+          "meridiem_as_read": "AM",
+          "crossed_out_time_mark_visible": true,
+          "crossed_out_value_transcribed": false,
+          "scope": "Handwritten school-visit allocation as displayed by the blog, not an exhibitor/award/attendance record. 11 AM punctuation is normalised for reading; bare 9.30 has no inferred AM/PM or duration."
+        }
+      ],
+      "numbered_label_observation": {
+        "first_numbered_label": 1,
+        "last_numbered_label": 83,
+        "numbered_row_positions": 83,
+        "row_label_ranges_by_image": [
+          [
+            1,
+            20
+          ],
+          [
+            21,
+            41
+          ],
+          [
+            42,
+            62
+          ],
+          [
+            63,
+            83
+          ]
+        ],
+        "unnumbered_school_label_lines_after_41": 3,
+        "unnumbered_lines_source_image_sequence": 2,
+        "unnumbered_lines_assigned_date": null,
+        "unnumbered_lines_assigned_time": null,
+        "school_names_canonicalised": false,
+        "independently_verified_unique_school_count": null,
+        "actual_visitor_or_participant_headcount": null,
+        "reading_limits": "Some labels are abbreviated, smudged or overwritten. Three extra unnumbered school-label lines follow 41; the final lower-edge text is partly clipped, and no explicit separate bracket/date/time is attached to these additions. Do not renumber, identify unique schools or assign them to 9 January by proximity."
+      },
+      "time_scope_limits": "All four dates 6–9 January 2015 have a bare 9.30 block and an explicitly AM-marked 11 block. No AM/PM suffix is supplied for 9.30. Image 4 contains a crossed-out time mark before the visible 11 AM reading for the last bracket; the crossed-out value/cause is not reconstructed. No end times, visit durations or actual arrival/opening times are established.",
+      "authority_and_issue_date_limits": "The received images are unsigned handwritten schedules reproduced by an event-named blog. No verified issuing authority, original-document authentication or issue date is established. The visit dates are not publication dates, and source 98 Blogger ownership/authentication flags remain unchanged.",
+      "role_and_eligibility_limits": "School Visit Timings is the HTML presentation context. These lists do not supply competition entry eligibility, selected-exhibit ranks, judging conditions, team size, visitor attendance or payment evidence. Do not import this 2015 regional visit allocation into Kerala 2026 Science Working Model rules.",
+      "canonical_storage_scope": "This is the same source-specific school-visit subreview as the source98 dated addition, not another exhibition, source work, participant count or independent-origin corroboration."
+    },
+    "catalogue_candidate_correspondences": [
+      {
+        "observation_id": "candidate-sisf2015-ncert2015-platonic-solids",
+        "source_ids": [
+          "project-013",
+          "pathways-98"
+        ],
+        "catalogue_discovery_record_id": "ncert-discovery-2015-16-2-8",
+        "catalogue_pdf_page_1based": 38,
+        "catalogue_printed_page": 29,
+        "catalogue_title_as_published": "Platonic Solids",
+        "catalogue_school_as_published": "Memunda Higher Secondary School, Vatakara, Memunda Calicut, Kerala",
+        "catalogue_reported_synopsis_summary": "The working model is described as characterising Platonic solids; no construction procedure or measured learning outcome is given in the cited row.",
+        "sisf_result_image": "img028.jpg",
+        "sisf_result_printed_page": 22,
+        "sisf_title_as_published": "Spheres Related With Platonic Solids",
+        "sisf_school_as_published": "Memunda Hr Sec School, Vatakara, Memunda, Kozhikode District",
+        "basis": "Corresponding school/locality wording and Platonic-solids topic; different published title and Calicut/Kozhikode wording remain literal.",
+        "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+      },
+      {
+        "observation_id": "candidate-sisf2015-ncert2015-plastic-boiler",
+        "source_ids": [
+          "project-013",
+          "pathways-98"
+        ],
+        "catalogue_discovery_record_id": "ncert-discovery-2015-16-4-2",
+        "catalogue_pdf_page_1based": 80,
+        "catalogue_printed_page": 71,
+        "catalogue_title_as_published": "Boiler for Plastic Burning",
+        "catalogue_school_as_published": "St. Stephen’s High School Pathanapuram Kollam Kerala",
+        "catalogue_reported_synopsis_summary": "The catalogue proposes a waste-plastic-burning device and attributes an environmental benefit to it. This single-row assertion supplies no emissions measurement, pollution-control test or independently established environmental safety.",
+        "sisf_result_image": "img027.jpg",
+        "sisf_result_printed_page": 21,
+        "sisf_title_as_published": "Plastic Burning Boiler",
+        "sisf_school_as_published": "St. Stephen's Hr Sec School, Pathanapuram, Kollam District",
+        "basis": "Corresponding plastic-burning/boiler title and school/locality, with reordered title and High School/Hr Sec wording preserved.",
+        "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+      },
+      {
+        "observation_id": "candidate-sisf2015-ncert2015-concrete-recycling",
+        "source_ids": [
+          "project-013",
+          "pathways-98"
+        ],
+        "catalogue_discovery_record_id": "ncert-discovery-2015-16-6-2",
+        "catalogue_pdf_page_1based": 120,
+        "catalogue_printed_page": 111,
+        "catalogue_title_as_published": "Concrete Recycling",
+        "catalogue_school_as_published": "Seethi Sahib Higher Secondary School Taliparmba, Kerala",
+        "catalogue_reported_synopsis_summary": "The synopsis describes recovering sand and gravel from discarded concrete for casting new structures. It supplies no process settings, recovery yield, material-strength results or original test data in the cited row.",
+        "sisf_result_image": "img027.jpg",
+        "sisf_result_printed_page": 21,
+        "sisf_title_as_published": "Concrete Recycling",
+        "sisf_school_as_published": "Seethi Sahib Hr Sec School, Taliparamba, Kannur District",
+        "basis": "Matching title and corresponding school/locality wording, retaining the published Taliparmba/Taliparamba spelling variants.",
+        "limits": "Candidate school/title/topic correspondence only. The NCERT rows supply no pupil or guide names. Do not transfer SISF credits or prizes into the national row, infer an unchanged project/version, individual identity, a qualifying route, payment or independently measured performance."
+      }
+    ]
+  }
+}

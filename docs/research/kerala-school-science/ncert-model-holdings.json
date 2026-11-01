@@ -1,0 +1,583 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "Five canonical public catalogue targets for older NCERT-attributed model books; no newly recovered model-book body.",
+  "count_scope": "One target per selected bibliographic/library grouping; aliases/XML are not extra works or known distinct physical copies.",
+  "targets": [
+    {
+      "holding_target_id": "model-holding-443949",
+      "catalogue_provider": "NVLI / Indian Culture public Union Catalogue",
+      "canonical_record_id": "443949",
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=443949",
+      "title_as_registered": "Structure and working of science models",
+      "subtitle_as_registered": [
+        "National science exhibition for children 1978"
+      ],
+      "corporate_author_as_registered": [],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi"
+      ],
+      "publisher_as_registered": [
+        "National Council of Educational Research and Training"
+      ],
+      "publication_year_as_registered": [
+        "1978"
+      ],
+      "edition_as_registered": [],
+      "extent_as_registered": [
+        "vi, 127p."
+      ],
+      "classification_MARC082_as_registered": [
+        "607.34"
+      ],
+      "full_call_number_as_registered": "607.34 STR",
+      "item_barcode_as_registered": "IGNCA-G3753",
+      "home_library_as_registered": "Indira Gandhi National Centre for the Arts",
+      "current_library_as_registered": "Indira Gandhi National Centre for the Arts",
+      "alias_record_ids_not_counted_as_extra_works": [
+        "4268788"
+      ],
+      "alias_scope": "Grouped as one bibliographic follow-up target through matching title/date/extent/library; alias IDs do not prove extra unique volumes or identical physical copies.",
+      "ncert_attribution_strength": "publisher_named_ncert_1978",
+      "original_body_recovered": false,
+      "original_pdf_pages": null,
+      "original_title_or_imprint_visually_checked": false,
+      "kerala_chapters_known": false,
+      "digital_location_field_in_received_record": false,
+      "review_scope": "Full public MARC field/item listing read and advertised MARCXML export parsed; no original-book pages reviewed.",
+      "evidence_limits": [
+        "Registered publication year/extent is not a verified original edition/imprint or actual scan page count.",
+        "Public item/catalogue availability is not an independent current shelf/access/completeness guarantee.",
+        "No received856field is not proof that a digital copy exists nowhere.",
+        "No model method, Kerala school attribution, award, route or performance is established."
+      ],
+      "source_id": "project-040",
+      "holdings_note_MARC505_as_registered": [],
+      "holdings_note_scope": "Additional year wording is a catalogue note, not separately recovered books, confirmed current copies or exhibition dates."
+    },
+    {
+      "holding_target_id": "model-holding-3581510",
+      "catalogue_provider": "NVLI / Indian Culture public Union Catalogue",
+      "canonical_record_id": "3581510",
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3581510",
+      "title_as_registered": "Structure and working of Science models.",
+      "subtitle_as_registered": [],
+      "corporate_author_as_registered": [
+        "National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "Delhi :"
+      ],
+      "publisher_as_registered": [
+        "National Council of Educational Research Training,"
+      ],
+      "publication_year_as_registered": [
+        "1996."
+      ],
+      "edition_as_registered": [],
+      "extent_as_registered": [
+        "vi, 129 p. :"
+      ],
+      "classification_MARC082_as_registered": [
+        "RR 372.35078"
+      ],
+      "full_call_number_as_registered": null,
+      "item_barcode_as_registered": null,
+      "home_library_as_registered": "Nehru Memorial Museum & Library",
+      "current_library_as_registered": "Nehru Memorial Museum & Library",
+      "alias_record_ids_not_counted_as_extra_works": [],
+      "alias_scope": "Grouped as one bibliographic follow-up target through matching title/date/extent/library; alias IDs do not prove extra unique volumes or identical physical copies.",
+      "ncert_attribution_strength": "publisher_and_corporate_author_ncert_registered1996",
+      "original_body_recovered": false,
+      "original_pdf_pages": null,
+      "original_title_or_imprint_visually_checked": false,
+      "kerala_chapters_known": false,
+      "digital_location_field_in_received_record": false,
+      "review_scope": "Full public MARC field/item listing read and advertised MARCXML export parsed; no original-book pages reviewed.",
+      "evidence_limits": [
+        "Registered publication year/extent is not a verified original edition/imprint or actual scan page count.",
+        "Public item/catalogue availability is not an independent current shelf/access/completeness guarantee.",
+        "No received856field is not proof that a digital copy exists nowhere.",
+        "No model method, Kerala school attribution, award, route or performance is established.",
+        "NMML public item listing supplies no full-call-number or barcode field; MARC082 classification is retained as classification, not promoted to a verified item shelfmark/barcode."
+      ],
+      "source_id": "project-041",
+      "holdings_note_MARC505_as_registered": [
+        "Library has 1996; 1997, bk. no. N7"
+      ],
+      "holdings_note_scope": "Additional year wording is a catalogue note, not separately recovered books, confirmed current copies or exhibition dates."
+    },
+    {
+      "holding_target_id": "model-holding-3606554",
+      "catalogue_provider": "NVLI / Indian Culture public Union Catalogue",
+      "canonical_record_id": "3606554",
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606554",
+      "title_as_registered": "Structure and working of science models, 1998.",
+      "subtitle_as_registered": [],
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publications Division,"
+      ],
+      "publication_year_as_registered": [
+        "1998."
+      ],
+      "edition_as_registered": [],
+      "extent_as_registered": [
+        "172 :"
+      ],
+      "classification_MARC082_as_registered": [
+        "RR 507.8"
+      ],
+      "full_call_number_as_registered": null,
+      "item_barcode_as_registered": null,
+      "home_library_as_registered": "Nehru Memorial Museum & Library",
+      "current_library_as_registered": "Nehru Memorial Museum & Library",
+      "alias_record_ids_not_counted_as_extra_works": [],
+      "alias_scope": "Grouped as one bibliographic follow-up target through matching title/date/extent/library; alias IDs do not prove extra unique volumes or identical physical copies.",
+      "ncert_attribution_strength": "corporate_author_ncert_title1998",
+      "original_body_recovered": false,
+      "original_pdf_pages": null,
+      "original_title_or_imprint_visually_checked": false,
+      "kerala_chapters_known": false,
+      "digital_location_field_in_received_record": false,
+      "review_scope": "Full public MARC field/item listing read and advertised MARCXML export parsed; no original-book pages reviewed.",
+      "evidence_limits": [
+        "Registered publication year/extent is not a verified original edition/imprint or actual scan page count.",
+        "Public item/catalogue availability is not an independent current shelf/access/completeness guarantee.",
+        "No received856field is not proof that a digital copy exists nowhere.",
+        "No model method, Kerala school attribution, award, route or performance is established.",
+        "NMML public item listing supplies no full-call-number or barcode field; MARC082 classification is retained as classification, not promoted to a verified item shelfmark/barcode."
+      ],
+      "source_id": "project-042",
+      "holdings_note_MARC505_as_registered": [],
+      "holdings_note_scope": "Additional year wording is a catalogue note, not separately recovered books, confirmed current copies or exhibition dates."
+    },
+    {
+      "holding_target_id": "model-holding-3606497",
+      "catalogue_provider": "NVLI / Indian Culture public Union Catalogue",
+      "canonical_record_id": "3606497",
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606497",
+      "title_as_registered": "Structure and working of science models, 1999.",
+      "subtitle_as_registered": [],
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publications Division,"
+      ],
+      "publication_year_as_registered": [
+        "1999."
+      ],
+      "edition_as_registered": [],
+      "extent_as_registered": [
+        "218p. :"
+      ],
+      "classification_MARC082_as_registered": [
+        "RR 507.8"
+      ],
+      "full_call_number_as_registered": null,
+      "item_barcode_as_registered": null,
+      "home_library_as_registered": "Nehru Memorial Museum & Library",
+      "current_library_as_registered": "Nehru Memorial Museum & Library",
+      "alias_record_ids_not_counted_as_extra_works": [],
+      "alias_scope": "Grouped as one bibliographic follow-up target through matching title/date/extent/library; alias IDs do not prove extra unique volumes or identical physical copies.",
+      "ncert_attribution_strength": "corporate_author_ncert_title1999",
+      "original_body_recovered": false,
+      "original_pdf_pages": null,
+      "original_title_or_imprint_visually_checked": false,
+      "kerala_chapters_known": false,
+      "digital_location_field_in_received_record": false,
+      "review_scope": "Full public MARC field/item listing read and advertised MARCXML export parsed; no original-book pages reviewed.",
+      "evidence_limits": [
+        "Registered publication year/extent is not a verified original edition/imprint or actual scan page count.",
+        "Public item/catalogue availability is not an independent current shelf/access/completeness guarantee.",
+        "No received856field is not proof that a digital copy exists nowhere.",
+        "No model method, Kerala school attribution, award, route or performance is established.",
+        "NMML public item listing supplies no full-call-number or barcode field; MARC082 classification is retained as classification, not promoted to a verified item shelfmark/barcode."
+      ],
+      "source_id": "project-043",
+      "holdings_note_MARC505_as_registered": [],
+      "holdings_note_scope": "Additional year wording is a catalogue note, not separately recovered books, confirmed current copies or exhibition dates."
+    },
+    {
+      "holding_target_id": "model-holding-3580424",
+      "catalogue_provider": "NVLI / Indian Culture public Union Catalogue",
+      "canonical_record_id": "3580424",
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3580424",
+      "title_as_registered": "Structure and working of science models, 2000 /",
+      "subtitle_as_registered": [],
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [
+        "National Council of Educational Research and Training."
+      ],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publication Division,"
+      ],
+      "publication_year_as_registered": [
+        "2000."
+      ],
+      "edition_as_registered": [],
+      "extent_as_registered": [
+        "viii, 171 p. v. :"
+      ],
+      "classification_MARC082_as_registered": [
+        "RR 08N.0245074"
+      ],
+      "full_call_number_as_registered": null,
+      "item_barcode_as_registered": null,
+      "home_library_as_registered": "Nehru Memorial Museum & Library",
+      "current_library_as_registered": "Nehru Memorial Museum & Library",
+      "alias_record_ids_not_counted_as_extra_works": [
+        "3606494"
+      ],
+      "alias_scope": "Grouped as one bibliographic follow-up target through matching title/year/library and broadly corresponding extent, with the literal extent variant retained. Alias IDs do not prove extra unique volumes or identical physical copies.",
+      "ncert_attribution_strength": "corporate_author_ncert_title2000",
+      "original_body_recovered": false,
+      "original_pdf_pages": null,
+      "original_title_or_imprint_visually_checked": false,
+      "kerala_chapters_known": false,
+      "digital_location_field_in_received_record": false,
+      "review_scope": "Full public MARC field/item listing read and advertised MARCXML export parsed; no original-book pages reviewed.",
+      "evidence_limits": [
+        "Registered publication year/extent is not a verified original edition/imprint or actual scan page count.",
+        "Public item/catalogue availability is not an independent current shelf/access/completeness guarantee.",
+        "No received856field is not proof that a digital copy exists nowhere.",
+        "No model method, Kerala school attribution, award, route or performance is established.",
+        "NMML public item listing supplies no full-call-number or barcode field; MARC082 classification is retained as classification, not promoted to a verified item shelfmark/barcode."
+      ],
+      "source_id": "project-044",
+      "holdings_note_MARC505_as_registered": [
+        "Library has Year -2000, Year-1995, bk.no. N5"
+      ],
+      "holdings_note_scope": "Additional year wording is a catalogue note, not separately recovered books, confirmed current copies or exhibition dates.",
+      "alias_extent_variants_as_registered": [
+        {
+          "record_id": "3606494",
+          "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606494",
+          "extent_as_registered": [
+            "viii, 171p. :"
+          ],
+          "comparison": "Canonical3580424prints viii, 171 p. v. :; do not silently assert identical literal extent or physical copy."
+        }
+      ]
+    }
+  ],
+  "original_model_book_bodies_recovered": 0,
+  "new_kerala_method_chapters": 0,
+  "unresolved": "Complete2010book and Kerala contents/methods of these earlier targets remain unrecovered. HSS8406/title1990 lacks author/publisher confirmation and is excluded from these five NCERT targets.",
+  "institutional_follow_up_observations": [
+    {
+      "observation_id": "pmml-current-128707",
+      "holding_target_id": "model-holding-3580424",
+      "prior_union_catalogue_source_id": "project-044",
+      "source_id": "project-047",
+      "institutional_catalogue_record_id": "128707",
+      "catalogue_provider": "Prime Ministers Museum and Library public Koha OPAC",
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=128707",
+      "observed_on": "2026-11-01",
+      "title_as_registered": "Structure and working of science models, 2000 /",
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [
+        "National Council of Educational Research and Training."
+      ],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publication Division,"
+      ],
+      "publication_year_as_registered": [
+        "2000."
+      ],
+      "extent_as_registered": [
+        "viii, 171 p. v. :"
+      ],
+      "holdings_note_MARC505_as_registered": [
+        "Library has Year -2000, Year-1995, bk.no. N5"
+      ],
+      "item_rows_as_registered": [
+        {
+          "full_call_number_as_registered": "RR 507.8 P0",
+          "item_barcode_as_registered": "GI6671",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        },
+        {
+          "full_call_number_as_registered": "RR 923.254165 K7",
+          "item_barcode_as_registered": "GI6677",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": true,
+          "anomaly_note": "This row is listed under the model-book record, but its RR 923.254165 K7 shelfmark differs from the other model rows. The physical item and its title/edition remain unverified."
+        }
+      ],
+      "digital_location_MARC856_field_received": false,
+      "correspondence_basis": "Title, registered publication year, extent and NCERT author/responsibility attribution agree with the existing NMML union-catalogue target or its already grouped 2000 alias. This connects catalogue descriptions, not verified physical copies.",
+      "count_scope": "Follow-up observation for an existing holding target; not a new book or confirmed distinct edition. The two 2000 records remain one grouped target.",
+      "original_model_book_body_recovered": false,
+      "original_title_or_imprint_visually_checked": false,
+      "new_kerala_method_chapters": 0,
+      "evidence_limits": [
+        "No original-book pages, chapter attributions, Kerala content, model methods, award or qualifying route were recovered.",
+        "Full call numbers and barcodes are item fields, distinct from the older MARC082 classification.",
+        "MARC505 references to 1995 or 1997 remain catalogue notes, not confirmed extra books or editions.",
+        "No received MARC856 field or displayed body link is not proof that no scan exists elsewhere."
+      ]
+    },
+    {
+      "observation_id": "pmml-current-129825",
+      "holding_target_id": "model-holding-3581510",
+      "prior_union_catalogue_source_id": "project-041",
+      "source_id": "project-048",
+      "institutional_catalogue_record_id": "129825",
+      "catalogue_provider": "Prime Ministers Museum and Library public Koha OPAC",
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=129825",
+      "observed_on": "2026-11-01",
+      "title_as_registered": "Structure and working of Science models.",
+      "corporate_author_as_registered": [
+        "National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "Delhi :"
+      ],
+      "publisher_as_registered": [
+        "National Council of Educational Research Training,"
+      ],
+      "publication_year_as_registered": [
+        "1996."
+      ],
+      "extent_as_registered": [
+        "vi, 129 p. :"
+      ],
+      "holdings_note_MARC505_as_registered": [
+        "Library has 1996; 1997, bk. no. N7"
+      ],
+      "item_rows_as_registered": [
+        {
+          "full_call_number_as_registered": "RR 507.8 N6",
+          "item_barcode_as_registered": "GI6713",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        },
+        {
+          "full_call_number_as_registered": "RR 507.8 N6",
+          "item_barcode_as_registered": "GI6668",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        }
+      ],
+      "digital_location_MARC856_field_received": false,
+      "correspondence_basis": "Title, registered publication year, extent and NCERT author/responsibility attribution agree with the existing NMML union-catalogue target or its already grouped 2000 alias. This connects catalogue descriptions, not verified physical copies.",
+      "count_scope": "Follow-up observation for an existing holding target; not a new book or confirmed distinct edition. The two 2000 records remain one grouped target.",
+      "original_model_book_body_recovered": false,
+      "original_title_or_imprint_visually_checked": false,
+      "new_kerala_method_chapters": 0,
+      "evidence_limits": [
+        "No original-book pages, chapter attributions, Kerala content, model methods, award or qualifying route were recovered.",
+        "Full call numbers and barcodes are item fields, distinct from the older MARC082 classification.",
+        "MARC505 references to 1995 or 1997 remain catalogue notes, not confirmed extra books or editions.",
+        "No received MARC856 field or displayed body link is not proof that no scan exists elsewhere."
+      ]
+    },
+    {
+      "observation_id": "pmml-current-156300",
+      "holding_target_id": "model-holding-3580424",
+      "prior_union_catalogue_source_id": "project-044",
+      "source_id": "project-049",
+      "institutional_catalogue_record_id": "156300",
+      "catalogue_provider": "Prime Ministers Museum and Library public Koha OPAC",
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156300",
+      "observed_on": "2026-11-01",
+      "title_as_registered": "Structure and working of science models, 2000.",
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publication Division,"
+      ],
+      "publication_year_as_registered": [
+        "2000."
+      ],
+      "extent_as_registered": [
+        "viii, 171p. :"
+      ],
+      "holdings_note_MARC505_as_registered": [],
+      "item_rows_as_registered": [
+        {
+          "full_call_number_as_registered": "RR 507.8 P0;1",
+          "item_barcode_as_registered": "GI6716",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        }
+      ],
+      "digital_location_MARC856_field_received": false,
+      "correspondence_basis": "Title, registered publication year, extent and NCERT author/responsibility attribution agree with the existing NMML union-catalogue target or its already grouped 2000 alias. This connects catalogue descriptions, not verified physical copies.",
+      "count_scope": "Follow-up observation for an existing holding target; not a new book or confirmed distinct edition. The two 2000 records remain one grouped target.",
+      "original_model_book_body_recovered": false,
+      "original_title_or_imprint_visually_checked": false,
+      "new_kerala_method_chapters": 0,
+      "evidence_limits": [
+        "No original-book pages, chapter attributions, Kerala content, model methods, award or qualifying route were recovered.",
+        "Full call numbers and barcodes are item fields, distinct from the older MARC082 classification.",
+        "MARC505 references to 1995 or 1997 remain catalogue notes, not confirmed extra books or editions.",
+        "No received MARC856 field or displayed body link is not proof that no scan exists elsewhere."
+      ],
+      "relationship_to_other_follow_up_observation": "Grouped counterpart to pmml-current-128707 for the existing 2000 holding target; not an extra counted work."
+    },
+    {
+      "observation_id": "pmml-current-156303",
+      "holding_target_id": "model-holding-3606497",
+      "prior_union_catalogue_source_id": "project-043",
+      "source_id": "project-050",
+      "institutional_catalogue_record_id": "156303",
+      "catalogue_provider": "Prime Ministers Museum and Library public Koha OPAC",
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156303",
+      "observed_on": "2026-11-01",
+      "title_as_registered": "Structure and working of science models, 1999.",
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publications Division,"
+      ],
+      "publication_year_as_registered": [
+        "1999."
+      ],
+      "extent_as_registered": [
+        "218p. :"
+      ],
+      "holdings_note_MARC505_as_registered": [],
+      "item_rows_as_registered": [
+        {
+          "full_call_number_as_registered": "RR 507.8 N9/N9;1",
+          "item_barcode_as_registered": "GI6714",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        },
+        {
+          "full_call_number_as_registered": "RR 507.8 N9/N9;1",
+          "item_barcode_as_registered": "GI6670",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        }
+      ],
+      "digital_location_MARC856_field_received": false,
+      "correspondence_basis": "Title, registered publication year, extent and NCERT author/responsibility attribution agree with the existing NMML union-catalogue target or its already grouped 2000 alias. This connects catalogue descriptions, not verified physical copies.",
+      "count_scope": "Follow-up observation for an existing holding target; not a new book or confirmed distinct edition. The two 2000 records remain one grouped target.",
+      "original_model_book_body_recovered": false,
+      "original_title_or_imprint_visually_checked": false,
+      "new_kerala_method_chapters": 0,
+      "evidence_limits": [
+        "No original-book pages, chapter attributions, Kerala content, model methods, award or qualifying route were recovered.",
+        "Full call numbers and barcodes are item fields, distinct from the older MARC082 classification.",
+        "MARC505 references to 1995 or 1997 remain catalogue notes, not confirmed extra books or editions.",
+        "No received MARC856 field or displayed body link is not proof that no scan exists elsewhere."
+      ]
+    },
+    {
+      "observation_id": "pmml-current-156363",
+      "holding_target_id": "model-holding-3606554",
+      "prior_union_catalogue_source_id": "project-042",
+      "source_id": "project-051",
+      "institutional_catalogue_record_id": "156363",
+      "catalogue_provider": "Prime Ministers Museum and Library public Koha OPAC",
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156363",
+      "observed_on": "2026-11-01",
+      "title_as_registered": "Structure and working of science models, 1998.",
+      "corporate_author_as_registered": [
+        "India. National Council of Educational Research and Training."
+      ],
+      "statement_of_responsibility_as_registered": [],
+      "place_as_registered": [
+        "New Delhi :"
+      ],
+      "publisher_as_registered": [
+        "Publications Division,"
+      ],
+      "publication_year_as_registered": [
+        "1998."
+      ],
+      "extent_as_registered": [
+        "172 :"
+      ],
+      "holdings_note_MARC505_as_registered": [],
+      "item_rows_as_registered": [
+        {
+          "full_call_number_as_registered": "RR 507.8 N8",
+          "item_barcode_as_registered": "GI6669",
+          "home_library_code_as_registered": "NMML",
+          "current_library_code_as_registered": "NMML",
+          "status_as_displayed_in_HTML": "Available",
+          "status_scope": "A catalogue display observed on 1 November 2026, not independently verified present shelf availability or access.",
+          "anomalous_item_association": false,
+          "anomaly_note": null
+        }
+      ],
+      "digital_location_MARC856_field_received": false,
+      "correspondence_basis": "Title, registered publication year, extent and NCERT author/responsibility attribution agree with the existing NMML union-catalogue target or its already grouped 2000 alias. This connects catalogue descriptions, not verified physical copies.",
+      "count_scope": "Follow-up observation for an existing holding target; not a new book or confirmed distinct edition. The two 2000 records remain one grouped target.",
+      "original_model_book_body_recovered": false,
+      "original_title_or_imprint_visually_checked": false,
+      "new_kerala_method_chapters": 0,
+      "evidence_limits": [
+        "No original-book pages, chapter attributions, Kerala content, model methods, award or qualifying route were recovered.",
+        "Full call numbers and barcodes are item fields, distinct from the older MARC082 classification.",
+        "MARC505 references to 1995 or 1997 remain catalogue notes, not confirmed extra books or editions.",
+        "No received MARC856 field or displayed body link is not proof that no scan exists elsewhere."
+      ]
+    }
+  ]
+}
