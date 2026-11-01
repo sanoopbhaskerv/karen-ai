@@ -1,0 +1,48 @@
+[
+  {
+    "id": "additional-circular-maths-quiz-date-2026",
+    "title": "DGE: subdistrict Mathematics Quiz and Talent Search examination date change, 8 September 2026",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2026/09/sciencequiz892026.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_department_circular",
+    "document_date": "2026-09-08",
+    "publisher": "Directorate of General Education, Kerala",
+    "file_number_as_printed": "DGE/8659/2026-Y1",
+    "dispatch_number_as_printed": "I/1905146/2026",
+    "publication_post_url": "https://education.kerala.gov.in/2026/09/10/%e0%b4%b6%e0%b4%be%e0%b4%b8%e0%b5%8d%e0%b4%a4%e0%b5%8d%e0%b4%b0%e0%b5%8b%e0%b4%b2%e0%b5%8d%e2%80%8d%e0%b4%b8%e0%b4%b5%e0%b4%82-%e0%b4%89%e0%b4%aa%e0%b4%9c%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b4%be/",
+    "publication_post_date": "2026-09-10",
+    "pdf_pages": 1,
+    "download_bytes": 160321,
+    "download_sha256": "f85875dd94ec4f5f54831361570ef18f16bdba2c10a0862fe352cc5262224d74",
+    "notes": "Entire one-page PDF extracted, rendered and read visually. Despite filename sciencequiz892026.pdf, the subject/body explicitly concern subdistrict Mathematics Quiz and Talent Search examinations. Replaces the action plan’s 19 September 2026 date with Wednesday, 23 September 2026 because of technical difficulties; directs conduct under the action plan with this amendment. Refers to Mathematics Club state secretary letter dated 3 September 2026. Addressed to DDEs, copied to AEOs via DDEs, Mathematics Club secretaries and KITE for official publication. Visible digital-signature block reads Santhosh C A, 8 September 2026, 10:57:48; cryptographic verification not performed. No item codes, age-section allocation, duration, local reporting time, venue, new participant limit or SISF/NCERT nomination/delegation list appears. The amendment establishes a scheduled change, not verified conduct or attendance."
+  },
+  {
+    "id": "additional-circular-it-quiz-original-2026",
+    "title": "KITE IT Quiz school/subdistrict/revenue-district instructions and schedule, 31 July 2026",
+    "url": "https://kite.kerala.gov.in/KITE/itsadmin/uploads/docs/1132.pdf",
+    "discovery_url": "https://kite.kerala.gov.in/KITE/index.php/welcome/kite_circular",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_IT_quiz_circular",
+    "document_date": "2026-07-31",
+    "order_number": "KITE/2026/1275(6)",
+    "notes": "Scanned one-page official circular, read visually and independently checked. School questions are prepared in SRG under headteachers’ leadership; subdistrict and district use KITE-prepared common questions in presentation format. No portal instruction appears. School target by 5 September; subdistrict originally 9 September UP 10 am/HS 11:30 am/HSS 2 pm; district 19 September HS 10:30 am/HSS 2 pm. The later 7 September circular changes only the subdistrict date to 10 September, preserving clock times. No duration, venue, participant limit, state-stage timetable or actual completion supplied. Handwritten signature labelled Chief Executive Officer; no personal name inferred. Dates are scheduled targets, not attendance evidence.",
+    "download_sha256": "77eac1149a67f0041cfa140aff5df8101f02a17d026b902ded4b6786afef54d0",
+    "download_bytes": 47592,
+    "pdf_pages": 1
+  },
+  {
+    "id": "additional-circular-it-quiz-date-2026-mirror",
+    "title": "KITE subdistrict IT Quiz date amendment, 7 September 2026, public mirror",
+    "url": "https://drive.google.com/file/d/1n8zFdAwBahQtafXjVtNUIA0qsyzTISmU/view",
+    "download_url": "https://drive.google.com/uc?export=download&id=1n8zFdAwBahQtafXjVtNUIA0qsyzTISmU",
+    "discovery_url": "https://www.hsslive.in/2012/09/sasthrolsavam-sciencesocialmathswork.html?m=0",
+    "accessed_on": "2026-11-01",
+    "source_type": "mirrored_KITE_circular",
+    "document_date": "2026-09-07",
+    "order_number": "KITE/2026/1275(9)",
+    "notes": "Entire scanned page read visually and independently checked. Moves subdistrict IT Quiz from 9 to 10 September 2026; time schedule unchanged. Refers to 31 July KITE/2026/1275(6), GO(MS)143/2018 of 6 October 2018 and DGE 12 September 2025 proceedings. No postponement reason or clock times supplied here. It changes neither the district quiz date nor Maths/Science/Working Model schedules. Handwritten signature labelled Chief Executive Officer, no legible personal name inferred. Mirror provenance is retained; an original government-hosted copy was not recovered. No cryptographic signature verification or actual-held claim.",
+    "download_sha256": "fcbe3f04ccd22a87142d4be42023324562a2411a38baf2e6f338fecb9ffd6837",
+    "download_bytes": 53876,
+    "pdf_pages": 1
+  }
+]

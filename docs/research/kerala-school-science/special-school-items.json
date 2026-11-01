@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "source_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/item_codes.pdf",
+  "accessed_on": "2026-10-31",
+  "document_version": "Not stated in the item-code PDF; linked from the 2026–27 portal.",
+  "scope": "Separate State Special School Work Experience Fair catalogue; not general Science or IT fair eligibility. Section labels preserve source terminology.",
+  "record_count": 80,
+  "items": [
+    {
+      "ordinal": 1,
+      "section": "Visually Impaired",
+      "item_code": 501,
+      "item_name": "Bags, Flowers Vase etc., using Plastic Cane",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 2,
+      "section": "Visually Impaired",
+      "item_code": 502,
+      "item_name": "Bamboo Products",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 3,
+      "section": "Visually Impaired",
+      "item_code": 503,
+      "item_name": "Beads Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 4,
+      "section": "Visually Impaired",
+      "item_code": 504,
+      "item_name": "Card and Straw Board Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 5,
+      "section": "Visually Impaired",
+      "item_code": 505,
+      "item_name": "Coir Door Mats",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 6,
+      "section": "Visually Impaired",
+      "item_code": 506,
+      "item_name": "Paper Craft Products",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 7,
+      "section": "Visually Impaired",
+      "item_code": 507,
+      "item_name": "Plastic Cane Work (Weaving)",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 8,
+      "section": "Visually Impaired",
+      "item_code": 508,
+      "item_name": "Products using Kora Grass",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 9,
+      "section": "Visually Impaired",
+      "item_code": 509,
+      "item_name": "Products using Waste Materials",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 10,
+      "section": "Visually Impaired",
+      "item_code": 510,
+      "item_name": "Ratton Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 11,
+      "section": "Visually Impaired",
+      "item_code": 511,
+      "item_name": "Umbrella Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 12,
+      "section": "Visually Impaired",
+      "item_code": 512,
+      "item_name": "Writing Chalk Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 13,
+      "section": "Visually Impaired Exhibition",
+      "item_code": 525,
+      "item_name": "Visually Impaired Exhibition",
+      "item_type_code": "G",
+      "max_participants_from_school": 5,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 14,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 530,
+      "item_name": "Agarbathi Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 15,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 531,
+      "item_name": "Bamboo Products",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 16,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 532,
+      "item_name": "Beads Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 17,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 533,
+      "item_name": "Book Binding",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 18,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 534,
+      "item_name": "Card and Straw Board Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 19,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 535,
+      "item_name": "Clay Modelling",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 20,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 536,
+      "item_name": "Coconut Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 21,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 537,
+      "item_name": "Coir Door Mats",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 22,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 538,
+      "item_name": "Embroidery",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 23,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 539,
+      "item_name": "Fabric Printing using Vegetables",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 24,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 540,
+      "item_name": "Garments Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 25,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 541,
+      "item_name": "Metal Engraving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 26,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 542,
+      "item_name": "Net Making (Badminton/Volley Ball)",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 27,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 543,
+      "item_name": "Paper Craft",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 28,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 544,
+      "item_name": "Plastic Cane Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 29,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 545,
+      "item_name": "Products using Kora Grass",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 30,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 546,
+      "item_name": "Products using Rexin, Canvas and Leather",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 1
+    },
+    {
+      "ordinal": 31,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 547,
+      "item_name": "Products using Waste Materials",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 32,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 548,
+      "item_name": "Ratton Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 33,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 549,
+      "item_name": "Sea Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 34,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 550,
+      "item_name": "Umbrella Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 35,
+      "section": "Hearing Impaired LP-UP",
+      "item_code": 551,
+      "item_name": "Wood Carving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 36,
+      "section": "Hearing Impaired HS",
+      "item_code": 555,
+      "item_name": "Agarbathi Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 37,
+      "section": "Hearing Impaired HS",
+      "item_code": 556,
+      "item_name": "Bamboo Products",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 38,
+      "section": "Hearing Impaired HS",
+      "item_code": 557,
+      "item_name": "Beads Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 39,
+      "section": "Hearing Impaired HS",
+      "item_code": 558,
+      "item_name": "Book Binding",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 40,
+      "section": "Hearing Impaired HS",
+      "item_code": 559,
+      "item_name": "Card and Straw Board Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 41,
+      "section": "Hearing Impaired HS",
+      "item_code": 560,
+      "item_name": "Clay Modelling",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 42,
+      "section": "Hearing Impaired HS",
+      "item_code": 561,
+      "item_name": "Coconut Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 43,
+      "section": "Hearing Impaired HS",
+      "item_code": 562,
+      "item_name": "Coir Door Mats",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 44,
+      "section": "Hearing Impaired HS",
+      "item_code": 563,
+      "item_name": "Embroidery",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 45,
+      "section": "Hearing Impaired HS",
+      "item_code": 564,
+      "item_name": "Fabric Printing using Vegetables",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 46,
+      "section": "Hearing Impaired HS",
+      "item_code": 565,
+      "item_name": "Garments Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 47,
+      "section": "Hearing Impaired HS",
+      "item_code": 566,
+      "item_name": "Metal Engraving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 48,
+      "section": "Hearing Impaired HS",
+      "item_code": 567,
+      "item_name": "Net Making (Badminton/Volley Ball)",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 49,
+      "section": "Hearing Impaired HS",
+      "item_code": 568,
+      "item_name": "Paper Craft",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 50,
+      "section": "Hearing Impaired HS",
+      "item_code": 569,
+      "item_name": "Plastic Cane Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 51,
+      "section": "Hearing Impaired HS",
+      "item_code": 570,
+      "item_name": "Products using Kora Grass",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 52,
+      "section": "Hearing Impaired HS",
+      "item_code": 571,
+      "item_name": "Products using Rexin, Canvas and Leather",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 53,
+      "section": "Hearing Impaired HS",
+      "item_code": 572,
+      "item_name": "Products using Waste Materials",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 54,
+      "section": "Hearing Impaired HS",
+      "item_code": 573,
+      "item_name": "Ratton Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 55,
+      "section": "Hearing Impaired HS",
+      "item_code": 574,
+      "item_name": "Sea Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 56,
+      "section": "Hearing Impaired HS",
+      "item_code": 575,
+      "item_name": "Umbrella Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 57,
+      "section": "Hearing Impaired HS",
+      "item_code": 576,
+      "item_name": "Wood Carving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 58,
+      "section": "Hearing Impaired HSS",
+      "item_code": 580,
+      "item_name": "Agarbathi Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 59,
+      "section": "Hearing Impaired HSS",
+      "item_code": 581,
+      "item_name": "Bamboo Products",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 60,
+      "section": "Hearing Impaired HSS",
+      "item_code": 582,
+      "item_name": "Beads Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 61,
+      "section": "Hearing Impaired HSS",
+      "item_code": 583,
+      "item_name": "Book Binding",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 62,
+      "section": "Hearing Impaired HSS",
+      "item_code": 584,
+      "item_name": "Card and Straw Board Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 63,
+      "section": "Hearing Impaired HSS",
+      "item_code": 585,
+      "item_name": "Clay Modelling",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 64,
+      "section": "Hearing Impaired HSS",
+      "item_code": 586,
+      "item_name": "Coconut Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 65,
+      "section": "Hearing Impaired HSS",
+      "item_code": 587,
+      "item_name": "Coir Door Mats",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 66,
+      "section": "Hearing Impaired HSS",
+      "item_code": 588,
+      "item_name": "Embroidery",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 2
+    },
+    {
+      "ordinal": 67,
+      "section": "Hearing Impaired HSS",
+      "item_code": 589,
+      "item_name": "Fabric Printing using Vegetables",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 68,
+      "section": "Hearing Impaired HSS",
+      "item_code": 590,
+      "item_name": "Garments Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 69,
+      "section": "Hearing Impaired HSS",
+      "item_code": 591,
+      "item_name": "Metal Engraving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 70,
+      "section": "Hearing Impaired HSS",
+      "item_code": 592,
+      "item_name": "Net Making (Badminton/Volley Ball)",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 71,
+      "section": "Hearing Impaired HSS",
+      "item_code": 593,
+      "item_name": "Paper Craft",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 72,
+      "section": "Hearing Impaired HSS",
+      "item_code": 594,
+      "item_name": "Plastic Cane Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 73,
+      "section": "Hearing Impaired HSS",
+      "item_code": 595,
+      "item_name": "Products using Kora Grass",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 74,
+      "section": "Hearing Impaired HSS",
+      "item_code": 596,
+      "item_name": "Products using Rexin, Canvas and Leather",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 75,
+      "section": "Hearing Impaired HSS",
+      "item_code": 597,
+      "item_name": "Products using Waste Materials",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 76,
+      "section": "Hearing Impaired HSS",
+      "item_code": 598,
+      "item_name": "Ratton Works",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 77,
+      "section": "Hearing Impaired HSS",
+      "item_code": 599,
+      "item_name": "Sea Shell Work",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 78,
+      "section": "Hearing Impaired HSS",
+      "item_code": 600,
+      "item_name": "Umbrella Making",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 79,
+      "section": "Hearing Impaired HSS",
+      "item_code": 601,
+      "item_name": "Wood Carving",
+      "item_type_code": "S",
+      "max_participants_from_school": 1,
+      "source_pdf_page": 3
+    },
+    {
+      "ordinal": 80,
+      "section": "Hearing Impaired Exhibition",
+      "item_code": 700,
+      "item_name": "Hearing Impaired Exhibition",
+      "item_type_code": "G",
+      "max_participants_from_school": 5,
+      "source_pdf_page": 3
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+[
+  {
+    "id": "district-status-2026-01",
+    "title": "KITE 2026 Thiruvananthapuram district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:16.690628+00:00",
+    "download_sha256": "7d526b98ddab93495920c3a4547849a5a05aedcc96428a8b2864a5de8cb421a2",
+    "download_bytes": 20866,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/1",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:16.853211+00:00",
+        "bytes": 25555,
+        "sha256": "04ee6b1d065e3925e31be90a830024cf5f79e96b0764405003a05ad6196d34c5"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/1",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:16.749580+00:00",
+        "bytes": 22707,
+        "sha256": "de790621fee16eb89eb7db5227f7ab0956dcfb8851908283f80bd3bcb5fa93a6"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-02",
+    "title": "KITE 2026 Kollam district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/2",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:16.736435+00:00",
+    "download_sha256": "2b9cab40098859e1362e9ecbdfef72cc22930953cd21aed333c2fb93e947b115",
+    "download_bytes": 20864,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/2",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.057772+00:00",
+        "bytes": 22051,
+        "sha256": "ad7acc085765f4ef60d5e0647783517369d77239fb4341fa802ae00a45f9f8b3"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/2",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.161954+00:00",
+        "bytes": 20076,
+        "sha256": "8c5445df45af1c9fa82161ac44629bd1d9a7f91e3b13cded7098896f17936c56"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-03",
+    "title": "KITE 2026 Pathanamthitta district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/3",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:17.119678+00:00",
+    "download_sha256": "9ca406bedd9abee3b739f18f18fdf8e42f4ab3ad62b0eea64f345746594588f7",
+    "download_bytes": 20604,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/3",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.337200+00:00",
+        "bytes": 22350,
+        "sha256": "9744831433315260b4315c7e2386947e067e6ec007cf73bc6cf6e79c9aa8dc0a"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/3",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.502202+00:00",
+        "bytes": 20084,
+        "sha256": "02bdd27fff720dfda918b099cb5c4c09d032440aa8cefc54990db72a4935a4af"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-04",
+    "title": "KITE 2026 Alappuzha district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/4",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:17.548440+00:00",
+    "download_sha256": "b5ecdf24136f68c95159ec4c0ee9d8cb40e9e04729b496cee889cd2b4dd737bb",
+    "download_bytes": 20867,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/4",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.612926+00:00",
+        "bytes": 22054,
+        "sha256": "b425f9320d27b0ce80dbae55637401f303b16bd5be12f091ce1c41defb30c7d4"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/4",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:17.614734+00:00",
+        "bytes": 20079,
+        "sha256": "e89acf6d15b60b4f09d58b8467fa63ba7ae2722a32f25a5054ddc32118b582b7"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-05",
+    "title": "KITE 2026 Kottayam district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/5",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:17.901840+00:00",
+    "download_sha256": "bb4f769e8d5345c19017d28f6f1d2a7a5a7b6fe36d3f702d8eb00b4a3b21774e",
+    "download_bytes": 20598,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/5",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:18.233642+00:00",
+        "bytes": 22344,
+        "sha256": "31c3178ea622e07b7eb4afa4007d08fa5e970522f3a9dea91da600cc0bb4173a"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/5",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:18.272256+00:00",
+        "bytes": 20078,
+        "sha256": "a0bb8aaf1c8cfaf0c29688707b917ae5254cbb853e8d24c6a8e56da7fcac22ac"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-06",
+    "title": "KITE 2026 Idukki district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/6",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:18.236174+00:00",
+    "download_sha256": "21f1be0fb6dcb8b1aa57e3644578beef042f3ee4e3bff9fc15e0b2aa64ab6e1f",
+    "download_bytes": 20596,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/6",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:18.809011+00:00",
+        "bytes": 22051,
+        "sha256": "9cf501d6b86b126dcd34155b0dd4798bd16c28fb37771d02e95d651b5d31456d"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/6",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:19.137611+00:00",
+        "bytes": 20076,
+        "sha256": "2474a1cf76ef2141b7b3a3950d3be1e923b9ecd226d11afc25e3e25db1cb8fc6"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-07",
+    "title": "KITE 2026 Ernakulam district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/7",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:19.132424+00:00",
+    "download_sha256": "6701dbf80744bdc614c65aceda043fe6f236b7b0f3f75ce21354d40a4901074f",
+    "download_bytes": 20867,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/7",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:19.313857+00:00",
+        "bytes": 22345,
+        "sha256": "4702ef888cecc99e7aa2e8a1733c915dfb4e405c711f91bd384a706d3abeaee8"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/7",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:19.865136+00:00",
+        "bytes": 20079,
+        "sha256": "455c616ec1ec2528c268c146301c226cb7adb654de26576bb658aad3d6611126"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-08",
+    "title": "KITE 2026 Thrissur district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/8",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:20.270390+00:00",
+    "download_sha256": "a2be8040bd5cc4e0f9bb2bae3cbc2f78cddef155424b1b5186b90100043adeb6",
+    "download_bytes": 20598,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/8",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:20.092829+00:00",
+        "bytes": 21762,
+        "sha256": "c3c66aedcebb235a9d8ccb393193fe0b7d53292d4bee24d6b7e8dd3a669f13da"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/8",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:20.340142+00:00",
+        "bytes": 19787,
+        "sha256": "7c92c8b4b2ee94a256f9a28de948b6e3d07e77b305367e6c909a24b59d13bb57"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-09",
+    "title": "KITE 2026 Palakkad district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/9",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:20.824675+00:00",
+    "download_sha256": "c3742b750d38d1879e5cdd9eee214abe362fceb8394e8066e0c24bf816771ef1",
+    "download_bytes": 20598,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/9",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:21.034433+00:00",
+        "bytes": 22053,
+        "sha256": "c89752315891a4f63e53fc8d41bcc75ba6b80054f8457cb1b3fe234e04ad1837"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/9",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:21.157805+00:00",
+        "bytes": 20078,
+        "sha256": "e5c7e7a0dec8a07fde7013150b356f22d18ab9fabed446f581e7e7dcf5d8e378"
+      }
+    ],
+    "related_landing_page_snapshot": {
+      "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/dist_index/9/Palakkad",
+      "download_bytes": 68674,
+      "download_sha256": "51fde55f10c12fdedffc921100c958215ca8f60496521ad0f9ab80cdf1b291af",
+      "notes": "Landing page displays Overall School Champion and Overall Sub District Champion panels while its separately captured status page reports15/221 completed catalogue items. These headings are not treated as a final championship certification."
+    }
+  },
+  {
+    "id": "district-status-2026-10",
+    "title": "KITE 2026 Malappuram district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/10",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:21.325868+00:00",
+    "download_sha256": "c5156654eee982b5b2af54544ef798ec9343aa80409adde5fc19e97a1cd11b9f",
+    "download_bytes": 20921,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/10",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:21.600685+00:00",
+        "bytes": 22358,
+        "sha256": "da2451a2151bebe12f7d13901f7d2da9d5340ff477a82f047f1671529b9c6296"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/10",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:21.749612+00:00",
+        "bytes": 20088,
+        "sha256": "3e173ed4f44a5e4f028c53bd523db204490f2e855b6159ace49286b0675c3bec"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-11",
+    "title": "KITE 2026 Kozhikode district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/11",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:22.087925+00:00",
+    "download_sha256": "2f0a6c9a41a82fc2db0aef062efa53f388598707418b6fd82435cbbdcba73ff4",
+    "download_bytes": 20378,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/11",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:22.087846+00:00",
+        "bytes": 22064,
+        "sha256": "168169b824de67fa03809f05f5437df3493f797f9f7d0ef85a44e377775c0125"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/11",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:22.383420+00:00",
+        "bytes": 20087,
+        "sha256": "b9ed9e63363db6f45960a8d64924b2dc6892ce4942b20ddf56dfed2f7bea92f5"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-12",
+    "title": "KITE 2026 Wayanad district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/12",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:22.406862+00:00",
+    "download_sha256": "35c0585b1ba0961bac61dc36002d22624313db74aae0b1f7fdf3df63c25497d9",
+    "download_bytes": 20918,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/12",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:22.770191+00:00",
+        "bytes": 22062,
+        "sha256": "2cc73e33ae917f842688c5f60c77587059ae420078ff064595516121fc7d5cf5"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/12",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:22.665230+00:00",
+        "bytes": 20085,
+        "sha256": "d11536ed2fc8e2022b24505138e7af452991d803a810f7b347d2f85d0bb5c70f"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-13",
+    "title": "KITE 2026 Kannur district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/13",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:22.903761+00:00",
+    "download_sha256": "0e28ed0c4476e35df3e13fd628844d5f81aa3c6b66ede3faaaa5d92f9bb1ec4c",
+    "download_bytes": 20375,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/13",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:23.026326+00:00",
+        "bytes": 22061,
+        "sha256": "3afa71bf55ee110fe4c3b18c290a85736577ee503fa1dbcff84b3a3e07bb3435"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/13",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:23.239473+00:00",
+        "bytes": 20084,
+        "sha256": "94fdc9d9e6ed227977de7a9c44892c20d4f73e98260c46f733d7149c6560ef13"
+      }
+    ]
+  },
+  {
+    "id": "district-status-2026-14",
+    "title": "KITE 2026 Kasaragod district portal status snapshot",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/14",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_portal_status_snapshot",
+    "document_date": null,
+    "retrieved_at_utc": "2026-10-31T20:39:23.368341+00:00",
+    "download_sha256": "c38b0c15c8d900206ae08f128672ea5bc7f2fea5b2dc60d564627961ce698516",
+    "download_bytes": 20920,
+    "notes": "Public dynamic status page, preserved as a dated snapshot. Fifteen fair/section rows and displayed totals extracted; blank fair cells expanded, original cells and dashes retained. Counts refer to generic catalogue rows, including UP rows that do not independently establish district pupil eligibility. No certification of final results, actual attendance or event completion inferred. Source arithmetic differences are retained. Two accompanying Science HS/HSS item-list pages were checked only for Working Model public-report links; absence of a link is not proof of cancellation or zero participation.",
+    "additional_snapshot_pages": [
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/3/1/0/2/14",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:23.381882+00:00",
+        "bytes": 22064,
+        "sha256": "7b853efe155623590af6358a5f4a7a0cad59785a9b7b874de9f1283fd1ac7058"
+      },
+      {
+        "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/getItemlistforentry/4/1/0/2/14",
+        "http_status": "200",
+        "retrieved_at_utc": "2026-10-31T20:39:23.539656+00:00",
+        "bytes": 20087,
+        "sha256": "3a530708134942e56c3359e3c13b3e4c8c9eda6b5e88e0085de3eed19a2f03d4"
+      }
+    ]
+  },
+  {
+    "id": "district-working-2026-tvm-115",
+    "title": "KITE Thiruvananthapuram 2026 Science Working Model HS grade report",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/reportforCertificate/115/1/3/0/2/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_dynamic_generated_result_pdf",
+    "document_date": null,
+    "report_generated_as_published": "November 1, 2026, 02:12 am",
+    "event_start_date_as_printed": "2026-10-23",
+    "event_end_date_as_printed": "2026-10-25",
+    "pdf_pages": 3,
+    "download_bytes": 22652,
+    "download_sha256": "b02eba7f922d7f3e30f14cb513720da09eea4bfd0c8fe3ce5c8c9e32ee14d2cd",
+    "notes": "All three pages extracted; row numbers1–46 contiguous. Published pupil-row grade counts A30/B16; counts are not distinct exhibits or independent attendance. Header names St. Mary's HSS Pattom and district event23–25October2026. Report supplies grades but no rank, mark, project title or mechanism. Row order is not treated as prize order. Generation date/time retained as printed; timezone not explicitly stamped. Snapshot hash identifies the retrieved dynamic PDF. No pupil names, registration numbers, source-page images or raw PDF copied into repository."
+  },
+  {
+    "id": "district-working-2026-tvm-126",
+    "title": "KITE Thiruvananthapuram 2026 Science Working Model HSS/VHSS grade report",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/reportforCertificate/126/1/4/0/2/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_dynamic_generated_result_pdf",
+    "document_date": null,
+    "report_generated_as_published": "November 1, 2026, 02:12 am",
+    "event_start_date_as_printed": "2026-10-23",
+    "event_end_date_as_printed": "2026-10-25",
+    "pdf_pages": 3,
+    "download_bytes": 22964,
+    "download_sha256": "8f9534e7d125ade102dace06a97c52c5093a826e9fa5892010a3788d48c1f05d",
+    "notes": "All three pages extracted; row numbers1–46 contiguous. Published pupil-row grade counts A30/B16; counts are not distinct exhibits or independent attendance. Header names St. Mary's HSS Pattom and district event23–25October2026. Report supplies grades but no rank, mark, project title or mechanism. Row order is not treated as prize order. Generation date/time retained as printed; timezone not explicitly stamped. Snapshot hash identifies the retrieved dynamic PDF. No pupil names, registration numbers, source-page images or raw PDF copied into repository."
+  }
+]

@@ -1,0 +1,1932 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-01",
+  "scope": "Public media references decoded from all 31 credited Kerala write-up starts in the official SISF 2026 compendium, with source-specific access snapshots. This is separate from selection, awards and independent validation.",
+  "compendium_source_id": "pathways-37",
+  "compendium_download_sha256": "9ed4441b40999e67638af3ac1f45ce41e09d19fb1c2e01a9ca5c2768b8c88e6d",
+  "summary": {
+    "decoded_qr_references": 31,
+    "resolved_public_units": 31,
+    "linked_mp4_resources": 21,
+    "units_without_playable_children": 10,
+    "videos_sampled_visually": 21,
+    "videos_fully_reviewed": 0,
+    "audio_tracks_reviewed": 0,
+    "linked_report_or_code_urls_found": 0,
+    "visual_frames_inspected": 146,
+    "machine_transcribed_audio_tracks": 21,
+    "rejected_machine_outputs": 2
+  },
+  "method": {
+    "qr_decoding": "Native Vision QR decoding on already rendered source pages; exactly one URL decoded per Kerala credited start.",
+    "public_lookup": "Ordinary unauthenticated HTTP requests following frontend-published guest lookup behavior (media-032–media-034); no credentials, access requests or contact with publishers.",
+    "asset_access": "HTTP HEAD confirmed 200/video-mp4 for all 21 returned artifacts. All 21 videos have sampled visual review; the original 137 frame records are preserved and a dated follow-up adds nine chart-focused samples from three existing cached clips (146 total). No continuous full-clip or audio-listening review is claimed.",
+    "negative_search_scope": "No report, code-repository or other explicit URLs were found in returned unit/resource descriptions, bodies or titles. This does not establish that such materials do not exist elsewhere.",
+    "limits": "A public title/resource record, visible interface or demonstration does not independently verify performance, reliability, safety, pupil authorship/work division, attendance or a qualifying fair route. Source publication timestamps are metadata, not verified filming dates.",
+    "audio_review_scope": "audio_tracks_reviewed means human listening: zero. Full PCM from21 clips was processed with local ASR; machine text is unverified and kept separate."
+  },
+  "entries": [
+    {
+      "id": "media-sisf-2026-kerala-individual-p156",
+      "model_id": "sisf-2026-kerala-individual-p156",
+      "category_as_published": "individual",
+      "title_as_published": "INVESTIGATORY PROJECT ON PALM FIBER",
+      "source_ids": [
+        "pathways-37",
+        "media-001"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 195,
+        "printed_page": 156,
+        "decoded_payload": "https://diksha.gov.in/dial/P3Y7R6",
+        "dial_code_from_payload": "P3Y7R6",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/P3Y7R6?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489762611201385",
+        "name": "Investigatory Project on Palm Fiber",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070204497100801425",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_INVESTIGATORY PROJECT ON PALM FIBER",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070204497100801425/investigatory-project-on-palm-fiber.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 181128573,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:29:14.477+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              44.56,
+              66.84,
+              89.2,
+              130.68
+            ],
+            "duration_seconds": 133.68,
+            "frame_count": 6,
+            "observations": "Charts, finished rubber mats and a laptop showing a separate scene are visible.",
+            "operation_assessment": "Samples do not independently measure strength, abrasion or durability."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p156"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p159",
+      "model_id": "sisf-2026-kerala-individual-p159",
+      "category_as_published": "individual",
+      "title_as_published": "PRISMATIC PILLAR",
+      "source_ids": [
+        "pathways-37",
+        "media-002"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 198,
+        "printed_page": 159,
+        "decoded_payload": "https://diksha.gov.in/dial/I3I4B8",
+        "dial_code_from_payload": "I3I4B8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/I3I4B8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489754992641145",
+        "name": "Prismatic Pillar",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314507010858344448126572",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_PRISMATIC PILLAR",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507010858344448126572/prismatic-pillar-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 141050797,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:34:06.325+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              35.76,
+              53.64,
+              71.52,
+              104.44
+            ],
+            "duration_seconds": 107.32,
+            "frame_count": 6,
+            "observations": "Yellow/red solid pieces are opened, separated and rearranged between sampled frames.",
+            "operation_assessment": "Manipulation is visible; the complete geometric proof was not independently audited."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p159"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p161",
+      "model_id": "sisf-2026-kerala-individual-p161",
+      "category_as_published": "individual",
+      "title_as_published": "AGRICULTURE VEHICLE",
+      "source_ids": [
+        "pathways-37",
+        "media-003"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 200,
+        "printed_page": 161,
+        "decoded_payload": "https://diksha.gov.in/dial/C3W9Q2",
+        "dial_code_from_payload": "C3W9Q2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/C3W9Q2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975261696169",
+        "name": "Agriculture Vehicle",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035327627182081505",
+          "title_as_returned": "KERALA_INDIVIDUAL Exhibit_AGRICULTURE VEHICLE",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035327627182081505/agriculture-vehicle-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 121642882,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:31:27.676+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              31.2,
+              46.8,
+              62.4,
+              90.6
+            ],
+            "duration_seconds": 93.6,
+            "frame_count": 6,
+            "observations": "A wheeled model, front belt/attachments and handheld controls are shown in close-up.",
+            "operation_assessment": "Samples do not establish field effectiveness, all functions operating, or costs."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p161"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p162",
+      "model_id": "sisf-2026-kerala-individual-p162",
+      "category_as_published": "individual",
+      "title_as_published": "MATHS SCRAP BOOK",
+      "source_ids": [
+        "pathways-37",
+        "media-004"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 201,
+        "printed_page": 162,
+        "decoded_payload": "https://diksha.gov.in/dial/Q7P4E9",
+        "dial_code_from_payload": "Q7P4E9",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Q7P4E9?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489763184641405",
+        "name": "Maths Scrap Book",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070307744645121464",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_Maths Scrap Book",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070307744645121464/maths-scrap-book.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 317104080,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T17:40:11.073+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              80.28,
+              120.44,
+              160.56,
+              238
+            ],
+            "duration_seconds": 240.88,
+            "frame_count": 6,
+            "observations": "Fold-out pages and geometric pieces are handled and rearranged.",
+            "operation_assessment": "Visual teaching aids are shown; every mathematical statement is not independently validated."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p162"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p163",
+      "model_id": "sisf-2026-kerala-individual-p163",
+      "category_as_published": "individual",
+      "title_as_published": "RIVER CLEANING SYSTEM",
+      "source_ids": [
+        "pathways-37",
+        "media-005"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 202,
+        "printed_page": 163,
+        "decoded_payload": "https://diksha.gov.in/dial/S1J4M9",
+        "dial_code_from_payload": "S1J4M9",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/S1J4M9?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489762856961393",
+        "name": "River Cleaning System",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314507017729802240126577",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_RIVER CLEANING SYSTEM",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507017729802240126577/river-cleaning-system.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 133171862,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:35:01.574+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              34.36,
+              51.56,
+              68.76,
+              100.16
+            ],
+            "duration_seconds": 103.16,
+            "frame_count": 6,
+            "observations": "A model boat is shown in a tank with floating pieces; a handheld device and opened component enclosure are visible.",
+            "operation_assessment": "Samples do not quantify collection rate, navigation reliability or water quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p163"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p164",
+      "model_id": "sisf-2026-kerala-individual-p164",
+      "category_as_published": "individual",
+      "title_as_published": "HOPE (Hardware Optimized for People in Emergency)",
+      "source_ids": [
+        "pathways-37",
+        "media-006"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 203,
+        "printed_page": 164,
+        "decoded_payload": "https://diksha.gov.in/dial/X2X1V7",
+        "dial_code_from_payload": "X2X1V7",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/X2X1V7?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489756712961173",
+        "name": "HOPE(Hardware Optimized for People in Emergency)",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035973423595521525",
+          "title_as_returned": "KERALA_INDIVIDUAL Exhibit_HOPE",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035973423595521525/hope-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 174717965,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:31:15.082+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              44.76,
+              67.12,
+              89.6,
+              131.28
+            ],
+            "duration_seconds": 134.28,
+            "frame_count": 6,
+            "observations": "Separate labelled input/receiver boxes and a laptop interface are shown and handled.",
+            "operation_assessment": "Causal trigger/alert timing and emergency reliability remain unverified."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p164"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-006",
+        "resource_id": "do_3145035973423595521525",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "633b0f89478a62021b490e2cb0ec643714e6d5e01981b1837c23fc0152868ce7",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 25,
+            "actual_seconds": 25
+          },
+          {
+            "requested_seconds": 115,
+            "actual_seconds": 115
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5-second chart labels User Node, Base / Receiver Node and Network & Cloud Layer. A WEBSITE panel/dashboard is visible, without a readable public address in the inspected samples."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The long-range/network-failure/reliability statements are attributed objectives or conclusions, not measurements established by this review.",
+          "The LoRa radio hop and Wi-Fi/MQTT cloud path are distinct dependencies. Their description does not establish end-to-end notification during an internet outage.",
+          "No numerical range, false-alarm or outage-test series is supplied by the cited page. The sampled frames do not verify causal emergency-trigger timing or emergency reliability.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p165",
+      "model_id": "sisf-2026-kerala-individual-p165",
+      "category_as_published": "individual",
+      "title_as_published": "AGROLINK – AUTOMATIC SMART AGRI SYSTEM",
+      "source_ids": [
+        "pathways-37",
+        "media-007"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 204,
+        "printed_page": 165,
+        "decoded_payload": "https://diksha.gov.in/dial/U1M5L8",
+        "dial_code_from_payload": "U1M5L8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/U1M5L8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489753927681113",
+        "name": "AGROLINK-Automatic Smart Agri System",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314503591018225664125371",
+          "title_as_returned": "KERALA_Individual Exhibit_Agro Link",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503591018225664125371/agro-link-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 275777149,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:30:33.272+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              71.2,
+              106.76,
+              142.44,
+              210.68
+            ],
+            "duration_seconds": 213.68,
+            "frame_count": 6,
+            "observations": "Plant-control model components, a fan, tubing/wiring and a phone interface are shown.",
+            "operation_assessment": "Threshold calibration, every automation function and field/cost claims remain unverified."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p165"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-007",
+        "resource_id": "do_314503591018225664125371",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "f94f238f9e0c81018ea0d090bb0a2bd19edac4f78fb4e8fa290584d100a292c0",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 30,
+            "actual_seconds": 30
+          },
+          {
+            "requested_seconds": 60,
+            "actual_seconds": 60
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5- and 30-second samples show an AgroLink synopsis and CIRCUIT DIAGRAM. The synopsis uses the term AI; the inspected written material supplies no AI model, dataset, code or evaluation procedure."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The cited write-up asserts water savings, improved plant health and accurate/reliable sensor response without numerical trial counts, calibration results, crop measurements or cost accounting.",
+          "The chart’s AI wording does not establish an implemented machine-learning component or its authorship.",
+          "The samples show display/model components and a phone/interface view; they do not independently verify all automation functions, field outcomes or safety.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p166",
+      "model_id": "sisf-2026-kerala-individual-p166",
+      "category_as_published": "individual",
+      "title_as_published": "AREA OF TANGENTIAL POLYGON",
+      "source_ids": [
+        "pathways-37",
+        "media-008"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 205,
+        "printed_page": 166,
+        "decoded_payload": "https://diksha.gov.in/dial/B4U3I2",
+        "dial_code_from_payload": "B4U3I2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/B4U3I2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489754009601115",
+        "name": "Area of Tangential Polygon",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035946698997761523",
+          "title_as_returned": "KERALA_INDIVIDUAL Exhibit_AREA OF TANGENTIAL POLYGON",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035946698997761523/area-of-tangential-polygon.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 221388360,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:28:45.749+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              55.52,
+              83.28,
+              111,
+              163.64
+            ],
+            "duration_seconds": 166.56,
+            "frame_count": 6,
+            "observations": "Coloured polygon pieces are separated and rearranged into other shapes.",
+            "operation_assessment": "Samples do not independently verify the complete general proof or all narrated properties."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p166"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p168",
+      "model_id": "sisf-2026-kerala-individual-p168",
+      "category_as_published": "individual",
+      "title_as_published": "LOW-COST DRIVING SIMULATOR FOR SAFE DRIVING TRAINING",
+      "source_ids": [
+        "pathways-37",
+        "media-009"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 207,
+        "printed_page": 168,
+        "decoded_payload": "https://diksha.gov.in/dial/M8P5L1",
+        "dial_code_from_payload": "M8P5L1",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/M8P5L1?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489763266561409",
+        "name": "Low-Cost Driving Simulator for Safe Driving Training",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314507029691187200126588",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_LOW-COST DRIVING SIMULATOR",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314507029691187200126588/low-cost-driving-simulator.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 160323780,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:22:22.990+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              37.28,
+              55,
+              55.92,
+              56,
+              57,
+              58,
+              59,
+              60,
+              74.56,
+              108.72
+            ],
+            "duration_seconds": 111.84,
+            "frame_count": 12,
+            "observations": "The sampled sequence shows a person handling steering/pedals/gear controls beside a changing driving-simulator display; the additional 55–60 second samples show continuing physical interaction and screen changes.",
+            "operation_assessment": "Visible use of the physical simulator interface; sampled images do not establish input/output timing, driver-training effectiveness or the implementation of every feature.",
+            "exhibit_code_check": "No new award-code determination made from the video. Adjacent stall signs can appear in the frame."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p168"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p170",
+      "model_id": "sisf-2026-kerala-individual-p170",
+      "category_as_published": "individual",
+      "title_as_published": "Li-Fi Based Wireless Data Communication System Using Visible Light",
+      "source_ids": [
+        "pathways-37",
+        "media-010"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 209,
+        "printed_page": 170,
+        "decoded_payload": "https://diksha.gov.in/dial/J7E9C2",
+        "dial_code_from_payload": "J7E9C2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/J7E9C2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489754337281125",
+        "name": "LI-FI Based Wireless Data Communication System Using Visible Light",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070240320880641427",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_Li-Fi BASED WIRELESS DATA COMMUNICATION SYSTEM",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070240320880641427/li-fi-based-wireless-data-communication-system.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 379180828,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:26:08.637+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              94.56,
+              141.8,
+              189.12,
+              280.68
+            ],
+            "duration_seconds": 283.68,
+            "frame_count": 6,
+            "observations": "Laptop serial interfaces, boards, a light source and a small panel are shown.",
+            "operation_assessment": "Samples do not establish transmission speed, a controlled radio-disabled link or health claims."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p170"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p172",
+      "model_id": "sisf-2026-kerala-individual-p172",
+      "category_as_published": "individual",
+      "title_as_published": "SAMARTH KERALA",
+      "source_ids": [
+        "pathways-37",
+        "media-011"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 211,
+        "printed_page": 172,
+        "decoded_payload": "https://diksha.gov.in/dial/H7B8D3",
+        "dial_code_from_payload": "H7B8D3",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/H7B8D3?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975187968145",
+        "name": "Samarth Kerala",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035931027292161521",
+          "title_as_returned": "KERALA_INDIVIDUAL Exhibit_Project Samarth",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035931027292161521/an-intelligent-mwdication-management-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 161776993,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T17:42:43.357+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              20,
+              60.12
+            ],
+            "duration_seconds": 124.96,
+            "frame_count": 3,
+            "observations": "Three sampled frames show SAMARTH/project-interface signage, a phone/computer interface, and a wall placard KL-I-11.",
+            "operation_assessment": "Interface/display samples only; wheelchair movement and obstacle response were not assessed.",
+            "exhibit_code_check": "KL-I-11 is visible on the wall placard at 0 seconds; this is printed-code evidence, without facial identification.",
+            "anomaly": "The MP4 artifact filename says an-intelligent-mwdication-management-.mp4, but unit/resource titles and sampled video signage identify SAMARTH. Preserve the actual URL; do not infer the video topic from its filename alone."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p172"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p174",
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "category_as_published": "individual",
+      "title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "source_ids": [
+        "pathways-37",
+        "media-012"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 213,
+        "printed_page": 174,
+        "decoded_payload": "https://diksha.gov.in/dial/B6V4X5",
+        "dial_code_from_payload": "B6V4X5",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/B6V4X5?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975106048121",
+        "name": "Value Added Products from Banana PSEUDO Stem (BPS)",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070332363653121469",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_VALUE ADDED BANANA PSEUDO STEM",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070332363653121469/value-added-banana-pseudo-stem-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 219961515,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T13:55:14.246+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              51,
+              76.44,
+              102,
+              149.88
+            ],
+            "duration_seconds": 152.92,
+            "frame_count": 6,
+            "observations": "A multi-part display includes labelled compost, feed, seedling pots and cylindrical model equipment.",
+            "operation_assessment": "A display of products/equipment does not independently verify all production processes or output quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p174"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p176",
+      "model_id": "sisf-2026-kerala-individual-p176",
+      "category_as_published": "individual",
+      "title_as_published": "AN INTELLIGENT AUTOMATED IOT-BASED MEDICATION MANAGEMENT AND DISPENSING SYSTEM",
+      "source_ids": [
+        "pathways-37",
+        "media-013"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 215,
+        "printed_page": 176,
+        "decoded_payload": "https://diksha.gov.in/dial/W8T8B8",
+        "dial_code_from_payload": "W8T8B8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/W8T8B8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975073280113",
+        "name": "An Intelligent Automated IOT-Based Medication Management and Dispensing System",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070230653829121426",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_IOT-BASED MEDICATION MANAGEMENT",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070230653829121426/iot-based-medication-management.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 116818305,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T14:26:50.563+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              29.2,
+              43.84,
+              58.44,
+              66,
+              69,
+              72,
+              75,
+              78,
+              81,
+              84,
+              84.72,
+              86.48
+            ],
+            "duration_seconds": 87.68,
+            "frame_count": 14,
+            "observations": "Samples show the dispensing enclosure, tablet schedule interface, editing of schedule fields and close-ups of wiring/output chute.",
+            "operation_assessment": "Interface interaction is visible. Automatic medicine release and correct dose delivery were not resolved in the reviewed samples; this does not establish their absence from the full clip.",
+            "exhibit_code_check": "No new award-code determination made from the video."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p176"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-013",
+        "resource_id": "do_3145070230653829121426",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "5ccbb20106ae3b4b0a68a34ab91c3cc341dde7c9c7a37f4d7464505fa87bfc77",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 20,
+            "actual_seconds": 20
+          },
+          {
+            "requested_seconds": 35,
+            "actual_seconds": 35
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5-, 20- and 35-second samples show a MEDIBOT capability poster and circuit diagram. Readable headings include Smart alert and Automated logging; finer wording is partly small/occluded."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The cited page’s Wi-Fi boot timing and consistent single-pill/no-jam assertions are source-reported observations, not independently established reliability/dose trials.",
+          "The hourly/next-fetch description and immediate-update claim remain unreconciled.",
+          "Pickup sensing, an alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements in the write-up. The poster’s Smart alert heading does not resolve feature timing/version or prove implementation.",
+          "The cited text and samples do not establish correct prescription/dose, ingestion, patient benefit, clinical safety or student work division.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
+    },
+    {
+      "id": "media-sisf-2026-kerala-individual-p178",
+      "model_id": "sisf-2026-kerala-individual-p178",
+      "category_as_published": "individual",
+      "title_as_published": "SMART WHEELCHAIR FOR HANDICAPPED PEOPLE",
+      "source_ids": [
+        "pathways-37",
+        "media-014"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 217,
+        "printed_page": 178,
+        "decoded_payload": "https://diksha.gov.in/dial/Z3P3B7",
+        "dial_code_from_payload": "Z3P3B7",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Z3P3B7?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489754173441119",
+        "name": "Smart Wheelchair for Handicapped People",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145070321767301121467",
+          "title_as_returned": "KERALA_INDIVIDUAL EXHIBITS_SMART WHEELCHAIR FOR HANDICAPPED PEOPLE",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145070321767301121467/smart-wheelchair-for-handicapped-people.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 146774486,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT, TELANGANA",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T13:56:26.972+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              36.92,
+              55.32,
+              73.88,
+              107.84
+            ],
+            "duration_seconds": 110.84,
+            "frame_count": 6,
+            "observations": "A wheeled chair model, laptop, handheld control and a head-worn device are shown.",
+            "operation_assessment": "Samples do not independently establish brain-signal control, safety or assistive effectiveness."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-individual-p178"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p180",
+      "model_id": "sisf-2026-kerala-group-p180",
+      "category_as_published": "group",
+      "title_as_published": "Exploring the Agricultural Potential of Invasive Plant Species",
+      "source_ids": [
+        "pathways-37",
+        "media-015"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 221,
+        "printed_page": 180,
+        "decoded_payload": "https://diksha.gov.in/dial/X3L2C8",
+        "dial_code_from_payload": "X3L2C8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/X3L2C8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489763758081429",
+        "name": "Exploring the Agriculture Potential of Invasive Plant Species",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314502812186771456125271",
+          "title_as_returned": "KERALA_Group Exhibit_EXPLORING THE AGRICULTURAL POTENTIAL",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502812186771456125271/exploring-the-agricultural-potential-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 70584198,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T17:02:39.269+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              18,
+              27,
+              36.08,
+              51.12
+            ],
+            "duration_seconds": 54.12,
+            "frame_count": 6,
+            "observations": "Labelled plant materials, jars and comparison charts are displayed and indicated.",
+            "operation_assessment": "Samples do not verify preparation history, controlled growth outcomes or environmental safety."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p180"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p182",
+      "model_id": "sisf-2026-kerala-group-p182",
+      "category_as_published": "group",
+      "title_as_published": "SUSTAINABLE AND ECO FRIENDLY DIAPER PRODUCTION FROM NATURAL FIBRES OF BANANA AND BAMBOO",
+      "source_ids": [
+        "pathways-37",
+        "media-016"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 223,
+        "printed_page": 182,
+        "decoded_payload": "https://diksha.gov.in/dial/D8B6U6",
+        "dial_code_from_payload": "D8B6U6",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/D8B6U6?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975335424195",
+        "name": "Sustainable and Eco Friendly Diaper Production from Natural Fibers of Banana Bamboo",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035029542830081498",
+          "title_as_returned": "KERALA_Group Exhibit_SUSTAINABLE AND ECO FRIENDLY DIAPER",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035029542830081498/sustainable-and-eco-friendly-diaper.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 91263348,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:51:24.826+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              23.4,
+              35.12,
+              46.84,
+              67.28
+            ],
+            "duration_seconds": 70.32,
+            "frame_count": 6,
+            "observations": "Samples show a diaper-project display, fibre-treatment beakers, raw/processed materials, a presentation screen and handling of fabric/product material.",
+            "operation_assessment": "Physical materials/product handling is visible; no absorbency comparison or measured production/test procedure is established by these six samples.",
+            "exhibit_code_check": "KL-G-06 was not confidently readable in the six reviewed video samples. The existing award correspondence remains a candidate with source-specific credits."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p182"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p183",
+      "model_id": "sisf-2026-kerala-group-p183",
+      "category_as_published": "group",
+      "title_as_published": "WATER ON EARTH",
+      "source_ids": [
+        "pathways-37",
+        "media-017"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 224,
+        "printed_page": 183,
+        "decoded_payload": "https://diksha.gov.in/dial/Q4X1J2",
+        "dial_code_from_payload": "Q4X1J2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Q4X1J2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489762365441375",
+        "name": "Water on Earth",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314503509561991168125345",
+          "title_as_returned": "KERALA_Group Exhibit_WATER ON EARTH",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314503509561991168125345/water-on-earth-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 119694115,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:50:49.061+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              30,
+              45,
+              60,
+              86.8
+            ],
+            "duration_seconds": 89.8,
+            "frame_count": 6,
+            "observations": "A water-conservation model has labelled rainwater harvesting, filtration, aquifer and weather-station parts.",
+            "operation_assessment": "Samples do not establish measured water savings or validated water quality."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p183"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p184",
+      "model_id": "sisf-2026-kerala-group-p184",
+      "category_as_published": "group",
+      "title_as_published": "NEWTON’S LAW OF MOTION",
+      "source_ids": [
+        "pathways-37",
+        "media-018"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 225,
+        "printed_page": 184,
+        "decoded_payload": "https://diksha.gov.in/dial/R3Z7R2",
+        "dial_code_from_payload": "R3Z7R2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/R3Z7R2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489761300481337",
+        "name": "Newtonâ€™s Law of Motion",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035016773877761497",
+          "title_as_returned": "KERALA_Group Exhibit_NEWTONS LAW OF MOTION",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035016773877761497/newtons-law-of-motion-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 144529438,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:51:54.438+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              35,
+              52.44,
+              69.76,
+              101.6
+            ],
+            "duration_seconds": 104.68,
+            "frame_count": 6,
+            "observations": "A curved-track apparatus, balls and suspended objects are handled.",
+            "operation_assessment": "The full sequence and quantitative laws were not independently tested."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p184"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "metadata_note": "Preserved mojibake punctuation in the unit title as returned by the public API; the compendium title remains separate."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p185",
+      "model_id": "sisf-2026-kerala-group-p185",
+      "category_as_published": "group",
+      "title_as_published": "IONISATION BASED FOG HARVESTING SYSTEM",
+      "source_ids": [
+        "pathways-37",
+        "media-019"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 226,
+        "printed_page": 185,
+        "decoded_payload": "https://diksha.gov.in/dial/K3J4B4",
+        "dial_code_from_payload": "K3J4B4",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/K3J4B4?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489761546241345",
+        "name": "Ionisation Based Fog Harvesting System",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_314502817082531840125276",
+          "title_as_returned": "KERALA_GROUP EXHIBIT_IONISATION BASED FOG HARVESTING SYSTEM",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_314502817082531840125276/ionisation-based-fog-harvesting-system.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 216647384,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:57:32.206+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              50.16,
+              75.28,
+              100.36,
+              147.56
+            ],
+            "duration_seconds": 150.56,
+            "frame_count": 6,
+            "observations": "Samples show presenters and a collector/mesh setup with visible mist near the collection area, including close views around 50.16, 75.28 and 100.36 seconds.",
+            "operation_assessment": "A mist demonstration is visible; sampled frames do not verify ionisation, collected yield, water quality or a controlled comparison.",
+            "exhibit_code_check": "No new award-code determination made from the video."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p185"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p187",
+      "model_id": "sisf-2026-kerala-group-p187",
+      "category_as_published": "group",
+      "title_as_published": "FROM POLLUTIONS TO INNOVATIONS",
+      "source_ids": [
+        "pathways-37",
+        "media-020"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 228,
+        "printed_page": 187,
+        "decoded_payload": "https://diksha.gov.in/dial/D9N7S8",
+        "dial_code_from_payload": "D9N7S8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/D9N7S8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489757696001211",
+        "name": "From Pollutions to Innovations",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145028144238264321446",
+          "title_as_returned": "KERALA_Group Exhibit_FROM POLLUTIONS TO INNOVATIONS",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145028144238264321446/from-pollutions-to-innovations-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 93842176,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:58:47.560+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              22.52,
+              33.92,
+              45.04,
+              64.56
+            ],
+            "duration_seconds": 67.56,
+            "frame_count": 6,
+            "observations": "A city concept display and accompanying explanatory charts are shown.",
+            "operation_assessment": "This is not independently verified operation of a carbon-neutral city or energy plant."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p187"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-group-p189",
+      "model_id": "sisf-2026-kerala-group-p189",
+      "category_as_published": "group",
+      "title_as_published": "MAGNETISM",
+      "source_ids": [
+        "pathways-37",
+        "media-021"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 230,
+        "printed_page": 189,
+        "decoded_payload": "https://diksha.gov.in/dial/W6Q5X2",
+        "dial_code_from_payload": "W6Q5X2",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/W6Q5X2?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975212544155",
+        "name": "Magnetism",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_video_metadata_and_asset_available",
+      "resources": [
+        {
+          "resource_id": "do_3145035002180730881496",
+          "title_as_returned": "KERALA_Group Exhibit_Magnetism",
+          "mime_type_as_returned": "video/mp4",
+          "content_type_as_returned": "Resource",
+          "status_as_returned": "Live",
+          "artifact_url": "https://obj.diksha.gov.in/ntp-content-production/content/assets/do_3145035002180730881496/magnetism-.mp4",
+          "artifact_http_status": 200,
+          "artifact_content_type": "video/mp4",
+          "artifact_content_length": 310339189,
+          "license_as_returned": "CC BY 4.0",
+          "publisher_author_as_returned": "SCERT",
+          "copyright_as_returned": "Telangana State",
+          "metadata_last_published_on": "2026-02-17T15:52:30.467+0000",
+          "recording_date_verified": false,
+          "review": {
+            "scope": "sampled_video_frames",
+            "full_clip_reviewed": false,
+            "audio_reviewed": false,
+            "frame_times_seconds": [
+              0,
+              10,
+              75.76,
+              113.6,
+              151.44,
+              224.16
+            ],
+            "duration_seconds": 227.2,
+            "frame_count": 6,
+            "observations": "Coils, a magnet/compass, model track and measuring scale are shown and handled.",
+            "operation_assessment": "Samples do not establish calibrated magnetic field strengths or all narrated numerical comparisons."
+          },
+          "audio_processing_record_id": "audio-sisf-2026-kerala-group-p189"
+        }
+      ],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p192",
+      "model_id": "sisf-2026-kerala-teacher-p192",
+      "category_as_published": "teacher",
+      "title_as_published": "EARTH MOVEMENT",
+      "source_ids": [
+        "pathways-37",
+        "media-022"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 235,
+        "printed_page": 192,
+        "decoded_payload": "https://diksha.gov.in/dial/Q6A2H4",
+        "dial_code_from_payload": "Q6A2H4",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Q6A2H4?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489759825921283",
+        "name": "Earth Movement",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p193",
+      "model_id": "sisf-2026-kerala-teacher-p193",
+      "category_as_published": "teacher",
+      "title_as_published": "The Impact of Three-Dimensional Manipulatives on Spatial Reasoning: Solving the Square Pyramid Challenge.",
+      "source_ids": [
+        "pathways-37",
+        "media-023"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 236,
+        "printed_page": 193,
+        "decoded_payload": "https://diksha.gov.in/dial/T5F9N3",
+        "dial_code_from_payload": "T5F9N3",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/T5F9N3?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489764986881475",
+        "name": "The Impact of Three-Dimensional Manipulatives on Spatial Reasoning:Solving the Square Pyramid Challenge",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p194",
+      "model_id": "sisf-2026-kerala-teacher-p194",
+      "category_as_published": "teacher",
+      "title_as_published": "SOUND WAVES AND FREQUENCY",
+      "source_ids": [
+        "pathways-37",
+        "media-024"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 237,
+        "printed_page": 194,
+        "decoded_payload": "https://diksha.gov.in/dial/E4G1T8",
+        "dial_code_from_payload": "E4G1T8",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/E4G1T8?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975286272177",
+        "name": "Sound Waves and Frequency",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p195",
+      "model_id": "sisf-2026-kerala-teacher-p195",
+      "category_as_published": "teacher",
+      "title_as_published": "THE RAINBOW UNFOLD",
+      "source_ids": [
+        "pathways-37",
+        "media-025"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 238,
+        "printed_page": 195,
+        "decoded_payload": "https://diksha.gov.in/dial/H3L8Z7",
+        "dial_code_from_payload": "H3L8Z7",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/H3L8Z7?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_314492248975294464181",
+        "name": "The Rainbow Unfold",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p197",
+      "model_id": "sisf-2026-kerala-teacher-p197",
+      "category_as_published": "teacher",
+      "title_as_published": "HYDRO-SEASONAL INFLUENCE ON MICROPLASTICS DYNAMICS: A COMPARATIVE EVALUATION OF SURFACE WATERS IN THE ALAPPUZHA - CHANGANACHERRY CANAL (AC CANAL)",
+      "source_ids": [
+        "pathways-37",
+        "media-026"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 240,
+        "printed_page": 197,
+        "decoded_payload": "https://diksha.gov.in/dial/Y6T6W1",
+        "dial_code_from_payload": "Y6T6W1",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Y6T6W1?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489764085761441",
+        "name": "Hydro-Seasonal Influence on Microplastics Dynamics",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p199",
+      "model_id": "sisf-2026-kerala-teacher-p199",
+      "category_as_published": "teacher",
+      "title_as_published": "WONDERS OF WORLD-EYE AND VISION",
+      "source_ids": [
+        "pathways-37",
+        "media-027"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 242,
+        "printed_page": 199,
+        "decoded_payload": "https://diksha.gov.in/dial/H4Y9X9",
+        "dial_code_from_payload": "H4Y9X9",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/H4Y9X9?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489754255361121",
+        "name": "Wonders of World-Eye and Vision",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p201",
+      "model_id": "sisf-2026-kerala-teacher-p201",
+      "category_as_published": "teacher",
+      "title_as_published": "LEARNING AID BASED ON THE UNIT ‘ATMOSPHERIC CONDITIONS AND CLIMATE’",
+      "source_ids": [
+        "pathways-37",
+        "media-028"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 244,
+        "printed_page": 201,
+        "decoded_payload": "https://diksha.gov.in/dial/U1K4M5",
+        "dial_code_from_payload": "U1K4M5",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/U1K4M5?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489761792001355",
+        "name": "Learning Aid Based on the Unit â€˜Atmospheric Conditions and Climateâ€™",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere.",
+      "metadata_note": "Preserved mojibake punctuation in the unit title as returned by the public API; the compendium title remains separate."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p202",
+      "model_id": "sisf-2026-kerala-teacher-p202",
+      "category_as_published": "teacher",
+      "title_as_published": "Tabacco and Neem : A Promising Approach to Manage Giant African land Snail",
+      "source_ids": [
+        "pathways-37",
+        "media-029"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 245,
+        "printed_page": 202,
+        "decoded_payload": "https://diksha.gov.in/dial/Q7M3F6",
+        "dial_code_from_payload": "Q7M3F6",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Q7M3F6?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489760071681291",
+        "name": "Tobacco and Neem: A Promising Approach to Manage Giant African Land Snail",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p203",
+      "model_id": "sisf-2026-kerala-teacher-p203",
+      "category_as_published": "teacher",
+      "title_as_published": "E. COLI AND PROTOZOA – INDICATOR A BRAIN EATING AMOEBA",
+      "source_ids": [
+        "pathways-37",
+        "media-030"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 246,
+        "printed_page": 203,
+        "decoded_payload": "https://diksha.gov.in/dial/Z2Y1V3",
+        "dial_code_from_payload": "Z2Y1V3",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/Z2Y1V3?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489756794881175",
+        "name": "E.Coli and Protozoa- Indicator a Brain Eating Amoeba",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    },
+    {
+      "id": "media-sisf-2026-kerala-teacher-p204",
+      "model_id": "sisf-2026-kerala-teacher-p204",
+      "category_as_published": "teacher",
+      "title_as_published": "TRIGONOMETRY IN PRACTICAL SITUATIONS",
+      "source_ids": [
+        "pathways-37",
+        "media-031"
+      ],
+      "compendium_qr": {
+        "source_id": "pathways-37",
+        "pdf_page_1based": 247,
+        "printed_page": 204,
+        "decoded_payload": "https://diksha.gov.in/dial/G5W3Q9",
+        "dial_code_from_payload": "G5W3Q9",
+        "decoder": "macOS Vision VNDetectBarcodesRequest (QR)",
+        "decoder_confidence": 1
+      },
+      "checked_on": "2026-11-01",
+      "dial_final_url": "https://diksha.gov.in/get/dial/G5W3Q9?source=scan",
+      "public_lookup_status": "OK",
+      "public_unit": {
+        "identifier": "do_3144922489764904961471",
+        "name": "Trigonometry in Practical Situations",
+        "mimeType": "application/vnd.ekstep.content-collection",
+        "contentType": "TextBookUnit",
+        "status": "Live"
+      },
+      "access_status": "public_unit_without_playable_children",
+      "resources": [],
+      "linked_report_or_code_urls_found": [],
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "evidence_limits": "The named public unit resolves, but its returned hierarchy exposed no playable child on this access date. This is not proof that media was never made or is unavailable elsewhere."
+    }
+  ]
+}

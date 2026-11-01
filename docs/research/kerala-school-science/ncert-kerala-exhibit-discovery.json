@@ -1,0 +1,2936 @@
+{
+  "schema_version": 1,
+  "compiled_on": "2026-11-01",
+  "scope": "Published exhibit discovery metadata for Kerala-located schools across fourteen reviewed NCERT publications: thirteen national catalogues for 2010–2019/2022–2024 and one combined 2020/2021 bilingual synopsis booklet. The 105 identified rows remain unchanged; no confident Kerala address was identified in the new booklet. These records are not an exhaustive Kerala exhibition history, attendance audit, prize list or Kerala DGE qualifying route.",
+  "transcription_policy": "Published titles/codes/school-address spellings retained, with layout whitespace joined. No synopses, pupil names, teacher names or personal contact details are copied into this discovery index. Continuation pages and address-only school fields remain explicit.",
+  "total_identified_rows": 105,
+  "counts_by_catalogue_year": {
+    "2010": 8,
+    "2011": 7,
+    "2012": 10,
+    "2013": 8,
+    "2014": 8,
+    "2015": 31,
+    "2016": 3,
+    "2017": 4,
+    "2018": 8,
+    "2019": 9,
+    "2022": 0,
+    "2023": 3,
+    "2024": 6,
+    "2020": 0,
+    "2021": 0
+  },
+  "catalogue_reviews": [
+    {
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2010_Jaipur.pdf",
+      "download_sha256": "b0a2b3df99fe4f9787124d11253e5ba0ce8bdbb02b983bbcb486a88f936b2d79",
+      "pdf_total_pages": 75,
+      "english_table_pages_reviewed_1based": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "english_table_pages_reviewed_count": 30,
+      "identified_kerala_rows": 8,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        14,
+        24,
+        50,
+        52
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2011_Patna.pdf",
+      "download_sha256": "1957b48cc81ceeb642928ad517d903b294146f6f4f972480b0bda53905fa1a17",
+      "pdf_total_pages": 84,
+      "english_table_pages_reviewed_1based": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81
+      ],
+      "english_table_pages_reviewed_count": 35,
+      "identified_kerala_rows": 7,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        53
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2012_Silvassa.pdf",
+      "download_sha256": "94088b1efc71ecf0288649d23a5fa712e59668007bd38161c93369a5b46e45f3",
+      "pdf_total_pages": 95,
+      "english_table_pages_reviewed_1based": [
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92
+      ],
+      "english_table_pages_reviewed_count": 40,
+      "identified_kerala_rows": 10,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        64,
+        72,
+        76
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2013_Gangtok.pdf",
+      "download_sha256": "9717e843ee278935246b99eb33bdcc8b804981beed8a986659fd78695d7e1719",
+      "pdf_total_pages": 97,
+      "english_table_pages_reviewed_1based": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95
+      ],
+      "english_table_pages_reviewed_count": 42,
+      "identified_kerala_rows": 8,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        17,
+        79
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2014_Chandigarh.pdf",
+      "download_sha256": "9373ee17af5fa948d57ac390ce613f86b4f0d0650d05d643482a6de23c490500",
+      "pdf_total_pages": 125,
+      "english_table_pages_reviewed_1based": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124
+      ],
+      "english_table_pages_reviewed_count": 57,
+      "identified_kerala_rows": 8,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        48
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2015_Muvattupuzha.pdf",
+      "download_sha256": "940084704532a492bab307aa6021b75af38f5a7642221d63c00e9103d4abf284",
+      "pdf_total_pages": 134,
+      "english_table_pages_reviewed_1based": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132
+      ],
+      "english_table_pages_reviewed_count": 61,
+      "identified_kerala_rows": 31,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        18,
+        42
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2016,
+      "source_id": "project-014",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2016_Bengaluru.pdf",
+      "download_sha256": "e627973a470fb9fcc72df312265b01b29f82c65c67f0b78c834d2d9daf75e44e",
+      "pdf_total_pages": 130,
+      "english_table_pages_reviewed_1based": [
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126
+      ],
+      "english_table_pages_reviewed_count": 57,
+      "identified_kerala_rows": 3,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        36,
+        38,
+        76
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2017,
+      "source_id": "project-015",
+      "source_url": "https://ncert.nic.in/desm/pdf/List_of_Exhibits/List_of_Exhibits_2017_Bhopal.pdf",
+      "download_sha256": "5f28f9d9e24ce4293d354a16ba82f945c907d95a1d089f4c21435e4645381ec5",
+      "pdf_total_pages": 96,
+      "english_table_pages_reviewed_1based": [
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93
+      ],
+      "english_table_pages_reviewed_count": 39,
+      "identified_kerala_rows": 4,
+      "review_method": "All English synopsis-table school-address columns reviewed in page order using full text plus coordinate-based columns; all Kerala candidates checked against the complete corresponding table-page text. Exhibit codes were used for reconciliation, not to infer qualifying routes. Representative/boundary pages were rendered and visually inspected.",
+      "visual_check_pages_1based": [
+        51,
+        65,
+        77
+      ],
+      "unresolved_kerala_candidates": []
+    },
+    {
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "english_school_address_blocks_audited": 170,
+      "kerala_location_entries_identified": 8,
+      "visually_checked_pdf_pages_1based": [
+        34,
+        169
+      ],
+      "boundary_note": "Counts describe this catalogue discovery pass, not Kerala state-fair selections or prizes."
+    },
+    {
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "english_school_address_blocks_audited": 146,
+      "kerala_location_entries_identified": 9,
+      "visually_checked_pdf_pages_1based": [
+        132,
+        149,
+        150,
+        151
+      ],
+      "boundary_note": "Counts describe this catalogue discovery pass, not Kerala state-fair selections or prizes."
+    },
+    {
+      "catalogue_year": 2022,
+      "source_id": "project-009",
+      "english_school_address_blocks_audited": 143,
+      "kerala_location_entries_identified": 0,
+      "visually_checked_pdf_pages_1based": [
+        90,
+        165
+      ],
+      "boundary_note": "No Kerala-located entry was confidently identified among these 143 published English credit/address blocks. This is not evidence of no Kerala participation in 2022, other NCERT records, or all national events."
+    },
+    {
+      "catalogue_year": 2023,
+      "source_id": "project-005",
+      "english_school_address_blocks_audited": 171,
+      "kerala_location_entries_identified": 3,
+      "visually_checked_pdf_pages_1based": [
+        56,
+        194
+      ],
+      "boundary_note": "Counts describe this catalogue discovery pass, not Kerala state-fair selections or prizes."
+    },
+    {
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "english_school_address_blocks_audited": 185,
+      "kerala_location_entries_identified": 6,
+      "visually_checked_pdf_pages_1based": [
+        166,
+        167,
+        194
+      ],
+      "boundary_note": "Counts describe this catalogue discovery pass, not Kerala state-fair selections or prizes."
+    },
+    {
+      "catalogue_years": [
+        2020,
+        2021
+      ],
+      "source_id": "project-045",
+      "publication_kind": "combined_bilingual_exhibit_synopsis_booklet",
+      "english_school_address_blocks_audited": 145,
+      "blocks_by_labelled_edition": {
+        "2020": 81,
+        "2021": 64
+      },
+      "distinct_edition_and_exhibit_code_pairs": 145,
+      "kerala_location_entries_identified": 0,
+      "unparsed_address_blocks": 0,
+      "unresolved_kerala_address_candidates": [],
+      "full_pages_visually_read_1based": [
+        1,
+        3,
+        7,
+        8,
+        11,
+        13,
+        16,
+        107,
+        187,
+        188
+      ],
+      "school_address_crop_pdf_pages_1based": [
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        89,
+        90,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        106,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        122,
+        124,
+        127,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        140,
+        141,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        154,
+        155,
+        157,
+        158,
+        160,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "sections_checked": {
+        "2020": {
+          "part_pdf_range": [
+            13,
+            106
+          ],
+          "subtheme_sections": 7,
+          "address_blocks": 81
+        },
+        "2021": {
+          "part_pdf_range": [
+            107,
+            187
+          ],
+          "subtheme_sections": 5,
+          "address_blocks": 64
+        }
+      },
+      "review_method": "All 188 text layers and all 145 English address blocks were checked, followed by a visual reading of all 145 source-rendered school/address crops. Parallel Hindi/English descriptions within an entry are deduplicated by labelled edition and exhibit code. This review does not claim a full reading or validation of every synopsis, or an independent translation or attendance audit.",
+      "boundary_note": "One received PDF covers two labelled editions and contributes one appended review object; it adds no Kerala records. Zero confidently Kerala-located addresses within this book does not establish nonparticipation or absence from all event material. The separate 2022 review with zero Kerala matches among 143 blocks remains separate. Dates and edition labels are not silently converted into academic or financial years."
+    }
+  ],
+  "review_methods": {
+    "2010–2017": "Titles, exhibit codes and school-address spelling are retained from the source, with layout whitespace collapsed. No synopses, student names or teacher names are reproduced. Hindi counterpart pages are not separately counted. Printed-page fields identify the first page of a row; any continuation is listed in pdf_pages_1based and location_evidence.",
+    "2018–2024": [
+      "Extracted every PDF page with pypdf and audited every English Student/Students/Student(s) credit and school/address block; cross-checked exhibit-code pages and all pages containing English School/Teacher text for unmatched credit layouts.",
+      "Reviewed 815 English school/address blocks across five catalogues, rather than relying only on literal Kerala matches. Scanned addresses for Kerala districts/cities and state spelling variants; separately checked ambiguous adjacent-territory entries.",
+      "Reviewed complete candidate page text for exact exhibit titles, codes, school/address strings and printed-page mappings. No school-system qualifying route was inferred from catalogue code or location.",
+      "Visually checked the complete representative and boundary pages listed per catalogue, including the Kerela typo, missing school name at Kochi, 2022 no-space Student: format and Lakshadweep entry, and Mahe/Puducherry exclusion."
+    ]
+  },
+  "ambiguities_and_exclusions": [
+    {
+      "catalogue_year": 2010,
+      "kind": "resolved_continuation",
+      "pdf_pages_1based": [
+        50,
+        52
+      ],
+      "detail": "The top Kerala-691526 line on PDF 52 completes Safety Boat (14.02) from PDF 50. It is not the state of Robot - 2010 (16.02), whose following school address is Narayangaon/Pune. Only one Kerala record spans these pages."
+    },
+    {
+      "catalogue_year": 2010,
+      "kind": "source_spelling_retained",
+      "pdf_pages_1based": [
+        14,
+        24
+      ],
+      "detail": "The published title Water Paper Recycling and school-address spelling Katambashi Puram are retained. No correction to Waste Paper or a modern institution name is inferred."
+    },
+    {
+      "catalogue_year": 2012,
+      "kind": "excluded_other_union_territory",
+      "pdf_pages_1based": [
+        64,
+        76
+      ],
+      "detail": "The Mahe school rows explicitly print Puducherry: Kasturba Gandhi Government High School, Naluthara (35.2) and Jawaharlal Nehru Government Higher Secondary School (35.3). They are excluded from Kerala-location counts."
+    },
+    {
+      "catalogue_year": 2015,
+      "kind": "host_location_excluded",
+      "pdf_pages_1based": [
+        2,
+        6
+      ],
+      "detail": "Kerala/Muvattupuzha in the cover and preface is the national host location, not school attribution. Only school-address table rows establish entries in this index."
+    },
+    {
+      "catalogue_year": 2015,
+      "kind": "institution_type_not_independently_verified",
+      "pdf_pages_1based": [
+        42
+      ],
+      "detail": "Parabolic Curves (16.2.15) lists Brilliant Study Centre, Mutholy, Kottayam, Kerala in the school-address column. It is retained as published; institutional recognition or eligibility is not independently established."
+    },
+    {
+      "catalogue_year": 2015,
+      "kind": "excluded_other_union_territories",
+      "pdf_pages_1based": [
+        26,
+        54,
+        92,
+        94
+      ],
+      "detail": "Mahe/Pudducherry and Kavaratti/Lakshadweep school rows remain separate from Kerala even where names or proximity might suggest a connection."
+    },
+    {
+      "catalogue_year": 2016,
+      "kind": "resolved_adjacent_row_merge",
+      "pdf_pages_1based": [
+        38
+      ],
+      "detail": "K.T.C.T. Innovative Billing Control System (16.2.2) is separated from the following Government Zal Seva Niketan, Ujjain, Madhya Pradesh row (17.2.1). Both codes and school columns were checked visually."
+    },
+    {
+      "catalogue_year": 2016,
+      "kind": "excluded_other_union_territories",
+      "pdf_pages_1based": [
+        122
+      ],
+      "detail": "The Kalpeni school explicitly prints Lakshadweep and the Mahe school explicitly prints Puducherry; neither is counted as Kerala."
+    },
+    {
+      "catalogue_year": 2017,
+      "kind": "resolved_adjacent_row_merge",
+      "pdf_pages_1based": [
+        51
+      ],
+      "detail": "SMV Higher Secondary School, Poonjar/Kottayam, Third Eye for the Blind (16.3.1) is separated from the preceding Karnataka SJES oil-recovery row (15.3.1). Both school-address columns were checked visually."
+    },
+    {
+      "catalogue_year": 2017,
+      "kind": "excluded_place_name_false_match",
+      "pdf_pages_1based": [
+        19
+      ],
+      "detail": "Government Senior Secondary School, Kottungal, Teh-Kotli, Dist-Mandi explicitly prints H.P.-175003; it is not counted as Kerala."
+    },
+    {
+      "catalogue_year": 2022,
+      "pdf_pages_1based": [
+        32,
+        58,
+        108,
+        142,
+        165
+      ],
+      "reason": "School addresses explicitly identify Minicoy, Kalpeni or Kavaratti in Lakshadweep; Kerala-like PIN prefixes do not place them in Kerala."
+    },
+    {
+      "catalogue_year": 2023,
+      "pdf_pages_1based": [
+        187
+      ],
+      "reason": "Government Senior Basic School, Amini is explicitly in Lakshadweep."
+    },
+    {
+      "catalogue_year": 2024,
+      "pdf_pages_1based": [
+        194
+      ],
+      "exhibit_code_as_published": "36.5.2",
+      "reason": "School address explicitly identifies Mahe, Puducherry; it is excluded from Kerala state location despite geographical proximity and PIN 673310."
+    }
+  ],
+  "remaining_gaps": [
+    "A source catalogue listing does not prove attendance, Kerala DGE nomination, a particular Sasthrolsavam placing, or independently verified performance.",
+    "This discovery audit covers fourteen named publications; further books, original school reports and actual Kerala delegation lists remain outside it.",
+    "The 2023 code42.2.1 source omits its institutional school name. Retain the address-only attribution until another primary record identifies the institution.",
+    "Names of student/teacher contributors and contacts are intentionally omitted from this discovery dataset; preserve attribution through the linked primary source when producing detailed case studies.",
+    "The2022catalogue audit identified no confident Kerala school entry; this is not a finding that Kerala did not participate in the national event.",
+    "The inspected English archive lacked 2020/2021/2025/2026 synopsis links. A separate archived combined 2020/2021 booklet is now recovered and reviewed; the missing index links do not establish nonpublication. The source preface announces a February 2022 online event, separately corroborated by the annual report. No 2025/2026 synopsis body is added in this packet.",
+    "Source metadata can contain mistaken spellings/PINs; no school identity or location was inferred from a Kerala-like PIN alone."
+  ],
+  "records": [
+    {
+      "id": "ncert-discovery-2010-14-05",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.05",
+      "title_as_published": "Water Paper Recycling",
+      "school_as_published": "Zamorin Higher Secondary School, Tali Calicut-673002 (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        14
+      ],
+      "printed_page": 5,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-03",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.03",
+      "title_as_published": "Plastic Fuel Plant",
+      "school_as_published": "Govt. Hr. Sec. School, Varavoor, Po. Varavoor, Thrissur-680585 (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        22
+      ],
+      "printed_page": 13,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-04",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.04",
+      "title_as_published": "Black Gold from Coffee Ground",
+      "school_as_published": "St. Mary's Hr. Sec. School, Pattom, Thiruvananathapuram (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        24
+      ],
+      "printed_page": 15,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-06",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.06",
+      "title_as_published": "Agro-friend water pump",
+      "school_as_published": "Higher Secondary School Katambashi Puram Palakkad - 678633",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        24
+      ],
+      "printed_page": 15,
+      "location_evidence": {
+        "basis": "named_place_in_school_address",
+        "detail": "The address prints Palakkad - 678633, although this row has no explicit state label. The published spelling Katambashi Puram is retained; the institution name has not been silently modernised."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-07",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.07",
+      "title_as_published": "E - Suraksha",
+      "school_as_published": "M.S.C. High School Perdala, Nirchal, P.O. Nirchal, Via - Kumbla, Kasaragod PIN- 671321 (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        24
+      ],
+      "printed_page": 15,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-01",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.01",
+      "title_as_published": "Elephant Controlling Machine",
+      "school_as_published": "Govt. Higher Sec. School P.O., Kaniyambetta, Distt. Wayanad- 673121 (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        50
+      ],
+      "printed_page": 41,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-14-02",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "14.02",
+      "title_as_published": "Safety Boat",
+      "school_as_published": "Govt. Vocational Hr. Sec. School, Vadakkadathucavu, Via - Adoor, Distt. Pathanamthitta Kerala- 691526",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        50,
+        52
+      ],
+      "printed_page": 41,
+      "location_evidence": {
+        "basis": "continued_school_address",
+        "detail": "Pathanamthitta is printed on PDF 50; Kerala- 691526 continues at the top of the school-address column on PDF 52 (printed 43). The following Robot - 2010 entry is G.R.P Subnis Junior College, Pune, and is excluded."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2010-38-04",
+      "catalogue_year": 2010,
+      "source_id": "project-016",
+      "exhibit_code_as_published": "38.04",
+      "title_as_published": "Blind Man's Stick",
+      "school_as_published": "Kendriya Vidyalaya, Port Trust, Kochi-682003, (Kerala)",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        58
+      ],
+      "printed_page": 49,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-14-1",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "14.1",
+      "title_as_published": "Coir Geo-textiles",
+      "school_as_published": "D.B. Higher Secondary School Cheriyanadu, Chengannur Alappuzha, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        15
+      ],
+      "printed_page": 5,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-38-1",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "38.1",
+      "title_as_published": "A study on Stream Side Biodiversity",
+      "school_as_published": "Kendriya Vidyalaya Payyanur, EDAT Payyanur Kannur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        21
+      ],
+      "printed_page": 11,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-38-2",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "38.2",
+      "title_as_published": "Eco-friendly Products from Banana Peduncle",
+      "school_as_published": "Kendriya Vidyalaya NTPC, Kayamkulam, Chhapad Alappuzha, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        35
+      ],
+      "printed_page": 25,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-14-2",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "14.2",
+      "title_as_published": "Hydrogen Fuel Cell",
+      "school_as_published": "St. Joseph Anglo Indian Girls Higher Secondary School Calicut, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        41
+      ],
+      "printed_page": 31,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-14-3",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "14.3",
+      "title_as_published": "Automatic Railway Security System",
+      "school_as_published": "Sree Narayana Vilasam Sanskrit Higher Secondary School, Nanthiattukunam North Paravoor, Ernakulam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        53
+      ],
+      "printed_page": 43,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-14-4",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "14.4",
+      "title_as_published": "Automatic Crane",
+      "school_as_published": "Government Girls Higher Secondary School, Vaznuthakka Thiruvananthapuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        53
+      ],
+      "printed_page": 43,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2011-14-5",
+      "catalogue_year": 2011,
+      "source_id": "project-017",
+      "exhibit_code_as_published": "14.5",
+      "title_as_published": "Tele-Medical System",
+      "school_as_published": "Arya Bharati High School Omalloor, Pathanamthitta Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        63
+      ],
+      "printed_page": 53,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-39-1",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "39.1",
+      "title_as_published": "Biocide from Coleus aromaticus",
+      "school_as_published": "Jawahar Navodaya Vidyalaya Periya, Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        22
+      ],
+      "printed_page": 11,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-1",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.1",
+      "title_as_published": "Binary Cycle Geothermal Power Plant",
+      "school_as_published": "Government Higher Secondary School, Kokkallur Kozhikode, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        26
+      ],
+      "printed_page": 15,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-2",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.2",
+      "title_as_published": "Solar Power Station use of Molten Salts",
+      "school_as_published": "St. Georges Higher Secondary School, Kayanna Kozhikode, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        28
+      ],
+      "printed_page": 17,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-37-10",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "37.10",
+      "title_as_published": "Solar Food Dehumidifier",
+      "school_as_published": "Bhavan’s Vidya Mandir Elamakkara, Cochin, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        40
+      ],
+      "printed_page": 29,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-3",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.3",
+      "title_as_published": "Electrolytic Separation of Metals from e-Waste",
+      "school_as_published": "R.P.M. Higher Secondary School, Kollengode, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        56
+      ],
+      "printed_page": 45,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-4",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.4",
+      "title_as_published": "Maglev Rail",
+      "school_as_published": "S.N.V. Higher Secondary School, Paravor, Ernakulam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        58
+      ],
+      "printed_page": 47,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-5",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.5",
+      "title_as_published": "Line Follower",
+      "school_as_published": "Providence Girls Higher Secondary School, Nadakkav Kozhikode, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        72
+      ],
+      "printed_page": 61,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-6",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.6",
+      "title_as_published": "Water Pumping System",
+      "school_as_published": "Mambaram Higher Secondary School, Pinarayi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        82
+      ],
+      "printed_page": 71,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-14-7",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "14.7",
+      "title_as_published": "Safe Skyscrapers",
+      "school_as_published": "Government Higher Secondary School, Anchal Kollam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        84
+      ],
+      "printed_page": 73,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2012-39-4",
+      "catalogue_year": 2012,
+      "source_id": "project-018",
+      "exhibit_code_as_published": "39.4",
+      "title_as_published": "Automatic Level Crossing",
+      "school_as_published": "Jawahar Navodaya Vidyalaya Ernakulam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        92
+      ],
+      "printed_page": 81,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-1-1",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14–1.1",
+      "title_as_published": "Molten Salt Solar Technology",
+      "school_as_published": "St. Ephrem's Higher Secondary School, Mannanam, Kottayam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        17
+      ],
+      "printed_page": 7,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-3-1",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14–3.1",
+      "title_as_published": "A Safe Rail Journey",
+      "school_as_published": "Mambaram Higher Secondary School, Mambaram/Pinarayi, Kannur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        55
+      ],
+      "printed_page": 45,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-3-2",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14–3.2",
+      "title_as_published": "Solar Hydrogen Reactor",
+      "school_as_published": "Govt. Vocational Higher Secondary School NH 47, High School Jn., Pada North, Karunagappally, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        57
+      ],
+      "printed_page": 47,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-4-1",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14-4.1",
+      "title_as_published": "Large Hadron Collider",
+      "school_as_published": "KTCT EM Higher Secondary School, Kaduvayil, Thiruvananthapuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        69
+      ],
+      "printed_page": 59,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-5-1",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14-5.1",
+      "title_as_published": "Multi-Purpose Improvised Incinerator",
+      "school_as_published": "PPMHSS Kottukkara, Kondotty Malappuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        79
+      ],
+      "printed_page": 69,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-5-2",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14-5.2",
+      "title_as_published": "Remote Sensing",
+      "school_as_published": "St. Anne’s H.S.School Kurianad, Kottayam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        79
+      ],
+      "printed_page": 69,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-5-3",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14-5.3",
+      "title_as_published": "Borewell Rescue System",
+      "school_as_published": "Govt. Sanskrit H.S. School Meppayil, Vatakara, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        79
+      ],
+      "printed_page": 69,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2013-14-5-4",
+      "catalogue_year": 2013,
+      "source_id": "project-019",
+      "exhibit_code_as_published": "14-5.4",
+      "title_as_published": "The Blind Man Stick",
+      "school_as_published": "SDPY Boys H.S. School Palluruthy, Ernakulam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        79
+      ],
+      "printed_page": 69,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-16-2-1",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "16.2.1",
+      "title_as_published": "Solar Hovercraft",
+      "school_as_published": "Government Higher Secondary School, Cherukunnu, Kannur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        34
+      ],
+      "printed_page": 25,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-16-2-2",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "16.2.2",
+      "title_as_published": "Multi Purpose Geothermal Plant",
+      "school_as_published": "Providence Higher Secondary School, Calicut-1, P.O. Nadakkavu, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-16-2-3",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "16.2.3",
+      "title_as_published": "Jana Mithra – Multi Utility Water Pump",
+      "school_as_published": "Bharatha Matha Higher Secondary School, Chandra Nagar, Palakkad, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-38-2-1",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "38.2.1",
+      "title_as_published": "Innovative Solar Water Heater",
+      "school_as_published": "Kendriya Vidyalaya No. 1, Naval Base, Kochi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        48
+      ],
+      "printed_page": 39,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-39-3-2",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "39.3.2",
+      "title_as_published": "Intelligent Ambulance",
+      "school_as_published": "Jawahar Navodaya Vidhyalaya, Vadavathoor, Kottayam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        68
+      ],
+      "printed_page": 59,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-45-4-2",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "45.4.2",
+      "title_as_published": "Open Sea Cage Farming",
+      "school_as_published": "Bhavan's Vidhya Mandir, Elamakkara, Kochi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        82
+      ],
+      "printed_page": 73,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-16-5-1",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "16.5.1",
+      "title_as_published": "Hand Washing Machine",
+      "school_as_published": "St. Joseph’s Higher Secondary School, Thrissur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        92
+      ],
+      "printed_page": 83,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2014-39-5-3",
+      "catalogue_year": 2014,
+      "source_id": "project-020",
+      "exhibit_code_as_published": "39.5.3",
+      "title_as_published": "Step Climbing Trolley",
+      "school_as_published": "Jawahar Navodaya Vidhyalaya, Palakkad, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        108
+      ],
+      "printed_page": 99,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-1",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.1",
+      "title_as_published": "Fluid Extraction",
+      "school_as_published": "Muslim Girls Higher Secondary School Erattupetta, Nadackal Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        16
+      ],
+      "printed_page": 7,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-2",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.2",
+      "title_as_published": "Urine Management",
+      "school_as_published": "Abdurahiman Nagar High School, Chendappuraya A.R. Nagar, Malappuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        16
+      ],
+      "printed_page": 7,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-3",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.3",
+      "title_as_published": "Automatic Accident Information System",
+      "school_as_published": "Netaji Higher Secondary School, Mallassery Pathanamthitta, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        16
+      ],
+      "printed_page": 7,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-4",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.4",
+      "title_as_published": "Head-Controlled Wheel Chair",
+      "school_as_published": "Government Higher Secondary School, South Tikaripur, Elambachi Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        18
+      ],
+      "printed_page": 9,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-5",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.5",
+      "title_as_published": "E-Hand",
+      "school_as_published": "Janatha Higher Secondary School, Pullampara Venjaramoodu, Thiruvananthapuram Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        18
+      ],
+      "printed_page": 9,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-6",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.6",
+      "title_as_published": "Versatile Snail",
+      "school_as_published": "Fathima Matha Girls Higher Secondary School Koompanpara, Adimali Idukki, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        18
+      ],
+      "printed_page": 9,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-1-7",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.1.7",
+      "title_as_published": "Bio-Control of Caterpillar",
+      "school_as_published": "Chattanchal Higher Secondary School, Thekkil Chengala, Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        20
+      ],
+      "printed_page": 11,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-1",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.1",
+      "title_as_published": "Mangalyan",
+      "school_as_published": "Holy Family High School Angamaly, Eranakulam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        34
+      ],
+      "printed_page": 25,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-2",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.2",
+      "title_as_published": "Mars Orbitor Mission",
+      "school_as_published": "St. George Higher Secondary School, Kattappana, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        34
+      ],
+      "printed_page": 25,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-3",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.3",
+      "title_as_published": "Math Compo",
+      "school_as_published": "K.T.C.T.E.M. Higher Secondary School Kaduvayil, Thottakkadu Thiruvananthapuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-4",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.4",
+      "title_as_published": "Magical Pagoda",
+      "school_as_published": "Memunda Higher Secondary School, Vatakara, Memunda Calicut, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-5",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.5",
+      "title_as_published": "Volume of Square Frustum",
+      "school_as_published": "Government Higher Secondary School, Kumbla Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-6",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.6",
+      "title_as_published": "Geoboard",
+      "school_as_published": "Fr. G.K.M. Higher Secondary School, Kaniyaram Mananthavady, Wayanad Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-7",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.7",
+      "title_as_published": "Geo Instrument",
+      "school_as_published": "Mary Immaculate High School, Poomkavu Pathirappally, Alappuzha Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        38
+      ],
+      "printed_page": 29,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-8",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.8",
+      "title_as_published": "Platonic Solids",
+      "school_as_published": "Memunda Higher Secondary School, Vatakara, Memunda Calicut, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        38
+      ],
+      "printed_page": 29,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-9",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.9",
+      "title_as_published": "Koch Snow Flake Curve",
+      "school_as_published": "M.N.K.M.G. Higher Secondary School, Pulappatta Palakkad, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        38
+      ],
+      "printed_page": 29,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-10",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.10",
+      "title_as_published": "Polynomial Sequence",
+      "school_as_published": "St. Jerome’s Higher Secondary School, Vellayamkudi, Idukki, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        40
+      ],
+      "printed_page": 31,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-11",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.11",
+      "title_as_published": "Properties of Integration",
+      "school_as_published": "Providence Girls Higher Secondary School, Nadakkavu, Kozhikode, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        40
+      ],
+      "printed_page": 31,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-12",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.12",
+      "title_as_published": "Arithmetic Sequences and Pyramids",
+      "school_as_published": "Mambaram Higher Secondary School, Mambaram, Kannur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        40
+      ],
+      "printed_page": 31,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-13",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.13",
+      "title_as_published": "Pythagorean Tree",
+      "school_as_published": "L.F.C.G. Higher Secondary School, Mammiyoor Guruvayoor, Thrissur Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        42
+      ],
+      "printed_page": 33,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-14",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.14",
+      "title_as_published": "Polyhedrons",
+      "school_as_published": "Government Higher Secondary School, Kakkal Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        42
+      ],
+      "printed_page": 33,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-15",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.15",
+      "title_as_published": "Parabolic Curves",
+      "school_as_published": "Brilliant Study Centre Mutholy, Kottayam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        42
+      ],
+      "printed_page": 33,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-16",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.16",
+      "title_as_published": "Heronian Triangles",
+      "school_as_published": "Little Flower Girls Higher Secondary School Kanhangad, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        42
+      ],
+      "printed_page": 33,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-2-17",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.2.17",
+      "title_as_published": "Geometrical shapes and vectors",
+      "school_as_published": "Providence Girls Higher Secondary School Nadakkavu, Kozhikode Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        44
+      ],
+      "printed_page": 35,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-4-1",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.4.1",
+      "title_as_published": "Solar Power Station in Space",
+      "school_as_published": "Holy Cross Higher Secondary School, Cherpunkal Kottayam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        80
+      ],
+      "printed_page": 71,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-4-2",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.4.2",
+      "title_as_published": "Boiler for Plastic Burning",
+      "school_as_published": "St. Stephen’s High School Pathanapuram Kollam Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        80
+      ],
+      "printed_page": 71,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-39-4-3",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "39.4.3",
+      "title_as_published": "Intelligent Bio Gas Stove",
+      "school_as_published": "Kendriya Vidyalaya No.1 Naval Base, Kochi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        96
+      ],
+      "printed_page": 87,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-39-5-1",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "39.5.1",
+      "title_as_published": "Safety Mechanism in Two Wheelers",
+      "school_as_published": "Kendriya Vidyalaya No. 1 Naval Base, Kochi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        112
+      ],
+      "printed_page": 103,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-46-5-3",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "46.5.3",
+      "title_as_published": "Safety Bus",
+      "school_as_published": "Prashanthi Vidya Kendra Sahakari Nagar, Bayar Kasaragod, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        114
+      ],
+      "printed_page": 105,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-6-1",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.6.1",
+      "title_as_published": "Trash to Treasure",
+      "school_as_published": "Ideal English Higher Secondary School Kadakassery, Thavanur Malappuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        120
+      ],
+      "printed_page": 111,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2015-16-6-2",
+      "catalogue_year": 2015,
+      "source_id": "project-013",
+      "exhibit_code_as_published": "16.6.2",
+      "title_as_published": "Concrete Recycling",
+      "school_as_published": "Seethi Sahib Higher Secondary School Taliparmba, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        120
+      ],
+      "printed_page": 111,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2016-16-2-1",
+      "catalogue_year": 2016,
+      "source_id": "project-014",
+      "exhibit_code_as_published": "16.2.1",
+      "title_as_published": "Fuel from Cashew Nut Shells",
+      "school_as_published": "Government Brennen Higher Secondary School, Thalassery, Kannur, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        36
+      ],
+      "printed_page": 25,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2016-16-2-2",
+      "catalogue_year": 2016,
+      "source_id": "project-014",
+      "exhibit_code_as_published": "16.2.2",
+      "title_as_published": "Innovative Billing Control System",
+      "school_as_published": "K.T.C.T. English Medium Higher Secondary School, Kaduvayil, Thottakkadu, Thiruvananthapuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        38
+      ],
+      "printed_page": 27,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2016-46-3-1",
+      "catalogue_year": 2016,
+      "source_id": "project-014",
+      "exhibit_code_as_published": "46.3.1",
+      "title_as_published": "Water Treatment by Vetiver Grass",
+      "school_as_published": "Bhavan’s Vidya Mandir, Elamakkara, Kochi, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        76
+      ],
+      "printed_page": 65,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2017-16-3-1",
+      "catalogue_year": 2017,
+      "source_id": "project-015",
+      "exhibit_code_as_published": "16.3.1",
+      "title_as_published": "Third Eye for the Blind",
+      "school_as_published": "SMV Higher Secondary School, Poonjar (PO), Kottayam, Kerala - 686581",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        51
+      ],
+      "printed_page": 37,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2017-16-4-1",
+      "catalogue_year": 2017,
+      "source_id": "project-015",
+      "exhibit_code_as_published": "16.4.1",
+      "title_as_published": "EcoCook Power+",
+      "school_as_published": "Government Boys Higher Secondary School, Haripad, Alappuzha Dist. Kerala - 690514",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        65
+      ],
+      "printed_page": 51,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2017-16-4-2",
+      "catalogue_year": 2017,
+      "source_id": "project-015",
+      "exhibit_code_as_published": "16.4.2",
+      "title_as_published": "Eco-friendly Waste Management System",
+      "school_as_published": "Catholicate Higher Secondary School, Pathanamthitta, Kerala - 689645",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        65
+      ],
+      "printed_page": 51,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2017-40-4-1",
+      "catalogue_year": 2017,
+      "source_id": "project-015",
+      "exhibit_code_as_published": "40.4.1",
+      "title_as_published": "Automatic Forest Surveillance System",
+      "school_as_published": "Jawahar Navodaya Vidyalaya, Kottayam, Kerala - 686001",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        77
+      ],
+      "printed_page": 63,
+      "location_evidence": {
+        "basis": "explicit_state_in_school_address",
+        "detail": "The school-address column explicitly includes Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-2-1",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.2.1",
+      "title_as_published": "Janatha Windmill",
+      "school_as_published": "Higher Secondary School, Sreekrishnapuram Palakkad, Kerala – 679513",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        34
+      ],
+      "printed_page": 22,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-3-1",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.3.1",
+      "title_as_published": "Caustic Soda Waste Management Plant",
+      "school_as_published": "Government Higher Sec. School, Kaniyambetta, Wayanda, Kerala – 673121",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        67
+      ],
+      "printed_page": 55,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null,
+      "notes": [
+        "Published place spelling “Wayanda” retained without silent correction."
+      ]
+    },
+    {
+      "id": "ncert-discovery-2018-16-3-2",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.3.2",
+      "title_as_published": "Cleaning Boat",
+      "school_as_published": "Nair Samajam High School, Valoor, Cheruvaloor, Kerala – 680308",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        68
+      ],
+      "printed_page": 56,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-39-4-1",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "39.4.1",
+      "title_as_published": "SEBI with Auto WS",
+      "school_as_published": "KV Ottapalam, Palakkad, Kerala – 679103",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        120
+      ],
+      "printed_page": 108,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-5-1",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.5.1",
+      "title_as_published": "PI Planter",
+      "school_as_published": "Rajagiri High School, Kalamassery, Kerala – 683104",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        135
+      ],
+      "printed_page": 123,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-5-2",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.5.2",
+      "title_as_published": "Line Follower Robot using Arduino",
+      "school_as_published": "Netaji High School, Pramadom, Kerala – 689647",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        136
+      ],
+      "printed_page": 124,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-6-1",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.6.1",
+      "title_as_published": "Math Magic",
+      "school_as_published": "MTDM High School, Thondernad, Vellamunda, Wayanad, Kerala – 670731",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        168
+      ],
+      "printed_page": 156,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2018-16-6-2",
+      "catalogue_year": 2018,
+      "source_id": "project-003",
+      "exhibit_code_as_published": "16.6.2",
+      "title_as_published": "Mathematical Working Model",
+      "school_as_published": "Darsana HSS, Nedumangad, Kerela – 695541",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        169
+      ],
+      "printed_page": 157,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The published school/address block says “Nedumangad, Kerela – 695541”; the state spelling is normalised to Kerala only in school_location_state."
+      },
+      "qualifying_route": null,
+      "prize_status": null,
+      "notes": [
+        "Published spelling “Kerela” preserved in school_as_published; the same address is rendered in Hindi with Kerala. Page visually checked."
+      ]
+    },
+    {
+      "id": "ncert-discovery-2019-39-1-1",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "39.1.1",
+      "title_as_published": "Suction-bait Trap",
+      "school_as_published": "Kendriya Vidyalaya No.-1, Naval Base, Kochi, Kerala-682004",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        32
+      ],
+      "printed_page": 21,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-2-1",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.2.1",
+      "title_as_published": "Smart Electrical Microscope",
+      "school_as_published": "Crescent Higher Secondary School, Adakkakundu, Kalikavu, Kerala-676525",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        44
+      ],
+      "printed_page": 33,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-3-1",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.3.1",
+      "title_as_published": "Portable Smart Air Conditioner",
+      "school_as_published": "G.H.S.S. Mavoor Kanniparamba, Mavoor, Kozhikode, Kerala-673661",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        80
+      ],
+      "printed_page": 69,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-43-3-2",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "43.3.2",
+      "title_as_published": "Computerised Numerical Control Machine",
+      "school_as_published": "Navy Children School, Naval Base, Cochin, Kerala-682004",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        99
+      ],
+      "printed_page": 88,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-5-1",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.5.1",
+      "title_as_published": "Accident Proof Eco-friendly bike",
+      "school_as_published": "Perambra Higher Secondary School, Kozhikode, Kerala-673525",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        132
+      ],
+      "printed_page": 121,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-6-1",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.6.1",
+      "title_as_published": "Prismatic Pillar",
+      "school_as_published": "Memunda Higher Secondary School, Memunda, Vadakara, Calicut, Kerala-673104",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        148
+      ],
+      "printed_page": 137,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-6-2",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.6.2",
+      "title_as_published": "New Numbers",
+      "school_as_published": "Chakkalakkal Higher Secondary School, Madavoor Padanilam, Kunnamangalam, Kozhikode, Kerala-673571",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        149
+      ],
+      "printed_page": 138,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2019-16-6-3",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.6.3",
+      "title_as_published": "Archimedes Gallery",
+      "school_as_published": "Koodali Higher Secondary School, Koodali, Kannur, Kerala-610592",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        150
+      ],
+      "printed_page": 139,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null,
+      "notes": [
+        "Published PIN 610592 retained as printed; no correction to the source address is asserted."
+      ]
+    },
+    {
+      "id": "ncert-discovery-2019-16-6-4",
+      "catalogue_year": 2019,
+      "source_id": "project-004",
+      "exhibit_code_as_published": "16.6.4",
+      "title_as_published": "Theorems in Geometry",
+      "school_as_published": "CMS High School, Punnavely, Pathanamthitta, Kerala-689589",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        151
+      ],
+      "printed_page": 140,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2023-43-1-1",
+      "catalogue_year": 2023,
+      "source_id": "project-005",
+      "exhibit_code_as_published": "43.1.1",
+      "title_as_published": "Tiny ML in Robotics",
+      "school_as_published": "Jawahar Navodaya Vidyalaya, Malappuram O.K. Muri (P.O.), Venkulam, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        31
+      ],
+      "printed_page": 19,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2023-42-2-1",
+      "catalogue_year": 2023,
+      "source_id": "project-005",
+      "exhibit_code_as_published": "42.2.1",
+      "title_as_published": "Bio-pesticide Isolated from Cassava Leaves for the Management of Mosquito Larvae",
+      "school_as_published": "Naval Base, Kochi NH47, Katari Bagh, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        56
+      ],
+      "printed_page": 44,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null,
+      "notes": [
+        "The published School field supplies only the Naval Base/Kochi address, without an institutional school name. No school name or KVS/state qualifying route is inferred from exhibit code 42.2.1."
+      ],
+      "supplemental_identity_evidence": {
+        "finding_id": "identity-2023-cassava-school",
+        "source_id": "pathways-34",
+        "pdf_pages_1based": [
+          206,
+          207
+        ],
+        "school_identity_in_separate_source": "PM Shri Kendriya Vidyalaya No.1, Naval Base Kochi",
+        "note": "Original catalogue school/address field is retained; this is a separate organiser-hosted participant-form attribution."
+      }
+    },
+    {
+      "id": "ncert-discovery-2023-43-7-1",
+      "catalogue_year": 2023,
+      "source_id": "project-005",
+      "exhibit_code_as_published": "43.7.1",
+      "title_as_published": "Definite Integral— The Revolving Door",
+      "school_as_published": "Jawahar Navodaya Vidyalaya, Chettachal, Thiruvananthapuram, Kerala",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        194
+      ],
+      "printed_page": 182,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2024-12-3-1",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "12.3.1",
+      "title_as_published": "E-Plant, Automatic Smart Agri System",
+      "school_as_published": "Rajeev Gandhi Memorial Higher Secondary School, Mokeri, Panoor Kannur, Kerala – 670692",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        90
+      ],
+      "printed_page": 77,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2024-12-4-1",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "12.4.1",
+      "title_as_published": "NOLVAS—Five-in-One Truck",
+      "school_as_published": "G.H.S.S. Cherkala Central, Cherkala, Chengala, Kasargod, Kerala – 671541",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        131
+      ],
+      "printed_page": 118,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2024-42-4-1",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "42.4.1",
+      "title_as_published": "Auto Rescue Smart Notification System",
+      "school_as_published": "PM Shri Jawahar Navodaya Vidyalaya, Mayannur, Thrissur, Kerala – 679105",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        152
+      ],
+      "printed_page": 139,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2024-12-5-1",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "12.5.1",
+      "title_as_published": "Prismatic Pillar",
+      "school_as_published": "Memunda Higher Secondary School, Memunda, Vatakara Kozhikode, Kerala – 673104",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        165
+      ],
+      "printed_page": 152,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    },
+    {
+      "id": "ncert-discovery-2024-12-5-2",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "12.5.2",
+      "title_as_published": "Volume of Frustum",
+      "school_as_published": "Mambaran Higher Secondary School, Mambaran, Kannur, Kerala – 670741",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        166
+      ],
+      "printed_page": 153,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null,
+      "notes": [
+        "Published school and locality spelling “Mambaran” retained without silent correction."
+      ]
+    },
+    {
+      "id": "ncert-discovery-2024-12-5-3",
+      "catalogue_year": 2024,
+      "source_id": "project-006",
+      "exhibit_code_as_published": "12.5.3",
+      "title_as_published": "Volume Around Us",
+      "school_as_published": "T.R.K. Higher Secondary School, Vaniyamkulam, Vaniyamkulam, Palakkad, Kerala – 679522",
+      "school_location_state": "Kerala",
+      "pdf_pages_1based": [
+        167
+      ],
+      "printed_page": 154,
+      "location_evidence": {
+        "basis": "published_school_address",
+        "detail": "The English school/address block on the cited page explicitly names Kerala."
+      },
+      "qualifying_route": null,
+      "prize_status": null
+    }
+  ]
+}

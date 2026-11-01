@@ -1,0 +1,607 @@
+[
+  {
+    "id": "core-root-2026",
+    "title": "2026 school registration portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. School login instructions; year-specific public portal. No school account used."
+  },
+  {
+    "id": "core-state-2026",
+    "title": "2026 state result landing page",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. Overall panels have no published champions on access date; headings alone do not establish completed contests."
+  },
+  {
+    "id": "core-districts-2026",
+    "title": "2026 district result index",
+    "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. All 14 district names and observed destination URLs captured in districts.json."
+  },
+  {
+    "id": "core-items-2026",
+    "title": "2026 generic master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Direct HTTP 200; all 221 rows parsed. Generic catalogue includes teacher and lower-section entries; not a state eligibility list."
+  },
+  {
+    "id": "core-items-2025",
+    "title": "2025 generic master item catalogue",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/publics/item_list",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Direct HTTP 200; all 221 rows parsed. Generic catalogue includes teacher and lower-section entries; not a state eligibility list."
+  },
+  {
+    "id": "core-special-2025",
+    "title": "2025–26 Special School Work Experience Fair",
+    "url": "https://mela.kite.kerala.gov.in/2025/spss2025/index.php/login",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. Separate special-school work-experience programme and result tables; terminology is source-specific."
+  },
+  {
+    "id": "core-special-results-2026",
+    "title": "2026–27 special-school result interface",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publishresult/resultindex/resultview",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened and directly fetched. Six section views and zero declared items observed. Not proof of completed 2026–27 competition."
+  },
+  {
+    "id": "core-special-downloads-2026",
+    "title": "2026–27 special-school downloads",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html",
+    "notes": "Opened. Links manual, item-code PDF and identification certificate; a current dated amendment was not established."
+  },
+  {
+    "id": "core-special-items-2026",
+    "title": "Special-school work-experience item codes",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/item_codes.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Direct HTTP 200; all 3 pages rendered and visually inspected.80 numbered factual catalogue records extracted; PDF itself has no edition date.",
+    "sha256": "6c726199e747d1d4abd83e9e7ea1bc97a242286f12d6282f329c8a4295463e55",
+    "pdf_pages": 3
+  },
+  {
+    "id": "core-special-manual-2026",
+    "title": "Scanned special-school work-experience manual linked by2026portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_pdf",
+    "notes": "Direct HTTP 200;18 scanned pages. First page visually inspected and concerns work experience despite Kalolsavam filename. Undated version; numeric rules not adopted for general fair.",
+    "sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+    "pdf_pages": 18,
+    "follow_up_retrieval": {
+      "checked_on": "2026-11-01",
+      "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+      "effective_download_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+      "retrieved_at_utc": "2026-11-01T01:35:30.583019+00:00",
+      "http_status": 200,
+      "tls_verified": true,
+      "download_bytes": 7288345,
+      "download_sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+      "headers_sha256": "36a634cd2ecc2c628487ca141b2ed5404c06220abf876c2065e7ce6b40129908",
+      "pdf_pages": 18,
+      "prior_cached_body_sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+      "byte_identical_to_prior_cached_body": true,
+      "comparison_scope": "Actual new GET body compared byte for byte with the prior cached PDF; both also match the already registered SHA256. Fresh headers are not presented as old acquisition headers."
+    },
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "printed_pages_as_received": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "cited_order_references": [
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 3,
+        "side": "right",
+        "date_as_printed": "22-11-2006",
+        "date_normalized": "2006-11-22",
+        "number_as_printed": "60613/എൻ3/06/പൊ.വി.",
+        "source_description_as_printed": "government order",
+        "scope": "The scan attributes grade/grace provision for Class10 state-level construction contestants to this reference. This is a date/number cited by the undated scan, not a recovered/authenticated standalone order or the manual issue/approval date."
+      }
+    ],
+    "review_scope": "All18physical pages rendered upright and visually read. Received printed1–35, chapter/annex boundaries and dated reference checked. This is not a current eligibility/clinical-classification validation or independent authentication of the cited government order.",
+    "received_body_limits": [
+      "The received file begins with Chapter1 on printed1 and ends in hearing-impaired item directions on printed35; no cover, imprint, signed approval, issue-date or amendment page appears within these18scannedpages.",
+      "Text refers to Annex3(a/b),4(a/b) and5(a/b) for entry/identification/evaluation forms, but those forms are not present in this received body. This establishes a received-file limit, not whether the original complete publication omitted them or served them separately.",
+      "The cited2006reference does not establish the manual issue year, approval, current applicability or a present grace-mark entitlement.",
+      "Undated special-school Work Experience provisions remain separate from arts/Kalotsavam, the common2026blankidentityform and general Science Working Model. No automatic current-rule transfer."
+    ],
+    "document_date": null
+  },
+  {
+    "id": "core-programme-2026-missing",
+    "title": "State2026programme destination linked from official portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/Program_Notice_2026.pdf",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_link_unavailable",
+    "notes": "Official link returned HTTP 404 on access date. No programme contents inferred.",
+    "retrieval_status": 404
+  },
+  {
+    "id": "core-vocational-2026-missing",
+    "title": "Vocational Expo2026destination linked from official portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/vhseExpo/state26/index.php",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_link_unavailable",
+    "notes": "Official link returned HTTP 404 on access date. No current entry or venue conditions inferred.",
+    "retrieval_status": 404
+  },
+  {
+    "id": "core-karen-backend",
+    "title": "Karen backend at the research base commit",
+    "url": "https://github.com/sanoopbhaskerv/karen-ai/blob/1b962df024ac44f40518d7409ae8adcf18211da2/app.py",
+    "accessed_on": "2026-10-31",
+    "source_type": "repository_code_or_documentation",
+    "source_commit": "1b962df024ac44f40518d7409ae8adcf18211da2",
+    "notes": "Read-only inspection of provider calls, context assembly and demo-mode behaviour. This records the repository version, not a physical hardware test."
+  },
+  {
+    "id": "core-karen-readme",
+    "title": "Karen project setup and architecture at the research base commit",
+    "url": "https://github.com/sanoopbhaskerv/karen-ai/blob/1b962df024ac44f40518d7409ae8adcf18211da2/README.md",
+    "accessed_on": "2026-10-31",
+    "source_type": "repository_code_or_documentation",
+    "source_commit": "1b962df024ac44f40518d7409ae8adcf18211da2",
+    "notes": "Read-only inspection of project identity, hardware variants, setup and documented operational limitations."
+  },
+  {
+    "id": "core-state-map-2026-observation",
+    "title": "KITE state Location Map table served under the 2026 portal, seven undated venue/use rows",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+    "discovery_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_html_snapshot",
+    "issuer": "KITE / Kerala School Sasthrolsavam state portal",
+    "review_scope": "Received HTML text, links and table structure read directly; all seven venue/use rows inspected. No browser-render review and no independent inspection of the linked Google Maps destinations.",
+    "notes": "The Location Map table served under the 2026 state portal lists seven venue/use rows: MES HSS Olavakkode, Palakkad / Mathematics Fair; Kanikkamatha HSS, Palakkad / IT Fair; Big Bazar HSS, Palakkad / Social Science Fair; BM HSS, Palakkad / Science Fair; BEM HSS, Palakkad / Work Experience Fair; Small Kotta Maithanam Palakkad / VHSE Expo (Exhibition); St.Sebastian's S B School / VHSE Expo (On The Spot). The table has no issue date or independent event-year statement. Preserve these literal rows without assigning a proved different edition, treating a 2026 URL/HTML title as the table publication date, or calling this a recovered final Mannarkkad allocation. Programme PDF still returned 404 during the same bounded check. The current DGE notice search supplied no new final allocation, organising appointment, Working Model clarification or national delegation order.",
+    "venue_rows_as_received": [
+      {
+        "serial_as_printed": "1",
+        "venue_as_printed": "MES HSS Olavakkode, Palakkad",
+        "use_as_printed": "Mathematics Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/sSWLzae92pXLyGi18"
+      },
+      {
+        "serial_as_printed": "2",
+        "venue_as_printed": "Kanikkamatha HSS, Palakkad",
+        "use_as_printed": "IT Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/nm9peRQALLHgckiL6"
+      },
+      {
+        "serial_as_printed": "3",
+        "venue_as_printed": "Big Bazar HSS, Palakkad",
+        "use_as_printed": "Social Science Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/rV6CiucThmJRhNu29"
+      },
+      {
+        "serial_as_printed": "4",
+        "venue_as_printed": "BM HSS, Palakkad",
+        "use_as_printed": "Science Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/UdYXL6KLJmTMPCjU6"
+      },
+      {
+        "serial_as_printed": "5",
+        "venue_as_printed": "BEM HSS, Palakkad",
+        "use_as_printed": "Work Experience Fair",
+        "location_link_as_received": "https://maps.app.goo.gl/dCa4NmkyMSGEvqF88"
+      },
+      {
+        "serial_as_printed": "6",
+        "venue_as_printed": "Small Kotta Maithanam Palakkad",
+        "use_as_printed": "VHSE Expo (Exhibition)",
+        "location_link_as_received": "https://maps.app.goo.gl/rQAobRdG9rgcbML58"
+      },
+      {
+        "serial_as_printed": "7",
+        "venue_as_printed": "St.Sebastian's S B School",
+        "use_as_printed": "VHSE Expo (On The Spot)",
+        "location_link_as_received": "https://maps.app.goo.gl/DKtKKtgmJDG19F7V8"
+      }
+    ],
+    "evidence_limits": [
+      "Undated displayed table, not a signed venue-allocation order, final Mannarkkad programme or current local entry instruction.",
+      "Linked Google Maps short URLs are retained as source links; their destination contents were not independently reviewed.",
+      "No historical edition is inferred from the place names alone."
+    ],
+    "download_sha256": "c4fd712b20c964d3610ec050249ddae5eabdf2a0ba17d172cf2644621377a8d4",
+    "download_bytes": 17569,
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/maps",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:05:01.293931+00:00",
+      "bytes": 17569,
+      "sha256": "c4fd712b20c964d3610ec050249ddae5eabdf2a0ba17d172cf2644621377a8d4",
+      "headers_sha256": "022506216359127f2ae11fe82fd9a049681c5f1d879ae2d361f7428742ada311",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "page_title_as_received": "School Sasthrolsavam 2026",
+    "body_heading_as_received": "Location Map"
+  },
+  {
+    "id": "core-state-science-form-undated",
+    "title": "Undated two-page blank Science Fair subdistrict entry form linked by the 2026 state portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "discovery_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_undated_blank_entry_form",
+    "issuer": "Kerala School Sasthrolsavam manual form, served by the KITE state portal",
+    "pdf_pages": 2,
+    "printed_pages": [
+      128,
+      129
+    ],
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "review_scope": "Both scanned pages rendered and visually read; extracted text is empty. Blank item/pupil-line layout inspected, without collecting any filled registration, pupil identity or contact data.",
+    "notes": "The state downloads page links this scanned form from its 2026 state directory. Its heading says SUB DISTRICT SCHOOLS and no issue year is printed. PDF 1 / printed 128 shows HSS/VHSS Working Model code 126, HS Working Model 115 and UP Working Model 106 with two numbered blank pupil slots each. HS Quiz 119 and HSS/VHSS Quiz 130 each show one numbered pupil line. PDF 2 / printed 129 continues LP rows and blank signature fields. These are form-layout observations, not a current participant maximum, accepted registration, completed attendance record or 2026 clearance. Read current capacity/eligibility from the applicable manual, item catalogue and dated circulars; hosting year does not revise this undated form. The linked ID Card_KSS 2026-27.pdf returned HTTP 404 on 1 November 2026.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 128,
+        "scope": "Undated subdistrict heading, HSS/VHSS/HS/UP item layout and numbered Working Model/Quiz lines."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 129,
+        "scope": "LP continuation and blank teacher/head-of-institution signature fields."
+      }
+    ],
+    "evidence_limits": [
+      "A blank line count is not sufficient current-rule authority or a signed 2026 clarification.",
+      "The form supplies no current schedule, final venue allocation, named organising appointment or SISF/NCERT delegation.",
+      "No issue year or source-manual edition is assigned without dated evidence."
+    ],
+    "download_sha256": "db72f576b8a72a225b67a87a4feefb37b3b76955da2c1bfdbc25f466f532271e",
+    "download_bytes": 171215,
+    "download_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "effective_download_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+    "retrieved_at_utc": "2026-11-01T00:06:01.611458+00:00",
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/science_fair.pdf",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:06:01.611458+00:00",
+      "bytes": 171215,
+      "sha256": "db72f576b8a72a225b67a87a4feefb37b3b76955da2c1bfdbc25f466f532271e",
+      "headers_sha256": "6a723b201bb613b32701ca9d33750b614fc58de9b8c2503b43075cdef5005c4a",
+      "content_type": "application/pdf"
+    },
+    "discovery_acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/index.php/publics/instructions",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T00:05:00.942070+00:00",
+      "bytes": 15416,
+      "sha256": "8630ff73cddd9cd2548d46caa656ee1a8613fed1fae22cae56846d458c9c9913",
+      "headers_sha256": "bb98af4eded8493318b1edb77ef4415d10bea412e421340412ad4740098bbc24",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    "linked_download_observation": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/ID%20Card_KSS%202026-27.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/state/entry_forms/ID%20Card_KSS%202026-27.pdf",
+      "status": 404,
+      "retrieved_at_utc": "2026-11-01T00:06:00.806892+00:00",
+      "bytes": 162,
+      "sha256": "f33c27745f2bd87344be790465ef984a972fd539dc83bd4f61d4242c607ef1ee",
+      "headers_sha256": "b3a37f0d01367971b7f4c76f537c37b68859d25877a91d98cb31bd20e1ee4f1e",
+      "content_type": "text/html"
+    }
+  },
+  {
+    "id": "core-special-common-id-form-2026",
+    "title": "Blank common 2026–27 Sasthrolsavam identity form advertised by the special-school portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+    "discovery_urls": [
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login"
+    ],
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_blank_event_identity_form",
+    "issuer": "Kerala School Sasthrolsavam, served by the KITE special-school portal",
+    "pdf_pages": 1,
+    "printed_pages": null,
+    "visually_read_pdf_pages_1based": [
+      1
+    ],
+    "event_dates_as_printed": {
+      "academic_cycle": "2026–27",
+      "place": "Mannarkkad, Palakkad",
+      "start": "2026-11-18",
+      "end": "2026-11-21"
+    },
+    "review_scope": "Whole single page rendered and visually read. Blank template only; no filled registration, pupil identity, photograph, admission number or contact record was collected.",
+    "notes": "The special-school instructions and public login page both advertise Identity_Card_2027.pdf. The PDF itself prints Kerala School Sasthrolsavam 2026–27, Mannarkkad, Palakkad and 18–21 November 2026. A common list of fair checkboxes explicitly includes 28th Kerala Special School Work Experience. The filename ending 2027 is not assigned as an issue date. The identity form has blank participant/institution and attestation/countersignature fields; it is not an issued pupil identity card or a signed eligibility/progression order. This is a working different advertised endpoint, not evidence that the separately observed 404 general-state identity filename redirects here. The seven printed edition labels are retained as form text, not proof of continuous annual conduct or founding years.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Printed cycle/place/dates, separate special-school Work Experience checkbox, blank identity/attestation layout."
+      }
+    ],
+    "evidence_limits": [
+      "A dated event heading on a blank common form is not a dated special-school manual approval or amendment.",
+      "The form does not establish final named school venues, item-wise timings, current capacity, participant eligibility, progression, accepted registration or completed attendance.",
+      "The printed 28th label is preserved without deriving an inaugural year.",
+      "Special-school Work Experience remains separate from general Science or IT Working Model."
+    ],
+    "download_sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+    "download_bytes": 108982,
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T00:45:42.973232+00:00",
+      "bytes": 108982,
+      "sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+      "headers_sha256": "d39c82123a89ebf948f606c1d2bcf578fc4af1f4f767f961a1b45ced6cd876b1",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "discovery_acquisitions": [
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527040+00:00",
+        "bytes": 7050,
+        "sha256": "475288918c9efb53d2c177ac579acef2a23a580c5f81d8500a45bf34bc7e9bd0",
+        "headers_sha256": "59a0a29ebaf851203c0c9d574caba1ba27abfcf3b238a64c2adf966e27caeba8",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      },
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527130+00:00",
+        "bytes": 19338,
+        "sha256": "65c5ae6b9ffb6e2f035470e645d556fc213f62e503b38a80a4cf55c11b24ae38",
+        "headers_sha256": "94dd212451c60ee7e954987f82e9385d9f9ed4247e95ec4f9235d6a650aaa7db",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      }
+    ],
+    "fair_edition_labels_as_printed": [
+      {
+        "ordinal": 58,
+        "fair": "Kerala School Science Fair"
+      },
+      {
+        "ordinal": 44,
+        "fair": "Kerala School Work Experience Fair"
+      },
+      {
+        "ordinal": 39,
+        "fair": "Kerala School Mathematics Fair"
+      },
+      {
+        "ordinal": 28,
+        "fair": "Kerala Special School Work Experience"
+      },
+      {
+        "ordinal": 23,
+        "fair": "Kerala School IT Fair"
+      },
+      {
+        "ordinal": 20,
+        "fair": "Vocational Expo and Career Fest"
+      },
+      {
+        "ordinal": 19,
+        "fair": "Kerala School Social Science Fair"
+      }
+    ]
+  },
+  {
+    "id": "core-state-committee-2026",
+    "title": "PRD report of the planned Mannarkkad state Sasthrolsavam, example venues and organising arrangements",
+    "url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+    "accessed_on": "2026-11-01",
+    "document_date": "2026-09-24",
+    "source_type": "official_press_report_html",
+    "issuer": "Information and Public Relations Department, Government of Kerala; Palakkad category",
+    "review_scope": "Both complete article HTML bodies and date fields read directly. The first has seven nonempty paragraphs including a subheading; the second has six. Their six substantive paragraphs are identical after whitespace normalisation. No browser-render or signature-authentication review.",
+    "notes": "PRD reports a planned 18–21 November Mannarkkad festival, four example host schools and 18 subcommittees. Named general coordination roles are reported, not authenticated through an appointment order. A 30 September page republishes the same six substantive paragraphs; it is not independent corroboration. Both pages separately display 19 September in a date field.",
+    "publication_date_evidence": {
+      "visible_post_datetime": "Thu, 09/24/2026 - 14:30",
+      "schema_dateCreated": "2026-09-24T09:00:53+00:00",
+      "separate_date_field_as_displayed": "19-09-2026",
+      "separate_date_field_datetime": "2026-09-19T12:00:00Z",
+      "meeting_date_not_separately_established": true
+    },
+    "planned_event": {
+      "dates_as_printed": "നവംബര്‍ 18 മുതല്‍ 21 വരെ",
+      "year_context": 2026,
+      "place_as_printed": "മണ്ണാര്‍ക്കാട്ട്",
+      "status": "planned_future_event_at_access_date",
+      "venue_list_is_exemplary_not_exhaustive": true,
+      "venues_as_printed": [
+        "മണ്ണാര്‍ക്കാട് ഓര്‍ഫനേജ് ഹയര്‍ സെക്കന്‍ഡറി സ്‌കൂള്‍",
+        "എം.ഇ.എസ് സ്‌കൂള്‍",
+        "കല്ലടി സ്‌കൂള്‍",
+        "കെ.ടി.എം സ്‌കൂള്‍"
+      ],
+      "fair_components_as_printed": [
+        "ശാസ്ത്രമേള",
+        "ഗണിതശാസ്ത്രമേള",
+        "സാമൂഹ്യശാസ്ത്രമേള",
+        "പ്രവൃത്തി പരിചയമേള",
+        "ഐ.ടി മേള",
+        "സ്‌പെഷ്യല്‍ സ്‌കൂള്‍ പ്രവൃത്തി പരിചയമേള",
+        "വൊക്കേഷണല്‍ എക്‌സ്‌പോ",
+        "കരിയര്‍ ഫെസ്റ്റ്"
+      ]
+    },
+    "reported_organising_arrangements": {
+      "subcommittee_count": 18,
+      "scope": "Festival organisation, not 18 venues, fairs or Working Model groups",
+      "general_coordinator_as_printed": {
+        "name": "അരുണ്‍ കെ. വിജയന്‍",
+        "source_role": "പൊതുവിദ്യാഭ്യാസ ഡയറക്ടര്‍"
+      },
+      "general_convener_as_printed": {
+        "source_role": "പൊതുവിദ്യാഭ്യാസ അഡീ. ഡയറക്ടര്‍ (അക്കാദമിക്)",
+        "name_grammatical_normalisation": "സി. എ സന്തോഷ്",
+        "name_as_printed_with_inflection": "സി. എ സന്തോഷാണ്"
+      },
+      "meeting_place_as_printed": "നെല്ലിപ്പുഴ ദാരുനജാത് ഹയര്‍ സെക്കന്‍ഡറി സ്‌കൂളില്‍",
+      "meeting_place_not_added_as_exhibit_venue": true
+    },
+    "source_specific_edition_label": {
+      "wording_as_printed": "മുപ്പതാമത് സംസ്ഥാന സ്‌കൂള്‍ ശാസ്ത്രമേള",
+      "scope": "Literal report wording for the organising-committee meeting. Its relation to the umbrella festival or a specific fair series is not reconciled; no corrected ordinal or inaugural year is assigned."
+    },
+    "evidence_locators": [
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          3
+        ],
+        "scope": "Planned 18–21 November Mannarkkad dates."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          4
+        ],
+        "scope": "Four example venue names and eight festival component labels; no assignment of a particular fair to a school."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          5,
+          6,
+          7
+        ],
+        "scope": "18 subcommittees, named general coordination roles and reported meeting site."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          2
+        ],
+        "scope": "Source-specific thirtieth label."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .post-created; .field--name-field-date",
+        "scope": "Post date 24 September and separate displayed date 19 September."
+      }
+    ],
+    "evidence_limits": [
+      "PRD reporting of committee formation and proposed host schools is not the signed appointment proceeding or final item-wise programme.",
+      "The four school names are introduced as examples; no exhaustive five-venue list, specific Science Working Model room or allocation follows.",
+      "The report names a meeting site without adding it as an exhibition-venue designation. Campus or alias correspondence with the listed schools is unresolved; neither physical identity nor nonidentity is established.",
+      "No participant count, registration approval, school/subdistrict reporting time, video change, uniform/anonymity rule, cloud-AI permission, power or network access is established.",
+      "Retain the article’s literal thirtieth State School Science Fair wording without forcing it onto an umbrella or component series. The separately collected common form labels Science 58th; different series labels are not automatically a contradiction.",
+      "The article has different municipal-chair name strings in its patron and meeting paragraphs; no identity reconciliation or complete authenticated office-bearer list is claimed.",
+      "The 19 September date field, 24 September publication and 30 September republication remain distinct; an exact meeting date is not assigned.",
+      "Future planned festival, not completed attendance or conduct."
+    ],
+    "download_sha256": "99745e7f81a4bf2a8a302a6ddea0fefb5a0dec1e77e096f35cc66bb872ff51da",
+    "download_bytes": 41854,
+    "acquisition": {
+      "request_url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+      "effective_url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T05:57:17.158413+00:00",
+      "bytes": 41854,
+      "sha256": "99745e7f81a4bf2a8a302a6ddea0fefb5a0dec1e77e096f35cc66bb872ff51da",
+      "headers_sha256": "c674f611f49cb5ff447f9a12de7aaaec24b584724a7ea559db3e9e8d0a90930e",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "GET through Python urllib with default verified TLS; no authentication or access bypass"
+    },
+    "duplicate_publication": {
+      "url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+      "visible_post_datetime": "Wed, 09/30/2026 - 21:19",
+      "schema_dateCreated": "2026-09-30T15:49:28+00:00",
+      "separate_date_field_as_displayed": "19-09-2026",
+      "separate_date_field_datetime": "2026-09-19T12:00:00Z",
+      "main_six_substantive_paragraphs_equal_after_whitespace_normalisation": true,
+      "independent_corroboration": false,
+      "acquisition": {
+        "request_url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+        "effective_url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+        "status": 200,
+        "retrieved_at_utc": "2026-11-01T05:58:10.859852+00:00",
+        "bytes": 42185,
+        "sha256": "7c332492737dc8946edaa600d11ac126fff875571ae3fa59ebada2ac17c64198",
+        "headers_sha256": "69d8e284020eaa7ad53de5a48577b7d477927e54e033a3af5bf7e62bf2747596",
+        "content_type": "text/html; charset=UTF-8",
+        "method": "GET through Python urllib with default verified TLS; no authentication or access bypass"
+      }
+    }
+  }
+]

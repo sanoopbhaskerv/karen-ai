@@ -1,0 +1,102 @@
+[
+  {
+    "id": "core-result-2019-district",
+    "title": "KITE 2019 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2019,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "f069eaecd6263fbef20e2ef83aa14082087f099424d86cc5c2ffd04a6ee1ce62"
+  },
+  {
+    "id": "core-result-2019-school",
+    "title": "KITE 2019 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2019,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "0fdc24132dac9021d541284ee6f516851465a714d8930b1bbf4d4630d65154be"
+  },
+  {
+    "id": "core-result-2022-district",
+    "title": "KITE 2022 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2022,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "05edaf9ad51aa4cb6f30e1be529925a474af61fe89aefb0fb65dcd7d6776f382"
+  },
+  {
+    "id": "core-result-2022-school",
+    "title": "KITE 2022 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2022,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "a541cf78491f4aaebb3dd43b2959194a208367f232f82b80a322e6896eb37af3"
+  },
+  {
+    "id": "core-result-2023-district",
+    "title": "KITE 2023 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2023,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "fbb12d9ee290cc97fbe17947b36607e9686e74f98aec4d0cb8236916ae7109b8"
+  },
+  {
+    "id": "core-result-2023-school",
+    "title": "KITE 2023 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2023,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "47a1fb1541d8fc63e5d0a2774be683233c186d07b02cc04c4f0a91aade8de5cf"
+  },
+  {
+    "id": "core-result-2024-district",
+    "title": "KITE 2024 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2024,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "5f5ad76844d77746673ae87a5af8fcc167553538da1e5c42185a0b7879c6e198"
+  },
+  {
+    "id": "core-result-2024-school",
+    "title": "KITE 2024 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2024,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "dbabd4faa97d7b0b40a4066380ae8678c4d4883c6126fe776e44be14db33b9c8"
+  },
+  {
+    "id": "core-result-2025-district",
+    "title": "KITE 2025 observed overall district point table",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2025,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "bed4129efd8d94ba2149a5c7efc4bd7159ca287b8f233b2bc05b9104b189ad6f"
+  },
+  {
+    "id": "core-result-2025-school",
+    "title": "KITE 2025 observed overall school point table",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-10-31",
+    "source_type": "official_html_result_snapshot",
+    "portal_year": 2025,
+    "notes": "Directly retrieved the full linked point table. Observed archive view only; championship conflicts are documented separately. Response SHA256 retained.",
+    "sha256": "3c7cc0ace366b6a7c9b01c0f171ad3227107108438af09df13dbc5eaa3a25571"
+  }
+]

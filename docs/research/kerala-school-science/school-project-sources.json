@@ -1,0 +1,496 @@
+[
+  {
+    "id": "school-project-001",
+    "title": "COMPREHENSIVE ASSESSMENT OF NUTRIENT ENRICHMENT IN VERMICOMPOST DERIVED SOLELY FROM BANANA PSEUDO STEM WASTE",
+    "url": "https://www.worldwidejournals.com/international-journal-of-scientific-research-%28IJSR%29/recent_issues_pdf/2025/November/comprehensive-assessment-of-nutrient-enrichment-in-vermicompost-derived-solely-from-banana-pseudo-stem-waste_November_2025_1227632750_6118519.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2025-11",
+    "source_date_precision": "month",
+    "issuer": "International Journal of Scientific Research, volume 14, issue 11",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "EJ,Jeswin",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "author_as_published": "EJ,Jeswin",
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "DBHSS Thachampara , Palakkad."
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "HSST Chemistry",
+        "affiliation_as_published": "DBHSS Thachampara, Palakkad"
+      }
+    ],
+    "pdf_page_count": 2,
+    "printed_pages": [
+      55,
+      56
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 486742,
+      "response_sha256": "19e3ff0faa73790d48fd476f4352489f6ab880b57dd0f80d0f3fe0dde89141af",
+      "headers_sha256": "fb0df2c7f5283ed70ed75ca113e733438fa91415c2e70bac8e2404e734d78fd0"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Issue/date, title, credits, experimental design and methods."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "Nutrient table, discussion, conclusion and references."
+      }
+    ],
+    "method_summary": "Reports two-week precomposting and earthworm treatment of three banana/garden-waste mixtures, four replicates per treatment, and nutrient assays.",
+    "evidence_limits": "Several setup quantities, duration, moisture/temperature values and ratios are visibly blank. Nitrogen is calculated from organic carbon. Raw replicate data are absent; publication does not establish exhibition use.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and Thachampara school affiliation, with a shorter pupil credit; comparative banana-pseudostem vermicompost and the same stated N/P/K advantage match one compendium component."
+      ],
+      "differences": [
+        "The PDF credits EJ,Jeswin; the compendium credits Jeswin Elias Jijsh. DBHSS is retained without expanding its abbreviation. No common authorship is asserted."
+      ]
+    },
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance."
+  },
+  {
+    "id": "school-project-002",
+    "title": "EVALUATION OF BANANA PSEUDOSTEM (BPS) FERMENTED WITH YEAST AS AN ALTERNATIVE FEED INGREDIENT ON EGG WEIGHT AND QUALITY IN BV300 LAYING HENS",
+    "url": "https://www.worldwidejournals.com/global-journal-for-research-analysis-GJRA/recent_issues_pdf/2026/July/evaluation-of-banana-pseudostem-bps-fermented-with-yeast-as-an-alternative-feed-ingredient-on-egg-weight-and-quality-in-bv300-laying-hens_July_2026_8747914138_7603609.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-07",
+    "source_date_precision": "month",
+    "issuer": "Global Journal for Research Analysis, volume 15, issue 7",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "E J, Jeswin",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "author_as_published": "E J, Jeswin",
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala"
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "Teacher Guide",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala"
+      }
+    ],
+    "pdf_page_count": 3,
+    "printed_pages": [
+      39,
+      40,
+      41
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 498148,
+      "response_sha256": "dc74fe3f5b492e2bf43cca2d8933da81a667c41028b407f92973daf1f44f0b0e",
+      "headers_sha256": "7f6152b7a1e504b7a4f6f7fb169adc3e1c04a67cebdfaba4772ae79fbd2dea7d"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, credits, issue date and preparation-method start."
+      },
+      {
+        "pdf_pages_1based": [
+          2
+        ],
+        "scope": "Fermentation, eight-hen/seven-day design, HPLC figures and day-level egg-weight table."
+      },
+      {
+        "pdf_pages_1based": [
+          3
+        ],
+        "scope": "Conclusion, longer-study recommendation and references."
+      }
+    ],
+    "method_summary": "Describes boiling, grinding, yeast fermentation and drying, then a seven-day feed comparison involving eight hens. Includes nutrient/HPLC figures and daily egg weights.",
+    "evidence_limits": "Table 2 gives one value per group/day, without hen-level observations. Its seven experimental values average 77.43 g, matching Figure 2 but differing from the printed 76.57 g summary. Significance and feed efficacy remain source claims, without independent replication or exhibition linkage.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and explicitly named Desabandhu school; boiled, yeast-fermented banana pseudostem poultry feed and an egg-weight comparison match another compendium component."
+      ],
+      "differences": [
+        "The PDF pupil credit is E J, Jeswin, rather than the compendium form Jeswin Elias Jijsh. This July 2026 publication follows the January 2026 fair; publication does not date the exhibited version."
+      ]
+    },
+    "landing_url": "https://www.worldwidejournals.com/global-journal-for-research-analysis-GJRA/article/evaluation-of-banana-pseudostem-bps-fermented-with-yeast-as-an-alternative-feed-ingredient-on-egg-weight-and-quality-in-bv300-laying-hens/NDQ4MTQ%3D/?b1=25&is=1&k=7",
+    "review_arithmetic_check": {
+      "input_locator": "PDF page 2, Table 2 experimental column",
+      "daily_values_g": [
+        78,
+        75,
+        78,
+        78,
+        75,
+        77,
+        81
+      ],
+      "mean_computed_from_displayed_values_g": 77.42857142857143,
+      "printed_summary_mean_g": 76.57,
+      "figure_2_mean_label_g": 77.43,
+      "scope": "Arithmetic check of displayed source values, not independent experiment replication."
+    },
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance."
+  },
+  {
+    "id": "school-project-003",
+    "title": "Biological Valorization of Banana Pseudostem through Biological Conversion: HPLC, GC and FTIR Characterization",
+    "url": "https://ijcrt.org/papers/IJCRT2608528.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-08",
+    "source_date_precision": "month",
+    "issuer": "International Journal of Creative Research Thoughts, volume 14, issue 8, IJCRT2608528",
+    "source_type": "primary_school_affiliated_research_paper",
+    "authors_as_published_in_pdf": [
+      "EJ, Jeswin",
+      "T, Nidha",
+      "Ijilan",
+      "Dr. Jijish Elias"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "authors_as_published": [
+          "EJ, Jeswin",
+          "T, Nidha",
+          "Ijilan"
+        ],
+        "role_as_published": "Student Researcher",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Kerala"
+      },
+      {
+        "author_as_published": "Dr. Jijish Elias",
+        "role_as_published": "Teacher Guide, HSST Chemistry",
+        "affiliation_as_published": "Desabandhu HSS, Thachampara, Kerala"
+      }
+    ],
+    "pdf_page_count": 8,
+    "printed_pages": [
+      "e958",
+      "e959",
+      "e960",
+      "e961",
+      "e962",
+      "e963",
+      "e964",
+      "e965"
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 1103435,
+      "response_sha256": "6e2c661bad3e6f45a403ab7a112335261c9cf912915180c40cb03af201b8b69c",
+      "headers_sha256": "9f2a9ea5de1099e1257ac9cd89165fcfb108fba526d7e5c0b492e87bd95bb925"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, issue date, PDF author credits and school roles."
+      },
+      {
+        "pdf_pages_1based": [
+          2,
+          3
+        ],
+        "scope": "Biological treatment, HPLC, yeast fermentation, GC and FTIR methods."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Chromatograms and spectrum figures."
+      },
+      {
+        "pdf_pages_1based": [
+          6,
+          7
+        ],
+        "scope": "Interpretation, explicit analytical limitations and conclusion."
+      },
+      {
+        "pdf_pages_1based": [
+          7,
+          8
+        ],
+        "scope": "References."
+      }
+    ],
+    "method_summary": "Describes Trichoderma treatment and yeast fermentation; HPLC, GC and FTIR figures support qualitative glucose/alcohol interpretation.",
+    "evidence_limits": "The paper expressly withholds concentration, yield, efficiency and purity claims without calibration/replication. No dated build log, executable code or explicit exhibition reference is supplied.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-individual-p174",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        213,
+        214
+      ],
+      "compendium_printed_pages": [
+        174,
+        175
+      ],
+      "compendium_title_as_published": "VALUE ADDED PRODUCTS FROM BANANA PSEUDO STEM(BPS)",
+      "compendium_students_credited": [
+        "Jeswin Elias Jijsh"
+      ],
+      "compendium_guides_credited": [
+        "Dr. Jijish Elias"
+      ],
+      "compendium_school_as_published": "Desabandhu HSS, Thachampara, Palakkad, Kerala - 678593",
+      "status": "candidate_component_correspondence",
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null,
+      "matching_basis": [
+        "Same named guide and Desabandhu school; Trichoderma treatment followed by yeast fermentation matches the compendium biofuel component."
+      ],
+      "differences": [
+        "PDF credits EJ, Jeswin; T, Nidha; Ijilan; and Dr. Jijish Elias. Additional pupils and altered names remain source-specific. August 2026 publication follows the fair and cannot establish the January version."
+      ]
+    },
+    "landing_url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRT2608528",
+    "landing_metadata_credit_variant": {
+      "authors_as_published_on_landing_page": [
+        "EJ, JESWIN",
+        "NITHA T",
+        "MUHAMMED IJLAN C",
+        "Dr JIJISH ELIAS"
+      ],
+      "note": "Publisher landing-page credit differs from the actual PDF; retained as a separate version, not used to expand PDF names.",
+      "acquisition": {
+        "request_url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRT2608528",
+        "method": "GET",
+        "http_status": 200,
+        "response_bytes": 426684,
+        "response_sha256": "fbbbc3b1b8b71fa00a85c8a38466ddffc9443934dc994207c0419e0f08ba9791",
+        "headers_sha256": "85c04d79580f880327fee21229c8a8b4c16e61542411bf8cab9bb9223ac80905",
+        "scope": "Public publisher Authors section; PDF credits retained separately."
+      }
+    },
+    "doi_as_published_on_landing_page": "10.56975/ijcrt.v14i8.313126",
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance."
+  },
+  {
+    "id": "school-project-004",
+    "title": "Seasonal microplastic dynamics in the Alappuzha–Changanacherry Canal, Kerala, India",
+    "url": "https://link.springer.com/content/pdf/10.1007/s43832-026-00468-2.pdf",
+    "accessed_on": "2026-11-01",
+    "source_date": "2026-10-02",
+    "source_date_precision": "day",
+    "issuer": "Discover Water, volume 6, article 123; Springer Nature",
+    "source_type": "primary_related_research_publication",
+    "authors_as_published_in_pdf": [
+      "Jubymol George",
+      "Simimole Sebastian",
+      "Reema Rose Mani"
+    ],
+    "affiliations_as_published_in_pdf": [
+      {
+        "authors_as_published": [
+          "Jubymol George",
+          "Simimole Sebastian",
+          "Reema Rose Mani"
+        ],
+        "affiliation_as_published": "Alphonsa College, Pala, Kottayam, Kerala, India"
+      }
+    ],
+    "pdf_page_count": 12,
+    "printed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "acquisition": {
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "response_bytes": 1887001,
+      "response_sha256": "c036046cd8c9cf0539126e736998aa1f6524d0e35119586fb80bc1b01121c9c3",
+      "headers_sha256": "016a7b1986aa327b139e870e8afc069cfb2ed7ba836b37c5bce3414c61943188"
+    },
+    "evidence_locators": [
+      {
+        "pdf_pages_1based": [
+          1
+        ],
+        "scope": "Title, author credits and college affiliation."
+      },
+      {
+        "pdf_pages_1based": [
+          4,
+          5
+        ],
+        "scope": "Sampling sites/months and extraction/identification methods."
+      },
+      {
+        "pdf_pages_1based": [
+          8,
+          10
+        ],
+        "scope": "Morphology and polymer ranges corresponding to the compendium."
+      },
+      {
+        "pdf_pages_1based": [
+          11
+        ],
+        "scope": "Acknowledgements and declared author contributions."
+      },
+      {
+        "pdf_pages_1based": [
+          12
+        ],
+        "scope": "Received, accepted and online-publication dates."
+      }
+    ],
+    "method_summary": "Compares seasonal canal-water samples using peroxide digestion, filtration, stereomicroscopy and micro-Raman polymer identification.",
+    "evidence_limits": "No exhibition reference; college affiliation and three-author credit differ. Publication follows the fair. Author-contribution declarations are not independently verified and cannot be transferred to the exhibition credit. The abstract/body particle-size units differ, reported percentage denominators need clarification, and the compendium has a materials/procedure reagent difference. Matching text does not validate these measurements.",
+    "candidate_correspondence": {
+      "model_id": "sisf-2026-kerala-teacher-p197",
+      "compendium_source_id": "pathways-37",
+      "compendium_pdf_pages_1based": [
+        240,
+        241
+      ],
+      "compendium_printed_pages": [
+        197,
+        198
+      ],
+      "compendium_title_as_published": "HYDRO-SEASONAL INFLUENCE ON MICROPLASTICS DYNAMICS: A COMPARATIVE EVALUATION OF SURFACE WATERS IN THE ALAPPUZHA - CHANGANACHERRY CANAL (AC CANAL)",
+      "compendium_teacher_exhibitors_credited": [
+        "Jubymol, George,"
+      ],
+      "compendium_school_as_published": "ST. Anne’s GHSS Changanacherry, Kottayam, Kerala - 686101",
+      "status": "strong_candidate_related_publication",
+      "matching_basis": [
+        "Both sources specify Manackachira, Kidangara and Onnamkara; 0.45-micrometre filtration, 30% peroxide, stereomicroscopy and confocal micro-Raman.",
+        "Matching reported ranges include fibres 66–94%, fragments 56–78%, films 48–64%, pellets >16% and PE/PP 69–83%."
+      ],
+      "differences": [
+        "Article has three authors and Alphonsa College affiliation; the compendium gives one teacher credit and St. Anne’s school.",
+        "Later publication supplies 2025 sampling months, without identifying itself as an exhibition report."
+      ],
+      "explicit_exhibition_link_in_report": false,
+      "identity_equivalence_verified": false,
+      "student_work_division_verified": false,
+      "performance_independently_verified": false,
+      "qualifying_route": null,
+      "attendance_status": null,
+      "prize_status": null
+    },
+    "landing_url": "https://link.springer.com/article/10.1007/s43832-026-00468-2",
+    "received_on": "2026-04-24",
+    "accepted_on": "2026-09-29",
+    "doi": "10.1007/s43832-026-00468-2",
+    "notes": "Public primary publication reviewed for source-specific methods and credits. The linked exhibition correspondence remains a candidate, without an explicit fair link, identity equivalence, attendance, prize or independently verified performance.",
+    "source_wording_issues": [
+      {
+        "pdf_pages_1based": [
+          1,
+          5,
+          8
+        ],
+        "issue": "Abstract prints a predominant particle-size range of 0.12–0.5 µm; body uses 0.1–0.5 mm. Preserve the unit/number discrepancy without silently harmonising them."
+      },
+      {
+        "pdf_pages_1based": [
+          8,
+          10
+        ],
+        "issue": "Reported morphology/polymer ranges have unclear denominators and must not be treated as a validated composition partition."
+      },
+      {
+        "compendium_pdf_pages_1based": [
+          240,
+          241
+        ],
+        "issue": "Compendium materials list KOH while its procedure says 30% peroxide; the related article describes peroxide. These source versions are not silently merged."
+      }
+    ]
+  }
+]

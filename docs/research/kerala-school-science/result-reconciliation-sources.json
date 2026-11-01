@@ -1,0 +1,540 @@
+[
+  {
+    "id": "result-reconciliation-001",
+    "title": "KITE 2019 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2019,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20220929212655"
+    ],
+    "snapshot_ids": [
+      "result-version-2019-district-20220929212655"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20220929212655id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20220929212655",
+        "actual_archive_capture": "20220929212655",
+        "actual_memento_datetime_utc": "2022-09-29T21:26:55Z",
+        "memento_datetime_header": "Thu, 29 Sep 2022 21:26:55 GMT",
+        "http_status": 200,
+        "response_bytes": 18907,
+        "response_sha256": "62162d79335d9f73a0c405489efdb6cb3de31737220fd9356f93ce4ac52c0daa",
+        "headers_sha256": "ec478253ccf01f4515727fd93d0c91c8904f2beb179ada4a6f74c4eca4c22cfe",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 18907,
+        "decoded_body_sha256": "62162d79335d9f73a0c405489efdb6cb3de31737220fd9356f93ce4ac52c0daa"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-002",
+    "title": "KITE 2019 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2019,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20220929214839"
+    ],
+    "snapshot_ids": [
+      "result-version-2019-school-20220929214839"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20220929214839id_/https://mela.kite.kerala.gov.in/2019/state/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20220929214839",
+        "actual_archive_capture": "20220929214839",
+        "actual_memento_datetime_utc": "2022-09-29T21:48:39Z",
+        "memento_datetime_header": "Thu, 29 Sep 2022 21:48:39 GMT",
+        "http_status": 200,
+        "response_bytes": 703731,
+        "response_sha256": "84dc9b11b298990d88c29c29bee4c4b5083ceba1afe50899b646d36604e209e3",
+        "headers_sha256": "5d8bb6568130b72138e1c3ac54fc6935a0fca033d450de3d006ed2bc653e23e9",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 703731,
+        "decoded_body_sha256": "84dc9b11b298990d88c29c29bee4c4b5083ceba1afe50899b646d36604e209e3"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-003",
+    "title": "KITE 2022 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20221126163317",
+      "20230402091852"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-district-20221126163317",
+      "result-version-2022-district-20230402091852"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20221126163317id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20221126163317",
+        "actual_archive_capture": "20221126163317",
+        "actual_memento_datetime_utc": "2022-11-26T16:33:17Z",
+        "memento_datetime_header": "Sat, 26 Nov 2022 16:33:17 GMT",
+        "http_status": 200,
+        "response_bytes": 19054,
+        "response_sha256": "d3793b38b4d012b232fcb013a93e651a45db9a5983c94c0742f0e52de0ee0e05",
+        "headers_sha256": "6a0bdbe09a785a1ac94cfc9bb28bb71f3f53c5d3333c9261f80ae2293bbf2f26",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19054,
+        "decoded_body_sha256": "d3793b38b4d012b232fcb013a93e651a45db9a5983c94c0742f0e52de0ee0e05"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20230402091852id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20230402091852id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20230402091852",
+        "actual_archive_capture": "20230402091852",
+        "actual_memento_datetime_utc": "2023-04-02T09:18:52Z",
+        "memento_datetime_header": "Sun, 02 Apr 2023 09:18:52 GMT",
+        "http_status": 200,
+        "response_bytes": 19054,
+        "response_sha256": "850ee50000d54102cbe51edc814b885445e323c1cd720311350f8c2ba31098ca",
+        "headers_sha256": "03fa202399e52fe4f0f636986160c9fa58dc8633999f00a7907ec87d607aac5a",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19054,
+        "decoded_body_sha256": "850ee50000d54102cbe51edc814b885445e323c1cd720311350f8c2ba31098ca"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-004",
+    "title": "KITE 2022 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20221126154432",
+      "20230402083444"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-school-20221126154432",
+      "result-version-2022-school-20230402083444"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20221126154432id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20221126154432",
+        "actual_archive_capture": "20221126154432",
+        "actual_memento_datetime_utc": "2022-11-26T15:44:32Z",
+        "memento_datetime_header": "Sat, 26 Nov 2022 15:44:32 GMT",
+        "http_status": 200,
+        "response_bytes": 736063,
+        "response_sha256": "92bbd5e3d94a39efd132a1d64ebfc6fc219347f9a0de10cc17b6be31bc9ff4d6",
+        "headers_sha256": "3ef9ac1e3eab01da2bc7e5ca06cd6781fc37017db67ad47f638adbfcb269a09a",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 736063,
+        "decoded_body_sha256": "92bbd5e3d94a39efd132a1d64ebfc6fc219347f9a0de10cc17b6be31bc9ff4d6"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20230402083444id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20230402083444id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20230402083444",
+        "actual_archive_capture": "20230402083444",
+        "actual_memento_datetime_utc": "2023-04-02T08:34:44Z",
+        "memento_datetime_header": "Sun, 02 Apr 2023 08:34:44 GMT",
+        "http_status": 200,
+        "response_bytes": 708063,
+        "response_sha256": "4e7c63a8bf3a22db57334a02653f9eb14015ae1c6c642c48f39ee4ae86d1f45e",
+        "headers_sha256": "82b83409830ebe516934aca0b61b88627b5783ffd810738b45efa8d99d655907",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 708063,
+        "decoded_body_sha256": "4e7c63a8bf3a22db57334a02653f9eb14015ae1c6c642c48f39ee4ae86d1f45e"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-005",
+    "title": "KITE 2022 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2022,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20230128204830"
+    ],
+    "snapshot_ids": [
+      "result-version-2022-landing-20230128204830"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20230128204830id_/https://mela.kite.kerala.gov.in/2022/state/index.php/result/Public_result",
+        "requested_archive_capture": "20230128204830",
+        "actual_archive_capture": "20230128204830",
+        "actual_memento_datetime_utc": "2023-01-28T20:48:30Z",
+        "memento_datetime_header": "Sat, 28 Jan 2023 20:48:30 GMT",
+        "http_status": 200,
+        "response_bytes": 43512,
+        "response_sha256": "c2ef9905191b28e05f646af1bbfae78d04ba0fc73f0702b6abe4b212189a2979",
+        "headers_sha256": "cd6952b845ac4909b5ac9e2d29fe9c81af61cda6a2bcc218873e69819470162d",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43512,
+        "decoded_body_sha256": "c2ef9905191b28e05f646af1bbfae78d04ba0fc73f0702b6abe4b212189a2979"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-006",
+    "title": "KITE 2023 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20231207131226"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-landing-20231207131226"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20231207131226id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result",
+        "requested_archive_capture": "20231207131226",
+        "actual_archive_capture": "20231207131226",
+        "actual_memento_datetime_utc": "2023-12-07T13:12:26Z",
+        "memento_datetime_header": "Thu, 07 Dec 2023 13:12:26 GMT",
+        "http_status": 200,
+        "response_bytes": 43826,
+        "response_sha256": "8e889c0cedaa9c7eb23b9dc12e9f13b138e997c8448a0125ca732b72c6abf25f",
+        "headers_sha256": "0f62cf35996e302b1ea27a858b0620c5b4d401aed739c4735a022fb4c3849194",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43826,
+        "decoded_body_sha256": "8e889c0cedaa9c7eb23b9dc12e9f13b138e997c8448a0125ca732b72c6abf25f"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-007",
+    "title": "KITE 2023 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20240615070504"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-district-20240615070504"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20240615070504id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20240615070504",
+        "actual_archive_capture": "20240615070504",
+        "actual_memento_datetime_utc": "2024-06-15T07:05:04Z",
+        "memento_datetime_header": "Sat, 15 Jun 2024 07:05:04 GMT",
+        "http_status": 200,
+        "response_bytes": 19331,
+        "response_sha256": "7ac2d2be92f46a9072eb6971c00146671543d3521a423266c22a5c3384e2e431",
+        "headers_sha256": "8c14297cf500ba579646864f9e76bb2a3aaa0d29e64b9fb314fb695c57e7b7ef",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19331,
+        "decoded_body_sha256": "7ac2d2be92f46a9072eb6971c00146671543d3521a423266c22a5c3384e2e431"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-008",
+    "title": "KITE 2023 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2023,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20241111020135"
+    ],
+    "snapshot_ids": [
+      "result-version-2023-school-20241111020135"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20241111020135id_/https://mela.kite.kerala.gov.in/2023/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20241111020135",
+        "actual_archive_capture": "20241111020135",
+        "actual_memento_datetime_utc": "2024-11-11T02:01:35Z",
+        "memento_datetime_header": "Mon, 11 Nov 2024 02:01:35 GMT",
+        "http_status": 200,
+        "response_bytes": 719867,
+        "response_sha256": "45459f395086a7d5ef73f04dbda720ed6ae23d053de66df1dd14795946f04f15",
+        "headers_sha256": "9a85a884b05edbdaf45f9c563b162f2fb172def3ab49e194176e9d2d20416c6f",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 719867,
+        "decoded_body_sha256": "45459f395086a7d5ef73f04dbda720ed6ae23d053de66df1dd14795946f04f15"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-009",
+    "title": "KITE 2024 overall landing-page leaders: selected archived publication versions",
+    "url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "landing_top_five_per_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20241202104858",
+      "20250501035117",
+      "20250523120125"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-landing-20241202104858",
+      "result-version-2024-landing-20250501035117",
+      "result-version-2024-landing-20250523120125"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20241202104858id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20241202104858",
+        "actual_archive_capture": "20241202104858",
+        "actual_memento_datetime_utc": "2024-12-02T10:48:58Z",
+        "memento_datetime_header": "Mon, 02 Dec 2024 10:48:58 GMT",
+        "http_status": 200,
+        "response_bytes": 43984,
+        "response_sha256": "14c1eb7f40accbed013a601cbdcc86d7623d61e78a719bfcb2e1a67185253508",
+        "headers_sha256": "2fce961b558846512d94338d4b1dc0acdd38659c21f10c076f6cddeaf5333911",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43984,
+        "decoded_body_sha256": "14c1eb7f40accbed013a601cbdcc86d7623d61e78a719bfcb2e1a67185253508"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250501035117id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20250501035117id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20250501035117",
+        "actual_archive_capture": "20250501035117",
+        "actual_memento_datetime_utc": "2025-05-01T03:51:17Z",
+        "memento_datetime_header": "Thu, 01 May 2025 03:51:17 GMT",
+        "http_status": 200,
+        "response_bytes": 43983,
+        "response_sha256": "c0fe3e27ccb42bbc64501c77048d047493ee64ad6c98da2ce188b3964ed6d8a3",
+        "headers_sha256": "8ce080751e99c941d2972ebb54e06c377560ae685e592e6baf4b836c854babc7",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43983,
+        "decoded_body_sha256": "c0fe3e27ccb42bbc64501c77048d047493ee64ad6c98da2ce188b3964ed6d8a3"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250523120125id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "effective_url": "https://web.archive.org/web/20250523120125id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result",
+        "requested_archive_capture": "20250523120125",
+        "actual_archive_capture": "20250523120125",
+        "actual_memento_datetime_utc": "2025-05-23T12:01:25Z",
+        "memento_datetime_header": "Fri, 23 May 2025 12:01:25 GMT",
+        "http_status": 200,
+        "response_bytes": 43983,
+        "response_sha256": "b0af29215f711effe249b273cb7118014a6e88a8ad1214985032c97f522733cd",
+        "headers_sha256": "26ae55311c996fc99cdf0370b0dbc5f78df630a74b0bbbc8ea3d35d225f29201",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 43983,
+        "decoded_body_sha256": "b0af29215f711effe249b273cb7118014a6e88a8ad1214985032c97f522733cd"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-010",
+    "title": "KITE 2024 overall district point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20250418095116id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "complete_overall_district_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20250418095116",
+      "20250908020643"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-district-20250418095116",
+      "result-version-2024-district-20250908020643"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20241210213558id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250418095116id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20241210213558",
+        "actual_archive_capture": "20250418095116",
+        "actual_memento_datetime_utc": "2025-04-18T09:51:16Z",
+        "memento_datetime_header": "Fri, 18 Apr 2025 09:51:16 GMT",
+        "http_status": 200,
+        "response_bytes": 19510,
+        "response_sha256": "bc83ab4668f49408248ed5379f46f3afa8e2cf11cc71cb724ef589ade578e8ac",
+        "headers_sha256": "ee3f2eaf8481c008c5a6405bb4169ad4dd277350baf99ff87d260b6c2a8a2e1b",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 19510,
+        "decoded_body_sha256": "bc83ab4668f49408248ed5379f46f3afa8e2cf11cc71cb724ef589ade578e8ac"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250908020643id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250908020643id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/districtwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250908020643",
+        "actual_archive_capture": "20250908020643",
+        "actual_memento_datetime_utc": "2025-09-08T02:06:43Z",
+        "memento_datetime_header": "Mon, 08 Sep 2025 02:06:43 GMT",
+        "http_status": 200,
+        "response_bytes": 3791,
+        "response_sha256": "d3e540c477df97dc12cff285e5820b7b996adbca9708e036ba71a02e5516941a",
+        "headers_sha256": "f8fe7a3fe12d7bd813b8662a0b651229dfb941082bf842626e4a8f4591fdf56e",
+        "content_encoding": "gzip",
+        "decoded_body_bytes": 19509,
+        "decoded_body_sha256": "5f5ad76844d77746673ae87a5af8fcc167553538da1e5c42185a0b7879c6e198"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-011",
+    "title": "KITE 2024 overall school point table: selected archived publication versions",
+    "url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "original_url": "https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_result_publication",
+    "issuer": "KITE, Kerala General Education Department; preserved by the Internet Archive",
+    "portal_year": 2024,
+    "scope": "complete_overall_school_html_table",
+    "source_date": null,
+    "actual_archive_captures": [
+      "20250417154755",
+      "20250909232447"
+    ],
+    "snapshot_ids": [
+      "result-version-2024-school-20250417154755",
+      "result-version-2024-school-20250909232447"
+    ],
+    "acquisitions": [
+      {
+        "request_url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250417154755id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250417154755",
+        "actual_archive_capture": "20250417154755",
+        "actual_memento_datetime_utc": "2025-04-17T15:47:55Z",
+        "memento_datetime_header": "Thu, 17 Apr 2025 15:47:55 GMT",
+        "http_status": 200,
+        "response_bytes": 721992,
+        "response_sha256": "782410aa0c14b97befbdb9e045216a3e707c95b50831d807e3bdad16972f3788",
+        "headers_sha256": "778f527544d887e11741c3570c06c14d018781209606e4f781cc77dd18a2ba57",
+        "content_encoding": "identity",
+        "decoded_body_bytes": 721992,
+        "decoded_body_sha256": "782410aa0c14b97befbdb9e045216a3e707c95b50831d807e3bdad16972f3788"
+      },
+      {
+        "request_url": "https://web.archive.org/web/20250909232447id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "effective_url": "https://web.archive.org/web/20250909232447id_/https://mela.kite.kerala.gov.in/2024/state/index.php/result/Public_result/schoolwisePointdetailed/0/0/0/1",
+        "requested_archive_capture": "20250909232447",
+        "actual_archive_capture": "20250909232447",
+        "actual_memento_datetime_utc": "2025-09-09T23:24:47Z",
+        "memento_datetime_header": "Tue, 09 Sep 2025 23:24:47 GMT",
+        "http_status": 200,
+        "response_bytes": 52008,
+        "response_sha256": "6cec01ddb5ebd8b49f08fe1fa355a6ae9507f37c9014fe55410110eea56aab3a",
+        "headers_sha256": "4b21a2efd397e532554b0f98a5fd3a3758f1b5aba6ed991468c1e028a4e5dc47",
+        "content_encoding": "gzip",
+        "decoded_body_bytes": 718613,
+        "decoded_body_sha256": "d7c0f26c2dfa0e1f562579795af0fe0a444fe053631fbdcd66937af1fd4e8325"
+      }
+    ],
+    "review_scope": "Raw archived response tables parsed completely within the stated page/table scope; capture dates checked against Memento-Datetime and effective replay URLs. No browser visual-render review or signed certification is claimed.",
+    "notes": "Preserved publication versions are chronology evidence. Different capture times are not an atomic export; numeric/order changes do not establish their cause or authenticated finality."
+  },
+  {
+    "id": "result-reconciliation-012",
+    "title": "DGE circular Y1/16807/2023 dated 4 October 2023: 2023–24 Sasthrolsavam guidance and grading table",
+    "url": "https://education.kerala.gov.in/wp-content/uploads/2023/10/sastholsavam10102023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_departmental_circular",
+    "issuer": "Directorate of General Education, Kerala",
+    "document_date": "2023-10-04",
+    "website_post_date": "2023-10-10",
+    "publication_page_url": "https://education.kerala.gov.in/2023/10/10/2023-24-%e0%b4%b5%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%b7%e0%b4%a4%e0%b5%8d%e0%b4%a4%e0%b5%86-%e0%b4%95%e0%b5%87%e0%b4%b0%e0%b4%b3-%e0%b4%b8%e0%b5%8d%e0%b4%95%e0%b5%82%e0%b4%b3%e0%b5%8d%e2%80%8d-%e0%b4%b6/",
+    "pdf_pages": 22,
+    "download_bytes": 6312391,
+    "download_sha256": "91a7faa6d51a3b477a94b9f8fbd903e3aed50776ece528b4666e00969b3e7df1",
+    "file_number_as_printed": "Y1/16807/2023/DGE",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "DGE header, issue date and 2023–24 cycle."
+      },
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 2,
+        "scope": "Grading table: at least 80 percent A/5, 70–79 percent B/3, 60–69 percent C/1."
+      }
+    ],
+    "review_scope": "PDF pages 1–5 visually read, plus received final blank PDF22. Only the cited header/grading table is used here; not a complete 22-page rules audit.",
+    "notes": "Official bytes match the public mirror recovered through a teacher download index. The 10 October website/filename date differs from the 4 October printed issue date. The cited grade table does not explain later championship/table revisions or prove a certified final result."
+  }
+]

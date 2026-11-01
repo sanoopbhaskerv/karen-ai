@@ -1,0 +1,883 @@
+{
+  "checked_on": "2026-11-01",
+  "dataset_id": "kvs-chennai-regional-science-exhibition-2010-published-results",
+  "scope": "Source-bound historical KVS regional host-school report and tables; not Kerala Sasthrolsavam, a national prize list or original model reports.",
+  "source_ids": [
+    "pathways-82",
+    "pathways-83",
+    "pathways-84"
+  ],
+  "reported_event": {
+    "edition_as_reported": "38th KVS Regional Science Exhibition",
+    "title_cycle_as_published": "2010-‘11",
+    "host_as_published": "Kendriya Vidyalaya Pattom",
+    "event_dates_as_reported": [
+      "2010-09-01",
+      "2010-09-02"
+    ],
+    "region_population_scope_as_reported": "Chennai Region(Kerala, Tamilnadu and Pondicherry)",
+    "reported_student_population_text": "Nearly Six Hundred students",
+    "reported_kendriya_vidyalaya_count": 62,
+    "student_population_is_approximate": true,
+    "kerala_student_subtotal": null,
+    "kerala_school_subtotal": null,
+    "source_id": "pathways-82"
+  },
+  "date_evidence": [
+    {
+      "source_id": "pathways-82",
+      "visible_post_date": "September 1, 2010 • 10:28 am",
+      "first_publication_timestamp_metadata": "2010-09-01T04:58:00+00:00",
+      "modified_timestamp_metadata": "2010-09-03T05:17:08+00:00"
+    },
+    {
+      "source_id": "pathways-84",
+      "visible_post_date": "September 2, 2010 • 9:41 am",
+      "first_publication_timestamp_metadata": "2010-09-02T04:11:00+00:00",
+      "modified_timestamp_metadata": "2010-09-03T05:19:03+00:00"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "kvs-chennai-2010-t01",
+      "source_id": "pathways-84",
+      "heading_as_published": "Sub theme: Biodiversity",
+      "table_1based": 1,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 3,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t01-r01",
+          "source_id": "pathways-84",
+          "table_1based": 1,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "SANJEED S",
+          "name_cell_text_segments_as_received": [
+            "SANJEED S"
+          ],
+          "school_as_published": "KV ERNAKULAM",
+          "topic_as_published": "PRODUCTION OF PURE SALT USING ARTEMIA",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t01-r02",
+          "source_id": "pathways-84",
+          "table_1based": 1,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "A V SOWMYA",
+          "name_cell_text_segments_as_received": [
+            "A V SOWMYA"
+          ],
+          "school_as_published": "KV AFS SULUR",
+          "topic_as_published": "ASSESSMENT OF HUMAN ACTIVITIES",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t01-r03",
+          "source_id": "pathways-84",
+          "table_1based": 1,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "SIDHARTH U",
+          "name_cell_text_segments_as_received": [
+            "SIDHARTH U"
+          ],
+          "school_as_published": "KV PORT TRUST",
+          "topic_as_published": "OIL SLICK REMOVER",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t02",
+      "source_id": "pathways-84",
+      "heading_as_published": "Subtheme: Green Energy",
+      "table_1based": 2,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 3,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t02-r01",
+          "source_id": "pathways-84",
+          "table_1based": 2,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "T.K.BALASARAVANAN",
+          "name_cell_text_segments_as_received": [
+            "T.K.BALASARAVANAN"
+          ],
+          "school_as_published": "KV IIT CHENNAI",
+          "topic_as_published": "ECO-FRIENDLY HOUSE",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t02-r02",
+          "source_id": "pathways-84",
+          "table_1based": 2,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "INDHUKANTH.L",
+          "name_cell_text_segments_as_received": [
+            "INDHUKANTH.L"
+          ],
+          "school_as_published": "KV CLRI ADAYAR",
+          "topic_as_published": "CONSERVATION OF ENERGY IN NATIONAL HIGHWAYS",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t02-r03",
+          "source_id": "pathways-84",
+          "table_1based": 2,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "AASHUTHOSH B SAI",
+          "name_cell_text_segments_as_received": [
+            "AASHUTHOSH B SAI"
+          ],
+          "school_as_published": "KV PATTOM SHIFT I",
+          "topic_as_published": "GREEN VILLA",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t03",
+      "source_id": "pathways-84",
+      "heading_as_published": "Sub theme: Community Health and Environment",
+      "table_1based": 3,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 4,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III",
+        ""
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t03-r01",
+          "source_id": "pathways-84",
+          "table_1based": 3,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "MANIRSHA P.V",
+          "name_cell_text_segments_as_received": [
+            "MANIRSHA P.V"
+          ],
+          "school_as_published": "KV CALICUT NO. I",
+          "topic_as_published": "SANJEEVANI",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t03-r02",
+          "source_id": "pathways-84",
+          "table_1based": 3,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "B.SANDHYA",
+          "name_cell_text_segments_as_received": [
+            "B.SANDHYA"
+          ],
+          "school_as_published": "KV COIMBATORE",
+          "topic_as_published": "WATER TREATMENT FOR HEALTH BEING",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t03-r03",
+          "source_id": "pathways-84",
+          "table_1based": 3,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "ELIAS ALAN FABIYAN",
+          "name_cell_text_segments_as_received": [
+            "ELIAS ALAN FABIYAN"
+          ],
+          "school_as_published": "KV PORT TRUST",
+          "topic_as_published": "FEEDING TABLE FOR HANDICAPPED",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t03-r04",
+          "source_id": "pathways-84",
+          "table_1based": 3,
+          "data_row_1based": 4,
+          "position_cell_as_published": "",
+          "position_cell_blank": true,
+          "name_cell_text_as_published": "P KAVITHA",
+          "name_cell_text_segments_as_received": [
+            "P KAVITHA"
+          ],
+          "school_as_published": "KV NO.I MADHURAI",
+          "topic_as_published": "ARTIFICIAL Vs NATURAL",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t04",
+      "source_id": "pathways-84",
+      "heading_as_published": "Sub theme: Agriculture and Technology",
+      "table_1based": 4,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 5,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III",
+        "",
+        ""
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t04-r01",
+          "source_id": "pathways-84",
+          "table_1based": 4,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "NEHA PRS",
+          "name_cell_text_segments_as_received": [
+            "NEHA PRS"
+          ],
+          "school_as_published": "KV NTPC KAYAMKULAM",
+          "topic_as_published": "ECO FRIENDLY PRODUCTS FROM BANANA PEDUNCLE",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t04-r02",
+          "source_id": "pathways-84",
+          "table_1based": 4,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "AMBRIN FARIZAH B",
+          "name_cell_text_segments_as_received": [
+            "AMBRIN FARIZAH B"
+          ],
+          "school_as_published": "KV CLRI ADAYAR",
+          "topic_as_published": "COMBAT POLLUTION WITH FUNGI",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t04-r03",
+          "source_id": "pathways-84",
+          "table_1based": 4,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "HUSNUL BUDHIRAJA",
+          "name_cell_text_segments_as_received": [
+            "HUSNUL BUDHIRAJA"
+          ],
+          "school_as_published": "KV NO.2 KALAPET PONDICHERRY",
+          "topic_as_published": "AGRO AVIATION",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t04-r04",
+          "source_id": "pathways-84",
+          "table_1based": 4,
+          "data_row_1based": 4,
+          "position_cell_as_published": "",
+          "position_cell_blank": true,
+          "name_cell_text_as_published": "NIKHIL S",
+          "name_cell_text_segments_as_received": [
+            "NIKHIL S"
+          ],
+          "school_as_published": "KV PORT TRUST",
+          "topic_as_published": "INNOVATIVE INSECTS TRAPS",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t04-r05",
+          "source_id": "pathways-84",
+          "table_1based": 4,
+          "data_row_1based": 5,
+          "position_cell_as_published": "",
+          "position_cell_blank": true,
+          "name_cell_text_as_published": "SREELAKSHMI RADHAKRISHNAN",
+          "name_cell_text_segments_as_received": [
+            "SREELAKSHMI RADHAKRISHNAN"
+          ],
+          "school_as_published": "KV NO.2 NAVAL BASE ,KOCHI",
+          "topic_as_published": "MIXED CULTURE OF PEARL MUSSLE",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t05",
+      "source_id": "pathways-84",
+      "heading_as_published": "Sub theme: Mathematical Modeling",
+      "table_1based": 5,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 3,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t05-r01",
+          "source_id": "pathways-84",
+          "table_1based": 5,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "PRANJAL SINGH CHAUHAN",
+          "name_cell_text_segments_as_received": [
+            "PRANJAL SINGH CHAUHAN"
+          ],
+          "school_as_published": "KV NO. I MADURAI",
+          "topic_as_published": "PURSUIT CURVES",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t05-r02",
+          "source_id": "pathways-84",
+          "table_1based": 5,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "ASHWIN P",
+          "name_cell_text_segments_as_received": [
+            "ASHWIN P"
+          ],
+          "school_as_published": "KV PURANATTUKARA, THRISSUR",
+          "topic_as_published": "DEMONSTRATION OF ACTION OF MEDICINES IN HUMAN SYSTEM",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t05-r03",
+          "source_id": "pathways-84",
+          "table_1based": 5,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "S.SARASWATHI",
+          "name_cell_text_segments_as_received": [
+            "S.SARASWATHI"
+          ],
+          "school_as_published": "KV NO.2 TAMBARAM",
+          "topic_as_published": "NINE POINT CIRCLE THEOREM",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t06",
+      "source_id": "pathways-84",
+      "heading_as_published": "Sub theme: Transport and Communication",
+      "table_1based": 6,
+      "record_kind": "theme_exhibit_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL",
+        "TOPIC"
+      ],
+      "data_row_count": 3,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t06-r01",
+          "source_id": "pathways-84",
+          "table_1based": 6,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "KARISHMA P H",
+          "name_cell_text_segments_as_received": [
+            "KARISHMA P H"
+          ],
+          "school_as_published": "KV ADOOR SHIFT -II",
+          "topic_as_published": "SAFETY BOAT",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t06-r02",
+          "source_id": "pathways-84",
+          "table_1based": 6,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "AMRIT ANAND",
+          "name_cell_text_segments_as_received": [
+            "AMRIT ANAND"
+          ],
+          "school_as_published": "KV ERNAKULAM",
+          "topic_as_published": "SAY NO TO TRAFFIC SNARLS",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        },
+        {
+          "row_id": "kvs-chennai-2010-t06-r03",
+          "source_id": "pathways-84",
+          "table_1based": 6,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "BHAGYASHREE M R",
+          "name_cell_text_segments_as_received": [
+            "BHAGYASHREE M R"
+          ],
+          "school_as_published": "KV HVF AVADI",
+          "topic_as_published": "INNOVATIVE WALKING STICK FOR BLIND",
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false
+        }
+      ]
+    },
+    {
+      "table_id": "kvs-chennai-2010-t07",
+      "source_id": "pathways-84",
+      "heading_as_published": "Inter School Science Quiz",
+      "table_1based": 7,
+      "record_kind": "quiz_result",
+      "column_labels_as_published": [
+        "POSITION",
+        "NAME",
+        "SCHOOL"
+      ],
+      "data_row_count": 3,
+      "rowspan_attributes_present": false,
+      "colspan_attributes_present": false,
+      "literal_position_sequence": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rows": [
+        {
+          "row_id": "kvs-chennai-2010-t07-r01",
+          "source_id": "pathways-84",
+          "table_1based": 7,
+          "data_row_1based": 1,
+          "position_cell_as_published": "I",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "Joseph Samuael Kiran V",
+          "name_cell_text_segments_as_received": [
+            "Joseph Samuael",
+            "Kiran V"
+          ],
+          "school_as_published": "KV ADOOR SHIFT -I",
+          "topic_as_published": null,
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false,
+          "name_cell_markup_note": "Direct text followed by an unmatched closing-p/opening-p boundary; preserve two source segments, without resolving person identity or spelling variants."
+        },
+        {
+          "row_id": "kvs-chennai-2010-t07-r02",
+          "source_id": "pathways-84",
+          "table_1based": 7,
+          "data_row_1based": 2,
+          "position_cell_as_published": "II",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "Rahul Ramesan Jyothis B",
+          "name_cell_text_segments_as_received": [
+            "Rahul Ramesan",
+            "Jyothis B"
+          ],
+          "school_as_published": "KV RB KOTTAYAM",
+          "topic_as_published": null,
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false,
+          "name_cell_markup_note": "Direct text followed by an unmatched closing-p/opening-p boundary; preserve two source segments, without resolving person identity or spelling variants."
+        },
+        {
+          "row_id": "kvs-chennai-2010-t07-r03",
+          "source_id": "pathways-84",
+          "table_1based": 7,
+          "data_row_1based": 3,
+          "position_cell_as_published": "III",
+          "position_cell_blank": false,
+          "name_cell_text_as_published": "Pranjal Sing Chouhan Abhimathi",
+          "name_cell_text_segments_as_received": [
+            "Pranjal Sing Chouhan",
+            "Abhimathi"
+          ],
+          "school_as_published": "KV MADURAI NO 1",
+          "topic_as_published": null,
+          "qualifying_route": null,
+          "national_prize_status": null,
+          "construction_method_recovered": false,
+          "source_code_recovered": false,
+          "name_cell_markup_note": "Direct text followed by an unmatched closing-p/opening-p boundary; preserve two source segments, without resolving person identity or spelling variants."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "theme_tables": 6,
+    "quiz_tables": 1,
+    "tables": 7,
+    "theme_data_rows": 21,
+    "quiz_data_rows": 3,
+    "data_rows": 24,
+    "header_rows": 7,
+    "raw_tr_rows_including_headers": 31,
+    "cells_including_headers": 120,
+    "explicit_position_cells": 21,
+    "literal_blank_position_cells": 3,
+    "rowspan_attribute_count": 0,
+    "colspan_attribute_count": 0
+  },
+  "unique_person_count": null,
+  "interpretation_limits": [
+    "Three empty position cells remain literal blanks. No shared/later rank is inferred.",
+    "Quiz name cells have two literal text segments, with malformed paragraph markup. They are not a verified unique-person count.",
+    "Source-specific spellings and school labels are retained, with no cross-table or cross-edition identity merge.",
+    "Topic titles and credited name/school cells are not construction methods, tests, code, teacher credits, individual work division or independent performance evidence.",
+    "Regional table positions do not establish national ranks, a later qualifying route, Kerala-only totals or current exhibition rules.",
+    "Later modification timestamps prevent treating the current retrospective wording as frozen at each first-post hour.",
+    "Bulletin population wording and 23 planned programme rows remain source-specific, not silently harmonised with blog counts or verified as executed."
+  ],
+  "newsletter_body_recovered": true,
+  "original_model_methods_added": 0,
+  "text_normalization": "HTML entities decoded and consecutive whitespace collapsed; spellings, punctuation, blank positions and quiz text segments retained. No inferred rank/person merge.",
+  "source_specific_bulletin_observation": {
+    "source_id": "pathways-83",
+    "publication_kind_as_printed": "EVENT NEWS BULLETIN",
+    "event_title_as_printed": "38th KVS Regional Science Exhibition 2010-’11",
+    "event_dates_as_printed": "1-2 September 2010",
+    "pdf_pages_1based": [
+      1,
+      2
+    ],
+    "publisher_imprint_as_printed": "Published by the Principal, Kendriya Vidyalaya Pattom.",
+    "circulation_imprint_as_printed": "For private circulation only.",
+    "student_population_as_published": "Six hundred students",
+    "school_population_as_published": "more than 60 Kendriya Vidyalayas",
+    "region_population_scope_as_published": "Kerala, Tamilnadu and Pondicherry",
+    "opening_day_wording_as_published": "starts today",
+    "exact_issue_date": null,
+    "population_comparison_note": "Retain bulletin Six hundred/more than 60 separately from blog Nearly Six Hundred/62; no unique headcount audit or Kerala-only denominator.",
+    "programme_execution_verified": false,
+    "photo_identity_or_construction_claims_adopted": false
+  },
+  "programme_observation": {
+    "source_id": "pathways-83",
+    "pdf_page_1based": 1,
+    "section_as_printed": "PROGRAMME",
+    "evidence_status": "Published historical programme, not a verified record that every row occurred.",
+    "text_normalization": "Clock strings preserve visible line breaks, punctuation and missing suffixes. Activity text collapses line wraps while retaining wording and spelling.",
+    "days": [
+      {
+        "date_as_printed": "01/09/2010",
+        "date_iso_for_grouping": "2010-09-01",
+        "rows": [
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r01",
+            "row_1based": 1,
+            "clock_text_as_printed": "5 am",
+            "activity_text": "Wake up Bell",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r02",
+            "row_1based": 2,
+            "clock_text_as_printed": "9 am",
+            "activity_text": "Inauguration",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r03",
+            "row_1based": 3,
+            "clock_text_as_printed": "10 am",
+            "activity_text": "Participants to be present along with exhibits and Judgment begins",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r04",
+            "row_1based": 4,
+            "clock_text_as_printed": "11-11.15\nam",
+            "activity_text": "Tea break",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r05",
+            "row_1based": 5,
+            "clock_text_as_printed": "1-2 pm",
+            "activity_text": "Lunch break",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r06",
+            "row_1based": 6,
+            "clock_text_as_printed": "2-6 pm",
+            "activity_text": "Exhibition continuous",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r07",
+            "row_1based": 7,
+            "clock_text_as_printed": "4-\n4.15pm",
+            "activity_text": "Tea break",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r08",
+            "row_1based": 8,
+            "clock_text_as_printed": "7-8 pm",
+            "activity_text": "Provision for get to-gether & Cultural programmes by students",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r09",
+            "row_1based": 9,
+            "clock_text_as_printed": "8 pm",
+            "activity_text": "Dinner",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d1-r10",
+            "row_1based": 10,
+            "clock_text_as_printed": "10 pm",
+            "activity_text": "Lights off",
+            "actual_execution_verified": false
+          }
+        ]
+      },
+      {
+        "date_as_printed": "02/09/2010",
+        "date_iso_for_grouping": "2010-09-02",
+        "rows": [
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r01",
+            "row_1based": 1,
+            "clock_text_as_printed": "5 am",
+            "activity_text": "Wake up Bell",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r02",
+            "row_1based": 2,
+            "clock_text_as_printed": "6:30 -\n7.30am",
+            "activity_text": "Breakfast",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r03",
+            "row_1based": 3,
+            "clock_text_as_printed": "8-9 am",
+            "activity_text": "Written Quiz [Resource Room]",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r04",
+            "row_1based": 4,
+            "clock_text_as_printed": "9-11am",
+            "activity_text": "Exhibition open for public",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r05",
+            "row_1based": 5,
+            "clock_text_as_printed": "10-11am",
+            "activity_text": "Quiz finals [Resource Room]",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r06",
+            "row_1based": 6,
+            "clock_text_as_printed": "11-\n11.15am",
+            "activity_text": "Tea break",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r07",
+            "row_1based": 7,
+            "clock_text_as_printed": "11.15am\n- 1pm",
+            "activity_text": "Exhibition open for public",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r08",
+            "row_1based": 8,
+            "clock_text_as_printed": "1-2 pm",
+            "activity_text": "Lunch break",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r09",
+            "row_1based": 9,
+            "clock_text_as_printed": "2-3 pm",
+            "activity_text": "Exhibition open for public",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r10",
+            "row_1based": 10,
+            "clock_text_as_printed": "3 pm",
+            "activity_text": "Valedictory Function & Declaration of Results",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r11",
+            "row_1based": 11,
+            "clock_text_as_printed": "4pm\nonwards",
+            "activity_text": "Pack up the Exhibits",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r12",
+            "row_1based": 12,
+            "clock_text_as_printed": "4.30-",
+            "activity_text": "Tea",
+            "actual_execution_verified": false
+          },
+          {
+            "programme_row_id": "kvs-chennai-2010-programme-d2-r13",
+            "row_1based": 13,
+            "clock_text_as_printed": "6pm",
+            "activity_text": "Departure [Dinner packets will be made available by 6.30pm]",
+            "actual_execution_verified": false
+          }
+        ]
+      }
+    ],
+    "row_count_by_day": [
+      10,
+      13
+    ],
+    "total_rows": 23,
+    "limits": [
+      "Rows include wake-up, meals, breaks, cultural activity, packing and departure; not 23 competition sessions.",
+      "The incomplete 4.30- and the departure 6pm/dinner-packets 6.30pm wording are retained without repair.",
+      "No current presentation duration, access entitlement or judging rule is inferred."
+    ]
+  }
+}
