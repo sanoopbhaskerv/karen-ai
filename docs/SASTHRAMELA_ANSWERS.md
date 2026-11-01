@@ -1,0 +1,9 @@
+# Sasthramela answers
+
+Karen now searches the checked bilingual facts in `docs/research/kerala-school-science/knowledge.jsonl`, resolving citations through `sources.json`. Research questions return original Malayalam fact extracts with an explicit 1 November 2026 evidence cutoff. They do not depend on an AI provider, embeddings, a new API key or model fine-tuning. General conversation continues through the configured provider. Text and voice use the same answer selection and existing privacy guards.
+
+English/Malayalam routing covers Working Model participation, construction video, scoring, dimensions, charts, IT distinctions, history and the announced 2026 dates. Other research questions use bounded lexical retrieval. Questions without sufficient matches request clarification instead of inventing an answer. A short follow-up can use the preceding exhibition question. Text answers include clickable original sources, preserved on dashboard refresh. Spoken answers contain the facts and date caveat, without reading URLs aloud.
+
+The research is a dated collection, not a live rules feed or a complete history. Historical facts retain their original dates and uncertainty. The existing corpus includes draft Malayalam translations awaiting teacher review. The runtime excludes stale Karen-provider descriptions and never loads the held-out evaluation questions or raw archives/media. Source publication does not establish actual exhibit operation, student work or a current entitlement.
+
+Validation covers bilingual rule/history selection, unknown uniform/future rules, stream separation, general science fallback, contextual follow-up, citations after reload, text/voice parity and avoiding unnecessary model calls. Deployment retains the hosting/provider/authentication setup and protected student details.

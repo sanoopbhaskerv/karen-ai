@@ -13,6 +13,7 @@ from pathlib import Path
 from flask import Flask, abort, g, jsonify, render_template, request, send_file, session, redirect, url_for
 from dotenv import load_dotenv
 from jobs import Jobs, Result, ServiceError
+from sasthramela import lookup as research_lookup, history_sources, corpus as research_corpus
 from exhibition_identity import (DEFAULT_MEMORY, anonymous_history,
                                  anonymous_memory, anonymous_reply, identity_question, identity_reply)
 
@@ -213,7 +214,7 @@ def create_app(config=None, providers=None):
     def dashboard(error=None, notice=None, status=200):
         with lock:
             return render_template('index.html', memory=anonymous_memory(memory_path.read_text(encoding='utf-8')),
-                                   history=anonymous_history(history), error=anonymous_reply(error) if error else None, notice=notice,
+                                   history=anonymous_history(history), research_sources=history_sources(anonymous_history(history)), error=anonymous_reply(error) if error else None, notice=notice,
                                    demo=app.config['DEMO_MODE'], configured=bool(app.config[provider_prefix + '_API_KEY']),
                                    model=app.config[provider_prefix + '_MODEL'], csrf=session['csrf'],
                                    can_edit_memory=not app.config['KAREN_ADMIN_PASSWORD'] or g.get('admin_authenticated', False)), status
@@ -352,6 +353,9 @@ def create_app(config=None, providers=None):
             previous, version = anonymous_history(history), revision
         if not app.config['DEMO_MODE'] and identity_question(message):
             return identity_reply(message), version
+        research = research_lookup(message, previous) if not app.config['DEMO_MODE'] else None
+        if research is not None:
+            return anonymous_reply(research['reply']), version
         reply = provider.answer(memory, previous, anonymous_history([('user', message)])[0][1])
         return anonymous_reply(reply), version
 
@@ -429,7 +433,8 @@ def create_app(config=None, providers=None):
             def operation(job):
                 timings = {}
                 reply, version = measured_stage(job, timings, generation_stage, lambda: generate(message))
-                result = Result(dict(reply=reply, user_message=anonymous_history([('user', message)])[0][1],
+                research = research_lookup(message, history) if not app.config['DEMO_MODE'] and not identity_question(message) else None
+                result = Result(dict(sources=research['sources'] if research else [], reply=reply, user_message=anonymous_history([('user', message)])[0][1],
                                      mode='demo' if app.config['DEMO_MODE'] else 'live'),
                                 headers=timing_headers(timings))
                 commit(job, message, reply, version, result)
