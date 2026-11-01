@@ -15,6 +15,13 @@ PRIVATE_QUESTION = 'നിർമ്മാതാവിന്റെ വ്യക�
 # deliberately retained: they are useful science-fair knowledge, not identities.
 _NAME = (r'(?<!\w)(?:' + '|'.join(r'[\W_]*'.join(name) for name in
          ('sreehari', 'shreehari', 'srihari', 'shrihari')) + r')(?:[\W_]*v)?(?!\w)')
+# Require the complete protected grade and section together. A grade number
+# alone and ordinary duration units remain useful non-identifying science text.
+_CLASS_LABEL = r'(?:class|section|standard|grade|ക്ലാസ്|ക്ലാസ്സ്|ഗ്രേഡ്|സ്റ്റാൻഡേർഡ്)'
+_CLASS_NUMBER = r'(?:9(?:th)?|ix|nine|ninth|ഒമ്പത്|ഒൻപത്|ഒമ്പതാം|ഒൻപതാം)'
+_CLASS_ORDINAL = r'(?:9th|ninth|ഒമ്പതാം|ഒൻപതാം)'
+_SECTION_SUFFIX = (r'\s*(?:[.\-]\s*|[,;:]?\s*(?:section|sec\.?|division|സെക്ഷൻ|വിഭാഗം)'
+                   r'\s*[:.\-]?\s*)?(?:s|എസ്)(?!\w)')
 _IDENTIFIERS = re.compile(
     _NAME +
     r'|ശ്രീ\s*ഹരി'
@@ -22,7 +29,8 @@ _IDENTIFIERS = re.compile(
     r'|പി[\s.\-]*കെ[\s.\-]*എം[\s.\-]*എം'
     r'|(?<!\w)edarikk?ode(?!\w)|എടരിക്കോ[ടഡ]'
     r'|(?<!\w)thottasheri(?:yar|y|ya|ar)?(?!\w)|തോട്ടശ്ശേരി|തോട്ടശേരി'
-    r'|(?:class|section|standard|ക്ലാസ്|ക്ലാസ്സ്)\s*[:.\-]?\s*(?:9|ix|nine|ഒമ്പത്|ഒൻപത്)\s*[.\-]?\s*(?:s|എസ്)(?!\w)',
+    r'|' + _CLASS_LABEL + r'\s*[:.\-]?\s*' + _CLASS_NUMBER + _SECTION_SUFFIX +
+    r'|(?<!\w)' + _CLASS_ORDINAL + r'\s+' + _CLASS_LABEL + _SECTION_SUFFIX,
     re.I,
 )
 _CREATOR_FACT = re.compile(

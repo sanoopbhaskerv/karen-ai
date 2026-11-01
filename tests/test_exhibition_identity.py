@@ -1,5 +1,6 @@
 """Privacy regressions at persistence, provider, text and speech boundaries."""
 import io
+import re
 from types import SimpleNamespace
 
 import pytest
@@ -67,6 +68,93 @@ def test_dotted_and_expanded_biographies_cannot_survive_migration_or_save(tmp_pa
         post(client, token, 'Explain rain.')
         assert not contains_identity(provider.seen[-1][0])
         assert not contains_identity(client.get('/').get_data(as_text=True))
+
+
+# Build aliases from the existing regression fixture without repeating the
+# protected biography in new test cases or their pytest IDs.
+_PRIVATE_GRADE, _PRIVATE_SECTION = re.search(r'Class ([0-9]+)([A-Z])', LEGACY_MEMORY).groups()
+
+
+@pytest.mark.parametrize('alias_template', [
+    'grade {number}{section}',
+    'grade {number} {section}',
+    'grade {number}th {section}',
+    'class {number}th {section}',
+    'standard {number}th {section}',
+    'grade ninth {section}',
+    'ninth standard {section}',
+    '{number}th class {section}',
+    'ഗ്രേഡ് ഒമ്പതാം എസ്',
+    'ഒൻപതാം ക്ലാസ് എസ്',
+    'grade {number}, section {section}',
+    'grade {number} section {section}',
+    'grade {number}th, section {section}',
+    'ninth grade section {section}',
+    'ninth standard, section {section}',
+    'ഗ്രേഡ് ഒമ്പതാം, സെക്ഷൻ എസ്',
+], ids=['grade-joined', 'grade-spaced', 'grade-ordinal', 'class-ordinal',
+        'standard-ordinal', 'grade-word-ordinal', 'ordinal-before-standard',
+        'ordinal-before-class', 'malayalam-grade', 'malayalam-ordinal-first',
+        'grade-section-comma', 'grade-section-label', 'ordinal-section-comma',
+        'ordinal-grade-section', 'ordinal-standard-section-comma', 'malayalam-section-label'])
+def test_grade_and_ordinal_aliases_are_filtered_across_boundaries(tmp_path, alias_template):
+    alias = alias_template.format(number=_PRIVATE_GRADE, section=_PRIVATE_SECTION)
+    biography = 'The maker studies in ' + alias + '.'
+    science = 'A pulse lasts 9 s. Its area is 25 m². Water boils at 100 degrees Celsius.'
+    assert contains_identity(biography)
+    assert anonymous_memory(biography + ' ' + science) == science
+
+    class Echo(Fake):
+        def answer(self, memory, history, message):
+            self.seen.append((memory, history, message))
+            return biography
+
+    path = tmp_path / 'memory.txt'
+    path.write_text(biography + ' ' + science, encoding='utf-8')
+    provider = Echo()
+    app, client, token = client_for(path, provider)
+    assert path.read_text(encoding='utf-8') == science
+    assert client.post('/update', data={'csrf_token': token,
+                                      'memory_text': biography + ' ' + science}).status_code == 200
+    assert path.read_text(encoding='utf-8') == science
+    app.extensions['karen']['history'].extend([('user', biography), ('model', biography)])
+    response = post(client, token, 'How does rain form?')
+    assert provider.seen[-1][0] == science
+    assert all(not contains_identity(text) for _, text in provider.seen[-1][1])
+    assert response.json['reply'] == PRIVATE_REPLY
+    assert client.get('/requests/' + response.json['request_id']).json['reply'] == PRIVATE_REPLY
+    assert not contains_identity(client.get('/').get_data(as_text=True))
+    assert all(not contains_identity(text) for _, text in app.extensions['karen']['history'][-2:])
+
+
+@pytest.mark.parametrize('science', [
+    'The duration is 9 s; the area is 25 m² and the pulse lasts 10³ microseconds.',
+    'Classes 8–10 are HS. Grade 8 and class 10 are general competition categories.',
+    'The ninth harmonic is measured in Hz. A ninth-order filter can reduce noise.',
+    'ഒമ്പതാം ഹാർമോണിക്കിന്റെ ആവൃത്തി അളക്കാം. സ്പന്ദനത്തിന്റെ ദൈർഘ്യം 9 s ആണ്.',
+])
+def test_grade_alias_filter_preserves_general_science_context(science):
+    from exhibition_identity import anonymous_reply, anonymous_history
+    assert not contains_identity(science)
+    assert anonymous_memory(science) == science
+    assert anonymous_reply(science) == science
+    assert anonymous_history([('user', science), ('model', science)]) == [('user', science), ('model', science)]
+
+
+def test_grade_alias_filter_requires_the_complete_protected_section():
+    from exhibition_identity import anonymous_reply, anonymous_history
+    other_section = next(letter for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' if letter != _PRIVATE_SECTION)
+    examples = [
+        'The maker studies in grade ' + _PRIVATE_GRADE + '.',
+        'The maker studies in class ' + _PRIVATE_GRADE + 'th.',
+        'The maker studies in grade ' + _PRIVATE_GRADE + ', section ' + other_section + '.',
+        'A pulse lasts ' + _PRIVATE_GRADE + ' s.',
+    ]
+    for value in examples:
+        assert not contains_identity(value)
+        assert anonymous_memory(value) == value
+        assert anonymous_reply(value) == value
+        assert anonymous_history([('user', value)]) == [('user', value)]
 
 
 def test_new_install_has_anonymous_identity(tmp_path):
