@@ -35,6 +35,7 @@ def test_text_voice_privacy_and_no_provider_call(setup):
     r=client.post('/test_chat',json={'user_message':q},headers={'X-CSRF-Token':token})
     assert r.status_code==200 and r.json['sources']
     assert not provider.seen
+    assert client.get('/health').json['research']['fact_count'] > 230
     assert r.json['sources'][0]['url'] in client.get('/').text
     provider.transcribe=lambda data:q
     spoken=[]
@@ -42,3 +43,7 @@ def test_text_voice_privacy_and_no_provider_call(setup):
     r=client.post('/chat',data=pcm(),content_type='audio/wav')
     assert r.status_code==200 and spoken[0]==lookup(q)['reply']
     assert not provider.seen
+
+
+def test_general_science_after_fair_still_uses_provider():
+    assert lookup('How does rain form?', [('user','Kerala science fair history'),('model','1962')]) is None

@@ -40,7 +40,8 @@ def corpus():
 def lookup(question, history=()):
     """None means unrelated; unknown fair questions fail closed rather than guess."""
     q = normalize(question)
-    contextual = bool(history and FAIR.search(history[-2][1] if len(history)>1 else history[-1][1]))
+    followup = re.search(r'^(?:and |what about |how (?:long|many|much)|what (?:is|are) (?:its|the)|അതിന്റെ|അതിൽ|എത്ര|വീഡിയോ|മാർക്ക്)', q)
+    contextual = bool(followup and history and FAIR.search(history[-2][1] if len(history)>1 else history[-1][1]))
     if not FAIR.search(q) and not contextual:
         return None
     facts, sources = corpus()

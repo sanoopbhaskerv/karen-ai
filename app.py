@@ -312,7 +312,7 @@ def create_app(config=None, providers=None):
 
     @app.get('/health')
     def health():
-        result = dict(status='ok', mode='demo' if app.config['DEMO_MODE'] else 'live',
+        result = dict(status='ok', research={'fact_count':len(research_corpus()[0]), 'checked_on':'2026-11-01', 'method':'source_extracts'}, mode='demo' if app.config['DEMO_MODE'] else 'live',
                       provider=provider_name, configured=bool(app.config[provider_prefix + '_API_KEY']),
                       model=app.config[provider_prefix + '_MODEL'],
                       request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
