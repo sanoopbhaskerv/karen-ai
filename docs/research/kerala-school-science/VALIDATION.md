@@ -6,18 +6,25 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 403 |
-| Distinct registered source URLs | 398 |
+| Source records | 406 |
+| Distinct registered source URLs | 401 |
 | Topic source registers | 22 |
-| JSON files | 51 |
-| Concise English/Malayalam knowledge records | 222 |
-| Draft Malayalam evaluation questions | 200 |
+| JSON files | 52 |
+| Concise English/Malayalam knowledge records | 227 |
+| Draft Malayalam evaluation questions | 205 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
 | Kerala-school discovery rows | 105 |
-| Extended published model chapters | 11 |
-| Pages in those model chapters | 43 |
+| Selected Structure and Working chapters | 11 |
+| Pages in selected Structure and Working chapters | 43 |
+| Publisher-reproduced illustrative reports / canonical pages / reproductions | 1 / 4 / 2 |
+| TinyML guideline reproduction works / physical PDF pages | 2 / 110 |
+| TinyML guideline full-original target pages reviewed | 14 |
+| NCSM 2014–15 annual-report works / physical PDF pages | 1 / 219 |
+| SISF 2015 blog HTML bodies / received result images | 3 / 23 |
+| SISF 2015 report original pages / blog images reviewed | 5 / 6 |
+| SISF 2015 event / award-category / candidate-correspondence observations | 1 / 2 / 1 |
 | Separate SISF 2026 Kerala write-ups | 31 |
 | Content pages in those SISF write-ups | 49 |
 | Public SISF QR/unit records | 31 |
@@ -129,7 +136,7 @@ Repeated item codes, schools and source URLs across editions are versioned obser
 - For each of the ten historical overall result tables, the stored row count agrees with the extracted rows. All HTML data rows were accounted for, and the top five entries agree with independently retrieved landing-page summaries.
 - The observed grade/place counts reproduce all 6,379 displayed result totals. Cross-table school/district sums were calculated separately; the mismatches are retained in [RESULTS.md](RESULTS.md), rather than described as reconciled final outcomes.
 - Every local Markdown target and linked heading resolves. Whitespace checks passed. No downloaded source PDFs, source credentials or scratch environments are included in the research directory.
-- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eleven extended report chapters have valid full page ranges totalling 43 pages. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
+- All thirteen reviewed NCERT catalogue hashes and PDF page counts match the cached originals; the 105 discovery entries have unique edition/code keys, valid source references and in-range PDF pages. Eleven selected *Structure and Working* chapters have valid full page ranges totalling 43 pages. A separate canonical four-page publisher-reproduced TinyML illustrative report has two valid source-specific reproduction ranges and does not increase the selected-series count. Karen's preparation guide and proposed assistant/evaluation material exclude the known pupil biography and class section.
 - The eight national selection/form PDFs and two early government reports match their recorded hashes, byte sizes and page counts. All 14 selection rows, 20 separate form rows and six versioned findings have valid source/page references. Credits in the 35 previously indexed project records and the core fields in all 105 discovery rows remain unchanged; new evidence is linked separately. No private contact fields or photographs were copied into the derived selection index.
 
 - All 31 SISF entries have unique IDs, complete nonoverlapping ranges covering 49 content pages, valid category/page references and separate pupil/teacher credits. Their codes, local qualifying routes and prize fields remain null. Three links to focused award cases have separately located source-image codes; one remains a candidate. Original award credits are preserved beside the compendium versions. Derived records contain no private contacts or source images.
@@ -306,3 +313,11 @@ The first author follow-up passed 158 checks and its independent scoped review p
 Against `138e583`, all 403 earlier source objects preserve every old field, with exactly one new dated review field on source 89 and source 86 only. All 28 non-source JSON datasets, all 222 knowledge lines and all 200 evaluation lines remain byte-identical. The source count, 95 descriptions, 18 books, 6,597 physical pages and 508 author target pages do not increase. There is no new source ID, project, fact, evaluation, acquisition, OCR, runtime, retrieval, training, provider, hardware, merge or deployment change. The open historical/original-report gaps and Malayalam teacher-review requirement remain.
 
 The independent publication audit passed **6,978 checks**, recomputing all **112 inventory rows** and checking **333 local links/anchors**, 1,021 structured source-reference edges, 260 internal-reference edges and 365 fact-source edges. Both existing source bodies, raw headers and terminal receipts match, as do the exact fixed candidate sets and retained image provenance. Separate exact import/domain/privacy checks passed **25/25**; the existing source-bound historical-credit exception stays narrow and all other biography checks remain active. A wording correction distinguishes the first source’s 19 full-original-page reviews from full-prose reading. These checks establish integrity and finite-set review scope, without certifying every metadata transcript, whole-book absence, independent identity/science, historical completeness or teacher-approved Malayalam.
+
+The TinyML/SISF packet adds three sources and five English/Malayalam fact pairs with held-out evaluations 201–205. Existing source04 gains exactly one reviewed field; one existing TinyML case gains the exact report-source/evidence-kind/additive-chapter contract, preserving its original credits, year, catalogue locator, selection, prize, route and verification fields. All other old source fields/case objects, 27 unrelated non-source datasets and the 222/200 JSONL byte prefixes remain exact. The seven VITM-cycle dataset and 95 INSPIRE descriptions remain unchanged.
+
+The TinyML example is one canonical four-page publisher-reproduced illustrative report with two reproductions, not an original school log or an additional selected *Structure and Working* chapter. Its 14 full-original guideline-page reviews remain separate from the report’s four canonical pages. Source04’s institutional mirror matches its registered bytes; source96 is a distinct 52-page guideline edition. Neither the national IT label nor Pico/sensor hardware establishes Kerala 2026 Science-versus-IT registration or participant rules. Author checks passed 121; independent content/provenance checks passed 155 plus a 31-check category-boundary recheck. Malayalam educator approval remains pending.
+
+The separate SISF evidence dataset repeats one institution-reported event observation, two reproduced award-category records and one qualified correspondence; nested source observations are not extra events or prizes. Source97 is a complete 219-page received annual report, with five full target originals reviewed; its January/year/duration conflict is not repaired into ISO event dates. Source98 has three HTML publication bodies and 23 result images, with six full images visually reviewed and other result images screened by machine discovery. The canonical viewer, observed download chain, MIME/body distinctions and raw receipts remain separate. Author checks passed 383 and independent checks 425. Source branding does not independently authenticate the Blogger account or original sheets, establish payment/unique identity or validate the sweeper’s performance.
+
+The settled publication audit passed **6,474 checks**, independently recomputing all **119 inventory rows**, **343 local links/anchors**, 1,054 structured source-reference edges, 260 internal-reference edges and 376 fact-source edges. Exact reviewed source/case/dataset imports, preserved old fields and JSONL prefixes, 34 cached artifact/header/receipt checks and reviewed raster hashes agree. Those artifact checks include one discovery-only index and a byte-identical source04 mirror; neither is an extra publication or independent corroboration. Compressed HTML wire lengths are checked against curl transfer sizes separately from decoded cached-byte hashes. The initial wire/decoded-length checker assumption was corrected without changing the corpus. No new acquisition, parser, OCR, rendering, runtime or provider call was made for integration. These checks establish collection integrity and stated evidence scope, not exhaustive history, authenticated blog ownership/documents, verified attendance/payment/identity, scientific validation or teacher-approved Malayalam.

@@ -37,7 +37,47 @@
     "source_date": null,
     "notes": "Downloaded using curl after browser failures; all 58 PDF pages extracted with pypdf. Relevant PDF page31 visually inspected. Printed pp25–26,29 establish entry routes and different state/national weights.",
     "sha256": "e058f7b16ed427a3b25d47e770fe5add442909e064b495842422fcb37527cd93",
-    "edition_label": "2025-26"
+    "edition_label": "2025-26",
+    "tinyml_writeup_review_2026_11_01": {
+      "reviewed_on": "2026-11-01",
+      "review_kind": "Complete publisher-reproduced TinyML example reviewed",
+      "sample_pdf_pages_1based": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "sample_printed_pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "frontmatter_pdf_pages_visually_read": [
+        1,
+        3,
+        4
+      ],
+      "sample_kind": "Publisher-reproduced illustrative first-person write-up of an earlier exhibit",
+      "alternate_public_acquisition": {
+        "scope": "Byte-identical institutional mirror of the already registered source04 body; not a second source or independent corroboration.",
+        "request_url": "https://cdnbbsr.s3waas.gov.in/s3kv02a9825503c7670a8501226f173748/uploads/2025/11/2025111574.pdf",
+        "effective_url": "https://cdnbbsr.s3waas.gov.in/s3kv02a9825503c7670a8501226f173748/uploads/2025/11/2025111574.pdf",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "received_bytes": 3425167,
+        "sha256": "e058f7b16ed427a3b25d47e770fe5add442909e064b495842422fcb37527cd93",
+        "raw_headers_sha256": "ad549735d8239221c56d9f9978537af6b035526cf6204bb39b5d5ed86665480c",
+        "started_at_utc": "2026-11-01T09:31:37.943786+00:00",
+        "finished_at_utc": "2026-11-01T09:31:38.514122+00:00",
+        "body_received_complete": true
+      },
+      "method_paraphrase": "A reproduced first-person sample describes MPU6050 I2C sensing, Pico gesture classification, USB/HC-05 messages to Python games and Edge Impulse deployment. It reports ten minutes of training per gesture and neural-network, anomaly-detection and spectral-analysis options.",
+      "evidence_limits": "No dataset, trained-model file, exhibit-specific code, sample counts, hyperparameters, recognition evaluation or wheelchair trial is supplied. Signal screenshots and enthusiastic results are not independent performance evidence. Sample title/pupil/guide/hardware correspondence does not prove identity, unchanged version or division of work; the sample lacks the Malappuram address.",
+      "source_specific_version_note": "The IT Exhibit date area is masked here; the received 2024–25 guideline sample at source 96 PDF 40 visibly retains2023–24. No cause is inferred.",
+      "earlier_review_fields_preserved": true
+    }
   },
   {
     "id": "pathways-05",
@@ -5180,5 +5220,1178 @@
       "venue_as_published": "Pragati Maidan, New Delhi"
     },
     "notes": "Contemporary reported inauguration, separate from the 3 October plan and 8 October closing report. Article refers to annexure links, without those linked bodies being reviewed here. Programme-wide totals and historical rules are not fourth-event Kerala delegates or current Sasthrolsavam rules."
+  },
+  {
+    "id": "pathways-96",
+    "title": "NCERT RSBVP 2024–25 and 52nd RBVP 2025 guidelines, SCERT DESM Bihar-hosted copy",
+    "url": "https://www.scertdesmbihar.in/Guideline/2024-25/Complete_Guidelines_2024_25.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "institution_hosted_publisher_guidelines_with_reproduced_writeup",
+    "source_date": null,
+    "edition_label": "2024–25 / 52nd RBVP 2025",
+    "publisher_as_printed": "National Council of Educational Research and Training",
+    "hosting_scope": "SCERT DESM Bihar web host; the title page identifies NCERT as publisher. This is a publisher reproduction, not a school-origin log or code/data repository.",
+    "download_sha256": "ddb5ea207f077b4f6e99b9db7455e0a48c186659b762d8b39eb064c19fb560a6",
+    "download_bytes": 10197222,
+    "pdf_pages": 52,
+    "notes": "Complete received guideline book; cover/title/contents PDF1/3/4 and full TinyML example PDF40–43/printed34–37 visually read. The first-person sample names Ayaz Akbar and guide Sreenivasan T A; title, credits and hardware correspond to the existing 2023 case. It retains an IT Exhibit 2023–24 label. No exact publication day or unchanged-version/identity validation is established.",
+    "page_locators": [
+      {
+        "pdf_pages_1based": [
+          1,
+          3,
+          4
+        ],
+        "claim": "Printed 2024–25 / 52nd RBVP 2025 labels, NCERT title-page publisher and example contents; exact publication date unknown."
+      },
+      {
+        "pdf_pages_1based": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "printed_pages": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "claim": "Complete publisher-reproduced illustrative first-person TinyML account; training/construction and source-specific limits."
+      }
+    ],
+    "review_scope": {
+      "all_pages_native_extracted_for_discovery": 52,
+      "full_original_pages_visually_read": [
+        1,
+        3,
+        4,
+        40,
+        41,
+        42,
+        43
+      ],
+      "whole_book_human_read": false,
+      "native_layer_limit": "Image-only sample introduction/illustrations require original-page review; native nonmatches are not absence evidence.",
+      "render_warning": "Optional-content-group warning emitted; adopted target rasters are complete and legible.",
+      "copied_photos_or_private_fields": false
+    },
+    "download_provenance": {
+      "request_url": "https://www.scertdesmbihar.in/Guideline/2024-25/Complete_Guidelines_2024_25.pdf",
+      "effective_url": "https://www.scertdesmbihar.in/Guideline/2024-25/Complete_Guidelines_2024_25.pdf",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "received_bytes": 10197222,
+      "sha256": "ddb5ea207f077b4f6e99b9db7455e0a48c186659b762d8b39eb064c19fb560a6",
+      "raw_headers_sha256": "f538ee13652768a1fdd157363b4a3a94908ab67c4f5a71d25035ad1ecd4626b9",
+      "started_at_utc": "2026-11-01T09:31:37.946158+00:00",
+      "finished_at_utc": "2026-11-01T09:31:40.168532+00:00",
+      "body_received_complete": true
+    },
+    "version_scope": "The 2024 sample visibly prints IT Exhibit 2023–24; the corresponding area in source 04’s 2025–26 reproduction is masked. This does not explain why or prove an unchanged exhibit version.",
+    "method_paraphrase": "A reproduced first-person sample describes MPU6050 I2C sensing, Pico gesture classification, USB/HC-05 messages to Python games and Edge Impulse deployment. It reports ten minutes of training per gesture and neural-network, anomaly-detection and spectral-analysis options.",
+    "evidence_limits": "No dataset, trained-model file, exhibit-specific code, sample counts, hyperparameters, recognition evaluation or wheelchair trial is supplied. Signal screenshots and enthusiastic results are not independent performance evidence. Sample title/pupil/guide/hardware correspondence does not prove identity, unchanged version or division of work; the sample lacks the Malappuram address."
+  },
+  {
+    "id": "pathways-97",
+    "title": "NCSM Annual Report 2014–2015: received annual/audited-accounts PDF, including Activity Report section",
+    "url": "https://drive.google.com/file/d/0B2sxx9FjoulieExkN01nTmFBYVU/view",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_institution_annual_report_advertised_pdf",
+    "publisher": "National Council of Science Museums, Ministry of Culture, Government of India",
+    "document_date": null,
+    "reporting_cycle_as_published": "2014-2015",
+    "pdf_pages": 219,
+    "download_bytes": 26424051,
+    "download_sha256": "6ca9156c314fe67de5a7243adc53a92837be62ca6dee4dec8d9e00b2433be8fb",
+    "raw_headers_sha256": "f228d5d71ec0fe67a531edd32d2743b2d54ee6fa93b0dd1cc5f555354a333b14",
+    "acquisition_record_sha256": "008811f06d7f6c6600df4a26da1372ed9edfa5bc4ed36e77962aa08eedeedde9",
+    "tls_verified": true,
+    "complete_http_body_received": true,
+    "whole_original_publication_completeness_audited": false,
+    "publisher_index": {
+      "url": "https://ncsm.gov.in/resources/publications/annual-report",
+      "download_sha256": "d9173dc7231fc6cee35b5bd4d0c93fe77be4cf12519238f264996038c2b3e657",
+      "raw_headers_sha256": "b5a0afe40254025c5fb3c6689b56a92f21609517d1bbf0c41cb7148c8215dad9",
+      "advertised_link_text": "Annual Report 2014-15",
+      "advertised_viewer_url": "https://drive.google.com/file/d/0B2sxx9FjoulieExkN01nTmFBYVU/view"
+    },
+    "canonical_record_body": {
+      "requested_url": "https://drive.google.com/file/d/0B2sxx9FjoulieExkN01nTmFBYVU/view",
+      "effective_url": "https://drive.google.com/file/d/0B2sxx9FjoulieExkN01nTmFBYVU/view",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "tls_verified": true,
+      "retrieved_at_utc": "2026-11-01T09:30:47.175650+00:00",
+      "download_bytes": 91339,
+      "download_sha256": "9330cd23781e5bd40b69134fede5871c62aa0396a05697392492156a133fad1f",
+      "raw_headers_sha256": "554521ef037810b1d8a824c8a8957cddafe4ffd43dfb5dc41be4a8cccffe5774",
+      "acquisition_record_sha256": "0021ec3708b01ee3a255869cba653b0bfd9b4b326a8768e7ae3643d77711d67b",
+      "http_phases": [
+        {
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "content-encoding": "gzip"
+          }
+        }
+      ],
+      "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+    },
+    "advertised_pdf_download_url": "https://drive.usercontent.google.com/uc?id=0B2sxx9FjoulieExkN01nTmFBYVU&export=download",
+    "actual_pdf_acquisition": {
+      "requested_url": "https://drive.usercontent.google.com/uc?id=0B2sxx9FjoulieExkN01nTmFBYVU&export=download",
+      "effective_url": "https://drive.usercontent.google.com/download?id=0B2sxx9FjoulieExkN01nTmFBYVU&export=download",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "tls_verified": true,
+      "retrieved_at_utc": "2026-11-01T09:31:53.067072+00:00",
+      "download_bytes": 26424051,
+      "download_sha256": "6ca9156c314fe67de5a7243adc53a92837be62ca6dee4dec8d9e00b2433be8fb",
+      "raw_headers_sha256": "f228d5d71ec0fe67a531edd32d2743b2d54ee6fa93b0dd1cc5f555354a333b14",
+      "acquisition_record_sha256": "008811f06d7f6c6600df4a26da1372ed9edfa5bc4ed36e77962aa08eedeedde9",
+      "http_phases": [
+        {
+          "status": 303,
+          "headers": {
+            "content-type": "application/binary",
+            "location": "https://drive.usercontent.google.com/download?id=0B2sxx9FjoulieExkN01nTmFBYVU&export=download",
+            "content-length": "0"
+          }
+        },
+        {
+          "status": 200,
+          "headers": {
+            "content-type": "application/octet-stream",
+            "content-length": "26424051",
+            "last-modified": "Sat, 15 Jun 2019 17:31:54 GMT"
+          }
+        }
+      ],
+      "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+    },
+    "viewer_metadata_file_title": "NCSM Annual Report with Audited Accounts 2014-15 LR.pdf",
+    "viewer_metadata_file_size_bytes": 26424051,
+    "cover_title_as_published": "NCSM ANNUAL REPORT 2014-2015",
+    "internal_title_pdf3_as_published": "ACTIVITY REPORT 2014-2015",
+    "native_text_extraction": {
+      "pages": 219,
+      "characters": 411,
+      "empty_pages": 218,
+      "limit": "Sparse native layer; no absence conclusion from the extracted text."
+    },
+    "machine_discovery": {
+      "pages": 219,
+      "method": "One 110 dpi Poppler/Tesseract English discovery pass, max 2 workers/OMP 1",
+      "failures": 0,
+      "characters": 310351,
+      "scope": "Machine discovery only; no full 219-page prose, Hindi-translation, financial or activity audit."
+    },
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      3,
+      15,
+      16,
+      73
+    ],
+    "sisf_event_observation": {
+      "observation_id": "sisf-ncsm-annual-2014-15-thrissur",
+      "source_id": "pathways-97",
+      "reporting_cycle_as_published": "2014-2015",
+      "evidence_kind": "institution_reported_event_with_unreconciled_date_wording",
+      "ordinal_as_published": 28,
+      "event_label_as_published": "28th Southern India Science Fair",
+      "organiser_as_reported": "Visvesvaraya Industrial & Technological Museum, in collaboration with the Education Departments of Southern Indian States",
+      "host_as_reported": "Directorate of Public Instruction, Government of Kerala",
+      "venue_as_reported": "Thekkinkadu Maidan, Thrissur, Kerala",
+      "fair_range_as_published": "5th to 10th January",
+      "fair_calendar_year_explicit_in_cited_paragraph": null,
+      "inauguration_as_published": "20th January 2014",
+      "duration_as_published": "five-day event",
+      "date_reconciliation": "Unresolved. The inauguration wording falls outside the stated January day range, and the duration wording is retained without replacing it with a calculated interval. The reporting cycle is not silently promoted to an exact corrected event/inauguration year.",
+      "reported_populations": {
+        "students": 204,
+        "schools": 194,
+        "teachers_guiding_students": 143,
+        "southern_states": 5,
+        "student_category_exhibits": 143,
+        "teacher_category_exhibits": 56,
+        "visitors_students_teachers_general_public": 40000,
+        "scope": "Event-wide institution-reported units; not Kerala-only, a unique-person census, independent headcount, learning measurement or prize roster."
+      },
+      "evidence_locators": [
+        {
+          "pdf_page_1based": 15,
+          "printed_page": "13",
+          "scope": "VITM programme account explicitly begins 28th SISF statement."
+        },
+        {
+          "pdf_page_1based": 16,
+          "printed_page": "14",
+          "scope": "Statement continues with organiser collaboration, 5–10 January and Thekkinkadu/Thrissur."
+        },
+        {
+          "pdf_page_1based": 73,
+          "printed_page": "71",
+          "scope": "Separate fair account: ordinal, same venue/day range, host, literal inauguration 20 January 2014, event-wide populations and five-day wording."
+        }
+      ],
+      "independent_attendance_or_performance_verified": false,
+      "pupil_awards_supplied_by_cited_report_passages": false
+    },
+    "review_scope": "Actual cover/internal title and the relevant English SISF blocks on full-page originals 15/16/73 read. Entire received body screened through one English OCR pass after guarded full HTTP acquisition. No line-by-line bilingual, full 219-page prose, financial or photographic audit. The actual NCSM annual-report index advertises the public Drive viewer, which advertises the received payload URL; no auth, warning bypass or guessed endpoint.",
+    "notes": "The institution reports the 28th SISF at Thekkinkadu Maidan/Thrissur with Southern education departments and Kerala DPI host. Retain 5–10 January, its inconsistent 20 January 2014 inauguration and five-day wording literally. Source-local event-wide populations are not Kerala headcounts. The report does not list the cited sweeper award in the reviewed passages. A separately advertised 380 MB Activity Report yielded only a scan-size-warning HTML response and is not adopted or compared for content identity; received annual cover/internal Activity Report title stay distinct from that unrecovered download."
+  },
+  {
+    "id": "pathways-98",
+    "title": "Southern India Science Fair 2015 event-named blog: planning/poster and 23 reproduced result-sheet images",
+    "url": "https://sisf2015.blogspot.com/",
+    "accessed_on": "2026-11-01",
+    "source_type": "event_blog_reproduced_publication_bundle",
+    "publisher_as_displayed": "Southern India Science Fair 2015 / @sisf2015 Blogger account",
+    "document_date": null,
+    "event_year_as_published": 2015,
+    "institutional_ownership_independently_verified": false,
+    "original_result_document_authentication_independently_verified": false,
+    "canonical_Home_HTML_acquisition": {
+      "role": "Home",
+      "requested_url": "https://sisf2015.blogspot.com/",
+      "effective_url": "https://sisf2015.blogspot.com/",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "tls_verified": true,
+      "retrieved_at_utc": "2026-11-01T09:28:33.015280+00:00",
+      "download_bytes": 44326,
+      "download_sha256": "d3ed0f74d2d03e1497c83d551ad222791f53e066f10b8790d724b6e583050334",
+      "raw_headers_sha256": "960c25b0805c3e8b06caf5894f7ba2aa80474eb507d174902e8e11b0c49f9ee4",
+      "acquisition_record_sha256": "c207093ea179b86ee2c6340ef42b0abe5bb469829c1d3bc699835113ba1109ea",
+      "http_phases": [
+        {
+          "status": 200,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "last-modified": "Fri, 01 Nov 2024 10:41:08 GMT",
+            "etag": "W/\"4e148aaa84ea29aef27f433a3d49dc4081aaa827a841d7d049037af9cdc42288\"",
+            "content-encoding": "gzip",
+            "content-length": "10648"
+          }
+        }
+      ],
+      "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+    },
+    "publication_HTML_bodies": [
+      {
+        "role": "Home",
+        "requested_url": "https://sisf2015.blogspot.com/",
+        "effective_url": "https://sisf2015.blogspot.com/",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:28:33.015280+00:00",
+        "download_bytes": 44326,
+        "download_sha256": "d3ed0f74d2d03e1497c83d551ad222791f53e066f10b8790d724b6e583050334",
+        "raw_headers_sha256": "960c25b0805c3e8b06caf5894f7ba2aa80474eb507d174902e8e11b0c49f9ee4",
+        "acquisition_record_sha256": "c207093ea179b86ee2c6340ef42b0abe5bb469829c1d3bc699835113ba1109ea",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "text/html; charset=UTF-8",
+              "last-modified": "Fri, 01 Nov 2024 10:41:08 GMT",
+              "etag": "W/\"4e148aaa84ea29aef27f433a3d49dc4081aaa827a841d7d049037af9cdc42288\"",
+              "content-encoding": "gzip",
+              "content-length": "10648"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "role": "About SISF",
+        "requested_url": "https://sisf2015.blogspot.com/p/program-schedule.html",
+        "effective_url": "https://sisf2015.blogspot.com/p/program-schedule.html",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:28:32.979902+00:00",
+        "download_bytes": 31924,
+        "download_sha256": "6c0651545d162e20b88930063c854a2df543c017bc32988aef4cadec66655c86",
+        "raw_headers_sha256": "1799b8dd1e99294e3bb1aee1058583ed93c21d14be0f6b13aaed3adbc0bdb889",
+        "acquisition_record_sha256": "99c7f44c0328205acb718f3e651a193a110d282f19fb415b822f9792fdaf0a93",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "text/html; charset=UTF-8",
+              "last-modified": "Fri, 01 Nov 2024 10:41:08 GMT",
+              "etag": "W/\"4e148aaa84ea29aef27f433a3d49dc4081aaa827a841d7d049037af9cdc42288\"",
+              "content-encoding": "gzip",
+              "content-length": "7748"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "role": "Results",
+        "requested_url": "https://sisf2015.blogspot.com/p/results.html",
+        "effective_url": "https://sisf2015.blogspot.com/p/results.html",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:28:32.928065+00:00",
+        "download_bytes": 46472,
+        "download_sha256": "655d14794e6065df7c938214c037fba89ec2cb1c5e764a441fd5f29c540311e4",
+        "raw_headers_sha256": "d783324d78fc2d2383468b802d8e943132ca1c3ef4ab7dd015d7d92f08eef258",
+        "acquisition_record_sha256": "14da41333cd1526fc16a54bae8b9db77f3b94e447ca8b43df1b5e05547c57044",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "text/html; charset=UTF-8",
+              "last-modified": "Fri, 01 Nov 2024 10:41:08 GMT",
+              "etag": "W/\"4e148aaa84ea29aef27f433a3d49dc4081aaa827a841d7d049037af9cdc42288\"",
+              "content-encoding": "gzip",
+              "content-length": "10904"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      }
+    ],
+    "about_publication_image": {
+      "advertised_parent_url": "https://sisf2015.blogspot.com/p/program-schedule.html",
+      "heading_as_displayed": "A Glimpse into the Southern India Science Fair 2015",
+      "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIiCbrCctZhU1UumqT3JISuEePvApghwZaOZP8Rg65Scf-2mMirWDviMaNuxr0osFJhQZWjz03xnFWL4mOJ1TVmW6tWPX3swJN44yvQS6DQ-k1vODBmaL7DXLT00E58Qr2kfEM1ZFi60dt/s1600/science+Fair.JPG",
+      "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIiCbrCctZhU1UumqT3JISuEePvApghwZaOZP8Rg65Scf-2mMirWDviMaNuxr0osFJhQZWjz03xnFWL4mOJ1TVmW6tWPX3swJN44yvQS6DQ-k1vODBmaL7DXLT00E58Qr2kfEM1ZFi60dt/s1600/science+Fair.JPG",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "tls_verified": true,
+      "retrieved_at_utc": "2026-11-01T09:30:12.154320+00:00",
+      "download_bytes": 421211,
+      "download_sha256": "d46833cc50afd7cb453dc8f5e7e6fc6e027cc617c270059cdfec17685c6f237c",
+      "raw_headers_sha256": "784243895d920763923f5a306bca283483c6b5ec95ee90416788f362516e87b7",
+      "acquisition_record_sha256": "abaa8afd08d596b15b4f6378c835d5fe737ca8d0cba65b9b2992e951908ee9aa",
+      "http_phases": [
+        {
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg",
+            "etag": "\"vfe\"",
+            "content-length": "421211"
+          }
+        }
+      ],
+      "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+    },
+    "home_poster_image": {
+      "advertised_parent_url": "https://sisf2015.blogspot.com/",
+      "date_range_as_displayed": "2015 January 5–10, Thrissur, Kerala",
+      "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIvcgOOjsTeMcata_z9AQhrGEjmOeBW93o_SOybKYsoS4altmRspiGlk70LSOmPn_ij1CWERKG8YNlxnlkCDVl8oheTdyzU4R1CAlBB9Z6we7D97EDVSeI7vufX0wgvVv0QuYCZLegsAcl/s1600/Science_fair_poster.jpg",
+      "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIvcgOOjsTeMcata_z9AQhrGEjmOeBW93o_SOybKYsoS4altmRspiGlk70LSOmPn_ij1CWERKG8YNlxnlkCDVl8oheTdyzU4R1CAlBB9Z6we7D97EDVSeI7vufX0wgvVv0QuYCZLegsAcl/s1600/Science_fair_poster.jpg",
+      "http_status": 200,
+      "curl_exit": 0,
+      "tls_verify_result": 0,
+      "tls_verified": true,
+      "retrieved_at_utc": "2026-11-01T09:30:11.625717+00:00",
+      "download_bytes": 142727,
+      "download_sha256": "b36b42b1f8a7694057451e15ba3361a13e794f4de685a4b0cc3d376f708cf757",
+      "raw_headers_sha256": "c4a0d86809db763be55ae2a3000f7d72f069b983e2a10b2138159d9ccca195f6",
+      "acquisition_record_sha256": "3dfef9212f7aaae721be52d159b94595632b1669d2d0dde9a9a1e18dea4cf121",
+      "http_phases": [
+        {
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg",
+            "etag": "\"v39\"",
+            "content-length": "142727"
+          }
+        }
+      ],
+      "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+    },
+    "result_sheet_images": [
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikA9C-Bu_WUCmEeZya7MPQ2Wur6SCz_QJ8_aVuywh-S0sfiKrxxZ3zKl4uUVw-0yUttF15WF1KPaGSQHesBdAxxZY4WOLQapG-l2kpJcse44Vkn5aT_A3JXP3KylNdZpwoJYAE2Xx_tiEq/s1600/img007.jpg",
+        "advertised_image_sequence_index": 1,
+        "printed_page_visually_verified": 1,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikA9C-Bu_WUCmEeZya7MPQ2Wur6SCz_QJ8_aVuywh-S0sfiKrxxZ3zKl4uUVw-0yUttF15WF1KPaGSQHesBdAxxZY4WOLQapG-l2kpJcse44Vkn5aT_A3JXP3KylNdZpwoJYAE2Xx_tiEq/s1600/img007.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikA9C-Bu_WUCmEeZya7MPQ2Wur6SCz_QJ8_aVuywh-S0sfiKrxxZ3zKl4uUVw-0yUttF15WF1KPaGSQHesBdAxxZY4WOLQapG-l2kpJcse44Vkn5aT_A3JXP3KylNdZpwoJYAE2Xx_tiEq/s1600/img007.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:30:11.811577+00:00",
+        "download_bytes": 418506,
+        "download_sha256": "dde1ca4aa8771b6a1010321c79c3471a092305c2a7e1c0763d665e9bb8ca99c3",
+        "raw_headers_sha256": "1401a49dcaf08c6d43a7ee6970301966a642badf6bbdda9fed242ee51e190659",
+        "acquisition_record_sha256": "425c100e7cce0ab9066d2b92999b5d76c8483b167dc2dcb81d44ab6cb58f86dc",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v160\"",
+              "content-length": "418506"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicbvBq1cegHVt0DyQn9yeM2PIDPx85B8SheY7BRX0ae9Sa_heBi_kgA47WznxsimR1wBngq-uPoDHAWoJ03eYgig_zqRmuAabHUOMmM2sEeZDOZMzmVd0zSVn0kqef1sQ8cceIw_GbgcZZ/s1600/img008.jpg",
+        "advertised_image_sequence_index": 2,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicbvBq1cegHVt0DyQn9yeM2PIDPx85B8SheY7BRX0ae9Sa_heBi_kgA47WznxsimR1wBngq-uPoDHAWoJ03eYgig_zqRmuAabHUOMmM2sEeZDOZMzmVd0zSVn0kqef1sQ8cceIw_GbgcZZ/s1600/img008.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicbvBq1cegHVt0DyQn9yeM2PIDPx85B8SheY7BRX0ae9Sa_heBi_kgA47WznxsimR1wBngq-uPoDHAWoJ03eYgig_zqRmuAabHUOMmM2sEeZDOZMzmVd0zSVn0kqef1sQ8cceIw_GbgcZZ/s1600/img008.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:23.651268+00:00",
+        "download_bytes": 454751,
+        "download_sha256": "450bf77004db6dfeeab3944f050601a925c060956c14650f717b15c4155ad50f",
+        "raw_headers_sha256": "00adcd2b9808b4a43ead3e2518ddb33098306cd1707c11e0e17af8a3636e1693",
+        "acquisition_record_sha256": "3c3f5ed574fcc4894daa7feefdad234e63f72214110a9338d4d8e801c668b07b",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v12f\"",
+              "content-length": "454751"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiC0YP2N4f8-7cOmpjq25Lrc1mqByageDQqKJZA6D3GFfe2yxuapkJNCBmYm5t6noCigP05eEZ1IorrQlBbeNrV-mXK9heggeqHpZPVCBVmx9MHOi7GujvSn9npzJEgoC6GmzIjtPl8Gn/s1600/img009.jpg",
+        "advertised_image_sequence_index": 3,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiC0YP2N4f8-7cOmpjq25Lrc1mqByageDQqKJZA6D3GFfe2yxuapkJNCBmYm5t6noCigP05eEZ1IorrQlBbeNrV-mXK9heggeqHpZPVCBVmx9MHOi7GujvSn9npzJEgoC6GmzIjtPl8Gn/s1600/img009.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUiC0YP2N4f8-7cOmpjq25Lrc1mqByageDQqKJZA6D3GFfe2yxuapkJNCBmYm5t6noCigP05eEZ1IorrQlBbeNrV-mXK9heggeqHpZPVCBVmx9MHOi7GujvSn9npzJEgoC6GmzIjtPl8Gn/s1600/img009.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:23.697038+00:00",
+        "download_bytes": 344780,
+        "download_sha256": "356afdfc243380f51ed73cbc998ed23127b6f0001453911eaa2a6fba6e908587",
+        "raw_headers_sha256": "5a6e592e2eba4070f36f3579215e0eef43254ddde3d5c68c570b40f3ffe20a40",
+        "acquisition_record_sha256": "f44eadd04fd8fcecd1ebe6b752a62f87b770ef73fdbfb68ac2e93ab80f771143",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v12d\"",
+              "content-length": "344780"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcnAX-jhEfuEUSbT3sUVt0-3EpoZZ1zVkEoKnG6OH4iPEn6T_F_g5hjnV2gR52wNpBfMYJxGhHwPoGxZJ8QBkh_p6rNAERBgCsxlqv4XQKTM8zF1ixlDErD69cfbWnzrsuAidEKhSyLXTK/s1600/img010.jpg",
+        "advertised_image_sequence_index": 4,
+        "printed_page_visually_verified": 4,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcnAX-jhEfuEUSbT3sUVt0-3EpoZZ1zVkEoKnG6OH4iPEn6T_F_g5hjnV2gR52wNpBfMYJxGhHwPoGxZJ8QBkh_p6rNAERBgCsxlqv4XQKTM8zF1ixlDErD69cfbWnzrsuAidEKhSyLXTK/s1600/img010.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcnAX-jhEfuEUSbT3sUVt0-3EpoZZ1zVkEoKnG6OH4iPEn6T_F_g5hjnV2gR52wNpBfMYJxGhHwPoGxZJ8QBkh_p6rNAERBgCsxlqv4XQKTM8zF1ixlDErD69cfbWnzrsuAidEKhSyLXTK/s1600/img010.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:23.847529+00:00",
+        "download_bytes": 455007,
+        "download_sha256": "75fb5a842efee7354cb983febf5db254ddd0e22fff37610bfcbaae1d4ae7bfa1",
+        "raw_headers_sha256": "8cd6bfc6ff48d9a634d0f33c9de1c6e0dfbb77c4f3f1b27d913e1ffd6f120da5",
+        "acquisition_record_sha256": "6e58140a4a84f69ab9f4ffff339c198d94de2ace6533354bcdd5ef24bec7a529",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v133\"",
+              "content-length": "455007"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXtl21CkrTYfKxS40PMoM2ISHOIRxR7lufzXYska8YwDV4IhCJ3lLV9bOEcH4_OSRU2FpE-TNbgzJkd11peDoQvLu0IsEcj-nbZ4DFtJYcUV-Qdyovkc9IKeWMxEdAweFBYANYxDLJRibb/s1600/img011.jpg",
+        "advertised_image_sequence_index": 5,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXtl21CkrTYfKxS40PMoM2ISHOIRxR7lufzXYska8YwDV4IhCJ3lLV9bOEcH4_OSRU2FpE-TNbgzJkd11peDoQvLu0IsEcj-nbZ4DFtJYcUV-Qdyovkc9IKeWMxEdAweFBYANYxDLJRibb/s1600/img011.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXtl21CkrTYfKxS40PMoM2ISHOIRxR7lufzXYska8YwDV4IhCJ3lLV9bOEcH4_OSRU2FpE-TNbgzJkd11peDoQvLu0IsEcj-nbZ4DFtJYcUV-Qdyovkc9IKeWMxEdAweFBYANYxDLJRibb/s1600/img011.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:23.735220+00:00",
+        "download_bytes": 379980,
+        "download_sha256": "4f8443cecb4161255acaaee197c0195202192271d2eb08d9bed2a34524aad0ad",
+        "raw_headers_sha256": "b23c2333cc15f405372e8f0790fbfe86c140438673632c5f3fd542950599d2d4",
+        "acquisition_record_sha256": "5b45208de26b6b39eca75f0d15d07b48f9bf7617bb6a1155361bb55467c3c7f9",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v136\"",
+              "content-length": "379980"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1IH96YPGlW0LTSY2l4X-oxLbyD2VfcuV35s0HrFJMliOWC-BKC97Ir-ksHEo7KvpOx-gYv1vD8IAdVWc4U4giC7Lp9XjKjhRVeDgXUc3Wx2XW95t0067y3HuHhbUlbU6G0mLAkFMJ2_9/s1600/img012.jpg",
+        "advertised_image_sequence_index": 6,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1IH96YPGlW0LTSY2l4X-oxLbyD2VfcuV35s0HrFJMliOWC-BKC97Ir-ksHEo7KvpOx-gYv1vD8IAdVWc4U4giC7Lp9XjKjhRVeDgXUc3Wx2XW95t0067y3HuHhbUlbU6G0mLAkFMJ2_9/s1600/img012.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1IH96YPGlW0LTSY2l4X-oxLbyD2VfcuV35s0HrFJMliOWC-BKC97Ir-ksHEo7KvpOx-gYv1vD8IAdVWc4U4giC7Lp9XjKjhRVeDgXUc3Wx2XW95t0067y3HuHhbUlbU6G0mLAkFMJ2_9/s1600/img012.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:25.784821+00:00",
+        "download_bytes": 370941,
+        "download_sha256": "f7c3237866eac5a77f6464245041cfe181ec7ebf096323e76323b6dc4206c475",
+        "raw_headers_sha256": "20079f20e45250844b8d2fe6b24541cb04b29925fe57498fd462ec40a7a74109",
+        "acquisition_record_sha256": "cd844ac9e5f03bed057d36ed955dba60370ce87a994539c6ba1473469b3c411c",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v135\"",
+              "content-length": "370941"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7xTBRpzAuc8YtVEUhvC5gAB9tr0Ble6C9_PvTDjyJR9EC7KG8Jhox4uiE2UwlanskE0cVtzpdtp-eoGQ0qliOfNz65TN1VeiiQkVjI6ozwukG-Vt5tw8y0POzZs8iqQ2xQonHzPiymwUQ/s1600/img013.jpg",
+        "advertised_image_sequence_index": 7,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7xTBRpzAuc8YtVEUhvC5gAB9tr0Ble6C9_PvTDjyJR9EC7KG8Jhox4uiE2UwlanskE0cVtzpdtp-eoGQ0qliOfNz65TN1VeiiQkVjI6ozwukG-Vt5tw8y0POzZs8iqQ2xQonHzPiymwUQ/s1600/img013.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7xTBRpzAuc8YtVEUhvC5gAB9tr0Ble6C9_PvTDjyJR9EC7KG8Jhox4uiE2UwlanskE0cVtzpdtp-eoGQ0qliOfNz65TN1VeiiQkVjI6ozwukG-Vt5tw8y0POzZs8iqQ2xQonHzPiymwUQ/s1600/img013.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:25.680165+00:00",
+        "download_bytes": 400109,
+        "download_sha256": "fe44dcb7dab18cb3909cf2e7bdc5c2d4b48dfc8faf4989fc208e451481d0fca6",
+        "raw_headers_sha256": "94161cec1fe552e17a0e1da1f6a28882c4b405f1eba7fe908e10dd557de2693e",
+        "acquisition_record_sha256": "f303007b6877d1d6168f3ed6b342a8c6f2cd26dfb8a335a46f826e37b818c37c",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v138\"",
+              "content-length": "400109"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-FoWQ_eCdMq2A2-_COcaztRe88QRPcro8T8LGS0uJ6T2kDEhHORWpSO3px2mCYQmITb_tVjVALTh-o64T-4gSsbC3tInRnmU2RtUcjtOp0LekoxZWpbNFe6TQwl-L2tLI1x1nmE-GP5VQ/s1600/img014.jpg",
+        "advertised_image_sequence_index": 8,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-FoWQ_eCdMq2A2-_COcaztRe88QRPcro8T8LGS0uJ6T2kDEhHORWpSO3px2mCYQmITb_tVjVALTh-o64T-4gSsbC3tInRnmU2RtUcjtOp0LekoxZWpbNFe6TQwl-L2tLI1x1nmE-GP5VQ/s1600/img014.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-FoWQ_eCdMq2A2-_COcaztRe88QRPcro8T8LGS0uJ6T2kDEhHORWpSO3px2mCYQmITb_tVjVALTh-o64T-4gSsbC3tInRnmU2RtUcjtOp0LekoxZWpbNFe6TQwl-L2tLI1x1nmE-GP5VQ/s1600/img014.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:26.072885+00:00",
+        "download_bytes": 373136,
+        "download_sha256": "d241ec5018de8d2c03c43869dcff4c9ac87bd3691b8a99aa91048def8f469be7",
+        "raw_headers_sha256": "190c091d0166a626427f44b7645dbb709ce172bdcf6dfde2a6dd452c03f8515a",
+        "acquisition_record_sha256": "d644a408ac1142ab94d27e3fc093b948463e19f5797bdec187401c42fc2c0188",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v139\"",
+              "content-length": "373136"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZiJJPLo6-RPnW3ghspTj0Y3moFVxGc2gB_iBVBHLTByQxPO-uObJNq10I3oolVv0joinMnWyYjIt-l2QKNf8zS8E55OePfx24L68SOH9gz9hyphenhyphenSzJGmR19ucdBnNa3TNl7_crB6a020Tm-/s1600/img015.jpg",
+        "advertised_image_sequence_index": 9,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZiJJPLo6-RPnW3ghspTj0Y3moFVxGc2gB_iBVBHLTByQxPO-uObJNq10I3oolVv0joinMnWyYjIt-l2QKNf8zS8E55OePfx24L68SOH9gz9hyphenhyphenSzJGmR19ucdBnNa3TNl7_crB6a020Tm-/s1600/img015.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZiJJPLo6-RPnW3ghspTj0Y3moFVxGc2gB_iBVBHLTByQxPO-uObJNq10I3oolVv0joinMnWyYjIt-l2QKNf8zS8E55OePfx24L68SOH9gz9hyphenhyphenSzJGmR19ucdBnNa3TNl7_crB6a020Tm-/s1600/img015.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:26.236555+00:00",
+        "download_bytes": 386949,
+        "download_sha256": "79e12d15bb1439b037db82b6c34928bb0e88e1605bfd2e71e16db1fc6f817074",
+        "raw_headers_sha256": "69fd860e573701638aa63bddd196ffc4847fdd0d56300aff088a7527ae8ac955",
+        "acquisition_record_sha256": "499796a38162df2c6263ad9bb80e9cde9449364b4ff8b2df4781ae179ce5fc2c",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v13e\"",
+              "content-length": "386949"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVsb8Qo3OF3xZKbZmukyVWCcKUWxHxjGjXyPkrhcGpEGfOemW4Akqr83PggEGdl8F9zyMtiG5C_tgU-071XppgHDKowrE6vPagbrPWmjIuikZji0_nLHcCfrqbitiijLgpNl21an5f6vtY/s1600/img016.jpg",
+        "advertised_image_sequence_index": 10,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVsb8Qo3OF3xZKbZmukyVWCcKUWxHxjGjXyPkrhcGpEGfOemW4Akqr83PggEGdl8F9zyMtiG5C_tgU-071XppgHDKowrE6vPagbrPWmjIuikZji0_nLHcCfrqbitiijLgpNl21an5f6vtY/s1600/img016.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVsb8Qo3OF3xZKbZmukyVWCcKUWxHxjGjXyPkrhcGpEGfOemW4Akqr83PggEGdl8F9zyMtiG5C_tgU-071XppgHDKowrE6vPagbrPWmjIuikZji0_nLHcCfrqbitiijLgpNl21an5f6vtY/s1600/img016.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:27.673500+00:00",
+        "download_bytes": 368929,
+        "download_sha256": "95254a10ff584a19262e276304837cf28cb191b44adb753732cd718b7ae4deb1",
+        "raw_headers_sha256": "3df9649cb9df76b4e65ea645c3ce3e0735482cf3bee941e7bed1401bef8ffc5f",
+        "acquisition_record_sha256": "8323c174316bc08c150a641297ecd200911ab43b5988e45d5a5ea2fed6729db6",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v13d\"",
+              "content-length": "368929"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScc0rhyphenhyphen-vPmc8Oy0Gl_0NykqIouVzCb03rU2buYLYyoTjYGOtm15cEHQhITnpAk6-3_SshMlV9X9u-s5ia__WYSiLlIdjkJwy9oTvzkM7NU9vHvfm44aNKJFLyvGkeG8g-ZbZe1KvUg09/s1600/img017.jpg",
+        "advertised_image_sequence_index": 11,
+        "printed_page_visually_verified": 11,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScc0rhyphenhyphen-vPmc8Oy0Gl_0NykqIouVzCb03rU2buYLYyoTjYGOtm15cEHQhITnpAk6-3_SshMlV9X9u-s5ia__WYSiLlIdjkJwy9oTvzkM7NU9vHvfm44aNKJFLyvGkeG8g-ZbZe1KvUg09/s1600/img017.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScc0rhyphenhyphen-vPmc8Oy0Gl_0NykqIouVzCb03rU2buYLYyoTjYGOtm15cEHQhITnpAk6-3_SshMlV9X9u-s5ia__WYSiLlIdjkJwy9oTvzkM7NU9vHvfm44aNKJFLyvGkeG8g-ZbZe1KvUg09/s1600/img017.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:27.525274+00:00",
+        "download_bytes": 371139,
+        "download_sha256": "42262886c3d3084ab7b811f98c91eb0a5ecd6d1b97a6085d2fffef0724b56dcb",
+        "raw_headers_sha256": "216a622c4d0652a042fd8373db77b47abf64b1077259023d8e45b874ac629b78",
+        "acquisition_record_sha256": "d788df3fcfeb80a83956500c57a5e935b2be660ac18e6bc17f625368a6de0bd4",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v13f\"",
+              "content-length": "371139"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj38iGayDIL-uKacmsnfJEpCrohmMBiimgagnx9TL0W-A35Y-AGlJEI56AZmXhoaYi-Zfh7_0KBLuq4Wjfe_3odu5puwav2wC9coERCoPJPr6K6hOI4i0USH_x-jWf7JouxVLRZweMkEzlD/s1600/img018.jpg",
+        "advertised_image_sequence_index": 12,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj38iGayDIL-uKacmsnfJEpCrohmMBiimgagnx9TL0W-A35Y-AGlJEI56AZmXhoaYi-Zfh7_0KBLuq4Wjfe_3odu5puwav2wC9coERCoPJPr6K6hOI4i0USH_x-jWf7JouxVLRZweMkEzlD/s1600/img018.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj38iGayDIL-uKacmsnfJEpCrohmMBiimgagnx9TL0W-A35Y-AGlJEI56AZmXhoaYi-Zfh7_0KBLuq4Wjfe_3odu5puwav2wC9coERCoPJPr6K6hOI4i0USH_x-jWf7JouxVLRZweMkEzlD/s1600/img018.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:27.945379+00:00",
+        "download_bytes": 400541,
+        "download_sha256": "de82e55e15e51cc8e166f8794f497730117d6e67d703ffaf75e3511e7ac936ec",
+        "raw_headers_sha256": "854ab499f57185b73228ac05f012d85713dd80a920598e668190ccf8db2abe7b",
+        "acquisition_record_sha256": "093db331f97c1a31c5bd32034b9ac28feda1c8894ff35a44480fb112ef28bdfe",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v141\"",
+              "content-length": "400541"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgphXfxZy51vn56Mh1ldw4bsN1mBWyEqUy6C4ZVBSD5JHagPY7jK0RHv7wOQUXjazyMpbF_iGoWxVpbDKRbr6lNmFRuzYaQmMpUuUvEd8VTShvJWL-slnI0hzqIueqoMp-xNkcs2VSvH78h/s1600/img019.jpg",
+        "advertised_image_sequence_index": 13,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgphXfxZy51vn56Mh1ldw4bsN1mBWyEqUy6C4ZVBSD5JHagPY7jK0RHv7wOQUXjazyMpbF_iGoWxVpbDKRbr6lNmFRuzYaQmMpUuUvEd8VTShvJWL-slnI0hzqIueqoMp-xNkcs2VSvH78h/s1600/img019.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgphXfxZy51vn56Mh1ldw4bsN1mBWyEqUy6C4ZVBSD5JHagPY7jK0RHv7wOQUXjazyMpbF_iGoWxVpbDKRbr6lNmFRuzYaQmMpUuUvEd8VTShvJWL-slnI0hzqIueqoMp-xNkcs2VSvH78h/s1600/img019.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:28.649156+00:00",
+        "download_bytes": 430928,
+        "download_sha256": "b6ef0e81ea8e1fcf9a5df72fcdf34e4cf48a3ecae75423e1d6286ecce71e703c",
+        "raw_headers_sha256": "24996ed8793b4f42e9a0094e7aa6cd22dba1a4a053f2869c418fd14bc66a349f",
+        "acquisition_record_sha256": "6c1f083bbbea481a8a6d436a98594817e959eae31efac84e888fbba389fbe3f8",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v145\"",
+              "content-length": "430928"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgrgmtfTN55OncA2MMpgNRE-AGi1WGfnQ0wqvzWisQKqRzDCfToBJZ7wNI-oqcNq973nPcAqabeoGf73lFH0UO0GJvh1MxJ_Pj7gNbDcPCvKQNlDfBZ1iduVCmXFyuAmP3f6-uTeJMbCj/s1600/img020.jpg",
+        "advertised_image_sequence_index": 14,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgrgmtfTN55OncA2MMpgNRE-AGi1WGfnQ0wqvzWisQKqRzDCfToBJZ7wNI-oqcNq973nPcAqabeoGf73lFH0UO0GJvh1MxJ_Pj7gNbDcPCvKQNlDfBZ1iduVCmXFyuAmP3f6-uTeJMbCj/s1600/img020.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgrgmtfTN55OncA2MMpgNRE-AGi1WGfnQ0wqvzWisQKqRzDCfToBJZ7wNI-oqcNq973nPcAqabeoGf73lFH0UO0GJvh1MxJ_Pj7gNbDcPCvKQNlDfBZ1iduVCmXFyuAmP3f6-uTeJMbCj/s1600/img020.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:29.817712+00:00",
+        "download_bytes": 373776,
+        "download_sha256": "4bda6b252a1130c9620951a8514c9204cfcffc7ba92ccf26a0687b61b4e52207",
+        "raw_headers_sha256": "cce6ab54d549245c4af34a2d49ac9a9f0fe246654c10645a39c7bc38ec8974f1",
+        "acquisition_record_sha256": "617bad1a49d256bf2a2a808f50b604908def17c4d7d997dc1b1da36a69fcc20b",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v146\"",
+              "content-length": "373776"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbr7_OALbMU2pHHo3JajoVlErf61WSX7uiNxwiMtOZIeMzbwVnFxNgf3bW_DWeeJuX1d4NLWJgTK4raBmspemAdys3l4Y-BppsxeM62LGytQ9puKUfvAsi4FGl3Bpdip8tQTDOUPEUsF2/s1600/img021.jpg",
+        "advertised_image_sequence_index": 15,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbr7_OALbMU2pHHo3JajoVlErf61WSX7uiNxwiMtOZIeMzbwVnFxNgf3bW_DWeeJuX1d4NLWJgTK4raBmspemAdys3l4Y-BppsxeM62LGytQ9puKUfvAsi4FGl3Bpdip8tQTDOUPEUsF2/s1600/img021.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbr7_OALbMU2pHHo3JajoVlErf61WSX7uiNxwiMtOZIeMzbwVnFxNgf3bW_DWeeJuX1d4NLWJgTK4raBmspemAdys3l4Y-BppsxeM62LGytQ9puKUfvAsi4FGl3Bpdip8tQTDOUPEUsF2/s1600/img021.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:29.959983+00:00",
+        "download_bytes": 398896,
+        "download_sha256": "63200b5c3b280c86759863b702b97a76ce0d71ac8144d28c6dcc21dc4b02ec5e",
+        "raw_headers_sha256": "f196fa549a7b1932fa07fe253796a60cbc7dafbef45efbc5067e50258964987f",
+        "acquisition_record_sha256": "3a6c449efc8e559bd5bf75258bdd633c5529551845f67ac3c6f30ebd56354280",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v147\"",
+              "content-length": "398896"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBTMoKuzfmPp7jdlYRne__Mt5-c1Ia25Aw0K2X0bBpXsD2aHQbAiPo2eNYszvFZabDbBAi8OT6lvRhoNe1EbI0FuxiiiHf2aFPMac58HAedL6t71M4vuUL8dhNzaDb0Iw1hLWHPaSRgCPk/s1600/img022.jpg",
+        "advertised_image_sequence_index": 16,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBTMoKuzfmPp7jdlYRne__Mt5-c1Ia25Aw0K2X0bBpXsD2aHQbAiPo2eNYszvFZabDbBAi8OT6lvRhoNe1EbI0FuxiiiHf2aFPMac58HAedL6t71M4vuUL8dhNzaDb0Iw1hLWHPaSRgCPk/s1600/img022.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBTMoKuzfmPp7jdlYRne__Mt5-c1Ia25Aw0K2X0bBpXsD2aHQbAiPo2eNYszvFZabDbBAi8OT6lvRhoNe1EbI0FuxiiiHf2aFPMac58HAedL6t71M4vuUL8dhNzaDb0Iw1hLWHPaSRgCPk/s1600/img022.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:30.529290+00:00",
+        "download_bytes": 387682,
+        "download_sha256": "ad110307d42f1d1a854df4b4f326d4b9f2e3760dc818daf53152878cdade98fe",
+        "raw_headers_sha256": "ca8b632132a56b2863776765478b464812d10d0b6be477c06dbe37344aded88e",
+        "acquisition_record_sha256": "543ae6ddb62dff6803d4743a0160750b9071d0e4ea90f75ce8b99812f5605287",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v149\"",
+              "content-length": "387682"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSJI4imbreZE_AcyJmNrmNPfCjekVAeq8ZX-kJr_WPI2BQcv3whBg1lNJpZz8yGsEWdJHU85KUpA86ShS-20_73kmqGBi2UNp8iWPsjt9XJZ71XsmR-LoS3lfqQe_4nSRiE6nGskuDVn1b/s1600/img023.jpg",
+        "advertised_image_sequence_index": 17,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSJI4imbreZE_AcyJmNrmNPfCjekVAeq8ZX-kJr_WPI2BQcv3whBg1lNJpZz8yGsEWdJHU85KUpA86ShS-20_73kmqGBi2UNp8iWPsjt9XJZ71XsmR-LoS3lfqQe_4nSRiE6nGskuDVn1b/s1600/img023.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSJI4imbreZE_AcyJmNrmNPfCjekVAeq8ZX-kJr_WPI2BQcv3whBg1lNJpZz8yGsEWdJHU85KUpA86ShS-20_73kmqGBi2UNp8iWPsjt9XJZ71XsmR-LoS3lfqQe_4nSRiE6nGskuDVn1b/s1600/img023.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:30.704166+00:00",
+        "download_bytes": 500352,
+        "download_sha256": "8c400f59809811c2d099b543e84eb50e9c0ceeb74710059f58ea17ed48f93087",
+        "raw_headers_sha256": "eecbde3def10717c67a2dfb1ddfecc14c8550f00ff04ef0502c5f564ce085b24",
+        "acquisition_record_sha256": "fb292ad1a275a55a83a1a60b0c9351fc30bd054e75fc7dffea53804e048fecdf",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v14b\"",
+              "content-length": "500352"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhNKWVVCD7izWPfp5Sf8BL7F8Sa9wyTfNoTdMFTkYSmq9NvR_IsgI1D3Xgs5uqfyRVfelJ_vMaF07-nPFqjsj2crlM08aBKeKcF83B1uZM1jYAZFGHJSU8uOLjqWTbEOnozbw8vnDVQyK/s1600/img024.jpg",
+        "advertised_image_sequence_index": 18,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhNKWVVCD7izWPfp5Sf8BL7F8Sa9wyTfNoTdMFTkYSmq9NvR_IsgI1D3Xgs5uqfyRVfelJ_vMaF07-nPFqjsj2crlM08aBKeKcF83B1uZM1jYAZFGHJSU8uOLjqWTbEOnozbw8vnDVQyK/s1600/img024.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKhNKWVVCD7izWPfp5Sf8BL7F8Sa9wyTfNoTdMFTkYSmq9NvR_IsgI1D3Xgs5uqfyRVfelJ_vMaF07-nPFqjsj2crlM08aBKeKcF83B1uZM1jYAZFGHJSU8uOLjqWTbEOnozbw8vnDVQyK/s1600/img024.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:31.667027+00:00",
+        "download_bytes": 475132,
+        "download_sha256": "1ec0da1db9d2f67ccb889af4f7149ab82508021da5643bd60c33898e7e0449ec",
+        "raw_headers_sha256": "25942d0ac5e02ee8df886044d1899e6d6f31ff58c5363874a8d30b579b7850c0",
+        "acquisition_record_sha256": "a7234c3ddaafb3a2192fc463bcdf85a80645995316ae55c686ff705cefec291e",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v156\"",
+              "content-length": "475132"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5socIxyspc7-RSl_gkJMj7imuZJyzCPt_szDR5AF3O2WqhuhVQOcV4FfLUXs8-PP1OulYWRo0qAiX5ItoWw7IFk6vp_181nXe2A2lBYWEOWg5Yi9bOI1J2jNiIhK0EpptmOsPX6EqSN67/s1600/img025.jpg",
+        "advertised_image_sequence_index": 19,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5socIxyspc7-RSl_gkJMj7imuZJyzCPt_szDR5AF3O2WqhuhVQOcV4FfLUXs8-PP1OulYWRo0qAiX5ItoWw7IFk6vp_181nXe2A2lBYWEOWg5Yi9bOI1J2jNiIhK0EpptmOsPX6EqSN67/s1600/img025.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5socIxyspc7-RSl_gkJMj7imuZJyzCPt_szDR5AF3O2WqhuhVQOcV4FfLUXs8-PP1OulYWRo0qAiX5ItoWw7IFk6vp_181nXe2A2lBYWEOWg5Yi9bOI1J2jNiIhK0EpptmOsPX6EqSN67/s1600/img025.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:31.881253+00:00",
+        "download_bytes": 493826,
+        "download_sha256": "a7f873995eb91b3a71e3d639a87fa0f252a409fcb662a6cd73b4be58a368409d",
+        "raw_headers_sha256": "63454b15ff0b59f88d4b98460c2df3a7ddcde3a02cf69bcdca76ec044a61d28d",
+        "acquisition_record_sha256": "9358111dc5cb491a8a4cbf607ad06be61300ed198923e2bfc1b8cd8d1178317b",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v14e\"",
+              "content-length": "493826"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI907I9kEGaCd5bByKvAYb5MYJRxm1j1jNLV533tPO_KDEYIQZYc43XhZ_fOARLl9PzdBzb5FsIX0cDMhvD7t5uKwUq_Omc-S_k24xq_CpY1SwYpV4Sx4HMpWXY7GEvTkareDl9UXxrM_5/s1600/img026.jpg",
+        "advertised_image_sequence_index": 20,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI907I9kEGaCd5bByKvAYb5MYJRxm1j1jNLV533tPO_KDEYIQZYc43XhZ_fOARLl9PzdBzb5FsIX0cDMhvD7t5uKwUq_Omc-S_k24xq_CpY1SwYpV4Sx4HMpWXY7GEvTkareDl9UXxrM_5/s1600/img026.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI907I9kEGaCd5bByKvAYb5MYJRxm1j1jNLV533tPO_KDEYIQZYc43XhZ_fOARLl9PzdBzb5FsIX0cDMhvD7t5uKwUq_Omc-S_k24xq_CpY1SwYpV4Sx4HMpWXY7GEvTkareDl9UXxrM_5/s1600/img026.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:32.578871+00:00",
+        "download_bytes": 446675,
+        "download_sha256": "b126958e0f81b7fc785bc75f4a4869547ecd00efe4c3592f7c8a7785eeb8c1ed",
+        "raw_headers_sha256": "e1187f06d1633e49de789f95a686924bbb4f8c7b131b85a86c30b5eead25b8b7",
+        "acquisition_record_sha256": "6450e502ff7e32864c369b636b4e6656005975010e23551c4377e5dedac55d35",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v14f\"",
+              "content-length": "446675"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8aCjS9dg6gsgXMbQXq9-i5kDSzMnzu_lmN0xzmcVWUsY6hT-mPPC8Sz8e8VhjKiLqtQ7kiQ3EBsMV0r7vw3USsSm1hUB00vpGaubsw62tfHUcJqUVUqhPYfl3d_c4DiLBSbkmj27Ag0RR/s1600/img027.jpg",
+        "advertised_image_sequence_index": 21,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8aCjS9dg6gsgXMbQXq9-i5kDSzMnzu_lmN0xzmcVWUsY6hT-mPPC8Sz8e8VhjKiLqtQ7kiQ3EBsMV0r7vw3USsSm1hUB00vpGaubsw62tfHUcJqUVUqhPYfl3d_c4DiLBSbkmj27Ag0RR/s1600/img027.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8aCjS9dg6gsgXMbQXq9-i5kDSzMnzu_lmN0xzmcVWUsY6hT-mPPC8Sz8e8VhjKiLqtQ7kiQ3EBsMV0r7vw3USsSm1hUB00vpGaubsw62tfHUcJqUVUqhPYfl3d_c4DiLBSbkmj27Ag0RR/s1600/img027.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:32.741453+00:00",
+        "download_bytes": 564053,
+        "download_sha256": "d2f039886e167dc711cfadfae48fa6852c4a75267440de9e9b4cb3708375e158",
+        "raw_headers_sha256": "349a7891cadc1404dd9300a60ebaa37329af0ac5ad00f2f77fefe45fa087f164",
+        "acquisition_record_sha256": "aa6fa07d8d7fbdc4261b5a96d645b02cc1496c0e5adf59621f9c390164013b7e",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v152\"",
+              "content-length": "564053"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSXJAGU12_gFsvjDBeUNSox25ZctCQmYDjjHrCrvco4gJAryFD2DvwdXggezzGYqpmpcagt_ct0lxZkNAJWY-dQF37LKHWo09cZptgukdcv2bKPBoEk4cSvBcLrLEfiZ6h_x1UDCMXKico/s1600/img028.jpg",
+        "advertised_image_sequence_index": 22,
+        "printed_page_visually_verified": null,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSXJAGU12_gFsvjDBeUNSox25ZctCQmYDjjHrCrvco4gJAryFD2DvwdXggezzGYqpmpcagt_ct0lxZkNAJWY-dQF37LKHWo09cZptgukdcv2bKPBoEk4cSvBcLrLEfiZ6h_x1UDCMXKico/s1600/img028.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSXJAGU12_gFsvjDBeUNSox25ZctCQmYDjjHrCrvco4gJAryFD2DvwdXggezzGYqpmpcagt_ct0lxZkNAJWY-dQF37LKHWo09cZptgukdcv2bKPBoEk4cSvBcLrLEfiZ6h_x1UDCMXKico/s1600/img028.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:34.232380+00:00",
+        "download_bytes": 445950,
+        "download_sha256": "41b22fc579d57d8be8ffc265d2d51595262c9f5cfb801ffa0aab98e665cce1e6",
+        "raw_headers_sha256": "c5d34593bc29cc19821f2c1a9c55586a3a4abea86029d8ff036ba3cdbae5c2fe",
+        "acquisition_record_sha256": "b93466421a71654b8dca44e35cd77fec4090e9ef0f4dc21bf51e550c42f2fc11",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v153\"",
+              "content-length": "445950"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      },
+      {
+        "advertised_parent_url": "https://sisf2015.blogspot.com/p/results.html",
+        "advertised_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6YaQSWFdWW1zDfQKmIfitFkQ8Dclnj3dBVBqd4hyphenhyphenSN1i8iid0MFrRSdc7obExRhSHL8RU3bg9ESyWujHvy7hdLoWqT3vCyr2g3l52Zb3oeB_sMW4MNT3y6fg7942n_IL8xQ5l5LzNQlug/s1600/img029.jpg",
+        "advertised_image_sequence_index": 23,
+        "printed_page_visually_verified": 23,
+        "requested_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6YaQSWFdWW1zDfQKmIfitFkQ8Dclnj3dBVBqd4hyphenhyphenSN1i8iid0MFrRSdc7obExRhSHL8RU3bg9ESyWujHvy7hdLoWqT3vCyr2g3l52Zb3oeB_sMW4MNT3y6fg7942n_IL8xQ5l5LzNQlug/s1600/img029.jpg",
+        "effective_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6YaQSWFdWW1zDfQKmIfitFkQ8Dclnj3dBVBqd4hyphenhyphenSN1i8iid0MFrRSdc7obExRhSHL8RU3bg9ESyWujHvy7hdLoWqT3vCyr2g3l52Zb3oeB_sMW4MNT3y6fg7942n_IL8xQ5l5LzNQlug/s1600/img029.jpg",
+        "http_status": 200,
+        "curl_exit": 0,
+        "tls_verify_result": 0,
+        "tls_verified": true,
+        "retrieved_at_utc": "2026-11-01T09:31:34.024642+00:00",
+        "download_bytes": 488548,
+        "download_sha256": "3d27ff51665ca76f1dda471261ece546888c0235fde5e477455dcbd2af245ce8",
+        "raw_headers_sha256": "8f3ca5379f7e058a254600e62c6a28544b8f52ce9a24dca0c8845ad43ebbb9e0",
+        "acquisition_record_sha256": "49b295c9338415268eafcd3ba171aaf371a9bd35c5983b7dbc8003c8c1c0548a",
+        "http_phases": [
+          {
+            "status": 200,
+            "headers": {
+              "content-type": "image/jpeg",
+              "etag": "\"v157\"",
+              "content-length": "488548"
+            }
+          }
+        ],
+        "acquisition_record_format": "raw curl_metadata envelope; canonical publisher link and actual payload URL kept separately"
+      }
+    ],
+    "result_sheet_image_count": 23,
+    "images_are_PDF_pages": false,
+    "full_images_visually_reviewed": [
+      "About publication image",
+      "Home poster image",
+      "result img007: printed1of23",
+      "result img010: printed4of23",
+      "result img017: printed11of23",
+      "result img029: printed23of23"
+    ],
+    "result_OCR_discovery": {
+      "advertised_images": 23,
+      "completed_image_records": 23,
+      "characters": 50005,
+      "failures": 0,
+      "method": "One completed Tesseract English PSM 3 content pass, max 2 workers/OMP 1; an initial /tmp alias open failure was corrected using canonical /private/tmp paths.",
+      "limit": "OCR discovery is not full visual reading of all result prose or a certified prize/headcount audit. Tiny footer OCR misreads are not silently repaired into verified page numbers."
+    },
+    "historical_planning_observation": {
+      "fair_range_as_printed": "06th to 10th Jan 2015",
+      "registration_as_printed": "05th Jan 2015 in the morning",
+      "venue_as_printed": "Thekkinkadu Maidan, Thrissur",
+      "organisers_as_printed": [
+        "Visvesvaraya Industrial & Technological Museum, Bangalore",
+        "Directorate of Public Instruction, Government of Kerala"
+      ],
+      "exhibits_expected_per_state": 50,
+      "category_plan_as_printed": {
+        "group_exhibits": 15,
+        "pupils_per_group_exhibit": 2,
+        "teacher_guides_per_group_exhibit": 1,
+        "individual_exhibits": 20,
+        "pupils_per_individual_exhibit": 1,
+        "teacher_guides_per_individual_exhibit": 1,
+        "teacher_exhibits": 15
+      },
+      "scope": "Historical prospective booklet wording; not verified actual attendance, current rules or proof that a particular project followed a state qualification route."
+    },
+    "poster_and_result_header_date_range_as_printed": "2015 January 5–10",
+    "date_scope_limit": "The About publication plans6–10January2015 with5January registration; poster and result headers print5–10January2015. Retain all scopes rather than replace one range. The NCSM report separately contains unreconciled inauguration/duration wording.",
+    "award_observations": [
+      {
+        "source_id": "pathways-98",
+        "programme_as_published": "Southern India Science Fair - 2015",
+        "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+        "pupil_credit_as_published": "R Ajithkumar",
+        "model_title_as_published": "Solar Power Automated Road Sweeper",
+        "school_name_as_published": "Govt Middle School",
+        "school_locality_as_published": "Kariamanickam",
+        "district_as_published": "Puducherry District",
+        "guide_teacher_as_published": "J Venkadesan",
+        "individual_work_division_verified": false,
+        "physical_award_presentation_or_payment_verified": false,
+        "scientific_performance_independently_verified": false,
+        "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+        "observation_id": "sisf2015-reproduced-engineering-trophy-sweeper",
+        "category_as_published": "NON Rolling Trophies constituted by V I T Museum, (NCSM), Bangalore",
+        "award_label_as_published": "Sir M. Visvesvaraya Trophy for BEST Exhibit in Engineering / Technology",
+        "numeric_overall_rank": null,
+        "cash_amount_as_published_inr": null,
+        "result_image_filename_as_advertised": "img010.jpg",
+        "printed_page_visually_verified": 4,
+        "image_sequence_index": 4,
+        "scope_distinction": "Engineering/Technology trophy; not the separately headed NCSM overall Individual First cash award or a national all-category first."
+      },
+      {
+        "source_id": "pathways-98",
+        "programme_as_published": "Southern India Science Fair - 2015",
+        "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+        "pupil_credit_as_published": "R Ajithkumar",
+        "model_title_as_published": "Solar Power Automated Road Sweeper",
+        "school_name_as_published": "Govt Middle School",
+        "school_locality_as_published": "Kariamanickam",
+        "district_as_published": "Puducherry District",
+        "guide_teacher_as_published": "J Venkadesan",
+        "individual_work_division_verified": false,
+        "physical_award_presentation_or_payment_verified": false,
+        "scientific_performance_independently_verified": false,
+        "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+        "observation_id": "sisf2015-reproduced-puducherry-individual-first-sweeper",
+        "category_as_published": "PUDUCHERRY DIRECTORATE OF SCHOOL EDUCATION / CASH AWARDS FOR INDIVIDUAL CATEGORY",
+        "award_label_as_published": "FIRST PRIZE",
+        "rank_within_that_published_category": 1,
+        "cash_amount_as_published_inr": 1400,
+        "result_image_filename_as_advertised": "img017.jpg",
+        "printed_page_visually_verified": 11,
+        "image_sequence_index": 11,
+        "scope_distinction": "Puducherry DSE Individual category first, distinct from the Engineering/Technology trophy and NCSM event-overall Individual cash-award category. Listed amount is not a payment receipt."
+      }
+    ],
+    "cross_source_correspondence": {
+      "observation_id": "candidate-sisf2015-sweeper-inspire5-description",
+      "source_ids": [
+        "pathways-86",
+        "pathways-98"
+      ],
+      "relationship_status": "qualified_source_specific_correspondence_only",
+      "basis": "Exact model-title wording and corresponding public pupil-name form, Puducherry context, and the INSPIRE synopsis recognition paragraph naming the SISF 2015 Thrissur engineering award.",
+      "credit_versions": [
+        {
+          "source_id": "pathways-98",
+          "printed_result_pages": [
+            4,
+            11
+          ],
+          "pupil_credit_as_published": "R Ajithkumar",
+          "school_name_as_published": "Govt Middle School",
+          "school_locality_as_published": "Kariamanickam",
+          "guide_teacher_as_published": "J Venkadesan"
+        },
+        {
+          "source_id": "pathways-86",
+          "pdf_page_1based": 573,
+          "printed_page": "557",
+          "pupil_credit_as_published": "R. Ajith Kumar",
+          "school_as_published": "Kamban Govt. Hr. Sec.School, Nettapakkam, Puducherry.",
+          "teacher_field_as_published": "R. Gurunathan Pst"
+        }
+      ],
+      "recognition_claim_scope": "Source 86 pupil synopsis attributes a best-engineering award to SISF 2015 at Thrissur. Source 98 reproduced results separately display the matching-title Engineering/Technology trophy and a separately categorised Puducherry individual first. Their different school/guide fields remain literal.",
+      "limits": [
+        "No legal/unique-person identity proof, school-transfer explanation, unchanged model/version, guide/work-division transfer, complete qualifying route, receipt of cash or science/safety validation.",
+        "The source 86 page itself says further research is to make a real model and take remedial measures in real-time situations; no road-ready deployment is inferred.",
+        "Puducherry school credits remain outside the Kerala-school description count; this is Kerala-hosted-event context, not a new Kerala-school method case."
+      ]
+    },
+    "authority_limits": "Actual source pages reproduce planning and result sheets bearing institutional names/logos, but independent control/endorsement of the event-named Blogger account and cryptographic/original-document authentication were not established. Describe what the received reproduced sheets list. Do not promote them to independent ceremony, receipt-of-payment, unique-identity or science validation.",
+    "review_scope": "All three short received publication HTML texts and their advertised links read; six specified images read as whole originals, including result cover/trophy/Puducherry/end sheets. All 23 advertised result images acquired and English-OCR-screened. Photos and other roster/family/class/contact/identifier fields are not transcribed into derived observations.",
+    "notes": "Result printed 4 places the matching-title R Ajithkumar under the Engineering/Technology trophy; printed 11 separately lists a Puducherry DSE Individual First Prize ofRs 1400. Literal Govt Middle School/Kariamanickam and guideJ Venkadesan differ from source 86 Kamban/Nettapakkam and R. Gurunathan Pst; keep candidate-only correspondence. No NCSM event-overall first, cash receipt, unchanged project version, school-transfer cause or Kerala-school case is inferred. The advertised 23 images are not a newly recovered 23-page PDF."
   }
 ]

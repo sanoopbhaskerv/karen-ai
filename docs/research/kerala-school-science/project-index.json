@@ -119,7 +119,9 @@
     "title": "Tiny ML in Robotics",
     "source_ids": [
       "project-005",
-      "pathways-32"
+      "pathways-32",
+      "pathways-04",
+      "pathways-96"
     ],
     "exhibit_code": "43.1.1",
     "students_credited": [
@@ -137,7 +139,7 @@
     "selection_status": "national_selected_list_and_catalogue",
     "prize_status": null,
     "qualifying_route": null,
-    "evidence_kind": "official_synopsis",
+    "evidence_kind": "official_synopsis_plus_publisher_reproduced_first_person_writeup",
     "method_tag": "gesture input",
     "student_work_division_verified": false,
     "performance_independently_verified": false,
@@ -153,7 +155,130 @@
     "credit_variant_finding_ids": [
       "variant-2023-tinyml-credits"
     ],
-    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer."
+    "credit_scope": "The credited arrays retain the original synopsis version. Other published credit sets differ; resolve the linked finding before giving an unqualified credit or attendance answer.",
+    "publisher_reproduced_writeup_observation": {
+      "source_ids": [
+        "pathways-04",
+        "pathways-96"
+      ],
+      "document_kind": "publisher_reproduced_illustrative_first_person_writeup",
+      "locators": [
+        {
+          "source_id": "pathways-04",
+          "pdf_pages_1based": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "printed_pages": [
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "source_id": "pathways-96",
+          "pdf_pages_1based": [
+            40,
+            41,
+            42,
+            43
+          ],
+          "printed_pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "sample_title_as_published": "TINYML IN ROBOTICS",
+      "sample_participant_credit_as_published": "AYAZ AKBAR",
+      "sample_guide_credit_as_published": "SREENIVASAN T A",
+      "sample_school_heading_as_published": "JAWAHAR NAVODAYA VIDYALAYA",
+      "sample_exhibit_label_source96": "IT Exhibit 2023-24",
+      "sample_full_school_address": null,
+      "sample_exhibit_code": null,
+      "correspondence_basis": [
+        "Title matches apart from spacing/case",
+        "Public pupil name agrees with one existing synopsis credit",
+        "Public guide name agrees apart from initials punctuation",
+        "RP2040/MPU6050 gesture-game mechanism corresponds"
+      ],
+      "correspondence_limits": "No full Malappuram address on sample; public-name correspondence does not independently establish identity, a single unchanged project version or pupil-work division. Original synopsis/selection/form credit sets remain separate.",
+      "source_reported_method": "A reproduced first-person sample describes MPU6050 I2C sensing, Pico gesture classification, USB/HC-05 messages to Python games and Edge Impulse deployment. It reports ten minutes of training per gesture and neural-network, anomaly-detection and spectral-analysis options.",
+      "training_time_as_reported": "10 min each gesture",
+      "signal_screenshot_labels_as_published": [
+        "Backward",
+        "Forward",
+        "Idle",
+        "Left",
+        "Right"
+      ],
+      "sample_scope_note": "Signal traces are illustrations. No downloadable raw dataset, exact training sample counts, trained weights, architecture/hyperparameters, measured recognition accuracy/latency or exhibit-specific code is supplied. Applications include wheelchair control, with no wheelchair trial on these pages.",
+      "publication_version_note": "Source96 retains IT Exhibit 2023–24; source04 masks the date area. Earlier reproduction chronology is edition-label evidence, not an exact issue date.",
+      "identity_independently_verified": false,
+      "unchanged_project_version_verified": false,
+      "scientific_performance_independently_verified": false,
+      "student_work_division_verified": false,
+      "wheelchair_trial_established": false,
+      "training_dataset_file_received": false,
+      "trained_model_file_received": false,
+      "project_code_repository_received": false
+    },
+    "chapter_source_id": "pathways-96",
+    "chapter_pdf_pages_1based": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "chapter_printed_pages": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "chapter_evidence_kind": "publisher_reproduced_illustrative_first_person_writeup",
+    "chapter_count_scope": "One canonical four-page illustrative report, reproduced in two guideline editions; not two models and not an additional Structure and Working selected-model chapter.",
+    "chapter_reproductions": [
+      {
+        "source_id": "pathways-96",
+        "pdf_pages_1based": [
+          40,
+          41,
+          42,
+          43
+        ],
+        "printed_pages": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "edition_label": "2024–25 / 52nd RBVP 2025",
+        "canonical_page_count": 4
+      },
+      {
+        "source_id": "pathways-04",
+        "pdf_pages_1based": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "printed_pages": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "edition_label": "2025–26 / 53rd RBVP 2026",
+        "counted_as_additional_canonical_report": false
+      }
+    ]
   },
   {
     "id": "case-2023-integral",

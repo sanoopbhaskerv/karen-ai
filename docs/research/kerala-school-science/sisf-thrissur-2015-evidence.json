@@ -1,0 +1,147 @@
+{
+  "title": "Thrissur SISF 2015: separate institutional report and reproduced event publications",
+  "checked_on": "2026-11-01",
+  "source_ids": [
+    "pathways-97",
+    "pathways-98",
+    "pathways-86"
+  ],
+  "scope": "One institution-reported event observation, two source-specific reproduced award-category observations and one qualified cross-programme correspondence. The existing seven VITM-cycle records and 95 INSPIRE descriptions remain unchanged.",
+  "count_scope": "Nested source97/98 observations and these records describe the same source-specific observations, not additional events, independent-origin corroboration or unique-winner counts.",
+  "event_observation": {
+    "observation_id": "sisf-ncsm-annual-2014-15-thrissur",
+    "source_id": "pathways-97",
+    "reporting_cycle_as_published": "2014-2015",
+    "evidence_kind": "institution_reported_event_with_unreconciled_date_wording",
+    "ordinal_as_published": 28,
+    "event_label_as_published": "28th Southern India Science Fair",
+    "organiser_as_reported": "Visvesvaraya Industrial & Technological Museum, in collaboration with the Education Departments of Southern Indian States",
+    "host_as_reported": "Directorate of Public Instruction, Government of Kerala",
+    "venue_as_reported": "Thekkinkadu Maidan, Thrissur, Kerala",
+    "fair_range_as_published": "5th to 10th January",
+    "fair_calendar_year_explicit_in_cited_paragraph": null,
+    "inauguration_as_published": "20th January 2014",
+    "duration_as_published": "five-day event",
+    "date_reconciliation": "Unresolved. The inauguration wording falls outside the stated January day range, and the duration wording is retained without replacing it with a calculated interval. The reporting cycle is not silently promoted to an exact corrected event/inauguration year.",
+    "reported_populations": {
+      "students": 204,
+      "schools": 194,
+      "teachers_guiding_students": 143,
+      "southern_states": 5,
+      "student_category_exhibits": 143,
+      "teacher_category_exhibits": 56,
+      "visitors_students_teachers_general_public": 40000,
+      "scope": "Event-wide institution-reported units; not Kerala-only, a unique-person census, independent headcount, learning measurement or prize roster."
+    },
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 15,
+        "printed_page": "13",
+        "scope": "VITM programme account explicitly begins 28th SISF statement."
+      },
+      {
+        "pdf_page_1based": 16,
+        "printed_page": "14",
+        "scope": "Statement continues with organiser collaboration, 5–10 January and Thekkinkadu/Thrissur."
+      },
+      {
+        "pdf_page_1based": 73,
+        "printed_page": "71",
+        "scope": "Separate fair account: ordinal, same venue/day range, host, literal inauguration 20 January 2014, event-wide populations and five-day wording."
+      }
+    ],
+    "independent_attendance_or_performance_verified": false,
+    "pupil_awards_supplied_by_cited_report_passages": false
+  },
+  "reproduced_award_observations": [
+    {
+      "source_id": "pathways-98",
+      "programme_as_published": "Southern India Science Fair - 2015",
+      "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+      "pupil_credit_as_published": "R Ajithkumar",
+      "model_title_as_published": "Solar Power Automated Road Sweeper",
+      "school_name_as_published": "Govt Middle School",
+      "school_locality_as_published": "Kariamanickam",
+      "district_as_published": "Puducherry District",
+      "guide_teacher_as_published": "J Venkadesan",
+      "individual_work_division_verified": false,
+      "physical_award_presentation_or_payment_verified": false,
+      "scientific_performance_independently_verified": false,
+      "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+      "observation_id": "sisf2015-reproduced-engineering-trophy-sweeper",
+      "category_as_published": "NON Rolling Trophies constituted by V I T Museum, (NCSM), Bangalore",
+      "award_label_as_published": "Sir M. Visvesvaraya Trophy for BEST Exhibit in Engineering / Technology",
+      "numeric_overall_rank": null,
+      "cash_amount_as_published_inr": null,
+      "result_image_filename_as_advertised": "img010.jpg",
+      "printed_page_visually_verified": 4,
+      "image_sequence_index": 4,
+      "scope_distinction": "Engineering/Technology trophy; not the separately headed NCSM overall Individual First cash award or a national all-category first."
+    },
+    {
+      "source_id": "pathways-98",
+      "programme_as_published": "Southern India Science Fair - 2015",
+      "evidence_kind": "result_sheet_reproduced_on_event_named_blog",
+      "pupil_credit_as_published": "R Ajithkumar",
+      "model_title_as_published": "Solar Power Automated Road Sweeper",
+      "school_name_as_published": "Govt Middle School",
+      "school_locality_as_published": "Kariamanickam",
+      "district_as_published": "Puducherry District",
+      "guide_teacher_as_published": "J Venkadesan",
+      "individual_work_division_verified": false,
+      "physical_award_presentation_or_payment_verified": false,
+      "scientific_performance_independently_verified": false,
+      "scope": "A received reproduced result sheet lists this result. Independent control of the Blogger account, original-document authentication, ceremony attendance and payment are not established. No pupil identifier, class, family/photo/contact field is transcribed.",
+      "observation_id": "sisf2015-reproduced-puducherry-individual-first-sweeper",
+      "category_as_published": "PUDUCHERRY DIRECTORATE OF SCHOOL EDUCATION / CASH AWARDS FOR INDIVIDUAL CATEGORY",
+      "award_label_as_published": "FIRST PRIZE",
+      "rank_within_that_published_category": 1,
+      "cash_amount_as_published_inr": 1400,
+      "result_image_filename_as_advertised": "img017.jpg",
+      "printed_page_visually_verified": 11,
+      "image_sequence_index": 11,
+      "scope_distinction": "Puducherry DSE Individual category first, distinct from the Engineering/Technology trophy and NCSM event-overall Individual cash-award category. Listed amount is not a payment receipt."
+    }
+  ],
+  "cross_source_correspondence": {
+    "observation_id": "candidate-sisf2015-sweeper-inspire5-description",
+    "source_ids": [
+      "pathways-86",
+      "pathways-98"
+    ],
+    "relationship_status": "qualified_source_specific_correspondence_only",
+    "basis": "Exact model-title wording and corresponding public pupil-name form, Puducherry context, and the INSPIRE synopsis recognition paragraph naming the SISF 2015 Thrissur engineering award.",
+    "credit_versions": [
+      {
+        "source_id": "pathways-98",
+        "printed_result_pages": [
+          4,
+          11
+        ],
+        "pupil_credit_as_published": "R Ajithkumar",
+        "school_name_as_published": "Govt Middle School",
+        "school_locality_as_published": "Kariamanickam",
+        "guide_teacher_as_published": "J Venkadesan"
+      },
+      {
+        "source_id": "pathways-86",
+        "pdf_page_1based": 573,
+        "printed_page": "557",
+        "pupil_credit_as_published": "R. Ajith Kumar",
+        "school_as_published": "Kamban Govt. Hr. Sec.School, Nettapakkam, Puducherry.",
+        "teacher_field_as_published": "R. Gurunathan Pst"
+      }
+    ],
+    "recognition_claim_scope": "Source 86 pupil synopsis attributes a best-engineering award to SISF 2015 at Thrissur. Source 98 reproduced results separately display the matching-title Engineering/Technology trophy and a separately categorised Puducherry individual first. Their different school/guide fields remain literal.",
+    "limits": [
+      "No legal/unique-person identity proof, school-transfer explanation, unchanged model/version, guide/work-division transfer, complete qualifying route, receipt of cash or science/safety validation.",
+      "The source 86 page itself says further research is to make a real model and take remedial measures in real-time situations; no road-ready deployment is inferred.",
+      "Puducherry school credits remain outside the Kerala-school description count; this is Kerala-hosted-event context, not a new Kerala-school method case."
+    ]
+  },
+  "boundaries": [
+    "Retain report inauguration/duration inconsistency and separate About/poster/result date scopes.",
+    "Blog ownership/original-document authentication, physical presentation/payment, unique identity/version, school-transfer cause and scientific performance are not independently verified.",
+    "No new Kerala-school case, original school project report, code or raw data is recovered."
+  ]
+}

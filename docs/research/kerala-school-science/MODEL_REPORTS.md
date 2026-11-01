@@ -1,6 +1,6 @@
 # Extended published model write-ups
 
-Checked on **1 November 2026**. Eleven Kerala-school chapters in NCERT's *Structure and Working* books add construction descriptions, diagrams and credited pupils/teachers to the shorter catalogue evidence. The [project index](project-index.json) records their complete chapter page ranges and credits. These are institutionally edited write-ups, not original school logbooks, source repositories or independently observed demonstrations.
+Checked on **1 November 2026**. A separate [TinyML illustrative report](#tinyml-one-illustrative-report-two-reproductions) has one canonical four-page count and two guideline reproductions; it is outside the selected-series totals below. Eleven Kerala-school chapters in NCERT's *Structure and Working* books add construction descriptions, diagrams and credited pupils/teachers to the shorter catalogue evidence. The [project index](project-index.json) records their complete chapter page ranges and credits. These are institutionally edited write-ups, not original school logbooks, source repositories or independently observed demonstrations.
 
 ## Located chapters
 
@@ -118,3 +118,11 @@ The eight item rows display **Available** in the received HTML, without independ
 ## A recovered combined 2020/2021 synopsis booklet
 
 The [188-page NCERT booklet](https://web.archive.org/web/20220205221256id_/http://jnnsmee.ncert.org.in/assets/files/Exhibits_Book_for_JNNSMEE_2020_2021.pdf) supplies the previously missing combined 2020/2021 selected-exhibit overview. It is separate from the *Structure and Working* construction volumes and does not fill the complete 2010 model-book gap. The [discovery audit](DISCOVERY.md) checked all 145 English school/address blocks (81 + 64) without identifying a confident Kerala school entry; this is not nonparticipation evidence. No Kerala method chapter, code, test table or new focused case is derived.
+
+## TinyML: one illustrative report, two reproductions
+
+A complete publisher-reproduced first-person sample adds training and construction detail to the 2023 catalogue case. The earlier [2024–25 guidelines](https://www.scertdesmbihar.in/Guideline/2024-25/Complete_Guidelines_2024_25.pdf#page=40) contain the four-page sample at PDF40–43/printed34–37; existing source04’s [2025–26 guidelines](https://ncert.nic.in/desm/pdf/rbvp_53rd_2025.pdf#page=45) reproduce it at PDF45–48/printed41–44. Count one canonical four-page illustrative report, alongside the eleven selected-model chapters in *Structure and Working*, rather than two additional models or selected-model chapters.
+
+The account reports MPU6050/Pico gesture input, Edge Impulse training/deployment and USB/HC-05 messages for Python games, including ten minutes of training per gesture. It supplies illustrations, not the raw dataset/model/code files or quantitative recognition evaluation. Wheelchair control remains a listed application without a reported wheelchair trial. The sample names Ayaz Akbar and guide Sreenivasan T A but lacks the Malappuram address/code; correspondence to the catalogue is qualified. The 2023–24 date beside IT Exhibit is visible in the earlier reproduction and masked in the later one. Preserve the different published credit sets, unknown issue day, identity/work-division and unchanged-version limits.
+
+The printed national-programme “IT Exhibit” label and Pico/sensor hardware do not determine Science-versus-IT registration or participant rules for Kerala’s 2026 Sasthrolsavam. Preserve the national label without transferring its category or eligibility scope.
