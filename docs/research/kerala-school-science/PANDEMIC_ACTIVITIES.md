@@ -37,3 +37,8 @@ Its PDF 2 timetable prints a teacher workshop in **December 2020**, project prep
 All ten received PDF pages were rendered and read visually. The [source register](pandemic-activity-sources.json) distinguishes original government hosting from public mirrors and retains dates, page bounds, hashes, sizes and visible issuing details. Legacy-font or absent text extraction did not determine the Malayalam claims.
 
 This pass did not recover a standalone state-fair cancellation/rescheduling order, authenticated Shasthrarangam completion statement, or reliable NCSC completion record for these notices. Public school reports surfaced in search, but their bodies could not be acquired reliably and were not adopted as completion evidence. Search/API nonmatches, access failures and a direction to hold an activity do not establish non-occurrence or completion. Detailed acquisition/query records remain outside the repository.
+
+
+## Separate VITM fair/camp reports
+
+The [SISF annual-report supplement](SISF_HISTORY.md#pandemic-reporting-cycles) adds VITM's 2020–21 and 2021–22 section 13(a) statements that science fairs/camps could not be held because of Covid-19. Adjacent sections separately report online Creative Ability Centre work and district seminars. These institutional statements are distinct from the five Kerala documents above, a standalone cancellation order or a completed online Sasthrolsavam. No universal absence of science activity is inferred.

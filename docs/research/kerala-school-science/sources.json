@@ -255,6 +255,98 @@
     "notes": "Direct HTTP 200;18 scanned pages. First page visually inspected and concerns work experience despite Kalolsavam filename. Undated version; numeric rules not adopted for general fair.",
     "sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
     "pdf_pages": 18,
+    "follow_up_retrieval": {
+      "checked_on": "2026-11-01",
+      "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+      "effective_download_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf",
+      "retrieved_at_utc": "2026-11-01T01:35:30.583019+00:00",
+      "http_status": 200,
+      "tls_verified": true,
+      "download_bytes": 7288345,
+      "download_sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+      "headers_sha256": "36a634cd2ecc2c628487ca141b2ed5404c06220abf876c2065e7ce6b40129908",
+      "pdf_pages": 18,
+      "prior_cached_body_sha256": "35e8266cfda16e1dc83ef40cc07b63085f35d3887918956a7fb6343c8ffd5e3b",
+      "byte_identical_to_prior_cached_body": true,
+      "comparison_scope": "Actual new GET body compared byte for byte with the prior cached PDF; both also match the already registered SHA256. Fresh headers are not presented as old acquisition headers."
+    },
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "printed_pages_as_received": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "cited_order_references": [
+      {
+        "pdf_page_1based": 2,
+        "printed_page": 3,
+        "side": "right",
+        "date_as_printed": "22-11-2006",
+        "date_normalized": "2006-11-22",
+        "number_as_printed": "60613/എൻ3/06/പൊ.വി.",
+        "source_description_as_printed": "government order",
+        "scope": "The scan attributes grade/grace provision for Class10 state-level construction contestants to this reference. This is a date/number cited by the undated scan, not a recovered/authenticated standalone order or the manual issue/approval date."
+      }
+    ],
+    "review_scope": "All18physical pages rendered upright and visually read. Received printed1–35, chapter/annex boundaries and dated reference checked. This is not a current eligibility/clinical-classification validation or independent authentication of the cited government order.",
+    "received_body_limits": [
+      "The received file begins with Chapter1 on printed1 and ends in hearing-impaired item directions on printed35; no cover, imprint, signed approval, issue-date or amendment page appears within these18scannedpages.",
+      "Text refers to Annex3(a/b),4(a/b) and5(a/b) for entry/identification/evaluation forms, but those forms are not present in this received body. This establishes a received-file limit, not whether the original complete publication omitted them or served them separately.",
+      "The cited2006reference does not establish the manual issue year, approval, current applicability or a present grace-mark entitlement.",
+      "Undated special-school Work Experience provisions remain separate from arts/Kalotsavam, the common2026blankidentityform and general Science Working Model. No automatic current-rule transfer."
+    ],
+    "document_date": null,
     "topic_register": "core-sources.json"
   },
   {
@@ -3167,6 +3259,76 @@
         "reason": "Visually identified as Bureau of Economics and Statistics administration report1966–67, with PlanningDepartmentGO(Rt)254/67/Plg20October1967; not the missing EducationDepartment report. No all-page review claimed."
       }
     },
+    "topic_register": "history-sources.json"
+  },
+  {
+    "id": "history-education-admin-1967-68-csl-holding",
+    "title": "NVLI union catalogue: CSL holding of Kerala Education Department administration report for1967–68, registered publication1970",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+    "discovery_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-search.pl?idx=&q=ti%3Aadministration%20AND%20au%3Aeducation%20AND%20kw%3AKerala&offset=40&sort_by=title_za&count=20",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "institutional_library_bibliographic_holding_record",
+    "catalogue_provider": "National Virtual Library of India / Indian Culture public union catalogue",
+    "cataloguing_agency_as_registered": "CSL",
+    "catalogue_record_id": "3949860",
+    "bibliographic_fields": {
+      "title_as_registered": "Administration [annual] report for the year 1967-68",
+      "responsibility_as_registered": "Education Department, Government of Kerala",
+      "place_as_registered": "Ernakulam",
+      "publisher_as_registered": "Government Press",
+      "publication_year_as_registered": "1970",
+      "extent_as_registered": "iv, 150 p.",
+      "call_number_as_registered": "370.95483 EDU-A1967",
+      "local_processing_identifier_MARC949a": "IO060370"
+    },
+    "reporting_cycle_as_registered": "1967–68",
+    "home_and_current_library": "Central Secretariat Library",
+    "download_bytes": 238067,
+    "download_sha256": "99186ec94e083ea352d85e230fa7d9b30f9c447d80e5b50efa684250e10a8345",
+    "headers_sha256": "03639b186a6545b254ef677202c8da8e290c1e14bd771e49d6d88847a0522e7d",
+    "acquisition": {
+      "request_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+      "effective_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T01:33:48.112313+00:00",
+      "bytes": 238067,
+      "sha256": "99186ec94e083ea352d85e230fa7d9b30f9c447d80e5b50efa684250e10a8345",
+      "headers_sha256": "03639b186a6545b254ef677202c8da8e290c1e14bd771e49d6d88847a0522e7d",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "alternate_marcxml_export": {
+      "request_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3949860&format=marcxml",
+      "effective_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3949860&format=marcxml",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T01:33:55.953092+00:00",
+      "bytes": 4289,
+      "sha256": "27e02f65eeaf53e1a86a7dbb5ce8af007703f72023dc8b3cab53aff9cf87bd27",
+      "headers_sha256": "19ccc25a854a3ca8de4ee5269efff99c32eb3dca7b1c2f02ec2141543e696c4b",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "review_scope": "Full actual public MARC HTML field listing and its advertised structured MARCXML export read. Catalogue metadata only; no original report title/contents/body page or browser-rendered page was reviewed.",
+    "original_report_body_recovered": false,
+    "original_pdf_pages": null,
+    "evidence_locators": [
+      "MARC003/040 CSL provenance",
+      "MARC245 title/reporting cycle and Education Department responsibility",
+      "MARC260 registered Government Press, Ernakulam publication1970",
+      "MARC300 iv,150p. extent",
+      "MARC949$a IO060370 local-processing identifier",
+      "MARC952 CSL home/current library and call370.95483 EDU-A1967; public HTML expands CSL to Central Secretariat Library",
+      "No MARC856 digital-location field in this received record"
+    ],
+    "notes": "A genuinely new exact institutional holding lead, separate from the known general-state partial1965–66 scan, the Bureau of Economics and Statistics reports, Google Books catalogue-year labels, and Kerala Legislature collection descriptions. The registered report cycle1967–68 and publication1970 are retained as different fields. IO060370 is explicitly a MARC949 local-processing identifier, not an independently confirmed present-day barcode. Two other search-result aliases2657100/4087971 have the same title/call/library; they are not counted as three independent original volumes.",
+    "evidence_limits": [
+      "The original report body and actual publication/title pages have not been recovered.",
+      "The catalogue does not establish target1965–66 or1966–67 holdings or identify the missing general-report Education chapter91–135.",
+      "This holding does not establish a first statewide fair, any event date/venue, science-fair content or annual continuity.",
+      "The public item record is not verification of current shelf presence, completeness, circulation/access conditions or a digital copy.",
+      "No856 in this record does not prove that a digitised copy exists nowhere."
+    ],
     "topic_register": "history-sources.json"
   },
   {
@@ -6294,6 +6456,312 @@
     "topic_register": "pathways-sources.json"
   },
   {
+    "id": "pathways-47",
+    "title": "VITM public activity-report index: seven links and website Publish Date values",
+    "url": "https://www.vismuseum.gov.in/activity-report.php",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_publication_index_html",
+    "document_date": null,
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "download_bytes": 31994,
+    "download_sha256": "996fc0694939a9cd5e8716a97e0308f47d58b64e4d37bc48aa26f21c828f0d46",
+    "headers_sha256": "3754b71738e35f5a7d68c45511d053369db54cf74385a0691c44ed57999d5de8",
+    "retrieved_at_utc": "2026-11-01T01:31:16.729326+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "notes": "Actual seven-row title/PublishDate/download table read. Website dates are preserved as index column values, not the reports’ original issue dates or event dates. All six new PDFs were followed from the actual links; the2022–23 report was already registered as pathways-27. No private or authenticated records used.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-48",
+    "title": "VITM and Satellite Units Activity Report 2017–18",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/Activity_Report_2017-18_VITM_SU_PDF.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2017-18",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2019-10-22",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 1571687,
+    "download_sha256": "85bcc428a1275d7a333919feb928518c0bc5d7dbfd8d45338d279e9ff2bbc3d3",
+    "headers_sha256": "b9885a570148c1b4fe844047fe7fad82f4581c5c2b01a4c1d9890000431cb110",
+    "retrieved_at_utc": "2026-11-01T01:31:15.900447+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 68,
+    "visually_read_pdf_pages_1based": [
+      1,
+      5,
+      16,
+      65
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5
+      },
+      {
+        "pdf_page_1based": 16,
+        "printed_page": 16
+      },
+      {
+        "pdf_page_1based": 65,
+        "printed_page": 65
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "The narrative label says SISF2017 while both narrative and table date the event in January2018. The table retains Andhrapradesh, whereas the narrative and collaboration annex name Telangana. Do not silently correct or combine the wording.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-49",
+    "title": "VITM and Satellite Units Activity Report 2018–19",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2018-19-Activity-Report-Copy.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2018-19",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2024-03-18",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 2120123,
+    "download_sha256": "720ae78aaf9c10121eeeb6cc928caa5f0687ed2b4d7a0b0a720ce142a95e393b",
+    "headers_sha256": "47e03866a6bd9a46bb7e5e8eb2cc04fa16ff22e8939032060a1785d4724ced7b",
+    "retrieved_at_utc": "2026-11-01T01:31:48.146060+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 89,
+    "visually_read_pdf_pages_1based": [
+      1,
+      5,
+      21,
+      22,
+      74
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5
+      },
+      {
+        "pdf_page_1based": 21,
+        "printed_page": 21
+      },
+      {
+        "pdf_page_1based": 22,
+        "printed_page": 22
+      },
+      {
+        "pdf_page_1based": 74,
+        "printed_page": 74
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "The narrative label says SISF2018 while the actual date range is January2019. The narrative and table print India versus Indian in the school name; the table row continues with Fair on PDF22. The March2024 index date is a website column value, not the January2019 event date or an authenticated original publication date.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-50",
+    "title": "VITM and Satellite Units Activity Report 2019–20",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/VITM-SU-Activity-Report-of-2019-20-PDF_compressed.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2019-20",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2020-11-13",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 1946745,
+    "download_sha256": "91b847a685b2e554e88502c833bd10bb0c715dc5111701337aa286c0ac576ad9",
+    "headers_sha256": "6b471f660c94a6959b756ab082ea1a5a4b55d51164bdef2a32aafd7e4d5a15c2",
+    "retrieved_at_utc": "2026-11-01T01:30:36.375689+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 114,
+    "visually_read_pdf_pages_1based": [
+      1,
+      7,
+      28,
+      97
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 7,
+        "printed_page": 4
+      },
+      {
+        "pdf_page_1based": 28,
+        "printed_page": 21
+      },
+      {
+        "pdf_page_1based": 97,
+        "printed_page": 80
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Physical PDF pages differ substantially from printed pages because of intervening photo pages. The table is an event-wide institutional report, not Kerala’s delegate or attendance list.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-51",
+    "title": "VITM and Satellite Units Activity Report 2020–21",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2020-21-Activity-Report-VITM-SU-PDF.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2020-21",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2022-01-22",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 10739630,
+    "download_sha256": "ffd5ea81bd1825e4945d6fc3bb147dee5323916212348bc9e87731e625b09320",
+    "headers_sha256": "881102942b4b93a177febf78c51ea8d8ce93aae2f6f08fa2f9b684b6cd5fcaca",
+    "retrieved_at_utc": "2026-11-01T01:31:53.829249+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 76,
+    "visually_read_pdf_pages_1based": [
+      1,
+      13,
+      23
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 13,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 23,
+        "printed_page": 22
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Section13(a) states science fairs/camps could not be held owing to Covid19. Adjacent sections still report an online district seminar and online Creative Ability Centre activity; do not infer that all science activities stopped. Text extraction failed only at PDF13; that page was rendered/read and contains mobile-exhibition/other-facility inauguration captions, not the cited fair/camp paragraph. No original file was altered.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "extraction_limit": {
+      "pypdf_failed_pages_1based": [
+        13
+      ],
+      "handling": "Rendered and visually read the failed page; all75other pages text-extracted. The cited PDF23 paragraph extracts normally."
+    },
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-52",
+    "title": "VITM and Satellite Units Activity Report 2021–22",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2021-22-Activity-Report-VITM-PDF-VERSION-RESIZE-Copy-compressed.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2021-22",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2023-05-17",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 5836435,
+    "download_sha256": "357a57b112890836b2c3067e41c6868ffa7b4395336d7c1aff06dd9b21628267",
+    "headers_sha256": "c9f68e61afd9cec3bc87a86d5c54f8973a0b1f3af6c173ce1e91e0946da355dd",
+    "retrieved_at_utc": "2026-11-01T01:31:53.161438+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 91,
+    "visually_read_pdf_pages_1based": [
+      1,
+      31
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 31,
+        "printed_page": 30
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Section13(a) states science fairs/camps could not be held owing to Covid19. The same page separately records online and offline district seminars and online Creative Ability Centre activity. It is not a blanket state-school cancellation order.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-53",
+    "title": "VITM and Satellite Units Activity Report 2023–24",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2023-24-Annual-Activity-Report-VITM-SU-PDF-FINAL.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2023-24",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2024-09-05",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 6050087,
+    "download_sha256": "3b46ba110fbd88cdcfa559aae471c2b5d3f35f662b6d938082629cbcdcb6a1fb",
+    "headers_sha256": "b22a8108f704228a051e68ca7de16fc0f5ac5d8a36ac5cfd321a8edf1c441939",
+    "retrieved_at_utc": "2026-11-01T01:31:49.396604+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 130,
+    "visually_read_pdf_pages_1based": [
+      1,
+      12,
+      50,
+      112,
+      116
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 12,
+        "printed_page": 11
+      },
+      {
+        "pdf_page_1based": 50,
+        "printed_page": 49
+      },
+      {
+        "pdf_page_1based": 112,
+        "printed_page": 111
+      },
+      {
+        "pdf_page_1based": 116,
+        "printed_page": 115
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Narrative separately reports182students and185teachers; the table places182under Students/Participants. Do not invent a combined contestant total or relabel185projects as teachers in the table. The separate mobile-exhibition16000visitor figure is not added to the fair’s15000 or treated as unique people. PDF116/printed115 caption says SCERT,Hyderabad,GovernmentofAndhraPradesh; retain that wording beside the main host account without silently changing its city/state. No ordinal35is assigned from sequence arithmetic; inspected SISF passages label2024 without a confirmed edition number.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
     "id": "project-001",
     "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
     "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
@@ -7038,6 +7506,135 @@
     },
     "review_scope": "Physical page count and PDF metadata checked; cover PDF 1 and complete target entry page PDF 84 rendered and read visually. No complete 122-page Kerala-school catalogue audit is claimed.",
     "notes": "This organiser directory gives a contemporaneous 2022 Kerala location for the exact matching title, booth code, pupil pair and school in project-035. Name order/format and school spacing remain source-specific. Virtual is a published planned judging-mode label, not proof of completed participation or physical attendance. It supplies no Kerala local qualifying route, prize, guide credit or individual work division. PDF metadata dates are not substituted for an unprinted issue date.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-037",
+    "title": "Dr. K. V. Rao Scientific Society Annual Report 2018–19: SPARK selection and Raksha credits",
+    "source_type": "original_organiser_annual_report",
+    "publisher": "Dr. K. V. Rao Scientific Society",
+    "url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 17749509,
+    "download_sha256": "6be6225cf1e07e7fa153124fe10f64286faef7268e06b9d4b3cbda9567cd2351",
+    "headers_sha256": "dfbffe2e428a4eb8d1d173fce940154c9aff7a2aa680fc8c50b7d93253c25a2c",
+    "retrieved_at_utc": "2026-11-01T01:30:51.173517+00:00",
+    "effective_download_url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 24,
+    "document_date": null,
+    "reporting_period": "2018–19",
+    "visually_read_pdf_pages_1based": [
+      1,
+      9,
+      10
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Annual Report 2018–19 cover; towards 2020 cover slogan is not substituted for report period."
+      },
+      {
+        "pdf_page_1based": 9,
+        "printed_page": 7,
+        "scope": "SPARK competition held 19 January 2019; seven projects shortlisted/selected for awards; final winners still to be announced during annual function."
+      },
+      {
+        "pdf_page_1based": 10,
+        "printed_page": 8,
+        "scope": "Category 2 Raksha title, Efraem Joji, Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala;guide Dr. Joji George;short principle/functions paragraph."
+      }
+    ],
+    "published_credit_version": {
+      "student": "Mr. Efraem Joji",
+      "school": "Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala.",
+      "guide_teacher": "Dr. Joji George",
+      "project_title": "“RAKSHA” – System for Prevention of Electrocution and the Hazardous Effects of Short Circuits.”",
+      "source_reported_competition_date": "2019-01-19",
+      "selection_status": "selected_for_awards_with_final_winners_still_to_be_announced",
+      "prize_rank": null
+    },
+    "candidate_case_id": "case-2021-raksha-electrical-protection",
+    "correspondence_basis": "Exact credited pupil-name words, distinctive full project title and matching electrical protection/stabiliser/inverter functions; the report is an earlier version with a different school and guide credit.",
+    "same_project_version_verified": false,
+    "method_substance_added": "A short organiser description attributes the protective principle to reducing resultant current through a body; it also claims voltage-stabilisation and inverter/backup functions. No technical diagram or data is supplied.",
+    "review_scope": "All 24 physical pages keyword-screened for Raksha/credit/context; cover and complete relevant PDF 9–10 pages visually read. Not a full 24-page narrative or photograph authentication review.",
+    "notes": "This is original organiser reporting of an earlier SPARK selected-for-awards entry, not a final award-rank certificate, the 2021 ISEF project report, or proof of an unchanged device/author contribution. Earlier school and guide credits must not overwrite or be transferred into the 2021 organiser attribution. The report supplies no circuit specification, thresholds, safety experiment, raw measurements or independent performance validation. The PDF metadata creation/modification is 30 April 2020, distinct from reporting period and 19 January 2019 competition. A separate current award page indexed under 2018 was not received/adopted or reconciled with this report.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-038",
+    "title": "CUSAT achievements listing: Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "source_type": "official_institution_news_listing",
+    "publisher": "Cochin University of Science and Technology",
+    "url": "https://www.cusat.ac.in/achievements.php",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 2338285,
+    "download_sha256": "caf1d992d984b33e66da441703631ebd9a8ff72354907df752ec9e1f8e85c84d",
+    "headers_sha256": "f3aa0698a33c1d669ebeefa10e217728488f47c3138e70cc75d833e51f22db98",
+    "retrieved_at_utc": "2026-11-01T01:33:10.888390+00:00",
+    "effective_download_url": "https://www.cusat.ac.in/achievements.php",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": null,
+    "observed_article_heading": "Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "article_fields_as_received": {
+      "credited_pupil_pair": [
+        "Sara Varghese",
+        "Devika Girish"
+      ],
+      "school": "St. Peter's Senior Secondary School, Kadayiruppu",
+      "reported_research_location": "Department of Polymer Science and Rubber Technology, Cochin University of Science and Technology (CUSAT)",
+      "year_explicitly_attached_to_IRIS": "2022",
+      "project_title": null,
+      "mentor_names": null,
+      "linked_report_href_as_received": "Array"
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "correspondence_basis": "Matching exact pupil pair, school name and IRIS 2022 context; title is absent, so this is institution-reported contextual correspondence rather than a technical source for the exact exhibit.",
+    "review_scope": "Entire relevant article heading/body and adjacent item boundary read directly in receivedHTML; no browser-render/photo review. Current complete achievements listing searched in normalised visible text.",
+    "notes": "The university reports that the named pair's project was carried out in its polymer department and was among Top 20 IRIS 2022 projects. It supplies no taro title, method, mentor attribution, report/code/data link or work division. Kadayiruppu is retained rather than silently replacing the organiser directory's Kolenchery Ernakulam wording. Its broad GrandAwards statement is not used to establish an exact prize; the separate organiser result below provides that evidence. A department affiliation does not establish who fabricated, analysed or coded the project. No article issue date is printed in the observed item;2022 is the explicitly named IRIS year, not an invented page-publication date.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-039",
+    "title": "Society for Science: Full Awards, Regeneron ISEF 2022 — Materials Science MATS002T",
+    "source_type": "official_organiser_award_results",
+    "publisher": "Society for Science",
+    "url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 265646,
+    "download_sha256": "43750045d2ccd4dbc7ed127a96e19a88c2a89b9f28e30c6141da035ff71df7f7",
+    "headers_sha256": "513e41c6e25c6931e527b1927822dc32b0b814821fb62fb6875d17529e24d42e",
+    "retrieved_at_utc": "2026-11-01T01:35:14.562771+00:00",
+    "effective_download_url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": "2022-05-13",
+    "event_year_as_published": 2022,
+    "jsonld_date_published_as_received": "2022-05-13T15:42:00+00:00",
+    "jsonld_date_modified_as_received": "2023-03-03T01:25:35+00:00",
+    "award_entry_as_published": {
+      "category": "MATERIALS SCIENCE",
+      "award_label": "Second Award of $2,000",
+      "booth_code": "MATS002T",
+      "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "pupil_school_versions": [
+        {
+          "pupil": "Devika Girish",
+          "school": "St. Peter’s Senior Secondary School, Kerala, India"
+        },
+        {
+          "pupil": "Sara Varghese",
+          "school": "St.Peter’s Senior Secondary School, Kerala, India"
+        }
+      ]
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "review_scope": "ReceivedHTML title/date metadata, Materials Science heading, preceding award boundary, exact MATS002T title/pupil/school entry and following award boundary read directly. No browser-render review.",
+    "notes": "This separate official result supports the stated ISEF 2022 Materials Science Second Award label for the exact matching code/title/pair/school. Preserve the actual blank Awards Won fields in the previously received abstract formats alongside this new source; do not rewrite that observation. The amount is the published award label, not proof of an individual payment to each pupil. No Kerala-fair prize, qualifying route, unchanged project version, physical attendance, fabrication work division or independent technical validation is established. Publication, modification and current-retrieval dates have distinct scopes.",
     "topic_register": "project-sources.json"
   },
   {

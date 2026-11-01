@@ -727,5 +727,304 @@
     "review_scope": "Full bibliographic/item fields read in actual public MARC HTML and its advertised MARCXML export; no original-volume pages reviewed.",
     "notes": "Registers KSCSTE responsibility, publication2020,27th-state-level series,ISBN9788194276814,extent[4],168pages and[8]colour-plate pages. NLI home/current holding,callGP363.705482In2,itemIOD000164031ENG are catalogue fields. No MARC856digital-location field. This is a distinct earlier volume, not either unrecovered2021/2022 targetISBN. Publication/cat-record/item dates are not substituted for event dates.",
     "evidence_limits": "Physical-holding lead only; current shelf availability, access conditions, completeness, exact event year, abstract count, project methods and results are unverified. Absence of856does not prove no digitised copy exists."
+  },
+  {
+    "id": "pathways-47",
+    "title": "VITM public activity-report index: seven links and website Publish Date values",
+    "url": "https://www.vismuseum.gov.in/activity-report.php",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_publication_index_html",
+    "document_date": null,
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "download_bytes": 31994,
+    "download_sha256": "996fc0694939a9cd5e8716a97e0308f47d58b64e4d37bc48aa26f21c828f0d46",
+    "headers_sha256": "3754b71738e35f5a7d68c45511d053369db54cf74385a0691c44ed57999d5de8",
+    "retrieved_at_utc": "2026-11-01T01:31:16.729326+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "notes": "Actual seven-row title/PublishDate/download table read. Website dates are preserved as index column values, not the reports’ original issue dates or event dates. All six new PDFs were followed from the actual links; the2022–23 report was already registered as pathways-27. No private or authenticated records used."
+  },
+  {
+    "id": "pathways-48",
+    "title": "VITM and Satellite Units Activity Report 2017–18",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/Activity_Report_2017-18_VITM_SU_PDF.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2017-18",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2019-10-22",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 1571687,
+    "download_sha256": "85bcc428a1275d7a333919feb928518c0bc5d7dbfd8d45338d279e9ff2bbc3d3",
+    "headers_sha256": "b9885a570148c1b4fe844047fe7fad82f4581c5c2b01a4c1d9890000431cb110",
+    "retrieved_at_utc": "2026-11-01T01:31:15.900447+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 68,
+    "visually_read_pdf_pages_1based": [
+      1,
+      5,
+      16,
+      65
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5
+      },
+      {
+        "pdf_page_1based": 16,
+        "printed_page": 16
+      },
+      {
+        "pdf_page_1based": 65,
+        "printed_page": 65
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "The narrative label says SISF2017 while both narrative and table date the event in January2018. The table retains Andhrapradesh, whereas the narrative and collaboration annex name Telangana. Do not silently correct or combine the wording.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record."
+  },
+  {
+    "id": "pathways-49",
+    "title": "VITM and Satellite Units Activity Report 2018–19",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2018-19-Activity-Report-Copy.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2018-19",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2024-03-18",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 2120123,
+    "download_sha256": "720ae78aaf9c10121eeeb6cc928caa5f0687ed2b4d7a0b0a720ce142a95e393b",
+    "headers_sha256": "47e03866a6bd9a46bb7e5e8eb2cc04fa16ff22e8939032060a1785d4724ced7b",
+    "retrieved_at_utc": "2026-11-01T01:31:48.146060+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 89,
+    "visually_read_pdf_pages_1based": [
+      1,
+      5,
+      21,
+      22,
+      74
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 5
+      },
+      {
+        "pdf_page_1based": 21,
+        "printed_page": 21
+      },
+      {
+        "pdf_page_1based": 22,
+        "printed_page": 22
+      },
+      {
+        "pdf_page_1based": 74,
+        "printed_page": 74
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "The narrative label says SISF2018 while the actual date range is January2019. The narrative and table print India versus Indian in the school name; the table row continues with Fair on PDF22. The March2024 index date is a website column value, not the January2019 event date or an authenticated original publication date.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record."
+  },
+  {
+    "id": "pathways-50",
+    "title": "VITM and Satellite Units Activity Report 2019–20",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/VITM-SU-Activity-Report-of-2019-20-PDF_compressed.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2019-20",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2020-11-13",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 1946745,
+    "download_sha256": "91b847a685b2e554e88502c833bd10bb0c715dc5111701337aa286c0ac576ad9",
+    "headers_sha256": "6b471f660c94a6959b756ab082ea1a5a4b55d51164bdef2a32aafd7e4d5a15c2",
+    "retrieved_at_utc": "2026-11-01T01:30:36.375689+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 114,
+    "visually_read_pdf_pages_1based": [
+      1,
+      7,
+      28,
+      97
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 7,
+        "printed_page": 4
+      },
+      {
+        "pdf_page_1based": 28,
+        "printed_page": 21
+      },
+      {
+        "pdf_page_1based": 97,
+        "printed_page": 80
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Physical PDF pages differ substantially from printed pages because of intervening photo pages. The table is an event-wide institutional report, not Kerala’s delegate or attendance list.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record."
+  },
+  {
+    "id": "pathways-51",
+    "title": "VITM and Satellite Units Activity Report 2020–21",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2020-21-Activity-Report-VITM-SU-PDF.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2020-21",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2022-01-22",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 10739630,
+    "download_sha256": "ffd5ea81bd1825e4945d6fc3bb147dee5323916212348bc9e87731e625b09320",
+    "headers_sha256": "881102942b4b93a177febf78c51ea8d8ce93aae2f6f08fa2f9b684b6cd5fcaca",
+    "retrieved_at_utc": "2026-11-01T01:31:53.829249+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 76,
+    "visually_read_pdf_pages_1based": [
+      1,
+      13,
+      23
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 13,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 23,
+        "printed_page": 22
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Section13(a) states science fairs/camps could not be held owing to Covid19. Adjacent sections still report an online district seminar and online Creative Ability Centre activity; do not infer that all science activities stopped. Text extraction failed only at PDF13; that page was rendered/read and contains mobile-exhibition/other-facility inauguration captions, not the cited fair/camp paragraph. No original file was altered.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record.",
+    "extraction_limit": {
+      "pypdf_failed_pages_1based": [
+        13
+      ],
+      "handling": "Rendered and visually read the failed page; all75other pages text-extracted. The cited PDF23 paragraph extracts normally."
+    }
+  },
+  {
+    "id": "pathways-52",
+    "title": "VITM and Satellite Units Activity Report 2021–22",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2021-22-Activity-Report-VITM-PDF-VERSION-RESIZE-Copy-compressed.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2021-22",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2023-05-17",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 5836435,
+    "download_sha256": "357a57b112890836b2c3067e41c6868ffa7b4395336d7c1aff06dd9b21628267",
+    "headers_sha256": "c9f68e61afd9cec3bc87a86d5c54f8973a0b1f3af6c173ce1e91e0946da355dd",
+    "retrieved_at_utc": "2026-11-01T01:31:53.161438+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 91,
+    "visually_read_pdf_pages_1based": [
+      1,
+      31
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 31,
+        "printed_page": 30
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Section13(a) states science fairs/camps could not be held owing to Covid19. The same page separately records online and offline district seminars and online Creative Ability Centre activity. It is not a blanket state-school cancellation order.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record."
+  },
+  {
+    "id": "pathways-53",
+    "title": "VITM and Satellite Units Activity Report 2023–24",
+    "url": "https://www.vismuseum.gov.in/assets/pdf/activity-report/2023-24-Annual-Activity-Report-VITM-SU-PDF-FINAL.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_annual_report",
+    "publisher": "Visvesvaraya Industrial and Technological Museum / NCSM",
+    "document_date": null,
+    "reporting_cycle": "2023-24",
+    "discovery_url": "https://www.vismuseum.gov.in/activity-report.php",
+    "index_publish_date_as_received": "2024-09-05",
+    "index_date_scope": "Publish Date column on the retrieved website index; not authenticated original issue/event date.",
+    "download_bytes": 6050087,
+    "download_sha256": "3b46ba110fbd88cdcfa559aae471c2b5d3f35f662b6d938082629cbcdcb6a1fb",
+    "headers_sha256": "b22a8108f704228a051e68ca7de16fc0f5ac5d8a36ac5cfd321a8edf1c441939",
+    "retrieved_at_utc": "2026-11-01T01:31:49.396604+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 130,
+    "visually_read_pdf_pages_1based": [
+      1,
+      12,
+      50,
+      112,
+      116
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null
+      },
+      {
+        "pdf_page_1based": 12,
+        "printed_page": 11
+      },
+      {
+        "pdf_page_1based": 50,
+        "printed_page": 49
+      },
+      {
+        "pdf_page_1based": 112,
+        "printed_page": 111
+      },
+      {
+        "pdf_page_1based": 116,
+        "printed_page": 115
+      }
+    ],
+    "review_scope": "Full received PDF screened in extracted text for SISF/fair-camp evidence; listed pages visually read. Targeted programme review, not a complete institutional/financial or photo-authentication audit.",
+    "notes": "Narrative separately reports182students and185teachers; the table places182under Students/Participants. Do not invent a combined contestant total or relabel185projects as teachers in the table. The separate mobile-exhibition16000visitor figure is not added to the fair’s15000 or treated as unique people. PDF116/printed115 caption says SCERT,Hyderabad,GovernmentofAndhraPradesh; retain that wording beside the main host account without silently changing its city/state. No ordinal35is assigned from sequence arithmetic; inspected SISF passages label2024 without a confirmed edition number.",
+    "evidence_limits": "Institution-reported programme information, not a Kerala nomination/participant list, independent attendance count, measured learning outcome or General Education statewide-fair inaugural record."
   }
 ]

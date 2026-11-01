@@ -1431,7 +1431,8 @@
     "title": "\"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits",
     "source_ids": [
       "project-033",
-      "project-034"
+      "project-034",
+      "project-037"
     ],
     "exhibit_code": null,
     "students_credited": [
@@ -1455,7 +1456,7 @@
     "evidence_kind": "official_organiser_project_abstract_with_current_school_location_bridge",
     "method_tag": "special transformer and current-component detection/chopping circuitry",
     "method_summary": "The abstract describes a specially constructed transformer and associated circuitry that detects and chops specified current components. Electrocution prevention, mitigation of some short-circuit hazards and possible transformer/inverter/stabiliser functions are project claims.",
-    "evidence_limits": "No schematic, construction specifications, current thresholds, waveforms, test setup, quantitative safety results or independent certification is supplied. The contextual 85% fault statement is not a device success rate. No Arduino or AI component is named. The current location source is not contemporaneous 2021 address evidence. No local qualifying route, physical attendance, prize, guide credit or work division is established; the blank awards field does not prove no award.",
+    "evidence_limits": "No schematic, construction specifications, current thresholds, waveforms, test setup, quantitative safety results or independent certification is supplied. The contextual 85% fault statement is not a device success rate. No Arduino or AI component is named. The current location source is not contemporaneous 2021 address evidence. No local qualifying route, physical attendance, ISEF prize, 2021 guide credit or work division is established; the received abstract’s blank awards field does not prove no award. The earlier SPARK record has different school/guide credits and no final rank; it does not prove an unchanged 2021 project version.",
     "isef_booth_identifier": {
       "source_id": "project-033",
       "event_year_as_published": 2021,
@@ -1464,7 +1465,35 @@
     },
     "student_work_division_verified": false,
     "performance_independently_verified": false,
-    "physical_attendance_verified": false
+    "physical_attendance_verified": false,
+    "related_earlier_records": [
+      {
+        "source_id": "project-037",
+        "reporting_cycle": "2018–19",
+        "competition_as_reported": "SPARK Innovation Awards",
+        "competition_date_as_reported": "2019-01-19",
+        "pdf_pages_1based": [
+          9,
+          10
+        ],
+        "printed_pages": [
+          7,
+          8
+        ],
+        "students_credited": [
+          "Mr. Efraem Joji"
+        ],
+        "teachers_credited": [
+          "Dr. Joji George"
+        ],
+        "school_as_published": "Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala.",
+        "project_title_as_published": "“RAKSHA” – System for Prevention of Electrocution and the Hazardous Effects of Short Circuits.”",
+        "selection_status": "selected_for_awards_with_final_winners_still_to_be_announced",
+        "prize_rank": null,
+        "same_project_version_verified": false,
+        "scope": "Distinctive title/pupil/function correspondence to an earlier source-specific version; different school/guide credits do not overwrite the2021organiser attribution or establish2021guide/work division."
+      }
+    ]
   },
   {
     "id": "case-2022-taro-inspired-oil-water-membrane",
@@ -1472,7 +1501,9 @@
     "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
     "source_ids": [
       "project-035",
-      "project-036"
+      "project-036",
+      "project-038",
+      "project-039"
     ],
     "exhibit_code": null,
     "students_credited": [
@@ -1492,12 +1523,12 @@
     "pdf_page_scope": "project-035 alternate one-page abstract PDF; directory context is separately located below.",
     "printed_page": null,
     "selection_status": "isef_2022_finalist_listing",
-    "prize_status": null,
+    "prize_status": "ISEF 2022 Materials Science Second Award of $2,000, separately documented organiser award label",
     "qualifying_route": null,
     "evidence_kind": "official_organiser_project_abstract_with_directory_correspondence",
     "method_tag": "electrospun ABS/ZnO membranes for selective oil transport",
     "method_summary": "The abstract reports electrospun ABS and ABS/ZnO-nanoparticle membranes, ABS fibres averaging 1.0 micrometre, and a 135-degree water contact angle for both membranes. Selective oil absorption/transport is claimed; calcium oxalate filler and water-purification applications are proposed.",
-    "evidence_limits": "No electrospinning settings, filler loading, measurement protocol, replicate count, uncertainty, raw measurements, separation efficiency, flux, contaminant rejection or reuse/durability results are supplied. Proposed filler/use is not demonstrated field performance or potable-water certification. The directory Virtual label is not proof of completed or physical participation. No qualifying route, prize, guide credit or individual work division is established; blank awards do not prove no award.",
+    "evidence_limits": "No electrospinning settings, filler loading, measurement protocol, replicate count, uncertainty, raw measurements, separation efficiency, flux, contaminant rejection or reuse/durability results are supplied. Proposed filler/use is not demonstrated field performance or potable-water certification. The directory Virtual label is not proof of completed or physical participation. No qualifying route, guide credit or individual work division is established. The received abstract’s blank award field is preserved; a separate organiser result confirms the Materials Science Second Award label without establishing individual payment or overall second place. University research-location context is not a complete report or contribution audit.",
     "isef_booth_identifier": {
       "source_id": "project-035",
       "event_year_as_published": 2022,
@@ -1539,6 +1570,36 @@
     ],
     "student_work_division_verified": false,
     "performance_independently_verified": false,
-    "physical_attendance_verified": false
+    "physical_attendance_verified": false,
+    "award_evidence": {
+      "source_id": "project-039",
+      "event_year_as_published": 2022,
+      "publication_date": "2022-05-13",
+      "category_as_published": "MATERIALS SCIENCE",
+      "booth_id_as_published": "MATS002T",
+      "award_label_as_published": "Second Award of $2,000",
+      "amount_is_published_label_only": true,
+      "individual_payment_verified": false,
+      "scope": "Exact code/title/pupil-pair/school match in the separate official result. Category award, not overall fair second place, each-pupil payment or Kerala Sasthrolsavam rank."
+    },
+    "received_abstract_award_observation": {
+      "source_id": "project-035",
+      "field_as_received": "Awards Won blank in HTML and alternate PDF",
+      "scope": "Original received observation preserved; separate official result supplies the award rather than altering the abstract field."
+    },
+    "institutional_context": {
+      "source_id": "project-038",
+      "pupil_pair_as_published": [
+        "Sara Varghese",
+        "Devika Girish"
+      ],
+      "school_as_published": "St. Peter's Senior Secondary School, Kadayiruppu",
+      "research_location_as_reported": "Department of Polymer Science and Rubber Technology, Cochin University of Science and Technology",
+      "iris_year_as_published": 2022,
+      "project_title_in_article": null,
+      "mentor_names_in_article": null,
+      "same_project_version_verified": false,
+      "scope": "University-reported contextual correspondence through exact pupil pair/school/IRISyear; no exhibit title, original technical report, raw data, fabrication/analysis/code work division or physical-attendance validation supplied."
+    }
   }
 ]

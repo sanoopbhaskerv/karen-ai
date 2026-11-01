@@ -1,0 +1,304 @@
+{
+  "title": "SISF evidence in VITM annual reports,2017–18 to2023–24",
+  "checked_on": "2026-11-01",
+  "source_index_id": "pathways-47",
+  "summary": {
+    "report_observations": 7,
+    "new_report_pdfs": 6,
+    "new_report_pdf_pages": 568,
+    "all_report_pdf_pages": 684,
+    "specific_sisf_event_records": 5,
+    "institution_reported_nonconduct_records": 2,
+    "visually_reviewed_report_pages": 26
+  },
+  "boundaries": [
+    "This is a seven-report evidence register, not seven completed SISF editions.",
+    "Do not derive Kerala delegation size, unique people, prizes, school-fair progression or statewide inaugural dates from these regional institutional tables.",
+    "Printed labels, dates, locations and visitor/participant units remain source-specific. Index dates are not event dates or verified original issue dates."
+  ],
+  "records": [
+    {
+      "id": "vitm-report-2017-18",
+      "source_id": "pathways-48",
+      "reporting_cycle": "2017-18",
+      "pdf_pages": 68,
+      "index_publish_date_as_received": "2019-10-22",
+      "reviewed_pdf_pages_1based": [
+        1,
+        5,
+        16,
+        65
+      ],
+      "evidence_status": "institution_reported_sisf_event",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "The narrative label says SISF2017 while both narrative and table date the event in January2018.",
+        "The table retains Andhrapradesh, whereas the narrative and collaboration annex name Telangana. Do not silently correct or combine the wording."
+      ],
+      "event": {
+        "calendar_year": 2018,
+        "ordinal_as_published": 31,
+        "narrative_label_as_published": "SISF 2017",
+        "start_date": "2018-01-08",
+        "end_date": "2018-01-12",
+        "venue_as_narrative": "St. Patricks Higher Secondary School, Secunderabad",
+        "venue_as_table": "St Patrick’s Hr Sec School, Secunderabad Andhrapradesh",
+        "host_as_narrative": "Government of Telangana",
+        "narrative_pdf_page_1based": 5,
+        "table_pdf_page_1based": 16,
+        "collaboration_annex_pdf_page_1based": 65
+      },
+      "table_counts_as_reported": {
+        "schools": 225,
+        "students_or_participants": 229,
+        "science_clubs_cell_as_printed": "--",
+        "projects": 164,
+        "visitors": 48000,
+        "student_column_heading_as_printed": "No of Students",
+        "scope": "Entire reported zonal event, not Kerala-only; source units and internal differences retained, not independently validated."
+      }
+    },
+    {
+      "id": "vitm-report-2018-19",
+      "source_id": "pathways-49",
+      "reporting_cycle": "2018-19",
+      "pdf_pages": 89,
+      "index_publish_date_as_received": "2024-03-18",
+      "reviewed_pdf_pages_1based": [
+        1,
+        5,
+        21,
+        22,
+        74
+      ],
+      "evidence_status": "institution_reported_sisf_event",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "The narrative label says SISF2018 while the actual date range is January2019.",
+        "The narrative and table print India versus Indian in the school name; the table row continues with Fair on PDF22.",
+        "The March2024 index date is a website column value, not the January2019 event date or an authenticated original publication date."
+      ],
+      "event": {
+        "calendar_year": 2019,
+        "ordinal_as_published": 32,
+        "narrative_label_as_published": "SISF 2018",
+        "start_date": "2019-01-07",
+        "end_date": "2019-01-11",
+        "venue_as_narrative": "St Joseph’s India High School, Vittal Malya Road, Bangalore",
+        "venue_as_table": "St. Joseph’s Indian High School, Bangalore",
+        "host_as_narrative": "Government of Karnataka",
+        "narrative_pdf_page_1based": 5,
+        "table_pdf_page_1based": 21,
+        "collaboration_annex_pdf_page_1based": 74
+      },
+      "table_counts_as_reported": {
+        "schools": 265,
+        "students_or_participants": 268,
+        "science_clubs_cell_as_printed": "--",
+        "projects": 188,
+        "visitors": 25400,
+        "student_column_heading_as_printed": "No of Students/Participants",
+        "scope": "Entire reported zonal event, not Kerala-only; source units and internal differences retained, not independently validated."
+      }
+    },
+    {
+      "id": "vitm-report-2019-20",
+      "source_id": "pathways-50",
+      "reporting_cycle": "2019-20",
+      "pdf_pages": 114,
+      "index_publish_date_as_received": "2020-11-13",
+      "reviewed_pdf_pages_1based": [
+        1,
+        7,
+        28,
+        97
+      ],
+      "evidence_status": "institution_reported_sisf_event",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "Physical PDF pages differ substantially from printed pages because of intervening photo pages.",
+        "The table is an event-wide institutional report, not Kerala’s delegate or attendance list."
+      ],
+      "event": {
+        "calendar_year": 2020,
+        "ordinal_as_published": 33,
+        "narrative_label_as_published": "33rd Southern India Science Fair",
+        "start_date": "2020-01-28",
+        "end_date": "2020-02-01",
+        "venue_as_narrative": "Sathyabhama Institute of Science & Technology, Chennai",
+        "venue_as_table": "Sathyabhama Institute of Science & Technology, Chennai",
+        "host_as_narrative": "Directorate of School Education, Government of Tamil Nadu",
+        "narrative_pdf_page_1based": 7,
+        "table_pdf_page_1based": 28,
+        "collaboration_annex_pdf_page_1based": 97
+      },
+      "table_counts_as_reported": {
+        "schools": 263,
+        "students_or_participants": 265,
+        "science_clubs_cell_as_printed": "--",
+        "projects": 263,
+        "visitors": 27950,
+        "student_column_heading_as_printed": "No of Students/Participants",
+        "scope": "Entire reported zonal event, not Kerala-only; source units and internal differences retained, not independently validated."
+      }
+    },
+    {
+      "id": "vitm-report-2020-21",
+      "source_id": "pathways-51",
+      "reporting_cycle": "2020-21",
+      "pdf_pages": 76,
+      "index_publish_date_as_received": "2022-01-22",
+      "reviewed_pdf_pages_1based": [
+        1,
+        13,
+        23
+      ],
+      "evidence_status": "institution_reported_nonconduct",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "Section13(a) states science fairs/camps could not be held owing to Covid19.",
+        "Adjacent sections still report an online district seminar and online Creative Ability Centre activity; do not infer that all science activities stopped.",
+        "Text extraction failed only at PDF13; that page was rendered/read and contains mobile-exhibition/other-facility inauguration captions, not the cited fair/camp paragraph. No original file was altered."
+      ],
+      "event": null,
+      "nonconduct_statement": {
+        "pdf_page_1based": 23,
+        "printed_page": 22,
+        "subsection": "13(a) Science Fair/Camp",
+        "reason_as_reported": "Covid-19 pandemic",
+        "scope": "Report-cycle fair/camp non-conduct; not a standalone SISF cancellation order, a Kerala state-series order or a claim that every school/science activity stopped."
+      }
+    },
+    {
+      "id": "vitm-report-2021-22",
+      "source_id": "pathways-52",
+      "reporting_cycle": "2021-22",
+      "pdf_pages": 91,
+      "index_publish_date_as_received": "2023-05-17",
+      "reviewed_pdf_pages_1based": [
+        1,
+        31
+      ],
+      "evidence_status": "institution_reported_nonconduct",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "Section13(a) states science fairs/camps could not be held owing to Covid19.",
+        "The same page separately records online and offline district seminars and online Creative Ability Centre activity. It is not a blanket state-school cancellation order."
+      ],
+      "event": null,
+      "nonconduct_statement": {
+        "pdf_page_1based": 31,
+        "printed_page": 30,
+        "subsection": "13(a) Science Fair/Camp",
+        "reason_as_reported": "Covid-19 pandemic",
+        "scope": "Report-cycle fair/camp non-conduct; not a standalone SISF cancellation order, a Kerala state-series order or a claim that every school/science activity stopped."
+      }
+    },
+    {
+      "id": "vitm-report-2022-23",
+      "source_id": "pathways-27",
+      "reporting_cycle": "2022-23",
+      "pdf_pages": 116,
+      "index_publish_date_as_received": "2024-01-18",
+      "reviewed_pdf_pages_1based": [
+        11,
+        43,
+        102
+      ],
+      "evidence_status": "institution_reported_sisf_event",
+      "event": {
+        "calendar_year": 2023,
+        "ordinal_as_published": 34,
+        "narrative_label_as_published": "34th Southern India Science Fair",
+        "start_date": "2023-01-27",
+        "end_date": "2023-01-31",
+        "venue_as_narrative": "Chaldean Syrian Hr.sec. School, Thrissur, Kerala",
+        "venue_as_table": "Chaldean Syrian Hr.sec. School, Thrissur, Kerala",
+        "host_as_narrative": "Department of General Education, Government of Kerala",
+        "narrative_pdf_page_1based": 11,
+        "table_pdf_page_1based": 43,
+        "collaboration_annex_pdf_page_1based": 102
+      },
+      "table_counts_as_reported": {
+        "schools": 169,
+        "students_or_participants": 240,
+        "science_clubs_cell_as_printed": "--",
+        "projects": 169,
+        "visitors": 7500,
+        "student_column_heading_as_printed": "No of Students/Participants",
+        "scope": "Entire reported zonal event, not Kerala-only; not an independent attendance audit."
+      },
+      "narrative_counts_as_reported": {
+        "participants": 240,
+        "schools": 169,
+        "projects": 169,
+        "inaugural_attendees_approx": 1500,
+        "visitors_over_three_days_approx": 6000
+      },
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "Previously registered report/body reused with its hash verified; no new source row or separate PDF work counted.",
+        "Narrative inaugural/three-day visitor descriptions and table total remain separate; no unique-person reconciliation inferred."
+      ]
+    },
+    {
+      "id": "vitm-report-2023-24",
+      "source_id": "pathways-53",
+      "reporting_cycle": "2023-24",
+      "pdf_pages": 130,
+      "index_publish_date_as_received": "2024-09-05",
+      "reviewed_pdf_pages_1based": [
+        1,
+        12,
+        50,
+        112,
+        116
+      ],
+      "evidence_status": "institution_reported_sisf_event",
+      "kerala_delegation_count": null,
+      "independent_attendance_verified": false,
+      "scope_notes": [
+        "Narrative separately reports182students and185teachers; the table places182under Students/Participants. Do not invent a combined contestant total or relabel185projects as teachers in the table.",
+        "The separate mobile-exhibition16000visitor figure is not added to the fair’s15000 or treated as unique people.",
+        "PDF116/printed115 caption says SCERT,Hyderabad,GovernmentofAndhraPradesh; retain that wording beside the main host account without silently changing its city/state.",
+        "No ordinal35is assigned from sequence arithmetic; inspected SISF passages label2024 without a confirmed edition number."
+      ],
+      "event": {
+        "calendar_year": 2024,
+        "ordinal_as_published": null,
+        "narrative_label_as_published": "SISF-2024",
+        "start_date": "2024-01-28",
+        "end_date": "2024-02-01",
+        "venue_as_narrative": "Murali Convention Centre, Vijayawada",
+        "venue_as_table": "Murali Convention Centre, Vijayawada",
+        "host_as_narrative": "SCERT, Government of Andhra Pradesh",
+        "narrative_pdf_page_1based": 12,
+        "table_pdf_page_1based": 50,
+        "collaboration_annex_pdf_page_1based": 112
+      },
+      "table_counts_as_reported": {
+        "schools": 75,
+        "students_or_participants": 182,
+        "science_clubs_cell_as_printed": "--",
+        "projects": 185,
+        "visitors": 15000,
+        "student_column_heading_as_printed": "No of Students/Participants",
+        "scope": "Entire reported zonal event, not Kerala-only; source units and internal differences retained, not independently validated."
+      },
+      "narrative_counts_as_reported": {
+        "students": 182,
+        "teachers": 185,
+        "projects": 185,
+        "inaugural_attendees_approx": 1500,
+        "fair_visitors": 15000,
+        "separate_mobile_exhibition_visitors_approx": 16000
+      }
+    }
+  ]
+}

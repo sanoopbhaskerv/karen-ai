@@ -58,6 +58,8 @@ VITM's **2022–23 activity report** documents the **34th SISF, 27–31 January 
 
 These two sources do not supply Kerala's actual selected-exhibit or delegation list for their editions. The historical participant list below provides separate evidence for 2014; current nomination proceedings remain a gap.
 
+The [SISF annual-report supplement](SISF_HISTORY.md) adds a seven-cycle evidence register: five specifically reported events between January 2018 and February 2024, and two separate pandemic fair/camp non-conduct statements. It preserves narrative-year, place-name and population differences. Reported regional totals do not identify Kerala's delegation, qualifying rank or actual pupil attendance.
+
 ### A recovered Kerala participant list for SISF 2014
 
 A scan originally published on Kerala's education department domain, recovered from a **24 January 2014 Internet Archive capture**, contains an explicitly headed **Kerala Directorate of Public Instruction list of participants**. Its three list pages contain **15 group entries, 20 individual entries and 15 teacher entries**: 50 exhibit entries, rather than 50 people. The final page bears the DPI seal and the signature/name of **Arun Kumar A, Additional Director of Public Instruction (Academic)**, dated **6 January 2014**. The attached organiser instructions schedule the fair for **20–24 January 2014 at Madras Christian College Higher Secondary School, Chennai**, with registration on 19 January. [Official-origin archived PDF, instructions page 1 and list pages 1–3 / PDF pages 1 and 3–5](https://web.archive.org/web/20140124012417id_/http://education.kerala.gov.in:80/downloads2013/announcements/sathernindia_06012014.pdf#page=3)

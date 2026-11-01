@@ -709,5 +709,131 @@
     },
     "review_scope": "Physical page count and PDF metadata checked; cover PDF 1 and complete target entry page PDF 84 rendered and read visually. No complete 122-page Kerala-school catalogue audit is claimed.",
     "notes": "This organiser directory gives a contemporaneous 2022 Kerala location for the exact matching title, booth code, pupil pair and school in project-035. Name order/format and school spacing remain source-specific. Virtual is a published planned judging-mode label, not proof of completed participation or physical attendance. It supplies no Kerala local qualifying route, prize, guide credit or individual work division. PDF metadata dates are not substituted for an unprinted issue date."
+  },
+  {
+    "id": "project-037",
+    "title": "Dr. K. V. Rao Scientific Society Annual Report 2018–19: SPARK selection and Raksha credits",
+    "source_type": "original_organiser_annual_report",
+    "publisher": "Dr. K. V. Rao Scientific Society",
+    "url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 17749509,
+    "download_sha256": "6be6225cf1e07e7fa153124fe10f64286faef7268e06b9d4b3cbda9567cd2351",
+    "headers_sha256": "dfbffe2e428a4eb8d1d173fce940154c9aff7a2aa680fc8c50b7d93253c25a2c",
+    "retrieved_at_utc": "2026-11-01T01:30:51.173517+00:00",
+    "effective_download_url": "https://www.kvrss.org/annualreports/annual-report-2018-2019.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 24,
+    "document_date": null,
+    "reporting_period": "2018–19",
+    "visually_read_pdf_pages_1based": [
+      1,
+      9,
+      10
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Annual Report 2018–19 cover; towards 2020 cover slogan is not substituted for report period."
+      },
+      {
+        "pdf_page_1based": 9,
+        "printed_page": 7,
+        "scope": "SPARK competition held 19 January 2019; seven projects shortlisted/selected for awards; final winners still to be announced during annual function."
+      },
+      {
+        "pdf_page_1based": 10,
+        "printed_page": 8,
+        "scope": "Category 2 Raksha title, Efraem Joji, Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala;guide Dr. Joji George;short principle/functions paragraph."
+      }
+    ],
+    "published_credit_version": {
+      "student": "Mr. Efraem Joji",
+      "school": "Holy Cross Senior Secondary School (CBSE), Kunnamkulam, Kerala.",
+      "guide_teacher": "Dr. Joji George",
+      "project_title": "“RAKSHA” – System for Prevention of Electrocution and the Hazardous Effects of Short Circuits.”",
+      "source_reported_competition_date": "2019-01-19",
+      "selection_status": "selected_for_awards_with_final_winners_still_to_be_announced",
+      "prize_rank": null
+    },
+    "candidate_case_id": "case-2021-raksha-electrical-protection",
+    "correspondence_basis": "Exact credited pupil-name words, distinctive full project title and matching electrical protection/stabiliser/inverter functions; the report is an earlier version with a different school and guide credit.",
+    "same_project_version_verified": false,
+    "method_substance_added": "A short organiser description attributes the protective principle to reducing resultant current through a body; it also claims voltage-stabilisation and inverter/backup functions. No technical diagram or data is supplied.",
+    "review_scope": "All 24 physical pages keyword-screened for Raksha/credit/context; cover and complete relevant PDF 9–10 pages visually read. Not a full 24-page narrative or photograph authentication review.",
+    "notes": "This is original organiser reporting of an earlier SPARK selected-for-awards entry, not a final award-rank certificate, the 2021 ISEF project report, or proof of an unchanged device/author contribution. Earlier school and guide credits must not overwrite or be transferred into the 2021 organiser attribution. The report supplies no circuit specification, thresholds, safety experiment, raw measurements or independent performance validation. The PDF metadata creation/modification is 30 April 2020, distinct from reporting period and 19 January 2019 competition. A separate current award page indexed under 2018 was not received/adopted or reconciled with this report."
+  },
+  {
+    "id": "project-038",
+    "title": "CUSAT achievements listing: Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "source_type": "official_institution_news_listing",
+    "publisher": "Cochin University of Science and Technology",
+    "url": "https://www.cusat.ac.in/achievements.php",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 2338285,
+    "download_sha256": "caf1d992d984b33e66da441703631ebd9a8ff72354907df752ec9e1f8e85c84d",
+    "headers_sha256": "f3aa0698a33c1d669ebeefa10e217728488f47c3138e70cc75d833e51f22db98",
+    "retrieved_at_utc": "2026-11-01T01:33:10.888390+00:00",
+    "effective_download_url": "https://www.cusat.ac.in/achievements.php",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": null,
+    "observed_article_heading": "Keralite Students Bag Grand Awards in the International Science and Engineering Fair at the US",
+    "article_fields_as_received": {
+      "credited_pupil_pair": [
+        "Sara Varghese",
+        "Devika Girish"
+      ],
+      "school": "St. Peter's Senior Secondary School, Kadayiruppu",
+      "reported_research_location": "Department of Polymer Science and Rubber Technology, Cochin University of Science and Technology (CUSAT)",
+      "year_explicitly_attached_to_IRIS": "2022",
+      "project_title": null,
+      "mentor_names": null,
+      "linked_report_href_as_received": "Array"
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "correspondence_basis": "Matching exact pupil pair, school name and IRIS 2022 context; title is absent, so this is institution-reported contextual correspondence rather than a technical source for the exact exhibit.",
+    "review_scope": "Entire relevant article heading/body and adjacent item boundary read directly in receivedHTML; no browser-render/photo review. Current complete achievements listing searched in normalised visible text.",
+    "notes": "The university reports that the named pair's project was carried out in its polymer department and was among Top 20 IRIS 2022 projects. It supplies no taro title, method, mentor attribution, report/code/data link or work division. Kadayiruppu is retained rather than silently replacing the organiser directory's Kolenchery Ernakulam wording. Its broad GrandAwards statement is not used to establish an exact prize; the separate organiser result below provides that evidence. A department affiliation does not establish who fabricated, analysed or coded the project. No article issue date is printed in the observed item;2022 is the explicitly named IRIS year, not an invented page-publication date."
+  },
+  {
+    "id": "project-039",
+    "title": "Society for Science: Full Awards, Regeneron ISEF 2022 — Materials Science MATS002T",
+    "source_type": "official_organiser_award_results",
+    "publisher": "Society for Science",
+    "url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "accessed_on": "2026-11-01",
+    "download_bytes": 265646,
+    "download_sha256": "43750045d2ccd4dbc7ed127a96e19a88c2a89b9f28e30c6141da035ff71df7f7",
+    "headers_sha256": "513e41c6e25c6931e527b1927822dc32b0b814821fb62fb6875d17529e24d42e",
+    "retrieved_at_utc": "2026-11-01T01:35:14.562771+00:00",
+    "effective_download_url": "https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/",
+    "http_status": 200,
+    "tls_verified": true,
+    "document_date": "2022-05-13",
+    "event_year_as_published": 2022,
+    "jsonld_date_published_as_received": "2022-05-13T15:42:00+00:00",
+    "jsonld_date_modified_as_received": "2023-03-03T01:25:35+00:00",
+    "award_entry_as_published": {
+      "category": "MATERIALS SCIENCE",
+      "award_label": "Second Award of $2,000",
+      "booth_code": "MATS002T",
+      "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "pupil_school_versions": [
+        {
+          "pupil": "Devika Girish",
+          "school": "St. Peter’s Senior Secondary School, Kerala, India"
+        },
+        {
+          "pupil": "Sara Varghese",
+          "school": "St.Peter’s Senior Secondary School, Kerala, India"
+        }
+      ]
+    },
+    "candidate_case_id": "case-2022-taro-inspired-oil-water-membrane",
+    "review_scope": "ReceivedHTML title/date metadata, Materials Science heading, preceding award boundary, exact MATS002T title/pupil/school entry and following award boundary read directly. No browser-render review.",
+    "notes": "This separate official result supports the stated ISEF 2022 Materials Science Second Award label for the exact matching code/title/pair/school. Preserve the actual blank Awards Won fields in the previously received abstract formats alongside this new source; do not rewrite that observation. The amount is the published award label, not proof of an individual payment to each pupil. No Kerala-fair prize, qualifying route, unchanged project version, physical attendance, fabrication work division or independent technical validation is established. Publication, modification and current-retrieval dates have distinct scopes."
   }
 ]

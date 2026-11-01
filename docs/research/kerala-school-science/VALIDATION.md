@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 328 |
-| Distinct registered source URLs | 323 |
+| Source records | 339 |
+| Distinct registered source URLs | 334 |
 | Topic source registers | 22 |
-| JSON files | 46 |
-| Concise English/Malayalam knowledge records | 149 |
-| Draft Malayalam evaluation questions | 127 |
+| JSON files | 47 |
+| Concise English/Malayalam knowledge records | 160 |
+| Draft Malayalam evaluation questions | 138 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 13 |
@@ -47,7 +47,7 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Versioned IT Quiz schedule rows | 6 |
 | Historical Science circular pages reviewed | 16 (15 content; one blank) |
 | Historical appeal/Work Experience documents / pages | 3 / 6 |
-| Pandemic documents / pages | 5 / 10 |
+| Kerala pandemic supplement documents / pages | 5 / 10 |
 | Early contemporary journal sources | 2 |
 | Pre-2009 IT circulars / pages | 2 / 12 |
 | Archived early IT site bodies / item tables / numbered entries | 9 / 6 / 230 |
@@ -61,6 +61,13 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Additional ISEF abstract works / 2022 directory physical pages | 2 / 122 |
 | Dated common blank identity-form physical pages | 1 |
 | NCSC abstract-compilation institutional holding records | 1 |
+| SISF annual-report works / physical PDF pages | 7 / 684 |
+| SISF event records / institutional non-conduct records | 5 / 2 |
+| SISF report pages visually reviewed | 26 |
+| Earlier Raksha SPARK report physical PDF pages | 24 |
+| Special-school manual physical / printed pages reviewed | 18 / 35 |
+| Education administration-report institutional holding records | 1 |
+| ISEF 2022 Materials Science category-award records | 1 |
 | Publisher-library model-book reference entries | 7 |
 | Underlying March 2026 grace-order pages | 8 |
 | District-result destinations | 14 |
@@ -148,7 +155,7 @@ The preceding packet, commit `feb68a5`, preserved 22 non-source JSON datasets ag
 
 That packet's independent publication audit passed 4,071 checks, including its 54 inventory rows, 239 local links, preserved earlier records and nine source acquisitions. Its read-only review found no material evidence-scope or privacy blocker; it did not certify historical completeness or approve the draft Malayalam.
 
-The current addition contains five actual public IRIS HTML works and the complete 46-page ISEF 2026–2027 rulebook. All five HTML texts were read; rulebook cover and PDF pages 4, 5 and 35 were visually reviewed. An independent 155-check review confirms actual body/header hashes, bytes, page count, printed locators, public-page edition/calendar conflicts and six fact/evaluation pairs. The initial generic AI-disclosure wording was narrowed to generative AI; the homepage's internal date conflict is retained beside the cross-page conflict. No authenticated form, upload enforcement or payment was tested.
+The preceding packet, commit `4ae61bf`, contains five actual public IRIS HTML works and the complete 46-page ISEF 2026–2027 rulebook. All five HTML texts were read; rulebook cover and PDF pages 4, 5 and 35 were visually reviewed. An independent 155-check review confirms actual body/header hashes, bytes, page count, printed locators, public-page edition/calendar conflicts and six fact/evaluation pairs. The initial generic AI-disclosure wording was narrowed to generative AI; the homepage's internal date conflict is retained beside the cross-page conflict. No authenticated form, upload enforcement or payment was tested.
 
 The two new ISEF case abstracts were read in received organiser HTML and both one-page alternate PDFs. The complete 122-page 2022 directory supplies a targeted cover/entry review at PDF 1 and 84; it is not a full country-by-country audit. The 2021 directory remained partial and was excluded. A current government school-location page is used with its temporal limit. Author validation passed 224 checks; an independent 102-check review confirms cases, measurements, current/historical location scope, blank awards and the NLI/form additions. No original design/code or independent electrical/separation test was recovered.
 
@@ -156,4 +163,13 @@ The one-page common identity form was visually reviewed in full, with 64 acquisi
 
 Against `feb68a5`, all 316 prior source objects and 36 prior case objects are preserved; 22 non-source JSON datasets remain byte-identical, with two cases appended to the project index. The 139 knowledge and 117 evaluation records remain exact byte prefixes, with ten pairs appended. New evaluations remain held out and all Malayalam requires teacher review. No runtime, retrieval, fine-tuning or hardware change is included.
 
-The final independent publication audit passed **4,546 checks**, recalculating all **58 inventory rows** and checking **249 local links/anchors**, preservation, reference resolution and all twelve new source acquisitions/nested formats against cached originals. A separate final review passed 43 checks on the four new holding/form/project fact-evaluation pairs and all seven form ordinals. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, prizes, physical attendance or Malayalam educator approval.
+That packet’s final independent publication audit passed **4,546 checks**, recalculating all **58 inventory rows** and checking **249 local links/anchors**, preservation, reference resolution and all twelve new source acquisitions/nested formats against cached originals. A separate final review passed 43 checks on the four new holding/form/project fact-evaluation pairs and all seven form ordinals. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, prizes, physical attendance or Malayalam educator approval.
+
+
+The new SISF packet adds six complete PDFs / 568 physical pages and reuses the existing 116-page report with its hash verified. Seven report observations cover five specific events and two institutional non-conduct paragraphs. All 26 target pages were visually read; a focused independent review passed 201 checks after retaining the source's approximate mobile-exhibition visitor figure. The report-index dates, internal label/place variants, student/teacher populations and adjacent pandemic activities remain distinct. One text-extraction exception was handled by reading the rendered page; no original PDF was altered.
+
+The further project pass adds the 24-page KVRSS report, a CUSAT institutional item and the separate official ISEF 2022 award announcement. Only the two affected case records gain source-specific context/award evidence; no new exhibit is counted. The existing abstract's blank field remains an actual-source observation rather than overriding the later-linked award result. The CSL catalogue holding is not a recovered Education report; the enriched special-school manual record retains byte-identical content and separately dated fresh headers, all 18 reviewed pages and received-file annex limits.
+
+Against `4ae61bf`, 327 earlier source objects remain unchanged and one existing manual source gains explicit review/retrieval fields. The other 36 case objects and the two updated cases' original main credit arrays remain unchanged; their existing source-ID sequences are preserved as prefixes. Twenty-two other non-source JSON datasets remain byte-identical. The project index is enriched in place and one new seven-report dataset is added. All 149 knowledge and 127 evaluation records remain exact byte prefixes, with eleven pairs appended. No runtime, retrieval, training, provider or hardware change is included; Malayalam remains teacher-review draft.
+
+The packet's final independent publication audit passed **4,842 checks**, recalculating all **65 inventory rows** and checking **264 local links/anchors**, preservation, reference resolution and the actual new source acquisitions/nested formats against cached originals. A separate integrated cross-review passed 125 checks on the holding, manual, two case enrichments and five associated fact/evaluation pairs. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, physical attendance or Malayalam educator approval.

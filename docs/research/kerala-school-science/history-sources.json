@@ -762,5 +762,74 @@
         "reason": "Visually identified as Bureau of Economics and Statistics administration report1966–67, with PlanningDepartmentGO(Rt)254/67/Plg20October1967; not the missing EducationDepartment report. No all-page review claimed."
       }
     }
+  },
+  {
+    "id": "history-education-admin-1967-68-csl-holding",
+    "title": "NVLI union catalogue: CSL holding of Kerala Education Department administration report for1967–68, registered publication1970",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+    "discovery_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-search.pl?idx=&q=ti%3Aadministration%20AND%20au%3Aeducation%20AND%20kw%3AKerala&offset=40&sort_by=title_za&count=20",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "institutional_library_bibliographic_holding_record",
+    "catalogue_provider": "National Virtual Library of India / Indian Culture public union catalogue",
+    "cataloguing_agency_as_registered": "CSL",
+    "catalogue_record_id": "3949860",
+    "bibliographic_fields": {
+      "title_as_registered": "Administration [annual] report for the year 1967-68",
+      "responsibility_as_registered": "Education Department, Government of Kerala",
+      "place_as_registered": "Ernakulam",
+      "publisher_as_registered": "Government Press",
+      "publication_year_as_registered": "1970",
+      "extent_as_registered": "iv, 150 p.",
+      "call_number_as_registered": "370.95483 EDU-A1967",
+      "local_processing_identifier_MARC949a": "IO060370"
+    },
+    "reporting_cycle_as_registered": "1967–68",
+    "home_and_current_library": "Central Secretariat Library",
+    "download_bytes": 238067,
+    "download_sha256": "99186ec94e083ea352d85e230fa7d9b30f9c447d80e5b50efa684250e10a8345",
+    "headers_sha256": "03639b186a6545b254ef677202c8da8e290c1e14bd771e49d6d88847a0522e7d",
+    "acquisition": {
+      "request_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+      "effective_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3949860",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T01:33:48.112313+00:00",
+      "bytes": 238067,
+      "sha256": "99186ec94e083ea352d85e230fa7d9b30f9c447d80e5b50efa684250e10a8345",
+      "headers_sha256": "03639b186a6545b254ef677202c8da8e290c1e14bd771e49d6d88847a0522e7d",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "alternate_marcxml_export": {
+      "request_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3949860&format=marcxml",
+      "effective_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=3949860&format=marcxml",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T01:33:55.953092+00:00",
+      "bytes": 4289,
+      "sha256": "27e02f65eeaf53e1a86a7dbb5ce8af007703f72023dc8b3cab53aff9cf87bd27",
+      "headers_sha256": "19ccc25a854a3ca8de4ee5269efff99c32eb3dca7b1c2f02ec2141543e696c4b",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "review_scope": "Full actual public MARC HTML field listing and its advertised structured MARCXML export read. Catalogue metadata only; no original report title/contents/body page or browser-rendered page was reviewed.",
+    "original_report_body_recovered": false,
+    "original_pdf_pages": null,
+    "evidence_locators": [
+      "MARC003/040 CSL provenance",
+      "MARC245 title/reporting cycle and Education Department responsibility",
+      "MARC260 registered Government Press, Ernakulam publication1970",
+      "MARC300 iv,150p. extent",
+      "MARC949$a IO060370 local-processing identifier",
+      "MARC952 CSL home/current library and call370.95483 EDU-A1967; public HTML expands CSL to Central Secretariat Library",
+      "No MARC856 digital-location field in this received record"
+    ],
+    "notes": "A genuinely new exact institutional holding lead, separate from the known general-state partial1965–66 scan, the Bureau of Economics and Statistics reports, Google Books catalogue-year labels, and Kerala Legislature collection descriptions. The registered report cycle1967–68 and publication1970 are retained as different fields. IO060370 is explicitly a MARC949 local-processing identifier, not an independently confirmed present-day barcode. Two other search-result aliases2657100/4087971 have the same title/call/library; they are not counted as three independent original volumes.",
+    "evidence_limits": [
+      "The original report body and actual publication/title pages have not been recovered.",
+      "The catalogue does not establish target1965–66 or1966–67 holdings or identify the missing general-report Education chapter91–135.",
+      "This holding does not establish a first statewide fair, any event date/venue, science-fair content or annual continuity.",
+      "The public item record is not verification of current shelf presence, completeness, circulation/access conditions or a digital copy.",
+      "No856 in this record does not prove that a digitised copy exists nowhere."
+    ]
   }
 ]
