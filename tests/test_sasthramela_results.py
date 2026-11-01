@@ -48,7 +48,7 @@ def test_exact_reported_question_text_voice_sources_and_no_model(setup):
     provider.transcribe=lambda data:q
     spoken=[];provider.speak=lambda text:spoken.append(text) or b'ID3test'
     r=client.post('/chat',data=pcm(),content_type='audio/wav')
-    assert r.status_code==200 and spoken==[a['reply']] and not provider.seen
+    assert r.status_code==200 and spoken==[a.get('spoken_reply',a['reply'])] and not provider.seen
 
 
 def test_other_competitions_and_named_rank_do_not_receive_school_leader():

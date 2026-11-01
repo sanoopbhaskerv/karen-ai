@@ -1,0 +1,844 @@
+{
+  "checked_on": "2026-11-01",
+  "topics": [
+    {
+      "id": "earliest-fairs",
+      "concept_groups": [
+        "sasthr|sastra|shastra|science.*(?:fair|exhib)|school.*science|ശാസ്ത്ര.*മേള|ശാസ്ത്ര.*പ്രദർശന",
+        "earliest|oldest|first documented|first recorded|ആദ്യ.*രേഖ|ഏറ്റവും.*പഴ"
+      ],
+      "fact_ids": [
+        "history-1962-63-regional-fairs"
+      ],
+      "source_refs": [],
+      "priority": 0
+    },
+    {
+      "id": "chittur",
+      "concept_groups": [
+        "chittur|ചിറ്റൂ",
+        "1962|fair|exhib|happen|മേള|നടന്ന"
+      ],
+      "fact_ids": [
+        "early-regional-fairs-programmes-and-qualified-counts"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "ചിറ്റൂരിലെ ഗവൺമെന്റ് ഗേൾസ് ഹൈസ്കൂളിൽ 1962 നവംബർ 29 മുതൽ ഡിസംബർ 1 വരെ പ്രാദേശിക സ്കൂൾ ശാസ്ത്രമേള രേഖപ്പെടുത്തിയിട്ടുണ്ട്. റിപ്പോർട്ട് ആറു ക്ലബ് സ്റ്റാളുകളും പന്ത്രണ്ട് പ്രദർശന ക്ലാസ്മുറികളും രണ്ടു പൊതുപ്രദർശന ദിവസങ്ങളിലായി 3,000-ത്തിലധികം വിദ്യാർത്ഥി/അധ്യാപക സന്ദർശകരെയും പരാമർശിക്കുന്നു. ഇത് കേരളത്തിന്റെ സംസ്ഥാനതല മത്സരപരമ്പരയുടെ തുടക്കം തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "alwaye",
+      "concept_groups": [
+        "alwaye|aluva|alway|ആലുവ",
+        "1963|fair|exhib|happen|മേള|നടന്ന"
+      ],
+      "fact_ids": [
+        "early-regional-fairs-programmes-and-qualified-counts"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "ആലുവ ഗവൺമെന്റ് ഹൈസ്കൂളിൽ 1963 ജനുവരി 28–30 തീയതികളിലെ പ്രാദേശിക ശാസ്ത്രമേള റിപ്പോർട്ടിൽ രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഒമ്പതു ക്ലബ്ബുകൾ, ആറു പ്രത്യേക സ്റ്റാളുകൾ, പതിനൊന്നു ക്ലാസ്മുറികൾ, മൂന്നു ദിവസങ്ങളിലായി ഏകദേശം 6,500 സന്ദർശകർ എന്നാണ് വിവരണം. ഈ കണക്ക് വ്യത്യസ്ത വിഭാഗങ്ങളിലുള്ള സന്ദർശകരുടേതാണ്; അത്രയും വ്യത്യസ്ത വിദ്യാർത്ഥികൾ മത്സരിച്ചതായി കണക്കാക്കരുത്."
+    },
+    {
+      "id": "state-origin",
+      "concept_groups": [
+        "sasthr|sastra|shastra|science.*(?:fair|exhib)|school.*science|ശാസ്ത്ര.*മേള|ശാസ്ത്ര.*പ്രദർശന",
+        "statewide|state.*(?:beg|start|origin|first)|exact.*year|inaugural|സംസ്ഥാന.*(?:ആരംഭ|തുടക്ക)|കൃത്യ.*വർഷ|\\bbegan\\b|\\bbegin\\b|\\bstarted\\b|\\bstart\\b|which.year|what.year"
+      ],
+      "fact_ids": [
+        "history-1962-63-regional-fairs",
+        "state-admin-partial-1965-66"
+      ],
+      "source_refs": [],
+      "priority": 10,
+      "answer_ml": "സംസ്ഥാനതല ശാസ്ത്രമേള ആദ്യമായി നടന്ന കൃത്യവർഷം ലഭിച്ച പ്രാഥമിക രേഖകളിൽ ഉറപ്പായിട്ടില്ല. 1962–63ലെ ചിറ്റൂർ/ആലുവ പ്രാദേശിക മേളകൾ രേഖപ്പെടുത്തിയിട്ടുണ്ട്; അവ സംസ്ഥാനപരമ്പരയുടെ ഉദ്ഘാടനമല്ല. 1965–66 ഭരണറിപ്പോർട്ടിന്റെ വിദ്യാഭ്യാസ അധ്യായം ലഭിച്ച പകർപ്പിൽ ഇല്ല. 2009ലെ ഏകീകരണത്തെ ആദ്യ ശാസ്ത്രമേളയുടെ വർഷമായി കാണരുത്."
+    },
+    {
+      "id": "integration-2009",
+      "concept_groups": [
+        "2009",
+        "manual|integrat|unif|merg|change|മാന്വ|ഏകീകര|മാറ്റ"
+      ],
+      "fact_ids": [
+        "history-2009-integration"
+      ],
+      "source_refs": [],
+      "priority": 0
+    },
+    {
+      "id": "it-origins",
+      "concept_groups": [
+        "\\bit\\b|ഐടി|ഐ\\.ടി",
+        "first|beg|join|part|introduc|when|history|ആദ്യ|തുടങ്|ഭാഗ|ചേർ"
+      ],
+      "fact_ids": [
+        "it-retrospective-first-second-2002-2004"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2002,
+        2003,
+        2004
+      ]
+    },
+    {
+      "id": "two-editions-2012",
+      "concept_groups": [
+        "2012",
+        "two|twice|different|january|november|രണ്ട്|രണ്ടു|ജനുവരി|നവംബർ"
+      ],
+      "fact_ids": [
+        "history-2012-two-editions"
+      ],
+      "source_refs": [],
+      "priority": 0
+    },
+    {
+      "id": "kollam-venues",
+      "concept_groups": [
+        "2015",
+        "kollam|കൊല്ല",
+        "venue|host|school|where|വേദി|സ്കൂ[ൾള]|എവിടെ"
+      ],
+      "fact_ids": [],
+      "source_refs": [
+        {
+          "id": "historical-editions-015",
+          "locator": "PDF5–7, 2015 programme venue allocations"
+        }
+      ],
+      "priority": 0,
+      "answer_ml": "2015 നവംബർ 24–28 കൊല്ലം പരിപാടിപ്രകാരം സയൻസ്: St Aloysius HS, St Antony’s UPS; ഗണിതം: St Joseph’s Convent HSS; സാമൂഹ്യശാസ്ത്രം: S.N. Central School; പ്രവൃത്തിപരിചയം: Christuraj HSS; ഐടി, Vocational Expo/Career Fest: Government Model Boys HSS. ഇവ അന്നത്തെ പരിപാടിയിൽ നിശ്ചയിച്ച വേദികളാണ്; ഇപ്പോഴത്തെ വേദികളോ പൂർത്തിയായ ഹാജറിന്റെ തെളിവോ അല്ല.",
+      "years": [
+        2015
+      ]
+    },
+    {
+      "id": "pandemic",
+      "concept_groups": [
+        "covid|pandemic|lockdown|കോവിഡ്|മഹാമാരി",
+        "compet|fair|exhib|record|cancel|മത്സര|മേള|പ്രദർശന|രേഖ"
+      ],
+      "fact_ids": [
+        "pandemic-departmental-nonconduct-evidence",
+        "pandemic-online-programmes-distinct"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "2022 ജൂൺ 14ലെ സർക്കാർ ഉത്തരവ്, കോവിഡ് നിയന്ത്രണങ്ങളാൽ 2021–22ലെ വകുപ്പുതല കലാ/കായിക/ശാസ്ത്ര മത്സരങ്ങൾ നടത്താനായില്ലെന്ന ഡിജിഇ റിപ്പോർട്ട് രേഖപ്പെടുത്തുന്നു. വേറിട്ട ശാസ്ത്രരംഗം, NCSC പരിപാടികൾക്ക് ഓൺലൈൻ നിർദേശങ്ങളുണ്ട്. ഇവ എല്ലാ പ്രാദേശിക ശാസ്ത്രപ്രവർത്തനങ്ങളും നിന്നുവെന്നോ ഒരു പ്രത്യേക സംസ്ഥാനമേള റദ്ദാക്കൽ ഉത്തരവ് ലഭിച്ചെന്നോ തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "catalogue-changes",
+      "concept_groups": [
+        "catalog|event.*list|item.*list|ഇന.*പട്ടിക|കാറ്റലോ|list.*events",
+        "chang|over time|evol|മാറ്റ|വികസ"
+      ],
+      "fact_ids": [],
+      "source_refs": [],
+      "priority": 0,
+      "handler": "catalogue"
+    },
+    {
+      "id": "overall-leaders",
+      "concept_groups": [
+        "school|district|സ്കൂ[ൾള]|ജില്ല",
+        "top|lead|champion|number.one|first|മുന്നി|ഒന്നാമ|ചാമ്പ്യ|\\bled\\b",
+        "(?<!\\d)(?:19|20)\\d{2}(?!\\d)"
+      ],
+      "fact_ids": [],
+      "source_refs": [],
+      "priority": -10,
+      "handler": "standings",
+      "exclude": "working|robotics|sisf|ncert|inspire|\\bit\\b|വർക്കി|റോബോട്ടി|എസ്ഐഎസ്എഫ്|project|model|electronics|arduino"
+    },
+    {
+      "id": "district-consistency",
+      "concept_groups": [
+        "district|ജില്ല",
+        "consisten|often|frequen|regular|most.*top|തുടർച്ച|പതിവ|സ്ഥിര"
+      ],
+      "fact_ids": [],
+      "source_refs": [],
+      "priority": 10,
+      "handler": "consistency"
+    },
+    {
+      "id": "conflict-2019",
+      "concept_groups": [
+        "2019",
+        "disagree|conflict|different|differ|mismatch|why|വ്യത്യാസ|വിരുദ്ധ|എന്തുകൊണ്ട്"
+      ],
+      "fact_ids": [
+        "history-2019-conflict"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "2019ലെ സർക്കാർ സമാപന റിപ്പോർട്ട് കോഴിക്കോട് ഓവറോൾ ജേതാവെന്ന് പറയുന്നു; ശേഖരിച്ച നിലവിലെ KITE ആർക്കൈവിൽ പാലക്കാട് മുന്നിലാണ്. ഈ വ്യത്യാസത്തിന്റെ കാരണം സ്ഥിരീകരിക്കുന്ന തിരുത്തൽ ഉത്തരവോ അംഗീകൃത ഒത്തുതീർപ്പു രേഖയോ ലഭിച്ചിട്ടില്ല. അപ്പീലോ സോഫ്റ്റ്‌വെയർ പിശകോ കാരണമെന്ന് ഊഹിക്കരുത്."
+    },
+    {
+      "id": "versions-2022",
+      "concept_groups": [
+        "2022",
+        "version|chang|different|differ|conflict|capture|score|മാറ|പതിപ്പ|വ്യത്യാസ|പോയിന്റ്"
+      ],
+      "fact_ids": [
+        "result-2022-publication-versions"
+      ],
+      "source_refs": [],
+      "priority": 0
+    },
+    {
+      "id": "conflict-2024",
+      "concept_groups": [
+        "2024",
+        "disagree|conflict|different|differ|mismatch|why|വ്യത്യാസ|വിരുദ്ധ|എന്തുകൊണ്ട്"
+      ],
+      "fact_ids": [
+        "history-2024-conflict",
+        "earlier-portal-closing-totals"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "2024ൽ മലപ്പുറം ജില്ലാ ജേതാവാണെന്നതിൽ PRD സമാപന റിപ്പോർട്ടും നിലവിലെ KITE ആർക്കൈവും യോജിക്കുന്നു; പോയിന്റുകളിൽ വ്യത്യാസമുണ്ട്. 2024 ഡിസംബർ 2ലെ പഴയ KITE പകർപ്പ് സമാപന റിപ്പോർട്ടിലെ കണക്കുകൾ കാണിക്കുന്നു; പിൽക്കാല പകർപ്പുകളിൽ വ്യത്യസ്ത കണക്കുകളാണ്. ഇതു പ്രസിദ്ധീകരണങ്ങളുടെ മാറ്റം രേഖപ്പെടുത്തുന്നു; മാറ്റത്തിന്റെ കാരണം, കൃത്യദിവസം, അംഗീകൃത അന്തിമ തിരുത്തൽ എന്നിവ തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "stream-champions",
+      "concept_groups": [
+        "2017|2018",
+        "science|സയൻസ്|ശാസ്ത്ര",
+        "\\bit\\b|ഐടി",
+        "top|champion|won|winner|മുന്നി|ജേതാ|ചാമ്പ്യ"
+      ],
+      "fact_ids": [],
+      "source_refs": [],
+      "priority": 10,
+      "handler": "streams"
+    },
+    {
+      "id": "robotics-2025",
+      "concept_groups": [
+        "2025",
+        "robotics|റോബോട്ടി",
+        "\\bhs\\b|high.school|ഹൈസ്കൂ[ൾള]|ഹൈ സ്കൂ[ൾള]|എച്ച്.?എസ്|എച്ച്എസ്",
+        "won|winner|first|second|receiv|rank|result|school|വിജയ|സ്ഥാനം|ജേതാ|സ്കൂ[ൾള]|ഫല"
+      ],
+      "fact_ids": [
+        "state2025-hs-robotics-places"
+      ],
+      "source_refs": [],
+      "priority": 15,
+      "exclude": "\\bhss\\b|higher.secondary|district|sisf|southern|ജില്ല|ഹയർ|എസ്ഐഎസ്എഫ്",
+      "years": [
+        2025
+      ]
+    },
+    {
+      "id": "working-winner-coverage",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "winner|won|champion|വിജയ|ജേതാ",
+        "each|every|previous|all|complete|year.by.year|ഓരോ|എല്ലാ|മുൻ"
+      ],
+      "fact_ids": [
+        "working-grade-reports-not-ranks-2026"
+      ],
+      "source_refs": [],
+      "priority": 10,
+      "answer_ml": "ഇല്ല. ശേഖരത്തിൽ ഓരോ മുൻവർഷത്തെയും HS Science Working Model വിജയികളുടെ പൂർണ്ണമായി പരിശോധിച്ച പട്ടികയില്ല. മൊത്തം സ്കൂൾ/ജില്ല ചാമ്പ്യന്മാരെ ആ ഇനത്തിലെ വിജയികളായി കാണരുത്. ലഭിച്ച ചില ഗ്രേഡ് പട്ടികകളിൽ റാങ്കില്ല; ആദ്യ വരി ഒന്നാം സമ്മാനം തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "medibot",
+      "concept_groups": [
+        "medibot|medbot|anuvind|anuvund|മെഡിബോ|മെടിബോ|അനുവി"
+      ],
+      "fact_ids": [
+        "sisf-medibot-award",
+        "sisf2026-medication-written-method-and-clinical-limits"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "Anuvind K Rajയുടെ Medibot Engineeringന് SISF 2026ൽ മൊത്തം വ്യക്തിഗത രണ്ടാം സമ്മാനമാണ്. KL-I-05 കോഡ് പൊരുത്തമുള്ള കമ്പെൻഡിയം വിവരണം ESP32, നാല് stepper motor, Firebase സമയക്രമം, NTP സമയം എന്നിവ ഉപയോഗിക്കുന്ന മരുന്ന് വിതരണം വിവരിക്കുന്നു. പേരിലും ശീർഷകത്തിലും പതിപ്പുവ്യത്യാസങ്ങളുണ്ട്; കൃത്യമായ ഡോസ്, മരുന്ന് കഴിച്ചതിന്റെ ഉറപ്പ്, ക്ലിനിക്കൽ സുരക്ഷ എന്നിവ സ്വതന്ത്രമായി തെളിയിച്ചിട്ടില്ല.",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "arif-award",
+      "concept_groups": [
+        "arif|ആരിഫ|simulation.*driv|driving.*(?:instrument|simulat)|ഡ്രൈവിങ്|ഡ്രൈവിംഗ്",
+        "award|prize|win|won|sisf|സമ്മാന|നേടി|എസ്ഐഎസ്എഫ്"
+      ],
+      "fact_ids": [
+        "sisf-arif-award"
+      ],
+      "source_refs": [],
+      "priority": 5,
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "sisf-prize-scope",
+      "concept_groups": [
+        "sisf|southern.india|എസ്ഐഎസ്എഫ്",
+        "kerala|state.category|statewise|കേരള|സംസ്ഥാന",
+        "overall|entire|difference|മൊത്തം|വ്യത്യാസ"
+      ],
+      "fact_ids": [
+        "sisf-arif-award",
+        "sisf-medibot-award"
+      ],
+      "source_refs": [],
+      "priority": 20,
+      "answer_ml": "SISFയിലെ Kerala-category സമ്മാനം കേരളത്തിൽനിന്നുള്ള ആ വിഭാഗത്തിലെ എൻട്രികളിലേക്കാണ്; overall സമ്മാനം മുഴുവൻ മേളയിലെ ആ വിഭാഗത്തിനാണ്. 2026ൽ Muhammed Arif K Fയുടെ Simulation Driving Instrument കേരള വ്യക്തിഗത ഒന്നാം സമ്മാനമാണ്; overall വ്യക്തിഗത ഒന്നാം സമ്മാനമല്ല. Anuvind K Rajയുടെ Medibot Engineeringന് overall വ്യക്തിഗത രണ്ടാം സമ്മാനമാണ്.",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "ncert-2025-selection",
+      "concept_groups": [
+        "ncert|rbvp|എൻസിഇആർടി|എൻ.സി",
+        "2025",
+        "project|exhibit|select|list|പ്രോജ|തിരഞ്ഞെടു|പട്ടിക|മാതൃക"
+      ],
+      "fact_ids": [],
+      "source_refs": [],
+      "priority": 0,
+      "handler": "national",
+      "years": [
+        2025
+      ]
+    },
+    {
+      "id": "selection-not-award",
+      "concept_groups": [
+        "national|ncert|rbvp|ദേശീയ|എൻസിഇ",
+        "select|invit|entry|particip|തിരഞ്ഞെടു|പങ്കെടു",
+        "prize|award|won|win|സമ്മാന|വിജയ"
+      ],
+      "fact_ids": [
+        "ncert-selection-not-prize"
+      ],
+      "source_refs": [],
+      "priority": 10,
+      "answer_ml": "ഇല്ല. ദേശീയ പ്രദർശനത്തിലേക്കുള്ള തിരഞ്ഞെടുപ്പോ കാറ്റലോഗിൽ പേരുണ്ടാകുന്നതോ പങ്കെടുത്തതോ സമ്മാനം നേടിയതിന് തുല്യമല്ല. 2025 NCERT പട്ടികയിൽ കേരളത്തിലെ അഞ്ച് എൻട്രികളുണ്ട്; സമ്മാനമെന്ന് പറയാൻ വേറിട്ട ഔദ്യോഗിക അവാർഡ് രേഖ വേണം."
+    },
+    {
+      "id": "microcontroller-projects",
+      "concept_groups": [
+        "arduino|microcontroller|ആർഡ്വിനോ|ആർഡുയിനോ|മൈക്രോകൺട്രോള",
+        "which|project|example|previous|പ്രോജ|ഉദാഹരണ|മാതൃക"
+      ],
+      "fact_ids": [
+        "case-line-robot-operation",
+        "case-auto-rescue-operation",
+        "case-tinyml-operation"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "NCERT 2018ലെ Line Follower Robot using Arduino ഇൻഫ്രാറെഡ് പ്രതിഫലനമനുസരിച്ച് മോട്ടോറുകൾ നിയന്ത്രിക്കുന്നു. 2024ലെ Auto Rescue വിവരണം Arduino, touch/location/wireless/server ഘടകങ്ങൾ പറയുന്നു; യഥാർഥ രക്ഷാസേവന സംയോജനം തെളിയിക്കുന്നില്ല. TinyML ഉദാഹരണത്തിൽ RP2040/Pico, MPU6050 എന്നിവയാണ്. മൈക്രോകൺട്രോളർ ഉപയോഗിച്ചതുകൊണ്ട് മാത്രം AI അല്ലെങ്കിൽ സ്വയം പ്രവർത്തിക്കുന്ന സുരക്ഷിത ഉപകരണം തെളിയുന്നില്ല."
+    },
+    {
+      "id": "tinyml",
+      "concept_groups": [
+        "tiny.?ml|ടൈനി.*എം|ടൈനിഎം"
+      ],
+      "fact_ids": [
+        "case-tinyml-operation",
+        "tinyml-reproduced-training-method-and-evidence-limits"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "പ്രസിദ്ധീകരിച്ച TinyML ഉദാഹരണത്തിൽ MPU6050 gesture ഡാറ്റ Pico/RP2040ലേക്ക് നൽകുന്നു; Edge Impulse ഉപയോഗിച്ച് പരിശീലിപ്പിച്ച മോഡൽ വിന്യസിച്ച് USB അല്ലെങ്കിൽ HC-05 സന്ദേശങ്ങളിലൂടെ Python ഗെയിമുകൾ നിയന്ത്രിക്കുന്നു. NCERTയുടെ ഉദാഹരണം gesture/game നിയന്ത്രണം വിവരിക്കുന്നു. വീൽചെയർ ഉപയോഗം നിർദേശിച്ച പ്രയോഗമാണ്; സുരക്ഷിത ഉപയോക്തൃപരീക്ഷണം, സ്വതന്ത്ര accuracy പരിശോധന എന്നിവ തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "accessibility-projects",
+      "concept_groups": [
+        "accessib|disabil|assistive|blind|wheelchair|ഭിന്നശേഷി|കാഴ്ച|വീൽചെയർ",
+        "project|model|exhibit|example|histor|പ്രോജ|മാതൃക|ഉദാഹരണ"
+      ],
+      "fact_ids": [],
+      "source_refs": [
+        {
+          "id": "project-013",
+          "locator": "2015 catalogue printed9/PDF18"
+        },
+        {
+          "id": "project-015",
+          "locator": "2017 catalogue printed37/PDF51"
+        },
+        {
+          "id": "project-026",
+          "locator": "2014 model report printed9–11/PDF17–19"
+        }
+      ],
+      "priority": 0,
+      "answer_ml": "2015ലെ Head-Controlled Wheel Chair ചെറിയ തലചലനം MEMS ഉപയോഗിച്ച് നിയന്ത്രണത്തിലാക്കുന്നതായി വിവരിക്കുന്നു. 2017ലെ Third Eye for the Blind ultrasonic sensing ഉപയോഗിക്കുന്ന സഹായോപകരണമാണ്. 2014ലെ Step Climbing Trolleyയിൽ വളഞ്ഞ കൈയിലെ ball bearingകൾ പടിക്കെട്ട് കയറാൻ സഹായിക്കുന്നു. ഇവ പ്രസിദ്ധീകരിച്ച വിവരണങ്ങളാണ്; മനുഷ്യരിൽ സുരക്ഷിത പ്രയോഗവും പ്രവർത്തനക്ഷമതയും സ്വതന്ത്രമായി തെളിയിച്ചിട്ടില്ല."
+    },
+    {
+      "id": "rocket-history",
+      "concept_groups": [
+        "rocket|റോക്ക",
+        "1962|1963|naval|cochin|കൊച്ചി|നേവൽ"
+      ],
+      "fact_ids": [
+        "historical-construction-failure-record",
+        "early-regional-prizes-and-project-description-limits"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "Naval High School, Cochinന്റെ 1962 പ്രോജക്ടിനെക്കുറിച്ചുള്ള സ്കൂൾ വിവരണം വിദ്യാർത്ഥികളുടെ തിരുത്തലുകളും അധ്യാപക പങ്കാളിത്തവും രേഖപ്പെടുത്തുന്നു. ഭാഗങ്ങൾ വേർപെടൽ, തകരാറുകൾ, ചുവരിൽ ഇടിക്കൽ എന്നിവ പറയുന്നു; വിവരണകർത്താവ് ശ്രമത്തെ വിജയമെന്ന് വിശേഷിപ്പിക്കുന്നു. അത് സ്വതന്ത്ര സുരക്ഷാ/പ്രകടന പരിശോധനയല്ല. 1963 ആലുവയുടെ group-model പട്ടികയിൽ Rocket modelക്ക് rank I കാണുന്നു; അത് എല്ലാവർക്കും വ്യക്തിഗത സമ്മാനം തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "documented-mechanisms",
+      "concept_groups": [
+        "project|model|exhibit|പ്രോജ|മാതൃക",
+        "mechanism|how.*work|construction.*detail|working.*detail|പ്രവർത്തനരീതി|സംവിധാനം|നിർമാണ.*വിവര",
+        "previous|earlier|past|document|rather|മുൻ|പഴയ|രേഖ"
+      ],
+      "fact_ids": [],
+      "source_refs": [
+        {
+          "id": "project-029",
+          "locator": "2005 report printed10–12/PDF18–20"
+        },
+        {
+          "id": "project-026",
+          "locator": "2014 report printed9–11/PDF17–19"
+        },
+        {
+          "id": "project-003",
+          "locator": "2018 catalogue printed124/PDF136"
+        }
+      ],
+      "priority": 0,
+      "answer_ml": "2005ലെ Fully Automatic Railway Gate റിപ്പോർട്ടിൽ toy-train leaf switch, electromagnet control, buzzer, motorised gate എന്നിവ വിശദീകരിക്കുന്നു. 2014ലെ Step Climbing Trolley റിപ്പോർട്ട് curved armയിലെ ball bearing പ്രവർത്തനം വിവരിക്കുന്നു. 2018ലെ Arduino Line Follower synopsis ഇൻഫ്രാറെഡ് സെൻസറും മോട്ടോർ നിയന്ത്രണവും പറയുന്നു. Mechanism വിവരമുള്ളത് മാത്രം അളന്ന പ്രകടനമോ സുരക്ഷിത യഥാർഥ ഉപയോഗമോ തെളിയിക്കുന്നില്ല."
+    },
+    {
+      "id": "working-team",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "pupil|student|participant|team|alone|single|child|കുട്ടി|വിദ്യാർ|അംഗ|ഒറ്റ"
+      ],
+      "fact_ids": [
+        "working-two-pupils"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "exclude": "\\bhss\\b|higher.secondary|technical|ടെക്നിക്കൽ|ഹയർ|എച്ച്എസ്എസ്|robotics|electronics|\\biot\\b|റോബോട്ടി|ഇലക്ട്രോണി",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "construction-video",
+      "concept_groups": [
+        "video|വീഡിയോ|film",
+        "construction|particip|build|making|show|maximum|length|long|minute|duration|നിർമാണ|നിർമ്മാണ|പങ്കാളി|കാണി|മിനിറ്റ്|ദൈർഘ്യ|പരമാവധി|need|required|bring|വേണം"
+      ],
+      "fact_ids": [
+        "working-video"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "exclude": "youtube|instagram|movie|feature.film|സിനിമ|യൂട്യൂബ്",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "working-rubric",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "judg|rubric|score|mark|criteria|evaluation|മാർക്ക|മൂല്യനിർണ|വിധി"
+      ],
+      "fact_ids": [
+        "working-rubric"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "exclude": "\\bhss\\b|higher.secondary|technical|ടെക്നിക്കൽ|ഹയർ|എച്ച്എസ്എസ്|robotics|electronics|\\biot\\b|റോബോട്ടി|ഇലക്ട്രോണി",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "working-display",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക|exhibit|display|പ്രദർശന",
+        "(?<!team )size|dimension|chart|space|height|വലിപ്പ|അളവ്|ചാർട്ട|സ്ഥലം"
+      ],
+      "fact_ids": [
+        "working-size",
+        "working-charts"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "exclude": "\\bhss\\b|higher.secondary|technical|ടെക്നിക്കൽ|ഹയർ|എച്ച്എസ്എസ്|robotics|electronics|\\biot\\b|റോബോട്ടി|ഇലക്ട്രോണി",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "it-working-model",
+      "concept_groups": [
+        "\\bit\\b|ഐടി|ഐ\\.ടി",
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക"
+      ],
+      "fact_ids": [
+        "it-no-working-model"
+      ],
+      "source_refs": [],
+      "priority": 10,
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "prepared-versus-onsite",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "electronic|robotic|\\biot\\b|on.the.spot|onsite|ഇലക്ട്രോണി|റോബോട്ടി|ഐഒടി|തത്സമയ"
+      ],
+      "fact_ids": [
+        "science-digital-three-hour",
+        "working-video"
+      ],
+      "source_refs": [],
+      "priority": 20,
+      "answer_ml": "Science Working Model മുൻകൂട്ടി തയ്യാറാക്കിയ മാതൃകയാണ്; കുട്ടികളുടെ നിർമാണപങ്കാളിത്തം കാണിക്കുന്ന പരമാവധി അഞ്ചുമിനിറ്റ് വീഡിയോ വേണം. 2026 ഓഗസ്റ്റ് 31 നിർദേശത്തിലെ മൂന്നുമണിക്കൂർ സ്ഥലത്തുവെച്ചുള്ള assembly/demonstration നിബന്ധന Electronics, IoT, Robotics ഇനങ്ങൾക്കാണ്. ആ ഇനങ്ങളുടെ preassembled-system നിയന്ത്രണങ്ങൾ Working Modelലേക്ക് സ്വയമേവ മാറ്റരുത്.",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "arduino-category",
+      "concept_groups": [
+        "arduino|microcontroller|ആർഡ്വിനോ|ആർഡുയിനോ|മൈക്രോകൺട്രോള",
+        "categor|registration|event|automati|determine|ഇനം|വിഭാഗ|രജിസ്ട്ര"
+      ],
+      "fact_ids": [
+        "working-code-hs",
+        "it-no-working-model",
+        "science-digital-three-hour"
+      ],
+      "source_refs": [],
+      "priority": 20,
+      "answer_ml": "Arduino അല്ലെങ്കിൽ AI ഉപയോഗിച്ചതുകൊണ്ട് മാത്രം രജിസ്ട്രേഷൻ വിഭാഗം നിശ്ചയിക്കാനാവില്ല. തയ്യാറാക്കിയ Science Working Model, IT മേളയിലെ കമ്പ്യൂട്ടർ ജോലികൾ, Science Electronics/IoT/Robotics സ്ഥലത്തുവെച്ചുള്ള നിർമാണം എന്നിവ വേറിട്ട ഇനങ്ങളാണ്. സ്കൂൾ നൽകിയ എൻട്രിയിലെ fair, section, item codeയും ബാധകമായ നിർദേശങ്ങളുമാണ് നിർണായകം."
+    },
+    {
+      "id": "network-rules",
+      "concept_groups": [
+        "cloud|internet|offline|wi.?fi|network|ക്ലൗഡ്|ഇന്റർനെറ്റ്|ഓഫ്.?ലൈൻ|വൈഫൈ",
+        "working|model|fair|rule|allow|permission|വർക്കി|മാതൃക|മേള|ചട്ട|അനുമതി"
+      ],
+      "fact_ids": [
+        "working-offline-condition-not-established",
+        "state-venue-internet-duty"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "പരിശോധിച്ച Science Working Model നിർദേശങ്ങളിൽ offline-only നിബന്ധനയോ സമ്പൂർണ്ണ internet banഓ കണ്ടെത്തിയിട്ടില്ല. ഇത് എല്ലാ വേദികളിലും cloud AIക്ക് അനുമതിയുണ്ടെന്ന തെളിവല്ല. സംസ്ഥാന സംഘാടകസമിതിക്ക് Wi-Fi/കമ്പ്യൂട്ടർ ക്രമീകരണചുമതലയുള്ളത് ഓരോ കുട്ടിക്കും internet ലഭിക്കുമെന്നോ ഉപജില്ലയിൽ അതേ സൗകര്യമുണ്ടെന്നോ ഉറപ്പാക്കുന്നില്ല. പ്രാദേശിക അനുമതിയും ലഭ്യതയും സ്ഥിരീകരിക്കണം.",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "local-confirmation",
+      "concept_groups": [
+        "subdistrict|sub.district|local|ഉപജില്ല|പ്രാദേശിക",
+        "confirm|organis|clarif|still|check|ഉറപ്പാ|സ്ഥിരീകര|സംഘാടക"
+      ],
+      "fact_ids": [
+        "working-two-pupils",
+        "working-description-registration-level",
+        "working-offline-condition-not-established",
+        "state-power-plugs-per-room"
+      ],
+      "source_refs": [],
+      "priority": 20,
+      "answer_ml": "ഉപജില്ല സംഘാടകരോട് saved registrationയിലെ fair/section/item code, ആവശ്യമായ ടീം അംഗങ്ങൾ, reporting സമയവും വേദിയും, video കാണിക്കാനുള്ള സൗകര്യം, internet/cloud അനുമതി, വൈദ്യുതി, ആവശ്യമായ രേഖകൾ, പുതിയ local circular എന്നിവ സ്ഥിരീകരിക്കുക. HS Working Model മാന്വലിലെ രണ്ട് കുട്ടികളുടെയും അഞ്ചുമിനിറ്റ് നിർമാണ വീഡിയോയുടെയും ചട്ടം അടിസ്ഥാനമാണ്. ജില്ലാ/സംസ്ഥാന registration report വ്യവസ്ഥ സ്വയമേവ ഉപജില്ലയിലേക്ക് മാറ്റരുത്."
+    },
+    {
+      "id": "registration-categories",
+      "concept_groups": [
+        "categor|section|eligib|class|വിഭാഗ|യോഗ്യത|ക്ലാസ",
+        "2026|register|registration|fair|enter|രജിസ്ട്ര|മേള|പങ്കെടു"
+      ],
+      "fact_ids": [
+        "classes-lp",
+        "classes-up",
+        "classes-hs",
+        "classes-hss"
+      ],
+      "source_refs": [],
+      "priority": -5,
+      "answer_ml": "പൊതുവിദ്യാഭ്യാസ ശാസ്ത്രോത്സവത്തിൽ LP ക്ലാസ് 1–4, UP ക്ലാസ് 5–7, HS ക്ലാസ് 8–10, HSS/VHSS ക്ലാസ് 11–12 എന്നിങ്ങനെയാണ് വിഭാഗങ്ങൾ. പൊതുവായ LP/UP വിദ്യാർത്ഥി ഇനങ്ങൾ ഉപജില്ലയിൽ അവസാനിക്കുന്നു; അധ്യാപക ഇനങ്ങൾക്ക് വേറിട്ട വ്യവസ്ഥകളുണ്ട്. നിങ്ങളുടെ രജിസ്റ്റർ ചെയ്ത fair, section, item code അനുസരിച്ചാണ് കൃത്യചട്ടം തിരഞ്ഞെടുക്കേണ്ടത്.",
+      "exclude": "arduino|microcontroller|ആർഡ്വിനോ|മൈക്രോകൺട്രോള",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "working-item-codes",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "code|item.number|register|entry|കോഡ|രജിസ്ട്ര|ഇന.*നമ്പർ"
+      ],
+      "fact_ids": [
+        "working-code-hs",
+        "working-code-hss",
+        "working-two-pupils"
+      ],
+      "source_refs": [],
+      "priority": 15,
+      "answer_ml": "Science Working Modelന്റെ catalogue codes: UP 106, HS 115, HSS/VHSS 126. HS മാന്വൽ എൻട്രിക്ക് രണ്ട് കുട്ടികളെ നിർദേശിക്കുന്നു. ഒരു സ്കൂളിന്റെ എൻട്രികളുടെ എണ്ണവും ഓരോ എൻട്രിയിലെ കുട്ടികളുടെ എണ്ണവും വേറെയാണ്; saved registration പരിശോധിക്കുക.",
+      "years": [
+        2025,
+        2026
+      ],
+      "exclude": "\\bit\\b|ഐടി|electronics|robotics|\\biot\\b"
+    },
+    {
+      "id": "school-login",
+      "concept_groups": [
+        "register|registration|login|submit.*entry|sampoorna|രജിസ്ട്ര|ലോഗിൻ|സമ്പൂർണ",
+        "how|school|portal|2026|എങ്ങനെ|സ്കൂ[ൾള]|പോർട്ടൽ"
+      ],
+      "fact_ids": [
+        "school-login",
+        "registration-guide-version"
+      ],
+      "source_refs": [],
+      "priority": -10,
+      "answer_ml": "2026 സ്കൂൾ പോർട്ടൽ Sampoorna credentials ഉപയോഗിച്ചുള്ള സ്കൂൾ login ആണ് നിർദേശിക്കുന്നത്. എൻട്രി സ്കൂളിലൂടെയാണ് കൈകാര്യം ചെയ്യേണ്ടത്; വ്യക്തിഗത പൊതുലോഗിൻ ഉണ്ടെന്ന് ഊഹിക്കരുത്. പോർട്ടലിൽ നൽകിയ guide പഴയ 2022–23 filename/screenshots ഉള്ളതാണ്; നിലവിലെ school entryയും പ്രാദേശിക നിർദേശങ്ങളും സ്ഥിരീകരിക്കുക.",
+      "exclude": "code|categor|section|deadline|fee|report|വിഭാഗ|കോഡ|ഫീസ്",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "progression",
+      "concept_groups": [
+        "qualif|advanc|progress|next.level|district.*select|യോഗ്യത|അടുത്ത.*തല|മുന്നേറ",
+        "fair|school|district|next.level|competition|മേള|അടുത്ത.*തല|മത്സര"
+      ],
+      "fact_ids": [
+        "school-progression",
+        "higher-progression",
+        "lp-up-subdistrict-limit"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "പൊതുചട്ടപ്രകാരം സ്കൂളിൽ ഒന്നാം സ്ഥാനവും A ഗ്രേഡും നേടിയ എൻട്രി ഉപജില്ലയിലേക്ക് പോകുന്നു. HS/HSS വിഭാഗങ്ങളിൽ ഉപജില്ല/റവന്യൂ ജില്ലയിൽ ഒന്നോ രണ്ടോ സ്ഥാനവും A ഗ്രേഡും അടുത്ത തലത്തിലേക്കുള്ള പൊതുവ്യവസ്ഥയാണ്; ഇനവിശേഷ ഒഴിവുകളുണ്ട്. LP/UP വിദ്യാർത്ഥി ഇനങ്ങൾ പൊതുവെ ഉപജില്ലയിൽ അവസാനിക്കുന്നു; Science Drama പോലുള്ള പ്രത്യേക ഇനത്തിന്റെ വ്യവസ്ഥ വേർതിരിച്ച് പരിശോധിക്കുക.",
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "appeals",
+      "concept_groups": [
+        "appeal|അപ്പീ[ൽല]"
+      ],
+      "fact_ids": [
+        "appeal-subdistrict"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2025,
+        2026
+      ],
+      "exclude": "court|legal|lawsuit|tax|visa|immigration|കോടതി|വിസ"
+    },
+    {
+      "id": "registration-contribution",
+      "concept_groups": [
+        "fee|contribution|ഫീസ്|സംഭാവന",
+        "register|registration|subdistrict|sub.district|രജിസ്ട്ര|ഉപജില്ല"
+      ],
+      "fact_ids": [
+        "subdistrict-permitted-registration-contribution"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2025,
+        2026
+      ],
+      "exclude": "appeal|അപ്പീ[ൽല]|university|college|admission|entrance|exam|neet|sslc|സർവകലാ|പ്രവേശന|പരീക്ഷ"
+    },
+    {
+      "id": "registration-documents",
+      "concept_groups": [
+        "report|description|photograph|document|റിപ്പോർട്ട്|വിവരണം|ഫോട്ടോ|രേഖ",
+        "register|registration|submit|രജിസ്ട്ര|സമർപ്പി"
+      ],
+      "fact_ids": [
+        "working-description-registration-level",
+        "working-diagram-document-scope"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "2026-theme",
+      "concept_groups": [
+        "2026|this.year|ഇക്കൊല്ല|ഈ വർഷ",
+        "theme|subtheme|പ്രമേയ|ഉപപ്രമേയ"
+      ],
+      "fact_ids": [
+        "science-theme-2026",
+        "science-ai-subtheme"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "answer_ml": "2026–27ലെ പൊതുപ്രമേയം Science, Technology, and Innovation for a Sustainable and Viksit Bharat ആണ്. Artificial Intelligence for Better Life ഒരു പട്ടികപ്പെടുത്തിയ ഉപപ്രമേയമാണ്. കേരളത്തിന്റെ 2026 സെപ്റ്റംബർ 2 സർക്കുലർ NCERT പ്രമേയങ്ങൾ സ്കൂൾ മുതൽ സംസ്ഥാനതലം വരെ ബാധകമാക്കുന്നു.",
+      "years": [
+        2026,
+        2027
+      ]
+    },
+    {
+      "id": "2026-state-dates",
+      "concept_groups": [
+        "2026|this.year|ഈ വർഷ",
+        "state|mannarkkad|സംസ്ഥാന|മണ്ണാർക്കാട്",
+        "when|where|date|venue|schedule|എപ്പോൾ|എവിടെ|തീയതി|വേദി"
+      ],
+      "fact_ids": [
+        "state-2026-scheduled"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "2026-planned-deadlines",
+      "concept_groups": [
+        "2026|this.year|ഈ വർഷ",
+        "deadline|last.date|calendar|when.*subdistrict|അവസാന.*തീയതി|സമയപരിധി"
+      ],
+      "fact_ids": [
+        "action-plan-planned-dates-2026"
+      ],
+      "source_refs": [],
+      "priority": 5,
+      "answer_ml": "2026–27 action plan സ്കൂൾ മേള സെപ്റ്റംബർ 18നു മുൻപും ഉപജില്ല ഒക്ടോബർ 20നു മുൻപും ജില്ലാ മേള നവംബർ 10നു മുൻപുമെന്ന ആസൂത്രിത ഘട്ടങ്ങൾ പറയുന്നു. ഇവ പഴയ action-plan തീയതികളാണ്; ഇപ്പോഴത്തെ ഉപജില്ല registration അവസാനതീയതിയോ reporting സമയമോ ഇവയിൽനിന്ന് ഊഹിക്കരുത്. സ്കൂളിന്റെയും സംഘാടകരുടെയും നിലവിലെ അറിയിപ്പ് വേണം.",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "current-manual",
+      "concept_groups": [
+        "2026|current|latest|ഇപ്പോഴത്തെ|നിലവിലെ",
+        "manual|edition|മാന്വ|പതിപ്പ്"
+      ],
+      "fact_ids": [
+        "manual-linked-2026"
+      ],
+      "source_refs": [],
+      "priority": 0,
+      "years": [
+        2026
+      ]
+    },
+    {
+      "id": "grace-marks",
+      "concept_groups": [
+        "grace.*mark|ഗ്രേസ്.*മാർക്ക"
+      ],
+      "fact_ids": [
+        "grace-cycle-boundary"
+      ],
+      "source_refs": [],
+      "priority": 0
+    },
+    {
+      "id": "2026-state-venues",
+      "concept_groups": [
+        "2026|this.year|ഈ വർഷ",
+        "state|mannarkkad|സംസ്ഥാന|മണ്ണാർക്കാട്",
+        "where|venue|എവിടെ|വേദി"
+      ],
+      "fact_ids": [
+        "state-mannarkkad-2026-prd-planned-venues-committee"
+      ],
+      "source_refs": [],
+      "priority": 5,
+      "years": [
+        2026
+      ],
+      "answer_ml": "2026 സംസ്ഥാന ശാസ്ത്രോത്സവം നവംബർ 18–21 മണ്ണാർക്കാട് എന്നായിരുന്നു അറിയിച്ച പദ്ധതി. PRD അറിയിപ്പിൽ Orphanage Higher Secondary, MES, Kalladi, KTM തുടങ്ങിയ ഉദാഹരണ വേദികൾ ഉണ്ട്. അന്തിമ item-wise വേദി, reporting സമയം എന്നിവ പിന്നീട് പ്രസിദ്ധീകരിക്കുന്ന പരിപാടിയിൽ പരിശോധിക്കണം."
+    },
+    {
+      "id": "registration-overview",
+      "concept_groups": [
+        "2026|current|this.year|ഈ വർഷ",
+        "register|registration|entry|രജിസ്ട്ര",
+        "details|overview|rules|requirements|all|guide|വിവര|ചട്ട|നിബന്ധന|എല്ലാം"
+      ],
+      "fact_ids": [
+        "classes-lp",
+        "classes-up",
+        "classes-hs",
+        "classes-hss",
+        "working-code-hs",
+        "working-two-pupils",
+        "working-video",
+        "working-size",
+        "working-charts",
+        "school-login",
+        "working-description-registration-level"
+      ],
+      "source_refs": [],
+      "priority": 15,
+      "years": [
+        2026
+      ],
+      "exclude": "fee|appeal|deadline|theme|ഫീസ്|അപ്പീ[ൽല]|അവസാന.*തീയതി",
+      "answer_ml": "2026 എൻട്രിയിൽ fair, section, item code ഉറപ്പാക്കണം. വിഭാഗങ്ങൾ: LP 1–4, UP 5–7, HS 8–10, HSS/VHSS 11–12 ക്ലാസുകൾ. HS Science Working Model code 115; രണ്ട് കുട്ടികൾ, പരമാവധി അഞ്ചുമിനിറ്റ് നിർമാണപങ്കാളിത്ത വീഡിയോ, 122×122×100 cm മാതൃക, പരമാവധി അഞ്ച് ചാർട്ടുകൾ. സ്കൂൾ Sampoorna login വഴി എൻട്രി കൈകാര്യം ചെയ്യുന്നു. ജില്ല/സംസ്ഥാന registrationൽ ഹ്രസ്വ വിവരണവും ഫോട്ടോകളും വേണം; അത് സ്വയമേവ ഉപജില്ലയിൽ ബാധകമാക്കരുത്. പ്രാദേശിക deadline/reporting രേഖകൾ സംഘാടകരോട് സ്ഥിരീകരിക്കുക.",
+      "spoken_ml": "2026ൽ ക്ലാസ് 8–10 HS വിഭാഗമാണ്; HS Science Working Model code 115 ആണ്. രണ്ട് കുട്ടികളും അഞ്ചുമിനിറ്റിൽ കൂടാത്ത നിർമാണപങ്കാളിത്ത വീഡിയോയും വേണം. എൻട്രി സ്കൂളിലൂടെയാണ്; കൃത്യമായ local deadline, reporting സമയം, രേഖകൾ എന്നിവ സംഘാടകരോട് സ്ഥിരീകരിക്കുക."
+    },
+    {
+      "id": "working-preparation",
+      "concept_groups": [
+        "working.?model|വർക്കി|പ്രവർത്തന.?മാതൃക",
+        "rules|requirements|prepare|bring|ചട്ട|നിബന്ധന|തയ്യാറാ"
+      ],
+      "fact_ids": [
+        "working-two-pupils",
+        "working-video",
+        "working-rubric",
+        "working-size",
+        "working-charts"
+      ],
+      "source_refs": [],
+      "priority": -20,
+      "years": [
+        2025,
+        2026
+      ],
+      "exclude": "\\bhss\\b|higher.secondary|technical|\\bit\\b|robotics|electronics|\\biot\\b|ടെക്നിക്കൽ|ഹയർ|ഐടി|റോബോട്ടി|ഇലക്ട്രോണി",
+      "spoken_ml": "HS Science Working Modelക്ക് രണ്ട് കുട്ടികൾ വേണം. നിർമാണപങ്കാളിത്ത വീഡിയോ അഞ്ചുമിനിറ്റിൽ കൂടരുത്; വലിപ്പം 122×122×100 cm, ചാർട്ടുകൾ പരമാവധി അഞ്ച്. ആകെ 100 മാർക്ക്: സൃഷ്ടിപരത 20, പുതുമ, ശാസ്ത്രതത്വം, സാങ്കേതിക മികവ്, പ്രയോജനം എന്നിവയ്ക്ക് 15 വീതം; ഈട്/കുറഞ്ഞ ചെലവ്, അവതരണം എന്നിവയ്ക്ക് 10 വീതം."
+    }
+  ]
+}

@@ -6,9 +6,10 @@ import math
 import re
 import unicodedata
 from sasthramela_results import lookup as standings_lookup
+from sasthramela_topics import lookup as topic_lookup, normalized as topic_normalized
 
 ROOT = Path(__file__).parent / 'docs/research/kerala-school-science'
-NOTICE = '2026 നവംബർ 1 വരെ പരിശോധിച്ച രേഖകളെ അടിസ്ഥാനമാക്കിയുള്ള വിവരം. പുതിയ പ്രാദേശിക നിർദേശങ്ങൾ സംഘാടകരുമായി ഉറപ്പാക്കുക.'
+NOTICE = 'പരിശോധിച്ച രേഖകൾ: 2026 നവംബർ 1 വരെ. പുതിയ പ്രാദേശിക നിർദേശങ്ങൾ സ്ഥിരീകരിക്കുക.'
 UNKNOWN = 'ഈ ചോദ്യത്തിന് പരിശോധിച്ച ശാസ്ത്രമേള രേഖകളിൽ ഉറപ്പുള്ള ഉത്തരം കണ്ടെത്താനായില്ല. വർഷവും മേളയുടെ വിഭാഗവും ഇനവും വ്യക്തമാക്കുക; നിലവിലെ പ്രാദേശിക നിർദേശങ്ങൾ സംഘാടകരുമായി ഉറപ്പാക്കുക.'
 FAIR = re.compile(r'(?:sastra|shastra|shasthra)[\s-]*(?:mela|olsavam)|sasthr|sasthra|sasthrol|shasthr|science\s*(?:fair|exhibition)|working\s*model|ശാസ്ത്ര.*മേള|ശാസ്ത്ര.*പ്രദർശന|വർക്കി|പ്രവർത്തനമാതൃക', re.I)
 STOP = set('the a an is are was were what when where who how many much does do did in of for to and about kerala science fair exhibition sasthramela sasthrolsavam please tell me working model'.split())
@@ -23,26 +24,34 @@ ROUTES = [
 ]
 
 def normalize(text):
-    return unicodedata.normalize('NFKC', text).lower()
+    return topic_normalized(text)
 
 def tokens(text):
     return set(re.findall(r'[a-z0-9]+|[\u0d00-\u0d7f]+', normalize(text))) - STOP
 
 @lru_cache(maxsize=1)
 def corpus():
-    facts = [json.loads(line) for line in (ROOT / 'knowledge.jsonl').read_text().splitlines() if line.strip()]
+    facts = [json.loads(line) for line in (ROOT / 'knowledge.jsonl').read_text(encoding='utf-8').splitlines() if line.strip()]
     # Historical descriptions of Karen's provider are stale, not exhibition evidence.
     facts = [f for f in facts if f['topic'] != 'karen-project']
-    sources = {s['id']: s for s in json.loads((ROOT / 'sources.json').read_text())}
+    sources = {s['id']: s for s in json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))}
     for f in facts:
         assert all(s['id'] in sources for s in f['sources'])
     return facts, sources
 
 def lookup(question, history=()):
     """None means unrelated; unknown fair questions fail closed rather than guess."""
+    topic = topic_lookup(question, history, *corpus())
+    if topic is not None:
+        topic['reply'] += '\n\n' + NOTICE
+        if topic.get('spoken_reply'):
+            topic['spoken_reply'] += '\n\n' + NOTICE
+        return topic
     standings = standings_lookup(question, history)
     if standings is not None:
         standings['reply'] += '\n\n' + NOTICE
+        if standings.get('spoken_reply'):
+            standings['spoken_reply'] += '\n\n' + NOTICE
         return standings
     q = normalize(question)
     followup = re.search(r'^(?:and |what about |how (?:long|many|much)|what (?:is|are) (?:its|the)|അതിന്റെ|അതിൽ|എത്ര|വീഡിയോ|മാർക്ക്)', q)
@@ -112,6 +121,6 @@ def history_sources(history):
     for i,(role,text) in enumerate(history):
         if role=='model' and i and history[i-1][0]=='user':
             match = lookup(history[i-1][1],history[:i-1])
-            if match and match['reply']==text:
+            if match and text in (match['reply'],match.get('spoken_reply')):
                 result[i]=match['sources']
     return result

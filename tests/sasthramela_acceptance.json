@@ -1,0 +1,554 @@
+[
+  {
+    "number": 1,
+    "topic": "earliest-fairs",
+    "questions": [
+      "What is the earliest documented school science fair in Kerala?",
+      "What is the oldest recorded Kerala science exhibition?",
+      "കേരളത്തിലെ ഏറ്റവും പഴയ രേഖപ്പെടുത്തിയ ശാസ്ത്രമേള ഏതാണ്?"
+    ],
+    "required_terms": [
+      "1962",
+      "1963"
+    ]
+  },
+  {
+    "number": 2,
+    "topic": "chittur",
+    "questions": [
+      "What happened at the Chittur science fair in 1962?",
+      "Tell me about the 1962 Chittur exhibition.",
+      "1962ലെ ചിറ്റൂർ മേളയിൽ നടന്നത് എന്താണ്?"
+    ],
+    "required_terms": [
+      "1962",
+      "3,000"
+    ]
+  },
+  {
+    "number": 3,
+    "topic": "alwaye",
+    "questions": [
+      "What happened at the Alwaye science fair in 1963?",
+      "Explain the Aluva fair of 1963.",
+      "1963ൽ ആലുവ ശാസ്ത്രമേള നടന്നത് എവിടെ?"
+    ],
+    "required_terms": [
+      "1963",
+      "6,500"
+    ]
+  },
+  {
+    "number": 4,
+    "topic": "state-origin",
+    "questions": [
+      "Do we know the exact year Kerala’s statewide Science Fair began?",
+      "Is Kerala state science fair’s inaugural year proven?",
+      "സംസ്ഥാന ശാസ്ത്രമേളയുടെ കൃത്യമായ ആരംഭവർഷം അറിയാമോ?"
+    ],
+    "required_terms": [
+      "ഉറപ്പായിട്ടില്ല",
+      "1965"
+    ]
+  },
+  {
+    "number": 5,
+    "topic": "integration-2009",
+    "questions": [
+      "What did the 2009 integrated Sasthrolsavam manual change?",
+      "What was unified by the 2009 manual?",
+      "2009 മാന്വൽ ഏതു ഏകീകരണമാണ് രേഖപ്പെടുത്തിയത്?"
+    ],
+    "required_terms": [
+      "2009"
+    ]
+  },
+  {
+    "number": 6,
+    "topic": "it-origins",
+    "questions": [
+      "When did IT fairs become part of Kerala’s school science exhibitions?",
+      "When was the first IT fair introduced?",
+      "ഐടി മേള ആദ്യമായി തുടങ്ങിയത് എപ്പോഴാണ്?"
+    ],
+    "required_terms": [
+      "2002",
+      "2003"
+    ]
+  },
+  {
+    "number": 7,
+    "topic": "two-editions-2012",
+    "questions": [
+      "Why were there two different exhibition editions during 2012?",
+      "Were January and November 2012 separate editions?",
+      "2012ൽ രണ്ട് വ്യത്യസ്ത മേളകൾ ഉണ്ടായത് എന്തുകൊണ്ട്?"
+    ],
+    "required_terms": [
+      "2012"
+    ]
+  },
+  {
+    "number": 8,
+    "topic": "kollam-venues",
+    "questions": [
+      "Which schools hosted the different fairs in Kollam in 2015?",
+      "Where were the 2015 Kollam fair venues?",
+      "2015 കൊല്ലം മേളയിലെ വേദി സ്കൂളുകൾ ഏതെല്ലാം?"
+    ],
+    "required_terms": [
+      "St Aloysius",
+      "St Antony",
+      "Christuraj",
+      "Government Model"
+    ]
+  },
+  {
+    "number": 9,
+    "topic": "pandemic",
+    "questions": [
+      "What do the records establish about competitions during the pandemic?",
+      "Were school competitions cancelled during Covid?",
+      "കോവിഡ് കാലത്ത് ശാസ്ത്രമേള മത്സരങ്ങളുടെ രേഖകൾ എന്താണ് പറയുന്നത്?"
+    ],
+    "required_terms": [
+      "2021",
+      "ഓൺലൈൻ"
+    ]
+  },
+  {
+    "number": 10,
+    "topic": "catalogue-changes",
+    "questions": [
+      "How has Sasthrolsavam’s event catalogue changed over time?",
+      "How did the list of events change?",
+      "ഇനങ്ങളുടെ പട്ടികയിൽ കാലക്രമത്തിൽ വന്ന മാറ്റങ്ങൾ എന്താണ്?"
+    ],
+    "required_terms": [
+      "122",
+      "26",
+      "12"
+    ]
+  },
+  {
+    "number": 11,
+    "topic": "overall-leaders",
+    "questions": [
+      "Which school topped the published 2025 overall school table?",
+      "What school was number one in 2025?",
+      "2025ലെ മൊത്തം സ്കൂൾ പട്ടികയിൽ ഒന്നാമത് ആരാണ്?"
+    ],
+    "required_terms": [
+      "Sacred Heart",
+      "164"
+    ]
+  },
+  {
+    "number": 12,
+    "topic": "overall-leaders",
+    "questions": [
+      "Which district topped the published 2025 overall standings?",
+      "Which district led in 2025?",
+      "2025ലെ മൊത്തം ജില്ലാ പട്ടികയിൽ ഒന്നാമത് ഏതാണ്?"
+    ],
+    "required_terms": [
+      "Malappuram",
+      "1548"
+    ]
+  },
+  {
+    "number": 13,
+    "topic": "overall-leaders",
+    "questions": [
+      "Which schools topped the published tables from 2019 to 2025?",
+      "Show school champions from 2019 through 2025.",
+      "2019 മുതൽ 2025 വരെ സ്കൂൾ ചാമ്പ്യന്മാർ ആരൊക്കെയാണ്?"
+    ],
+    "required_terms": [
+      "GURUKULAM",
+      "Durga",
+      "Dwaraka"
+    ]
+  },
+  {
+    "number": 14,
+    "topic": "district-consistency",
+    "questions": [
+      "Which districts appear most consistently near the top?",
+      "Which districts often finish near the top?",
+      "പതിവായി മുൻനിരയിൽ വരുന്ന ജില്ലകൾ ഏതൊക്കെയാണ്?"
+    ],
+    "required_terms": [
+      "Kannur",
+      "Malappuram",
+      "Palakkad",
+      "4/5"
+    ]
+  },
+  {
+    "number": 15,
+    "topic": "conflict-2019",
+    "questions": [
+      "Why do the 2019 championship sources disagree?",
+      "Why are there conflicting 2019 winners?",
+      "2019ലെ ചാമ്പ്യൻഷിപ്പ് രേഖകളിൽ വ്യത്യാസം എന്തുകൊണ്ട്?"
+    ],
+    "required_terms": [
+      "കോഴിക്കോട്",
+      "പാലക്കാട്",
+      "ലഭിച്ചിട്ടില്ല"
+    ]
+  },
+  {
+    "number": 16,
+    "topic": "versions-2022",
+    "questions": [
+      "What changed between different published versions of the 2022 results?",
+      "Explain the changes in the 2022 score versions.",
+      "2022ലെ ഫലപതിപ്പുകളിൽ പോയിന്റുകൾ മാറിയത് എങ്ങനെയാണ്?"
+    ],
+    "required_terms": [
+      "125",
+      "117",
+      "115"
+    ]
+  },
+  {
+    "number": 17,
+    "topic": "conflict-2024",
+    "questions": [
+      "Why do the 2024 reports show different scores?",
+      "Explain the 2024 score mismatch.",
+      "2024 റിപ്പോർട്ടുകളുടെ പോയിന്റുകളിൽ വ്യത്യാസം എന്തുകൊണ്ട്?"
+    ],
+    "required_terms": [
+      "മലപ്പുറം",
+      "ഡിസംബർ",
+      "തെളിയിക്കുന്നില്ല"
+    ]
+  },
+  {
+    "number": 18,
+    "topic": "stream-champions",
+    "questions": [
+      "Who topped the separate Science and IT district tables in 2017 and 2018?",
+      "Who were Science and IT champions in 2017 and 2018?",
+      "2017, 2018 സയൻസ് ഐടി ജില്ലാ ജേതാക്കൾ ആരാണ്?"
+    ],
+    "required_terms": [
+      "Ernakulam",
+      "166",
+      "Kannur",
+      "113",
+      "124",
+      "136"
+    ]
+  },
+  {
+    "number": 19,
+    "topic": "robotics-2025",
+    "questions": [
+      "Who received first and second place in 2025 HS Robotics, and from which schools?",
+      "Name the top two 2025 HS Robotics winners and schools.",
+      "2025 സംസ്ഥാന ഹൈസ്കൂൾ റോബോട്ടിക്സ് വിജയികളും സ്കൂളുകളും ഏതാണ്?"
+    ],
+    "required_terms": [
+      "Shazad",
+      "Muhammed Arif",
+      "കൊണ്ടോട്ടി",
+      "പട്ടിമറ്റ"
+    ]
+  },
+  {
+    "number": 20,
+    "topic": "working-winner-coverage",
+    "questions": [
+      "Do we have verified HS Working Model winners for each previous year?",
+      "Is there a complete year-by-year list of HS Working Model winners?",
+      "ഓരോ മുൻവർഷത്തെയും HS വർക്കിങ് മോഡൽ വിജയികളുടെ പൂർണ്ണ പട്ടികയുണ്ടോ?"
+    ],
+    "required_terms": [
+      "പൂർണ്ണ",
+      "ഇല്ല",
+      "റാങ്കില്ല"
+    ]
+  },
+  {
+    "number": 21,
+    "topic": "medibot",
+    "questions": [
+      "What was Anuvind K Raj’s Medibot Engineering project?",
+      "Explain Medibot and its award.",
+      "മെഡിബോട്ട് പ്രോജക്ട് എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?"
+    ],
+    "required_terms": [
+      "ESP32",
+      "Firebase",
+      "രണ്ടാം",
+      "സുരക്ഷ"
+    ]
+  },
+  {
+    "number": 22,
+    "topic": "arif-award",
+    "questions": [
+      "What exactly did Muhammed Arif’s Simulation Driving Instrument win at SISF 2026?",
+      "Was Arif’s driving simulator an overall winner?",
+      "ആരിഫിന്റെ ഡ്രൈവിങ് ഉപകരണത്തിന് കിട്ടിയ സമ്മാനം എന്താണ്?"
+    ],
+    "required_terms": [
+      "കേരള",
+      "ഒന്നാം",
+      "ഓവറോൾ"
+    ]
+  },
+  {
+    "number": 23,
+    "topic": "sisf-prize-scope",
+    "questions": [
+      "What is the difference between a Kerala-category prize and an overall SISF prize?",
+      "Are SISF statewise and overall awards the same?",
+      "SISF കേരള സമ്മാനവും മൊത്തം സമ്മാനവും തമ്മിലെ വ്യത്യാസം എന്താണ്?"
+    ],
+    "required_terms": [
+      "Arif",
+      "Anuvind",
+      "രണ്ടാം"
+    ]
+  },
+  {
+    "number": 24,
+    "topic": "ncert-2025-selection",
+    "questions": [
+      "Which Kerala projects appear in NCERT’s 2025 selected-exhibit list?",
+      "List Kerala’s 2025 RBVP selected projects.",
+      "2025 എൻസിഇആർടി പട്ടികയിൽ തിരഞ്ഞെടുത്ത കേരള പ്രോജക്ടുകൾ ഏതെല്ലാം?"
+    ],
+    "required_terms": [
+      "Wave Energy",
+      "Liquid Pressure",
+      "Electromagnetic",
+      "Research Type",
+      "Snails"
+    ]
+  },
+  {
+    "number": 25,
+    "topic": "selection-not-award",
+    "questions": [
+      "Does national-exhibition selection mean that a project won a national prize?",
+      "Does being selected for a national exhibition count as winning an award?",
+      "ദേശീയ പ്രദർശനത്തിലേക്ക് തിരഞ്ഞെടുത്താൽ സമ്മാനം ലഭിച്ചതായി പറയാമോ?"
+    ],
+    "required_terms": [
+      "ഇല്ല",
+      "തിരഞ്ഞെടു",
+      "സമ്മാന"
+    ]
+  },
+  {
+    "number": 26,
+    "topic": "microcontroller-projects",
+    "questions": [
+      "Which Kerala projects used Arduino or other microcontrollers?",
+      "Give earlier exhibit examples using microcontrollers.",
+      "മൈക്രോകൺട്രോളർ ഉപയോഗിച്ച മുൻ പ്രോജക്ടുകളുടെ ഉദാഹരണങ്ങൾ പറയൂ."
+    ],
+    "required_terms": [
+      "Arduino",
+      "RP2040",
+      "Auto Rescue"
+    ]
+  },
+  {
+    "number": 27,
+    "topic": "tinyml",
+    "questions": [
+      "What does the published TinyML robotics example actually demonstrate?",
+      "What did Tiny ML actually do, as opposed to its proposed uses?",
+      "ടൈനി എംഎൽ യഥാർഥത്തിൽ കാണിച്ച പ്രവർത്തനം എന്താണ്?"
+    ],
+    "required_terms": [
+      "MPU6050",
+      "Python",
+      "വീൽചെയർ",
+      "നിർദേശി"
+    ]
+  },
+  {
+    "number": 28,
+    "topic": "accessibility-projects",
+    "questions": [
+      "Which historical projects addressed disability or accessibility?",
+      "Give examples of assistive models for disabled people.",
+      "ഭിന്നശേഷിക്കാർക്കുള്ള പഴയ മാതൃകകളുടെ ഉദാഹരണങ്ങൾ തരൂ."
+    ],
+    "required_terms": [
+      "Wheel Chair",
+      "Third Eye",
+      "Trolley"
+    ]
+  },
+  {
+    "number": 29,
+    "topic": "rocket-history",
+    "questions": [
+      "What evidence is available about the 1962 Naval High School rocket project?",
+      "Was the Naval School Cochin rocket a proven success in 1962?",
+      "1962ലെ കൊച്ചി നേവൽ സ്കൂൾ റോക്കറ്റിന്റെ തെളിവ് എന്താണ്?"
+    ],
+    "required_terms": [
+      "1963",
+      "ചുവരിൽ",
+      "സ്വതന്ത്ര"
+    ]
+  },
+  {
+    "number": 30,
+    "topic": "documented-mechanisms",
+    "questions": [
+      "Which previous projects have documented mechanisms, rather than only titles?",
+      "Which earlier exhibits have working details rather than just a name?",
+      "മുൻ പ്രോജക്ടുകളിൽ പ്രവർത്തനരീതി രേഖപ്പെടുത്തിയവ ഏതെല്ലാം?"
+    ],
+    "required_terms": [
+      "Railway Gate",
+      "Trolley",
+      "Line Follower"
+    ]
+  },
+  {
+    "number": 31,
+    "topic": "working-team",
+    "questions": [
+      "How many pupils must participate in HS Science Working Model?",
+      "Can a single pupil enter HS Working Model alone?",
+      "HS വർക്കിങ് മോഡലിൽ എത്ര കുട്ടികൾ വേണം?"
+    ],
+    "required_terms": [
+      "രണ്ട്"
+    ]
+  },
+  {
+    "number": 32,
+    "topic": "construction-video",
+    "questions": [
+      "What must the construction-participation video show?",
+      "What should the building participation film show?",
+      "നിർമാണപങ്കാളിത്ത വീഡിയോയിൽ എന്താണ് കാണിക്കേണ്ടത്?"
+    ],
+    "required_terms": [
+      "പങ്കാളിത്ത",
+      "അഞ്ചു"
+    ]
+  },
+  {
+    "number": 33,
+    "topic": "construction-video",
+    "questions": [
+      "What is the maximum permitted video length?",
+      "How long can our participation video be?",
+      "നിർമാണ വീഡിയോയുടെ പരമാവധി ദൈർഘ്യം എത്ര മിനിറ്റാണ്?"
+    ],
+    "required_terms": [
+      "അഞ്ചു"
+    ]
+  },
+  {
+    "number": 34,
+    "topic": "working-rubric",
+    "questions": [
+      "What are the Working Model judging criteria and marks?",
+      "How are Working Model marks split by judges?",
+      "വർക്കിങ് മോഡലിന്റെ മൂല്യനിർണയ മാർക്കുകൾ എന്താണ്?"
+    ],
+    "required_terms": [
+      "100",
+      "20",
+      "15",
+      "10"
+    ]
+  },
+  {
+    "number": 35,
+    "topic": "working-display",
+    "questions": [
+      "What are the exhibit size and chart limits?",
+      "How much display space and how many charts can a Working Model use?",
+      "വർക്കിങ് മോഡലിന്റെ വലിപ്പവും ചാർട്ട് എണ്ണവും എത്ര?"
+    ],
+    "required_terms": [
+      "122",
+      "100",
+      "അഞ്ച്"
+    ]
+  },
+  {
+    "number": 36,
+    "topic": "it-working-model",
+    "questions": [
+      "Is Working Model listed as a standard IT Fair event?",
+      "Can I register a Working Model in the IT fair?",
+      "ഐടി മേളയിൽ വർക്കിങ് മോഡൽ ഇനമുണ്ടോ?"
+    ],
+    "required_terms": [
+      "ഐടി",
+      "പ്രവർത്തനമാതൃക"
+    ]
+  },
+  {
+    "number": 37,
+    "topic": "prepared-versus-onsite",
+    "questions": [
+      "How do prepared Working Models differ from Electronics, IoT and Robotics events?",
+      "Are Working Models assembled on site like Electronics and IoT?",
+      "വർക്കിങ് മോഡലും ഇലക്ട്രോണിക്സ് റോബോട്ടിക്സ് ഇനങ്ങളും തമ്മിലെ വ്യത്യാസം എന്താണ്?"
+    ],
+    "required_terms": [
+      "മുൻകൂട്ടി",
+      "മൂന്നുമണിക്കൂർ"
+    ]
+  },
+  {
+    "number": 38,
+    "topic": "arduino-category",
+    "questions": [
+      "Does using Arduino automatically determine a project’s competition category?",
+      "Does an Arduino board decide the registration event?",
+      "Arduino ഉപയോഗിച്ചാൽ രജിസ്ട്രേഷൻ വിഭാഗം സ്വയം നിശ്ചയിക്കാമോ?"
+    ],
+    "required_terms": [
+      "മാത്രം",
+      "രജിസ്ട്രേഷൻ",
+      "code"
+    ]
+  },
+  {
+    "number": 39,
+    "topic": "network-rules",
+    "questions": [
+      "What do the checked rules establish about cloud AI, internet access and offline operation?",
+      "Is cloud internet allowed for our working model or must it be offline?",
+      "വർക്കിങ് മോഡലിന് ഇന്റർനെറ്റ് അനുമതി ഉണ്ടോ, ഓഫ് ലൈൻ നിർബന്ധമാണോ?"
+    ],
+    "required_terms": [
+      "offline-only",
+      "അനുമതി",
+      "ഉപജില്ല"
+    ]
+  },
+  {
+    "number": 40,
+    "topic": "local-confirmation",
+    "questions": [
+      "Which requirements still need confirmation from our subdistrict organisers?",
+      "What should we still check with the local organisers?",
+      "ഉപജില്ല സംഘാടകരോട് ഇനിയും എന്തെല്ലാം സ്ഥിരീകരിക്കണം?"
+    ],
+    "required_terms": [
+      "reporting",
+      "internet",
+      "രണ്ട്"
+    ]
+  }
+]

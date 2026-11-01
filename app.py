@@ -14,6 +14,7 @@ from flask import Flask, abort, g, jsonify, render_template, request, send_file,
 from dotenv import load_dotenv
 from jobs import Jobs, Result, ServiceError
 from sasthramela import lookup as research_lookup, history_sources, corpus as research_corpus
+from sasthramela_topics import config as research_topics
 from exhibition_identity import (DEFAULT_MEMORY, anonymous_history,
                                  anonymous_memory, anonymous_reply, identity_question, identity_reply)
 
@@ -312,7 +313,7 @@ def create_app(config=None, providers=None):
 
     @app.get('/health')
     def health():
-        result = dict(status='ok', research={'fact_count':len(research_corpus()[0]), 'checked_on':'2026-11-01', 'method':'source_extracts'}, mode='demo' if app.config['DEMO_MODE'] else 'live',
+        result = dict(status='ok', research={'fact_count':len(research_corpus()[0]), 'topic_count':len(research_topics()), 'checked_on':'2026-11-01', 'method':'source_extracts'}, mode='demo' if app.config['DEMO_MODE'] else 'live',
                       provider=provider_name, configured=bool(app.config[provider_prefix + '_API_KEY']),
                       model=app.config[provider_prefix + '_MODEL'],
                       request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
@@ -352,12 +353,12 @@ def create_app(config=None, providers=None):
             memory = anonymous_memory(memory_path.read_text(encoding='utf-8'))
             previous, version = anonymous_history(history), revision
         if not app.config['DEMO_MODE'] and identity_question(message):
-            return identity_reply(message), version
+            return identity_reply(message), version, None
         research = research_lookup(message, previous) if not app.config['DEMO_MODE'] else None
         if research is not None:
-            return anonymous_reply(research['reply']), version
+            return anonymous_reply(research['reply']), version, research
         reply = provider.answer(memory, previous, anonymous_history([('user', message)])[0][1])
-        return anonymous_reply(reply), version
+        return anonymous_reply(reply), version, None
 
     def measured_stage(job, timings, stage, operation):
         started, status = time.monotonic(), 'error'
@@ -432,9 +433,8 @@ def create_app(config=None, providers=None):
             message = validate_message(message)
             def operation(job):
                 timings = {}
-                reply, version = measured_stage(job, timings, generation_stage, lambda: generate(message))
-                research = research_lookup(message, history) if not app.config['DEMO_MODE'] and not identity_question(message) else None
-                result = Result(dict(sources=research['sources'] if research else [], reply=reply, user_message=anonymous_history([('user', message)])[0][1],
+                reply, version, research = measured_stage(job, timings, generation_stage, lambda: generate(message))
+                result = Result(dict(sources=research['sources'] if research else [], research_topic=research.get('topic_id') if research else None, reply=reply, user_message=anonymous_history([('user', message)])[0][1],
                                      mode='demo' if app.config['DEMO_MODE'] else 'live'),
                                 headers=timing_headers(timings))
                 commit(job, message, reply, version, result)
@@ -462,23 +462,27 @@ def create_app(config=None, providers=None):
         def operation(job):
             timings = {}
             spoken_error = None
+            research = None
             try:
                 transcript = measured_stage(job, timings, 'stt', lambda: validate_message(provider.transcribe(data)))
                 job.check()
-                reply, version = measured_stage(job, timings, generation_stage, lambda: generate(transcript))
+                reply, version, research = measured_stage(job, timings, generation_stage, lambda: generate(transcript))
                 job.check()
             except ServiceError as exc:
                 if exc.code == 'request_timeout':
                     raise
                 reply = str(exc) if any('\u0d00' <= c <= '\u0d7f' for c in str(exc)) else 'ക്ഷമിക്കണം, ഇപ്പോൾ മറുപടി നൽകാൻ കഴിയുന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കൂ.'
                 spoken_error = exc.code
+            if research and research.get('spoken_reply'):
+                reply = research['spoken_reply']
             reply = anonymous_reply(reply)
             audio = measured_stage(job, timings, 'tts', lambda: provider.speak(reply))
             job.check()
             if len(audio) > 512000:
                 raise ServiceError('Speech response too large. Try a shorter question.', 'audio_too_large', 502)
             result = Result(audio, headers={'X-Karen-Result': 'spoken-error' if spoken_error else 'ok',
-                                            'X-Karen-Error': spoken_error or '', **timing_headers(timings)})
+                                            'X-Karen-Error': spoken_error or '',
+                                            'X-Karen-Research-Topic': (research.get('topic_id') or research['fact_ids'][0]) if research and not spoken_error else '', **timing_headers(timings)})
             if not spoken_error:
                 commit(job, transcript, reply, version, result)
             return result
