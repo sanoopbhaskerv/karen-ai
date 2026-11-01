@@ -1,5 +1,12 @@
 # Validation record — latest check 1 November 2026
 
+## Cloud deployment integration — 1 November 2026
+
+- Combined the name-only creator policy with the existing hosted authentication, public dashboard, owner-only memory editor, guide links, CSRF refresh, mobile recording recovery and latency instrumentation. The footer keeps Sreehari's name while removing school and class details.
+- Full merged local suite: **259 passed, five Windows-only skips**, with the two existing upstream deprecation warnings. Two cloud privacy cases cover public/private UI, owner memory migration, name-only versus school-detail replies, sanitized question echoes, authenticated board voice/polling and retained `Server-Timing` headers.
+- Deterministic recorder regressions passed in **Chrome and WebKit**: microphone permission delays/denial, interrupted audio startup, silent capture, cancellation, expired-CSRF recovery, older browser APIs, stalled response bodies and interrupted playback. Both used isolated temporary memory and fake providers; these checks do not establish physical microphone, device or hosted-provider readiness.
+- JavaScript syntax and Git whitespace checks passed. No live AI request, credential change or hosted deployment was performed by these integration checks.
+
 ## Name-only creator credit; school details private — 1 November 2026
 
 - Updated the privacy policy to allow Sreehari's public name in saved memory, displayed text and speech. Creator questions receive a fixed Malayalam name-only reply; questions about school, class section or home receive the privacy reply.
@@ -16,6 +23,15 @@
 - Isolated Chrome checks at 390×844 and 1440×1000 passed anonymous page rendering, an identifying question without a visible identifying echo, normal question routing, a deliberately identifying fake-provider reply, and saved-memory cleanup. Screenshots were inspected; there was no horizontal overflow or browser runtime error. These were fake-provider UI checks, not live Gemini, human microphone or physical-board acceptance.
 - The existing local saved biography was removed after making a private backup inside the ignored `data/` directory. This private backup is not a repository artifact. The hosted instance was not changed by these checks.
 - Restart every application process and refresh browsers when applying the update, so old RAM history and cached text/audio responses cannot remain in use. Student registration and genuine construction evidence remain separate from the assistant's anonymous presentation.
+
+## Low speaker volume — 1 November 2026
+
+- User reports a **3 W / 4 Ω** speaker with low volume. Previous playback used fixed gain `0.35`; the new configurable `SPEAKER_GAIN` defaults to `0.70f`, including when an existing private `config.h` omits it. This doubles digital sample amplitude (about +6 dB); it does not establish acoustic loudness or delivered power.
+- Gain is limited at compile time to `0.0f`–`1.0f`; the playback log reports the selected value. No microphone or server audio processing was changed.
+- Original speaker-only branch validation: firmware helper/adapter suite **29 passed**. Both cross-compiles passed with Arduino-ESP32 **3.3.12** / ESP8266Audio **2.4.1**: S3 **1,191,491 program bytes / 47,364 static RAM bytes**; classic ESP32 **1,205,972 program bytes / 49,272 static RAM bytes**. S3 used the updated example configuration; classic used a temporary example configuration without `SPEAKER_GAIN` to exercise the legacy-config fallback. Both used placeholder credentials and neither uploaded.
+- AWS branch integration: firmware and cloud-access suites **55 passed**; S3 example-credential cross-compile passed with the same core/library versions, **1,191,491 program bytes / 47,364 static RAM bytes**. Device-token fallback, HTTPS enforcement and Bearer headers remain intact. No server deployment or board upload was performed for this integration.
+- English/Malayalam command/settings blocks match; changed Markdown local links and Git whitespace checks pass.
+- No private configuration was changed and no firmware was uploaded. Actual amplifier model/supply, clear listening volume, distortion, brownouts and ten physical turns remain to be checked on the user's hardware.
 
 ## First Windows compile timeout recovery — 31 October 2026
 
@@ -75,7 +91,7 @@ A cross-compile cannot measure board flash/PSRAM, runtime heap or prove physical
 
 - Neither controller is connected to this Mac. S3 labels are visible in photos; measured capacities, USB bridge identification, serial operation, upload and boot remain unverified.
 - INMP441 breakout pinout, header soldering, button continuity and microphone gain/noise.
-- MAX98357A still needs sourcing; verify the speaker driver's actual 4-ohm/10-watt marking and speaker wires.
+- Verify the actual MAX98357A module/power arrangement, the user-reported 3 W / 4 Ω speaker marking and speaker wires.
 - Human microphone capture and audible speaker quality, brownouts, power-bank behavior and ten-turn physical endurance.
 - ESP32 WiFi, NTP, certificate validation and real network failure recovery.
 - Cloud hosting, proxy behavior, persistent storage across redeploy and venue network.

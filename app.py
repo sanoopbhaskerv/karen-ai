@@ -1,15 +1,20 @@
 """Karen AI: single-process science-fair voice assistant."""
 import io
+import base64
+import hashlib
 import logging
 import os
+import re
 import secrets
 import threading
 import time
 import wave
 from pathlib import Path
-from flask import Flask, jsonify, render_template, request, send_file, session, redirect, url_for
+from flask import Flask, abort, g, jsonify, render_template, request, send_file, session, redirect, url_for
 from dotenv import load_dotenv
 from jobs import Jobs, Result, ServiceError
+from sasthramela import lookup as research_lookup, history_sources, corpus as research_corpus
+from sasthramela_topics import config as research_topics
 from exhibition_identity import (DEFAULT_MEMORY, anonymous_history,
                                  anonymous_memory, anonymous_reply, identity_question, identity_reply)
 
@@ -28,6 +33,8 @@ RULES = ('Always respond only in natural conversational Malayalam, in two or thr
          'run a language model on the ESP32. The following are public project facts:\n')
 
 class Providers:
+    generation_stage = 'gemini'
+
     def __init__(self, app):
         self.app = app
         self.diagnostic = {'status': 'untested'}
@@ -151,13 +158,30 @@ def create_app(config=None, providers=None):
         MAX_CONTENT_LENGTH=2 * 1024 * 1024,
         SESSION_COOKIE_HTTPONLY=True, SESSION_COOKIE_SAMESITE='Lax',
         MEMORY_PATH=os.getenv('MEMORY_PATH', str(BASE / 'data' / 'memory.txt')),
+        AI_PROVIDER=os.getenv('AI_PROVIDER', 'gemini'),
         GEMINI_API_KEY=os.getenv('GEMINI_API_KEY', ''),
         GEMINI_MODEL=os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
+        OPENAI_API_KEY=os.getenv('OPENAI_API_KEY', ''),
+        OPENAI_MODEL=os.getenv('OPENAI_MODEL', 'gpt-6-luna'),
+        OPENAI_STT_MODEL=os.getenv('OPENAI_STT_MODEL', 'gpt-transcribe'),
         DEMO_MODE=os.getenv('DEMO_MODE', '0') == '1',
+        KAREN_ADMIN_USERNAME=os.getenv('KAREN_ADMIN_USERNAME', 'karen'),
+        KAREN_ADMIN_PASSWORD=os.getenv('KAREN_ADMIN_PASSWORD', ''),
+        KAREN_DEVICE_TOKEN=os.getenv('KAREN_DEVICE_TOKEN', ''),
+        KAREN_PUBLIC_UI=os.getenv('KAREN_PUBLIC_UI', '0') == '1',
+        SESSION_COOKIE_SECURE=os.getenv('SESSION_COOKIE_SECURE', '0') == '1',
         REQUEST_TIMEOUT=140,
     )
     if config:
         app.config.update(config)
+    if app.config['AI_PROVIDER'] not in ('gemini', 'openai'):
+        raise ValueError('Unknown AI_PROVIDER. Use gemini or openai.')
+    provider_name = app.config['AI_PROVIDER']
+    provider_prefix = 'OPENAI' if provider_name == 'openai' else 'GEMINI'
+    if app.config['KAREN_DEVICE_TOKEN'] and not app.config['KAREN_ADMIN_PASSWORD']:
+        raise ValueError('Set KAREN_ADMIN_PASSWORD when enabling device authentication.')
+    if app.config['KAREN_ADMIN_PASSWORD'] and not app.config['KAREN_ADMIN_USERNAME']:
+        raise ValueError('KAREN_ADMIN_USERNAME must not be empty when authentication is enabled.')
     memory_path = Path(app.config['MEMORY_PATH'])
     if not memory_path.is_absolute():
         memory_path = BASE / memory_path
@@ -174,8 +198,17 @@ def create_app(config=None, providers=None):
     history = []  # Deliberately shared across browser/device, as specified in the PRD.
     lock = threading.RLock()
     revision = 0
-    provider = providers or Providers(app)
-    jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'])
+    if providers is not None:
+        provider = providers
+    elif provider_name == 'openai' and not app.config['DEMO_MODE']:
+        from openai_provider import OpenAIProvider
+        provider = OpenAIProvider(app, RULES)
+    else:
+        provider = Providers(app)
+    generation_stage = getattr(provider, 'generation_stage', 'gemini')
+    # Fast research answers can exceed 64 turns during the ten-minute replay window.
+    # Keep replay guarantees with a bounded cache (at most 128 MB of MP3 payloads).
+    jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'], capacity=256)
     app.extensions['karen'] = {'history': history, 'lock': lock, 'providers': provider, 'jobs': jobs}
 
     def wants_json():
@@ -184,36 +217,110 @@ def create_app(config=None, providers=None):
     def dashboard(error=None, notice=None, status=200):
         with lock:
             return render_template('index.html', memory=anonymous_memory(memory_path.read_text(encoding='utf-8')),
-                                   history=anonymous_history(history), error=anonymous_reply(error) if error else None, notice=notice,
-                                   demo=app.config['DEMO_MODE'], configured=bool(app.config['GEMINI_API_KEY']),
-                                   model=app.config['GEMINI_MODEL'], csrf=session['csrf']), status
+                                   history=anonymous_history(history), research_sources=history_sources(anonymous_history(history)), error=anonymous_reply(error) if error else None, notice=notice,
+                                   demo=app.config['DEMO_MODE'], configured=bool(app.config[provider_prefix + '_API_KEY']),
+                                   model=app.config[provider_prefix + '_MODEL'], csrf=session['csrf'],
+                                   can_edit_memory=not app.config['KAREN_ADMIN_PASSWORD'] or g.get('admin_authenticated', False)), status
+
+    def matches(value, expected):
+        return secrets.compare_digest((value or '').encode('utf-8'), expected.encode('utf-8'))
+
+    @app.before_request
+    def access_guard():
+        g.admin_authenticated = g.device_authenticated = False
+        # Local installations retain their existing behavior. Hosted installations
+        # require dashboard credentials; the board token only grants voice access.
+        if not app.config['KAREN_ADMIN_PASSWORD'] or request.endpoint == 'health':
+            return
+        auth = request.authorization
+        if auth and auth.type.lower() == 'basic':
+            if (matches(auth.username, app.config['KAREN_ADMIN_USERNAME']) and
+                    matches(auth.password, app.config['KAREN_ADMIN_PASSWORD'])):
+                g.admin_authenticated = True
+                return
+        if auth and auth.type.lower() == 'bearer' and app.config['KAREN_DEVICE_TOKEN']:
+            if matches(auth.token, app.config['KAREN_DEVICE_TOKEN']):
+                if request.endpoint == 'chat' and request.method == 'POST':
+                    g.device_authenticated = True
+                    return
+                if request.endpoint == 'request_result' and request.method == 'GET':
+                    job = jobs.get(request.view_args['key'])
+                    if job is None or job.kind == 'voice':
+                        return
+                return jsonify(error='Device credentials only permit voice requests.', code='forbidden'), 403
+        if app.config['KAREN_PUBLIC_UI'] and not (auth and auth.type.lower() == 'bearer'):
+            if request.endpoint in ('index', 'static', 'guide', 'readme', 'test_chat', 'reset', 'chat', 'request_result', 'csrf_token'):
+                return
+        response = jsonify(error='Authentication required.', code='unauthorized')
+        response.status_code = 401
+        response.headers['WWW-Authenticate'] = 'Basic realm="Karen", charset="UTF-8"'
+        return response
 
     @app.before_request
     def csrf_guard():
         session.setdefault('csrf', secrets.token_urlsafe(24))
-        if request.method == 'POST' and request.path in ('/update', '/test_chat', '/reset'):
+        public_voice = (app.config['KAREN_ADMIN_PASSWORD'] and app.config['KAREN_PUBLIC_UI'] and
+                        request.endpoint == 'chat' and not g.device_authenticated and not g.admin_authenticated)
+        if request.method == 'POST' and (request.path in ('/update', '/test_chat', '/reset') or public_voice):
             token = request.headers.get('X-CSRF-Token') or request.form.get('csrf_token', '')
             if not secrets.compare_digest(token, session['csrf']):
-                return jsonify(error='Page expired. Refresh and try again.'), 403
+                app.logger.warning('stage=browser code=csrf_expired endpoint=%s', request.endpoint)
+                return jsonify(error='Page expired. Refresh and try again.', code='csrf_expired'), 403
 
     @app.after_request
     def headers(response):
         response.headers['Cache-Control'] = 'no-store'
         response.headers['X-Content-Type-Options'] = 'nosniff'
         response.headers['X-Frame-Options'] = 'DENY'
-        response.headers['Content-Security-Policy'] = "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'"
+        script_sources = style_sources = "'self'"
+        if request.endpoint == 'guide' and response.status_code == 200 and response.mimetype == 'text/html':
+            # The offline guides contain their own CSS and copy/print scripts.
+            # Hash only their trusted file content; no unsafe-inline exception.
+            source = response.get_data(as_text=True)
+            def hashes(tag):
+                return ''.join(" 'sha256-" + base64.b64encode(hashlib.sha256(block.encode()).digest()).decode() + "'"
+                               for block in re.findall(r'<' + tag + r'\b[^>]*>(.*?)</' + tag + '>', source, re.S))
+            script_sources += hashes('script')
+            style_sources += hashes('style')
+        response.headers['Content-Security-Policy'] = f"default-src 'self'; script-src {script_sources}; style-src {style_sources}; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'"
         return response
 
     @app.get('/')
     def index():
         return dashboard()
 
+    @app.get('/admin')
+    def admin():
+        return dashboard()
+
+    @app.get('/csrf-token')
+    def csrf_token():
+        return jsonify(csrf=session['csrf'])
+
+    @app.get('/docs/<path:filename>')
+    def guide(filename):
+        allowed = {path.name: path for pattern in ('*.html', '*.md') for path in (BASE / 'docs').glob(pattern)}
+        allowed['cloud-root-ca.pem'] = BASE / 'docs/cloud-root-ca.pem'
+        path = allowed.get(filename)
+        if path is None:
+            abort(404)
+        mime = 'text/html' if path.suffix == '.html' else 'text/plain'
+        return app.response_class(path.read_text(encoding='utf-8'), mimetype=mime)
+
+    @app.get('/READMEMALAYALAM.md')
+    @app.get('/README.md')
+    def readme():
+        path = BASE / request.path.lstrip('/')
+        return app.response_class(path.read_text(encoding='utf-8'), mimetype='text/plain')
+
     @app.get('/health')
     def health():
-        return jsonify(status='ok', mode='demo' if app.config['DEMO_MODE'] else 'live',
-                       configured=bool(app.config['GEMINI_API_KEY']), model=app.config['GEMINI_MODEL'],
-                       gemini=getattr(provider, 'diagnostic', {'status': 'untested'}),
-                       request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
+        result = dict(status='ok', research={'fact_count':len(research_corpus()[0]), 'topic_count':len(research_topics()), 'checked_on':'2026-11-01', 'method':'source_extracts'}, mode='demo' if app.config['DEMO_MODE'] else 'live',
+                      provider=provider_name, configured=bool(app.config[provider_prefix + '_API_KEY']),
+                      model=app.config[provider_prefix + '_MODEL'],
+                      request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
+        result[provider_name] = getattr(provider, 'diagnostic', {'status': 'untested'})
+        return jsonify(result)
 
     @app.post('/update')
     def update():
@@ -248,9 +355,26 @@ def create_app(config=None, providers=None):
             memory = anonymous_memory(memory_path.read_text(encoding='utf-8'))
             previous, version = anonymous_history(history), revision
         if not app.config['DEMO_MODE'] and identity_question(message):
-            return identity_reply(message), version
+            return identity_reply(message), version, None
+        research = research_lookup(message, previous) if not app.config['DEMO_MODE'] else None
+        if research is not None:
+            return anonymous_reply(research['reply']), version, research
         reply = provider.answer(memory, previous, anonymous_history([('user', message)])[0][1])
-        return anonymous_reply(reply), version
+        return anonymous_reply(reply), version, None
+
+    def measured_stage(job, timings, stage, operation):
+        started, status = time.monotonic(), 'error'
+        try:
+            value = operation()
+            status = 'ok'
+            return value
+        finally:
+            elapsed = max(0, int((time.monotonic() - started) * 1000))
+            timings[stage] = elapsed
+            app.logger.info('request=%s stage=%s status=%s elapsed_ms=%d', job.key, stage, status, elapsed)
+
+    def timing_headers(timings):
+        return {'Server-Timing': ', '.join(f'{stage};dur={elapsed}' for stage, elapsed in timings.items())}
 
     def commit(job, message, reply, version, result):
         with job.lock, lock:
@@ -310,9 +434,11 @@ def create_app(config=None, providers=None):
         try:
             message = validate_message(message)
             def operation(job):
-                reply, version = generate(message)
-                result = Result(dict(reply=reply, user_message=anonymous_history([('user', message)])[0][1],
-                                     mode='demo' if app.config['DEMO_MODE'] else 'live'))
+                timings = {}
+                reply, version, research = measured_stage(job, timings, generation_stage, lambda: generate(message))
+                result = Result(dict(sources=research['sources'] if research else [], research_topic=research.get('topic_id') if research else None, reply=reply, user_message=anonymous_history([('user', message)])[0][1],
+                                     mode='demo' if app.config['DEMO_MODE'] else 'live'),
+                                headers=timing_headers(timings))
                 commit(job, message, reply, version, result)
                 return result
             job = jobs.submit('text', message.encode(), request.headers.get('X-Request-ID'), operation)
@@ -323,7 +449,7 @@ def create_app(config=None, providers=None):
             return response
         if job.result.status != 200:
             return dashboard(error=job.result.body['error'], status=job.result.status)
-        return dashboard()
+        return (*dashboard(), job.result.headers)
 
     @app.post('/chat')
     def chat():
@@ -336,24 +462,29 @@ def create_app(config=None, providers=None):
         except ServiceError as exc:
             return jsonify(error=str(exc)), 400
         def operation(job):
+            timings = {}
             spoken_error = None
+            research = None
             try:
-                transcript = validate_message(provider.transcribe(data))
+                transcript = measured_stage(job, timings, 'stt', lambda: validate_message(provider.transcribe(data)))
                 job.check()
-                reply, version = generate(transcript)
+                reply, version, research = measured_stage(job, timings, generation_stage, lambda: generate(transcript))
                 job.check()
             except ServiceError as exc:
                 if exc.code == 'request_timeout':
                     raise
                 reply = str(exc) if any('\u0d00' <= c <= '\u0d7f' for c in str(exc)) else 'ക്ഷമിക്കണം, ഇപ്പോൾ മറുപടി നൽകാൻ കഴിയുന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കൂ.'
                 spoken_error = exc.code
+            if research and research.get('spoken_reply'):
+                reply = research['spoken_reply']
             reply = anonymous_reply(reply)
-            audio = provider.speak(reply)
+            audio = measured_stage(job, timings, 'tts', lambda: provider.speak(reply))
             job.check()
             if len(audio) > 512000:
                 raise ServiceError('Speech response too large. Try a shorter question.', 'audio_too_large', 502)
             result = Result(audio, headers={'X-Karen-Result': 'spoken-error' if spoken_error else 'ok',
-                                            'X-Karen-Error': spoken_error or ''})
+                                            'X-Karen-Error': spoken_error or '',
+                                            'X-Karen-Research-Topic': (research.get('topic_id') or research['fact_ids'][0]) if research and not spoken_error else '', **timing_headers(timings)})
             if not spoken_error:
                 commit(job, transcript, reply, version, result)
             return result

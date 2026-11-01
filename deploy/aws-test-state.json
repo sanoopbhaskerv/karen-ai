@@ -1,0 +1,44 @@
+{
+  "profile": "fantasy-staging",
+  "region": "ap-south-1",
+  "account": "980873318600",
+  "instance_name": "sreehariv-karen-test",
+  "instance_arn": "arn:aws:lightsail:ap-south-1:980873318600:Instance/925fe26a-d5a7-4986-ae94-d4d181a6894d",
+  "created_at": "2026-10-31T19:40:54.704000+05:30",
+  "static_ip_name": "sreehariv-karen-ip",
+  "static_ip_arn": "arn:aws:lightsail:ap-south-1:980873318600:StaticIp/8fcc6a98-4afd-4618-83ad-e844a5bd9adc",
+  "ip": "3.7.88.31",
+  "ssh_key_name": "karer-three-day-test",
+  "hosted_zone_id": "Z08314862PCG3LNYXNN40",
+  "record": {
+    "Name": "sreehariv.makemykindred.com.",
+    "Type": "A",
+    "TTL": 60,
+    "ResourceRecords": [
+      {
+        "Value": "3.7.88.31"
+      }
+    ]
+  },
+  "domain": "sreehariv.makemykindred.com",
+  "cleanup_role_name": "sreehariv-karen-test-cleanup",
+  "cleanup_role_arn": "arn:aws:iam::980873318600:role/sreehariv-karen-test-cleanup",
+  "expires_at": "2026-11-07T14:10:54.704000+00:00",
+  "cleanup_schedules": [
+    {
+      "name": "sreehariv-karen-delete-instance",
+      "time": "2026-11-07T14:10:54.704000+00:00",
+      "target": "lightsail:deleteInstance"
+    },
+    {
+      "name": "sreehariv-karen-delete-dns",
+      "time": "2026-11-07T14:11:54.704000+00:00",
+      "target": "route53:changeResourceRecordSets"
+    },
+    {
+      "name": "sreehariv-karen-delete-ip",
+      "time": "2026-11-07T14:15:54.704000+00:00",
+      "target": "lightsail:releaseStaticIp"
+    }
+  ]
+}

@@ -108,6 +108,8 @@ curl --fail-with-body --max-time 155 -F 'audio=@question.wav;type=audio/wav' \
 
 A successful reply is HTTP 200, `audio/mpeg`, `X-Karen-Result: ok`. `spoken-error` means an error apology was synthesized; `X-Karen-Error` identifies why. Invalid WAV returns JSON 400; failed TTS returns JSON 503. Never treat JSON or a spoken apology as a successful AI answer.
 
+The controller sends the WAV directly with `Content-Type: audio/wav`, avoiding an extra multipart file in flash. It uses HTTP/1.1 connection reuse when supported by the server and consumes each pending response before polling again. WiFi power saving is disabled for responsiveness. Completed voice results include `Server-Timing` for attempted `stt`, `gemini` and `tts` stages, with matching sanitized request-ID logs; text results include `gemini` only. A recognition failure skips Gemini and synthesizes an error reply. Cached results retain their original timings. See the [controller response-time guide](CONTROLLER_LATENCY.md) for upload instructions and comparable button-to-playback measurements.
+
 ## Tests and firmware
 
 ```bash
@@ -146,7 +148,7 @@ KAREN_CONTROLLER=esp32_s3 .venv/bin/python scripts/firmware.py
 
 Normal builds use example credentials and never upload. `--use-config` uses private `firmware/karen_ai/config.h`; `--upload --port <actual-port>` compiles that private configuration and uploads only after success. Temporary sketches/binaries are cleaned up. Selecting a controller changes the firmware chip target and pins **at build time**; changing Flask's environment cannot reprogram an already-flashed board. Arduino IDE selects the adapter from its board target instead of reading `.env`.
 
-Both profiles keep INMP441 digital input and **MAX98357A** I2S output. No PAM8403/analog substitution was made. See [Windows setup](WINDOWS.md), [both wiring maps and commissioning](HARDWARE.md), and [exhibition checklist](EXHIBITION.md). The supplied photos establish the S3 board's labels, not measured flash/PSRAM size or successful physical operation. Microphone/amplifier pinout, electrical connections and the speaker driver's actual 4-ohm/10-watt marking still need confirmation.
+Both profiles keep INMP441 digital input and **MAX98357A** I2S output. No PAM8403/analog substitution was made. See [Windows setup](WINDOWS.md), [both wiring maps and commissioning](HARDWARE.md), and [exhibition checklist](EXHIBITION.md). The supplied photos establish the S3 board's labels, not measured flash/PSRAM size or successful physical operation. The user reports a **3 W / 4 Ω** speaker and low playback volume; microphone/amplifier pinout, electrical connections and physical audio quality still need confirmation. Playback uses configurable `SPEAKER_GAIN=0.70f` (range 0–1), including a fallback for existing private configurations; the selected gain is printed when playback starts.
 
 ## Cloud later
 

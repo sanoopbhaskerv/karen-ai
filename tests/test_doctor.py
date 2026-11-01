@@ -21,6 +21,8 @@ def project(tmp_path, monkeypatch):
     monkeypatch.setattr(firmware, 'find_cli', lambda *_: 'C:/Arduino folder/arduino-cli.exe')
     monkeypatch.delenv('KAREN_CONTROLLER', raising=False)
     monkeypatch.delenv('GEMINI_API_KEY', raising=False)
+    monkeypatch.delenv('AI_PROVIDER', raising=False)
+    monkeypatch.delenv('OPENAI_API_KEY', raising=False)
     return root
 
 
@@ -58,6 +60,39 @@ def test_default_checks_do_not_probe_upload_contact_ai_or_edit_settings(project,
     assert all('esptool' not in command and 'upload' not in command and 'erase-flash' not in command for command, _ in calls)
     assert [x.read_bytes() for x in paths] == originals
     assert (project / '.tools/doctor.log').is_file()
+
+
+@pytest.mark.parametrize('key, expected', [
+    ('private-openai-value', 'PASS'), ('', 'WARN'), ('YOUR_OPENAI_KEY', 'WARN'), ('PASTE_OPENAI_KEY', 'WARN'),
+])
+def test_local_key_check_uses_selected_openai_provider(project, monkeypatch, capsys, key, expected):
+    path = project / '.env'
+    path.write_text(path.read_text() + 'AI_PROVIDER=openai\nOPENAI_API_KEY=' + key + '\n')
+    fake_tools(monkeypatch)
+    assert doctor.main([], project) == 0
+    output = capsys.readouterr().out + (project / '.tools/doctor.log').read_text()
+    assert f'[{expected}] OpenAI key:' in output
+    assert '[PASS] Gemini key:' not in output and '[WARN] Gemini key:' not in output
+    assert 'private-openai-value' not in output
+
+
+def test_local_key_check_preserves_gemini_default(project, monkeypatch, capsys):
+    fake_tools(monkeypatch)
+    assert doctor.main([], project) == 0
+    output = capsys.readouterr().out
+    assert '[PASS] Gemini key:' in output
+    assert 'OpenAI key:' not in output
+
+
+def test_local_key_check_rejects_unknown_provider_without_echoing_value(project, monkeypatch, capsys):
+    path = project / '.env'
+    path.write_text(path.read_text() + 'AI_PROVIDER=untrusted-provider-secret\n')
+    fake_tools(monkeypatch)
+    assert doctor.main([], project) == 1
+    output = capsys.readouterr().out + (project / '.tools/doctor.log').read_text()
+    assert '[FAIL] AI provider: Unknown AI_PROVIDER. Use gemini or openai.' in output
+    assert 'untrusted-provider-secret' not in output
+    assert 'Gemini key:' not in output and 'OpenAI key:' not in output
 
 
 def test_probe_requires_an_explicit_port(project, monkeypatch):
@@ -168,3 +203,59 @@ def test_health_only_requests_health_and_never_logs_response_secrets(project, mo
     assert seen == ['http://192.168.1.23:8080/health']
     assert doc.failures == 0
     assert 'untrusted-server-secret' not in doc.log.read_text() + capsys.readouterr().out
+
+
+@pytest.mark.parametrize('status, expected_status, warnings', [
+    ('ready', 'ready', 0), ('untested', 'untested', 1),
+    ('untrusted-status-secret', 'unknown', 1),
+])
+def test_health_accepts_openai_and_only_prints_known_status(project, monkeypatch, capsys,
+                                                         status, expected_status, warnings):
+    class Response(io.BytesIO):
+        status = 200
+
+    payload = {'status': 'ok', 'provider': 'openai', 'mode': 'live', 'configured': True,
+               'model': 'untrusted-model-secret',
+               'openai': {'status': status, 'secret': 'untrusted-server-secret'}}
+    monkeypatch.setattr(doctor.urllib.request, 'urlopen',
+                        lambda *_a, **_k: Response(json.dumps(payload).encode()))
+    doc = doctor.Doctor(project)
+    doctor.check_health(doc, 'https://example.com')
+    assert doc.failures == 0 and doc.warnings == warnings
+    output = capsys.readouterr().out + doc.log.read_text()
+    assert f'[PASS] Backend health: /health reachable; OpenAI status={expected_status}.' in output
+    assert ('[WARN] Live AI:' in output) == bool(warnings)
+    assert 'diagnose_gemini.py' not in output
+    for value in ('untrusted-status-secret', 'untrusted-model-secret', 'untrusted-server-secret'):
+        assert value not in output
+
+
+@pytest.mark.parametrize('provider', ['untrusted-provider-secret', ['openai'], {'name': 'openai'}, None])
+def test_health_rejects_unknown_or_malformed_provider_without_echoing_it(project, monkeypatch, capsys, provider):
+    class Response(io.BytesIO):
+        status = 200
+
+    payload = {'status': 'ok', 'provider': provider, 'mode': 'live', 'configured': True,
+               'gemini': {'status': 'ready'}, 'openai': {'status': 'ready'}}
+    monkeypatch.setattr(doctor.urllib.request, 'urlopen',
+                        lambda *_a, **_k: Response(json.dumps(payload).encode()))
+    doc = doctor.Doctor(project)
+    doctor.check_health(doc, 'https://example.com')
+    assert doc.failures == 1
+    output = capsys.readouterr().out + doc.log.read_text()
+    assert '[FAIL] Backend health:' in output
+    assert '[PASS] Backend health:' not in output
+    assert 'untrusted-provider-secret' not in output
+
+
+def test_health_requires_diagnostics_for_the_selected_provider(project, monkeypatch):
+    class Response(io.BytesIO):
+        status = 200
+
+    payload = {'status': 'ok', 'provider': 'openai', 'mode': 'live', 'configured': True,
+               'gemini': {'status': 'ready'}}
+    monkeypatch.setattr(doctor.urllib.request, 'urlopen',
+                        lambda *_a, **_k: Response(json.dumps(payload).encode()))
+    doc = doctor.Doctor(project)
+    doctor.check_health(doc, 'https://example.com')
+    assert doc.failures == 1
