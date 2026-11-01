@@ -1267,5 +1267,260 @@
     "date_note": "August 2025 is the printed issue label. The July 2025 URL directory and 25 July PDF metadata are separate observations, not an authenticated exact publication day or exhibition date.",
     "review_scope": "Native text was extracted for all four pages; all page layouts and main text were visually inspected. The complete relevant first-person article on PDF 2 was read, with edition and publisher provenance checked on PDF 1 and 4. No newspaper-reprint transcription, QR/video follow-up, photograph-based identity check or independent narrative verification was performed.",
     "notes": "Candidate correspondence to the existing HealthCareDevice record uses the published author name, school/region wording, manual platform-lifting mechanism and INSPIRE-MANAK reference. The account does not print the earlier exhibit title, code, edition, guide credit or an unchanged-version statement. Its narrated selection, prototype development and Japan experience remain attributed first-person claims, not independent proof of attendance, work division, load capacity, clinical/safety outcomes or award rank. Only a concise paraphrase is proposed; no class/age, family medical details, private contact, portrait or source PDF is copied into the repository."
+  },
+  {
+    "id": "project-047",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 2000 /",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=128707",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 101677,
+    "download_sha256": "1741130e65b6f65e0a4aa62c228177e5fc5081adca8dd31ea07ebbd4f559f8a5",
+    "headers_sha256": "ca249e81545094487c95f689fc82108df4985e489bffbad3933725b00b3f61c8",
+    "retrieved_at_utc": "2026-11-01T04:38:17.701067+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=128707&format=marcxml",
+      "download_bytes": 4834,
+      "download_sha256": "856b3e3a9e9447eede881dc1b33e831b4f857510e67d86e185dd9951816da6a0",
+      "headers_sha256": "7dfd4c610bf7b9b0b330183c1192a5f6dfbb97ca62e9d027d7f6bfea5a3f4e2e",
+      "retrieved_at_utc": "2026-11-01T04:39:05.278432+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3580424",
+    "institutional_catalogue_record_id": "128707",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. The RR 923.254165 K7 / GI6677 item under this record is retained as an unresolved anomalous association."
+  },
+  {
+    "id": "project-048",
+    "title": "PMML institutional catalogue item record: Structure and working of Science models.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=129825",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 101563,
+    "download_sha256": "98d12fcbc30d9647988be6fe2d72487b715e5398a16db49225791fae98af8636",
+    "headers_sha256": "28316ce8cbcbb5cf8f360fcbbbc9dfcd4d812b617178dedbfd6c3309a31d33ea",
+    "retrieved_at_utc": "2026-11-01T04:38:21.200462+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=129825&format=marcxml",
+      "download_bytes": 4746,
+      "download_sha256": "6bae14304fd0eadcf79102c061f45ca963b48ae051be3a93e6c8fac7955d8e48",
+      "headers_sha256": "bfdefd2a5f7e527ddb01a26c83e8d8e80ed09942404cc296d888ed310cace77c",
+      "retrieved_at_utc": "2026-11-01T04:39:07.917296+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3581510",
+    "institutional_catalogue_record_id": "129825",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-049",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 2000.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156300",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 96846,
+    "download_sha256": "c6a0cc46efb884ca77fe1b673209d05ee27551942aa8dc00b4e666a7b39e6c6c",
+    "headers_sha256": "b6c894f2c0d2911be17b87714033db60afc210be2491fe923a51535e68bd7cd7",
+    "retrieved_at_utc": "2026-11-01T04:38:24.807470+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156300&format=marcxml",
+      "download_bytes": 3085,
+      "download_sha256": "816d1220ed989ffcd154001a392f0e6db8067ca6b1cbcee58b493ab35e19e57f",
+      "headers_sha256": "9b3394a19cce03da89d62f03b337a7e7560cac59ba0370b33048b7930d034b4e",
+      "retrieved_at_utc": "2026-11-01T04:39:10.702627+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3580424",
+    "institutional_catalogue_record_id": "156300",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-050",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 1999.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156303",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 99163,
+    "download_sha256": "f5fd7181c15cc916826b00a6fdad84535d264eb9c79ad10653d07dafd6295162",
+    "headers_sha256": "f97b03a7a0358760d85a615eb33805a6c9606378ba583771746939967a6061a3",
+    "retrieved_at_utc": "2026-11-01T04:38:28.724190+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156303&format=marcxml",
+      "download_bytes": 3629,
+      "download_sha256": "5781e88233ef3cdb350fa977661364c8634866bcb4133230ef78469f9474847e",
+      "headers_sha256": "01ff9538bb0f699f41cc7552602cdc7980b9e626670b27b4142624255ed2d614",
+      "retrieved_at_utc": "2026-11-01T04:39:13.844829+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3606497",
+    "institutional_catalogue_record_id": "156303",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
+  },
+  {
+    "id": "project-051",
+    "title": "PMML institutional catalogue item record: Structure and working of science models, 1998.",
+    "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156363",
+    "accessed_on": "2026-11-01",
+    "source_type": "institutional_library_catalogue_item_record",
+    "publisher": "Prime Ministers Museum and Library",
+    "document_date": null,
+    "download_bytes": 96798,
+    "download_sha256": "de28516fe9565060e561bc65fc4f115ef76e584020578a2b8e00ae99748f4f5a",
+    "headers_sha256": "ae59579825bc8e9306ccdbd44480e8c0c61d590876bb16e38ad390a055e9d582",
+    "retrieved_at_utc": "2026-11-01T04:38:31.889236+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "alternate_marcxml": {
+      "url": "https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-export.pl?op=export&bib=156363&format=marcxml",
+      "download_bytes": 2894,
+      "download_sha256": "ea7f6b6bdf4a8c11146f6c0033f8eca37482afd4188964787b07c559f4cd458f",
+      "headers_sha256": "deef8be280d380b5e4da171787b6eb8bf6b9e67028afb69bdd1d6bf9b67a98c6",
+      "retrieved_at_utc": "2026-11-01T04:39:16.432571+00:00",
+      "http_status": 200,
+      "scope": "Advertised alternate format of this same catalogue record, not another source, work or original book."
+    },
+    "holding_target_id": "model-holding-3606554",
+    "institutional_catalogue_record_id": "156363",
+    "provenance_note": "The current official PMML homepage advertises this Koha OPAC host. Its public title search returned five matching detail records; each received detail HTML and its advertised MARCXML was read without sign-in. The hosted catalogue retains NMML item codes.",
+    "discovery_link_evidence": {
+      "official_homepage_url": "https://pmml.gov.in/",
+      "advertised_catalogue_url": "https://pmmlcatalog.ltsinformatics.com/",
+      "homepage_download_bytes": 131069,
+      "homepage_download_sha256": "784a4548dd2eded07afa1166d8dfd01b2173a160030ee0db16ad8c91c3f1b988",
+      "homepage_headers_sha256": "3db3361fff166a09967573511c4f7cda9e97c7c7bef1876b6482a06bbfcf235b",
+      "link_label": "Catalogue-Koha OPAC"
+    },
+    "page_locators": [
+      {
+        "html_section": "Details for / publication details and description",
+        "claim": "Registered NCERT attribution, title, imprint year and extent correspond to an existing NMML holding target."
+      },
+      {
+        "html_section": "Holdings table and MARCXML 952 fields",
+        "claim": "Source-specific full call numbers and item barcodes; catalogue availability is not independently checked."
+      },
+      {
+        "html_section": "Title notes / MARCXML 505, if supplied",
+        "claim": "Additional-year notes are retained without creating extra editions or book counts."
+      }
+    ],
+    "review_scope": "Complete received record text and item/notes tables read; all fields in the advertised MARCXML parsed and reviewed. No browser or photograph verification, original-book body, independent shelf check or library contact.",
+    "notes": "Five local catalogue records enrich four existing NMML holding targets; the two 2000 records remain grouped. Item call numbers/barcodes change the precision of a possible physical retrieval. They do not recover book contents, confirm Kerala exhibits, establish model methods or certify current access. "
   }
 ]

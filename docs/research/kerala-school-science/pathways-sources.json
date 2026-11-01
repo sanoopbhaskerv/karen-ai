@@ -2123,5 +2123,244 @@
     },
     "notes": "Actual cover identifies ninth NLEPC and 2022; preface is dated 15 September 2022. The preface discusses COVID/scouting during 2020–21 and 6.53 lakh ideas without an explicit financial-year label. No exact exhibition window or publication day is inferred from cover, preface, file metadata or November 2022 server dates. Separate PIB context is owned by sources 71/72; no individual attendance, final prize rank, original code/AI, work division, scientific validation or Kerala Sasthrolsavam route is inferred. Kerala heading PDF 13 / printed 1; eleven entries PDF 14–24 / printed 2–12; separate KV heading PDF 25 / printed 13, ten entries PDF 26–35 and next-state boundary PDF 36. KV Payyanur entry is PDF 32 / printed 20; its literal KV_Ernakulam regional field does not establish a Kerala DGE route. Source personal/family health stories, identifiers, class/age, photos and private contact/address fields are excluded from derived rows.",
     "review_scope": "Cover/title, message/preface/foreword, index and complete Kerala/KV sections with boundary visually read. Eleven Kerala-heading entries and one separately scoped KV Payyanur/Ernakulam-region entry derived. Full 344-page OCR discovery and visual follow-up supplied no further adopted location candidate."
+  },
+  {
+    "id": "pathways-76",
+    "title": "PIB: tenth INSPIRE NLEPC inauguration, public exhibition and planned awards",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1966012&lang=2&reg=48",
+    "effective_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1966012&lang=2&reg=48",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_government_press_release",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 102236,
+    "download_sha256": "79939ab185fab8cf3525140d6ed387a453822ea2f74574cc886de2757bca8240",
+    "retrieved_at_utc": "2026-11-01T04:34:52.474989+00:00",
+    "acquisition_record_sha256": "637c8ef405678afc90899f69279668fce9f1899540943d3bf13c8f5465fc2ddb",
+    "headers_json_sha256": "8ffdfd91fbddbdb7beaf1794834e5c6249709122d14cf04978cfff7a214f1623",
+    "notes": "Reports 9 October 2023 inauguration at Indira Gandhi Indoor Stadium and 9–10 October public exhibition; 441 selected students. The 11 October Vigyan Bhawan/top-60 statement is prospective. It associates 7.05 lakh ideas with the year 2021–22 without explicitly calling that a financial year. National reporting is not a Kerala delegation or attendance audit.",
+    "publisher": "Press Information Bureau, Government of India; Ministry of Science and Technology",
+    "document_date": "2023-10-09",
+    "published_clock_as_displayed": "17:21",
+    "review_scope": "Complete relevant actual article text read, with repeated print/display text counted once; navigation and unrelated policy assertions excluded."
+  },
+  {
+    "id": "pathways-77",
+    "title": "PIB: tenth INSPIRE felicitation and differently labelled national populations",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1966727&lang=2&reg=48",
+    "effective_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1966727&lang=2&reg=48",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_government_press_release",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 111257,
+    "download_sha256": "c18c09c01c8ab7c892b4c80569d498e04b49a0844c8bbfa080a94c3a90a5044b",
+    "retrieved_at_utc": "2026-11-01T04:36:17.354462+00:00",
+    "acquisition_record_sha256": "361be7786983cce664b973f7b6a2f20e1763b4456bda17d7ac1cebff771e0270",
+    "headers_json_sha256": "038657740fd9cb0e01c18a96572ffdf6cc7cb9b0b650a5435a8679db19eb4b99",
+    "notes": "The 11 October 2023 article reports the New Delhi felicitation ceremony. It uses both 60 young innovators out of 440 exhibitors and 441 selected students; preserve the literal populations without an invented reconciliation. Repeated 9–10 October public-opening wording is retained as source wording. No Kerala winner list or individual prize rank is supplied.",
+    "publisher": "Press Information Bureau, Government of India; Ministry of Science and Technology",
+    "document_date": "2023-10-11",
+    "published_clock_as_displayed": "17:46",
+    "review_scope": "Complete relevant actual article text read, with repeated print/display text counted once; navigation and unrelated policy assertions excluded."
+  },
+  {
+    "id": "pathways-78",
+    "title": "DST Monthly Report, October 2023: tenth INSPIRE conduct and felicitation",
+    "url": "https://web.archive.org/web/20250623201551id_/https://dst.gov.in/sites/default/files/Monthly%20Summary%20Oct%202023.pdf",
+    "effective_url": "https://web.archive.org/web/20250623201551id_/https://dst.gov.in/sites/default/files/Monthly%20Summary%20Oct%202023.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_monthly_report",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 149333,
+    "download_sha256": "4f2a3d654886d01e6f0ebfebb2a34cfb76884b20195fe2c455052aab2bf160fe",
+    "retrieved_at_utc": "2026-11-01T04:37:36.255669+00:00",
+    "acquisition_record_sha256": "0461b8bcf4c618afb26def53238407a9753211d13f4b4757c5b7948ac7f95fa2",
+    "headers_json_sha256": "fbded99b13294a76eecbe2688d59d015a38ce0ec541cfec6ef78809c5a249533",
+    "notes": "Retrospectively reports 9–11 October 2023 events, 441 selected students and top-60 felicitation on 11 October at Vigyan Bhawan. This supplies actual reported date/venue beyond the opening plan; not audited individual attendance, a Kerala roster or a ranked prize list. Adjacent INSPIRE scholarship/fellowship amounts concern other components and are not school-model awards.",
+    "pdf_pages": 9,
+    "document_date": null,
+    "pdf_metadata_dates_are_not_issue_dates": true,
+    "publisher": "Department of Science and Technology, Government of India",
+    "reporting_month": "2023-10",
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      4
+    ],
+    "review_scope": "All nine native-text pages screened; title and complete relevant INSPIRE subsection visually read on PDF 1 and 4. No complete visual review of unrelated sections claimed.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Printed reporting month/title"
+      },
+      {
+        "pdf_page_1based": 4,
+        "scope": "Complete INSPIRE-MANAK subsection before INSPIRE Scholarship"
+      }
+    ],
+    "original_url": "https://dst.gov.in/sites/default/files/Monthly%20Summary%20Oct%202023.pdf",
+    "archive_capture": "20250623201551",
+    "memento_datetime_received": "Mon, 23 Jun 2025 20:15:51 GMT",
+    "original_link_header_as_received": "<https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"original\", <https://web.archive.org/web/timemap/link/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"timegate\", <https://web.archive.org/web/20231202023002/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"first memento\"; datetime=\"Sat, 02 Dec 2023 02:30:02 GMT\", <https://web.archive.org/web/20240309130449/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"prev memento\"; datetime=\"Sat, 09 Mar 2024 13:04:49 GMT\", <https://web.archive.org/web/20250623201551/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"memento\"; datetime=\"Mon, 23 Jun 2025 20:15:51 GMT\", <https://web.archive.org/web/20250623201551/https://dst.gov.in/sites/default/files/Monthly%2520Summary%2520Oct%25202023.pdf>; rel=\"last memento\"; datetime=\"Mon, 23 Jun 2025 20:15:51 GMT\"",
+    "archive_discovery": {
+      "method": "Actual public Wayback availability response",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fdst.gov.in%2Fsites%2Fdefault%2Ffiles%2FMonthly%2520Summary%2520Oct%25202023.pdf&timestamp=20250101",
+      "response_bytes": 339,
+      "response_sha256": "39e2575e98d91365277c96f20321cb3564de9fed1c07cfb85c0a554e0c3da177",
+      "closest_capture_as_received": {
+        "status": "200",
+        "available": true,
+        "url": "http://web.archive.org/web/20250623201551/https://dst.gov.in/sites/default/files/Monthly%20Summary%20Oct%202023.pdf",
+        "timestamp": "20250623201551"
+      }
+    },
+    "archive_provenance_scope": "Actual Memento matches advertised closest capture; no CDX/body digest correspondence asserted for this source."
+  },
+  {
+    "id": "pathways-79",
+    "title": "KSCSTE News, Vol. II Issue 1, January–March 2023: Science on Wheels report",
+    "url": "https://web.archive.org/web/20230628021254id_/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf",
+    "effective_url": "https://web.archive.org/web/20230628021254id_/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_institutional_quarterly_newsletter",
+    "http_status": 200,
+    "tls_verified": true,
+    "download_complete": true,
+    "download_bytes": 3270921,
+    "download_sha256": "10e8895fe014d642ac26d0b5aef301532b5dcad7db7aea62d4bc2c44b719aa27",
+    "retrieved_at_utc": "2026-11-01T04:36:25.559877+00:00",
+    "acquisition_record_sha256": "60acc7656cf9408367629fe742bdf1e69056c8b9b460d14be59dc2634ad0adb5",
+    "headers_json_sha256": "9337e22c07c7cfebd0d146d8e3e03e37331a5fbc2b936f25a206ea4ed1a5ae38",
+    "notes": "Institution reports a 23 January launch at GHSS Balanthode, a fourteen-district tour ending at GHSS Thonnakkal, two days per host school, sixty models and more than 33,000 students. The issue is January–March 2023; no exact completion or publication day is supplied. Reported reach and curiosity language are not measured learning outcomes or audited unique headcounts. It does not identify the executed contract under the 2022 EOI.",
+    "pdf_pages": 16,
+    "document_date": null,
+    "pdf_metadata_dates_are_not_issue_dates": true,
+    "publisher": "Kerala State Council for Science, Technology and Environment",
+    "publication_title_as_printed": "KSCSTE News",
+    "volume_as_printed": "II",
+    "issue_as_printed": "1",
+    "issue_period_as_printed": "January–March 2023",
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      6
+    ],
+    "date_scope": "Printed quarterly issue period, 23 January launch wording and file metadata are separate; no exact issue/completion day inferred from URL directory or metadata.",
+    "review_scope": "All sixteen native-text pages screened; actual cover visually read on PDF 1 and complete Science on Wheels article on PDF/printed 6. Article continuation line placed above its heading in received layout is preserved; adjacent competitions/projects and pupil photographs excluded from derived notes.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Printed newsletter title/volume/issue/quarter"
+      },
+      {
+        "pdf_page_1based": 6,
+        "printed_page": 6,
+        "scope": "Science on Wheels article and its displaced continuation line"
+      }
+    ],
+    "reported_district_count": 14,
+    "reported_days_per_host_school": 2,
+    "reported_scientific_model_count": 60,
+    "reported_student_reach_text": "more than 33,000",
+    "reported_duration_text": "more than a month",
+    "exact_completion_date": null,
+    "reported_launch_day_month": "23 January",
+    "reported_launch_year_scope": "2023 quarterly issue context; year is not repeated in the article launch clause.",
+    "original_url": "https://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf",
+    "archive_capture": "20230628021254",
+    "memento_datetime_received": "Wed, 28 Jun 2023 02:12:54 GMT",
+    "original_link_header_as_received": "<http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"timegate\", <https://web.archive.org/web/20230624102535/https://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"first memento\"; datetime=\"Sat, 24 Jun 2023 10:25:35 GMT\", <https://web.archive.org/web/20230624102535/https://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"prev memento\"; datetime=\"Sat, 24 Jun 2023 10:25:35 GMT\", <https://web.archive.org/web/20230628021254/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"memento\"; datetime=\"Wed, 28 Jun 2023 02:12:54 GMT\", <https://web.archive.org/web/20231008182959/https://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"next memento\"; datetime=\"Sun, 08 Oct 2023 18:29:59 GMT\", <https://web.archive.org/web/20240926054015/https://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf>; rel=\"last memento\"; datetime=\"Thu, 26 Sep 2024 05:40:15 GMT\"",
+    "archive_discovery": {
+      "method": "Actual public Wayback availability response",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fkscste.kerala.gov.in%2Fwp-content%2Fuploads%2F2022%2F08%2FKSCSTE_VOL5.pdf&timestamp=20240101",
+      "response_bytes": 334,
+      "response_sha256": "7b765b195abb2047df5da57bd2c497b5a917121390fc71031a6761743f0cd93e",
+      "closest_capture_as_received": {
+        "status": "200",
+        "available": true,
+        "url": "http://web.archive.org/web/20230628021254/http://kscste.kerala.gov.in/wp-content/uploads/2022/08/KSCSTE_VOL5.pdf",
+        "timestamp": "20230628021254"
+      }
+    },
+    "archive_provenance_scope": "Actual Memento matches advertised closest capture; no CDX/body digest correspondence asserted for this source."
+  },
+  {
+    "id": "pathways-80",
+    "title": "DST Annual Report 2023–24: tenth NLEPC explicit prize positions and visitor scope",
+    "url": "https://web.archive.org/web/20240901062322id_/https://dst.gov.in/sites/default/files/DST%20AR%20English%202023-24.pdf",
+    "effective_url": "https://web.archive.org/web/20240901062322id_/https://dst.gov.in/sites/default/files/DST%20AR%20English%202023-24.pdf",
+    "original_url": "https://dst.gov.in/sites/default/files/DST%20AR%20English%202023-24.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_official_departmental_annual_report",
+    "publisher": "Department of Science and Technology, Government of India",
+    "document_date": null,
+    "reporting_period_as_printed": "2023–24",
+    "pdf_pages": 308,
+    "download_complete": true,
+    "download_bytes": 26112878,
+    "download_sha256": "23c32097891ed57717ecebbcba3dd579587c19490665bad8797c4187dc217408",
+    "http_status": 206,
+    "tls_verified": true,
+    "retrieved_at_utc": "2026-11-01T04:45:17.549886+00:00",
+    "download_method": "Initial bounded GET prefix plus explicit If-Range continuation; original ETag/Memento, exact returned range/total, prefix/suffix hashes and complete body CDX digest verified before PDF opening.",
+    "initial_download": {
+      "http_status": 200,
+      "complete": false,
+      "bytes_received": 17170432,
+      "prefix_sha256": "34fa34952cbf038ef49bda5505fd6aeabf1891932cf7529a301b13e8da128a98",
+      "headers_json_sha256": "b93b8cac7ed28eeea7e945661a3cfb899816abbfe655ad061f8ff5ab557559bf",
+      "acquisition_record_sha256": "809bdc9658168a406f2963edce79991b63307d81075f29f746ce79c72dd76e10"
+    },
+    "resume_request": {
+      "http_status": 206,
+      "curl_exit": 0,
+      "range_start": 17170432,
+      "segment_bytes": 8942446,
+      "segment_sha256": "239ff7be4839e441f95d222a8b1fa7edc45e70ea1a18161617088cdf74328abf",
+      "headers_sha256": "44694efb37fe2c0e62f3597e707ac4d952b5ca129fff6fa5d0e214c80e1aba8f",
+      "content_range": "bytes 17170432-26112877/26112878",
+      "acquisition_record_sha256": "94cbff4af8a26b8f0322fd78c9ac2eefd447b93c353ed8afbea4b1c5241e11d1"
+    },
+    "archive_capture": "20240901062322",
+    "memento_datetime_received": "Sun, 01 Sep 2024 06:23:22 GMT",
+    "body_sha1_base32": "XFIUHHZJIIJ6KGBETXFQASSUGRW4FVRZ",
+    "exact_original_cdx_timestamp_digest_match": true,
+    "cdx_response": {
+      "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fdst.gov.in%2Fsites%2Fdefault%2Ffiles%2FDST%2520AR%2520English%25202023-24.pdf&output=json&filter=statuscode%3A200&filter=mimetype%3Aapplication%2Fpdf&collapse=digest",
+      "response_bytes": 769,
+      "response_sha256": "3b2de2b53cc7ca84d76a42574deef715a33ddcdb50af2e515f4fc0d4c75a9846"
+    },
+    "excluded_alternate_capture": {
+      "timestamp": "20241203003121",
+      "received_bytes": 1048576,
+      "document_complete": false,
+      "reason": "HTTP200 transport ended normally but the body lacked the PDF EOF and captured only 1 MiB of the 26,112,878-byte original; not used for source facts or PDF page reading."
+    },
+    "visually_reviewed_pdf_pages_1based": [
+      1,
+      55,
+      56
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "scope": "Reporting-cycle cover"
+      },
+      {
+        "pdf_page_1based": 55,
+        "printed_page": 39,
+        "scope": "INSPIRE-MANAK heading and separate nomination-period context"
+      },
+      {
+        "pdf_page_1based": 56,
+        "printed_page": 40,
+        "scope": "Tenth NLEPC paragraph with explicit first/second/third prizes and Delhi-NCR visitor population"
+      }
+    ],
+    "review_scope": "All 308 native-text pages extracted for discovery; cover and relevant INSPIRE-MANAK context/award pages visually read. No full human audit of the entire departmental report claimed.",
+    "notes": "Explicitly credits Navya Sharma, Daksh Kalia and Shreyansh Nayak with first, second and third tenth-NLEPC prizes respectively. Reports 9–11 October 2023 conduct and more than 12,000 Delhi-NCR student visitors. Visitor population is separate from selected exhibitors; no audited unique attendance, Kerala attribution, school/project match, per-pupil payment or lower prize rank is inferred. Adjacent nomination cohorts, fellowship funds and differently spelled later recognition remain separate."
   }
 ]

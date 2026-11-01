@@ -4,7 +4,7 @@ Checked **1 November 2026**. INSPIRE's National Level Exhibition and Project Com
 
 ## Public publication index
 
-The official [compendium index](https://www.inspireawards-dst.gov.in/UserP/nlepc-compendium.aspx), source `pathways-54`, advertises **18 volume links** across the first through eleventh NLEPC labels. This is a link inventory, not 18 distinct editions or 18 completely reviewed books. Both eleventh-edition labels say “Vol II” despite different `-1`/`-2` filenames; the received labels remain literal in the dataset. Downloaded bodies must establish their own volume and date context.
+The official [compendium index](https://www.inspireawards-dst.gov.in/UserP/nlepc-compendium.aspx), source `pathways-54`, advertises **18 volume links** across the first through eleventh NLEPC labels. This is a link inventory, not 18 distinct editions or 18 completely reviewed books. Both tenth-edition labels and both eleventh-edition labels say “Vol II” despite distinct filenames; the received labels remain literal in the dataset. Downloaded bodies must establish their own volume and date context.
 
 ## Seventh NLEPC: eight Kerala-section entries
 
@@ -80,6 +80,24 @@ With these twelve additions, the dedicated register contains **33 descriptions a
 ### Dated event reports
 
 The [14 September 2022 PIB report](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1859322&lang=2&reg=48), source `pathways-71`, reports inauguration at **ITPO Delhi**, public exhibition **14–15 September** and **556 students' exhibits**. Its **16 September / Vigyan Bhawan** award statement is a plan. The [16 September report](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1859810&lang=2&reg=48), source `pathways-72`, reports **60 awards** and **53,021 identified for ₹10,000 prototype support**. It does not independently confirm the planned venue or individual payments. Both associate **6.53 lakh ideas** with **the year 2020–21**, without an explicit financial-year label. These national populations are not Kerala counts. The closing article's “Start-Ups” wording does not establish incorporated companies or commercial success; its historical eligibility does not replace current rules.
+
+## Tenth NLEPC: event and prize reports
+
+The [9 October 2023 PIB article](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1966012&lang=2&reg=48), source `pathways-76`, reports inauguration at **Indira Gandhi Indoor Stadium**, **441 selected students** and public exhibition **9–10 October**. Its **11 October / Vigyan Bhawan / top 60** statement is prospective. The [11 October closing article](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1966727&lang=2&reg=48), source `pathways-77`, reports that day's felicitation, using both **440 exhibitors** and **441 selected students**. Preserve the source's differently labelled figures without inventing a reconciliation. Both associate **7.05 lakh ideas** with **the year 2021–22**, without an explicit financial-year label. Repeated display/print text is one report, not independent corroboration.
+
+The complete nine-page [DST October 2023 monthly report](https://web.archive.org/web/20250623201551id_/https://dst.gov.in/sites/default/files/Monthly%20Summary%20Oct%202023.pdf), source `pathways-78`, retrospectively reports **9–11 October conduct** and explicitly confirms **11 October / Vigyan Bhawan / top-60 felicitation** on PDF **4**. Adjacent scholarship/fellowship sums concern other INSPIRE components; they are not school-model awards.
+
+The complete **308-page** [DST Annual Report 2023–24](https://web.archive.org/web/20240901062322id_/https://dst.gov.in/sites/default/files/DST%20AR%20English%202023-24.pdf), source `pathways-80`, supplies a separate explicit prize statement on PDF **56 / printed 40**:
+
+| Position explicitly reported | Credited name |
+| --- | --- |
+| First | Navya Sharma |
+| Second | Daksh Kalia |
+| Third | Shreyansh Nayak |
+
+The same paragraph reports **more than 12,000 Delhi-NCR student visitors**, a different population from selected exhibitors. These pages do not establish Kerala affiliation, school/project matches, all sixty ranks, individual payments or audited attendance. The report cycle, adjacent June–September 2023 nominations and the earlier 2021–22 idea wording remain separate. Only the cover and relevant PDF **55–56 / printed 39–40** received visual review; a complete file is not a full human audit.
+
+An incomplete one-megabyte archive capture was excluded. A different exact CDX capture supplied the full report after a guarded range continuation; its final body digest matches the archive record. The two advertised tenth compendia remain in acquisition and **unreviewed**. No tenth compendium entries or methods have been added to the dataset from partial files.
 
 ## Eleventh NLEPC: state and organisational sections
 

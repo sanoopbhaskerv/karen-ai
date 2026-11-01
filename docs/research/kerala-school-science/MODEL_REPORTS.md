@@ -96,10 +96,24 @@ The [holding register](ncert-model-holdings.json) adds five canonical NVLI MARC 
 | Nehru Memorial Museum & Library | 1999 / `218p. :` | [3606497](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606497) |
 | Nehru Memorial Museum & Library | 2000 / `viii, 171 p. v. :` | [3580424](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3580424) |
 
-Sources `project-040`–`project-044`. The IGNCA item explicitly records full call `607.34 STR` and barcode `IGNCA-G3753`. NMML item fields do not supply a full call number or barcode; classification fields are retained as classification. The 1996 record's additional 1997 note and the 2000 record's additional 1995 note are preserved without counting separate confirmed volumes. Two alias records are grouped rather than counted as extra works or known distinct copies. The 1978 target is separate from the publisher-library reference above; no identity of physical copies is established.
+Sources `project-040`–`project-044`. The IGNCA item explicitly records full call `607.34 STR` and barcode `IGNCA-G3753`. In these NVLI copies, NMML item fields do not supply a full call number or barcode; classification fields are retained as classification. The 1996 record's additional 1997 note and the 2000 record's additional 1995 note are preserved without counting separate confirmed volumes. Two alias records are grouped rather than counted as extra works or known distinct copies. The 1978 target is separate from the publisher-library reference above; no identity of physical copies is established.
 
 None of the inspected records has a digital-location field. That does not establish that no digital copy exists elsewhere, or guarantee present shelf availability/completeness. A separately checked 1990 title lacks NCERT author/publisher confirmation and is excluded from these five targets. The complete 2010 volume and these older books' Kerala contents remain unrecovered.
 
+
+### Current PMML item identifiers for four existing targets
+
+The current official PMML homepage advertises a public Koha catalogue. Five actual detail pages and their advertised XML exports add item identifiers for **four existing target groups**, with both 2000 records kept together. The [structured follow-up observations](ncert-model-holdings.json) preserve all earlier target objects and add the dated institution-hosted fields separately. Sources `project-047`–`project-051`.
+
+| Registered year / local record | Full call field as received | Item barcodes as received |
+| --- | --- | --- |
+| 1996 / [129825](https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=129825) | `RR 507.8 N6` | `GI6713`, `GI6668` |
+| 1998 / [156363](https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156363) | `RR 507.8 N8` | `GI6669` |
+| 1999 / [156303](https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156303) | `RR 507.8 N9/N9;1` | `GI6714`, `GI6670` |
+| 2000 / [128707](https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=128707) | `RR 507.8 P0`; anomalous `RR 923.254165 K7` | `GI6671`; anomalous `GI6677` |
+| 2000 grouped counterpart / [156300](https://pmmlcatalog.ltsinformatics.com/cgi-bin/koha/opac-detail.pl?biblionumber=156300) | `RR 507.8 P0;1` | `GI6716` |
+
+The eight item rows display **Available** in the received HTML, without independent shelf/access verification. The anomalous shelfmark is an unresolved association, not a positively identified additional model book. No original pages, Kerala chapters or new methods were recovered. Additional 1995/1997 notes remain unverified; XML is an alternate format, not another book. The advertised IGNCA local OPAC required sign-in and was stopped; its public repository search supplied no exact target body in the bounded review.
 
 ## A recovered combined 2020/2021 synopsis booklet
 

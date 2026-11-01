@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 375 |
-| Distinct registered source URLs | 370 |
+| Source records | 385 |
+| Distinct registered source URLs | 380 |
 | Topic source registers | 22 |
 | JSON files | 49 |
-| Concise English/Malayalam knowledge records | 188 |
-| Draft Malayalam evaluation questions | 166 |
+| Concise English/Malayalam knowledge records | 192 |
+| Draft Malayalam evaluation questions | 170 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -89,6 +89,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Personal blog commentary HTML works | 1 |
 | Science on Wheels provider EOI works / physical PDF pages | 1 / 3 |
 | Ninth INSPIRE official press reports | 2 |
+| Tenth INSPIRE official press reports | 2 |
+| Tenth INSPIRE monthly context works / physical PDF pages | 1 / 9 |
+| Tenth INSPIRE annual context works / physical PDF pages | 1 / 308 |
+| KSCSTE outreach newsletter works / physical PDF pages | 1 / 16 |
+| PMML institutional catalogue records / XML alternate formats | 5 / 5 |
+| PMML follow-up observations / existing targets / item rows | 5 / 4 / 8 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -218,3 +224,12 @@ The two ninth compendia add 614 physical pages, all processed with machine OCR f
 Against `5100d25`, all 363 earlier source objects, 38 core cases and 25 other non-source JSON datasets remain unchanged. The INSPIRE dataset preserves its 21 earlier entries and three edition objects as exact prefixes; only the two ninth-volume download statuses/source IDs change in the literal 18-link inventory. The earlier 178 knowledge and 156 evaluation records remain exact byte prefixes, with ten pairs appended. Malayalam remains subject to teacher review and evaluations held out. No runtime, retrieval, fine-tuning, provider or hardware integration is included.
 
 The final independent publication audit passed **5,596 checks**, recalculating all **84 inventory rows** and checking **300 local links/anchors**, reference resolution, preservation and actual new acquisition chains. Separate source/semantic reviews passed 99 gold-cup checks, 45 provider-EOI checks, 47 PIB checks and 193 ninth-compendium checks. An additional **1,240-check** audit corroborated ordered OCR derivatives, text hashes/counts, render status and all fourteen empty pages across the 614 ninth-volume pages; it certifies derivative integrity, rather than transcription accuracy. Literal school-field corrections and a stale publication-count label were fixed before the final verdict. No material evidence-scope or privacy blocker remained. These reviews do not certify historical completeness, teacher-approved Malayalam, individual attendance or scientific performance.
+
+
+The next packet adds ten sources: three complete PDFs / 333 physical pages and seven actual HTML works, with five advertised XML exports as alternate formats of the same catalogue records. Both PIB bodies were read in full relevant text; the nine-page monthly report and sixteen-page newsletter received full native screening and targeted visual review. The complete 308-page annual report received native extraction throughout and original cover/INSPIRE-page review at PDF 1, 55 and 56. A one-megabyte alternate capture was excluded; the selected full capture passed explicit range/entity/Memento guards and an exact CDX/body digest check before opening.
+
+The PMML follow-up adds five institutional record observations and eight item rows for four existing target groups, retaining the anomalous item and unverified 1995/1997 notes. No original model-book body, Kerala chapter, new method or independently verified shelf availability follows. All five original target objects and other pre-existing holding-register fields remain exact. The eight INSPIRE books, 33 descriptions and four edition objects are unchanged; the two larger tenth compendia remain unreviewed in the ongoing acquisition.
+
+Against `7b0a2c5`, all 375 earlier source objects, 38 core cases and 25 other non-source JSON datasets remain unchanged. The only structured dataset extension is the new institutional follow-up array in the existing holding register. The earlier 188 knowledge and 166 evaluation records remain exact byte prefixes, with four pairs appended. New Malayalam remains subject to teacher review and evaluations held out. No runtime, retrieval, fine-tuning, provider or hardware integration is included.
+
+The final independent publication audit passed **5,661 checks**, recalculating all **90 inventory rows** and checking **306 local links/anchors**, reference resolution, preservation and eighteen actual new acquisition nodes/formats. Separate reviews passed 186 checks on the four context/outreach sources and two bilingual pairs, 77 on the complete annual report and award pair, 112 on the PMML source packet, 224 on its holding transformations and 31 on the final integration/domain scope. The annual report's exact archive digest and complete range assembly agree; nested API/CDX response headers/acquisitions are separately checked against actual sidecars. No material factual, evidence-scope, prose or privacy blocker remained. These checks do not establish historical completeness, teacher-approved Malayalam, physical library availability or scientific performance.
