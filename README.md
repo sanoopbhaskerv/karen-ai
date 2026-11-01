@@ -2,6 +2,8 @@
 
 **[മലയാളത്തിൽ വായിക്കാൻ ഇവിടെ അമർത്തുക → READMEMALAYALAM.md](READMEMALAYALAM.md)**
 
+**Using a Mac?** Follow the [Mac instructions in English](docs/MAC.md), including the correct Terminal commands for board ports and Serial Monitor. Windows `.venv\Scripts\python.exe` commands do not work on Mac.
+
 **Offline HTML guide:** Open [the Malayalam setup page](docs/windows-setup-malayalam.html) in Edge/Chrome. It includes individual command copy buttons and a print/PDF option. Download the HTML file to read it with formatting before the server is running.
 
 **Changing WiFi or the server address later?** Use [the Malayalam WiFi-change and retest guide](docs/windows-wifi-change-malayalam.html). It covers the updated settings, USB upload, network checks and a fresh board question test.
@@ -520,6 +522,8 @@ A request can take time. The normal browser/device wait budget is about **2 minu
 When asking for help, share the controller name, step number, COM number and error code. Hide API keys, WiFi passwords and private saved facts in screenshots. Your source repository should not include `.env`, `.env.local`, `config.h` or saved memory.
 
 ## 17. If you are using the Mac instead
+
+For setup, the exact `karenPort` assignment, logged Serial Monitor and optional firmware upload, follow the [Mac instructions in English](docs/MAC.md).
 
 The Windows commands above are for a Windows PC. On the existing project Mac:
 
