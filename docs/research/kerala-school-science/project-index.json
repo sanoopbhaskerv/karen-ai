@@ -1424,5 +1424,121 @@
     ],
     "student_work_division_verified": false,
     "performance_independently_verified": false
+  },
+  {
+    "id": "case-2021-raksha-electrical-protection",
+    "year": 2021,
+    "title": "\"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits",
+    "source_ids": [
+      "project-033",
+      "project-034"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "Joji, Efraem"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "Devamatha CMI Public School",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Thrissur",
+    "school_location_evidence": {
+      "source_id": "project-034",
+      "observation_date": "2026-11-01",
+      "scope": "Current official district-administration location listing for the exact school name in the 2021 organiser abstract; not a recovered contemporaneous 2021 school-address record or historical-campus certification."
+    },
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-033 alternate one-page abstract PDF; actual event year and booth are explicit in the organiser HTML, not this generated PDF metadata.",
+    "printed_page": null,
+    "selection_status": "isef_2021_finalist_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_current_school_location_bridge",
+    "method_tag": "special transformer and current-component detection/chopping circuitry",
+    "method_summary": "The abstract describes a specially constructed transformer and associated circuitry that detects and chops specified current components. Electrocution prevention, mitigation of some short-circuit hazards and possible transformer/inverter/stabiliser functions are project claims.",
+    "evidence_limits": "No schematic, construction specifications, current thresholds, waveforms, test setup, quantitative safety results or independent certification is supplied. The contextual 85% fault statement is not a device success rate. No Arduino or AI component is named. The current location source is not contemporaneous 2021 address evidence. No local qualifying route, physical attendance, prize, guide credit or work division is established; the blank awards field does not prove no award.",
+    "isef_booth_identifier": {
+      "source_id": "project-033",
+      "event_year_as_published": 2021,
+      "booth_id_as_published": "EBED015",
+      "scope": "ISEF booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "physical_attendance_verified": false
+  },
+  {
+    "id": "case-2022-taro-inspired-oil-water-membrane",
+    "year": 2022,
+    "title": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+    "source_ids": [
+      "project-035",
+      "project-036"
+    ],
+    "exhibit_code": null,
+    "students_credited": [
+      "Girish, Devika",
+      "Varghese, Sara"
+    ],
+    "teachers_credited": [],
+    "school_as_published": "St. Peter's Senior Secondary School",
+    "school_location_state": "Kerala",
+    "school_location_city_as_published": "Kolenchery Ernakulam",
+    "school_location_evidence": {
+      "source_id": "project-036",
+      "pdf_page_1based": 84,
+      "scope": "Matching ISEF title, team booth code, pupil pair and school explicitly located in Kolenchery Ernakulam, Kerala, India in the 2022 organiser directory."
+    },
+    "pdf_page_1based": 1,
+    "pdf_page_scope": "project-035 alternate one-page abstract PDF; directory context is separately located below.",
+    "printed_page": null,
+    "selection_status": "isef_2022_finalist_listing",
+    "prize_status": null,
+    "qualifying_route": null,
+    "evidence_kind": "official_organiser_project_abstract_with_directory_correspondence",
+    "method_tag": "electrospun ABS/ZnO membranes for selective oil transport",
+    "method_summary": "The abstract reports electrospun ABS and ABS/ZnO-nanoparticle membranes, ABS fibres averaging 1.0 micrometre, and a 135-degree water contact angle for both membranes. Selective oil absorption/transport is claimed; calcium oxalate filler and water-purification applications are proposed.",
+    "evidence_limits": "No electrospinning settings, filler loading, measurement protocol, replicate count, uncertainty, raw measurements, separation efficiency, flux, contaminant rejection or reuse/durability results are supplied. Proposed filler/use is not demonstrated field performance or potable-water certification. The directory Virtual label is not proof of completed or physical participation. No qualifying route, prize, guide credit or individual work division is established; blank awards do not prove no award.",
+    "isef_booth_identifier": {
+      "source_id": "project-035",
+      "event_year_as_published": 2022,
+      "booth_id_as_published": "MATS002T",
+      "scope": "ISEF team booth identifier; not a Kerala/NCSC exhibit code."
+    },
+    "published_directory_mode": {
+      "source_id": "project-036",
+      "pdf_page_1based": 84,
+      "mode_as_published": "Virtual.",
+      "scope": "Published planned judging-mode label; not independently verified completion or physical attendance."
+    },
+    "published_credit_versions": [
+      {
+        "source_id": "project-035",
+        "alternate_pdf_pages_1based": [
+          1
+        ],
+        "students_credited": [
+          "Girish, Devika",
+          "Varghese, Sara"
+        ],
+        "school_credit_versions_as_published": [
+          "St. Peter's Senior Secondary School",
+          "St.Peter's Senior Secondary School"
+        ]
+      },
+      {
+        "source_id": "project-036",
+        "pdf_pages_1based": [
+          84
+        ],
+        "students_credited": [
+          "Devika Girish",
+          "Sara Varghese"
+        ],
+        "school_as_published": "St. Peter's Senior Secondary School"
+      }
+    ],
+    "student_work_division_verified": false,
+    "performance_independently_verified": false,
+    "physical_attendance_verified": false
   }
 ]

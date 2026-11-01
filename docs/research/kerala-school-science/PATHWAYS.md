@@ -14,6 +14,7 @@ Research initially checked on 31 October 2026, with the administrative, archived
 | INSPIRE-MANAK | Department of Science and Technology, DST, with National Innovation Foundation, NIF | School idea nomination, screening, district/state/national exhibition and project competition | Starts with an original practical innovation; it is not an unrestricted model-display entry. |
 | National Children's Science Congress, NCSC | DST/NCSTC nationally; KSCSTE is Kerala's nodal agency | Research project through the programme's district/state/national arrangements | Age groups, local investigation, project records and research explanation matter. |
 | IRIS / ISEF organiser records, 2024 case | IRIS shortlist and Society for Science abstract publication | One Kerala shortlist row explicitly labelled NCSC matches an ISEF 2024 organiser record | A case-specific documentary link, not automatic NCSC admission, a Sasthrolsavam route or a verified prize. |
+| IRIS national research route / ISEF | IRIS and Society for Science, with separate stage rules | Public IRIS pages describe individual/two-pupil applications; ISEF requires affiliated-fair selection and its own eligibility | Video, anonymity and AI-disclosure provisions do not replace Kerala Working Model rules; current IRIS page editions/timetables conflict. |
 | Kerala Science Congress and National Science Expo | KSCSTE with edition-specific hosts | Separate invitations, registration or exhibitor arrangements | A wider research/public-science event, rather than the school festival's next contest stage. |
 
 Sources: [KITE's Sasthrolsavam description](https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us), [SISF 2026 instructions](https://www.vismuseum.gov.in/assets/pdf/notice/SISF2026_instrauctions.pdf), [NCERT 2025–26 guidelines](https://ncert.nic.in/desm/pdf/rbvp_53rd_2025.pdf), [CBSE portal](https://academic.cbseit.in/science_ex/), [INSPIRE programme](https://www.inspireawards-dst.gov.in/UserP/Award.aspx), [KSCSTE's NCSC page](https://kscste.kerala.gov.in/national-childrens-science-congress-ncsc/), [Kerala Science Congress](https://kscnew.kerala.gov.in/venue-date/).
@@ -129,6 +130,10 @@ NCERT's **Annual Report 2021–22**, printed page 176 / PDF page 188, records th
 
 The report and NCERT's archive link the historical `jnnsmee.ncert.org.in` portal. Its current address could not be retrieved during this pass; an archive query also failed. No Kerala-specific online exhibit list or video was recovered. This access failure does not negate the institutional account of the virtual event. The national record also does not settle the separate cancellation or local activity of Kerala's state-series events in 2020–21.
 
+## IRIS and ISEF research route
+
+The [IRIS / ISEF guide](IRIS_ISEF.md) records current public-site requirements, a closed-window observation and unresolved timetable/edition labels. It distinguishes the illustrative sample paper from actual exhibit evidence and records the targeted ISEF 2026–2027 eligibility/AI-disclosure review. These rules do not create a local Sasthrolsavam nomination or cloud permission.
+
 ## INSPIRE-MANAK
 
 The live official programme page describes a DST/NIF route beginning with original, socially useful technological ideas. It currently allows classes **6–12**, five school nominations, and at most two ideas from science-stream classes 11/12 within that total. Selected students receive ₹10,000 through DBT. The stated national selection funnel is 100,000 initial awards, 10,000 state-stage ideas, 1,000 national exhibits and 60 leading innovations. Novelty, usefulness, environmental impact, ease of use and advantage over existing approaches inform selection. These are programme targets, not Kerala participation totals. [INSPIRE programme page](https://www.inspireawards-dst.gov.in/UserP/Award.aspx)
@@ -154,6 +159,10 @@ The national programme site's judging guidance emphasises the child's own idea, 
 KFRI's **2021–22 Annual Report** lists an NCSC assessment project about 25 years in Kerala under **ongoing research / Plan Grants**, crediting A. V. Raghu, M. Amruth and P. Harinarayanan. The entry supplies no sample, methods or findings. Its status belongs to that reporting cycle; the title does not establish a founding year, present status or positive learning effects. [PDF 72, 76 and 78 / printed 67, 71 and 73](https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf#page=78)
 
 The report separately records **100 participants completing a one-day district-level NCSC training programme on 27 November 2021**, supported by KSCSTE. It does not identify participant roles, an assessment sample, the district, venue or delivery mode. This is institution-reported training completion, not an independently audited headcount or measured learning outcome. [PDF 83 / printed 78, item 4](https://docs.kfri.res.in/AR/KFRI-Annual-Report-2021-22.pdf#page=83)
+
+### NCSC abstract-compilation holding
+
+The public NVLI union catalogue supplies a separate physical-holding lead: KSCSTE's Kerala NCSC abstract compilation, **publication 2020**, **27th state-level series**, **ISBN 9788194276814**. It registers **[4], 168 pages and [8] colour-plate pages**, held by the **National Library of India**, call **GP 363.705482 In 2**, item **IOD000164031ENG**. The full MARC record and its advertised XML export were read; no digital-location field appears. This is a different volume from the unrecovered 2021/2022 targets. Publication year does not establish the event year; current shelf availability, contents and findings remain unverified. [Public catalogue record](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=4458321)
 
 ### A documented NCSC-labelled IRIS / ISEF case
 

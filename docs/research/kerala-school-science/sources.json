@@ -448,6 +448,113 @@
     "topic_register": "core-sources.json"
   },
   {
+    "id": "core-special-common-id-form-2026",
+    "title": "Blank common 2026–27 Sasthrolsavam identity form advertised by the special-school portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+    "discovery_urls": [
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login"
+    ],
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_blank_event_identity_form",
+    "issuer": "Kerala School Sasthrolsavam, served by the KITE special-school portal",
+    "pdf_pages": 1,
+    "printed_pages": null,
+    "visually_read_pdf_pages_1based": [
+      1
+    ],
+    "event_dates_as_printed": {
+      "academic_cycle": "2026–27",
+      "place": "Mannarkkad, Palakkad",
+      "start": "2026-11-18",
+      "end": "2026-11-21"
+    },
+    "review_scope": "Whole single page rendered and visually read. Blank template only; no filled registration, pupil identity, photograph, admission number or contact record was collected.",
+    "notes": "The special-school instructions and public login page both advertise Identity_Card_2027.pdf. The PDF itself prints Kerala School Sasthrolsavam 2026–27, Mannarkkad, Palakkad and 18–21 November 2026. A common list of fair checkboxes explicitly includes 28th Kerala Special School Work Experience. The filename ending 2027 is not assigned as an issue date. The identity form has blank participant/institution and attestation/countersignature fields; it is not an issued pupil identity card or a signed eligibility/progression order. This is a working different advertised endpoint, not evidence that the separately observed 404 general-state identity filename redirects here. The seven printed edition labels are retained as form text, not proof of continuous annual conduct or founding years.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Printed cycle/place/dates, separate special-school Work Experience checkbox, blank identity/attestation layout."
+      }
+    ],
+    "evidence_limits": [
+      "A dated event heading on a blank common form is not a dated special-school manual approval or amendment.",
+      "The form does not establish final named school venues, item-wise timings, current capacity, participant eligibility, progression, accepted registration or completed attendance.",
+      "The printed 28th label is preserved without deriving an inaugural year.",
+      "Special-school Work Experience remains separate from general Science or IT Working Model."
+    ],
+    "download_sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+    "download_bytes": 108982,
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T00:45:42.973232+00:00",
+      "bytes": 108982,
+      "sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+      "headers_sha256": "d39c82123a89ebf948f606c1d2bcf578fc4af1f4f767f961a1b45ced6cd876b1",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "discovery_acquisitions": [
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527040+00:00",
+        "bytes": 7050,
+        "sha256": "475288918c9efb53d2c177ac579acef2a23a580c5f81d8500a45bf34bc7e9bd0",
+        "headers_sha256": "59a0a29ebaf851203c0c9d574caba1ba27abfcf3b238a64c2adf966e27caeba8",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      },
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527130+00:00",
+        "bytes": 19338,
+        "sha256": "65c5ae6b9ffb6e2f035470e645d556fc213f62e503b38a80a4cf55c11b24ae38",
+        "headers_sha256": "94dd212451c60ee7e954987f82e9385d9f9ed4247e95ec4f9235d6a650aaa7db",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      }
+    ],
+    "fair_edition_labels_as_printed": [
+      {
+        "ordinal": 58,
+        "fair": "Kerala School Science Fair"
+      },
+      {
+        "ordinal": 44,
+        "fair": "Kerala School Work Experience Fair"
+      },
+      {
+        "ordinal": 39,
+        "fair": "Kerala School Mathematics Fair"
+      },
+      {
+        "ordinal": 28,
+        "fair": "Kerala Special School Work Experience"
+      },
+      {
+        "ordinal": 23,
+        "fair": "Kerala School IT Fair"
+      },
+      {
+        "ordinal": 20,
+        "fair": "Vocational Expo and Career Fest"
+      },
+      {
+        "ordinal": 19,
+        "fair": "Kerala School Social Science Fair"
+      }
+    ],
+    "topic_register": "core-sources.json"
+  },
+  {
     "id": "district-status-2026-01",
     "title": "KITE 2026 Thiruvananthapuram district portal status snapshot",
     "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
@@ -5992,6 +6099,201 @@
     "topic_register": "pathways-sources.json"
   },
   {
+    "id": "pathways-40",
+    "title": "IRIS public homepage: 2026–27 cycle and conflicting schedule observations",
+    "url": "https://iris.exstemplar.com/",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_programme_html",
+    "publisher": "ExSTEMplar Education Linkers Foundation / IRIS National Fair",
+    "download_bytes": 172694,
+    "download_sha256": "859a4f619dcc22838c74d043c6cb94f089bc30dc945e9bf09c7da57892f88ae8",
+    "headers_sha256": "ff3a6c7a45753f782091a345343a30294a2e164831289942db2a9d703fcf7e67",
+    "retrieved_at_utc": "2026-11-01T00:44:48.558883+00:00",
+    "request_url": "https://irisnationalfair.org/",
+    "effective_download_url": "https://iris.exstemplar.com/",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Received HTML text read completely; no browser-render or authenticated submission-flow review.",
+    "notes": "Homepage labels the 2026–27 submission window closed and gives 1 August–13 October 2026. Its timetable places SRC evaluation and the National Fair in November 2026; its own closing banner says January–February2027 and its own closing banner says January–February2027 and the separate FAQ says a typical January/February fair and December shortlist. Record these as source-specific planning statements, not a resolved final fair date or proof of conduct. Its 22-category heading and 21-category historical-statistic text also differ. The old official root redirects here. No private contact fields copied.",
+    "cycle_label_as_received": "2026–27",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-41",
+    "title": "IRIS Rules & Guidelines: page labelled 2025–26 Edition",
+    "url": "https://iris.exstemplar.com/guidelines.html",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_programme_html",
+    "publisher": "ExSTEMplar Education Linkers Foundation / IRIS National Fair",
+    "download_bytes": 54991,
+    "download_sha256": "a1580cc61c37977cc14f326d44b0d6cd66bec693460db1d6b008dbf235a31a34",
+    "headers_sha256": "5950b66a4aff1d8294bde6892c25689c83f116c143ffe6282200bd331a7fc406",
+    "retrieved_at_utc": "2026-11-01T00:45:24.884889+00:00",
+    "request_url": "https://iris.exstemplar.com/guidelines.html",
+    "effective_download_url": "https://iris.exstemplar.com/guidelines.html",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Received HTML text read completely; no browser-render or authenticated submission-flow review.",
+    "notes": "Received page explicitly labels 2025–26 Edition, while the homepage and FAQ discuss the 2026–27 cycle. Preserve that mismatch. Describes Indian-origin pupils studying in India, classes5–12, individual or exactly two, original research/novel engineering, recent experimental data, synopsis/research-paper PDFs and a90-second YouTube video. Gives school/city/state anonymity, not a General Education uniform ban. Abstract guidance250 words differs from the stated300-word portal cap. Other word/size limits and display rules are programme-specific public guidance; private submission-screen enforcement was not tested.",
+    "page_edition_label_as_received": "2025–26 Edition",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-42",
+    "title": "IRIS FAQ: 2026–27 submission, anonymity, fee and ISEF pathway claims",
+    "url": "https://iris.exstemplar.com/faqs.html",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_programme_html",
+    "publisher": "ExSTEMplar Education Linkers Foundation / IRIS National Fair",
+    "download_bytes": 37567,
+    "download_sha256": "29277c9b12a18b1e9973a7ecf232a5b5acbed0d1574fbbeb9570704cee5463b5",
+    "headers_sha256": "4b01e5b553eca98bdd999671f1a08279e5476a3551c54e6fbb9af948b5af8b50",
+    "retrieved_at_utc": "2026-11-01T00:45:25.137072+00:00",
+    "request_url": "https://iris.exstemplar.com/faqs.html",
+    "effective_download_url": "https://iris.exstemplar.com/faqs.html",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Received HTML text read completely; no browser-render or authenticated submission-flow review.",
+    "notes": "FAQ explicitly names2026–27 and1August–13October2026,90-second YouTube video, two PDFs, single guide, school/city/state anonymity and individual/two-pupil entry. Advertises ₹5,000 plus applicable taxes per project and an EWS waiver with documentation; no payment or waiver was attempted. Typical fair/shortlist/mentoring months conflict with homepage timetable. Fees/support and future dates are dated publisher statements, not guarantees or proof of payment, selection, attendance or actual events. IRIS class5–12 eligibility is not ISEF stage eligibility.",
+    "cycle_label_as_received": "2026–27",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-43",
+    "title": "IRIS public registration landing page: closed window and submission overview",
+    "url": "https://register.irisnationalfair.org/",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_public_registration_html",
+    "publisher": "ExSTEMplar Education Linkers Foundation / IRIS National Fair",
+    "download_bytes": 53150,
+    "download_sha256": "83cd014715023e55bc2476312a5655c36ad35a1c248be8d72744c4985b9c109e",
+    "headers_sha256": "d42c658facd406c546e15c072db3dc6c8e960dbdb5a9bdcdd71934a959071820",
+    "retrieved_at_utc": "2026-11-01T00:46:07.495179+00:00",
+    "request_url": "https://register.irisnationalfair.org",
+    "effective_download_url": "https://register.irisnationalfair.org/",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Received HTML text read completely; no browser-render or authenticated submission-flow review.",
+    "notes": "Unauthenticated landing page explicitly labels IRIS National Fair2026, says registration closed and points to ISEF2027. Lists synopsis PDF, full research-paper PDF, roughly250-word abstract with300-word cap, and90-second YouTube URL. Its synopsis-before-study teaching explanation is preserved separately from completed-data requirements; it is not proof that an untested proposal qualifies. No sign-in, pupil records, payment, registration or submission mutation was performed. Autosave and upload enforcement are described, not exercised.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-44",
+    "title": "IRIS registration: illustrative sample research paper",
+    "url": "https://register.irisnationalfair.org/examples/research-paper",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_illustrative_template_html",
+    "publisher": "ExSTEMplar Education Linkers Foundation / IRIS National Fair",
+    "download_bytes": 53702,
+    "download_sha256": "5da3c9b15542c76ae4d3ed893b9dacee2e966feaeda9d84cab0e968e993dd351",
+    "headers_sha256": "42dd148bb9e93ab0c7ff9731d945c450cbe98162ee53051be84c19248c2d9b55",
+    "retrieved_at_utc": "2026-11-01T00:46:06.562421+00:00",
+    "request_url": "https://register.irisnationalfair.org/examples/research-paper",
+    "effective_download_url": "https://register.irisnationalfair.org/examples/research-paper",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Received HTML text read completely; no browser-render or authenticated submission-flow review.",
+    "notes": "The page expressly says Example for reference only and its footer identifies illustrative content. The water-filter paper and its claimed cost, trials, measurements and failure story are teaching examples, not an authenticated pupil project, Kerala exhibit, original dataset or validated water-safety evidence. Used only to distinguish a sample writing structure from actual exhibition evidence. No numerical performance claims promoted to knowledge or the project index.",
+    "evidence_kind": "illustrative_example_not_project_evidence",
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-45",
+    "title": "Society for Science: International Rules for Pre-College Science Research, 2026–2027",
+    "url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2027/Rules/Book.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_international_rules_pdf",
+    "publisher": "Society for Science",
+    "download_bytes": 3105392,
+    "download_sha256": "d61c9c8026ce75cb6e74c56173f4ed19585cf32aec86accba64092cba20f0256",
+    "headers_sha256": "71dfa13b6e3ea778ff53a0b589cd2f99241f3bf6faf84342ede5f1d33fc5511c",
+    "retrieved_at_utc": "2026-11-01T00:47:24.317581+00:00",
+    "request_url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2027/Rules/Book.pdf",
+    "effective_download_url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2027/Rules/Book.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "review_scope": "Full46-page body text-extracted; targeted visual review of cover, eligibility/general requirements and blank Form2A.",
+    "notes": "Actual46-page book linked by current IRIS guidelines and Society rules hub. Targeted review of ISEF eligibility, independent work, generative-AI use, visible exhibits and Student Support Disclosure Form2A. All pages downloaded/text-extracted; cover and PDF4,5,35 visually read. This is not a full safety/protocol audit. ISEF grades9–12/age and maximum-three team rule do not replace the IRIS two-pupil restriction or Kerala General Education rules. Metadata creation26May2026 is not treated as an authenticated issue date.",
+    "discovery_url": "https://iris.exstemplar.com/guidelines.html",
+    "edition_label": "2026–2027",
+    "pdf_pages": 46,
+    "visually_read_pdf_pages_1based": [
+      1,
+      4,
+      5,
+      35
+    ],
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 4,
+        "printed_page": 3,
+        "scope": "ISEF grade/age, project/team limits and independent work/generative-AI restrictions."
+      },
+      {
+        "pdf_page_1based": 5,
+        "printed_page": 4,
+        "scope": "Affiliated-fair requirements, visible exhibit independent of electricity/internet, continuation and teams."
+      },
+      {
+        "pdf_page_1based": 35,
+        "printed_page": 34,
+        "scope": "Blank Student Support Disclosure Form2A, required for all projects; paid/adult/AI support, redacted prompt log or fallback summary."
+      }
+    ],
+    "topic_register": "pathways-sources.json"
+  },
+  {
+    "id": "pathways-46",
+    "title": "NVLI union catalogue: National Library holding of a Kerala NCSC abstract compilation, publication2020",
+    "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=4458321",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "institutional_library_bibliographic_record",
+    "publisher": "National Virtual Library of India / Indian Culture union catalogue; National Library of India record",
+    "download_bytes": 238133,
+    "download_sha256": "8ea9d39545e9811f5345556161a3f1527495098f65f6bbc20824ddac292eb1cc",
+    "headers_sha256": "afc4fbd297d972b611386736350cd2b1ed3eecf1eee82cfcb87a0b3be35bcb40",
+    "retrieved_at_utc": "2026-11-01T00:50:00.201044+00:00",
+    "effective_download_url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=4458321",
+    "http_status": 200,
+    "tls_verified": true,
+    "bibliographic_fields": {
+      "cataloguing_agency_as_registered": "NLI; Indian Official Division",
+      "title_as_registered": "Compilation of abstract of state level children 's science congress Kerala /",
+      "statement_of_responsibility_as_registered": "Kerala State Council for Science, Technology and Environment",
+      "place_as_registered": "Kerala :",
+      "publisher_as_registered": "The Author,",
+      "publication_year_as_registered": "2020",
+      "isbn_as_registered": "9788194276814",
+      "extent_as_registered": "[4], 168 p., [8 ] p.of col.plates :",
+      "series_as_registered": "27th State level children's science congress Kerala",
+      "focal_theme_as_registered": "Focal theme  \" science ,technology and innovation for a clean,green and healthy nation \"",
+      "home_and_current_library": "National Library of India",
+      "call_number_as_registered": "GP 363.705482 In 2",
+      "institutional_item_id_as_registered": "IOD000164031ENG",
+      "year_of_congress_event": null
+    },
+    "alternate_marcxml_export": {
+      "url": "https://librarycatalogue.nvli.in/cgi-bin/koha/opac-export.pl?op=export&bib=4458321&format=marcxml",
+      "download_bytes": 4548,
+      "download_sha256": "72cdb8490cd6b2699897e8eb04bbec10c2dd0303d863138ef13e3fad549cf33f",
+      "headers_sha256": "88d01a23d01f7f2d17fcaa909f2d2277745da553bb7e3c037d0e5f3a4f758085",
+      "retrieved_at_utc": "2026-11-01T00:50:20.353737+00:00",
+      "http_status": 200,
+      "scope": "Same catalogue record as structured MARCXML, not a second publication or abstract-book body."
+    },
+    "review_scope": "Full bibliographic/item fields read in actual public MARC HTML and its advertised MARCXML export; no original-volume pages reviewed.",
+    "notes": "Registers KSCSTE responsibility, publication2020,27th-state-level series,ISBN9788194276814,extent[4],168pages and[8]colour-plate pages. NLI home/current holding,callGP363.705482In2,itemIOD000164031ENG are catalogue fields. No MARC856digital-location field. This is a distinct earlier volume, not either unrecovered2021/2022 targetISBN. Publication/cat-record/item dates are not substituted for event dates.",
+    "evidence_limits": "Physical-holding lead only; current shelf availability, access conditions, completeness, exact event year, abstract count, project methods and results are unverified. Absence of856does not prove no digitised copy exists.",
+    "topic_register": "pathways-sources.json"
+  },
+  {
     "id": "project-001",
     "title": "DST: Opening of Online Nominations for 2026–27 under INSPIRE-MANAK",
     "url": "https://inspireawards-dst.gov.in/Download/Nomination_Open_Inspire_Manak_2026-27.pdf",
@@ -6534,6 +6836,208 @@
     },
     "review_scope": "Full public record HTML read directly; complete alternate one-page PDF visually read. No browser-render review or complete project report is claimed.",
     "notes": "The actual organiser record explicitly prints Year 2024 and Booth Id EAEV038T, independently of its search-filter query. The booth identifier belongs to ISEF, not a Kerala or NCSC event code. This is an organiser-published finalist abstract reporting fish identification, feeding comparisons over 24 hours and water-level-system design, not raw research data, a reproducible device report or independent performance validation. Its exact title, pupil pair and school correspond to the NCSC-labelled IRIS 2024 shortlist entry in project-031; an exact NCSC edition, unchanged version, local rank and prize remain unproved. No teacher credit or pupil work division is supplied.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-033",
+    "title": "Society for Science ISEF finalist abstract: \"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits, Year 2021, Booth EBED015",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2021,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9783,
+    "download_sha256": "e29ffeca13a063cbe2c7f7ef7e9120654ac6bc7200728c9f7772a3f0af8d37b9",
+    "headers_sha256": "668074a323846e9926136fbcdd49ed47f8f345fcdb4ca6caabcf48a91e1e725a",
+    "retrieved_at_utc": "2026-11-01T00:46:53.782016+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2021,
+      "booth_id_as_published": "EBED015",
+      "category_as_published": "Embedded Systems",
+      "students_credited_as_published": [
+        "Joji, Efraem"
+      ],
+      "school_credit_versions_as_published": [
+        "Devamatha CMI Public School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2021, Booth Id EBED015, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "download_bytes": 47862,
+      "download_sha256": "ff5029a90b04f8d3c4612dce67286dbe459f84b8e93d77fa873c0c75090048fe",
+      "headers_sha256": "bd3ab70eb65cc7a76b49522346af801c9923d6b84e5ba5cb7c8ba4e2f9156818",
+      "retrieved_at_utc": "2026-11-01T00:47:29.875489+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2021 and the ISEF booth code. A special transformer and associated circuitry are described, with broad electrocution-prevention and short-circuit-mitigation claims. No schematic, component/current thresholds, waveforms, quantitative tests or independent safety certification is supplied. The contextual 85% phase-to-ground-fault assertion is not a measured device success rate. Arduino and AI are not identified. The exact credited school name has a separate current Thrissur district-administration location listing in project-034; that listing is not a contemporaneous 2021 address record. Incomplete 2021-directory transfers were excluded. Qualifying route, physical attendance, award and individual work division remain unproved.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-034",
+    "title": "Thrissur district administration: current Devamatha CMI Public School location listing",
+    "url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_current_institution_location_listing",
+    "publisher": "District Thrissur, Government of Kerala",
+    "download_bytes": 121035,
+    "download_sha256": "c3211dad24c44fd121f51178f73c20ce0add0fa3f4b579fcd9ce3416fae8f91e",
+    "headers_sha256": "02dd95b6153623054dfa58b18626be078f03e48df9eb4bc0c1d22098a3955e8d",
+    "retrieved_at_utc": "2026-11-01T00:50:30.712607+00:00",
+    "effective_download_url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "http_status": 200,
+    "tls_verified": true,
+    "institution_name_as_published": "Devamatha CMI Public School",
+    "school_location_city": "Thrissur",
+    "school_location_state": "Kerala",
+    "evidence_locators": [
+      {
+        "html_section": "Devamatha CMI Public School public-utility heading and address",
+        "scope": "The current listing names that school and gives its Thrissur, Kerala location."
+      }
+    ],
+    "review_scope": "Received HTML title, institution heading and location/address text read directly. No browser-render review, historical capture or project-participation audit.",
+    "notes": "This is a current institution-location bridge for the exact school name credited in project-033. It is not a recovered 2021 school-address record, a historical-campus certification or proof of a Kerala Sasthrolsavam route, event attendance or project authorship. Personal/contact fields are not extracted into the derived case.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-035",
+    "title": "Society for Science ISEF finalist abstract: Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation, Year 2022, Booth MATS002T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9988,
+    "download_sha256": "c8c3cc86523bbe1c97906550047bf2728136568f20a83beab53f7d5432335a8e",
+    "headers_sha256": "038a551a21778c56dee54c9d5043dcb7c48213f3d593d46f1090a3ecc7b6d266",
+    "retrieved_at_utc": "2026-11-01T00:46:53.800349+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2022,
+      "booth_id_as_published": "MATS002T",
+      "category_as_published": "Materials Science",
+      "students_credited_as_published": [
+        "Girish, Devika",
+        "Varghese, Sara"
+      ],
+      "school_credit_versions_as_published": [
+        "St. Peter's Senior Secondary School",
+        "St.Peter's Senior Secondary School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2022, Booth Id MATS002T, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "download_bytes": 49703,
+      "download_sha256": "13dc3a29eed60d37a48225cf38b05ad4a0b0e0c3706dc5f6b58cdeb65330355d",
+      "headers_sha256": "1db3f11e239e2d74a005a292d9d3fd0ebe89dc517755595d79489cc7924b0f0c",
+      "retrieved_at_utc": "2026-11-01T00:47:30.102298+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2022 and the ISEF team booth code. The abstract reports electrospun ABS and ABS/ZnO membranes, ABS fibres averaging 1.0 micrometre and a 135-degree water contact angle for both membranes. Calcium oxalate is proposed as an additional filler; water-purification use is also proposed. No spinning parameters, filler loading, replicate counts, uncertainty, raw measurements, separation efficiency, flux or reuse tests are supplied. The title wording is retained without inventing stronger contact-angle values. Project-036 separately locates the matching code/title/pupil pair/school in Kolenchery Ernakulam, Kerala and labels the entry Virtual. Neither independent separation performance nor physical attendance, pupil work division, qualifying route or prize is certified.",
+    "topic_register": "project-sources.json"
+  },
+  {
+    "id": "project-036",
+    "title": "Regeneron ISEF 2022 Finalist Directory: MATS002T school location and virtual listing",
+    "url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_finalist_directory",
+    "publisher": "Society for Science",
+    "download_bytes": 1287070,
+    "download_sha256": "d76bb48db6b2abe358bb3cb30377c9fd20033d1199cdee3deaa83523572d3a29",
+    "headers_sha256": "05238951247b71784857ce9fabc8f7120cda51d671c3bc48e3cdfa96022f136a",
+    "retrieved_at_utc": "2026-11-01T00:47:32.716666+00:00",
+    "effective_download_url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 122,
+    "visually_read_pdf_pages_1based": [
+      1,
+      84
+    ],
+    "pdf_metadata_creation_as_received": "D:20220428112718-04'00'",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "2022 Finalist Directory cover and future-tense explanation of In-person and Virtual labels; Virtual entries are described as due to be judged virtually on 4 or 5 May 2022."
+      },
+      {
+        "pdf_page_1based": 84,
+        "printed_page": null,
+        "scope": "Materials Science entry MATS002T: exact project title, Devika Girish and Sara Varghese, St. Peter's Senior Secondary School, Kolenchery Ernakulam, Kerala, India; Virtual label and linked project page."
+      }
+    ],
+    "published_entry": {
+      "booth_id_as_published": "MATS002T",
+      "title_as_published": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "students_credited_as_published": [
+        "Devika Girish",
+        "Sara Varghese"
+      ],
+      "school_as_published": "St. Peter's Senior Secondary School",
+      "school_location_as_published": "Kolenchery Ernakulam, Kerala, India",
+      "mode_as_published": "Virtual.",
+      "linked_project_page_as_published": "https://projectboard.world/isef/project/82875"
+    },
+    "review_scope": "Physical page count and PDF metadata checked; cover PDF 1 and complete target entry page PDF 84 rendered and read visually. No complete 122-page Kerala-school catalogue audit is claimed.",
+    "notes": "This organiser directory gives a contemporaneous 2022 Kerala location for the exact matching title, booth code, pupil pair and school in project-035. Name order/format and school spacing remain source-specific. Virtual is a published planned judging-mode label, not proof of completed participation or physical attendance. It supplies no Kerala local qualifying route, prize, guide credit or individual work division. PDF metadata dates are not substituted for an unprinted issue date.",
     "topic_register": "project-sources.json"
   },
   {

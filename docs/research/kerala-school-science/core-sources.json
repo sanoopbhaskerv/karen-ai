@@ -266,5 +266,111 @@
       "headers_sha256": "b3a37f0d01367971b7f4c76f537c37b68859d25877a91d98cb31bd20e1ee4f1e",
       "content_type": "text/html"
     }
+  },
+  {
+    "id": "core-special-common-id-form-2026",
+    "title": "Blank common 2026–27 Sasthrolsavam identity form advertised by the special-school portal",
+    "url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+    "discovery_urls": [
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+      "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login"
+    ],
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_blank_event_identity_form",
+    "issuer": "Kerala School Sasthrolsavam, served by the KITE special-school portal",
+    "pdf_pages": 1,
+    "printed_pages": null,
+    "visually_read_pdf_pages_1based": [
+      1
+    ],
+    "event_dates_as_printed": {
+      "academic_cycle": "2026–27",
+      "place": "Mannarkkad, Palakkad",
+      "start": "2026-11-18",
+      "end": "2026-11-21"
+    },
+    "review_scope": "Whole single page rendered and visually read. Blank template only; no filled registration, pupil identity, photograph, admission number or contact record was collected.",
+    "notes": "The special-school instructions and public login page both advertise Identity_Card_2027.pdf. The PDF itself prints Kerala School Sasthrolsavam 2026–27, Mannarkkad, Palakkad and 18–21 November 2026. A common list of fair checkboxes explicitly includes 28th Kerala Special School Work Experience. The filename ending 2027 is not assigned as an issue date. The identity form has blank participant/institution and attestation/countersignature fields; it is not an issued pupil identity card or a signed eligibility/progression order. This is a working different advertised endpoint, not evidence that the separately observed 404 general-state identity filename redirects here. The seven printed edition labels are retained as form text, not proof of continuous annual conduct or founding years.",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": null,
+        "scope": "Printed cycle/place/dates, separate special-school Work Experience checkbox, blank identity/attestation layout."
+      }
+    ],
+    "evidence_limits": [
+      "A dated event heading on a blank common form is not a dated special-school manual approval or amendment.",
+      "The form does not establish final named school venues, item-wise timings, current capacity, participant eligibility, progression, accepted registration or completed attendance.",
+      "The printed 28th label is preserved without deriving an inaugural year.",
+      "Special-school Work Experience remains separate from general Science or IT Working Model."
+    ],
+    "download_sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+    "download_bytes": 108982,
+    "acquisition": {
+      "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf",
+      "status": 200,
+      "tls_verify_result": 0,
+      "retrieved_at_utc": "2026-11-01T00:45:42.973232+00:00",
+      "bytes": 108982,
+      "sha256": "cbc027f8545fb8e78cd9ae31d914e4edab4315c2343bc52543198d91c2c20adf",
+      "headers_sha256": "d39c82123a89ebf948f606c1d2bcf578fc4af1f4f767f961a1b45ced6cd876b1",
+      "method": "GET via system curl with standard TLS verification, no bypass"
+    },
+    "discovery_acquisitions": [
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publics/instructions",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527040+00:00",
+        "bytes": 7050,
+        "sha256": "475288918c9efb53d2c177ac579acef2a23a580c5f81d8500a45bf34bc7e9bd0",
+        "headers_sha256": "59a0a29ebaf851203c0c9d574caba1ba27abfcf3b238a64c2adf966e27caeba8",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      },
+      {
+        "request_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "effective_url": "https://mela.kite.kerala.gov.in/2026/spss2026/index.php/login",
+        "status": 200,
+        "tls_verify_result": 0,
+        "retrieved_at_utc": "2026-11-01T00:45:13.527130+00:00",
+        "bytes": 19338,
+        "sha256": "65c5ae6b9ffb6e2f035470e645d556fc213f62e503b38a80a4cf55c11b24ae38",
+        "headers_sha256": "94dd212451c60ee7e954987f82e9385d9f9ed4247e95ec4f9235d6a650aaa7db",
+        "method": "GET via system curl with standard TLS verification, no bypass"
+      }
+    ],
+    "fair_edition_labels_as_printed": [
+      {
+        "ordinal": 58,
+        "fair": "Kerala School Science Fair"
+      },
+      {
+        "ordinal": 44,
+        "fair": "Kerala School Work Experience Fair"
+      },
+      {
+        "ordinal": 39,
+        "fair": "Kerala School Mathematics Fair"
+      },
+      {
+        "ordinal": 28,
+        "fair": "Kerala Special School Work Experience"
+      },
+      {
+        "ordinal": 23,
+        "fair": "Kerala School IT Fair"
+      },
+      {
+        "ordinal": 20,
+        "fair": "Vocational Expo and Career Fest"
+      },
+      {
+        "ordinal": 19,
+        "fair": "Kerala School Social Science Fair"
+      }
+    ]
   }
 ]

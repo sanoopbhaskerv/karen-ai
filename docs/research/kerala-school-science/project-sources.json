@@ -511,5 +511,203 @@
     },
     "review_scope": "Full public record HTML read directly; complete alternate one-page PDF visually read. No browser-render review or complete project report is claimed.",
     "notes": "The actual organiser record explicitly prints Year 2024 and Booth Id EAEV038T, independently of its search-filter query. The booth identifier belongs to ISEF, not a Kerala or NCSC event code. This is an organiser-published finalist abstract reporting fish identification, feeding comparisons over 24 hours and water-level-system design, not raw research data, a reproducible device report or independent performance validation. Its exact title, pupil pair and school correspond to the NCSC-labelled IRIS 2024 shortlist entry in project-031; an exact NCSC edition, unchanged version, local rank and prize remain unproved. No teacher credit or pupil work division is supplied."
+  },
+  {
+    "id": "project-033",
+    "title": "Society for Science ISEF finalist abstract: \"Raksha\": System for Prevention of Electrocution and the Hazardous Effects of Short Circuits, Year 2021, Booth EBED015",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2021,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9783,
+    "download_sha256": "e29ffeca13a063cbe2c7f7ef7e9120654ac6bc7200728c9f7772a3f0af8d37b9",
+    "headers_sha256": "668074a323846e9926136fbcdd49ed47f8f345fcdb4ca6caabcf48a91e1e725a",
+    "retrieved_at_utc": "2026-11-01T00:46:53.782016+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=20217",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2021,
+      "booth_id_as_published": "EBED015",
+      "category_as_published": "Embedded Systems",
+      "students_credited_as_published": [
+        "Joji, Efraem"
+      ],
+      "school_credit_versions_as_published": [
+        "Devamatha CMI Public School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2021, Booth Id EBED015, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "download_bytes": 47862,
+      "download_sha256": "ff5029a90b04f8d3c4612dce67286dbe459f84b8e93d77fa873c0c75090048fe",
+      "headers_sha256": "bd3ab70eb65cc7a76b49522346af801c9923d6b84e5ba5cb7c8ba4e2f9156818",
+      "retrieved_at_utc": "2026-11-01T00:47:29.875489+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=20217",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2021 and the ISEF booth code. A special transformer and associated circuitry are described, with broad electrocution-prevention and short-circuit-mitigation claims. No schematic, component/current thresholds, waveforms, quantitative tests or independent safety certification is supplied. The contextual 85% phase-to-ground-fault assertion is not a measured device success rate. Arduino and AI are not identified. The exact credited school name has a separate current Thrissur district-administration location listing in project-034; that listing is not a contemporaneous 2021 address record. Incomplete 2021-directory transfers were excluded. Qualifying route, physical attendance, award and individual work division remain unproved."
+  },
+  {
+    "id": "project-034",
+    "title": "Thrissur district administration: current Devamatha CMI Public School location listing",
+    "url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "source_type": "official_current_institution_location_listing",
+    "publisher": "District Thrissur, Government of Kerala",
+    "download_bytes": 121035,
+    "download_sha256": "c3211dad24c44fd121f51178f73c20ce0add0fa3f4b579fcd9ce3416fae8f91e",
+    "headers_sha256": "02dd95b6153623054dfa58b18626be078f03e48df9eb4bc0c1d22098a3955e8d",
+    "retrieved_at_utc": "2026-11-01T00:50:30.712607+00:00",
+    "effective_download_url": "https://thrissur.nic.in/en/public-utility/devamatha-cmi-public-school/",
+    "http_status": 200,
+    "tls_verified": true,
+    "institution_name_as_published": "Devamatha CMI Public School",
+    "school_location_city": "Thrissur",
+    "school_location_state": "Kerala",
+    "evidence_locators": [
+      {
+        "html_section": "Devamatha CMI Public School public-utility heading and address",
+        "scope": "The current listing names that school and gives its Thrissur, Kerala location."
+      }
+    ],
+    "review_scope": "Received HTML title, institution heading and location/address text read directly. No browser-render review, historical capture or project-participation audit.",
+    "notes": "This is a current institution-location bridge for the exact school name credited in project-033. It is not a recovered 2021 school-address record, a historical-campus certification or proof of a Kerala Sasthrolsavam route, event attendance or project authorship. Personal/contact fields are not extracted into the derived case."
+  },
+  {
+    "id": "project-035",
+    "title": "Society for Science ISEF finalist abstract: Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation, Year 2022, Booth MATS002T",
+    "url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_project_abstract",
+    "publisher": "Society for Science",
+    "download_bytes": 9988,
+    "download_sha256": "c8c3cc86523bbe1c97906550047bf2728136568f20a83beab53f7d5432335a8e",
+    "headers_sha256": "038a551a21778c56dee54c9d5043dcb7c48213f3d593d46f1090a3ecc7b6d266",
+    "retrieved_at_utc": "2026-11-01T00:46:53.800349+00:00",
+    "effective_download_url": "https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&IsGetAllAbstracts=True&FairCountry=India&FairState=Any%20State&SelectedIsefYears%5B0%5D=0&projectId=21870",
+    "http_status": 200,
+    "tls_verified": true,
+    "observed_record_fields": {
+      "record_heading_as_published": "ISEF | Projects Database | Finalist Abstract",
+      "year_as_published": 2022,
+      "booth_id_as_published": "MATS002T",
+      "category_as_published": "Materials Science",
+      "students_credited_as_published": [
+        "Girish, Devika",
+        "Varghese, Sara"
+      ],
+      "school_credit_versions_as_published": [
+        "St. Peter's Senior Secondary School",
+        "St.Peter's Senior Secondary School"
+      ],
+      "awards_won_field": "Blank in received HTML and alternate PDF; neither an award nor absence of an award is inferred."
+    },
+    "discovery_method": "The actual public organiser search form was submitted for all years, Fair Country India, all matching abstracts. Its received 234-row search-result body advertised this exact FullAbstract href. Actual event year is separately printed in the FullAbstract metadata; it is not inferred from the all-years search filter or the generated PDF date.",
+    "evidence_locators": [
+      {
+        "html_section": "Finalist Abstract metadata and Abstract",
+        "scope": "Literal Year 2022, Booth Id MATS002T, category, source-specific pupil/school credits, method description and blank Awards Won field."
+      },
+      {
+        "alternate_pdf_page_1based": 1,
+        "scope": "Complete corresponding one-page abstract and pupil/school credits."
+      }
+    ],
+    "alternate_pdf": {
+      "url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "link_as_advertised_from_record": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "download_bytes": 49703,
+      "download_sha256": "13dc3a29eed60d37a48225cf38b05ad4a0b0e0c3706dc5f6b58cdeb65330355d",
+      "headers_sha256": "1db3f11e239e2d74a005a292d9d3fd0ebe89dc517755595d79489cc7924b0f0c",
+      "retrieved_at_utc": "2026-11-01T00:47:30.102298+00:00",
+      "effective_download_url": "https://abstracts.societyforscience.org/Home/PrintPdf?projectId=21870",
+      "http_status": 200,
+      "tls_verified": true,
+      "pdf_pages": 1,
+      "visually_read_pdf_pages_1based": [
+        1
+      ],
+      "pdf_metadata_creation_as_received": "D:20261101004729+00'00'",
+      "review_scope": "Entire one-page PDF rendered and read visually. Its abstract/credits agree with the received HTML; its on-demand November 2026 generation date is not the event year or original publication date."
+    },
+    "review_scope": "Full received public record HTML read directly and complete alternate one-page PDF visually read. No browser-render review, complete project report or independent performance assessment is claimed.",
+    "notes": "The organiser HTML explicitly prints Year 2022 and the ISEF team booth code. The abstract reports electrospun ABS and ABS/ZnO membranes, ABS fibres averaging 1.0 micrometre and a 135-degree water contact angle for both membranes. Calcium oxalate is proposed as an additional filler; water-purification use is also proposed. No spinning parameters, filler loading, replicate counts, uncertainty, raw measurements, separation efficiency, flux or reuse tests are supplied. The title wording is retained without inventing stronger contact-angle values. Project-036 separately locates the matching code/title/pupil pair/school in Kolenchery Ernakulam, Kerala and labels the entry Virtual. Neither independent separation performance nor physical attendance, pupil work division, qualifying route or prize is certified."
+  },
+  {
+    "id": "project-036",
+    "title": "Regeneron ISEF 2022 Finalist Directory: MATS002T school location and virtual listing",
+    "url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_year_as_published": 2022,
+    "source_type": "official_organiser_finalist_directory",
+    "publisher": "Society for Science",
+    "download_bytes": 1287070,
+    "download_sha256": "d76bb48db6b2abe358bb3cb30377c9fd20033d1199cdee3deaa83523572d3a29",
+    "headers_sha256": "05238951247b71784857ce9fabc8f7120cda51d671c3bc48e3cdfa96022f136a",
+    "retrieved_at_utc": "2026-11-01T00:47:32.716666+00:00",
+    "effective_download_url": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/ISEF/2022/Finalist-Directory.pdf",
+    "http_status": 200,
+    "tls_verified": true,
+    "pdf_pages": 122,
+    "visually_read_pdf_pages_1based": [
+      1,
+      84
+    ],
+    "pdf_metadata_creation_as_received": "D:20220428112718-04'00'",
+    "evidence_locators": [
+      {
+        "pdf_page_1based": 1,
+        "printed_page": 1,
+        "scope": "2022 Finalist Directory cover and future-tense explanation of In-person and Virtual labels; Virtual entries are described as due to be judged virtually on 4 or 5 May 2022."
+      },
+      {
+        "pdf_page_1based": 84,
+        "printed_page": null,
+        "scope": "Materials Science entry MATS002T: exact project title, Devika Girish and Sara Varghese, St. Peter's Senior Secondary School, Kolenchery Ernakulam, Kerala, India; Virtual label and linked project page."
+      }
+    ],
+    "published_entry": {
+      "booth_id_as_published": "MATS002T",
+      "title_as_published": "Preparation of a Superhydrophobic and Oleophilic Membrane Inspired by Taro Leaves for Oil-Water Separation",
+      "students_credited_as_published": [
+        "Devika Girish",
+        "Sara Varghese"
+      ],
+      "school_as_published": "St. Peter's Senior Secondary School",
+      "school_location_as_published": "Kolenchery Ernakulam, Kerala, India",
+      "mode_as_published": "Virtual.",
+      "linked_project_page_as_published": "https://projectboard.world/isef/project/82875"
+    },
+    "review_scope": "Physical page count and PDF metadata checked; cover PDF 1 and complete target entry page PDF 84 rendered and read visually. No complete 122-page Kerala-school catalogue audit is claimed.",
+    "notes": "This organiser directory gives a contemporaneous 2022 Kerala location for the exact matching title, booth code, pupil pair and school in project-035. Name order/format and school spacing remain source-specific. Virtual is a published planned judging-mode label, not proof of completed participation or physical attendance. It supplies no Kerala local qualifying route, prize, guide credit or individual work division. PDF metadata dates are not substituted for an unprinted issue date."
   }
 ]

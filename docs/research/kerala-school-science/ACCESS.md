@@ -71,6 +71,10 @@ Its [download zone](https://mela.kite.kerala.gov.in/2026/spss2026/index.php/publ
 
 The linked [manual PDF](https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/StateSpecialschoolKalolsavamManual.pdf) has 18 scanned pages. Despite Kalolsavam in its filename, its first page discusses special-school work-experience aims and organisation. A version date was not established, and its pages are rotated scans. Its substantive numerical rules have not been adopted into the general competition guide.
 
+On **1 November 2026**, the special-school download/login pages advertised a working [blank common identity form](https://mela.kite.kerala.gov.in/2026/spss2026/assets/docs/Identity_Card_2027.pdf). Its single page explicitly prints **2026–27, Mannarkkad, Palakkad, 18–21 November 2026**. The checkboxes label Science **58th**, Work Experience **44th**, Mathematics **39th**, Special School Work Experience **28th**, IT **23rd**, Vocational Expo and Career Fest **20th**, and Social Science **19th**. These are source-specific edition labels, not a calculation of inaugural years or proof of continuous annual conduct.
+
+The form has blank participant, school and attestation fields. It is not an issued pupil identity card, accepted registration, dated manual approval, eligibility/progression order or final named venue/item programme. No filled personal/contact record was collected. Its working endpoint does not change the separate general-state ID-card filename's recorded 404. Source `core-special-common-id-form-2026`.
+
 ## Vocational Expo and Career Fest
 
 KITE's [Sasthrolsavam description](https://mela.kite.kerala.gov.in/2026/state/index.php/result/Public_result/about_us) describes a Vocational Expo showing products made through vocational higher secondary production-training centres and a Career Fest offering guidance. These are adjacent activities; participation is not the same as a Science Working Model result.
@@ -84,7 +88,7 @@ A later original-hosted [government order, G.O.(Ms)65/2026/GEDN of 12 March 2026
 | Officially linked destination | Observation on access date | What would resolve it |
 | --- | --- | --- |
 | `2026/state/entry_forms/Program_Notice_2026.pdf` | HTTP 404 | Published programme PDF or organiser's final schedule |
-| `2026/state/entry_forms/ID Card_KSS 2026-27.pdf` | HTTP 404 on 1 November 2026; linked from state downloads | Replacement public form or corrected link |
+| `2026/state/entry_forms/ID Card_KSS 2026-27.pdf` | HTTP 404 on 1 November 2026; special-school portal separately advertises the working common `Identity_Card_2027.pdf` | Confirmation/correction of the general-state link; no redirect equivalence established |
 | `2026/vhseExpo/state26/index.php` | HTTP 404 | Current VHSE Expo page or circular |
 | Special-school manual named `StateSpecialschoolKalolsavamManual.pdf` | Retrieved 18-page scanned work-experience document; no version established | Signed applicable manual/order and amendments |
 | General school software guide linked in 2026 | Filename/screens identify 2022–23 | Current operator instructions and local deadline |

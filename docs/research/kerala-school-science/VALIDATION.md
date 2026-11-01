@@ -6,14 +6,14 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 316 |
-| Distinct registered source URLs | 311 |
+| Source records | 328 |
+| Distinct registered source URLs | 323 |
 | Topic source registers | 22 |
 | JSON files | 46 |
-| Concise English/Malayalam knowledge records | 139 |
-| Draft Malayalam evaluation questions | 117 |
-| Indexed exhibit records | 36 |
-| Indexed exhibits with method information | 35 |
+| Concise English/Malayalam knowledge records | 149 |
+| Draft Malayalam evaluation questions | 127 |
+| Indexed exhibit records | 38 |
+| Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
 | Extended published model chapters | 11 |
@@ -57,6 +57,10 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Undated portal map rows / Science form pages | 7 / 2 |
 | Matched NCSC-labelled IRIS / ISEF cases | 1 |
 | KFRI NCSC annual-report physical PDF pages | 120 |
+| IRIS public HTML works / ISEF rulebook physical pages | 5 / 46 |
+| Additional ISEF abstract works / 2022 directory physical pages | 2 / 122 |
+| Dated common blank identity-form physical pages | 1 |
+| NCSC abstract-compilation institutional holding records | 1 |
 | Publisher-library model-book reference entries | 7 |
 | Underlying March 2026 grace-order pages | 8 |
 | District-result destinations | 14 |
@@ -140,6 +144,16 @@ The new indigenous-fish case was checked against all four archived IRIS shortlis
 
 KFRI's 120-page annual report was text-screened, with the cover and four status/project/training pages visually reviewed and independently checked. An ongoing project listing and 100 reported training completions do not supply assessment findings or pupil/impact counts. Reporting period, PDF metadata dates and current retrieval remain distinct.
 
-Against `534fdfe5`, 22 non-source JSON datasets remain byte-identical; the project index preserves all 35 earlier objects and appends one case. Existing 130 fact and 108 evaluation records remain exact byte prefixes, with nine pairs appended. No runtime, fine-tuning, retrieval or hardware change is included.
+The preceding packet, commit `feb68a5`, preserved 22 non-source JSON datasets against `534fdfe5`; its project index retained all 35 earlier objects and appended one case. The then-existing 130 fact and 108 evaluation records remained exact byte prefixes, with nine pairs appended. No runtime, fine-tuning, retrieval or hardware change was included.
 
-The final independent publication audit passed 4,071 checks, including all 54 inventory rows, 239 local links, preserved earlier records and the nine new source acquisitions. Its read-only review found no material evidence-scope or privacy blocker; it does not certify historical completeness or approve the draft Malayalam.
+That packet's independent publication audit passed 4,071 checks, including its 54 inventory rows, 239 local links, preserved earlier records and nine source acquisitions. Its read-only review found no material evidence-scope or privacy blocker; it did not certify historical completeness or approve the draft Malayalam.
+
+The current addition contains five actual public IRIS HTML works and the complete 46-page ISEF 2026–2027 rulebook. All five HTML texts were read; rulebook cover and PDF pages 4, 5 and 35 were visually reviewed. An independent 155-check review confirms actual body/header hashes, bytes, page count, printed locators, public-page edition/calendar conflicts and six fact/evaluation pairs. The initial generic AI-disclosure wording was narrowed to generative AI; the homepage's internal date conflict is retained beside the cross-page conflict. No authenticated form, upload enforcement or payment was tested.
+
+The two new ISEF case abstracts were read in received organiser HTML and both one-page alternate PDFs. The complete 122-page 2022 directory supplies a targeted cover/entry review at PDF 1 and 84; it is not a full country-by-country audit. The 2021 directory remained partial and was excluded. A current government school-location page is used with its temporal limit. Author validation passed 224 checks; an independent 102-check review confirms cases, measurements, current/historical location scope, blank awards and the NLI/form additions. No original design/code or independent electrical/separation test was recovered.
+
+The one-page common identity form was visually reviewed in full, with 64 acquisition/link/page/text checks. Its seven edition labels and explicit dates remain announced form content, not inaugural chronology, eligibility or accepted pupil registration. The NLI holding's actual MARC HTML and advertised XML were both read; a separate 75-check institutional-search review preserves the publication/event-year distinction and absence of a book body. The XML export is an alternate format of one record, not another volume.
+
+Against `feb68a5`, all 316 prior source objects and 36 prior case objects are preserved; 22 non-source JSON datasets remain byte-identical, with two cases appended to the project index. The 139 knowledge and 117 evaluation records remain exact byte prefixes, with ten pairs appended. New evaluations remain held out and all Malayalam requires teacher review. No runtime, retrieval, fine-tuning or hardware change is included.
+
+The final independent publication audit passed **4,546 checks**, recalculating all **58 inventory rows** and checking **249 local links/anchors**, preservation, reference resolution and all twelve new source acquisitions/nested formats against cached originals. A separate final review passed 43 checks on the four new holding/form/project fact-evaluation pairs and all seven form ordinals. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, prizes, physical attendance or Malayalam educator approval.
