@@ -13,14 +13,14 @@
     "videos_fully_reviewed": 0,
     "audio_tracks_reviewed": 0,
     "linked_report_or_code_urls_found": 0,
-    "visual_frames_inspected": 137,
+    "visual_frames_inspected": 146,
     "machine_transcribed_audio_tracks": 21,
     "rejected_machine_outputs": 2
   },
   "method": {
     "qr_decoding": "Native Vision QR decoding on already rendered source pages; exactly one URL decoded per Kerala credited start.",
     "public_lookup": "Ordinary unauthenticated HTTP requests following frontend-published guest lookup behavior (media-032–media-034); no credentials, access requests or contact with publishers.",
-    "asset_access": "HTTP HEAD confirmed 200/video-mp4 for all 21 returned artifacts. Only five videos were visually sampled through native AVFoundation; full clips/audio were not reviewed.",
+    "asset_access": "HTTP HEAD confirmed 200/video-mp4 for all 21 returned artifacts. All 21 videos have sampled visual review; the original 137 frame records are preserved and a dated follow-up adds nine chart-focused samples from three existing cached clips (146 total). No continuous full-clip or audio-listening review is claimed.",
     "negative_search_scope": "No report, code-repository or other explicit URLs were found in returned unit/resource descriptions, bodies or titles. This does not establish that such materials do not exist elsewhere.",
     "limits": "A public title/resource record, visible interface or demonstration does not independently verify performance, reliability, safety, pupil authorship/work division, attendance or a qualifying fair route. Source publication timestamps are metadata, not verified filming dates.",
     "audio_review_scope": "audio_tracks_reviewed means human listening: zero. Full PCM from21 clips was processed with local ASR; machine text is unverified and kept separate."
@@ -432,7 +432,45 @@
         }
       ],
       "linked_report_or_code_urls_found": [],
-      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-006",
+        "resource_id": "do_3145035973423595521525",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "633b0f89478a62021b490e2cb0ec643714e6d5e01981b1837c23fc0152868ce7",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 25,
+            "actual_seconds": 25
+          },
+          {
+            "requested_seconds": 115,
+            "actual_seconds": 115
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5-second chart labels User Node, Base / Receiver Node and Network & Cloud Layer. A WEBSITE panel/dashboard is visible, without a readable public address in the inspected samples."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The long-range/network-failure/reliability statements are attributed objectives or conclusions, not measurements established by this review.",
+          "The LoRa radio hop and Wi-Fi/MQTT cloud path are distinct dependencies. Their description does not establish end-to-end notification during an internet outage.",
+          "No numerical range, false-alarm or outage-test series is supplied by the cited page. The sampled frames do not verify causal emergency-trigger timing or emergency reliability.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
     },
     {
       "id": "media-sisf-2026-kerala-individual-p165",
@@ -500,7 +538,45 @@
         }
       ],
       "linked_report_or_code_urls_found": [],
-      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-007",
+        "resource_id": "do_314503591018225664125371",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "f94f238f9e0c81018ea0d090bb0a2bd19edac4f78fb4e8fa290584d100a292c0",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 30,
+            "actual_seconds": 30
+          },
+          {
+            "requested_seconds": 60,
+            "actual_seconds": 60
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5- and 30-second samples show an AgroLink synopsis and CIRCUIT DIAGRAM. The synopsis uses the term AI; the inspected written material supplies no AI model, dataset, code or evaluation procedure."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The cited write-up asserts water savings, improved plant health and accurate/reliable sensor response without numerical trial counts, calibration results, crop measurements or cost accounting.",
+          "The chart’s AI wording does not establish an implemented machine-learning component or its authorship.",
+          "The samples show display/model components and a phone/interface view; they do not independently verify all automation functions, field outcomes or safety.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
     },
     {
       "id": "media-sisf-2026-kerala-individual-p166",
@@ -923,7 +999,46 @@
         }
       ],
       "linked_report_or_code_urls_found": [],
-      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites."
+      "search_scope": "The decoded QR public unit, its returned hierarchy and descriptions/bodies/titles; not a search of all possible school/project websites.",
+      "chart_frame_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "media-013",
+        "resource_id": "do_3145070230653829121426",
+        "scope": "three_additional_chart_focused_sampled_video_frames",
+        "cached_mp4_sha256": "5ccbb20106ae3b4b0a68a34ab91c3cc341dde7c9c7a37f4d7464505fa87bfc77",
+        "frames": [
+          {
+            "requested_seconds": 5,
+            "actual_seconds": 5
+          },
+          {
+            "requested_seconds": 20,
+            "actual_seconds": 20
+          },
+          {
+            "requested_seconds": 35,
+            "actual_seconds": 35
+          }
+        ],
+        "additional_frame_count": 3,
+        "initial_sample_review_preserved": true,
+        "full_clip_reviewed": false,
+        "continuous_operation_reviewed": false,
+        "audio_reviewed": false,
+        "new_audio_or_asr_processing": false,
+        "chart_observations": [
+          "The 5-, 20- and 35-second samples show a MEDIBOT capability poster and circuit diagram. Readable headings include Smart alert and Automated logging; finer wording is partly small/occluded."
+        ],
+        "readable_public_report_code_dataset_urls_found": [],
+        "limits": [
+          "The cited page’s Wi-Fi boot timing and consistent single-pill/no-jam assertions are source-reported observations, not independently established reliability/dose trials.",
+          "The hourly/next-fetch description and immediate-update claim remain unreconciled.",
+          "Pickup sensing, an alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements in the write-up. The poster’s Smart alert heading does not resolve feature timing/version or prove implementation.",
+          "The cited text and samples do not establish correct prescription/dose, ingestion, patient benefit, clinical safety or student work division.",
+          "No report/code/dataset link was readable in this finite written/chart sample; no search of all possible websites or claim of global nonexistence follows."
+        ],
+        "private_contact_or_badge_data_extracted": false
+      }
     },
     {
       "id": "media-sisf-2026-kerala-individual-p178",

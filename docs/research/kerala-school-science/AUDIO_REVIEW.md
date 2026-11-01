@@ -6,7 +6,7 @@ The native audio extraction covers **2,829.260375 seconds**, about **47 minutes 
 
 ## Exact review scope
 
-The [media index](project-media-index.json) now contains **137 sampled frames across all 21 accessible videos**: the earlier 41 frames from five clips plus 96 frames from the remaining 16. These show displays, component handling and selected interfaces; they are not continuous operation or independently replicated tests. The four award-linked projects retain their earlier specific review limits.
+The [media index](project-media-index.json) now contains **146 sampled frames across all 21 accessible videos**: the earlier 41 frames from five clips, 96 from the remaining 16, and nine later chart-focused samples from three existing clips. These show displays, component handling and selected interfaces; they are not continuous operation or independently replicated tests. The four award-linked projects retain their earlier specific review limits.
 
 Machine text was screened for topics and obvious failures. It contains uncertain personal names, school spellings, technical terms, numerical statements and occasional timing artefacts. No credit was changed from ASR. Fluent output does not verify a quotation, scientific explanation, health claim, measurement, pupil contribution or award. No new bilingual knowledge fact is based solely on these outputs.
 
@@ -47,3 +47,5 @@ Some raw ASR segment times have zero duration or extend beyond native audio; the
 ## Next review
 
 Listen to the recordings with a competent language reviewer, compare each proposed quotation and scientific term against the audio, and verify numerical/mathematical/health claims against the written report and relevant evidence. Recover original logs/code and measured results separately. The current machine outputs should not be imported as approved answers or model-training examples.
+
+The later [written-method and chart follow-up](SISF_2026_MODELS.md#a-finite-written-method-and-chart-follow-up) uses published pages and precise stills rather than speech drafts. A local audio-input capability probe exposed no audio to the reviewer; it does not count as listening. The 21 machine outputs, two rejected drafts and all zero-listening/continuous-playback/ASR-fact counters remain unchanged. No further audio conversion, transcription or provider request was made for the written subreviews.

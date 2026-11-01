@@ -6905,5 +6905,66 @@
         "preservation": "All prior source 98 fields,23 result-acquisition records, initial six-image review scope and original Puducherry award objects remain exact. This subreview records four new image bodies and four original-image reads only; no claim to modify the result-sheet review is made."
       }
     }
+  },
+  {
+    "id": "pathways-99",
+    "title": "KITE 2025 state Science Fair HS Robotics 445: current public result view",
+    "url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/reportforCertificate/445/1/3/0/1/0",
+    "accessed_on": "2026-11-01",
+    "source_type": "official_public_item_result_HTML",
+    "source_date": null,
+    "published_time_as_displayed": "08 Nov 2025 08:21:41",
+    "displayed_time_zone": null,
+    "event_date_inferred_from_result_publication_time": false,
+    "public_page_heading": "SCIENCE FAIR HS - Robotics ( 445 )",
+    "competition_scope": "2025 state portal; Science Fair, HS, Robotics 445",
+    "source_snapshot": {
+      "http_status": 200,
+      "curl_exit": 0,
+      "TLS_verify_result": 0,
+      "effective_url": "https://mela.kite.kerala.gov.in/2025/state/index.php/result/Public_result/reportforCertificate/445/1/3/0/1/0",
+      "redirect_count": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "received_bytes": 36348,
+      "download_sha256": "6fa20a11899cfc1ff7d95c0bff907409c8cc7c71a7d6d534368e5a75e0634f98",
+      "headers_sha256": "30a1f67a7d145e2a463bdcfc8ec2fd0817118231a4ba1590900301a8f8678edb",
+      "content_length_as_received": null,
+      "content_encoding_as_received": null,
+      "wire_size_download": 36348
+    },
+    "embedded_data": {
+      "script_variable_as_published": "students",
+      "embedded_result_object_count": 28,
+      "method": "Decode the received literal JSON array without executing scripts or fetching pupil images. Count is embedded objects, not audited unique attendance.",
+      "public_target_records": [
+        {
+          "name": "SHAZAD SHAJI V",
+          "position": 1,
+          "school": "G.V.H.S.S. Kondotty",
+          "district": "Malappuram",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "1"
+        },
+        {
+          "name": "MUHAMMED ARIF K F",
+          "position": 2,
+          "school": "Mar Coorilose Memorial H. S. S. Pattimattom",
+          "district": "Ernakulam",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "2"
+        }
+      ],
+      "no_registration_ids_or_photos_copied": true,
+      "project_titles_supplied_in_target_objects": false,
+      "guide_names_supplied_in_target_objects": false
+    },
+    "review_scope": "Received full HTML and the literal embedded JSON were inspected. The current view supplies source-specific ranks/grades; no signed final certificate, revision history, award payment, photograph identity check or physical attendance is verified.",
+    "notes": "Target objects record SHAZAD SHAJI V/G.V.H.S.S. Kondotty first A and MUHAMMED ARIF K F/Mar Coorilose Memorial H. S. S. Pattimattom second A for HS Robotics 445. These 2025 item results are distinct from the 2026 SISF individual write-ups. Corresponding public name/school wording alone does not prove the same project/version, qualifying route, student work division or a 2026 prize. No pupil registration/admission identifier, class section, contact or photo is transcribed."
   }
 ]

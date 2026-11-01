@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 406 |
-| Distinct registered source URLs | 401 |
+| Source records | 407 |
+| Distinct registered source URLs | 402 |
 | Topic source registers | 22 |
 | JSON files | 52 |
-| Concise English/Malayalam knowledge records | 233 |
-| Draft Malayalam evaluation questions | 211 |
+| Concise English/Malayalam knowledge records | 240 |
+| Draft Malayalam evaluation questions | 218 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -37,7 +37,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Content pages in those SISF write-ups | 49 |
 | Public SISF QR/unit records | 31 |
 | Linked accessible MP4 resources | 21 |
-| Videos sampled / frames inspected | 21 / 137 |
+| Videos sampled / frames inspected | 21 / 146 |
+| SISF 2026 written-follow-up models / original pages read | 6 / 9 |
+| Additional chart samples / existing videos | 9 / 3 |
+| KITE 2025 Robotics HTML works / embedded result objects | 1 / 28 |
+| Qualified prior-state-result / SISF credit correspondences | 2 |
 | Continuous video / audio listening reviews | 0 / 0 |
 | Audio machine outputs / rejected / unverified drafts | 21 / 2 / 19 |
 | Related publication candidates / model targets | 4 / 2 |
@@ -335,3 +339,11 @@ The settled publication audit passed **6,474 checks**, independently recomputing
 Author review reads all 23 result originals for Kerala-attributed awards (four repeated, nineteen additional), preserving the initial six-image review. It records 36 category rows and one separate host-department trophy. Four newly acquired advertised JPEG originals are handwritten school-visit plans, with eight dated/time groups, 83 numbered positions and three unassigned additions. Three targeted NCERT catalogue pages support qualified comparisons rather than new focused cases or discovery rows.
 
 Source98 and source13 each gain one dated additive review field, and the SISF dataset gains one dated nested follow-up while its original fields/two Puducherry award observations stay exact. Six fact/evaluation pairs206–211 are appended. The one superseded fact’s EN/ML/scope and ml-204’s required/prohibited fields are precisely corrected to distinguish initial versus later review; every other old JSONL line stays byte-exact. Other structured datasets, source fields and core counts remain unchanged. The dated source and dataset observations repeat the same records, not independent corroboration or additional people/projects. Original authenticity, unique identity/version, attendance/payment, scientific performance and Malayalam educator review remain unverified. No runtime/training/provider/hardware change or live AI call.
+
+## Written-model and precise-frame follow-up
+
+Six existing SISF write-ups gain dated method clarifications from nine full original pages. Three receive only an additive field; the other three also replace the exact evidence-limit sentence to scope missing-test claims to the supplied pages and preserve network/current-versus-future ambiguities. Every old title, public credit, method summary, code, award/route and verification field stays exact. The separate two KITE pointers append source99 and a qualified prior-result candidate field only; their SISF prize and route fields stay null.
+
+Three media records gain dated fields for nine additional distinct precise samples. All initial records/times remain exact; the global frame count changes from 137 to 146 and a stale five-video sentence is corrected to the already established 21-video scope. Continuous playback, listening, ASR-derived facts and the entire audio-processing dataset stay unchanged at their stated values. The capability probe exposed no audio; there was no listening, new ASR, MP4/PDF download, PDF rendering or live AI request. One existing local-video extraction produced the nine new stills.
+
+The KITE page is the only new source work: verified-TLS HTML and its literal embedded JSON support 28 object and two target-row counts without executing page scripts or fetching pupil photos. The school-magazine denial and other discovery pages are not adopted sources. Seven bilingual facts/evaluations212–218 append after byte-exact old JSONL prefixes; evaluations remain held out and Malayalam needs educator review. The independent source/proposal review passed 290 checks, including the eleven original pages used for methods/credit correspondence, nine frames, exact retained hashes and narrow preservation contracts. These checks do not validate science, identity/version, work division, nomination, attendance/payment, clinical safety or current registration.

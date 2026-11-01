@@ -343,10 +343,44 @@
       "prize_status": null,
       "evidence_kind": "official_fair_compendium_writeup",
       "method_summary": "ESP32 sensor nodes send LoRa alerts to a base station, then Wi-Fi/MQTT notifications.",
-      "evidence_limits": "No range, false-alarm or outage tests; cloud notifications still depend on the base station’s Wi-Fi.",
+      "evidence_limits": "The cited write-up gives no numerical range, false-alarm or outage-test series. Its cloud notification path uses the base station’s Wi-Fi/MQTT connection; LoRa transmission alone does not establish end-to-end service during an internet outage.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p164"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p164",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-006"
+        ],
+        "compendium_pdf_pages_1based": [
+          203
+        ],
+        "compendium_printed_pages": [
+          164
+        ],
+        "written_method_as_reported": [
+          "The write-up places ESP32 user transmitters near users and a LoRa receiver/base station at a caregiver or emergency-service location.",
+          "An IMU and voice module provide described fall/voice triggers; battery/BMS are listed. The base station forwards received alerts through Wi-Fi and an MQTT server."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5-second chart labels User Node, Base / Receiver Node and Network & Cloud Layer. A WEBSITE panel/dashboard is visible, without a readable public address in the inspected samples."
+        ],
+        "interpretation_limits": [
+          "The long-range/network-failure/reliability statements are attributed objectives or conclusions, not measurements established by this review.",
+          "The LoRa radio hop and Wi-Fi/MQTT cloud path are distinct dependencies. Their description does not establish end-to-end notification during an internet outage.",
+          "No numerical range, false-alarm or outage-test series is supplied by the cited page. The sampled frames do not verify causal emergency-trigger timing or emergency reliability."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
     },
     {
       "id": "sisf-2026-kerala-individual-p165",
@@ -377,10 +411,44 @@
       "prize_status": null,
       "evidence_kind": "official_fair_compendium_writeup",
       "method_summary": "Sensor readings control irrigation and other actuators, with Blynk/ESP32-CAM monitoring.",
-      "evidence_limits": "Calibration, water savings and crop outcomes are asserted without numerical trial evidence.",
+      "evidence_limits": "The cited write-up asserts water savings, plant-health improvements and accurate sensor responses without numerical trials or calibration results. The sampled chart’s use of AI does not supply a model, dataset, code or measured performance.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p165"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p165",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-007"
+        ],
+        "compendium_pdf_pages_1based": [
+          204
+        ],
+        "compendium_printed_pages": [
+          165
+        ],
+        "written_method_as_reported": [
+          "The write-up lists ESP32/Arduino Uno, soil-moisture, LDR, DHT11, pH and NPK sensors, and relays/pump/fogger/lighting/alarm components.",
+          "It describes sensor processing for irrigation, lighting, fogging, nutrient supply and alarms, with Blynk and ESP32-CAM monitoring."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5- and 30-second samples show an AgroLink synopsis and CIRCUIT DIAGRAM. The synopsis uses the term AI; the inspected written material supplies no AI model, dataset, code or evaluation procedure."
+        ],
+        "interpretation_limits": [
+          "The cited write-up asserts water savings, improved plant health and accurate/reliable sensor response without numerical trial counts, calibration results, crop measurements or cost accounting.",
+          "The chart’s AI wording does not establish an implemented machine-learning component or its authorship.",
+          "The samples show display/model components and a phone/interface view; they do not independently verify all automation functions, field outcomes or safety."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
     },
     {
       "id": "sisf-2026-kerala-individual-p166",
@@ -422,7 +490,8 @@
       "id": "sisf-2026-kerala-individual-p168",
       "year": 2026,
       "source_ids": [
-        "pathways-37"
+        "pathways-37",
+        "pathways-99"
       ],
       "category_as_published": "individual",
       "category_heading_pdf_page_1based": 193,
@@ -467,7 +536,34 @@
           "locator": "PDF207 embedded photograph: upper-left wall sign; additional smaller label KLI-9"
         }
       },
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p168"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p168",
+      "prior_state_result_candidate_2026_11_01": {
+        "source_id": "pathways-99",
+        "source_year": 2025,
+        "source_item": "Science Fair HS Robotics 445",
+        "current_view_record": {
+          "name": "MUHAMMED ARIF K F",
+          "position": 2,
+          "school": "Mar Coorilose Memorial H. S. S. Pattimattom",
+          "district": "Ernakulam",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "2"
+        },
+        "relationship_status": "qualified_public_name_school_correspondence_only",
+        "SISF_source_id": "pathways-37",
+        "SISF_year": 2026,
+        "SISF_credit_as_published": [
+          "Muhammed Arif K.F."
+        ],
+        "SISF_school_as_published": "Mar Coorilose Memorial HSS, Pattimatoom, Ernakuulam, Kerala",
+        "SISF_category_as_published": "individual",
+        "basis": "Corresponding public name and school/locality forms, retaining initials, spelling and institutional-name variants. The result object contains no exhibit title or guide.",
+        "limits": "Do not infer unique person or unchanged project/version, automatic selection or a verified2025-to-2026 qualifying route. Keep the 2025 Robotics result separate from2026 SISF title, category, credits and unknown prize field; hardware alone does not establish current Kerala registration.",
+        "SISF_prize_or_route_transferred": false
+      }
     },
     {
       "id": "sisf-2026-kerala-individual-p170",
@@ -637,7 +733,7 @@
       "prize_status": null,
       "evidence_kind": "official_fair_compendium_writeup",
       "method_summary": "ESP32/C++ uses Firebase JSON schedules, NTP time and motors to dispense medicines.",
-      "evidence_limits": "No dose/reliability trial series or ingestion verification; hourly fetching conflicts with the immediate-update claim.",
+      "evidence_limits": "The cited write-up supplies no quantified dose/reliability trial series or ingestion verification. Its every-hour fetch/next-cycle update description is not reconciled with its immediate-update claim; pickup sensing, alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
       "future_improvements_as_reported": [
@@ -655,13 +751,51 @@
           "locator": "PDF215 embedded photograph: wall sign above MEDBOT poster"
         }
       },
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p176"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p176",
+      "written_project_follow_up_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_ids": [
+          "pathways-37",
+          "media-013"
+        ],
+        "compendium_pdf_pages_1based": [
+          215,
+          216
+        ],
+        "compendium_printed_pages": [
+          176,
+          177
+        ],
+        "written_method_as_reported": [
+          "The write-up describes four stepper motors/drivers connected to ESP32, and a Firebase web portal storing medicine names, dates and times.",
+          "It says ESP32 C++ synchronises time through NTP and fetches schedule JSON by REST every hour. It reports website changes taking effect on the next fetch, while separately claiming immediate adaptation."
+        ],
+        "sampled_chart_content_as_read": [
+          "The 5-, 20- and 35-second samples show a MEDIBOT capability poster and circuit diagram. Readable headings include Smart alert and Automated logging; finer wording is partly small/occluded."
+        ],
+        "interpretation_limits": [
+          "The cited page’s Wi-Fi boot timing and consistent single-pill/no-jam assertions are source-reported observations, not independently established reliability/dose trials.",
+          "The hourly/next-fetch description and immediate-update claim remain unreconciled.",
+          "Pickup sensing, an alarm/voice notification, camera authentication and vital-sign sensing are listed as improvements in the write-up. The poster’s Smart alert heading does not resolve feature timing/version or prove implementation.",
+          "The cited text and samples do not establish correct prescription/dose, ingestion, patient benefit, clinical safety or student work division."
+        ],
+        "artifact_link_follow_up": {
+          "scope": "The cited complete original compendium pages and three additional chart-focused visual samples from the existing cached MP4; earlier public-unit metadata discovery is a separate finite scope.",
+          "readable_public_report_code_dataset_urls_found": [],
+          "network_requests_made": 0,
+          "global_absence_claim": false
+        },
+        "student_work_division_verified": false,
+        "performance_independently_verified": false,
+        "clinical_or_field_safety_verified": false
+      }
     },
     {
       "id": "sisf-2026-kerala-individual-p178",
       "year": 2026,
       "source_ids": [
-        "pathways-37"
+        "pathways-37",
+        "pathways-99"
       ],
       "category_as_published": "individual",
       "category_heading_pdf_page_1based": 193,
@@ -694,7 +828,34 @@
       "future_improvements_as_reported": [
         "Obstacle sensing, improved AI accuracy and emergency alerts are future improvements."
       ],
-      "public_media_record_id": "media-sisf-2026-kerala-individual-p178"
+      "public_media_record_id": "media-sisf-2026-kerala-individual-p178",
+      "prior_state_result_candidate_2026_11_01": {
+        "source_id": "pathways-99",
+        "source_year": 2025,
+        "source_item": "Science Fair HS Robotics 445",
+        "current_view_record": {
+          "name": "SHAZAD SHAJI V",
+          "position": 1,
+          "school": "G.V.H.S.S. Kondotty",
+          "district": "Malappuram",
+          "fest": "SCIENCE FAIR",
+          "category": "HS",
+          "item": "Robotics",
+          "grade": "A",
+          "rank": "1"
+        },
+        "relationship_status": "qualified_public_name_school_correspondence_only",
+        "SISF_source_id": "pathways-37",
+        "SISF_year": 2026,
+        "SISF_credit_as_published": [
+          "Shazad Shaji V"
+        ],
+        "SISF_school_as_published": "G.V.H.S.S. Kondotty, Kerala.",
+        "SISF_category_as_published": "individual",
+        "basis": "Corresponding public name and school/locality forms, retaining initials, spelling and institutional-name variants. The result object contains no exhibit title or guide.",
+        "limits": "Do not infer unique person or unchanged project/version, automatic selection or a verified2025-to-2026 qualifying route. Keep the 2025 Robotics result separate from2026 SISF title, category, credits and unknown prize field; hardware alone does not establish current Kerala registration.",
+        "SISF_prize_or_route_transferred": false
+      }
     },
     {
       "id": "sisf-2026-kerala-group-p180",
@@ -731,7 +892,85 @@
       "evidence_limits": "No replicate counts or numerical nutrient, yield or water-test results are presented.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "public_media_record_id": "media-sisf-2026-kerala-group-p180"
+      "public_media_record_id": "media-sisf-2026-kerala-group-p180",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          221,
+          222
+        ],
+        "printed_pages": [
+          180,
+          181
+        ],
+        "reported_method_details": [
+          {
+            "claim": "Objectives include surveying 50 households, field visits and interviews.",
+            "status": "objective_as_published_not_verified_completed_sample",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "Reported work concerns two Wayanad panchayats, named Muttill and Meenangadi, and three invasive plants.",
+            "status": "reported_setting_not_independently_verified",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "The printed materials name Pistia stratiotes, Senna spectabilis and Sphagneticola trilobata; preparation of a growth promoter is reported as taking 30 days.",
+            "status": "reported_species_and_duration_not_complete_reproducible_protocol",
+            "pdf_page_1based": 221
+          },
+          {
+            "claim": "The account compares treated versus untreated soil/plants and water with versus without Pistia using named BOD/DO tests.",
+            "status": "reported_comparison_design_without_supplied_quantitative_results",
+            "pdf_page_1based": 221
+          }
+        ],
+        "external_survey_attribution": {
+          "institution_as_printed": "The Forest Research Institute of Peechi, Kerala",
+          "invasive_species_as_reported": 89,
+          "serious_threat_subset_as_reported": 19,
+          "bibliographic_title_author_date_or_URL_supplied": false,
+          "scope": "Attributed background statement in this exhibit account; the underlying survey has not been recovered or independently verified."
+        },
+        "qualitative_results_as_reported": [
+          "Treated soil and plants are described as having more nutrients/high yielding capacity, without numerical tables.",
+          "The Sphagneticola trilobata preparation is described as showing an excellent result, without a quantified comparison."
+        ],
+        "pistia_water_result_direction": {
+          "pdf_page_1based": 222,
+          "claim": "The account says water where Pistia grows shows more pollution than water without Pistia.",
+          "direction_as_printed": "more pollution",
+          "scope": "Keep this reported comparison direction; do not reverse it into successful water purification or infer that Pistia caused the difference. No numerical BOD/DO results or controlled site/treatment details are supplied."
+        },
+        "unresolved_method_and_number_claims": [
+          "The 50-household objective is not a supplied completed survey dataset or response count.",
+          "No replicate/sample counts, concentrations/application rates, baseline nutrient or yield tables, BOD/DO values, uncertainty or independent environmental-safety results are supplied.",
+          "Reported low cost and plant-growth benefits are not established by measured cost/yield tables."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "undated_institutional_survey_mention",
+            "label": "Forest Research Institute of Peechi survey",
+            "explicit_link": null,
+            "followed": false
+          },
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "X3L2C8",
+            "url": "https://diksha.gov.in/dial/X3L2C8",
+            "new_original_report_or_code": false
+          }
+        ]
+      }
     },
     {
       "id": "sisf-2026-kerala-group-p182",
@@ -776,7 +1015,72 @@
         "award_transferred": false,
         "credits_merged": false
       },
-      "public_media_record_id": "media-sisf-2026-kerala-group-p182"
+      "public_media_record_id": "media-sisf-2026-kerala-group-p182",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          223
+        ],
+        "printed_pages": [
+          182
+        ],
+        "reported_method_details": [
+          {
+            "claim": "Materials list banana/bamboo fibre, chitosan, kitchen towel and a nonwoven bamboo sheet; the procedure names chemical fibre extraction and assembling diaper layers.",
+            "status": "materials_and_brief_procedure_as_reported_not_complete_protocol",
+            "pdf_page_1based": 223
+          },
+          {
+            "claim": "Moisture-regain and absorbancy tests are named.",
+            "status": "tests_named_without_numerical_data_or_protocol",
+            "pdf_page_1based": 223
+          },
+          {
+            "claim": "Banana fibre is reported to show more absorbancy than bamboo fibre.",
+            "status": "qualitative_direction_only_not_measured_effect_size",
+            "pdf_page_1based": 223
+          }
+        ],
+        "current_material_versus_improvement": {
+          "improvement_as_reported": "Find an eco-friendly leak-proof layer instead of a polythene sheet; the same line includes the parenthetical chitosan bioplastic.",
+          "scope": "The replacement is explicitly an improvement, not proof that polythene has already been removed. Chitosan appears in materials, but the parenthetical does not resolve which leak-proof layer was implemented or validate complete biodegradability."
+        },
+        "unvalidated_claims_as_reported": [
+          "non-toxic",
+          "hypo allergic",
+          "best absorbent capacity",
+          "eco friendly",
+          "compostable",
+          "reusable",
+          "reduced carbon footprint",
+          "sustainable",
+          "biodegradable",
+          "gentle to baby skin"
+        ],
+        "unresolved_method_and_number_claims": [
+          "No numerical absorption/moisture-regain values, sample counts, protocols, comparative product specification or uncertainty are supplied.",
+          "No dermatological/toxicity/reuse-hygiene/composting/biodegradation/life-cycle tests are supplied.",
+          "A listed objective or conclusion does not validate baby-skin safety or complete-product environmental performance."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "D8B6U6",
+            "url": "https://diksha.gov.in/dial/D8B6U6",
+            "new_original_report_or_code": false
+          }
+        ],
+        "literal_term_scope": "Absorbancy and hypo allergic are printed terms. They are not silently converted to quantified or clinically validated claims; no exact chemical-treatment recipe is reconstructed."
+      }
     },
     {
       "id": "sisf-2026-kerala-group-p183",
@@ -935,7 +1239,67 @@
       "evidence_limits": "No operating plant, energy balance, emissions inventory or measured net-zero result is established.",
       "student_work_division_verified": false,
       "performance_independently_verified": false,
-      "public_media_record_id": "media-sisf-2026-kerala-group-p187"
+      "public_media_record_id": "media-sisf-2026-kerala-group-p187",
+      "written_followup_2026_11_01": {
+        "reviewed_on": "2026-11-01",
+        "source_id": "pathways-37",
+        "evidence_kind": "written_compendium_original_page_followup",
+        "audio_listened_to": false,
+        "machine_audio_text_used_as_evidence": false,
+        "continuous_video_review_performed": false,
+        "explicit_original_report_code_dataset_urls_in_these_pages": [],
+        "reference_search_scope": "Complete visible write-up pages and the already adopted QR/media records only; no search of all possible external school/project websites. QR destinations were already adopted public video records, not new original-report/code discoveries.",
+        "new_source_case_or_discovery_count": 0,
+        "public_credit_scope": "Existing published credits and candidate correspondence are preserved; no new contact, photograph, pupil identifier or contribution/identity proof is derived.",
+        "pdf_pages_1based": [
+          228,
+          229
+        ],
+        "printed_pages": [
+          187,
+          188
+        ],
+        "reported_method_details": [
+          {
+            "claim": "The problem/objectives propose a sustainable-city model aimed at net-zero emissions, environmental quality, renewable energy, biodiversity and waste reduction.",
+            "status": "objectives_not_measured_outcomes",
+            "pdf_page_1based": 228
+          },
+          {
+            "claim": "The materials list renewable-energy systems, algae cultivation, carbon capture/storage, anaerobic digesters, bioremediation, water treatment/recycling and composting facilities.",
+            "status": "listed_components_not_independent_proof_of_operating_installations",
+            "pdf_page_1based": 228
+          },
+          {
+            "claim": "Research/background headings cover sustainable cities, bioenergy/algae, bioremediation and carbon sequestration.",
+            "status": "research_themes_not_identified_publications_or_experiment_results",
+            "pdf_page_1based": 229
+          }
+        ],
+        "named_concepts_not_bibliographic_citations": [
+          "Circular Economy",
+          "Sustainable Development",
+          "Cradle to Cradle"
+        ],
+        "bibliographic_scope": "No author, dated publication, named paper/report, DOI or original report/code/dataset URL is supplied. Cradle to Cradle is presented as a design principle, not an identifiable edition of a book.",
+        "future_improvements_as_reported": [
+          "Increase energy efficiency",
+          "Enhance algae production",
+          "Implement advanced bioremediation"
+        ],
+        "unresolved_method_and_number_claims": [
+          "No operating plant, independently observed full system, quantitative energy balance, emissions inventory, baseline/control, numerical carbon sequestration or net-zero result is supplied.",
+          "Reported climate/public-health/economic benefits remain proposed or asserted uses; a model display does not establish city-scale performance."
+        ],
+        "publication_or_code_leads": [
+          {
+            "kind": "existing_QR_video_reference",
+            "label": "D9N7S8",
+            "url": "https://diksha.gov.in/dial/D9N7S8",
+            "new_original_report_or_code": false
+          }
+        ]
+      }
     },
     {
       "id": "sisf-2026-kerala-group-p189",
