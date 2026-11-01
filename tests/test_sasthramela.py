@@ -47,3 +47,40 @@ def test_text_voice_privacy_and_no_provider_call(setup):
 
 def test_general_science_after_fair_still_uses_provider():
     assert lookup('How does rain form?', [('user','Kerala science fair history'),('model','1962')]) is None
+
+
+@pytest.mark.parametrize('fair', ['sastra mela','sastramela','sasthra mela','sasthramela','shastra mela','shastramela','ശാസ്ത്രമേള'])
+def test_robotics_winner_spellings_use_published_result(fair):
+    a=lookup('who won 2025 state HS Robotics in '+fair+'?')
+    assert a['fact_ids']==['state2025-hs-robotics-places']
+    assert 'Shazad Shaji V' in a['reply'] and 'കൊണ്ടോട്ടി' in a['reply']
+    assert 'Muhammed Arif K F' in a['reply']
+    assert [s['id'] for s in a['sources']]==['pathways-99']
+
+def test_robotics_scope_and_general_science_boundaries():
+    for q in ['Who won 2024 state HS Robotics in sastra mela?',
+              'Who won 2026 state HS Robotics in sastra mela?',
+              'Who won 2025 state HSS Robotics in sastra mela?',
+              'Who won 2025 district HS Robotics in sastra mela?',
+              'Who won 2025 SISF HS Robotics in sastra mela?']:
+        assert 'state2025-hs-robotics-places' not in lookup(q)['fact_ids']
+    assert lookup('How do robotics sensors work?') is None
+
+def test_exact_screenshot_question_bypasses_model(setup):
+    app,client,provider,token=setup
+    q='who won 2025 state HS Robotics in sastra mela?'
+    r=client.post('/test_chat',json={'user_message':q},headers={'X-CSRF-Token':token})
+    assert r.status_code==200 and 'Shazad Shaji V' in r.json['reply']
+    assert r.json['sources'][0]['id']=='pathways-99'
+    assert not provider.seen
+    provider.transcribe=lambda data:q
+    spoken=[]
+    provider.speak=lambda text:spoken.append(text) or b'ID3test'
+    r=client.post('/chat',data=pcm(),content_type='audio/wav')
+    assert r.status_code==200 and 'Shazad Shaji V' in spoken[0]
+    assert not provider.seen
+
+
+def test_malayalam_result_year_suffix():
+    a=lookup('2025ലെ സംസ്ഥാന ഹൈസ്കൂൾ റോബോട്ടിക്സ് വിജയി ആരാണ്?')
+    assert a['fact_ids']==['state2025-hs-robotics-places']

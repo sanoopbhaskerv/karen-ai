@@ -9,7 +9,7 @@ import unicodedata
 ROOT = Path(__file__).parent / 'docs/research/kerala-school-science'
 NOTICE = '2026 നവംബർ 1 വരെ പരിശോധിച്ച രേഖകളെ അടിസ്ഥാനമാക്കിയുള്ള വിവരം. പുതിയ പ്രാദേശിക നിർദേശങ്ങൾ സംഘാടകരുമായി ഉറപ്പാക്കുക.'
 UNKNOWN = 'ഈ ചോദ്യത്തിന് പരിശോധിച്ച ശാസ്ത്രമേള രേഖകളിൽ ഉറപ്പുള്ള ഉത്തരം കണ്ടെത്താനായില്ല. വർഷവും മേളയുടെ വിഭാഗവും ഇനവും വ്യക്തമാക്കുക; നിലവിലെ പ്രാദേശിക നിർദേശങ്ങൾ സംഘാടകരുമായി ഉറപ്പാക്കുക.'
-FAIR = re.compile(r'sasthr|sasthra|sasthrol|shasthr|science\s*(?:fair|exhibition)|working\s*model|ശാസ്ത്ര.*മേള|ശാസ്ത്ര.*പ്രദർശന|വർക്കി|പ്രവർത്തനമാതൃക', re.I)
+FAIR = re.compile(r'(?:sastra|shastra|shasthra)[\s-]*(?:mela|olsavam)|sasthr|sasthra|sasthrol|shasthr|science\s*(?:fair|exhibition)|working\s*model|ശാസ്ത്ര.*മേള|ശാസ്ത്ര.*പ്രദർശന|വർക്കി|പ്രവർത്തനമാതൃക', re.I)
 STOP = set('the a an is are was were what when where who how many much does do did in of for to and about kerala science fair exhibition sasthramela sasthrolsavam please tell me working model'.split())
 ROUTES = [
  (r'how many.*(?:pupil|student|child|participant)|team|individual|ഒറ്റ|എത്ര.*(?:കുട്ടി|വിദ്യാർ|പങ്ക)|രണ്ട് കുട്ടി', ['working-two-pupils']),
@@ -42,20 +42,28 @@ def lookup(question, history=()):
     q = normalize(question)
     followup = re.search(r'^(?:and |what about |how (?:long|many|much)|what (?:is|are) (?:its|the)|അതിന്റെ|അതിൽ|എത്ര|വീഡിയോ|മാർക്ക്)', q)
     contextual = bool(followup and history and FAIR.search(history[-2][1] if len(history)>1 else history[-1][1]))
-    if not FAIR.search(q) and not contextual:
+    result_question = (re.search(r'robotics|റോബോട്ടി',q) and re.search(r'(?<!\d)(?:19|20)\d{2}(?!\d)',q) and re.search(r'won|winner|first|second|rank|result|സ്ഥാനം|ജയി|വിജയി|ഫല',q))
+    if not FAIR.search(q) and not contextual and not result_question:
         return None
     facts, sources = corpus()
     by_id = {f['id']:f for f in facts}
     selected = None
-    years = set(re.findall(r'\b(?:19|20)\d{2}\b', q))
+    years = set(re.findall(r'(?<!\d)(?:19|20)\d{2}(?!\d)', q))
     working = bool(re.search(r'working\s*model|വർക്കി|പ്രവർത്തനമാതൃക', q))
     if contextual and not working:
         working = any(re.search(r'working\s*model|വർക്കി|പ്രവർത്തനമാതൃക', normalize(text)) for role,text in history[-4:] if role=='user')
     # Avoid transferring HS working-model directions into other event streams.
     other_stream = re.search(r'\bit\b|technical|ടെക്നിക്കൽ|ഐടി|electronics|robotics|iot|ഇലക്ട്രോണി|റോബോട്ടി',q)
+    if result_question:
+        selected=[]
+    if (years == {'2025'} and re.search(r'state|സംസ്ഥാന',q) and re.search(r'robotics|റോബോട്ടി',q)
+            and re.search(r'\bhs\b|high\s*school|ഹൈസ്കൂൾ|എച്ച്എസ്',q)
+            and re.search(r'won|winner|first|second|rank|result|സ്ഥാനം|ജയി|വിജയി|ഫല',q)
+            and not re.search(r'\bhss\b|higher\s*secondary|ഹയർ|എച്ച്എസ്എസ്|sisf|southern|എസ്ഐഎസ്എഫ്|district|ജില്ല',q)):
+        selected=[by_id['state2025-hs-robotics-places']]
     if other_stream and working and re.search(r'\bit\b|ഐടി',q):
         selected=[by_id['it-no-working-model']]
-    if re.search(r'2026',q) and re.search(r'when|date|venue|എപ്പോൾ|തീയതി|എവിടെ',q) and not working:
+    if not result_question and re.search(r'2026',q) and re.search(r'when|date|venue|എപ്പോൾ|തീയതി|എവിടെ',q) and not working:
         selected=[by_id['state-2026-scheduled']]
     if not other_stream and selected is None:
         for pattern, ids in ROUTES:
@@ -69,7 +77,7 @@ def lookup(question, history=()):
         documents, frequencies = search_index()
         scored=[]
         for f, document in zip(facts, documents):
-            if years and not years <= set(re.findall(r'\b(?:19|20)\d{2}\b', f['claim_en']+' '+f['scope'])):
+            if years and not years <= set(re.findall(r'(?<!\d)(?:19|20)\d{2}(?!\d)', f['claim_en']+' '+f['scope'])):
                 continue
             overlap=query & document
             score=sum(math.log(1+len(facts)/frequencies[t]) for t in overlap)
