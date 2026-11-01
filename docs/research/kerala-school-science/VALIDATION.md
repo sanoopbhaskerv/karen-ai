@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 395 |
-| Distinct registered source URLs | 390 |
+| Source records | 403 |
+| Distinct registered source URLs | 398 |
 | Topic source registers | 22 |
 | JSON files | 51 |
-| Concise English/Malayalam knowledge records | 211 |
-| Draft Malayalam evaluation questions | 189 |
+| Concise English/Malayalam knowledge records | 222 |
+| Draft Malayalam evaluation questions | 200 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -72,11 +72,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Underlying March 2026 grace-order pages | 8 |
 | Pre-2009 IT retrospective documents / pages | 1 / 6 |
 | INSPIRE public compendium volume links | 18 |
-| INSPIRE compendium works / physical PDF pages | 13 / 4,104 |
-| INSPIRE reviewed edition labels | 8 |
-| INSPIRE source-bound project descriptions | 78 |
-| INSPIRE state-heading / organisational descriptions | 74 / 4 |
-| INSPIRE target PDF pages visually reviewed | 367 |
+| INSPIRE compendium works / physical PDF pages | 18 / 6,597 |
+| INSPIRE reviewed edition labels | 11 |
+| INSPIRE source-bound project descriptions | 95 |
+| INSPIRE state-heading / state-index / organisational descriptions | 85 / 5 / 5 |
+| INSPIRE target PDF pages visually reviewed | 508 |
 | Older NCERT model-book canonical holding targets | 5 |
 | 2015 state programme documents / pages | 1 / 8 |
 | 2014 gold-cup design notices / pages | 1 / 1 |
@@ -109,10 +109,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Named planned state-venue examples | 4 |
 | Reported festival organising subcommittees | 18 |
 | Sixth INSPIRE non-counted KVS observations | 2 |
-| Separate historical INSPIRE scheme observations | 3 |
+| Separate historical INSPIRE scheme observations | 4 |
 | Tenth INSPIRE KVS / NVS section descriptions reviewed | 8 / 5 |
 | Fourth INSPIRE non-counted KVS observations | 4 |
 | Retrospective INSPIRE award observations in third/fourth books | 8 |
+| INSPIRE historical award observations (all source categories) | 18 |
+| Fourth INSPIRE contemporary press reports | 3 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -284,3 +286,13 @@ Eight source-specific retrospective award observations append separately to the 
 Against `480b156`, all 393 earlier source objects and all 38 focused cases remain exact. Twenty-seven other non-source JSON datasets remain byte-identical. The INSPIRE dataset appends 33 descriptions, two edition objects, eight retrospective-award and two historical-scheme observations, with only status/source-ID changes on the two exact advertised URLs. All 204 prior facts and 182 evaluations remain exact byte prefixes; seven pairs append. No new JSON file, original pupil logbook/code, training, retrieval, runtime, provider or hardware change is included. Evaluations remain held out and Malayalam requires teacher review.
 
 The third/fourth author proposal checks passed 368/526 respectively, and separate scoped content reviews passed 434/1,086. The final independent publication audit passed **6,350 checks**, recomputing all **108 inventory rows** and checking **327 local links/anchors**, 943 structured source-reference edges, 259 internal-reference edges and 342 fact-source edges. Both full source bodies, raw headers and terminal receipts agree with their recorded integrity and dates; all earlier source/case objects, other datasets and JSONL prefixes are preserved within the stated append contract. These checks establish collection integrity and evidence scope, not historical completeness, teacher-approved Malayalam, unique attendance/identity, patent status, verified payment or independently validated scientific performance.
+
+The first/second/fifth packet adds five received books / 2,493 physical PDF pages and 17 source-bound descriptions. One combined first edition covers main/supplement books of 522/209 pages; one combined second edition covers 660/500 pages; the fifth received book has 602 pages. All 18 advertised book targets are now received and target-reviewed, while omitted-entry publication relationships and original school records remain incomplete. The new description split is six second-edition plus five fifth-edition state-heading rows, five first-supplement state-index rows and one second-edition organisational/Calicut row with blank school.
+
+The first/fifth native layers were inadequate for complete discovery. One coordinated machine-OCR pass per book processed 1,333 pages, producing 1,677,345 characters with zero failed pages. The second pair used the existing 1,160-page native extraction after quality/location checks; pooled adjacent-page text required visible original-page locators, not a second OCR pass. Author full-original-page scopes are 19/26/24/22/50 across the five files, a total of 141; with the prior 367, the inventory is 508. Metadata/context checks, page-type previews, blank-render classifications and overlapping independent reads are not added as full-prose reads. The corrected first combined review attributes 18 metadata/context crops to source 89 and two checks to source 90.
+
+Three complete contemporary PIB HTML reports distinguish the 3 October 2014 plan, 6 October reported inauguration and 8 October reported conclusion. Actual headers/terminal receipts and cached full bodies are retained. The closing article’s unrelated appended Hudhud story is excluded, and linked annexure bodies were not claimed reviewed. Its South regional first remains separate from national/state categories; repeated 2014 scheme values remain nested source context without adding scheme-array rows or awards. A source-bound public historical pupil credit sharing a given name with Karen’s creator is retained only in its exact programme/entry credit field; it is not a Karen biography attribution.
+
+Against `f02efa5`, all 395 earlier source objects and 38 focused case objects remain exact. Twenty-seven other non-source JSON datasets remain byte-identical. The INSPIRE dataset appends 17 descriptions, three edition objects, nine source-specific award observations and one historical-scheme row; five exact advertised URLs change only review-status/source-ID fields. The fifth edition embeds its already reviewed provisional-listing observation without adding a new dataset-level array or implying a grant. All 211 prior facts and 189 evaluations remain exact byte prefixes; eleven pairs append. There is no runtime, retrieval, training, provider, hardware, merge or deployment change. Malayalam still needs teacher review and evaluation questions remain held out.
+
+The final independent publication audit passed **6,961 checks**, recomputing all **110 inventory rows** and checking **331 local links/anchors**, 1,021 structured source-reference edges, 260 internal-reference edges and 365 fact-source edges. All eight new full acquisitions match their cached bodies, raw headers and terminal receipts; absent HTML Content-Length headers remain absent rather than invented. Separate scoped content reviews passed 95 first-main/combined checks, 208 first-supplement checks, 1,393 fifth-book checks, 1,591 second-book checks and 105 contemporary-report checks. The narrow historical-credit exception verifies the exact source/entry/title/credit relationship while retaining all other biography checks. These results establish collection integrity and evidence scope, not exhaustive historical/project coverage, teacher-approved Malayalam, unique identity/attendance, patent status, verified payment or scientific validation.
