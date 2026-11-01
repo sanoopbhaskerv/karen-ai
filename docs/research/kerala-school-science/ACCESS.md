@@ -96,3 +96,7 @@ A later original-hosted [government order, G.O.(Ms)65/2026/GEDN of 12 March 2026
 | General school software guide linked in 2026 | Filename/screens identify 2022–23 | Current operator instructions and local deadline |
 
 Temporary browser failures are not the same as confirmed missing documents. Several official PDFs were retrieved directly and visually inspected after the browser tool timed out. Source retrieval notes record that distinction.
+
+## Separate dated examples for the planned Mannarkkad venues
+
+The [September PRD account](CALENDAR_2026.md#planned-host-school-examples-in-the-september-prd-account) supplies four named proposed host-school examples. This narrows the earlier named-venue gap without authenticating the undated map table above, completing the five-main-venue allocation or assigning Working Model to a school. Keep the dated press report and undated portal rows separate.

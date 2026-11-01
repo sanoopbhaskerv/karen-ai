@@ -44,6 +44,12 @@ Page 8 covers Work Experience, including subdistrict fairs in the **first week o
 
 ## Later official corroboration has a narrower scope
 
-The DGE's [29 October 2026 CCTV/video quotation notice](https://education.kerala.gov.in/wp-content/uploads/2026/10/SCHOOLKALOLSAVAM202629102026.pdf) independently plans **18–21 November at five main Mannarkkad venues**. It corroborates those state dates and location, not every milestone in the mirrored action plan. The five venue names and final item-level programme remain unestablished in these documents.
+The DGE's [29 October 2026 CCTV/video quotation notice](https://education.kerala.gov.in/wp-content/uploads/2026/10/SCHOOLKALOLSAVAM202629102026.pdf) independently plans **18–21 November at five main Mannarkkad venues**. It corroborates those state dates and location, not every milestone in the mirrored action plan. The quotation itself does not name those five venues. A separate PRD report names four planned venue examples, described below; the complete final allocation and item-level programme remain unestablished.
 
 Use [OPERATIONS.md](OPERATIONS.md#state-event-recording-29-october-2026-quotation) for the procurement scope, [RULES.md](RULES.md) for entrant rules, and the school's dated local notice for reporting, power, network and later changes. Source hashes and provenance are recorded under `rule-change-action-plan-2026-mirror` and `rules-cctv-quotation-2026`.
+
+## Planned host-school examples in the September PRD account
+
+The [24 September PRD report](https://www.prd.kerala.gov.in/ml/node/360122/) names Orphanage Higher Secondary, MES, Kalladi and KTM as examples of venues for the planned 18–21 November Mannarkkad festival. These four examples neither complete the later quotation’s five-main-venue list nor allocate Science Working Model to a school or room. The Nellippuzha Darunnajath mention identifies a meeting site; it does not designate an additional exhibition venue or resolve possible campus/alias correspondences.
+
+The 24 September publication and 30 September duplicate both have a separate 19 September date field. The six substantive paragraphs repeat, so they are one source work rather than independent corroboration. No exact meeting date, corrected edition ordinal, entrant-rule amendment or completed-event status follows. See [the organising-report scope](OPERATIONS.md#planned-2026-organising-arrangements-in-prd-reporting).

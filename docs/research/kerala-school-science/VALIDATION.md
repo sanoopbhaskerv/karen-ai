@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 389 |
-| Distinct registered source URLs | 384 |
+| Source records | 390 |
+| Distinct registered source URLs | 385 |
 | Topic source registers | 22 |
 | JSON files | 51 |
-| Concise English/Malayalam knowledge records | 198 |
-| Draft Malayalam evaluation questions | 176 |
+| Concise English/Malayalam knowledge records | 200 |
+| Draft Malayalam evaluation questions | 178 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -105,6 +105,9 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | KVS 2010 result tables / data rows | 7 / 24 |
 | KVS 2010 theme rows / quiz rows / blank ranks | 21 / 3 / 3 |
 | KVS 2010 published programme rows | 23 |
+| 2026 organising press work / publication bodies | 1 / 2 |
+| Named planned state-venue examples | 4 |
+| Reported festival organising subcommittees | 18 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -254,3 +257,9 @@ The KVS packet adds two complete school-library posts and a recovered two-page b
 Against `f499f81`, 382 earlier source objects are unchanged. Two historical source records gain only new dated review fields, and project-027 changes only its notes to narrow an overbroad failure verdict. The same existing case changes only its method tag and evidence limits; the other 37 cases are exact. Twenty-four other non-source JSON datasets remain byte-identical. The INSPIRE register adds only a separate historical-award array; all earlier fields, 33 descriptions, four edition objects and eighteen link observations remain exact. Two new datasets are added. Of the earlier 192 knowledge and 170 evaluation records, only the explicitly corresponding historical-rocket fact and ml-66 wording are corrected; every other old JSONL line remains byte-identical. Six pairs are appended. Stable identifiers remain unchanged, all new evaluations stay held out, and Malayalam requires teacher review. No runtime, retrieval, fine-tuning, provider or hardware change is included.
 
 The final independent publication audit passed **6,222 checks**, recalculating all **100 inventory rows** and checking **318 local links/anchors**, 857 source-reference edges, 259 internal-reference edges and 328 fact-source edges. Five actual new acquisition nodes/formats and both reused historical PDF bodies match their recorded integrity and scope. Separate integrated semantic reviews preserve recommendation categories, literal table cells and the corrected historical-project assessment. These checks establish collection integrity and evidence handling; they do not establish historical completeness, teacher-approved Malayalam, unique attendance or independent scientific performance.
+
+The current-notice packet adds one PRD source work with two complete HTML publication bodies. Both articles were read in full relevant text; their six substantive paragraphs match after whitespace normalisation. The 24 September and 30 September publications retain their separate 19 September date fields without a proved meeting date. Four proposed host-school examples, 18 reported subcommittees, the meeting-site mention and the literal thirtieth label remain source-specific. Neither a final venue/item allocation nor an authenticated appointment or entrant-rule change follows. The source proposal review passed 73 checks after narrowing the meeting-site role without inferring campus identity or nonidentity.
+
+Against `67d46ba`, all 389 earlier source objects and all 38 case objects remain exact; all 28 non-source JSON datasets remain byte-identical. The earlier 198 knowledge and 176 evaluation records remain exact byte prefixes; two pairs are appended. The source register adds only the new core record, with the repeated article nested as duplicate provenance. JSON file/register and compendium-description/edition/page counts remain unchanged. New evaluations remain held out, and Malayalam needs teacher review. No runtime, retrieval, fine-tuning, provider or hardware integration is included.
+
+The final independent publication audit passed **5,656 checks**, recalculating all **103 inventory rows** and checking **322 local links/anchors**, 857 structured source-reference edges, 259 internal-reference edges and 330 fact-source edges. Both actual HTML acquisition nodes, headers and duplicate provenance agree with the cached originals. All old source/case objects, JSON datasets and JSONL byte prefixes are preserved without correction exceptions. These checks establish collection integrity and source scope, not final venue allocation, authenticated appointments, completed attendance, historical completeness or teacher-approved Malayalam.

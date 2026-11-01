@@ -73,3 +73,11 @@ The [2024/2026 club-governance supplement](CLUB_GOVERNANCE.md) records school on
 ## Historical conduct and appeal directions
 
 The [2023/2025 supplement](HISTORICAL_OPERATIONS.md) records dated Work Experience construction/exhibition sequences and appeal-handling capacity. Its Innovative Working Model item and permitted phone/laptop explanation are separate from Science Working Model. Historical advancing-entry capacity does not alter a current exhibit’s required group size.
+
+## Planned 2026 organising arrangements in PRD reporting
+
+The [PRD organising report](https://www.prd.kerala.gov.in/ml/node/360122/) names four example host schools for the planned 18–21 November Mannarkkad festival—Orphanage Higher Secondary, MES, Kalladi and KTM—and reports 18 subcommittees. It gives no exhaustive five-venue list or item allocation. The meeting is reported at Nellippuzha Darunnajath HSS; that mention is not an additional exhibition-venue designation. Campus or alias correspondence is unresolved. This press account is separate from a signed appointment proceeding and supplies no entrant-rule amendment.
+
+Its 24 September publication and a 30 September duplicate both carry a separate 19 September date field. The exact meeting date remains unassigned. Their six substantive paragraphs match after whitespace normalisation; do not count the second page as independent corroboration. Preserve the literal “thirtieth State School Science Fair” wording without assigning it to a corrected umbrella/component series or calculating an inaugural year.
+
+The source register retains the two reported general coordination roles separately from an authenticated appointment order. The eight printed festival-component labels describe this report’s proposed programme coverage; they do not amend the applicable item manual or establish each component’s completion.

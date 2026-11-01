@@ -647,6 +647,146 @@
     "topic_register": "core-sources.json"
   },
   {
+    "id": "core-state-committee-2026",
+    "title": "PRD report of the planned Mannarkkad state Sasthrolsavam, example venues and organising arrangements",
+    "url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+    "accessed_on": "2026-11-01",
+    "document_date": "2026-09-24",
+    "source_type": "official_press_report_html",
+    "issuer": "Information and Public Relations Department, Government of Kerala; Palakkad category",
+    "review_scope": "Both complete article HTML bodies and date fields read directly. The first has seven nonempty paragraphs including a subheading; the second has six. Their six substantive paragraphs are identical after whitespace normalisation. No browser-render or signature-authentication review.",
+    "notes": "PRD reports a planned 18–21 November Mannarkkad festival, four example host schools and 18 subcommittees. Named general coordination roles are reported, not authenticated through an appointment order. A 30 September page republishes the same six substantive paragraphs; it is not independent corroboration. Both pages separately display 19 September in a date field.",
+    "publication_date_evidence": {
+      "visible_post_datetime": "Thu, 09/24/2026 - 14:30",
+      "schema_dateCreated": "2026-09-24T09:00:53+00:00",
+      "separate_date_field_as_displayed": "19-09-2026",
+      "separate_date_field_datetime": "2026-09-19T12:00:00Z",
+      "meeting_date_not_separately_established": true
+    },
+    "planned_event": {
+      "dates_as_printed": "നവംബര്‍ 18 മുതല്‍ 21 വരെ",
+      "year_context": 2026,
+      "place_as_printed": "മണ്ണാര്‍ക്കാട്ട്",
+      "status": "planned_future_event_at_access_date",
+      "venue_list_is_exemplary_not_exhaustive": true,
+      "venues_as_printed": [
+        "മണ്ണാര്‍ക്കാട് ഓര്‍ഫനേജ് ഹയര്‍ സെക്കന്‍ഡറി സ്‌കൂള്‍",
+        "എം.ഇ.എസ് സ്‌കൂള്‍",
+        "കല്ലടി സ്‌കൂള്‍",
+        "കെ.ടി.എം സ്‌കൂള്‍"
+      ],
+      "fair_components_as_printed": [
+        "ശാസ്ത്രമേള",
+        "ഗണിതശാസ്ത്രമേള",
+        "സാമൂഹ്യശാസ്ത്രമേള",
+        "പ്രവൃത്തി പരിചയമേള",
+        "ഐ.ടി മേള",
+        "സ്‌പെഷ്യല്‍ സ്‌കൂള്‍ പ്രവൃത്തി പരിചയമേള",
+        "വൊക്കേഷണല്‍ എക്‌സ്‌പോ",
+        "കരിയര്‍ ഫെസ്റ്റ്"
+      ]
+    },
+    "reported_organising_arrangements": {
+      "subcommittee_count": 18,
+      "scope": "Festival organisation, not 18 venues, fairs or Working Model groups",
+      "general_coordinator_as_printed": {
+        "name": "അരുണ്‍ കെ. വിജയന്‍",
+        "source_role": "പൊതുവിദ്യാഭ്യാസ ഡയറക്ടര്‍"
+      },
+      "general_convener_as_printed": {
+        "source_role": "പൊതുവിദ്യാഭ്യാസ അഡീ. ഡയറക്ടര്‍ (അക്കാദമിക്)",
+        "name_grammatical_normalisation": "സി. എ സന്തോഷ്",
+        "name_as_printed_with_inflection": "സി. എ സന്തോഷാണ്"
+      },
+      "meeting_place_as_printed": "നെല്ലിപ്പുഴ ദാരുനജാത് ഹയര്‍ സെക്കന്‍ഡറി സ്‌കൂളില്‍",
+      "meeting_place_not_added_as_exhibit_venue": true
+    },
+    "source_specific_edition_label": {
+      "wording_as_printed": "മുപ്പതാമത് സംസ്ഥാന സ്‌കൂള്‍ ശാസ്ത്രമേള",
+      "scope": "Literal report wording for the organising-committee meeting. Its relation to the umbrella festival or a specific fair series is not reconciled; no corrected ordinal or inaugural year is assigned."
+    },
+    "evidence_locators": [
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          3
+        ],
+        "scope": "Planned 18–21 November Mannarkkad dates."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          4
+        ],
+        "scope": "Four example venue names and eight festival component labels; no assignment of a particular fair to a school."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          5,
+          6,
+          7
+        ],
+        "scope": "18 subcommittees, named general coordination roles and reported meeting site."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .field--name-body p",
+        "paragraphs_1based": [
+          2
+        ],
+        "scope": "Source-specific thirtieth label."
+      },
+      {
+        "html_locator": "article[data-history-node-id=\"360122\"] .post-created; .field--name-field-date",
+        "scope": "Post date 24 September and separate displayed date 19 September."
+      }
+    ],
+    "evidence_limits": [
+      "PRD reporting of committee formation and proposed host schools is not the signed appointment proceeding or final item-wise programme.",
+      "The four school names are introduced as examples; no exhaustive five-venue list, specific Science Working Model room or allocation follows.",
+      "The report names a meeting site without adding it as an exhibition-venue designation. Campus or alias correspondence with the listed schools is unresolved; neither physical identity nor nonidentity is established.",
+      "No participant count, registration approval, school/subdistrict reporting time, video change, uniform/anonymity rule, cloud-AI permission, power or network access is established.",
+      "Retain the article’s literal thirtieth State School Science Fair wording without forcing it onto an umbrella or component series. The separately collected common form labels Science 58th; different series labels are not automatically a contradiction.",
+      "The article has different municipal-chair name strings in its patron and meeting paragraphs; no identity reconciliation or complete authenticated office-bearer list is claimed.",
+      "The 19 September date field, 24 September publication and 30 September republication remain distinct; an exact meeting date is not assigned.",
+      "Future planned festival, not completed attendance or conduct."
+    ],
+    "download_sha256": "99745e7f81a4bf2a8a302a6ddea0fefb5a0dec1e77e096f35cc66bb872ff51da",
+    "download_bytes": 41854,
+    "acquisition": {
+      "request_url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+      "effective_url": "https://www.prd.kerala.gov.in/ml/node/360122/",
+      "status": 200,
+      "retrieved_at_utc": "2026-11-01T05:57:17.158413+00:00",
+      "bytes": 41854,
+      "sha256": "99745e7f81a4bf2a8a302a6ddea0fefb5a0dec1e77e096f35cc66bb872ff51da",
+      "headers_sha256": "c674f611f49cb5ff447f9a12de7aaaec24b584724a7ea559db3e9e8d0a90930e",
+      "content_type": "text/html; charset=UTF-8",
+      "method": "GET through Python urllib with default verified TLS; no authentication or access bypass"
+    },
+    "duplicate_publication": {
+      "url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+      "visible_post_datetime": "Wed, 09/30/2026 - 21:19",
+      "schema_dateCreated": "2026-09-30T15:49:28+00:00",
+      "separate_date_field_as_displayed": "19-09-2026",
+      "separate_date_field_datetime": "2026-09-19T12:00:00Z",
+      "main_six_substantive_paragraphs_equal_after_whitespace_normalisation": true,
+      "independent_corroboration": false,
+      "acquisition": {
+        "request_url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+        "effective_url": "https://www.prd.kerala.gov.in/ml/node/360897/",
+        "status": 200,
+        "retrieved_at_utc": "2026-11-01T05:58:10.859852+00:00",
+        "bytes": 42185,
+        "sha256": "7c332492737dc8946edaa600d11ac126fff875571ae3fa59ebada2ac17c64198",
+        "headers_sha256": "69d8e284020eaa7ad53de5a48577b7d477927e54e033a3af5bf7e62bf2747596",
+        "content_type": "text/html; charset=UTF-8",
+        "method": "GET through Python urllib with default verified TLS; no authentication or access bypass"
+      }
+    },
+    "topic_register": "core-sources.json"
+  },
+  {
     "id": "district-status-2026-01",
     "title": "KITE 2026 Thiruvananthapuram district portal status snapshot",
     "url": "https://mela.kite.kerala.gov.in/2026/district/index.php/result/Public_result/status/1",
