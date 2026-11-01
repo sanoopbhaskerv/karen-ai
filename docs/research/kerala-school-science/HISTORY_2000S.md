@@ -2,7 +2,13 @@
 
 Reviewed **1 November 2026**. Two recovered DPI circulars add primary evidence before the [2009 integration manual](HISTORY.md#the-2009-integration-milestone). They concern historical **IT competitions**, rather than a full annual programme or results for every science-fair stream. Both six-page files were preserved from the Education Department's former official website; all twelve pages were read visually.
 
-The follow-up below adds archived official event-site pages and six item-result tables. Their HTML bodies, links and table structure were read directly; no browser-render review or validation of the referenced photographs is claimed.
+The follow-up below adds archived official event-site pages and six item-result tables. Their HTML bodies, links and table structure were read directly; no browser-render review or validation of the referenced photographs is claimed. A further six-page government retrospective supplies the earlier IT-stream statements below.
+
+## Government retrospective: IT fairs in 2002–04
+
+The Education Department's archived [IT@School activities till date](https://web.archive.org/web/20080719181157id_/http://www.education.kerala.gov.in/master/progressitschool.pdf), source `history-2000s-012`, carries year headings rather than a printed issue date. Under **2002**, PDF 1(vii), it calls the fair at **Thiruvalla** the state's first IT fair, held as part of the State School Science Fair. Under **2003**, PDF/printed 2(x), it reports the science fair and second IT fair successfully held at **Ernakulam**. Under **2004**, PDF/printed 3(ix), it records an associated IT fair at **Kottayam**, without an ordinal.
+
+All six pages were visually read. The received **19 July 2008** Memento date matches its cached CDX row and body digest. PDF metadata dated January 2006 and references to future July 2006 activity are not adopted as an issue date. These are a government retrospective's IT-stream claims, rather than original event circulars, exact event days, a confirmed academic-year sequence or Science Fair inaugural evidence. The missing earlier circulars and souvenir remain unrecovered.
 
 ## IT competitions alongside science fairs, 2004–05
 

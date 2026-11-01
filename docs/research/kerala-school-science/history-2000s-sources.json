@@ -490,5 +490,64 @@
     "count_scope": "Numbered rows in the received table, not unique pupils, attendance, eligible entrants, school/district points or a complete festival population. Full roster/contact fields not retained.",
     "notes": "Published item table is linked from the IT event site whose photo-page captions name December 2007. The item body has no independent event-year heading. Preserve that site association separately from a dated certificate for each row; historical grades/ranks are not current rules.",
     "annotation_scope": "Contains an appeal-allowed annotation citing DEO Order No.4274/2007 dated 7 December 2007, Thiruvalla. Underlying order not recovered/authenticated; no pupil identity copied."
+  },
+  {
+    "id": "history-2000s-012",
+    "title": "IT@School activities till date: official retrospective chronology of 2002–04 IT fairs",
+    "url": "https://web.archive.org/web/20080719181157id_/http://www.education.kerala.gov.in/master/progressitschool.pdf",
+    "original_url": "http://www.education.kerala.gov.in/master/progressitschool.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "archived_government_activity_report",
+    "document_date": null,
+    "archive_capture": "2008-07-19T18:11:57Z",
+    "memento_datetime_received": "Sat, 19 Jul 2008 18:11:57 GMT",
+    "sha256": "0013d45b310df8e08128246cc3421520604520cb9d0a0c74c37dd7a1578ef375",
+    "bytes": 79652,
+    "pdf_pages": 6,
+    "body_sha1_base32": "SGNZUXCZ736PFM5TJSA43OG3ZJXWZZME",
+    "cdx_digest_matches": true,
+    "authority": "IT@School logo and report title on PDF 1; official Kerala Education Department host; Executive Director designation on PDF 6. No named signatory or signature authentication claimed.",
+    "date_note": "The body has year headings 2001–2005 and plans mentioning July 2006 but no visible standalone issue date. PDF metadata dates creation/modification to 28 January 2006 and names an underlying Progress of this Government-20.01.06.doc file; these are metadata, not adopted issue dates. The 2008 archive capture is not an event date.",
+    "review_scope": "All six PDF pages rendered and read visually; all six text layers extracted, with legacy Malayalam font damage checked against rendered pages. PDF 3 year heading 2004 was also checked in a focused PDF-render crop. No browser-render audit. New body retrieved using a previously cached CDX URL row, without any fresh network CDX query.",
+    "page_locators": [
+      {
+        "pdf_page": 1,
+        "printed_page": null,
+        "year_heading": "2002",
+        "clause": "(vii)",
+        "fact": "The chronology says the state’s first IT fair was held at Thiruvalla as part of the State School Science Fair."
+      },
+      {
+        "pdf_page": 2,
+        "printed_page": "2",
+        "year_heading": "2003",
+        "clause": "(x)",
+        "fact": "The chronology says the State School Science Fair and second IT fair were successfully held at Ernakulam."
+      },
+      {
+        "pdf_page": 3,
+        "printed_page": "3",
+        "year_heading": "2004",
+        "clause": "(ix)",
+        "fact": "The chronology says a school IT fair was successfully organised at Kottayam in association with the State School Science Fair."
+      },
+      {
+        "pdf_page": 6,
+        "printed_page": "6",
+        "fact": "Closing Executive Director designation; no personal name/signature inferred."
+      }
+    ],
+    "notes": "Primary government retrospective, distinct from an original fair circular or contemporaneous programme. Its first/second language concerns the IT stream. It does not settle the Science Fair inaugural year, provide exact event days, identify full venue schools or certify results. Year headings are retained as printed; no academic-year conversion or continuous series inferred.",
+    "retrieved_at_utc": "2026-11-01T02:04:39.909746+00:00",
+    "http_status": 200,
+    "tls_verified": true,
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   }
 ]

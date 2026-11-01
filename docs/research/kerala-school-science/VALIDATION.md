@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 339 |
-| Distinct registered source URLs | 334 |
+| Source records | 354 |
+| Distinct registered source URLs | 349 |
 | Topic source registers | 22 |
-| JSON files | 47 |
-| Concise English/Malayalam knowledge records | 160 |
-| Draft Malayalam evaluation questions | 138 |
+| JSON files | 49 |
+| Concise English/Malayalam knowledge records | 171 |
+| Draft Malayalam evaluation questions | 149 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 13 |
@@ -70,6 +70,14 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | ISEF 2022 Materials Science category-award records | 1 |
 | Publisher-library model-book reference entries | 7 |
 | Underlying March 2026 grace-order pages | 8 |
+| Pre-2009 IT retrospective documents / pages | 1 / 6 |
+| INSPIRE public compendium volume links | 18 |
+| INSPIRE compendium works / physical PDF pages | 4 / 827 |
+| INSPIRE reviewed edition labels | 2 |
+| INSPIRE source-bound project descriptions | 16 |
+| INSPIRE state-heading / organisational descriptions | 13 / 3 |
+| INSPIRE target PDF pages visually reviewed | 62 |
+| Older NCERT model-book canonical holding targets | 5 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -173,3 +181,10 @@ The further project pass adds the 24-page KVRSS report, a CUSAT institutional it
 Against `4ae61bf`, 327 earlier source objects remain unchanged and one existing manual source gains explicit review/retrieval fields. The other 36 case objects and the two updated cases' original main credit arrays remain unchanged; their existing source-ID sequences are preserved as prefixes. Twenty-two other non-source JSON datasets remain byte-identical. The project index is enriched in place and one new seven-report dataset is added. All 149 knowledge and 127 evaluation records remain exact byte prefixes, with eleven pairs appended. No runtime, retrieval, training, provider or hardware change is included; Malayalam remains teacher-review draft.
 
 The packet's final independent publication audit passed **4,842 checks**, recalculating all **65 inventory rows** and checking **264 local links/anchors**, preservation, reference resolution and the actual new source acquisitions/nested formats against cached originals. A separate integrated cross-review passed 125 checks on the holding, manual, two case enrichments and five associated fact/evaluation pairs. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, physical attendance or Malayalam educator approval.
+
+
+The new early-IT report received full six-page visual review, preserving year headings, unknown issue date and actual Memento/CDX correspondence. Four complete INSPIRE compendia total 827 physical PDF pages: 418 seventh-edition pages screened through native text, and 409 newer pages processed with machine OCR for discovery. All adopted entry/credit/mechanism pages, organisational sections and target boundaries were visually read. Sparse native layers, bounded OCR and alternate-render clipping remain explicit; no full 827-page human audit is claimed. Separate reviews passed 149 checks on the first six new bilingual pairs, another 149 checks on the last five, 223 holding-transformation checks and 410/426 machine-derivative checks.
+
+The current CBSE location record remains a separate observation beside the literal NVS district/state field. Eleven new fact/evaluation pairs preserve programme/date/status and source-quality limits, with all Malayalam still marked for teacher review and evaluations held out. Five catalogue targets add no original model-book bodies or Kerala method chapters. Against `249de92`, all 339 previous source objects, all 38 case objects and 24 non-source structured JSON datasets remain unchanged; the 160 knowledge and 138 evaluation records remain exact byte prefixes. Two new datasets are added. No runtime, provider, retrieval, training or hardware change is included.
+
+The latest independent publication audit passed **5,046 checks**, recalculating all **73 inventory rows** and checking **279 local links/anchors**, reference resolution, preservation and new source acquisitions against cached originals. A separate ten-check review corroborated the current CBSE fields while preserving the original NVS geography fields. No material evidence-scope or privacy blocker remained. These reviews do not establish historical completeness, independent exhibit performance, attendance or Malayalam educator approval.

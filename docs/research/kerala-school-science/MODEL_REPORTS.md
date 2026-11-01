@@ -83,3 +83,19 @@ NCERT's official [General Publications bibliography](https://ncert.nic.in/ncertl
 | F25115 | 2005 / 2005 | 45 |
 
 The **F23762 title/imprint mismatch remains unresolved**. It must not be silently identified with the separately recovered 2003 annual report. Nor are seven entries necessarily seven distinct volumes. F25115 concerns 2005, whose actual book is already registered separately. The 59-page bibliography was text-screened, with targeted visual review of these reference pages; this is not a full historical library audit. A physical/library enquiry can use the reference and both printed date fields to seek a title/colophon and full scan. No new 2010 body was recovered by this pass.
+
+## Five institutional catalogue targets for older volumes
+
+The [holding register](ncert-model-holdings.json) adds five canonical NVLI MARC records with NCERT author/publisher attribution. Full HTML field/item listings and their advertised XML exports were read. These are exact catalogue follow-up targets, with **no newly recovered book body or Kerala chapter**. Registered year and extent are not a verified imprint or physical PDF page count.
+
+| Library as registered | Registered year / extent | Canonical catalogue record |
+| --- | --- | --- |
+| Indira Gandhi National Centre for the Arts | 1978 / `vi, 127p.` | [443949](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=443949) |
+| Nehru Memorial Museum & Library | 1996 / `vi, 129 p. :` | [3581510](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3581510) |
+| Nehru Memorial Museum & Library | 1998 / `172 :` | [3606554](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606554) |
+| Nehru Memorial Museum & Library | 1999 / `218p. :` | [3606497](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3606497) |
+| Nehru Memorial Museum & Library | 2000 / `viii, 171 p. v. :` | [3580424](https://librarycatalogue.nvli.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3580424) |
+
+Sources `project-040`–`project-044`. The IGNCA item explicitly records full call `607.34 STR` and barcode `IGNCA-G3753`. NMML item fields do not supply a full call number or barcode; classification fields are retained as classification. The 1996 record's additional 1997 note and the 2000 record's additional 1995 note are preserved without counting separate confirmed volumes. Two alias records are grouped rather than counted as extra works or known distinct copies. The 1978 target is separate from the publisher-library reference above; no identity of physical copies is established.
+
+None of the inspected records has a digital-location field. That does not establish that no digital copy exists elsewhere, or guarantee present shelf availability/completeness. A separately checked 1990 title lacks NCERT author/publisher confirmation and is excluded from these five targets. The complete 2010 volume and these older books' Kerala contents remain unrecovered.

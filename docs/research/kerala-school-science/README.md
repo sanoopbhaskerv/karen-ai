@@ -19,6 +19,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical result snapshots](RESULTS.md) | Overall school and district point tables captured across five editions |
 | [Rule changes](RULE_CHANGES.md) | Original manuals, amendments and differences between rules and catalogue views |
 | [Regional and national pathways](PATHWAYS.md) | SISF, NCERT exhibitions, INSPIRE MANAK, NCSC, CBSE and other distinct programmes |
+| [INSPIRE project compendia](INSPIRE_MODELS.md) | Edition-specific Kerala, KVS and NVS summaries, source credits, nomination updates and separate national cohorts |
 | [SISF annual-report chronology](SISF_HISTORY.md) | Seven report cycles, five reported regional events, pandemic statements and source-specific dates/counts |
 | [IRIS and ISEF research route](IRIS_ISEF.md) | Public-site edition/schedule conflicts, submission/video/anonymity rules, illustrative-paper limits and ISEF AI disclosures |
 | [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, first-cycle budget, historical ratifications, 13-item inventory, manual/amendment versions and conditional funding |
@@ -33,7 +34,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical Science circulars](HISTORICAL_SCIENCE_CIRCULARS.md) | 2023/2024 topics, amendments, essay directions and dated scope boundaries |
 | [Historical appeal and Work Experience directions](HISTORICAL_OPERATIONS.md) | 2023/2025 schedules, distinct model events and appeal capacity |
 | [Pandemic decisions and online programmes](PANDEMIC_ACTIVITIES.md) | 2020–22 primary decisions, online plans and unresolved completion evidence |
-| [Earlier IT competitions](HISTORY_2000S.md) | Official 2004/2007 instructions, event-site captions and six published item tables with 230 numbered entries |
+| [Earlier IT competitions](HISTORY_2000S.md) | Government retrospective for 2002–04, official 2004/2007 instructions, event-site captions and six item tables with 230 numbered entries |
 | [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
 | [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
 | [Additional departmental circulars](ADDITIONAL_2026_CIRCULARS.md) | Mathematics date amendment and the separate IT Quiz schedule/amendment |
@@ -58,6 +59,8 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 - [Catalogue differences](catalogue-changes.json): literal differences between the same subdistrict view in successive captured editions. These do not, by themselves, establish a rule change.
 - [Project index](project-index.json): 38 attributed exhibit records, including 37 with published method information and one prize record with a candidate method-source correspondence. The indigenous-fish case links an NCSC-labelled IRIS row to an ISEF 2024 abstract. The electrical-protection case now has a separate earlier credit/status version; the membrane case has a separately verified 2022 Materials Science award and limited university context. Qualifying routes and independent performance remain unresolved.
 - [SISF annual-report evidence](sisf-annual-report-evidence.json): seven reporting cycles across 684 PDF pages, with five specific SISF event records and two institutional pandemic non-conduct statements. Event-wide reported counts are not Kerala delegation totals or unique headcounts.
+- [INSPIRE compendium records](inspire-nlepc-kerala-projects.json): reviewed entries retain their edition, state/organisation section, literal credits and evidence limits. The public volume-link inventory does not imply every linked book was fully reviewed; listed entries are not Sasthrolsavam qualifiers or automatically final prizewinners.
+- [Older NCERT model-book holdings](ncert-model-holdings.json): five canonical institutional catalogue targets, with alternate formats/aliases grouped and no original book bodies or new Kerala methods recovered.
 - [National exhibit discovery](ncert-kerala-exhibit-discovery.json): 105 factual catalogue rows, separate from the selected method cases. These counts overlap and must not be added as a total of unique exhibits.
 - [National selection evidence](national-selection-index.json): 14 selected-exhibit records and 20 separate participant forms, with six versioned findings. Selection, submitted details, attendance and prizes remain distinct.
 - [SISF 2026 methods](sisf-2026-models.json): 31 Kerala write-ups across 49 content pages: 14 individual, seven group and ten teacher exhibits. Three focused-case links have matching source-image codes; a fourth is a candidate. Do not add the indexes as unique projects.
