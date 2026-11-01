@@ -108,3 +108,16 @@ def test_it_pronoun_does_not_hide_overall_standings_or_admit_foreign_fees():
 def test_registration_and_rule_malayalam_inflections(q,topic):
     a=lookup(q);assert a and a.get('topic_id')==topic
     assert a['sources']
+
+
+def test_fast_research_burst_retains_earlier_results(setup):
+    app,client,provider,token=setup
+    first=None
+    for n in range(80):
+        r=client.post('/test_chat',json={'user_message':'How many pupils must participate in HS Science Working Model?'},
+                      headers={'X-CSRF-Token':token,'X-Request-ID':f'coverage-burst-{n:03d}'})
+        assert r.status_code==200
+        if first is None:first=r.json
+    assert not provider.seen
+    assert client.get('/requests/coverage-burst-000').json==first
+    assert app.extensions['karen']['jobs'].capacity==256

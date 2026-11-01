@@ -206,7 +206,9 @@ def create_app(config=None, providers=None):
     else:
         provider = Providers(app)
     generation_stage = getattr(provider, 'generation_stage', 'gemini')
-    jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'])
+    # Fast research answers can exceed 64 turns during the ten-minute replay window.
+    # Keep replay guarantees with a bounded cache (at most 128 MB of MP3 payloads).
+    jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'], capacity=256)
     app.extensions['karen'] = {'history': history, 'lock': lock, 'providers': provider, 'jobs': jobs}
 
     def wants_json():
