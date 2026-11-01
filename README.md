@@ -10,6 +10,8 @@
 
 **Controller reply slower than browser voice?** See the [response-time guide, in English and Malayalam](docs/CONTROLLER_LATENCY.md) for the firmware update and serial timings.
 
+**Using OpenAI API credits?** See [OpenAI setup](docs/OPENAI.md) for the optional speech-recognition and answer provider, keeping Karen's existing Malayalam voice.
+
 Karen is a Malayalam-speaking science exhibition assistant. Karen may identify its creator as Sreehari; school, class section and home details stay private. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.

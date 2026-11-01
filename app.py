@@ -31,6 +31,8 @@ RULES = ('Always respond only in natural conversational Malayalam, in two or thr
          'run a language model on the ESP32. The following are public project facts:\n')
 
 class Providers:
+    generation_stage = 'gemini'
+
     def __init__(self, app):
         self.app = app
         self.diagnostic = {'status': 'untested'}
@@ -154,8 +156,12 @@ def create_app(config=None, providers=None):
         MAX_CONTENT_LENGTH=2 * 1024 * 1024,
         SESSION_COOKIE_HTTPONLY=True, SESSION_COOKIE_SAMESITE='Lax',
         MEMORY_PATH=os.getenv('MEMORY_PATH', str(BASE / 'data' / 'memory.txt')),
+        AI_PROVIDER=os.getenv('AI_PROVIDER', 'gemini'),
         GEMINI_API_KEY=os.getenv('GEMINI_API_KEY', ''),
         GEMINI_MODEL=os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite'),
+        OPENAI_API_KEY=os.getenv('OPENAI_API_KEY', ''),
+        OPENAI_MODEL=os.getenv('OPENAI_MODEL', 'gpt-6-luna'),
+        OPENAI_STT_MODEL=os.getenv('OPENAI_STT_MODEL', 'gpt-transcribe'),
         DEMO_MODE=os.getenv('DEMO_MODE', '0') == '1',
         KAREN_ADMIN_USERNAME=os.getenv('KAREN_ADMIN_USERNAME', 'karen'),
         KAREN_ADMIN_PASSWORD=os.getenv('KAREN_ADMIN_PASSWORD', ''),
@@ -166,6 +172,10 @@ def create_app(config=None, providers=None):
     )
     if config:
         app.config.update(config)
+    if app.config['AI_PROVIDER'] not in ('gemini', 'openai'):
+        raise ValueError('Unknown AI_PROVIDER. Use gemini or openai.')
+    provider_name = app.config['AI_PROVIDER']
+    provider_prefix = 'OPENAI' if provider_name == 'openai' else 'GEMINI'
     if app.config['KAREN_DEVICE_TOKEN'] and not app.config['KAREN_ADMIN_PASSWORD']:
         raise ValueError('Set KAREN_ADMIN_PASSWORD when enabling device authentication.')
     if app.config['KAREN_ADMIN_PASSWORD'] and not app.config['KAREN_ADMIN_USERNAME']:
@@ -186,7 +196,14 @@ def create_app(config=None, providers=None):
     history = []  # Deliberately shared across browser/device, as specified in the PRD.
     lock = threading.RLock()
     revision = 0
-    provider = providers or Providers(app)
+    if providers is not None:
+        provider = providers
+    elif provider_name == 'openai' and not app.config['DEMO_MODE']:
+        from openai_provider import OpenAIProvider
+        provider = OpenAIProvider(app, RULES)
+    else:
+        provider = Providers(app)
+    generation_stage = getattr(provider, 'generation_stage', 'gemini')
     jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'])
     app.extensions['karen'] = {'history': history, 'lock': lock, 'providers': provider, 'jobs': jobs}
 
@@ -197,8 +214,8 @@ def create_app(config=None, providers=None):
         with lock:
             return render_template('index.html', memory=anonymous_memory(memory_path.read_text(encoding='utf-8')),
                                    history=anonymous_history(history), error=anonymous_reply(error) if error else None, notice=notice,
-                                   demo=app.config['DEMO_MODE'], configured=bool(app.config['GEMINI_API_KEY']),
-                                   model=app.config['GEMINI_MODEL'], csrf=session['csrf'],
+                                   demo=app.config['DEMO_MODE'], configured=bool(app.config[provider_prefix + '_API_KEY']),
+                                   model=app.config[provider_prefix + '_MODEL'], csrf=session['csrf'],
                                    can_edit_memory=not app.config['KAREN_ADMIN_PASSWORD'] or g.get('admin_authenticated', False)), status
 
     def matches(value, expected):
@@ -294,10 +311,12 @@ def create_app(config=None, providers=None):
 
     @app.get('/health')
     def health():
-        return jsonify(status='ok', mode='demo' if app.config['DEMO_MODE'] else 'live',
-                       configured=bool(app.config['GEMINI_API_KEY']), model=app.config['GEMINI_MODEL'],
-                       gemini=getattr(provider, 'diagnostic', {'status': 'untested'}),
-                       request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
+        result = dict(status='ok', mode='demo' if app.config['DEMO_MODE'] else 'live',
+                      provider=provider_name, configured=bool(app.config[provider_prefix + '_API_KEY']),
+                      model=app.config[provider_prefix + '_MODEL'],
+                      request_timeout_seconds=app.config['REQUEST_TIMEOUT'], result_retention_seconds=600)
+        result[provider_name] = getattr(provider, 'diagnostic', {'status': 'untested'})
+        return jsonify(result)
 
     @app.post('/update')
     def update():
@@ -409,7 +428,7 @@ def create_app(config=None, providers=None):
             message = validate_message(message)
             def operation(job):
                 timings = {}
-                reply, version = measured_stage(job, timings, 'gemini', lambda: generate(message))
+                reply, version = measured_stage(job, timings, generation_stage, lambda: generate(message))
                 result = Result(dict(reply=reply, user_message=anonymous_history([('user', message)])[0][1],
                                      mode='demo' if app.config['DEMO_MODE'] else 'live'),
                                 headers=timing_headers(timings))
@@ -441,7 +460,7 @@ def create_app(config=None, providers=None):
             try:
                 transcript = measured_stage(job, timings, 'stt', lambda: validate_message(provider.transcribe(data)))
                 job.check()
-                reply, version = measured_stage(job, timings, 'gemini', lambda: generate(transcript))
+                reply, version = measured_stage(job, timings, generation_stage, lambda: generate(transcript))
                 job.check()
             except ServiceError as exc:
                 if exc.code == 'request_timeout':

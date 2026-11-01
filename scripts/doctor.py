@@ -115,17 +115,23 @@ def check_health(doctor, origin):
             if response.status != 200 or len(content) > 65536:
                 raise ValueError('Unexpected health response.')
             health = json.loads(content)
-        if not isinstance(health, dict) or health.get('status') != 'ok' or not isinstance(health.get('gemini'), dict):
+        if not isinstance(health, dict) or health.get('status') != 'ok':
             raise ValueError('Unexpected health response.')
         # Only print known status fields; never log arbitrary server response data.
-        gemini = health['gemini']
-        status = gemini.get('status')
+        provider = health.get('provider', 'gemini')
+        labels = {'gemini': 'Gemini', 'openai': 'OpenAI'}
+        if not isinstance(provider, str) or provider not in labels or not isinstance(health.get(provider), dict):
+            raise ValueError('Unexpected health response.')
+        status = health[provider].get('status')
         status = status if status in ('untested', 'ready', 'degraded', 'unconfigured') else 'unknown'
-        doctor.result('PASS', 'Backend health', f'/health reachable; Gemini status={status}. No AI request made.')
+        doctor.result('PASS', 'Backend health', f'/health reachable; {labels[provider]} status={status}. No AI request made.')
         if health.get('mode') != 'live' or not health.get('configured'):
             doctor.result('WARN', 'Backend mode', 'Backend is in demo mode or has no configured key. Ask the owner to configure live mode before AI tests.')
         if status != 'ready':
-            doctor.result('WARN', 'Live AI', 'Run scripts/diagnose_gemini.py and browser text/voice tests separately; health alone cannot validate a key.')
+            detail = ('Run scripts/diagnose_gemini.py and browser text/voice tests separately; health alone cannot validate a key.'
+                      if provider == 'gemini' else
+                      'Run browser text/voice tests separately; health alone cannot validate an OpenAI key.')
+            doctor.result('WARN', 'Live AI', detail)
     except (OSError, ValueError, urllib.error.URLError):
         doctor.result('FAIL', 'Backend health', 'Could not read Karen /health. Start the server, check the LAN IPv4/port and trusted Private-network firewall rule. Firewall was not changed.')
 
@@ -182,11 +188,16 @@ def checks(doctor, args):
         doctor.result('PASS', 'Computer settings', '.env exists; private contents hidden.')
     if settings.get('KAREN_CONTROLLER', 'esp32') != args.controller:
         doctor.result('WARN', 'Controller setting', 'Effective .env/.env.local/shell selection differs from this check. Use --controller explicitly for firmware builds/uploads; ask the owner to align settings.')
-    key = settings.get('GEMINI_API_KEY', '')
-    if not key or key.startswith(('PASTE_', 'YOUR_')):
-        doctor.result('WARN', 'Gemini key', 'A real key is not configured. The owner should set it locally before live text/voice tests; never share it in logs.')
+    provider = settings.get('AI_PROVIDER', 'gemini')
+    labels = {'gemini': 'Gemini', 'openai': 'OpenAI'}
+    if provider not in labels:
+        doctor.result('FAIL', 'AI provider', 'Unknown AI_PROVIDER. Use gemini or openai.')
     else:
-        doctor.result('PASS', 'Gemini key', 'A value is configured; validity/quota/model access have not been tested.')
+        key = (settings.get(provider.upper() + '_API_KEY', '') or '').strip()
+        if not key or key.startswith(('PASTE_', 'YOUR_')):
+            doctor.result('WARN', labels[provider] + ' key', 'A real key is not configured. The owner should set it locally before live text/voice tests; never share it in logs.')
+        else:
+            doctor.result('PASS', labels[provider] + ' key', 'A value is configured; validity/quota/model access have not been tested.')
     config_ok = all(define_value(doctor.config, name) for name in ('WIFI_SSID', 'WIFI_PASSWORD', 'SERVER_ORIGIN'))
     if not config_ok or any(value in doctor.config for value in ('YOUR_2_4_GHZ_HOTSPOT', 'YOUR_HOTSPOT_PASSWORD')):
         doctor.result('WARN', 'Firmware settings', 'Private config.h is missing/incomplete or contains examples. Set the 2.4 GHz WiFi and backend LAN address locally before upload.')

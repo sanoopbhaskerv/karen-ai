@@ -2,6 +2,8 @@
 
 The test deployment uses `https://sreehariv.makemykindred.com` on a single Ubuntu 24.04 Lightsail instance in Mumbai, from branch `codex/aws-cloud-server`. The UI links to all three Malayalam HTML guides. Local installations retain their original behavior when cloud credentials are unset.
 
+The app also supports `AI_PROVIDER=openai`, using a private `OPENAI_API_KEY`, `OPENAI_MODEL=gpt-6-luna` and `OPENAI_STT_MODEL=gpt-transcribe`. The existing Google Malayalam MP3 voice is retained. See [OpenAI setup](../docs/OPENAI.md). Provider choice is explicit; adding a key alone does not switch it.
+
 ## Cost and lifetime
 
 The selected `micro_3_1` IPv4 bundle is $7/month: 1 GB RAM, 40 GB disk and 1 TB monthly transfer in Mumbai. Seven days is approximately $1.60 before tax, DNS queries and Gemini usage. No free-tier allowance was confirmed for this account; do not assume zero cost. The existing Route 53 hosted zone is reused. No load balancer, database, NAT gateway or additional hosted zone is needed.
