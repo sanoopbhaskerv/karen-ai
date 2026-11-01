@@ -19,7 +19,13 @@ python -c "import sys; sys.exit(not ((3,12) <= sys.version_info[:2] < (3,16)))" 
 if not errorlevel 1 goto pythonpath
 python3 -c "import sys; sys.exit(not ((3,12) <= sys.version_info[:2] < (3,16)))" >nul 2>&1
 if not errorlevel 1 goto python3path
-echo No supported Python 3.12-3.15 was found on PATH or through the launcher. Install Python 3.14 from:
+echo No supported Python 3.12-3.15 was found on PATH or through the launcher.
+echo If Python Install Manager is already installed, run these in PowerShell:
+echo   pymanager install 3.14
+echo   py -3.14 --version
+echo   .\bootstrap-windows.cmd
+echo Use the complete version 3.14, with no trailing dot.
+echo Otherwise, install Python 3.14 from:
 echo https://www.python.org/downloads/windows/
 echo Choose Windows installer ^(64-bit^) for a usual Intel/AMD PC.
 echo Include the Python launcher, then reopen this file. See README.md.
