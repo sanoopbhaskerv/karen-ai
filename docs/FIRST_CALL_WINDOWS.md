@@ -165,9 +165,11 @@ Unplug USB **and** amplifier power. The adult checks the exact MAX98357A breakou
 | SPK+ / OUT+ | One speaker wire |
 | SPK− / OUT− | Other speaker wire |
 
-Both speaker terminals are amplifier outputs: **neither goes to GND**. A 4 Ω / 10 W marking describes the speaker's rating; it does not make this amplifier deliver 10 W. [Analog Devices](https://www.analog.com/en/products/max98357a.html) specifies the digital amplifier, and [Adafruit's breakout guide](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts) explains power and bridge-connected speaker outputs. Other breakouts can use different SD/GAIN resistors; if its instructions are unknown, finish the microphone stage and postpone this wiring.
+Both speaker terminals are amplifier outputs: **neither goes to GND**. The user now reports a **3 W / 4 Ω** speaker; verify the driver's marking. Its power rating does not set playback volume. [Analog Devices](https://www.analog.com/en/products/max98357a.html) specifies the digital amplifier, and [Adafruit's breakout guide](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts) explains power and bridge-connected speaker outputs. Other breakouts can use different SD/GAIN resistors; if its instructions are unknown, finish the microphone stage and postpone this wiring.
 
-After the adult checks the connections, power up and try one complete question at the firmware's low playback gain. **Go:** an understandable Malayalam reply from the speaker, no heat, crackling, brownout/reboot or loose connections. Power down to investigate any problem before trying again. Finish with **ten consecutive turns**, then repeat on the intended exhibition network/power source. See [the exhibition checklist](EXHIBITION.md).
+For first wiring checks, set `SPEAKER_GAIN=0.35f` in the existing private `config.h` and upload again; the new firmware default is `0.70f`. Preserve private settings. See [low speaker volume](HARDWARE.md#low-speaker-volume) for configuration and tuning steps.
+
+After the adult checks the connections, power up and try one complete question. **Go:** an understandable Malayalam reply from the speaker, no heat, crackling, brownout/reboot or loose connections. Power down to investigate any problem before trying again. Finish with **ten consecutive turns**, then repeat on the intended exhibition network/power source. See [the exhibition checklist](EXHIBITION.md).
 
 ## Keep the useful debug information
 

@@ -170,7 +170,7 @@ S3 GND ────────────────────────�
   </section>
   <section class="step" id="step9" aria-labelledby="title9">
     <div class="step-heading"><span class="number" aria-hidden="true">9</span><h2 id="title9">Speaker ബന്ധിപ്പിക്കുക; എല്ലാ wires-ഉം വീണ്ടും പരിശോധിക്കുക</h2></div>
-    <p><strong>USB-യും amplifier supply-യും ഇപ്പോഴും disconnected ആയിരിക്കണം.</strong> കുറഞ്ഞത് <strong>4 Ω</strong> impedance ഉള്ള passive moving-coil speaker ഉപയോഗിക്കുക; 4 Ω / 8 Ω സാധാരണ options ആണ്. Speaker-ന്റെ actual marking നോക്കുക. 4 Ω / 10 W speaker ആണെങ്കിൽ amplifier കുറഞ്ഞ power-ൽ ഉപയോഗിക്കാം; speaker-ൽ 10 W എന്ന് എഴുതിയതുകൊണ്ട് ഈ amplifier 10 W നൽകില്ല.</p>
+    <p><strong>USB-യും amplifier supply-യും ഇപ്പോഴും disconnected ആയിരിക്കണം.</strong> കുറഞ്ഞത് <strong>4 Ω</strong> impedance ഉള്ള passive moving-coil speaker ഉപയോഗിക്കുക; 4 Ω / 8 Ω സാധാരണ options ആണ്. ഇപ്പോൾ അറിയിച്ച speaker <strong>3 W / 4 Ω</strong> ആണ്; actual marking പരിശോധിക്കുക. Wattage rating volume നിശ്ചയിക്കുന്നില്ല.</p>
     <ol>
       <li>Speaker-ന്റെ ഒരു wire / marked <strong>+ → amplifier SPK+ / OUT+</strong>.</li>
       <li>Speaker-ന്റെ മറ്റേ wire / marked <strong>− → amplifier SPK− / OUT−</strong>.</li>
@@ -205,11 +205,12 @@ S3 GND ────────────────────────�
 [PLAY] Decoder finished ...
 [READY] Waiting for the next button press.</code></pre>
     <div class="go"><strong>വിജയിച്ചതിന്റെ തെളിവ്:</strong> speaker-ൽ നിന്ന് വ്യക്തമായി മനസ്സിലാകുന്ന മലയാളം മറുപടി കേൾക്കണം; laptop dashboard-ൽ recognized question ശരിയായിരിക്കണം; reboot / brownout / crackling ഉണ്ടാകരുത്. <code>[PLAY] Decoder finished</code> മാത്രം കാണുന്നത് speaker ശബ്ദം വന്നതിന് തെളിവല്ല.</div>
-    <p>Firmware playback gain ഇപ്പോൾ <strong>0.35</strong> ആണ്. ആദ്യം അത് നിലനിർത്തുക. അതേ pin map ഉള്ള firmware ഇതിനകം upload ചെയ്തിട്ടുണ്ടെങ്കിൽ amplifier ചേർത്തതിനായി മാത്രം വീണ്ടും upload ചെയ്യേണ്ടതില്ല.</p>
+    <p>പുതിയ firmware-ൽ playback default <code>SPEAKER_GAIN=0.70f</code> ആണ്; പഴയ fixed gain <code>0.35</code> ആയിരുന്നു. ആദ്യ wiring പരിശോധനയ്ക്ക് നിലവിലുള്ള <code>firmware/karen_ai/config.h</code>-ൽ <code>#define SPEAKER_GAIN 0.35f</code> ചേർക്കുകയോ തിരുത്തുകയോ ചെയ്ത് upload ചെയ്യാം. WiFi/server/certificate settings സൂക്ഷിക്കുക; example file കൊണ്ട് നിലവിലുള്ള config മാറ്റിയെഴുതരുത്. Monitor Ctrl+C ഉപയോഗിച്ച് അടച്ച് save ചെയ്തശേഷം <a href="#step6">ഘട്ടം 6-ലെ upload command</a> വീണ്ടും നൽകണം. Gain മാറ്റാൻ file save ചെയ്തതുകൊണ്ടുമാത്രം ബോർഡിൽ മാറ്റം വരില്ല.</p>
     <h3>ശബ്ദം വരുന്നില്ലെങ്കിൽ / പ്രശ്നമുണ്ടെങ്കിൽ</h3>
     <ul>
       <li><code>spoken-error</code> / HTTP error ആണെങ്കിൽ server-ലെ request ID / error നോക്കുക. Voice-recognition അല്ലെങ്കിൽ AI failure speaker wiring മാറ്റി പരിഹരിക്കാനാവില്ല.</li>
       <li><code>Result: ok</code> ഉണ്ടെങ്കിലും ശബ്ദമില്ലെങ്കിൽ <strong>രണ്ട് supplies-ഉം ഓഫ് ചെയ്തശേഷം</strong> amplifier VIN/GND, common ground, 16/17/18 signals, SD enable, speaker terminals എന്നിവ വീണ്ടും പരിശോധിക്കുക.</li>
+      <li><strong>ശബ്ദം കുറവാണെങ്കിൽ:</strong> പരിശോധിച്ച 5 V amplifier supply/common GND ഉറപ്പാക്കി നിലവിലുള്ള <code>config.h</code>-ലെ <code>SPEAKER_GAIN</code> <code>0.70f</code> ആക്കി വീണ്ടും upload ചെയ്യുക. <code>[PLAY]</code>-ൽ <code>gain=0.70</code> നോക്കുക. അനുവദിച്ച range <code>0.0f</code> (mute) മുതൽ <code>1.0f</code> വരെ; വ്യക്തവും സ്ഥിരവുമായ ശബ്ദമാണെങ്കിൽ മാത്രം <code>0.85f</code>, തുടർന്ന് <code>1.0f</code> പരീക്ഷിക്കുക. ഓരോ മാറ്റത്തിനും upload വേണം. Distortion ഉണ്ടെങ്കിൽ gain കുറയ്ക്കുക; reset/brownout ഉണ്ടെങ്കിൽ supply പരിശോധിക്കുക. <a href="HARDWARE.md#low-speaker-volume">കൂടുതൽ volume പരിശോധനകൾ</a>.</li>
       <li>ചൂട്, കത്തുന്ന മണം, repeated reboot, brownout, ശക്തമായ distortion ഉണ്ടെങ്കിൽ power ഓഫ് ചെയ്ത് മുതിർന്നയാൾ പരിശോധിക്കണം. Volume/gain കൂട്ടുന്നത് ആദ്യ പരിഹാരമല്ല.</li>
       <li>ഓരോ turn-ഉം പൂർത്തിയായി അടുത്ത <code>[READY]</code> വന്നശേഷം മാത്രം അടുത്ത ചോദ്യം ചോദിക്കുക. തുടർച്ചയായി <strong>10 വിജയകരമായ turns</strong> പരിശോധിക്കുക; തുടർന്ന് intended exhibition network/power ഉപയോഗിച്ചും പരീക്ഷിക്കുക.</li>
     </ul>
