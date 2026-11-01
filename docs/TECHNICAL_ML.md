@@ -135,12 +135,12 @@ curl --fail-with-body --max-time 155 -F 'audio=@question.wav;type=audio/wav' \
 |---|---|---|
 | ESP32 | Classic 38-pin CP2102 / Micro-USB board; 14, 22, 25, 26, 27, 32, 33, 2 GPIO labels കണ്ടതായി അറിയിച്ചിട്ടുണ്ട് | Module classic ESP32 ആണോ, USB data connection, flash capacity |
 | Microphone | കടയിലെ label INMP441 | യഥാർഥ VDD/GND/SCK/WS/SD/L-R labels, solder ചെയ്ത headers |
-| Amplifier | MAX98357A I2S വാങ്ങേണ്ടതുണ്ട് | ശരിയായ module, VIN/enable/gain നിർദേശങ്ങൾ, soldering |
-| Speaker | പെട്ടിയിൽ 4 ohms / 10 watts എന്നാണ് അറിയിച്ചത് | Driver-ൽ തന്നെയുള്ള impedance/power marking, രണ്ട് അനുയോജ്യ wires |
+| Amplifier | MAX98357A I2S തിരഞ്ഞെടുത്തിരിക്കുന്നു; speaker playback അറിയിച്ചിട്ടുണ്ട് | യഥാർഥ module, VIN/enable/gain നിർദേശങ്ങൾ, soldering |
+| Speaker | ഇപ്പോഴത്തെ വിവരം **3 W / 4 Ω**; playback ശബ്ദം കുറവ് | Driver-ൽ തന്നെയുള്ള impedance/power marking, രണ്ട് അനുയോജ്യ wires, യഥാർഥ supply-യിൽ വ്യക്തമായ output |
 | Button | Momentary push button | അമർത്തുമ്പോൾ മാത്രം short ആകുന്ന കാലുകൾ |
 | Power | USB power bank / Micro-USB data cable / Mac adapter | സ്ഥിരമായ 5 V, ആവശ്യമായ current, സുരക്ഷിത supply ക്രമീകരണം |
 
-PAM8403 ഈ firmware-നായി തിരഞ്ഞെടുത്തിട്ടില്ല; digital I2S output-ിൽ ബന്ധിപ്പിക്കരുത്. MAX98357A-യ്ക്ക് 5 V-ൽ 4-ohm load-ിലേക്ക് ഏകദേശം 3.2 W വരെയാണ്; 10 W നൽകില്ല. യഥാർഥ 4-ohm/10-watt passive speaker കുറഞ്ഞ power-ൽ ഉപയോഗിക്കാം; പെട്ടിയിലെ വിവരം മാത്രം ആശ്രയിക്കരുത്. Firmware output gain `0.35`-ൽ തുടങ്ങുക. Speaker നേരിട്ട് GPIO-യിൽ ബന്ധിപ്പിക്കരുത്.
+PAM8403 ഈ firmware-നായി തിരഞ്ഞെടുത്തിട്ടില്ല; digital I2S output-ിൽ ബന്ധിപ്പിക്കരുത്. അറിയിച്ച 3 W / 4 Ω passive speaker മിതമായ output-ൽ ഉപയോഗിക്കാം; wattage rating loudness നിശ്ചയിക്കുന്നില്ല. MAX98357A-യുടെ [4 Ω-ൽ 3.2 W എന്നത് 5 V-ലും 10% THD-യിലുമാണ്](https://www.adafruit.com/product/3006); വ്യക്തമായ output അതിലും കുറവായിരിക്കും. Amplifier-ന് 3.3 V നൽകിയാൽ ലഭിക്കുന്ന power ഇനിയും കുറയും. Speaker നേരിട്ട് GPIO-യിൽ ബന്ധിപ്പിക്കരുത്. ഈ specifications-ഉം playback അറിയിച്ചതും assembly-യുടെ power/sound quality പരിശോധിച്ചതിന് തെളിവല്ല.
 
 ### Wiring
 
@@ -193,10 +193,24 @@ Arduino IDE-ൽ ESP32 Dev Module തിരഞ്ഞെടുക്കുക. Fla
 4. **Credentials നൽകുക:** താഴെയുള്ള copy കമാൻഡ് ഉപയോഗിക്കുക. Git അവഗണിക്കുന്ന `config.h`-ൽ മാത്രം 2.4 GHz WiFi credentials-ഉം `SERVER_ORIGIN="http://<Mac-LAN-IP>:8080"`-ഉം നൽകുക. അവസാനം slash വേണ്ട. GPIO2 LED ഉറപ്പാക്കിയില്ലെങ്കിൽ `STATUS_LED=-1` നിലനിർത്തുക. Gemini key board-ിൽ ഇടരുത്.
 5. **Compile/upload:** Board, flash, partition വീണ്ടും ഉറപ്പാക്കുക. താഴെയുള്ള കമാൻഡുകളോ Arduino IDE-യോ ഉപയോഗിക്കുക. Serial Monitor 115200-ൽ തുറക്കുക; flash-size, WiFi, Ready സന്ദേശങ്ങൾ പ്രതീക്ഷിക്കാം.
 6. **Button + microphone:** പട്ടികപ്രകാരം INMP441-ഉം button-ഉം ബന്ധിപ്പിക്കുക. ഒരിക്കൽ അമർത്തി അഞ്ചു സെക്കൻഡ് Recording സമയത്ത് സംസാരിക്കുക. Request ID-യും backend log-ഉം നോക്കുക. Amplifier ഇല്ലാതെ capture/STT/server MP3 പരിശോധിക്കാം; കേൾക്കാവുന്ന playback പരിശോധിച്ചതായി കണക്കാക്കരുത്.
-7. **Amplifier + speaker:** Power off ചെയ്തശേഷം MAX98357A digital pins-ഉം പരിശോധിച്ച supply-ഉം ബന്ധിപ്പിക്കുക. Speaker SPK+/SPK−-ൽ മാത്രം. കുറഞ്ഞ gain-ൽ ഒരു പൂർണ്ണ മലയാളം മറുപടി കേൾക്കുക. Gain കൂട്ടുന്നതിനുമുമ്പ് supply സ്ഥിരതയും noise-ഉം പരിശോധിക്കുക.
+7. **Amplifier + speaker:** Power off ചെയ്തശേഷം MAX98357A digital pins-ഉം പരിശോധിച്ച supply-ഉം ബന്ധിപ്പിക്കുക. Speaker SPK+/SPK−-ൽ മാത്രം. ആദ്യ wiring പരിശോധനയ്ക്ക് `SPEAKER_GAIN=0.35f` നൽകി upload ചെയ്യുക. ഒരു പൂർണ്ണ മലയാളം മറുപടി കേൾക്കുക. പുതിയ default `0.70f` ഉപയോഗിക്കുന്നതിനോ കൂടുതൽ കൂട്ടുന്നതിനോ മുമ്പ് supply സ്ഥിരതയും noise-ഉം പരിശോധിക്കുക.
 8. **Input ക്രമീകരിക്കുക:** INMP441 32-bit slots `MIC_SHIFT=16` ഉപയോഗിച്ച് 16-bit ആക്കുന്നു. ശബ്ദം തീരെ കുറവെങ്കിൽ 15, തുടർന്ന് 14 പരീക്ഷിക്കാം. Clipping ഉണ്ടെങ്കിൽ gain കുറയ്ക്കുക. Software gain മാറ്റുന്നതിനുമുമ്പ് L/R=GND-ഉം soldering-ഉം പരിശോധിക്കുക.
 9. **Recovery:** WiFi/internet വിച്ഛേദിച്ച് പിശക് കാണിക്കുന്നുണ്ടോ പരിശോധിക്കുക. ബന്ധം തിരികെവന്നാൽ മുൻ request ID പരിശോധിച്ചശേഷം മാത്രം വീണ്ടും അമർത്തുക. വൈകിയ result duplicate turns ഉണ്ടാക്കരുത്; തെറ്റായ WAV/JSON MP3 ആയി play ചെയ്യരുത്.
 10. **തുടർച്ചയായ പരീക്ഷണം:** പത്ത് physical turns നടത്തുക. വ്യക്തത, clipping, I2S വീണ്ടും തുടങ്ങൽ, temporary flash files നീക്കം, power സ്ഥിരത, reset ഇല്ലായ്മ എന്നിവ പരിശോധിക്കുക. യഥാർഥ power bank/network ഉപയോഗിച്ച് വേദിയിലും ആവർത്തിക്കുക.
+
+### Speaker ശബ്ദം കുറവായാൽ
+
+പഴയ firmware-ൽ output gain `0.35` ആയിരുന്നു. ഇപ്പോൾ `SPEAKER_GAIN` ക്രമീകരിക്കാം; default `0.70f` ആണ്. പഴയ private config-ൽ ഇത് ഇല്ലെങ്കിലും പുതിയ default ഉപയോഗിക്കും. Digital sample amplitude ഇരട്ടിയാകുന്നു; അതുകൊണ്ട് ഒരു നിശ്ചിത loudness-ഓ power-ഓ ഉറപ്പില്ല.
+
+നിലവിലുള്ള ignored `firmware/karen_ai/config.h`-ൽ ഈ line മാത്രം ചേർക്കുക അല്ലെങ്കിൽ തിരുത്തുക. WiFi, server, certificate settings സൂക്ഷിക്കുക:
+
+```cpp
+#define SPEAKER_GAIN 0.70f
+```
+
+അനുവദിച്ച range `0.0f` (mute) മുതൽ `1.0f` വരെയാണ്. Serial Monitor അടച്ച് save ചെയ്തശേഷം ശരിയായ controller/port ഉപയോഗിച്ച് വീണ്ടും upload ചെയ്യണം. സാധാരണ example build private `config.h` ഉപയോഗിക്കില്ല; board update ചെയ്യുകയുമില്ല. `[PLAY]` log-ൽ `gain=0.70` പരിശോധിക്കുക. ആദ്യ wiring പരിശോധനയ്ക്ക് `0.35f` ഉപയോഗിക്കാം. `0.70f`-ൽ വ്യക്തവും സ്ഥിരവുമായ ശബ്ദം ലഭിച്ചിട്ടും volume കുറവാണെങ്കിൽ `0.85f`, തുടർന്ന് `1.0f` പരീക്ഷിക്കാം; ഓരോ മാറ്റത്തിനും upload വേണം. Distortion ഉണ്ടെങ്കിൽ gain കുറയ്ക്കുക; reset/brownout ഉണ്ടെങ്കിൽ വീണ്ടും കൂട്ടുന്നതിനുമുമ്പ് supply പരിശോധിക്കുക.
+
+അതേ reply കമ്പ്യൂട്ടറിൽ കേട്ടുനോക്കുക. അവിടെ വ്യക്തമായാൽ amplifier VIN, പരിശോധിച്ച 5 V supply, common GND, SPK+/SPK− soldering, ആ breakout-ന്റെ GAIN/SD നിർദേശങ്ങൾ എന്നിവ പരിശോധിക്കുക. Speaker output ഒന്നും GND-ൽ ചേർക്കരുത്; external amplifier 5 V rail USB-powered controller-ന്റെ supply rail-ൽ ചേർക്കരുത്. `MIC_SHIFT` മാറ്റുന്നത് reply playback volume കൂട്ടില്ല.
 
 ```bash
 test -f firmware/karen_ai/config.h || cp firmware/karen_ai/config.example.h firmware/karen_ai/config.h
@@ -246,7 +260,7 @@ Memory editor പരിശോധിക്കുമ്പോൾ സ്ഥിര�
 - Firmware cross-compile വിജയിച്ചു: Arduino CLI 1.5.2-rc.1, Arduino-ESP32 **3.3.12**, ESP8266Audio **2.4.1**, classic ESP32 / 4 MB / No OTA target. Program **1,201,296 / 2,097,152 bytes (57%)**; static RAM **49,272 / 327,680 bytes (15%)**; runtime allocation-ന് മുമ്പ് 278,408 bytes ശേഷിച്ചു.
 - Example credentials ഉപയോഗിച്ച് multipart upload, async polling, standard digital I2S mic/MP3 playback, optional LED എന്നിവ compile ചെയ്തു. Board upload ചെയ്തിട്ടില്ല; insecure TLS ഉപയോഗിച്ചിട്ടില്ല. Compile വിജയിക്കുന്നത് flash capacity, runtime heap, യഥാർഥ hardware പ്രവർത്തനം എന്നിവ തെളിയിക്കുന്നില്ല.
 
-ഇനിയും പരിശോധിക്കേണ്ടത്: board/module markings, flash, serial/upload, microphone pinout/soldering/gain/noise, button, MAX98357A ലഭ്യത, speaker marking/wires, മനുഷ്യശബ്ദം, speaker quality, brownout, power bank, പത്ത് physical turns, ESP32 WiFi/NTP/TLS/recovery, cloud proxy/storage, വേദിയിലെ network.
+ഇനിയും പരിശോധിക്കേണ്ടത്: board/module markings, flash, serial/upload, microphone pinout/soldering/gain/noise, button, MAX98357A module/power, speaker marking/wires, മനുഷ്യശബ്ദം, speaker quality, brownout, power bank, പത്ത് physical turns, ESP32 WiFi/NTP/TLS/recovery, cloud proxy/storage, വേദിയിലെ network.
 
 ## 9. ശാസ്ത്രപ്രദർശനത്തിനുള്ള ഒരുക്കം
 
@@ -290,6 +304,7 @@ Physical microphone/speaker പരാജയപ്പെട്ടാൽ dashboard
 | മലയാളം തിരിച്ചറിയുന്നില്ല | Mic channel, ശാന്തമായ സ്ഥലം, gain, mono 16-bit WAV |
 | Mic ശൂന്യം / വികൃതം | INMP441 L/R=GND, clock pins, supply |
 | Speaker ശബ്ദമില്ല | Amplifier enable/VIN/GND, speaker terminals, pin mapping |
+| Speaker ശബ്ദം കുറവ് | നിലവിലുള്ള `config.h`-ൽ `SPEAKER_GAIN` നൽകി വീണ്ടും upload ചെയ്യുക; പരിശോധിച്ച 5 V amplifier supply, common GND, SPK+/SPK− പരിശോധിക്കുക |
 | TLS failure | കൃത്യമായ hostname, root CA, NTP സമയം/connectivity |
 | ESP32 brownout/reboot | Supply/current, amplifier wiring, decoupling |
 | HTTP 400 | WAV format/duration, multipart field `audio` |

@@ -17,6 +17,13 @@
 #define KAREN_DEVICE_TOKEN ""
 #endif
 
+// Existing private config.h files do not need to be replaced for this update.
+#ifndef SPEAKER_GAIN
+#define SPEAKER_GAIN 0.70f
+#endif
+static_assert(SPEAKER_GAIN>=0.0f&&SPEAKER_GAIN<=1.0f,
+  "SPEAKER_GAIN must be between 0.0f and 1.0f.");
+
 static const uint32_t RATE=16000;
 static const char *BOUNDARY="KarenESP32Boundary7d29";
 i2s_chan_handle_t mic=nullptr;
@@ -176,9 +183,9 @@ bool requestReply(){
   Serial.printf("[HTTP][ERROR] Timed out. Inspect /requests/%s before starting another turn.\n",requestId);return false;
 }
 bool playReply(){
-  Serial.printf("[%lu ms][PLAY] Starting MP3 decoder; gain=0.35.\n",millis());
+  Serial.printf("[%lu ms][PLAY] Starting MP3 decoder; gain=%.2f.\n",millis(),(double)SPEAKER_GAIN);
   AudioFileSourceLittleFS source("/reply.mp3");AudioOutputI2S out;
-  out.SetPinout(AMP_BCLK,AMP_WS,AMP_DATA);out.SetGain(0.35);
+  out.SetPinout(AMP_BCLK,AMP_WS,AMP_DATA);out.SetGain(SPEAKER_GAIN);
   AudioGeneratorMP3 decoder;
   if(!decoder.begin(&source,&out)){Serial.println("[PLAY][ERROR] MP3 decoder did not start.");return false;}
   unsigned long start=millis();

@@ -74,7 +74,7 @@ Upload ചെയ്തുകഴിഞ്ഞാലും കമ്പ്യൂട
 
 ### ഹാർഡ്‌വെയർ ഘട്ടത്തിന് വേണ്ട സാധനങ്ങൾ
 
-Controller, USB **data** cable, INMP441 മൈക്രോഫോൺ, MAX98357A I2S ആംപ്ലിഫയർ, passive speaker, പുറത്തു ബന്ധിപ്പിക്കുന്ന momentary push button, വയറുകൾ എന്നിവ വേണം. Charging മാത്രം ചെയ്യുന്ന cable ഉപയോഗിച്ച് upload ചെയ്യാൻ കഴിയില്ല. ആംപ്ലിഫയർ ഇനിയും വാങ്ങാനുണ്ടെങ്കിൽ ആദ്യം കമ്പ്യൂട്ടറിലെയും മൈക്രോഫോണിലെയും പരിശോധനകൾ ചെയ്യാം.
+Controller, USB **data** cable, INMP441 മൈക്രോഫോൺ, MAX98357A I2S ആംപ്ലിഫയർ, passive speaker, പുറത്തു ബന്ധിപ്പിക്കുന്ന momentary push button, വയറുകൾ എന്നിവ വേണം. Charging മാത്രം ചെയ്യുന്ന cable ഉപയോഗിച്ച് upload ചെയ്യാൻ കഴിയില്ല. Amplifier ബന്ധിപ്പിക്കുന്നതിനുമുമ്പ് കമ്പ്യൂട്ടറിലെയും മൈക്രോഫോണിലെയും പരിശോധനകൾ ചെയ്യാം.
 
 Soldering ചെയ്യാനും amplifier power ബന്ധിപ്പിക്കാനും മുതിർന്ന ഒരാളുടെ സഹായം തേടുക. വയറുകൾ മാറ്റുന്നതിനുമുമ്പ് power അഴിക്കുക. മൈക്രോഫോണിന് **3.3 V** മാത്രം നൽകുക; 5 V കൊടുക്കരുത്. സ്പീക്കർ നേരിട്ട് controller pin-ൽ ബന്ധിപ്പിക്കരുത്.
 
@@ -437,7 +437,7 @@ Amplifier ഇല്ലാതെ ബോർഡിൽനിന്ന് സ്പ�
 
 ## 14. MAX98357A amplifier-ഉം speaker-ഉം ചേർക്കുക
 
-MAX98357A കിട്ടിയിട്ടില്ലെങ്കിൽ കമ്പ്യൂട്ടർ/മൈക്രോഫോൺ പരിശോധനകൾവരെ മാത്രം ചെയ്യുക. **ഈ firmware-ൽ PAM8403 അതിന് പകരമല്ല.**
+MAX98357A I2S amplifier ഉപയോഗിക്കുക. **ഈ firmware-ൽ PAM8403 അതിന് പകരമല്ല.**
 
 Power അഴിക്കുക. Amplifier-ന്റെ യഥാർഥ labels, soldering, 5 V supply എങ്ങനെ നൽകണം എന്നിവ മുതിർന്ന ഒരാളെക്കൊണ്ട് പരിശോധിപ്പിക്കുക. ESP32-യിലെ ഏത് supply pin-ൽനിന്നും amplifier-ന് power കൊടുക്കാമെന്ന് ഊഹിക്കരുത്.
 
@@ -453,7 +453,19 @@ Power അഴിക്കുക. Amplifier-ന്റെ യഥാർഥ labels, s
 
 Speaker-ന്റെ ഒരു വയറും GND-ലേക്കോ controller GPIO-യിലേക്കോ പോകരുത്. യഥാർഥ power circuit പരിശോധിക്കാതെ computer USB power-ഉം പുറത്തുനിന്നുള്ള 5 V-ഉം ബോർഡിൽ തമ്മിൽ കൂട്ടരുത്. വേറെ supply ഉപയോഗിക്കുന്ന amplifier-നും controller-നും common GND വേണം. Microphone VDD-യിലോ GPIO-യിലോ ഒരിക്കലും 5 V കൊടുക്കരുത്.
 
-അവസാനം കാണിച്ച speaker box-ൽ **4 ohms / 10 watts** എന്നാണ്. Speaker-ന്റെ സ്വന്തം marking പരിശോധിക്കുക. ആ rating ഉള്ളതുകൊണ്ട് amplifier 10 watts നൽകുമെന്നല്ല. Firmware കുറഞ്ഞ playback gain-ലാണ് തുടങ്ങുന്നത്. Supply സ്ഥിരമാണെന്നും wiring ശരിയാണെന്നും മുതിർന്ന ഒരാൾ പരിശോധിക്കുന്നതുവരെ gain കൂട്ടരുത്.
+Speaker ഇപ്പോൾ **3 W / 4 Ω** എന്നാണ് അറിയിച്ചിരിക്കുന്നത്. Driver-ന്റെ സ്വന്തം marking പരിശോധിക്കുക. Power rating volume നിശ്ചയിക്കുന്നില്ല. MAX98357A-യുടെ പരസ്യത്തിലുള്ള **4 Ω-ൽ 3.2 W എന്നത് 5 V supply-യിലും 10% distortion അനുവദിക്കുമ്പോഴുമാണ്**; വ്യക്തമായ ശബ്ദത്തിന് ലഭിക്കുന്ന power കുറവായിരിക്കും. Amplifier-ന് 3.3 V നൽകിയാൽ output ഇനിയും കുറയും. [Breakout specifications](https://www.adafruit.com/product/3006) കാണുക. മുകളിൽ പറഞ്ഞതുപോലെ പരിശോധിച്ച amplifier 5 V supply-യും common GND-യും ഉപയോഗിക്കുക; controller-ന്റെ 3V3 rail-ൽനിന്ന് amplifier-ന് power നൽകരുത്.
+
+### Speaker ശബ്ദം കുറവാണെങ്കിൽ
+
+പഴയ firmware playback gain `0.35` ആയിരുന്നു. പുതിയ default `SPEAKER_GAIN=0.70f` ആണ്. അത് വ്യക്തമായി നൽകാൻ നിലവിലുള്ള `firmware/karen_ai/config.h` തുറന്ന് താഴെയുള്ള ഒരു line ചേർക്കുക അല്ലെങ്കിൽ തിരുത്തുക. WiFi, server, certificate settings സൂക്ഷിക്കുക:
+
+```cpp
+#define SPEAKER_GAIN 0.70f
+```
+
+Serial Monitor അടച്ച് file save ചെയ്തശേഷം **Step 12 പ്രകാരം വീണ്ടും upload ചെയ്യുക**. File തിരുത്തിയതുകൊണ്ട് മാത്രം board മാറില്ല. Serial Monitor-ൽ `[PLAY]` line-ൽ `gain=0.70` കാണണം. അനുവദിച്ച range `0.0f` (mute) മുതൽ `1.0f` വരെയാണ്. ആദ്യ wiring പരിശോധനയ്ക്ക് പഴയ `0.35f` ഉപയോഗിക്കാം. `0.70f`-ലും ശബ്ദം കുറവാണെങ്കിലും വ്യക്തവും സ്ഥിരവുമാണെങ്കിൽ `0.85f`, തുടർന്ന് `1.0f` പരീക്ഷിക്കാം; ഓരോ മാറ്റത്തിനുശേഷവും upload വേണം. ശബ്ദം വികൃതമാകുമ്പോൾ gain കുറയ്ക്കുക; board reset ചെയ്താൽ supply/wiring പരിശോധിക്കുക.
+
+ഇനിയും ശബ്ദം കുറവാണെങ്കിൽ അതേ reply കമ്പ്യൂട്ടറിൽ കേട്ടുനോക്കുക. Amplifier VIN, പരിശോധിച്ച supply, common GND, solder ചെയ്ത SPK+/SPK− connections, ഈ breakout-ന്റെ GAIN/SD നിർദേശങ്ങൾ എന്നിവ പരിശോധിക്കുക. Speaker gain microphone sensitivity മാറ്റുന്നില്ല; ഈ പ്രശ്നത്തിന് `MIC_SHIFT` മാറ്റേണ്ടതില്ല.
 
 Power വീണ്ടും നൽകുക. Ready വരാൻ കാത്തിരിക്കുക. External button ഉപയോഗിച്ച് ഒരു ചെറിയ ചോദ്യം ചോദിക്കുക. മുഴുവൻ മലയാളം മറുപടി കേൾക്കുക. Board restart ചെയ്യുകയോ ചൂടാകുകയോ ശബ്ദം വളരെ മോശമായി മുറിയുകയോ ചെയ്താൽ power അഴിച്ച് supply/wiring പരിശോധിക്കാൻ സഹായം തേടുക. പ്രദർശനത്തിന് മുമ്പ് പത്ത് സാധാരണ ചോദ്യങ്ങൾ തുടർച്ചയായി വിജയിപ്പിക്കുക.
 
@@ -513,6 +525,7 @@ Browser, server Window A, Serial Monitor എന്നിവയിൽ കാണ�
 | Board-ന് server കിട്ടുന്നില്ല | Window A തുറന്നുവയ്ക്കുക. നിലവിലെ computer LAN IP, firewall, shared network എന്നിവ നോക്കുക. |
 | Microphone ശബ്ദം കിട്ടുന്നില്ല / വ്യക്തമല്ല | VDD=3V3, L/R=GND, ശരിയായ wiring column, soldered connections എന്നിവ നോക്കുക. |
 | Speaker ശബ്ദമില്ല | MAX98357A തന്നെയാണോ, power/enable, common GND, SPK+/SPK− എന്നിവ ശരിയാണോ നോക്കുക. |
+| Speaker ശബ്ദം കുറവ് | നിലവിലുള്ള `config.h`-ൽ `SPEAKER_GAIN` നൽകി വീണ്ടും upload ചെയ്യുക; Step 14 കാണുക. കൂടുതൽ കൂട്ടുന്നതിനുമുമ്പ് amplifier supply പരിശോധിക്കുക. |
 | Board വീണ്ടും വീണ്ടും restart ചെയ്യുന്നു | Power അഴിക്കുക. വീണ്ടും ശ്രമിക്കുന്നതിന് മുമ്പ് supply/wiring പരിശോധിക്കാൻ സഹായം തേടുക. |
 
 ഒരു request-ന് സമയം വേണ്ടിവരാം. Browser/device-ന്റെ സാധാരണ wait budget ഏകദേശം **2 മിനിറ്റ് 40 സെക്കൻഡ്** ആണ്. ഒരിക്കൽ അമർത്തിയശേഷം മറുപടിയോ error-ഓ വരാൻ കാത്തിരിക്കുക. ഒരു ചോദ്യത്തെ തിരിച്ചറിയുന്ന നീളമുള്ള code ആണ് request ID. ഫലം പരിശോധിക്കുമ്പോൾ അത് കൃത്യമായി പകർത്തുക. Connection നഷ്ടപ്പെട്ടാൽ അതേ ID ഉപയോഗിച്ച് ഫലം വീണ്ടെടുക്കാം; മറ്റൊരു conversation turn ഉണ്ടാക്കേണ്ടതില്ല. Server restart ചെയ്താലോ ഫലത്തിന്റെ കാലാവധി കഴിഞ്ഞാലോ ഈ recovery സാധ്യമാകില്ല.
