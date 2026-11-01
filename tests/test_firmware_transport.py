@@ -60,7 +60,18 @@ unsigned long clockMs = 0;
 unsigned long millis() { return clockMs++; }
 void delay(unsigned long ms) { clockMs += ms; }
 void yield() { clockMs++; }
-void configTime(int, int, const char*, const char*) {}
+time_t clockValue = 1800000000;
+int syncAfterAttempt = 0;
+std::vector<std::string> timeServers;
+unsigned long syncReadyAt = 0;
+void configTime(int, int, const char* first, const char*, const char*) {
+  timeServers.emplace_back(first);
+  if (int(timeServers.size()) == syncAfterAttempt) syncReadyAt = clockMs + 1000;
+}
+time_t fakeTime(time_t*) {
+  if (syncReadyAt && clockMs >= syncReadyAt) clockValue = 1800000000;
+  return clockValue;
+}
 uint32_t esp_random() { static uint32_t n = 100; return ++n; }
 const char *SERVER_ORIGIN = "https://example.test";
 const char *KAREN_DEVICE_TOKEN = "private-test-token";
@@ -211,6 +222,29 @@ int main(int argc, char **argv) {
     pending.length = pending.body.size();
     Reply audio{200, 8, "ID3reply", "audio/mpeg"};
     bool expected = true;
+    if (scenario.rfind("clock-", 0) == 0) {
+      clockValue = 0;
+      if (scenario == "clock-primary") syncAfterAttempt = 1;
+      if (scenario == "clock-fallback") syncAfterAttempt = 2;
+      if (scenario == "clock-third") syncAfterAttempt = 3;
+      if (scenario == "clock-cached") clockValue = 1800000000;
+      bool ready = ensureClock();
+      check(ready == (scenario != "clock-blocked"), "Unexpected clock result");
+      if (scenario == "clock-cached") check(timeServers.empty(), "Valid clock restarted NTP");
+      else check(timeServers.front() == "time.google.com", "Primary server missing");
+      if (scenario == "clock-fallback") check(timeServers.size() == 2 && timeServers[1] == "time.cloudflare.com", "Fallback server missing");
+      if (scenario == "clock-third" || scenario == "clock-blocked") check(timeServers.size() == 3 && timeServers[2] == "pool.ntp.org", "Third server missing");
+      if (scenario == "clock-blocked") {
+        check(clockMs < 46000, "Clock wait exceeded its budget");
+        check(!clockSyncStarted, "Failed clock cannot retry next turn");
+        check(!requestReply(), "HTTPS proceeded without valid time");
+        check(methods.empty(), "Sent authenticated request without time");
+      } else {
+        auto count = timeServers.size();
+        check(ensureClock() && timeServers.size() == count, "Synced clock was not reused");
+      }
+      return 0;
+    }
     if (scenario == "pending") script = {pending, pending, audio};
     else if (scenario == "private-timing") {
       timingHeader = "private-question;dur=123, stt;dur=10;desc=private-token, gemini;dur=-5";
@@ -271,12 +305,12 @@ def transport(tmp_path_factory):
         pytest.skip('Host C++ compiler unavailable; real ESP32 builds are separate')
     source = (ROOT / 'firmware/karen_ai/karen_ai.ino').read_text()
     # All HTTP-specific helpers are kept together immediately before the flow.
-    begin = source.index('bool drainPendingReply(')
+    begin = source.index('// Start SNTP before recording')
     end = source.index('bool playReply(', begin)
-    network = source[begin:end]
+    network = source[begin:source.index('bool connectWiFi()', begin)] + source[source.index('bool drainPendingReply(', begin):end]
     folder = tmp_path_factory.mktemp('firmware-transport')
     cpp, executable = folder / 'transport.cpp', folder / 'transport'
-    cpp.write_text(HARNESS + '\n' + network + '\n' + RUNNER)
+    cpp.write_text(HARNESS + '\n#define time fakeTime\n' + network + '\n' + RUNNER)
     built = subprocess.run([compiler, '-std=c++17', str(cpp), '-o', str(executable)],
                            capture_output=True, text=True)
     assert built.returncode == 0, built.stderr
@@ -284,6 +318,7 @@ def transport(tmp_path_factory):
 
 
 @pytest.mark.parametrize('scenario', [
+    'clock-primary', 'clock-fallback', 'clock-third', 'clock-blocked', 'clock-cached',
     'pending', 'lost-post', 'unknown-after-lost-post', 'server-closes',
     'oversized-pending', 'unknown-pending-length', 'truncated-pending',
     'truncated-audio', 'four-transport-errors', 'private-timing',

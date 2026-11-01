@@ -9,7 +9,7 @@ The board always records for five seconds with the example settings. Compare bro
 - Send `question.wav` directly as `audio/wav`; avoid a second flash copy just to add multipart wrapping. The existing server already accepts this format.
 - Use HTTP/1.1 connection reuse for status polling, consuming each pending response before the next request. A server may still close a connection; existing same-request-ID recovery handles transport failures.
 - Disable WiFi power saving while the voice assistant is running. This trades some power consumption for network responsiveness.
-- Synchronize the HTTPS clock only when needed and report its duration. Certificate verification stays enabled.
+- Start HTTPS clock synchronization after WiFi connects, before recording. If time is still unavailable, explicitly try Google, Cloudflare and pool.ntp.org as primary servers for up to 15 seconds each. Reuse a synchronized clock; certificate verification stays enabled. If all attempts fail, try a network that allows NTP (UDP 123), such as another 2.4 GHz hotspot. An NTP timeout occurs before certificate validation and does not mean the root CA is wrong.
 - Print recording, upload/response, download and button-to-playback timings. An updated backend also returns `Server-Timing` for recognition (`stt`), answer generation (`gemini`) and speech generation (`tts`).
 
 These changes remove known overhead. A particular response-time improvement still needs measurement on the physical board.

@@ -99,13 +99,42 @@ bool recordQuestion(){
   if(written&&clippedSamples>written/100)Serial.println("[MIC][WARN] More than 1% clipped samples. Move farther away; check MIC_SHIFT before changing gain.");
   return ok&&written==target;
 }
+// Start SNTP before recording so DNS/server retries can run in the background.
+static const char* clockServers[]={"time.google.com","time.cloudflare.com","pool.ntp.org"};
+static bool clockSyncStarted=false;
+void beginClockSync(){
+  if(!String(SERVER_ORIGIN).startsWith("https://")||time(nullptr)>=1700000000||clockSyncStarted)return;
+  configTime(0,0,clockServers[0],clockServers[1],clockServers[2]);
+  clockSyncStarted=true;
+  Serial.println("[TLS] Background clock synchronization started.");
+}
+bool ensureClock(){
+  unsigned long started=millis();
+  if(time(nullptr)<1700000000){
+    beginClockSync();
+    // Restart SNTP with each provider as primary rather than relying on its
+    // internal retry/backoff to reach another server during a short turn.
+    for(int attempt=0;attempt<3&&time(nullptr)<1700000000;attempt++){
+      Serial.printf("[TLS] Clock attempt=%d/3 server=%s; wait up to 15 seconds.\n",attempt+1,clockServers[attempt]);
+      if(attempt>0)configTime(0,0,clockServers[attempt],clockServers[(attempt+1)%3],clockServers[(attempt+2)%3]);
+      unsigned long attemptStarted=millis();
+      while(time(nullptr)<1700000000&&millis()-attemptStarted<15000)delay(250);
+    }
+  }
+  Serial.printf("[TLS] clock_ms=%lu\n",millis()-started);
+  if(time(nullptr)<1700000000){
+    Serial.println("[TLS][ERROR] No NTP response. Network may block UDP port 123; try another 2.4 GHz network/hotspot. HTTPS verification remains enabled.");
+    clockSyncStarted=false;return false;
+  }
+  return true;
+}
 bool connectWiFi(){
-  if(WiFi.status()==WL_CONNECTED)return true;
+  if(WiFi.status()==WL_CONNECTED){beginClockSync();return true;}
   Serial.printf("[%lu ms][WIFI] Connecting; timeout=20 seconds. Credentials are hidden.\n",millis());
   WiFi.mode(WIFI_STA);WiFi.begin(WIFI_SSID,WIFI_PASSWORD);unsigned long start=millis();
   while(WiFi.status()!=WL_CONNECTED&&millis()-start<20000){delay(250);}
   if(WiFi.status()!=WL_CONNECTED){Serial.printf("[WIFI][ERROR] status=%d (%s), elapsed=%lu ms.\n",(int)WiFi.status(),wifiStatusName(WiFi.status()),millis()-start);return false;}
-  Serial.printf("[WIFI] Connected; elapsed=%lu ms signal=%d dBm.\n",millis()-start,WiFi.RSSI());return true;
+  Serial.printf("[WIFI] Connected; elapsed=%lu ms signal=%d dBm.\n",millis()-start,WiFi.RSSI());beginClockSync();return true;
 }
 bool drainPendingReply(HTTPClient &http){
   // Consume the complete small JSON body before reusing its TLS connection.
@@ -156,15 +185,7 @@ bool requestReply(){
   }
   if(origin.startsWith("https://")){
     if(strlen(ROOT_CA)<100){Serial.println("[TLS][ERROR] Set ROOT_CA in config.h before using HTTPS.");return false;}
-    unsigned long clockStarted=millis();
-    if(time(nullptr)<1700000000){
-      Serial.println("[TLS] Synchronizing clock for certificate verification.");
-      static bool clockConfigured=false;
-      if(!clockConfigured){configTime(0,0,"pool.ntp.org","time.google.com");clockConfigured=true;}
-      while(time(nullptr)<1700000000&&millis()-clockStarted<15000)delay(250);
-    }
-    Serial.printf("[TLS] clock_ms=%lu\n",millis()-clockStarted);
-    if(time(nullptr)<1700000000){Serial.println("[TLS][ERROR] Clock sync failed; TLS needs correct time.");return false;}
+    if(!ensureClock())return false;
     secure.setCACert(ROOT_CA);secure.setHandshakeTimeout(20);
   }else if(!origin.startsWith("http://")){Serial.println("[HTTP][ERROR] SERVER_ORIGIN must start with http:// or https://.");return false;}
   // HTTPClient has a 16-bit per-read timeout. Poll a bounded server job instead
