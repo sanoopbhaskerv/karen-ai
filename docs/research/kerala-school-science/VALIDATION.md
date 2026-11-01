@@ -6,11 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 293 |
-| Distinct registered source URLs | 288 |
-| JSON files | 44 |
-| Concise English/Malayalam knowledge records | 122 |
-| Draft Malayalam evaluation questions | 100 |
+| Source records | 307 |
+| Distinct registered source URLs | 302 |
+| Topic source registers | 22 |
+| JSON files | 46 |
+| Concise English/Malayalam knowledge records | 130 |
+| Draft Malayalam evaluation questions | 108 |
 | Indexed exhibit records | 35 |
 | NCERT discovery catalogues audited | 13 |
 | Kerala-school discovery rows | 105 |
@@ -48,6 +49,10 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Pandemic documents / pages | 5 / 10 |
 | Early contemporary journal sources | 2 |
 | Pre-2009 IT circulars / pages | 2 / 12 |
+| Archived early IT site bodies / item tables / numbered entries | 9 / 6 / 230 |
+| Contemporary observer articles / article pages | 1 / 2 |
+| Technical-school documents / physical PDF pages | 4 / 68 |
+| Technical-school entry-form item rows / pupil slots | 13 / 16 |
 | Publisher-library model-book reference entries | 7 |
 | Underlying March 2026 grace-order pages | 8 |
 | District-result destinations | 14 |
@@ -114,3 +119,11 @@ All ten pages of the five pandemic documents were visually inspected and indepen
 The pre-2009 pass adds two official-origin archived IT circulars. All twelve received pages were visually reviewed and independently checked against cached body/header hashes, exact CDX digests and actual Memento dates. The unavailable third archived body is excluded. Deferred state dates, a tentative district month, old software, separate hardware demonstrations and scheduled 2007 dates remain qualified.
 
 All eight pages of the original-hosted March 2026 government order and all seven relevant pages of the 59-page NCERT bibliography received independent visual review. The bibliography is a reference list, not seven recovered volumes or new method cases; the 1991/2003 mismatch is retained. The existing implementation circular’s page 5 was rechecked for the named Mathematics/Work Experience removed-item exception. The original 120 facts/98 evaluations and all 23 non-source structured datasets remain unchanged, with two fact/evaluation pairs appended. No original school report/code/test table was recovered in the bounded follow-up.
+
+The archived IT follow-up adds nine official event-site HTML bodies. Independent cached-body/header/CDX checks confirm all actual Memento dates and digests, the two date captions, six index links and 230 numbered result entries. Teacher-only entries, absent/NIL wording, the appeal annotation and separate announced/caption/capture dates remain literal. Direct HTML/table review is not photograph authentication, a browser-render review, attendance certification or a final overall championship.
+
+The KSSP January 2020 issue's publication page and both 2019 Science Fair article pages received independent visual review. Its hash, 52-page physical inventory, author affiliation and attributed claims agree. This is contemporary observer commentary, not an empirical evaluation or government result record.
+
+The four technical-school PDFs match their actual cached hashes, byte sizes and physical page counts: 59-page base, three-page amendment, four-page programme and two-page funding order. All 59 base pages were text-screened; critical visual review covered the cover/preface, eligibility, selection, model conditions, rubric, entry form, 2017 order reprint and detailed/appendix discrepancies, with exact coverage in the guide/register. All nine programme/order/amendment pages were visually read. An independent cross-review confirms the 13-item/16-pupil distinction, unresolved rubric differences, planned dates/counts and conditional funding scope. The old indexed HTML response is not adopted as a manual.
+
+Against commit `c001c1d`, the existing 122 facts, 100 evaluations and all 23 non-source structured datasets remain unchanged. Eight new fact/evaluation pairs are appended, retaining programme/year/source-genre boundaries; all Malayalam remains subject to teacher review. No new fact comes solely from unverified audio. No runtime, training, retrieval or hardware change is part of this research update.

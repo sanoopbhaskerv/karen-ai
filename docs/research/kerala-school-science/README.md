@@ -1,6 +1,6 @@
 # Kerala school science exhibitions research
 
-Initial research checked on 31 October 2026, with archive follow-up on 1 November 2026. This collection covers Kerala School Sasthrolsavam, its Science and IT fairs, earlier regional school fairs, historical state editions, participation rules, official results, special-school provision, and related regional and national science programmes. It is intended as evidence for Karen's future knowledge collection and as a reference for the student's exhibition preparation.
+Initial research checked on 31 October 2026, with archive follow-up on 1 November 2026. This collection covers Kerala School Sasthrolsavam, its Science and IT fairs, earlier regional school fairs, historical state editions, participation rules, official results, special-school provision, the separate Technical High School fair, and related regional and national science programmes. It is intended as evidence for Karen's future knowledge collection and as a reference for the student's exhibition preparation.
 
 The collection remains open. Early history, some annual records, original project reports, and the exact registration category for Karen still need stronger evidence. An accessible results website is not a complete historical archive.
 
@@ -19,6 +19,8 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical result snapshots](RESULTS.md) | Overall school and district point tables captured across five editions |
 | [Rule changes](RULE_CHANGES.md) | Original manuals, amendments and differences between rules and catalogue views |
 | [Regional and national pathways](PATHWAYS.md) | SISF, NCERT exhibitions, INSPIRE MANAK, NCSC, CBSE and other distinct programmes |
+| [Technical High School fair](TECHNICAL_SCHOOL_FAIR.md) | Separate DTE/IHRD route, 13-item inventory, manual/amendment versions, Working Model rules, planned 2025 programme and conditional funding |
+| [Contemporary observer accounts](OBSERVER_ACCOUNTS.md) | KSSP's attributed review of the 2019 Science Fair, separate from empirical studies and official results |
 | [Documented exhibit case studies](PROJECTS.md) | Published Kerala-school project mechanisms, credits, source pages and award scope |
 | [NCERT exhibit discovery](DISCOVERY.md) | 105 published Kerala school entries across 13 national catalogues, with exact metadata and exclusions |
 | [SISF 2026 model write-ups](SISF_2026_MODELS.md) | All 31 published Kerala write-ups, with pupil/teacher scope and reported-method limits |
@@ -29,7 +31,7 @@ The user's latest intended entry is **2026 subdistrict Science Fair Working Mode
 | [Historical Science circulars](HISTORICAL_SCIENCE_CIRCULARS.md) | 2023/2024 topics, amendments, essay directions and dated scope boundaries |
 | [Historical appeal and Work Experience directions](HISTORICAL_OPERATIONS.md) | 2023/2025 schedules, distinct model events and appeal capacity |
 | [Pandemic decisions and online programmes](PANDEMIC_ACTIVITIES.md) | 2020–22 primary decisions, online plans and unresolved completion evidence |
-| [Earlier IT competitions](HISTORY_2000S.md) | Official 2004/2007 instructions, deferred/planned dates and historical category limits |
+| [Earlier IT competitions](HISTORY_2000S.md) | Official 2004/2007 instructions, event-site captions and six published item tables with 230 numbered entries |
 | [Historical edition supplement](HISTORICAL_EDITIONS.md) | Official programmes, 2017/2018 stream results and a separately scoped special-school book |
 | [Machine audio drafts](AUDIO_REVIEW.md) | Full audio processing, 137 visual samples and limits on unverified outputs |
 | [Additional departmental circulars](ADDITIONAL_2026_CIRCULARS.md) | Mathematics date amendment and the separate IT Quiz schedule/amendment |

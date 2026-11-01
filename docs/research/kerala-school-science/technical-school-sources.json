@@ -1,0 +1,324 @@
+[
+  {
+    "id": "technical-school-001",
+    "title": "Kerala Technical High School Science & Technology Fair base manual, cover 2023, approved 30 July 2024, current SITTTR download",
+    "url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=103",
+    "discovery_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownloads",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "cover_year_as_printed": 2023,
+    "approval_reference_as_printed": "GO(Rt) No. 955/2024/HEdn, Thiruvananthapuram, dated 30/07/2024",
+    "approval_date": "2024-07-30",
+    "source_type": "official_manual",
+    "issuer": "Department of Technical Education, Government of Kerala; SITTTR",
+    "hosting": "Official SITTTR website, actual PDF endpoint linked from the live downloads index.",
+    "review_scope": "All 59 physical PDF pages screened in extracted text. Twenty critical pages visually read, including the complete entry form, Working Model conditions/rubric, cover/preface, 2017 order reprint, base sheet-metal wording and internal rubric differences. Other inventory instruction pages were text-screened. Root independently checked the critical Working Model/history/eligibility pages and PDF34 base wording.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      5,
+      7,
+      11,
+      13,
+      30,
+      31,
+      32,
+      34,
+      36,
+      41,
+      43,
+      44,
+      47,
+      48,
+      54,
+      57,
+      58,
+      59
+    ],
+    "page_locators": {
+      "cover_and_approval": {
+        "pdf_pages_1based": [
+          1
+        ],
+        "printed_page": null
+      },
+      "preface_and_2017_fair_manual_origin": {
+        "pdf_pages_1based": [
+          2
+        ],
+        "printed_page": "i"
+      },
+      "eligibility_and_streams": {
+        "pdf_pages_1based": [
+          5
+        ],
+        "printed_pages": [
+          1
+        ]
+      },
+      "general_selection_two_pupil_models_and_exhibition": {
+        "pdf_pages_1based": [
+          7,
+          11,
+          13
+        ],
+        "printed_pages": [
+          3,
+          7,
+          9
+        ]
+      },
+      "historical_grace_paragraph": {
+        "pdf_pages_1based": [
+          30
+        ],
+        "printed_pages": [
+          26
+        ]
+      },
+      "science_technology_instructions_working_still_models_and_rubric": {
+        "pdf_pages_1based": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "printed_pages": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "it_instructions": {
+        "pdf_pages_1based": [
+          38,
+          39,
+          40,
+          41
+        ],
+        "printed_pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "mathematics_instructions": {
+        "pdf_pages_1based": [
+          42,
+          43,
+          44
+        ],
+        "printed_pages": [
+          38,
+          39,
+          40
+        ]
+      },
+      "2017_order_reprint": {
+        "pdf_pages_1based": [
+          47
+        ],
+        "printed_pages": [
+          43
+        ]
+      },
+      "entry_form_inventory": {
+        "pdf_pages_1based": [
+          48
+        ],
+        "printed_pages": [
+          44
+        ]
+      },
+      "working_model_evaluation_form": {
+        "pdf_pages_1based": [
+          54
+        ],
+        "printed_pages": [
+          50
+        ]
+      },
+      "animation_and_mathematics_appendix_differences": {
+        "pdf_pages_1based": [
+          57,
+          58,
+          59
+        ],
+        "printed_pages": [
+          53,
+          54,
+          55
+        ]
+      }
+    },
+    "notes": "The cover visibly prints 2023 alongside an explicit 30 July 2024 approval line; preserve both without making either the retrieval date. The preface dates this distinct Technical High School fair and its first SITTTR manual to 2017. Eligibility is classes 8–10 in Technical Education/IHRD technical high schools, with school and state stages. School first with A grade advances; one pupil may enter one item in one stream; state cap is 16 pupils per school. The entry form lists ten individual onsite items and three two-pupil model items, plus an exhibition participation note; repeated form serials are not unique item codes. Working Model is a two-pupil group, one school-first A-grade model advancing, with social usefulness, a brief description, two-hour allocation, maximum 2.0 square metres floor area and 2.0 metres height. Detailed Working/Still rubric is 25/25/30/10/10, agreeing numerically with the Working Model form but retaining different last-two criterion labels. Animation and Mathematics detailed rubrics differ from appendix forms and are not silently reconciled. PDF 47 reproduces GO(Rt)1789/2017/HEDN of 7 October 2017 permitting 20% of Development Fund under the cited conditions; forwarding date is separately 17 October 2017. The currently served base text retains provisions changed by the separate 2025 annexure, so it is not a fully consolidated amended manual.",
+    "evidence_limits": [
+      "This is a separate technical-school fair, not an automatic eligibility or qualifying route for Karen or general-school Sasthrolsavam.",
+      "The manual cover/approval line is not a separately recovered complete body of GO(Rt)955/2024/HEdn. The cited underlying 2012 funding order was not reviewed.",
+      "The 2017 origin statements concern this fair, not the beginning of all Kerala school science exhibitions.",
+      "The historical grace paragraph is subject to annual government orders; it is not substituted for current general-school grace guidance.",
+      "No completed event, named attendance, national delegation, actual payment or performance certification follows from these rules."
+    ],
+    "download_sha256": "572873263b1e3c025441cdccffd077338cb4fcf2d7caa1c22ece2b43dbc5474d",
+    "download_bytes": 1260612,
+    "pdf_pages": 59,
+    "download_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=103",
+    "effective_download_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=103",
+    "retrieved_at_utc": "2026-10-31T23:34:08.479661+00:00"
+  },
+  {
+    "id": "technical-school-002",
+    "title": "GO(Rt) No.1292/2025/HEDN, amendments to Technical High School Science & Technology and sports manuals, 29 September 2025",
+    "url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=102",
+    "discovery_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownloads",
+    "accessed_on": "2026-11-01",
+    "document_date": "2025-09-29",
+    "source_type": "official_government_order",
+    "issuer": "Higher Education (J) Department, Government of Kerala",
+    "hosting": "Official SITTTR website, actual PDF endpoint linked from the live downloads index.",
+    "file_reference_as_printed": "HEDN-J2/264/2025-HEDN; GO(Rt) No.1292/2025/HEDN",
+    "review_scope": "All three physical PDF pages visually read and independently checked. PDF 3 contains seven Science & Technology Fair amendment rows; PDF 2 is distribution/signature continuation.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3
+    ],
+    "page_locators": {
+      "order_and_references": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "distribution_and_signature": {
+        "pdf_pages_1based": [
+          2
+        ]
+      },
+      "science_technology_fair_amendment_annexure": {
+        "pdf_pages_1based": [
+          3
+        ]
+      }
+    },
+    "eoffice_export_timestamp_as_printed": "28/10/2026 03:11 PM",
+    "signature_verification": "Visible signature block only; no cryptographic verification performed.",
+    "notes": "Order dated 29 September 2025 cites GO(Rt)955/2024/HEdn dated 30 July 2024 and DTE letter DTETVM/500/2025-C1 (ACA), 26 September 2025, and approves the annexure amendments. The Science & Technology annexure changes seven provisions: school-level paragraph 2.1 second-point SITTTR wording; electrical-tool safety; 24/26 SWG G.I. sheet; permission for planed timber while retaining remaining operations onsite; OpenToonz and MP4/AVI export; Mathematics write-up up to three pages prepared at the venue; engineering applications alongside mathematics in Applied Construction. Its eOffice generation timestamp in 2026 is not the order date. The annexure does not amend Working Model team size, selection, dimensions, duration or rubric, and does not resolve the base manual internal rubric differences.",
+    "evidence_limits": [
+      "Read the annexure with the separate base manual; the base PDF is not fully consolidated.",
+      "The amendment to the school-level paragraph removes its specified-theme wording but does not establish cancellation of every separate SITTTR theme clause.",
+      "Named Electrical Wiring, Sheet Metal Work, Carpentry, Animation and Mathematics clauses do not automatically govern other items or general-school Sasthrolsavam.",
+      "This is not a named participation/delegation/result record."
+    ],
+    "download_sha256": "079bf20dd1e6c94ccfcb44214abf87ddaa4fa61140dfe065469661a9c92ea4a7",
+    "download_bytes": 140477,
+    "pdf_pages": 3,
+    "download_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=102",
+    "effective_download_url": "https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=102",
+    "retrieved_at_utc": "2026-10-31T23:34:05.179225+00:00"
+  },
+  {
+    "id": "technical-school-003",
+    "title": "Seventh All Kerala Technical High School Science & Technology Fair 2025–26, Government Technical High School Krishnapuram programme",
+    "url": "https://www.dtekerala.gov.in/static/news/Notice3.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": null,
+    "event_dates_as_printed": [
+      "2025-10-17",
+      "2025-10-18",
+      "2025-10-19"
+    ],
+    "source_type": "official_programme",
+    "issuer": "Government Technical High School, Krishnapuram / Department of Technical Education, Kerala",
+    "hosting": "Official Department of Technical Education website.",
+    "review_scope": "All four scanned physical PDF pages visually read and independently checked. Extracted text contains no usable programme body, so the substantive account is based on the actual page images.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "page_locators": {
+      "cover_dates_edition_host": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "introductory_institution_counts_and_inauguration": {
+        "pdf_pages_1based": [
+          2
+        ]
+      },
+      "opening_meeting_continuation": {
+        "pdf_pages_1based": [
+          3
+        ]
+      },
+      "competition_and_closing_schedule": {
+        "pdf_pages_1based": [
+          4
+        ]
+      }
+    },
+    "notes": "Official-hosted programme advertises the seventh All Kerala Technical High School Science & Technology Fair at Government Technical High School, Krishnapuram, on 17–19 October 2025. Inauguration is scheduled at 15:30 on 17 October; competitions from 08:30 on 18 October; Still Model and exhibition competitions on 19 October; closing meeting at 15:00 on 19 October. Introductory text anticipates pupils from 39 technical high schools and nine IHRD technical higher secondary schools, with exhibition arrangements for 48 schools. Preserve these as planned representation and schedule, not verified attendance or completed activities. The 17–19 programme dates differ in scope from the earlier LSGD funding recital 18–19 October; no cause is supplied by this packet.",
+    "evidence_limits": [
+      "The programme does not certify that scheduled events occurred, invited officials attended, all anticipated schools participated or any exhibit won.",
+      "No separate publication date is printed; event dates and HTTP Last-Modified metadata are not a publication-date finding.",
+      "Programme images, pupil/logo credits, photos and contact fields are not copied into the repository."
+    ],
+    "download_sha256": "a590ce696aec2347e7ee3d0b2e90cb70fa06b33113676c7cb90a409ed0280ce9",
+    "download_bytes": 4031157,
+    "pdf_pages": 4,
+    "download_url": "https://www.dtekerala.gov.in/static/news/Notice3.pdf",
+    "effective_download_url": "https://www.dtekerala.gov.in/static/news/Notice3.pdf",
+    "retrieved_at_utc": "2026-10-31T23:30:53.288794+00:00"
+  },
+  {
+    "id": "technical-school-004",
+    "title": "GO(Rt) No.2200/2025/LSGD, permission for Alappuzha local-body expenditure on the seventh Technical High School Science & Technology Fair, 12 September 2025",
+    "url": "https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf",
+    "accessed_on": "2026-11-01",
+    "document_date": "2025-09-12",
+    "source_type": "official_government_order",
+    "issuer": "Local Self Government (FM) Department, Government of Kerala",
+    "hosting": "Official Local Self Government Department website.",
+    "file_reference_as_printed": "LSGD-FM2/111/2025-LSGD; GO(Rt) No.2200/2025/LSGD",
+    "review_scope": "All two physical PDF pages visually read and independently checked; expenditure amounts and conditions are in PDF 1, distribution/signature continuation in PDF 2.",
+    "visually_read_pdf_pages_1based": [
+      1,
+      2
+    ],
+    "page_locators": {
+      "event_recital_and_expenditure_permission": {
+        "pdf_pages_1based": [
+          1
+        ]
+      },
+      "distribution_and_signature": {
+        "pdf_pages_1based": [
+          2
+        ]
+      }
+    },
+    "signature_verification": "Visible signature block only; no cryptographic verification performed.",
+    "notes": "Order dated 12 September 2025 recites that Alappuzha district will host the seventh Technical High School Science & Technology Fair on 18–19 October 2025 and grants permission for spending by local bodies in that district: grama panchayats Rs.8,000 each; municipalities Rs.10,000 each; host municipality Rs.25,000; district panchayat Rs.25,000. Each amount is from the body own fund and subject to its governing body decision. Retain the host-municipality entry separately without inferring an additional cumulative Rs.10,000. The 18–19 dates are preserved alongside the programme 17–19 October dates without inferring a postponement, cancellation or explanation.",
+    "evidence_limits": [
+      "Permission is not evidence of a mandatory collection, an actual governing-body resolution, disbursement, audited expenditure or final festival budget.",
+      "The local-body scope is Alappuzha district; amounts are not a statewide annual grant schedule.",
+      "The order is not an attendance list, exhibition result, general-school Sasthrolsavam manual or national selection order."
+    ],
+    "download_sha256": "894f25d61e122dd9e70ecf124010a922e25689d33f87dd012702925666b072c4",
+    "download_bytes": 209398,
+    "pdf_pages": 2,
+    "download_url": "https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf",
+    "effective_download_url": "https://lsgd.kerala.gov.in/wp-content/uploads/2025/09/2200.2025.lsgd_.12.09.2025.pdf",
+    "retrieved_at_utc": "2026-10-31T23:31:29.015435+00:00"
+  }
+]

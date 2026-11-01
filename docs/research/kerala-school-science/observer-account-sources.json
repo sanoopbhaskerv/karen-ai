@@ -1,0 +1,37 @@
+[
+  {
+    "id": "observer-account-001",
+    "title": "ശാസ്ത്രമേള 2019 — V. V. Venugopalan, Sasthrakeralam, January 2020, pages 41–42",
+    "url": "https://edu.kssp.in/wp-content/uploads/2021/01/Sasthrakeralam-January-2020-web.pdf",
+    "accessed_on": "2026-11-01",
+    "source_type": "institution_published_contemporary_observer_article",
+    "notes": "KSSP-published contemporary teacher account of the 2019 Science Fair. Publication details and the two article pages were visually reviewed. Dates, venue, attendance/grade statements and design/public-viewing observations remain attributed to the author; this is not a government rule, certified results book or empirical learning-outcome study.",
+    "publisher_as_printed": "കേരള ശാസ്ത്രസാഹിത്യ പരിഷത്ത്",
+    "publisher_english_normalisation": "Kerala Sasthra Sahithya Parishath (KSSP)",
+    "periodical_as_printed": "ശാസ്ത്രകേരളം",
+    "periodical_english_normalisation": "Sasthrakeralam",
+    "volume": 51,
+    "issue": 8,
+    "publication_month": "2020-01",
+    "article_title_as_printed": "ശാസ്ത്രമേള 2019",
+    "author_as_printed": "വി.വി.വേണുഗോപാലന്‍",
+    "author_english_normalisation": "V. V. Venugopalan",
+    "author_affiliation_as_printed": "ശാസ്ത്രാധ്യാപകൻ, ഗവ. ഹയർ സെക്കന്ററി സ്കൂൾ, എരുമപ്പെട്ടി, തൃശ്ശൂർ ജില്ല",
+    "author_affiliation_english_normalisation": "Science teacher, Government Higher Secondary School, Erumappetty, Thrissur district",
+    "pdf_pages": 52,
+    "article_pdf_pages_1based": [41, 42],
+    "article_printed_pages": [41, 42],
+    "download_bytes": 4840389,
+    "download_sha256": "0baa1a20977417e9e5462bbce2fda792e78c8226a749a4ca552b9ebf0bdd4bc5",
+    "evidence_locators": [
+      {"pdf_page_1based": 3, "printed_page": 3, "scope": "Issue date, volume, issue, institutional publisher and article contents entry."},
+      {"pdf_page_1based": 41, "printed_page": 41, "scope": "Article title, author/affiliation, attributed event dates/venue, attendance/grade statements and pupil presentations."},
+      {"pdf_page_1based": 42, "printed_page": 42, "scope": "Attributed subject concentration, teaching-aid design, public-viewing and peer-exchange observations."}
+    ],
+    "event_dates_as_reported": ["2019-11-03", "2019-11-04", "2019-11-05"],
+    "event_venue_as_reported_english_normalisation": "T. M. V. Higher Secondary School, Perumpilavu, Thrissur district",
+    "review_scope": "Publication details on PDF 3 and both article pages rendered and read visually. Full-file text screening identified the article; damaged Malayalam extraction was checked against the images.",
+    "evidence_limits": "Contemporary observer commentary, not a formal empirical evaluation, government rule or certified results record. No sampling protocol, raw participant data, comparison group or outcome measurement is supplied. Teacher affiliation does not prove judge/organiser status. Historical observations do not establish current requirements or statewide prevalence.",
+    "privacy_note": "Personal telephone details printed beside the author credit are omitted; no pupil names or photographs are copied into this record."
+  }
+]

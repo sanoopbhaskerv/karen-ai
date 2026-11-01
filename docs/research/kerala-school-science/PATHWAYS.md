@@ -7,6 +7,7 @@ Research initially checked on 31 October 2026, with the administrative, archived
 | Programme | Organiser and purpose | Entry and progression | What Karen must distinguish |
 | --- | --- | --- | --- |
 | Kerala School Sasthrolsavam | Kerala General Education Department; five constituent fairs | School, subdistrict, district and state stages | Science Fair is one part of the wider festival. State qualification does not mean every age group or item advances further. |
+| Technical High School Science & Technology Fair | Technical Education/SITTTR, including DTE/IHRD technical schools | Manual specifies classes 8–10, school and state stages | Separate programme, item inventory, model dimensions and rubric; no automatic route for Karen's General Education entry. |
 | Southern India Science Fair, SISF | Visvesvaraya Industrial and Technological Museum, VITM, with a host education department | State education departments finalise the selected participant lists | A regional exhibition with its own individual, group and teacher categories. |
 | State and national Bal Vaigyanik Pradarshani | State or organisation exhibition authorities and NCERT's Department of Education in Science and Mathematics | State/organisation recommendations, followed by NCERT screening for national participation | RSBVP denotes the state exhibition; RBVP denotes the national exhibition. |
 | CBSE Science Exhibition | CBSE | School registration, regional exhibition, national exhibition; later NCERT consideration is conditional | A separate board route relevant to CBSE schools in Kerala. |
@@ -23,6 +24,12 @@ KITE describes the school-to-state competition sequence and says first- and seco
 NCERT explicitly renamed its national exhibition **Rashtriya Bal Vaigyanik Pradarshani from 2022**. Historical references to JNNSMEE/Jawaharlal Nehru science, mathematics and environment exhibitions therefore belong in the same archive lineage, with the original title and year preserved. [NCERT renaming notice](https://ncert.nic.in/desm/pdf/Rename_The_49th_RBVP_2022.pdf)
 
 The Kerala circular dated 2 September 2026 is a separate source of school-fair competition topics. Its scope should be checked alongside the annual manual and item-specific instructions before assigning an NCERT theme to a Kerala entry. [Kerala topic circular](https://education.kerala.gov.in/wp-content/uploads/2026/09/scincefest02092026.pdf)
+
+## Separate Technical High School fair
+
+The [Technical High School packet](TECHNICAL_SCHOOL_FAIR.md) adds the DTE/IHRD technical-school programme, whose manual specifies classes 8–10 and school/state stages. Its entry form has 13 item rows accounting for 16 pupil slots, with separate Science & Technology, IT and Mathematics streams. A two-pupil Working Model and a shared event name do not make its dimensions, duration or scoring interchangeable with General Education Sasthrolsavam. [SITTTR manual, PDF 5, 7, 31–32 and 48](https://sitttrkerala.ac.in/index.php?r=site%2Fdownload-file&id=103)
+
+Read the base manual with its separate 29 September 2025 amendment. The programme's announced 2025 dates and school count, and the LSGD order's conditional own-fund expenditure permission, do not prove attendance, expenditure or onward selection to a national exhibition. The packet retains unresolved appendix-rubric differences and does not establish a current local route for Karen.
 
 ## Southern India Science Fair
 
