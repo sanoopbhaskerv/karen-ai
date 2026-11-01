@@ -6,12 +6,12 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 
 | Material | Checked count |
 | --- | ---: |
-| Source records | 393 |
-| Distinct registered source URLs | 388 |
+| Source records | 395 |
+| Distinct registered source URLs | 390 |
 | Topic source registers | 22 |
 | JSON files | 51 |
-| Concise English/Malayalam knowledge records | 204 |
-| Draft Malayalam evaluation questions | 182 |
+| Concise English/Malayalam knowledge records | 211 |
+| Draft Malayalam evaluation questions | 189 |
 | Indexed exhibit records | 38 |
 | Indexed exhibits with method information | 37 |
 | NCERT discovery catalogues audited | 14 |
@@ -72,11 +72,11 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Underlying March 2026 grace-order pages | 8 |
 | Pre-2009 IT retrospective documents / pages | 1 / 6 |
 | INSPIRE public compendium volume links | 18 |
-| INSPIRE compendium works / physical PDF pages | 11 / 2,856 |
-| INSPIRE reviewed edition labels | 6 |
-| INSPIRE source-bound project descriptions | 45 |
-| INSPIRE state-heading / organisational descriptions | 41 / 4 |
-| INSPIRE target PDF pages visually reviewed | 259 |
+| INSPIRE compendium works / physical PDF pages | 13 / 4,104 |
+| INSPIRE reviewed edition labels | 8 |
+| INSPIRE source-bound project descriptions | 78 |
+| INSPIRE state-heading / organisational descriptions | 74 / 4 |
+| INSPIRE target PDF pages visually reviewed | 367 |
 | Older NCERT model-book canonical holding targets | 5 |
 | 2015 state programme documents / pages | 1 / 8 |
 | 2014 gold-cup design notices / pages | 1 / 1 |
@@ -109,8 +109,10 @@ Collection integrity checked on 1 November 2026; individual source access dates 
 | Named planned state-venue examples | 4 |
 | Reported festival organising subcommittees | 18 |
 | Sixth INSPIRE non-counted KVS observations | 2 |
-| Separate historical INSPIRE scheme observations | 1 |
+| Separate historical INSPIRE scheme observations | 3 |
 | Tenth INSPIRE KVS / NVS section descriptions reviewed | 8 / 5 |
+| Fourth INSPIRE non-counted KVS observations | 4 |
+| Retrospective INSPIRE award observations in third/fourth books | 8 |
 | District-result destinations | 14 |
 
 Repeated item codes, schools and source URLs across editions are versioned observations. They are not counts of distinct participants, original scientific projects, or independent corroborating publishers.
@@ -274,3 +276,11 @@ The sixth proposal review passed 721 checks and a separate 1,433-check review in
 Against `ddbf247`, all 390 earlier source objects and all 38 focused case objects remain exact. Twenty-seven other non-source JSON datasets remain byte-identical. The INSPIRE register preserves all old fields and arrays, adds one historical-scheme array, appends twelve descriptions and two reviewed-edition objects, and changes only status/source-ID fields on the three exact advertised URLs. All 200 earlier facts and 178 evaluations remain exact byte prefixes; four pairs are appended. No new JSON file, case, training, retrieval, runtime, provider or hardware integration is included. Evaluations remain held out and Malayalam requires teacher review.
 
 The final independent publication audit passed **6,015 checks**, recomputing all **106 inventory rows** and checking **324 local links/anchors**, 888 structured source-reference edges, 259 internal-reference edges and 335 fact-source edges. Three complete source bodies and seven actual HTTP header phases agree with the retained receipts; both three-part tenth assemblies preserve the frozen interruption evidence and validate exact contiguous ranges, entity headers, lengths and bytes. A separate 151-check import/render/source-scope review also passed. The initial stability-check failure was traced to a scratch-audit variable collision and corrected; the settled-tree rerun passed without a corpus change. These checks do not establish historical completeness, teacher-approved Malayalam, individual attendance/payment, prizes or independently validated scientific performance.
+
+The third/fourth received-volume packet adds 604 + 644 = 1,248 physical PDF pages and 23 + 10 Kerala-heading descriptions. Both terminal full-body acquisitions passed 14 independent integrity checks before parsing. The third book's mixed native layer required one 604-page machine-OCR discovery pass, producing 707,163 characters with zero failed pages; the final discovery review passed 1,823 checks. Its 72 page-type previews and six metadata checks remain separate from the author's 58 full-original-page reads. The fourth book's native layer pools neighbouring off-page content; all adopted visible locators were checked against originals, with no duplicate-entry inference. Its author read 50 full originals plus separately scoped metadata/type checks. These 108 author reads increase the target-page inventory from 259 to 367; independent reviewers' overlapping reads are not added.
+
+Eight source-specific retrospective award observations append separately to the original recommendation. They preserve 2011/2012/2013 dates, shared national bronze versus state-category first/second, blank school/title fields and absence of identity/payment proof. Two as-of historical scheme rows append separately to the 2016 row; both 2013/2014 money-column headers explicitly state lakhs. The fourth book's provisional-filing list and its qualified correspondence to third PDF 261 do not establish patent-office authentication, a grant/current status or independent safety/efficacy.
+
+Against `480b156`, all 393 earlier source objects and all 38 focused cases remain exact. Twenty-seven other non-source JSON datasets remain byte-identical. The INSPIRE dataset appends 33 descriptions, two edition objects, eight retrospective-award and two historical-scheme observations, with only status/source-ID changes on the two exact advertised URLs. All 204 prior facts and 182 evaluations remain exact byte prefixes; seven pairs append. No new JSON file, original pupil logbook/code, training, retrieval, runtime, provider or hardware change is included. Evaluations remain held out and Malayalam requires teacher review.
+
+The third/fourth author proposal checks passed 368/526 respectively, and separate scoped content reviews passed 434/1,086. The final independent publication audit passed **6,350 checks**, recomputing all **108 inventory rows** and checking **327 local links/anchors**, 943 structured source-reference edges, 259 internal-reference edges and 342 fact-source edges. Both full source bodies, raw headers and terminal receipts agree with their recorded integrity and dates; all earlier source/case objects, other datasets and JSONL prefixes are preserved within the stated append contract. These checks establish collection integrity and evidence scope, not historical completeness, teacher-approved Malayalam, unique attendance/identity, patent status, verified payment or independently validated scientific performance.
