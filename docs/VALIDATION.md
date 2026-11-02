@@ -1,5 +1,13 @@
 # Validation record — latest check 2 November 2026
 
+## Current information with web sources — 2 November 2026
+
+- Enabled native web search for general answers with the current Indian date supplied per request. Recent-year and changing-fact questions require a lookup; ordinary science questions allow optional verification. The configured model, creator/privacy replies and checked exhibition routing are retained.
+- The two reported examples now have live source-backed paths: the 2026 men's T20 result returns India with an official cricket source; “Nobel price last year” resolves to 2025 and asks which category. A Peace-prize follow-up returns Maria Corina Machado with the official Nobel announcement. These were actual local provider requests, not hardcoded answers or mocked source data.
+- Return citation annotations as request-scoped links. They survive dashboard refresh and text/voice cache replay, stay associated with the exact committed turn, trim with the 20-entry conversation, and clear on reset/save. Failed, stale, expired or privacy-redacted answers do not attach new links. Speech omits verified source Markdown, URLs and native reference markers.
+- Full local suite: **1,251 passed, five Windows-only skips**, with two existing upstream warnings. New coverage includes calendar rollover, forced/optional search, source validation/privacy, duplicate/oversized citation sets, text/voice link retention, concurrency/revision/deadline guards and ordinary science fallback. JavaScript syntax and Git whitespace checks passed.
+- Generation has a 45-second read timeout and at most two built-in tool calls; recognition retains its 20-second read timeout. Neither makes implicit retries, and the existing overall request deadline remains in place. See [OpenAI setup](OPENAI.md) for the current-information behavior and official tool documentation.
+
 ## Bilingual creator and build questions — 2 November 2026
 
 - Creator questions use the fixed Malayalam Sreehari credit before text generation or speech synthesis. Coverage includes English active/passive phrasing, creator-role nouns and plurals, contractions, alternative company suggestions, Malayalam formal/casual pronouns and word orders, old chillu spellings, common Manglish and mixed-script forms.

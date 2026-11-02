@@ -10,13 +10,14 @@ import threading
 import time
 import wave
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 from flask import Flask, abort, g, jsonify, render_template, request, send_file, session, redirect, url_for
 from dotenv import load_dotenv
 from jobs import Jobs, Result, ServiceError
 from sasthramela import lookup as research_lookup, history_sources, corpus as research_corpus
 from sasthramela_topics import config as research_topics
 from exhibition_identity import (DEFAULT_MEMORY, anonymous_history,
-                                 anonymous_memory, anonymous_reply, identity_question, identity_reply)
+                                 anonymous_memory, anonymous_reply, contains_identity, identity_question, identity_reply)
 
 BASE = Path(__file__).resolve().parent
 # Shell settings win, then optional local overrides, then the original .env.
@@ -200,6 +201,9 @@ def create_app(config=None, providers=None):
             tmp.write_text(clean_memory, encoding='utf-8')
             os.replace(tmp, memory_path)
     history = []  # Deliberately shared across browser/device, as specified in the PRD.
+    # Retain the exact committed tuple along with its sources. Positional sidecars
+    # can attach links to the wrong answer when history is trimmed or replaced.
+    turn_sources = {}
     lock = threading.RLock()
     revision = 0
     if providers is not None:
@@ -213,15 +217,53 @@ def create_app(config=None, providers=None):
     # Fast research answers can exceed 64 turns during the ten-minute replay window.
     # Keep replay guarantees with a bounded cache (at most 128 MB of MP3 payloads).
     jobs = Jobs(app.logger, timeout=app.config['REQUEST_TIMEOUT'], capacity=256)
-    app.extensions['karen'] = {'history': history, 'lock': lock, 'providers': provider, 'jobs': jobs}
+    app.extensions['karen'] = {'history': history, 'lock': lock, 'providers': provider, 'jobs': jobs,
+                               'turn_sources': turn_sources}
+
+    def prune_turn_sources():
+        current = {id(turn) for turn in history}
+        for key in list(turn_sources):
+            if key not in current:
+                del turn_sources[key]
+
+    def public_web_sources(sources):
+        clean, seen = [], set()
+        for source in sources if isinstance(sources, (list, tuple)) else ():
+            if not isinstance(source, dict):
+                continue
+            url, title = source.get('url'), source.get('title')
+            if not isinstance(url, str) or not isinstance(title, str):
+                continue
+            if len(url) > 2048 or any(ord(char) < 33 for char in url):
+                continue
+            try:
+                parsed = urlsplit(url)
+                if parsed.scheme not in ('https', 'http') or not parsed.hostname or parsed.username or parsed.password:
+                    continue
+            except ValueError:
+                continue
+            if contains_identity(unquote(url)) or contains_identity(title) or url in seen:
+                continue
+            seen.add(url)
+            clean.append({'url': url, 'title': title.strip()[:200] or parsed.hostname})
+            if len(clean) == 8:
+                break
+        return clean
 
     def wants_json():
         return request.is_json or request.accept_mimetypes.best == 'application/json'
 
     def dashboard(error=None, notice=None, status=200):
         with lock:
+            prune_turn_sources()
+            safe_history = anonymous_history(history)
+            sources = history_sources(safe_history)
+            for index, turn in enumerate(history):
+                stored = turn_sources.get(id(turn))
+                if stored and stored[0] is turn and safe_history[index][1] == turn[1]:
+                    sources[index] = [dict(source) for source in stored[1]]
             return render_template('index.html', memory=anonymous_memory(memory_path.read_text(encoding='utf-8')),
-                                   history=anonymous_history(history), research_sources=history_sources(anonymous_history(history)), error=anonymous_reply(error) if error else None, notice=notice,
+                                   history=safe_history, research_sources=sources, error=anonymous_reply(error) if error else None, notice=notice,
                                    demo=app.config['DEMO_MODE'], configured=bool(app.config[provider_prefix + '_API_KEY']),
                                    model=app.config[provider_prefix + '_MODEL'], csrf=session['csrf'],
                                    can_edit_memory=not app.config['KAREN_ADMIN_PASSWORD'] or g.get('admin_authenticated', False)), status
@@ -338,6 +380,7 @@ def create_app(config=None, providers=None):
             tmp.write_text(value, encoding='utf-8')
             os.replace(tmp, memory_path)
             history.clear()
+            turn_sources.clear()
             revision += 1
         return dashboard(notice='Memory saved. The conversation has been reset.')
 
@@ -346,6 +389,7 @@ def create_app(config=None, providers=None):
         nonlocal revision
         with lock:
             history.clear()
+            turn_sources.clear()
             revision += 1
         return redirect(url_for('index'))
 
@@ -363,7 +407,15 @@ def create_app(config=None, providers=None):
         research = research_lookup(message, previous) if not app.config['DEMO_MODE'] else None
         if research is not None:
             return anonymous_reply(research['reply']), version, research
-        reply = provider.answer(memory, previous, anonymous_history([('user', message)])[0][1])
+        safe_message = anonymous_history([('user', message)])[0][1]
+        answer_with_sources = getattr(provider, 'answer_with_sources', None)
+        if callable(answer_with_sources):
+            reply, sources = answer_with_sources(memory, previous, safe_message)
+            clean_reply = anonymous_reply(reply)
+            sources = public_web_sources(sources) if clean_reply == reply else []
+            metadata = {'sources': sources, 'topic_id': 'web', 'fact_ids': []} if sources else None
+            return clean_reply, version, metadata
+        reply = provider.answer(memory, previous, safe_message)
         return anonymous_reply(reply), version, None
 
     def measured_stage(job, timings, stage, operation):
@@ -380,13 +432,17 @@ def create_app(config=None, providers=None):
     def timing_headers(timings):
         return {'Server-Timing': ', '.join(f'{stage};dur={elapsed}' for stage, elapsed in timings.items())}
 
-    def commit(job, message, reply, version, result):
+    def commit(job, message, reply, version, result, sources=()):
         with job.lock, lock:
             job.check()
             if revision != version:
                 raise ServiceError('Memory or conversation changed during this request. Ask again.', 'conversation_changed', 409)
-            history.extend(anonymous_history([('user', message), ('model', reply)]))
+            turns = anonymous_history([('user', message), ('model', reply)])
+            history.extend(turns)
+            if sources:
+                turn_sources[id(turns[-1])] = (turns[-1], [dict(source) for source in sources])
             del history[:-20]
+            prune_turn_sources()
             # Publish the result under the same lock as the history mutation.
             # A poll at the deadline cannot report failure after a committed turn.
             job.active = False
@@ -443,7 +499,7 @@ def create_app(config=None, providers=None):
                 result = Result(dict(sources=research['sources'] if research else [], research_topic=research.get('topic_id') if research else None, reply=reply, user_message=anonymous_history([('user', message)])[0][1],
                                      mode='demo' if app.config['DEMO_MODE'] else 'live'),
                                 headers=timing_headers(timings))
-                commit(job, message, reply, version, result)
+                commit(job, message, reply, version, result, research['sources'] if research else ())
                 return result
             job = jobs.submit('text', message.encode(), request.headers.get('X-Request-ID'), operation)
         except ServiceError as exc:
@@ -488,9 +544,9 @@ def create_app(config=None, providers=None):
                 raise ServiceError('Speech response too large. Try a shorter question.', 'audio_too_large', 502)
             result = Result(audio, headers={'X-Karen-Result': 'spoken-error' if spoken_error else 'ok',
                                             'X-Karen-Error': spoken_error or '',
-                                            'X-Karen-Research-Topic': (research.get('topic_id') or research['fact_ids'][0]) if research and not spoken_error else '', **timing_headers(timings)})
+                                            'X-Karen-Research-Topic': (research.get('topic_id') or next(iter(research.get('fact_ids') or ()), '')) if research and not spoken_error else '', **timing_headers(timings)})
             if not spoken_error:
-                commit(job, transcript, reply, version, result)
+                commit(job, transcript, reply, version, result, research['sources'] if research else ())
             return result
         try:
             job = jobs.submit('voice', data, request.headers.get('X-Request-ID'), operation)

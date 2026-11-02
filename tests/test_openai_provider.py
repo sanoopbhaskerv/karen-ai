@@ -153,7 +153,7 @@ def test_transport_failures_have_a_bounded_single_attempt(mocked_openai, caplog,
     assert caught.value.code == code
     assert len(calls) == 1
     timeout = calls[0].extensions['timeout']
-    assert timeout == {'connect': 5, 'read': 20, 'write': 10, 'pool': 5}
+    assert timeout == {'connect': 5, 'read': 45, 'write': 10, 'pool': 5}
     assert 'private-' not in str(caught.value) + caplog.text
 
 

@@ -6,7 +6,7 @@ Karen can use OpenAI for Malayalam speech recognition and answer generation whil
 
 Create a project API key under the personal OpenAI API organization receiving your credits. Store it only in the project's ignored `.env.local` or the server's private deployment settings. Do not put the key in firmware, Git, screenshots or chat. Eligible ChatGPT Pro/Business owners can claim an API-credit benefit by linking their API organization; check the current offer and expiry in [OpenAI's API-credit guide](https://developers.openai.com/api/docs/guides/chatgpt-api-credits).
 
-The credits cover OpenAI transcription and answer-generation requests. Google MP3 synthesis remains the same service used by the original setup. OpenAI audio output was evaluated separately; it is not enabled in this Malayalam configuration.
+The credits cover OpenAI transcription, answer-generation and billed web-search calls. Google MP3 synthesis remains the same service used by the original setup. OpenAI audio output was evaluated separately; it is not enabled in this Malayalam configuration.
 
 ## Select OpenAI
 
@@ -33,7 +33,15 @@ The setup retains saved memory and existing cloud authentication. A server resta
 
 Completed voice responses report `stt`, `openai` and `tts` in `Server-Timing`. The `openai` duration is text-answer generation; `tts` is Google Malayalam speech generation. Cached request results preserve their original audio and timings. Existing board firmware can play these replies and print total timing without modification; older timing parsers may omit the newly named `openai` metric. The server logs always include it with the request ID.
 
-OpenAI requests have 5-second connection and 20-second read timeouts, with no implicit generation retry. A timeout returns a labeled spoken error rather than waiting for another long attempt. The existing overall job deadline, request deduplication, memory-revision guard and audio-size limits remain in place.
+OpenAI requests have a 5-second connection timeout. Recognition retains a 20-second read timeout; answer requests allow 45 seconds because they can search the web. There is no implicit generation retry. A timeout returns a labeled spoken error rather than waiting for another long attempt. The existing overall job deadline, request deduplication, memory-revision guard and audio-size limits remain in place.
+
+## Current information and sources
+
+General answers can use the Responses API [web-search tool](https://developers.openai.com/api/docs/guides/tools-web-search). Recent-year questions and changing facts explicitly require search, while ordinary science questions let the model decide whether verification is useful. Each answer request supplies the current Indian date, so “last year” follows the actual calendar. A question about an award with several categories can ask which category the visitor means.
+
+The configured model is retained, with at most two search/tool calls per answer. Search prefers official sources and supplies actual citation URLs. Source links appear under the answer and remain attached to that exact turn after refreshing the dashboard; they leave with the bounded conversation history or a reset. Voice replies use the answer text without citation markers or source URLs. The dashboard provides the corresponding links after refresh.
+
+Creator/privacy replies and the checked Sasthramela extracts still run before general generation. Search failures remain labeled service errors. No answer should claim a current result was verified merely because the tool was available.
 
 Tests use fake transports and isolated facts:
 
