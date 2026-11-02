@@ -41,6 +41,8 @@ General answers can use the Responses API [web-search tool](https://developers.o
 
 The configured model is retained, with at most two search/tool calls per answer. Search prefers official sources and supplies actual citation URLs. Source links appear under the answer and remain attached to that exact turn after refreshing the dashboard; they leave with the bounded conversation history or a reset. Voice replies use the answer text without citation markers or source URLs. The dashboard provides the corresponding links after refresh.
 
+Answers are checked for mixed Indic scripts or English-only prose. If needed, one additional request rewrites the same facts into Malayalam, keeping proper names in Latin script and retaining the original sources. That formatting request has a 20-second read timeout and does not search again. An unsuccessful correction returns a labeled Malayalam error instead of publishing mixed-language text.
+
 Creator/privacy replies and the checked Sasthramela extracts still run before general generation. Search failures remain labeled service errors. No answer should claim a current result was verified merely because the tool was available.
 
 Tests use fake transports and isolated facts:

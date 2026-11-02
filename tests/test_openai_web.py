@@ -6,7 +6,8 @@ import httpx
 import pytest
 
 from exhibition_identity import PRIVATE_REPLY
-from openai_provider import answer_prose, citation_sources, needs_live_information
+from jobs import ServiceError
+from openai_provider import answer_prose, citation_sources, needs_live_information, needs_malayalam_repair
 from test_openai_provider import mocked_openai, text_result
 
 
@@ -113,3 +114,55 @@ def test_verified_source_markdown_and_urls_are_not_read_aloud():
 def test_percent_encoded_private_citation_urls_are_filtered_before_direct_provider_delivery():
     assert not citation_sources([{'annotations': [{'type': 'url_citation',
         'url': 'https://example.com/?q=PKMMHSS%20Edarikode', 'title': 'A source'}]}])
+
+
+def test_mixed_indic_or_english_only_output_needs_repair_but_latin_names_are_allowed():
+    assert needs_malayalam_repair('2025-ലെ நோபல் பரிசு Maria Corina Machado നേടി.')
+    assert needs_malayalam_repair('Water evaporates and condenses.')
+    assert not needs_malayalam_repair('2025-ലെ Nobel സമ്മാനം Maria Corina Machado നേടി.')
+
+
+def test_language_repair_is_single_bounded_search_free_and_preserves_original_sources(mocked_openai):
+    app, provider, calls, responses, options = mocked_openai
+    responses.extend([httpx.Response(200, json=annotated_result('ഇന്ത്യ கோப்பையை வென்றது.')),
+                      httpx.Response(200, json=text_result('ഇന്ത്യ കപ്പ് നേടി.'))])
+    reply, sources = provider.answer_with_sources('facts', [], 'Who won in 2026?')
+    assert reply == 'ഇന്ത്യ കപ്പ് നേടി.' and sources == [SOURCE]
+    assert len(calls) == 2
+    repair = json.loads(calls[1].content)
+    assert 'tools' not in repair and repair['store'] is False
+    assert repair['reasoning'] == {'effort': 'none'}
+    assert calls[1].extensions['timeout']['read'] == 20
+
+
+def test_failed_language_repair_does_not_loop_or_publish_mixed_text(mocked_openai):
+    app, provider, calls, responses, options = mocked_openai
+    responses.extend([httpx.Response(200, json=text_result('ഇത് தமிழ் பதில்.')),
+                      httpx.Response(200, json=text_result('இது இன்னும் தமிழ்.'))])
+    with pytest.raises(ServiceError) as caught:
+        provider.answer_with_sources('facts', [], 'Explain rain.')
+    assert caught.value.code == 'model_language'
+    assert len(calls) == 2 and provider.diagnostic['status'] == 'degraded'
+
+
+def test_private_reply_never_enters_the_language_repair_request(mocked_openai):
+    app, provider, calls, responses, options = mocked_openai
+    responses.append(httpx.Response(200, json=annotated_result('PKMMHSS Edarikode தமிழ் பள்ளி.')))
+    assert provider.answer_with_sources('facts', [], 'Explain a project.') == (PRIVATE_REPLY, [])
+    assert len(calls) == 1
+
+
+def test_repaired_voice_keeps_sources_and_only_speaks_malayalam(mocked_openai):
+    from test_app import pcm
+    app, provider, calls, responses, options = mocked_openai
+    responses.extend([httpx.Response(200, json={'text': 'Who won in 2026?'}),
+                      httpx.Response(200, json=annotated_result('ഇന്ത്യ கோப்பையை வென்றது.')),
+                      httpx.Response(200, json=text_result('ഇന്ത്യ കപ്പ് നേടി.'))])
+    client = app.test_client()
+    result = client.post('/chat', data=pcm(), content_type='audio/wav',
+                         headers={'X-Request-ID': 'web-language-repair-voice'})
+    assert result.status_code == 200 and result.headers['X-Karen-Research-Topic'] == 'web'
+    assert app.extensions['fake_tts']['calls'][0]['text'] == 'ഇന്ത്യ കപ്പ് നേടി.'
+    assert SOURCE['url'] in client.get('/').text
+    assert client.get('/requests/web-language-repair-voice').data == result.data
+    assert len(calls) == 3
