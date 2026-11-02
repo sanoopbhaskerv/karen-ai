@@ -15,9 +15,9 @@ Mac text and synthesized-speech software checks are recorded in `VALIDATION.md`.
 
 1. Start the server with `DEMO_MODE=0` and open the dashboard. Check `/health` reports live/configured and the expected model. `gemini.status` is `untested` before the first inference. Run `python scripts/diagnose_gemini.py` for a separate live test; a model-list success alone does not validate inference.
 2. Text: ask `നിന്റെ പേര് എന്താണ്?` Expect Malayalam identifying Karen.
-3. Ask `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?` Expect a Malayalam reply naming Sreehari, without school, class-section or home details. Ask a separate school question and check that Karen declines to share those details. Also ask `നീ എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?` and check the explanation against the actual hardware/server flow.
+3. Ask `നിന്നെ ആരാണ് നിർമ്മിച്ചത്?`, `താങ്കളെ ആരാണുണ്ടാക്കിയത്?`, and `Who programmed you?` Expect the same Malayalam reply naming Sreehari, without provider names, school, class-section or home details. Repeat a creator question by voice. Ask a separate school question and check that Karen declines to share those details. Also ask `നീ എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?` and `How were you built?` and check the explanation against the actual hardware/server flow.
 4. Back up permanent memory before a planned demonstration edit. Add a real approved fact, save, and ask about it. Confirm the new fact and fresh conversation. Never replace actual saved facts with test data.
-5. Ask a follow-up referring to the previous response. Confirm context is retained. Use New chat and confirm history is cleared.
+5. After discussing Karen, ask `Who made it?` and expect Sreehari's credit. Then discuss the telephone and ask the same follow-up; the answer should refer to the telephone's inventor. Use New chat and confirm history is cleared.
 6. Restart the server. Confirm the new permanent fact remains and session history is empty.
 7. Browser microphone: on Mac localhost, speak a Malayalam question for five seconds. Hear a complete MP3 reply. Check microphone permission and trusted HTTPS if unavailable. A phone LAN HTTP URL supports text but cannot normally record.
 8. ESP32: confirm boot WiFi logs, then record the same question with the button. Hear a clear complete reply without clipping.

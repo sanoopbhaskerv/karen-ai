@@ -358,7 +358,7 @@ def create_app(config=None, providers=None):
         with lock:
             memory = anonymous_memory(memory_path.read_text(encoding='utf-8'))
             previous, version = anonymous_history(history), revision
-        if not app.config['DEMO_MODE'] and identity_question(message):
+        if not app.config['DEMO_MODE'] and identity_question(message, previous):
             return identity_reply(message), version, None
         research = research_lookup(message, previous) if not app.config['DEMO_MODE'] else None
         if research is not None:
