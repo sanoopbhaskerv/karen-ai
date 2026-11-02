@@ -32,15 +32,19 @@ _IDENTIFIERS = re.compile(
     r'|(?<!\w)' + _CLASS_ORDINAL + r'\s+' + _CLASS_LABEL + _SECTION_SUFFIX,
     re.I,
 )
+# Keep the same object forms in every Malayalam word order, including the
+# formal pronouns commonly returned by speech recognition.
+_SELF_OBJECT = r'(?:നിന്നെ|നിങ്ങളെ|താങ്കളെ|അങ്ങയെ|കാരെനെ|കാരെനിനെ)'
+_CREATION_ACTION = r'(?:നിർമ|ഉണ്ടാക്ക|സൃഷ്ടി|വികസിപ്പി|രൂപകൽപ്പന)'
 _IDENTITY_QUESTION = re.compile(
     r'\b(?:your|karen[’\']s)\s+(?:creator|maker|builder|developer|author|school|class|home|hometown|village|personal\s+details)\b'
     r'|\b(?:who|which\s+(?:student|person|team))\s+(?:really\s+)?(?:created|built|made|developed|invented|designed)\s+(?:you|karen|this\s+(?:assistant|project))\b'
     r'|\b(?:creator|maker|builder|developer)\s+of\s+(?:karen|this\s+(?:assistant|project))\b'
     r'|\b(?:where\s+(?:are|is)|(?:which|what)\s+(?:school|class|village|town)\s+(?:are|is))\s+(?:you|karen)\b'
-    r'|(?:നിന്റെ|നിങ്ങളുടെ|കാരെന്റെ)\s*(?:നിർമ്മാതാ|നിർമാതാ|സൃഷ്ടാവ|സ്കൂൾ|വിദ്യാലയം|ക്ലാസ്|നാട്|വീട്|വ്യക്തിവിവര)'
-    r'|(?:നിന്നെ|നിങ്ങളെ|കാരെനെ|കാരെനിനെ).{0,30}(?:ആരാണ്|ആരാ|ആര്).{0,20}(?:നിർമ|ഉണ്ടാക്ക|സൃഷ്ടി)'
-    r'|(?:നിന്നെ|നിങ്ങളെ|കാരെനെ|കാരെനിനെ).{0,20}(?:നിർമ|ഉണ്ടാക്ക|സൃഷ്ടി).{0,20}(?:ആരാണ്|ആരാ|ആര്)'
-    r'|(?:ആരാണ്|ആര്).{0,10}(?:നിന്നെ|നിങ്ങളെ|കാരെനെ).{0,20}(?:നിർമ|ഉണ്ടാക്ക|സൃഷ്ടി)', re.I,
+    r'|(?:നിന്റെ|നിങ്ങളുടെ|താങ്കളുടെ|അങ്ങയുടെ|കാരെന്റെ)\s*(?:നിർമ്മാതാ|നിർമാതാ|സൃഷ്ടാവ|സ്കൂൾ|വിദ്യാലയം|ക്ലാസ്|നാട്|വീട്|വ്യക്തിവിവര)'
+    r'|' + _SELF_OBJECT + r'.{0,30}(?:ആരാണ്|ആരാ|ആര്).{0,20}' + _CREATION_ACTION +
+    r'|' + _SELF_OBJECT + r'.{0,20}' + _CREATION_ACTION + r'.{0,20}(?:ആരാണ്|ആരാ|ആര്)'
+    r'|(?:ആരാണ്|ആര്).{0,10}' + _SELF_OBJECT + r'.{0,20}' + _CREATION_ACTION, re.I,
 )
 
 
