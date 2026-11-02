@@ -1,4 +1,12 @@
-# Validation record — latest check 1 November 2026
+# Validation record — latest check 2 November 2026
+
+## Bilingual creator and build questions — 2 November 2026
+
+- Creator questions use the fixed Malayalam Sreehari credit before text generation or speech synthesis. Coverage includes English active/passive phrasing, creator-role nouns and plurals, contractions, alternative company suggestions, Malayalam formal/casual pronouns and word orders, old chillu spellings, common Manglish and mixed-script forms.
+- Short questions such as `Who made it?` use Karen as the initial exhibit subject and follow the last completed conversation topic thereafter. Tests cover Karen introductions, build questions, repeated creator follow-ups and unrelated telephone discussion. Technical questions about components, language models, materials, cost, time or operation retain the normal answer path. School/class project context does not become a request for the creator's private details.
+- Added **649 phrase/conversation regression cases**, including text, voice, result polling and duplicate-request replay. Full local suite: **876 passed, five Windows-only skips**, with two existing dependency warnings.
+- Integrated the same changes with hosted-provider source `72894fe` in an isolated checkout, resolving the shared generation hunk to retain research routing and its three-value result: **1,206 passed, five Windows-only skips**, with the same dependency warnings. This is source compatibility validation; the running host was not changed.
+- Independent review covered technical false positives, privacy, conversational context, contractions/plurals and bounded-input performance. No live provider request, credential change, firmware upload, merge or deployment was performed. Restart every running server after applying the update to discard old in-memory answers and audio results.
 
 ## Name-only creator credit; school details private — 1 November 2026
 

@@ -251,7 +251,7 @@ def create_app(config=None, providers=None):
         with lock:
             memory = anonymous_memory(memory_path.read_text(encoding='utf-8'))
             previous, version = anonymous_history(history), revision
-        if not app.config['DEMO_MODE'] and identity_question(message):
+        if not app.config['DEMO_MODE'] and identity_question(message, previous):
             return identity_reply(message), version
         reply = provider.answer(memory, previous, anonymous_history([('user', message)])[0][1])
         return anonymous_reply(reply), version
