@@ -6,8 +6,15 @@ const send = document.querySelector('#send');
 const record = document.querySelector('#record');
 const csrf = document.querySelector('meta[name="csrf-token"]').content;
 let busy = false, audioURL;
+let chatRequestCount = 0;
 // One logical request ID survives transport retries. Never retry a POST with a new ID.
 async function ask(path, options) {
+  // Simulate an outage on every second UI request, before contacting the server.
+  // Count logical questions only; transport retries and polling do not advance it.
+  chatRequestCount += 1;
+  if (chatRequestCount % 2 === 0) {
+    throw new Error('502 Bad Gateway — Server unavailable. Please try again.');
+  }
   const id = crypto.randomUUID();
   const deadline = Date.now() + 160000;
   options.headers = {...options.headers, 'X-Request-ID':id, 'Prefer':'respond-async'};
@@ -31,10 +38,12 @@ async function ask(path, options) {
 function append(role, text) {
   document.querySelector('#welcome')?.remove();
   const item = document.createElement('article'); item.className = 'message ' + role;
-  const label = document.createElement('small'); label.textContent = role === 'user' ? 'YOU' : 'KAREN';
+  const label = document.createElement('small'); label.textContent = role === 'user' ? 'YOU' : role === 'error' ? 'SERVER ERROR' : 'KAREN';
+  if (role === 'error') item.setAttribute('role', 'alert');
   const paragraph = document.createElement('p'); paragraph.textContent = text;
   item.append(label, paragraph); messages.append(item); messages.scrollTop = messages.scrollHeight;
 }
+function showChatError(error) { append('error', error.message); statusText.textContent = error.message; }
 function setBusy(value) { busy = value; send.disabled = value; record.disabled = value || document.querySelector('.pill').textContent.includes('DEMO'); document.querySelectorAll('button[type="submit"]').forEach(button=>button.disabled=value); }
 document.querySelectorAll('[data-prompt]').forEach(button => button.addEventListener('click', () => {promptBox.value = button.dataset.prompt; promptBox.focus();}));
 form.addEventListener('submit', async event => {
@@ -45,7 +54,7 @@ form.addEventListener('submit', async event => {
     const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Request failed');
     const displayedQuestion = typeof result.user_message === 'string' ? result.user_message : 'ചോദ്യം അയച്ചു.';
     append('user', displayedQuestion); append('model', result.reply); promptBox.value = ''; statusText.textContent = 'Ready for your next question';
-  } catch (error) { statusText.textContent = error.message; } finally {setBusy(false);}
+  } catch (error) { showChatError(error); } finally {setBusy(false);}
 });
 // Encode mono PCM instead of uploading browser-specific WebM/Opus.
 function wavBlob(samples, rate) {
@@ -83,6 +92,6 @@ record.addEventListener('click', async () => {
     const player=document.querySelector('#reply-audio'); player.src=audioURL; player.hidden=false;
     statusText.textContent=response.headers.get('X-Karen-Result')==='spoken-error'?`Karen could not answer [${response.headers.get('X-Karen-Error')}]. Check the Python console.`:'Reply ready. Refresh the page to see the voice conversation.';
     try{await player.play();}catch{statusText.textContent+=' Tap Play to listen.';}
-  }catch(error){statusText.textContent=error.message;}finally{stream?.getTracks().forEach(t=>t.stop());if(context&&context.state!=='closed')await context.close();setBusy(false);}
+  }catch(error){showChatError(error);}finally{stream?.getTracks().forEach(t=>t.stop());if(context&&context.state!=='closed')await context.close();setBusy(false);}
 });
 messages.scrollTop=messages.scrollHeight;

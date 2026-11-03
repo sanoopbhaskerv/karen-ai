@@ -1,4 +1,10 @@
-# Validation record — latest check 1 November 2026
+# Validation record — latest check 3 November 2026
+
+## Alternating simulated website outages — 3 November 2026
+
+- Every second browser chat question shows a red, accessible **502 Bad Gateway — Server unavailable. Please try again.** message in the conversation. Text and voice share a page-local counter; retries/polling do not advance it. The simulated failure sends no backend request. Text remains available for retry, controls recover, and refresh/New chat resets the sequence.
+- Offline Chrome regression (`node tests/browser_failures.cjs`, with Playwright available): passed alternating text/voice failures, transport retry with the same request ID, async polling, blank-input handling, preserved input/retry, microphone track cleanup, reset/reload and mobile overflow/runtime checks. Mobile screenshot inspected. The test renders the actual Flask template with temporary memory and mocks chat transport and microphone input; no AI service or saved user memory is used.
+- Python suite: **206 passed, five Windows-only skips**, with the two existing upstream deprecation warnings. JavaScript syntax and Git whitespace checks passed. The live-provider smoke test was updated for alternating failures but was not run for this UI-only change.
 
 ## Name-only creator credit; school details private — 1 November 2026
 
