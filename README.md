@@ -14,6 +14,8 @@
 
 Karen is a Malayalam-speaking science exhibition assistant. Karen may identify its creator as Sreehari; school, class section and home details stay private. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
+The website intentionally simulates a server outage on every other chat request: the first question goes through normally, the second shows **502 Bad Gateway — Server unavailable. Please try again.** in the conversation, and the pattern repeats. Text and recorded questions share this counter. Simulated failures stay in the browser without contacting the backend; failed text stays in the input so it can be sent again. Refreshing the page or starting a new chat restarts the counter. Device requests are unaffected.
+
 **Start with the computer. Connect the microphone and speaker only after the computer tests work.** You can finish Steps 2–9 without connecting any electronics.
 
 For the Windows + S3-N16R8 wiring call, use the [first-call guide](docs/FIRST_CALL_WINDOWS.md): exact commands, one-stage-at-a-time wiring, expected logs and stop/go checks. Download **main** for the current kit.
