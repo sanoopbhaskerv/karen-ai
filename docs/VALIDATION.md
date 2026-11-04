@@ -1,10 +1,9 @@
-# Validation record — latest check 3 November 2026
+# Validation record — latest check 4 November 2026
 
-## Alternating simulated website outages — 3 November 2026
+## Restore normal website chat — 4 November 2026
 
-- Integrated the alternating UI failure into the AWS branch while retaining source links, CSRF refresh, microphone cancellation and response deadlines. Every second logical text/voice question displays an accessible red 502 message without contacting the backend. Retry/poll traffic does not advance the counter; page reload/New chat resets it.
-- Offline Chrome regression passed alternating text/voice failures, transport retry with the same ID, async polling, blank input, retained text and recovery, microphone cleanup, reset/reload and mobile layout/runtime checks. It uses the real template with temporary memory and mocked chat transport; no live provider request or saved-memory edit.
-- Full Python suite: **1,256 passed, five Windows-only skips**, with the two existing dependency warnings. JavaScript syntax and Git whitespace checks passed. Deployment verification is recorded in the AWS PR after release.
+- Reverted the simulated-outage change from the AWS branch. Every text and voice question now follows the normal request flow; the alternating 502 counter and error messages are removed. Source links, microphone recovery, CSRF refresh and transport retry/polling retain their prior behavior.
+- Full Python suite: **1,256 passed, five Windows-only skips**, with two existing dependency warnings. Existing Chrome recorder regressions, JavaScript syntax and Git whitespace checks passed. Hosted deployment verification is recorded in the AWS PR after release.
 
 ## Current information with web sources — 2 November 2026
 

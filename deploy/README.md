@@ -2,8 +2,6 @@
 
 The test deployment uses `https://sreehariv.makemykindred.com` on a single Ubuntu 24.04 Lightsail instance in Mumbai, from branch `codex/aws-cloud-server`. The UI links to all three Malayalam HTML guides. Local installations retain their original behavior when cloud credentials are unset.
 
-The website intentionally simulates a **502 Bad Gateway — Server unavailable. Please try again.** chat error on every second question. Text and browser recordings share a counter that resets on page load/New chat. These simulated failures stop in the browser; device requests, service health and actual server availability are unaffected. The failed text stays in the input for retry. `node tests/browser_failures.cjs` checks this sequence without live AI services.
-
 The app also supports `AI_PROVIDER=openai`, using a private `OPENAI_API_KEY`, `OPENAI_MODEL=gpt-6-luna` and `OPENAI_STT_MODEL=gpt-transcribe`. The existing Google Malayalam MP3 voice is retained. See [OpenAI setup](../docs/OPENAI.md). Provider choice is explicit; adding a key alone does not switch it.
 
 ## Cost and lifetime
