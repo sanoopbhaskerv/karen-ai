@@ -9,12 +9,12 @@ The firmware supports the original classic ESP32 and the nephew's photographed H
 | Original ESP32 | Classic 38-pin CP2102/Micro-USB board; original GPIO map | Exact module, USB data connection and measured flash size |
 | New ESP32-S3 | HW678 / Sixspan S3-N16R8; relevant GPIO and COM/USB labels visible in photos | Measured 16 MB flash / 8 MB PSRAM, USB-UART bridge identity, upload and boot |
 | Microphone | Shop label INMP441 | Actual breakout VDD/GND/SCK/WS/SD/L-R labels, soldered headers |
-| Amplifier | **MAX98357A I2S**, still being sourced | Correct module, VIN/enable/gain instructions and soldered headers |
-| Speaker | Latest box reportedly **4 ohms / 10 watts** | Driver's own impedance/power marking, two suitable speaker wires |
+| Amplifier | **MAX98357A I2S** selected; speaker playback reported | Actual module, VIN/enable/gain instructions and soldered headers |
+| Speaker | Latest user report: **3 W / 4 Ω**, playback too quiet | Driver's own impedance/power marking, two suitable speaker wires, clear output on actual supply |
 | Button | Momentary push button | Which legs are already connected internally; select legs shorted only while pressed |
 | Power | USB power bank / Micro-USB data cable / Mac adapter | Stable 5 V, suitable current and safe supply arrangement |
 
-PAM8403 is not selected; do not wire it to the digital I2S outputs. A MAX98357A is rated up to about 3.2 W into 4 ohms at 5 V, not 10 W. A genuinely 4-ohm/10-watt passive speaker is a compatible load at lower delivered power; the box is not proof of the driver specification. Start at the firmware's low output gain (0.35). Do not connect a speaker directly to GPIO.
+PAM8403 is not selected; do not wire it to the digital I2S outputs. The reported 3 W / 4 Ω passive speaker is a suitable load for moderate output; its wattage rating does not set loudness. The MAX98357A's [3.2 W headline into 4 Ω is at 5 V and 10% THD](https://www.adafruit.com/product/3006), so clear output is lower. A 3.3 V amplifier supply further limits available output. Do not connect a speaker directly to GPIO. These specifications and the user's playback report do not verify this assembly's power or sound quality.
 
 ## Wiring checked against firmware
 
@@ -65,14 +65,28 @@ In Arduino IDE select **ESP32 Dev Module / 4 MB** for the classic board, or **ES
 
 1. **Board only:** classic uses Micro-USB; photographed S3 uses USB-C labelled **COM**. `arduino-cli board list` should show a serial port (`/dev/cu.*` on Mac, COM number on Windows). If absent, check the data cable and identify the actual USB-UART bridge before installing its manufacturer's driver. Do not assume the S3 shares the classic CP2102.
 2. **Identify flash:** use Espressif esptool (`python -m pip install esptool`, then `python -m esptool --port <actual-port> flash-id`). Hold BOOT during connect if required. Record chip and detected flash capacity. Select `esp32` or `esp32_s3` to match; never use a larger flash target than the measured hardware. Firmware also prints measured flash and PSRAM bytes at boot.
-3. **Inspect parts:** read the microphone's actual pin labels and speaker-driver marking, check continuity/button legs, solder headers and speaker wires. Keep the amplifier disconnected until it is available and identified.
+3. **Inspect parts:** read the microphone's actual pin labels and speaker-driver marking, check continuity/button legs, solder headers and speaker wires. Keep the amplifier disconnected until its labels and power arrangement are checked.
 4. **Configure:** copy `firmware/karen_ai/config.example.h` to `config.h` only if absent. Edit this ignored file: 2.4 GHz WiFi credentials and `SERVER_ORIGIN="http://<backend-LAN-IP>:8080"`, no trailing slash. Keep `STATUS_LED=-1`; S3's RGB LED is not a plain GPIO LED. No Gemini key belongs on the board. Use the selected adapter's pin map instead of old classic overrides on S3.
 5. **Compile/upload:** set `KAREN_CONTROLLER` and recheck the measured board/flash. On Mac, use `.venv/bin/python scripts/firmware.py --use-config`, then `.venv/bin/python scripts/firmware.py --upload --port /dev/cu.<actual-port>`. Windows commands are in `WINDOWS.md`. The helper stops on compile failure and requires an explicit port/private configuration. Open Serial Monitor at 115200. Expect controller name, flash/PSRAM sizes, pin map, WiFi and Ready messages.
 6. **Button + microphone only:** wire the INMP441 and button from the table. Press once; speak during the five-second Recording message. Watch the request ID and backend logs. With no amplifier, capture/STT/server MP3 can be checked, but audible playback is still untested.
-7. **Add MAX98357A + speaker:** power down, wire its digital pins and verified power source. Connect the speaker only to SPK+/SPK−. Power up at low gain and confirm one complete Malayalam response. Check supply stability and noise before adjusting gain.
+7. **Add MAX98357A + speaker:** power down, wire its digital pins and verified power source. Connect the speaker only to SPK+/SPK−. For first wiring checks, set `SPEAKER_GAIN=0.35f` and upload. Confirm one complete Malayalam response and check supply stability and noise before using the new `0.70f` default or increasing further.
 8. **Tune input:** INMP441 uses 32-bit slots, converted to 16-bit with `MIC_SHIFT=16`. If too quiet, try 15 then 14; reduce gain if clipping. Check L/R=GND and soldering before software gain changes.
 9. **Recovery:** disconnect WiFi/internet, check visible/serial failure, restore connectivity and press again only after inspecting the prior request ID. Check that late responses never create duplicate turns. Verify malformed WAV/JSON is never played as MP3.
 10. **Endurance:** run ten consecutive physical turns. Check intelligibility, clipping, repeated I2S initialization, clean flash files, stable power and no resets. Repeat at the venue with the actual power bank/network.
+
+## Low speaker volume
+
+Earlier firmware hardcoded output gain `0.35`. Playback now uses configurable `SPEAKER_GAIN`, default `0.70f`, with the same default for older private configurations that omit it. This doubles digital sample amplitude; it does not guarantee a particular acoustic volume or output power.
+
+Add or edit only this line in the existing ignored `firmware/karen_ai/config.h`; preserve all private WiFi, server and certificate settings:
+
+```cpp
+#define SPEAKER_GAIN 0.70f
+```
+
+The accepted range is `0.0f` (mute) through `1.0f`. Close Serial Monitor, save and upload again using the selected controller and actual port; a normal example build does not use private `config.h` or update the board. Confirm `gain=0.70` in the `[PLAY]` log. Use `0.35f` for first wiring checks. If playback at `0.70f` is clear and stable but still too quiet, try `0.85f`, then `1.0f`, uploading after each change. Lower the gain for distortion; investigate resets/brownouts before increasing it again.
+
+Compare the same reply on the computer. If it is clear there, check amplifier VIN and a verified 5 V supply, common GND, SPK+/SPK− soldering and this breakout's GAIN/SD instructions. Do not connect either speaker output to GND or join an external amplifier 5 V rail to a USB-powered controller's supply rail. Changing `MIC_SHIFT` cannot increase reply playback volume.
 
 ## Local networking and HTTPS
 

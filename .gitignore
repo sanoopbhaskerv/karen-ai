@@ -12,5 +12,6 @@ __pycache__/
 .pytest_cache/
 data/
 firmware/karen_ai/config.h
+/aws_access.txt
 *.mp3
 *.wav

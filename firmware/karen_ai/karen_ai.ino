@@ -12,8 +12,19 @@
 #include "config.h"
 #include "controller.h"
 
+// Keep existing local config.h files compatible with the cloud-capable firmware.
+#ifndef KAREN_DEVICE_TOKEN
+#define KAREN_DEVICE_TOKEN ""
+#endif
+
+// Existing private config.h files do not need to be replaced for this update.
+#ifndef SPEAKER_GAIN
+#define SPEAKER_GAIN 0.70f
+#endif
+static_assert(SPEAKER_GAIN>=0.0f&&SPEAKER_GAIN<=1.0f,
+  "SPEAKER_GAIN must be between 0.0f and 1.0f.");
+
 static const uint32_t RATE=16000;
-static const char *BOUNDARY="KarenESP32Boundary7d29";
 i2s_chan_handle_t mic=nullptr;
 void statusLED(bool on){if(STATUS_LED>=0)digitalWrite(STATUS_LED,on?HIGH:LOW);}
 void fail(const char* message){ Serial.printf("[%lu ms][ERROR] %s\n",millis(),message); for(int i=0;i<3;i++){statusLED(true);delay(130);statusLED(false);delay(130);} }
@@ -88,33 +99,93 @@ bool recordQuestion(){
   if(written&&clippedSamples>written/100)Serial.println("[MIC][WARN] More than 1% clipped samples. Move farther away; check MIC_SHIFT before changing gain.");
   return ok&&written==target;
 }
-bool createMultipart(){
-  File src=LittleFS.open("/question.wav","r"),dst=LittleFS.open("/upload.bin","w");
-  if(!src||!dst)return false;
-  String head=String("--")+BOUNDARY+"\r\nContent-Disposition: form-data; name=\"audio\"; filename=\"question.wav\"\r\nContent-Type: audio/wav\r\n\r\n";
-  if(dst.print(head)!=head.length())return false;
-  uint8_t buffer[1024];while(src.available()){size_t n=src.read(buffer,sizeof(buffer));if(!n||dst.write(buffer,n)!=n)return false;yield();}
-  String tail=String("\r\n--")+BOUNDARY+"--\r\n";bool ok=dst.print(tail)==tail.length();src.close();dst.close();return ok;
+// Start SNTP before recording so DNS/server retries can run in the background.
+static const char* clockServers[]={"time.google.com","time.cloudflare.com","pool.ntp.org"};
+static bool clockSyncStarted=false;
+void beginClockSync(){
+  if(!String(SERVER_ORIGIN).startsWith("https://")||time(nullptr)>=1700000000||clockSyncStarted)return;
+  configTime(0,0,clockServers[0],clockServers[1],clockServers[2]);
+  clockSyncStarted=true;
+  Serial.println("[TLS] Background clock synchronization started.");
+}
+bool ensureClock(){
+  unsigned long started=millis();
+  if(time(nullptr)<1700000000){
+    beginClockSync();
+    // Restart SNTP with each provider as primary rather than relying on its
+    // internal retry/backoff to reach another server during a short turn.
+    for(int attempt=0;attempt<3&&time(nullptr)<1700000000;attempt++){
+      Serial.printf("[TLS] Clock attempt=%d/3 server=%s; wait up to 15 seconds.\n",attempt+1,clockServers[attempt]);
+      if(attempt>0)configTime(0,0,clockServers[attempt],clockServers[(attempt+1)%3],clockServers[(attempt+2)%3]);
+      unsigned long attemptStarted=millis();
+      while(time(nullptr)<1700000000&&millis()-attemptStarted<15000)delay(250);
+    }
+  }
+  Serial.printf("[TLS] clock_ms=%lu\n",millis()-started);
+  if(time(nullptr)<1700000000){
+    Serial.println("[TLS][ERROR] No NTP response. Network may block UDP port 123; try another 2.4 GHz network/hotspot. HTTPS verification remains enabled.");
+    clockSyncStarted=false;return false;
+  }
+  return true;
 }
 bool connectWiFi(){
-  if(WiFi.status()==WL_CONNECTED)return true;
+  if(WiFi.status()==WL_CONNECTED){beginClockSync();return true;}
   Serial.printf("[%lu ms][WIFI] Connecting; timeout=20 seconds. Credentials are hidden.\n",millis());
   WiFi.mode(WIFI_STA);WiFi.begin(WIFI_SSID,WIFI_PASSWORD);unsigned long start=millis();
   while(WiFi.status()!=WL_CONNECTED&&millis()-start<20000){delay(250);}
   if(WiFi.status()!=WL_CONNECTED){Serial.printf("[WIFI][ERROR] status=%d (%s), elapsed=%lu ms.\n",(int)WiFi.status(),wifiStatusName(WiFi.status()),millis()-start);return false;}
-  Serial.printf("[WIFI] Connected; elapsed=%lu ms signal=%d dBm.\n",millis()-start,WiFi.RSSI());return true;
+  Serial.printf("[WIFI] Connected; elapsed=%lu ms signal=%d dBm.\n",millis()-start,WiFi.RSSI());beginClockSync();return true;
+}
+bool drainPendingReply(HTTPClient &http){
+  // Consume the complete small JSON body before reusing its TLS connection.
+  // Flask supplies Content-Length; reject unknown/chunked or oversized bodies.
+  int remaining=http.getSize();
+  if(remaining<=0||remaining>1024||!http.header("Content-Type").startsWith("application/json")||
+      http.header("Transfer-Encoding").length()>0)return false;
+  auto *stream=http.getStreamPtr();if(!stream)return false;
+  uint8_t buffer[128];unsigned long started=millis();
+  while(remaining>0&&millis()-started<15000){
+    int available=stream->available();
+    if(available>0){
+      size_t wanted=(size_t)remaining;if(wanted>sizeof(buffer))wanted=sizeof(buffer);
+      if(wanted>(size_t)available)wanted=(size_t)available;
+      size_t received=stream->readBytes(buffer,wanted);
+      if(!received)return false;
+      remaining-=received;
+    }else if(!http.connected())return false;
+    else delay(1);
+  }
+  return remaining==0;
+}
+void logServerTiming(const String &header){
+  // Only print known metric names and bounded integer durations. Never echo
+  // arbitrary response headers, descriptions or body text into serial logs.
+  if(header.length()>256)return;
+  unsigned int start=0;
+  while(start<header.length()){
+    int comma=header.indexOf(',',start);
+    String metric=header.substring(start,comma<0?header.length():(unsigned int)comma);metric.trim();
+    int separator=metric.indexOf(";dur=");
+    if(separator>0){
+      String name=metric.substring(0,separator),duration=metric.substring(separator+5);
+      bool known=name=="stt"||name=="gemini"||name=="tts"||name=="total";
+      bool numeric=duration.length()>0&&duration.length()<=6;
+      for(unsigned int i=0;i<duration.length();i++)if(duration[i]<'0'||duration[i]>'9')numeric=false;
+      if(known&&numeric)Serial.printf("[HTTP] Backend timing %s_ms=%s\n",name.c_str(),duration.c_str());
+    }
+    if(comma<0)break;start=comma+1;
+  }
 }
 bool requestReply(){
-  Serial.printf("[%lu ms][HTTP] Preparing audio upload.\n",millis());
-  if(!createMultipart()){Serial.println("[FS][ERROR] Cannot prepare multipart upload; check free flash.");return false;}
+  Serial.printf("[%lu ms][HTTP] Streaming recorded WAV directly; no flash copy.\n",millis());
   WiFiClient plain;WiFiClientSecure secure;
   String origin=SERVER_ORIGIN;
+  if(strlen(KAREN_DEVICE_TOKEN)>0&&!origin.startsWith("https://")){
+    Serial.println("[HTTP][ERROR] Device authentication requires verified HTTPS.");return false;
+  }
   if(origin.startsWith("https://")){
     if(strlen(ROOT_CA)<100){Serial.println("[TLS][ERROR] Set ROOT_CA in config.h before using HTTPS.");return false;}
-    Serial.println("[TLS] Synchronizing clock for certificate verification.");
-    configTime(0,0,"pool.ntp.org","time.google.com");unsigned long start=millis();
-    while(time(nullptr)<1700000000&&millis()-start<15000)delay(250);
-    if(time(nullptr)<1700000000){Serial.println("[TLS][ERROR] Clock sync failed; TLS needs correct time.");return false;}
+    if(!ensureClock())return false;
     secure.setCACert(ROOT_CA);secure.setHandshakeTimeout(20);
   }else if(!origin.startsWith("http://")){Serial.println("[HTTP][ERROR] SERVER_ORIGIN must start with http:// or https://.");return false;}
   // HTTPClient has a 16-bit per-read timeout. Poll a bounded server job instead
@@ -123,56 +194,76 @@ bool requestReply(){
     (unsigned long)esp_random(),(unsigned long)esp_random(),(unsigned long)esp_random(),(unsigned long)esp_random());
   Serial.printf("[HTTP] Request %s; overall timeout=160 seconds.\n",requestId);
   const unsigned long started=millis();bool submitted=false;int posts=0,networkErrors=0;
-  int lastStatus=0;unsigned long lastProgress=0;
+  int polls=0,lastStatus=0;unsigned long lastProgress=0;
+  HTTPClient http;
+  // HTTP/1.1 plus a fully drained 202 body keeps the TCP/TLS session available
+  // for the next poll. HTTP/1.0 previously repeated the handshake each time.
+  http.useHTTP10(false);http.setReuse(true);
+  const char *keys[]={"Content-Type","X-Karen-Result","X-Karen-Error","Server-Timing","Transfer-Encoding"};
   while(millis()-started<160000){
-    HTTPClient http;
     String path=submitted?String("/requests/")+requestId:String("/chat");
     bool opened=origin.startsWith("https://")?http.begin(secure,origin+path):http.begin(plain,origin+path);
     if(!opened){Serial.println("[HTTP][ERROR] Cannot initialize request; check SERVER_ORIGIN syntax.");return false;}
-    http.setConnectTimeout(10000);http.setTimeout(15000);http.useHTTP10(true);
-    const char *keys[]={"Content-Type","X-Karen-Result","X-Karen-Error"};http.collectHeaders(keys,3);
-    int code;
+    http.setConnectTimeout(10000);http.setTimeout(15000);
+    http.collectHeaders(keys,5);
+    if(strlen(KAREN_DEVICE_TOKEN)>0)http.addHeader("Authorization",String("Bearer ")+KAREN_DEVICE_TOKEN);
+    int code;unsigned long roundStarted=millis();
     if(!submitted){
-      http.addHeader("Content-Type",String("multipart/form-data; boundary=")+BOUNDARY);
+      http.addHeader("Content-Type","audio/wav");
       http.addHeader("Prefer","respond-async");http.addHeader("X-Request-ID",requestId);
-      File input=LittleFS.open("/upload.bin","r");if(!input){Serial.println("[FS][ERROR] Cannot open upload.bin.");http.end();return false;}
+      File input=LittleFS.open("/question.wav","r");if(!input){Serial.println("[FS][ERROR] Cannot open question.wav.");http.end();return false;}
       Serial.printf("[HTTP] POST attempt=%d bytes=%lu; waiting for backend.\n",posts+1,(unsigned long)input.size());
       posts++;code=http.sendRequest("POST",&input,input.size());input.close();submitted=true;
-    }else{code=http.GET();}
+      Serial.printf("[HTTP] POST headers status=%d upload_ms=%lu (includes connection and response headers).\n",code,millis()-roundStarted);
+    }else{
+      polls++;code=http.GET();
+      Serial.printf("[HTTP] Poll=%d status=%d headers_ms=%lu\n",polls,code,millis()-roundStarted);
+    }
     if(code!=lastStatus||millis()-lastProgress>=15000){
       Serial.printf("[HTTP] status=%d elapsed=%lu ms%s\n",code,millis()-started,code==202?"; backend processing, keep waiting":"");
       lastStatus=code;lastProgress=millis();
     }
-    if(code==202){http.end();delay(1000);continue;}
+    if(code==202){
+      if(!drainPendingReply(http)){
+        Serial.printf("[HTTP][ERROR] Incomplete or unexpected processing body; failures=%d/4.\n",networkErrors+1);
+        plain.stop();secure.stop();http.end();
+        if(++networkErrors>3)return false;
+      }else http.end();
+      delay(1000);continue;
+    }
     if(code<0){
       Serial.printf("[HTTP][ERROR] Transport: %s; failures=%d/4. Check backend, network and Windows Firewall.\n",HTTPClient::errorToString(code).c_str(),networkErrors+1);
-      http.end();if(++networkErrors>3)return false;delay(1000);continue;
+      plain.stop();secure.stop();http.end();if(++networkErrors>3)return false;delay(1000);continue;
     }
-    if(code==404&&posts<2){http.end();submitted=false;continue;}
+    if(code==404&&posts<2){plain.stop();secure.stop();http.end();submitted=false;continue;}
     if(code!=200||!http.header("Content-Type").startsWith("audio/mpeg")){
       Serial.printf("[HTTP][ERROR] Server returned %d or unexpected audio type; request %s. Check Python console.\n",code,requestId);
-      http.end();return false;
+      plain.stop();secure.stop();http.end();return false;
     }
     int expected=http.getSize();
-    if(expected<=0||expected>512000){Serial.printf("[HTTP][ERROR] Unexpected audio size=%d; check Content-Length.\n",expected);http.end();return false;}
-    File output=LittleFS.open("/reply.mp3","w");if(!output){Serial.println("[FS][ERROR] Cannot create reply.mp3.");http.end();return false;}
+    if(expected<=0||expected>512000){Serial.printf("[HTTP][ERROR] Unexpected audio size=%d; check Content-Length.\n",expected);plain.stop();secure.stop();http.end();return false;}
+    File output=LittleFS.open("/reply.mp3","w");if(!output){Serial.println("[FS][ERROR] Cannot create reply.mp3.");plain.stop();secure.stop();http.end();return false;}
+    logServerTiming(http.header("Server-Timing"));
+    unsigned long downloadStarted=millis();
     int received=http.writeToStream(&output);output.close();
+    Serial.printf("[HTTP] download_ms=%lu polls=%d\n",millis()-downloadStarted,polls);
     // Do not echo arbitrary server header/body text into shareable serial logs.
     String result=http.header("X-Karen-Result");
     Serial.printf("[HTTP] Result: %s; received=%d/%d bytes elapsed=%lu ms.\n",
       result=="ok"?"ok":result=="spoken-error"?"spoken-error":"unknown",received,expected,millis()-started);
     if(result=="spoken-error")Serial.printf("[HTTP][WARN] Backend generated a spoken error. Match request %s in Python logs.\n",requestId);
-    http.end();return received==expected;
+    plain.stop();secure.stop();http.end();return received==expected;
   }
   Serial.printf("[HTTP][ERROR] Timed out. Inspect /requests/%s before starting another turn.\n",requestId);return false;
 }
-bool playReply(){
-  Serial.printf("[%lu ms][PLAY] Starting MP3 decoder; gain=0.35.\n",millis());
+bool playReply(unsigned long turnStarted){
+  Serial.printf("[%lu ms][PLAY] Starting MP3 decoder; gain=%.2f.\n",millis(),(double)SPEAKER_GAIN);
   AudioFileSourceLittleFS source("/reply.mp3");AudioOutputI2S out;
-  out.SetPinout(AMP_BCLK,AMP_WS,AMP_DATA);out.SetGain(0.35);
+  out.SetPinout(AMP_BCLK,AMP_WS,AMP_DATA);out.SetGain(SPEAKER_GAIN);
   AudioGeneratorMP3 decoder;
   if(!decoder.begin(&source,&out)){Serial.println("[PLAY][ERROR] MP3 decoder did not start.");return false;}
   unsigned long start=millis();
+  Serial.printf("[TURN] button_to_playback_ms=%lu; decoder ready, excludes reply duration.\n",start-turnStarted);
   while(decoder.isRunning()&&millis()-start<90000){if(!decoder.loop())decoder.stop();yield();}
   bool ok=millis()-start<90000;decoder.stop();out.stop();
   Serial.printf("[PLAY] %s elapsed=%lu ms. I2S output does not confirm audible speaker sound.\n",ok?"Decoder finished":"Timed out",millis()-start);return ok;
@@ -193,6 +284,8 @@ void setup(){
   Serial.println("[FS] Mounting; first boot may format the app filesystem.");
   if(!LittleFS.begin(true)){fail("LittleFS failed. Select a partition with >=1.5 MB filesystem.");while(true)delay(1000);}
   Serial.printf("[FS] total=%lu used=%lu bytes before temporary-audio cleanup.\n",(unsigned long)LittleFS.totalBytes(),(unsigned long)LittleFS.usedBytes());
+  // This USB-powered voice device favors response latency over modem power saving.
+  if(!WiFi.setSleep(false))Serial.println("[WIFI][WARN] Could not disable modem sleep.");
   cleanup();if(!connectWiFi())fail("WiFi unavailable. Will retry when button is pressed.");
   if(digitalRead(BUTTON_PIN)==LOW)Serial.println("[BUTTON][WARN] Button is already LOW. Check it is released and uses opposite switch contacts.");
   Serial.println("[READY] Press the external button, then speak when [MIC] says Speak now.");
@@ -205,7 +298,7 @@ void loop(){
     if(!connectWiFi())fail("Hotspot connection failed.");
     else if(!recordQuestion())fail("Recording failed. Check microphone and free flash.");
     else if(!requestReply())fail("Request failed. Check server and TLS settings.");
-    else if(!playReply())fail("Playback failed. Check amplifier and decoder.");
+    else if(!playReply(turnStarted))fail("Playback failed. Check amplifier and decoder.");
     cleanup();
     Serial.printf("[TURN] Finished elapsed=%lu ms; heap_free=%lu bytes. Release the button.\n",millis()-turnStarted,(unsigned long)ESP.getFreeHeap());
     unsigned long releaseStarted=millis();bool warned=false;
