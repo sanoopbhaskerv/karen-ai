@@ -1,10 +1,18 @@
 # Karen AI — English guide, step by step
 
+**Multiple clients and reply languages:** see [client registration and isolation](docs/MULTITENANT.md).
+
 **[മലയാളത്തിൽ വായിക്കാൻ ഇവിടെ അമർത്തുക → READMEMALAYALAM.md](READMEMALAYALAM.md)**
 
 **Offline HTML guide:** Open [the Malayalam setup page](docs/windows-setup-malayalam.html) in Edge/Chrome. It includes individual command copy buttons and a print/PDF option. Download the HTML file to read it with formatting before the server is running.
 
 **Changing WiFi or the server address later?** Use [the Malayalam WiFi-change and retest guide](docs/windows-wifi-change-malayalam.html). It covers the updated settings, USB upload, network checks and a fresh board question test.
+
+**AWS test:** The [cloud-use Malayalam guide](docs/cloud-use-malayalam.html) covers the hosted UI and ESP32 HTTPS setup. Hosting, access protection, cost and scheduled cleanup are documented in [the deployment runbook](deploy/README.md).
+
+**Controller reply slower than browser voice?** See the [response-time guide, in English and Malayalam](docs/CONTROLLER_LATENCY.md) for the firmware update and serial timings.
+
+**Using OpenAI API credits?** See [OpenAI setup](docs/OPENAI.md) for the optional speech-recognition and answer provider, keeping Karen's existing Malayalam voice.
 
 Karen is a Malayalam-speaking science exhibition assistant. Karen may identify its creator as Sreehari; school, class section and home details stay private. This guide assumes you are setting it up for the first time. You do not need to understand all the code before you begin.
 
@@ -72,7 +80,7 @@ The instructions below use the **photographed S3 board**. Both boards use the sa
 
 ### Before the hardware stage
 
-You will need the controller, a USB **data** cable, INMP441 microphone, MAX98357A I2S amplifier, passive speaker, external momentary push button and wires. A charge-only cable will not upload code. The amplifier is still being sourced; you can test the computer and microphone path before it arrives.
+You will need the controller, a USB **data** cable, INMP441 microphone, MAX98357A I2S amplifier, passive speaker, external momentary push button and wires. A charge-only cable will not upload code. You can test the computer and microphone path before connecting the amplifier.
 
 Ask an adult to help with soldering and amplifier power connections. Unplug power before moving wires. Give the microphone **3.3 V**, never 5 V. Do not connect a speaker directly to the controller.
 
@@ -437,7 +445,7 @@ Without the amplifier, no board speaker sound is expected yet. A server result o
 
 ## 14. Add the MAX98357A amplifier and speaker
 
-If you do not have the MAX98357A yet, stop at the computer/microphone tests. **A PAM8403 does not replace it in this firmware.**
+Use the MAX98357A I2S amplifier. **A PAM8403 does not replace it in this firmware.**
 
 Unplug power. Have an adult check the amplifier's actual labels, soldering and 5 V power arrangement before connecting it. Do not guess which ESP32 supply pin can power the amplifier.
 
@@ -453,7 +461,19 @@ Unplug power. Have an adult check the amplifier's actual labels, soldering and 5
 
 Neither speaker wire goes to GND or to a controller GPIO. Keep the computer's USB power separate from any external 5 V connection to the board unless the actual power circuit has been checked. A separately powered amplifier still needs common GND with the controller. Never put 5 V on microphone VDD or a GPIO.
 
-The speaker's latest box says **4 ohms / 10 watts**. Check the marking on the speaker itself. That rating does not make the amplifier produce 10 watts. Firmware starts at low playback gain; do not increase it until the supply is stable and an adult has checked the wiring.
+The speaker is now reported as **3 W / 4 Ω**. Check the driver's own marking. Its power rating does not set the volume. The MAX98357A's advertised **3.2 W into 4 Ω requires 5 V and allows 10% distortion**; usable clear output is lower. A 3.3 V amplifier supply limits output further. See [the breakout specifications](https://www.adafruit.com/product/3006). Use a verified amplifier 5 V supply with common GND as described above; do not use the controller's 3V3 rail for the amplifier.
+
+### If the speaker is too quiet
+
+Earlier firmware reduced playback to `0.35`. The new default is `SPEAKER_GAIN=0.70f`. To set it explicitly, open your existing `firmware/karen_ai/config.h` and add or edit this one line; preserve WiFi, server and certificate settings:
+
+```cpp
+#define SPEAKER_GAIN 0.70f
+```
+
+Close Serial Monitor, save the file and **upload again using Step 12**. Editing the file alone does not change the board. Serial Monitor should show `[PLAY]` with `gain=0.70`. The allowed range is `0.0f` (mute) to `1.0f`. For first wiring checks, use the earlier `0.35f`. If `0.70f` remains quiet and playback is clear and stable, try `0.85f`, then `1.0f`, uploading after each change. Lower the gain if sound distorts; investigate the supply/wiring if the board resets.
+
+If it is still quiet, compare the reply on the computer and check amplifier VIN, its verified supply, common GND, soldered SPK+/SPK− connections and this breakout's GAIN/SD instructions. Speaker gain does not change microphone sensitivity; leave `MIC_SHIFT` unchanged for this problem.
 
 Reconnect power. Wait for Ready. Ask one short question using the external button. Listen for a complete Malayalam reply. If it restarts, becomes hot or the sound clips badly, disconnect power and check the supply/wiring with help. Run ten normal questions successfully before using it at the exhibition.
 
@@ -513,6 +533,7 @@ Start with the exact message in the browser, server Window A or Serial Monitor. 
 | Board cannot reach server | Keep Window A open; check the computer's current LAN IP, firewall and shared network. |
 | Empty/unclear microphone | Check VDD=3V3, L/R=GND, the correct pin column and soldered connections. |
 | No speaker sound | Confirm MAX98357A, amplifier power/enable, common GND and SPK+/SPK− wiring. |
+| Speaker is too quiet | Set `SPEAKER_GAIN` in existing `config.h`, upload again and follow Step 14. Check amplifier supply before increasing further. |
 | Board keeps restarting | Disconnect power and have the power/wiring checked before trying again. |
 
 A request can take time. The normal browser/device wait budget is about **2 minutes 40 seconds**. Press once and wait for a reply or error. A request ID is a long code identifying one question; copy it exactly when checking its result. If the connection is lost, the same ID helps recover the result without adding another conversation turn. A server restart or result expiry ends that recovery window.

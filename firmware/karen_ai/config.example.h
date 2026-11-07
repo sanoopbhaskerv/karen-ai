@@ -3,6 +3,9 @@
 #define WIFI_PASSWORD "YOUR_HOTSPOT_PASSWORD"
 // Exact origin, no trailing slash. HTTP only for a trusted local network.
 #define SERVER_ORIGIN "http://192.168.1.100:8080"
+// Cloud deployment only: private device token, sent over verified HTTPS.
+// Leave empty for the original local server. Never commit the real token.
+#define KAREN_DEVICE_TOKEN ""
 // For HTTPS, replace with the PEM root CA that validates your deployment host.
 // Obtain from your host/certificate issuer; do not paste the leaf certificate.
 static const char ROOT_CA[] = R"PEM(
@@ -16,3 +19,7 @@ static const char ROOT_CA[] = R"PEM(
 // INMP441 24-bit signed samples arrive left-aligned in 32-bit words.
 // 16 is unity conversion to 16-bit; reduce toward 14 if too quiet (may clip).
 #define MIC_SHIFT 16
+// Playback sample multiplier: 0.0f (mute) to 1.0f (unattenuated).
+// 0.70f is about 6 dB louder than the previous fixed 0.35f.
+// Lower it if sound distorts or the supply becomes unstable; upload after edits.
+#define SPEAKER_GAIN 0.70f

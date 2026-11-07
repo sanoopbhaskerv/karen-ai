@@ -4,3 +4,4 @@ SpeechRecognition>=3.14,<4
 gTTS>=2.5,<3
 python-dotenv>=1.0,<2
 gunicorn>=23,<24
+httpx>=0.28,<1

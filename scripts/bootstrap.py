@@ -53,13 +53,13 @@ def private_values(root):
                     values.append(value.strip().strip('\'"'))
     path = root / 'firmware/karen_ai/config.h'
     if path.is_file():
-        for value in re.findall(r'^\s*#\s*define\s+WIFI_(?:SSID|PASSWORD)\s+"((?:\\.|[^"\\])*)"', path.read_text(encoding='utf-8'), re.M):
+        for value in re.findall(r'^\s*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD|KAREN_DEVICE_TOKEN)\s+"((?:\\.|[^"\\])*)"', path.read_text(encoding='utf-8'), re.M):
             values.extend((value, re.sub(r'\\(["\\])', r'\1', value)))
     return sorted({v for v in values if v}, key=len, reverse=True)
 
 
 def sanitized(text, values):
-    text = re.sub(r'^.*#\s*define\s+WIFI_(?:SSID|PASSWORD)\b.*$',
+    text = re.sub(r'^.*#\s*define\s+(?:WIFI_SSID|WIFI_PASSWORD|KAREN_DEVICE_TOKEN)\b.*$',
                   '[credential definition redacted]', text, flags=re.MULTILINE)
     text = re.sub(r'(https?://)[^\s/@]+:[^\s/@]+@', r'\1[REDACTED]@', text)
     for value in values:

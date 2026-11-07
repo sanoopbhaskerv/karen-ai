@@ -1,4 +1,33 @@
-# Validation record — latest check 1 November 2026
+# Validation record — latest check 4 November 2026
+
+## Restore normal website chat — 4 November 2026
+
+- Reverted the simulated-outage change from the AWS branch. Every text and voice question now follows the normal request flow; the alternating 502 counter and error messages are removed. Source links, microphone recovery, CSRF refresh and transport retry/polling retain their prior behavior.
+- Full Python suite: **1,256 passed, five Windows-only skips**, with two existing dependency warnings. Existing Chrome recorder regressions, JavaScript syntax and Git whitespace checks passed. Hosted deployment verification is recorded in the AWS PR after release.
+
+## Current information with web sources — 2 November 2026
+
+- Enabled native web search for general answers with the current Indian date supplied per request. Recent-year and changing-fact questions require a lookup; ordinary science questions allow optional verification. The configured model, creator/privacy replies and checked exhibition routing are retained.
+- The two reported examples now have live source-backed paths: the 2026 men's T20 result returns India with an official cricket source; “Nobel price last year” resolves to 2025 and asks which category. A Peace-prize follow-up returns Maria Corina Machado with the official Nobel announcement. These were actual local provider requests, not hardcoded answers or mocked source data.
+- Return citation annotations as request-scoped links. They survive dashboard refresh and text/voice cache replay, stay associated with the exact committed turn, trim with the 20-entry conversation, and clear on reset/save. Failed, stale, expired or privacy-redacted answers do not attach new links. Speech omits verified source Markdown, URLs and native reference markers.
+- Full local suite: **1,256 passed, five Windows-only skips**, with two existing upstream warnings. New coverage includes calendar rollover, forced/optional search, source validation/privacy, duplicate/oversized citation sets, text/voice link retention, concurrency/revision/deadline guards and ordinary science fallback. JavaScript syntax and Git whitespace checks passed.
+- Live acceptance caught mixed Tamil/Malayalam generation. Final output now checks Indic scripts and allows one bounded, search-free Malayalam formatting pass that preserves the original facts and citations; a second failure is labeled rather than displayed or spoken. Tests cover the single-pass bound, private-data exclusion, citation retention and repaired voice. Subsequent actual provider probes returned Malayalam answers for both reported questions and the Peace-prize follow-up.
+- Generation has a 45-second read timeout and at most two built-in tool calls; recognition retains its 20-second read timeout. Neither makes implicit retries, and the existing overall request deadline remains in place. See [OpenAI setup](OPENAI.md) for the current-information behavior and official tool documentation.
+
+## Bilingual creator and build questions — 2 November 2026
+
+- Creator questions use the fixed Malayalam Sreehari credit before text generation or speech synthesis. Coverage includes English active/passive phrasing, creator-role nouns and plurals, contractions, alternative company suggestions, Malayalam formal/casual pronouns and word orders, old chillu spellings, common Manglish and mixed-script forms.
+- Short questions such as `Who made it?` use Karen as the initial exhibit subject and follow the last completed conversation topic thereafter. Tests cover Karen introductions, build questions, repeated creator follow-ups and unrelated telephone discussion. Technical questions about components, language models, materials, cost, time or operation retain the normal answer path. School/class project context does not become a request for the creator's private details.
+- Added **649 phrase/conversation regression cases**, including text, voice, result polling and duplicate-request replay. Full local suite: **876 passed, five Windows-only skips**, with two existing dependency warnings.
+- Integrated the same changes with hosted-provider source `72894fe` in an isolated checkout, resolving the shared generation hunk to retain research routing and its three-value result: **1,206 passed, five Windows-only skips**, with the same dependency warnings. This is source compatibility validation; the running host was not changed.
+- Independent review covered technical false positives, privacy, conversational context, contractions/plurals and bounded-input performance. No live provider request, credential change, firmware upload, merge or deployment was performed. Restart every running server after applying the update to discard old in-memory answers and audio results.
+
+## Cloud deployment integration — 1 November 2026
+
+- Combined the name-only creator policy with the existing hosted authentication, public dashboard, owner-only memory editor, guide links, CSRF refresh, mobile recording recovery and latency instrumentation. The footer keeps Sreehari's name while removing school and class details.
+- Full merged local suite: **259 passed, five Windows-only skips**, with the two existing upstream deprecation warnings. Two cloud privacy cases cover public/private UI, owner memory migration, name-only versus school-detail replies, sanitized question echoes, authenticated board voice/polling and retained `Server-Timing` headers.
+- Deterministic recorder regressions passed in **Chrome and WebKit**: microphone permission delays/denial, interrupted audio startup, silent capture, cancellation, expired-CSRF recovery, older browser APIs, stalled response bodies and interrupted playback. Both used isolated temporary memory and fake providers; these checks do not establish physical microphone, device or hosted-provider readiness.
+- JavaScript syntax and Git whitespace checks passed. No live AI request, credential change or hosted deployment was performed by these integration checks.
 
 ## Name-only creator credit; school details private — 1 November 2026
 
@@ -16,6 +45,15 @@
 - Isolated Chrome checks at 390×844 and 1440×1000 passed anonymous page rendering, an identifying question without a visible identifying echo, normal question routing, a deliberately identifying fake-provider reply, and saved-memory cleanup. Screenshots were inspected; there was no horizontal overflow or browser runtime error. These were fake-provider UI checks, not live Gemini, human microphone or physical-board acceptance.
 - The existing local saved biography was removed after making a private backup inside the ignored `data/` directory. This private backup is not a repository artifact. The hosted instance was not changed by these checks.
 - Restart every application process and refresh browsers when applying the update, so old RAM history and cached text/audio responses cannot remain in use. Student registration and genuine construction evidence remain separate from the assistant's anonymous presentation.
+
+## Low speaker volume — 1 November 2026
+
+- User reports a **3 W / 4 Ω** speaker with low volume. Previous playback used fixed gain `0.35`; the new configurable `SPEAKER_GAIN` defaults to `0.70f`, including when an existing private `config.h` omits it. This doubles digital sample amplitude (about +6 dB); it does not establish acoustic loudness or delivered power.
+- Gain is limited at compile time to `0.0f`–`1.0f`; the playback log reports the selected value. No microphone or server audio processing was changed.
+- Original speaker-only branch validation: firmware helper/adapter suite **29 passed**. Both cross-compiles passed with Arduino-ESP32 **3.3.12** / ESP8266Audio **2.4.1**: S3 **1,191,491 program bytes / 47,364 static RAM bytes**; classic ESP32 **1,205,972 program bytes / 49,272 static RAM bytes**. S3 used the updated example configuration; classic used a temporary example configuration without `SPEAKER_GAIN` to exercise the legacy-config fallback. Both used placeholder credentials and neither uploaded.
+- AWS branch integration: firmware and cloud-access suites **55 passed**; S3 example-credential cross-compile passed with the same core/library versions, **1,191,491 program bytes / 47,364 static RAM bytes**. Device-token fallback, HTTPS enforcement and Bearer headers remain intact. No server deployment or board upload was performed for this integration.
+- English/Malayalam command/settings blocks match; changed Markdown local links and Git whitespace checks pass.
+- No private configuration was changed and no firmware was uploaded. Actual amplifier model/supply, clear listening volume, distortion, brownouts and ten physical turns remain to be checked on the user's hardware.
 
 ## First Windows compile timeout recovery — 31 October 2026
 
@@ -75,7 +113,7 @@ A cross-compile cannot measure board flash/PSRAM, runtime heap or prove physical
 
 - Neither controller is connected to this Mac. S3 labels are visible in photos; measured capacities, USB bridge identification, serial operation, upload and boot remain unverified.
 - INMP441 breakout pinout, header soldering, button continuity and microphone gain/noise.
-- MAX98357A still needs sourcing; verify the speaker driver's actual 4-ohm/10-watt marking and speaker wires.
+- Verify the actual MAX98357A module/power arrangement, the user-reported 3 W / 4 Ω speaker marking and speaker wires.
 - Human microphone capture and audible speaker quality, brownouts, power-bank behavior and ten-turn physical endurance.
 - ESP32 WiFi, NTP, certificate validation and real network failure recovery.
 - Cloud hosting, proxy behavior, persistent storage across redeploy and venue network.
