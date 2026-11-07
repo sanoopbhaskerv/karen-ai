@@ -55,3 +55,13 @@ Run `python -m pytest -q` and, with Playwright installed, `node tests/browser_mu
 Tests use fake providers for authentication, concurrent tenant separation, cross-client replay denial, per-client memory/CSRF, registered-language prompts/transcription/TTS, and legacy regressions. These checks do not replace real microphone/language listening tests on a newly provisioned ESP32.
 
 OpenAI transcription parameter reference: [Create transcription](https://developers.openai.com/api/reference/resources/audio/subresources/transcriptions/methods/create).
+
+## Watch ESP32 logs on a Mac
+
+Double-click `monitor-mac.command` in the project root, then paste the controller's actual USB serial port from the displayed list. From Terminal you can pass the port directly:
+
+```bash
+./monitor-mac.command /dev/cu.usbserial-0001
+```
+
+The launcher uses this checkout's firmware configuration for credential redaction, opens 115200 baud and appends timestamped logs to `.tools/serial.log`. Keep the Terminal window open while pressing the external question button. Ctrl+C closes the monitor; close it before another upload. A missing USB serial port requires reconnecting the board with a USB data cable. The Serial Monitor does not start a local backend; cloud-configured boards continue to use AWS.
