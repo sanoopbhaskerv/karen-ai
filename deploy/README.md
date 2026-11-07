@@ -8,7 +8,7 @@ The app also supports `AI_PROVIDER=openai`, using a private `OPENAI_API_KEY`, `O
 
 The selected `micro_3_1` IPv4 bundle is $7/month: 1 GB RAM, 40 GB disk and 1 TB monthly transfer in Mumbai. Seven days is approximately $1.60 before tax, DNS queries and Gemini usage. No free-tier allowance was confirmed for this account; do not assume zero cost. The existing Route 53 hosted zone is reused. No load balancer, database, NAT gateway or additional hosted zone is needed.
 
-AWS EventBridge Scheduler deletes the instance on **7 November 2026, 19:40:54 IST**, deletes only this test's DNS A record one minute later, and releases the static IP five minutes after instance deletion. These one-time schedules delete themselves after execution. The cleanup IAM role and SSH key have no running-server charge; the manual cleanup command below removes them too. The schedules retry transient failures, so check deletion in AWS afterward. Stopping a Lightsail instance alone does not stop its charges.
+AWS EventBridge Scheduler deletes the instance on **14 November 2026, 19:40:54 IST**, deletes only this test's DNS A record one minute later, and releases the static IP five minutes after instance deletion. These one-time schedules delete themselves after execution. The cleanup IAM role and SSH key have no running-server charge; the manual cleanup command below removes them too. The schedules retry transient failures, so check deletion in AWS afterward. Stopping a Lightsail instance alone does not stop its charges.
 
 The recorded nonsecret identities and deadlines are in `aws-test-state.json`. Do not reuse these resource names for another application before cleanup. Server deletion also deletes its Docker volumes: back up permanent memory before the deadline.
 

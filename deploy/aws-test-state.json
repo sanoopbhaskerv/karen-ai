@@ -23,21 +23,21 @@
   "domain": "sreehariv.makemykindred.com",
   "cleanup_role_name": "sreehariv-karen-test-cleanup",
   "cleanup_role_arn": "arn:aws:iam::980873318600:role/sreehariv-karen-test-cleanup",
-  "expires_at": "2026-11-07T14:10:54.704000+00:00",
+  "expires_at": "2026-11-14T14:10:54.704000+00:00",
   "cleanup_schedules": [
     {
       "name": "sreehariv-karen-delete-instance",
-      "time": "2026-11-07T14:10:54.704000+00:00",
+      "time": "2026-11-14T14:10:54.704000+00:00",
       "target": "lightsail:deleteInstance"
     },
     {
       "name": "sreehariv-karen-delete-dns",
-      "time": "2026-11-07T14:11:54.704000+00:00",
+      "time": "2026-11-14T14:11:54.704000+00:00",
       "target": "route53:changeResourceRecordSets"
     },
     {
       "name": "sreehariv-karen-delete-ip",
-      "time": "2026-11-07T14:15:54.704000+00:00",
+      "time": "2026-11-14T14:15:54.704000+00:00",
       "target": "lightsail:releaseStaticIp"
     }
   ]
