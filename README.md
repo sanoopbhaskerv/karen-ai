@@ -1,5 +1,7 @@
 # Karen AI — English guide, step by step
 
+**Multiple clients and reply languages:** see [client registration and isolation](docs/MULTITENANT.md).
+
 **[മലയാളത്തിൽ വായിക്കാൻ ഇവിടെ അമർത്തുക → READMEMALAYALAM.md](READMEMALAYALAM.md)**
 
 **Offline HTML guide:** Open [the Malayalam setup page](docs/windows-setup-malayalam.html) in Edge/Chrome. It includes individual command copy buttons and a print/PDF option. Download the HTML file to read it with formatting before the server is running.

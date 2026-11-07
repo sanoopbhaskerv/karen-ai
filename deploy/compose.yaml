@@ -18,6 +18,7 @@ services:
       KAREN_PUBLIC_UI: ${KAREN_PUBLIC_UI:-0}
       SESSION_COOKIE_SECURE: '1'
       MEMORY_PATH: /app/data/memory.txt
+      CLIENT_REGISTRY_PATH: /app/data/clients.sqlite3
     volumes:
       - memory:/app/data
     # Only the HTTPS proxy is reachable from outside Docker.

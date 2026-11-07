@@ -1,3 +1,9 @@
+function tenantPath(path) {
+  const base = document.querySelector('meta[name="client-base"]')?.content || '';
+  const url = new URL(path, location.href);
+  if (url.origin !== location.origin) throw new Error('Unexpected request origin');
+  return base && !url.pathname.startsWith(base + '/') ? base + url.pathname + url.search : url.pathname + url.search;
+}
 const form = document.querySelector('#chat-form');
 const promptBox = document.querySelector('#prompt');
 const messages = document.querySelector('#messages');
@@ -20,7 +26,7 @@ async function fetchTimed(path,options,milliseconds) {
   const controller = new AbortController();
   const timer = setTimeout(()=>controller.abort(),milliseconds);
   try{
-    const response=await fetch(path,{...options,signal:controller.signal});
+    const response=await fetch(tenantPath(path),{...options,signal:controller.signal});
     // Keep the deadline active through the response body, including MP3 data.
     await response.clone().arrayBuffer();
     return response;
